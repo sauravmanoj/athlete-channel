@@ -35,5 +35,7 @@
   "sit": {"_desc": "seated on a bench", "view": "side", "torso": -4, "lUpper": -24, "lFore": -56, "rUpper": -30, "rFore": -56, "lThigh": -90, "lShin": 90, "rThigh": -86, "rShin": 86},
   "lie": {"_desc": "lying on the back, sleeping (head to the left)", "view": "side", "rot": -90, "lUpper": -4, "lFore": -4, "rUpper": -8, "rFore": -4, "lThigh": 0, "rThigh": -2, "lFoot": 0, "rFoot": 0, "face": "sleep"},
   "plank": {"_desc": "forearm plank, face down (head to the right)", "view": "side", "rot": 80, "lUpper": -82, "lFore": -98, "rUpper": -78, "rFore": -100, "lThigh": 0, "rThigh": 0, "lFoot": -80, "rFoot": -80, "face": "focused"},
-  "stretch_quad": {"_desc": "standing quad stretch", "view": "side", "lUpper": -10, "lFore": -20, "rUpper": 30, "rFore": 20, "lThigh": 2, "rThigh": 10, "rShin": 160, "face": "normal"}
+  "stretch_quad": {"_desc": "standing quad stretch", "view": "side", "lUpper": -10, "lFore": -20, "rUpper": 30, "rFore": 20, "lThigh": 2, "rThigh": 10, "rShin": 160, "face": "normal"},
+  "calf_raise": {"_desc": "calf raise: up on the toes, side view facing right", "view": "side", "lUpper": 4, "lFore": -6, "rUpper": -4, "rFore": -10, "lThigh": 2, "rThigh": -2, "lFoot": 50, "rFoot": 50, "face": "focused", "air": -12},
+  "drink": {"_desc": "drinking from a bottle in the right hand, side view facing right", "view": "side", "torso": -4, "head": -14, "lUpper": 4, "lFore": -6, "rUpper": -80, "rFore": -128, "lThigh": 2, "rThigh": -2, "face": "happy"}
 }

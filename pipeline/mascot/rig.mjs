@@ -248,24 +248,41 @@ export function poseTweenJs(id, a, b, t, dur = 0.45, ease = "power2.inOut") {
  */
 export function mascotMotionJs(id, keys, D, cycle) {
   let js = "";
-  for (let i = 1; i < keys.length; i++) {
-    const d = Math.min(keys[i].dur || 0.45, Math.max(0.15, (keys[i + 1]?.t ?? D) - keys[i].t - 0.05));
-    js += poseTweenJs(id, keys[i - 1].pose, keys[i].pose, keys[i].t, d);
-  }
+  // Pose active at time t (the cycle starts from it and the first key after the cycle tweens out of the cycle's last pose).
+  const poseAt = (t) => {
+    let p = keys.length ? keys[0].pose : null;
+    for (const k of keys) if (k.t <= t + 1e-6) p = k.pose;
+    return p;
+  };
+  let cyc = null;
   if (cycle && cycle.poses?.length >= 2) {
     const per = cycle.period || 0.32;
     const from = cycle.from ?? 0;
     const to = Math.min(cycle.to ?? D, D);
     const seq = cycle.poses;
-    let prev = keys.length ? keys[keys.length - 1].pose : seq[0];
-    let k = 0;
-    for (let t = from; t + per <= to + 0.001; t += per) {
+    let prev = poseAt(from) ?? seq[0];
+    let k = 0, t = from;
+    let cjs = "";
+    for (; t + per <= to + 0.001; t += per) {
       const next = seq[k % seq.length];
-      js += poseTweenJs(id, prev, next, t, per, "sine.inOut");
+      cjs += poseTweenJs(id, prev, next, t, per, "sine.inOut");
       prev = next;
       k++;
     }
+    if (k) cyc = { end: t, last: prev, js: cjs };
   }
+  let afterCycleDone = false;
+  for (let i = 1; i < keys.length; i++) {
+    const d = Math.min(keys[i].dur || 0.45, Math.max(0.15, (keys[i + 1]?.t ?? D) - keys[i].t - 0.05));
+    let fromPose = keys[i - 1].pose;
+    // First key at/after the cycle ends: start from where the cycle left the body, so every joint is reset.
+    if (cyc && !afterCycleDone && keys[i].t >= cyc.end - 0.05) {
+      fromPose = cyc.last;
+      afterCycleDone = true;
+    }
+    js += poseTweenJs(id, fromPose, keys[i].pose, keys[i].t, d);
+  }
+  if (cyc) js += cyc.js;
   // gentle breathing so a held pose never looks frozen
   js += `tl.fromTo("#${id}-breath",{y:0},{y:3,duration:1.1,ease:"sine.inOut",repeat:${Math.max(0, Math.floor(D / 1.1) - 1)},yoyo:true},0);`;
   return js;
@@ -279,6 +296,9 @@ export function propSvg(name, c = colors()) {
     racket: `<g transform="rotate(180)"><rect x="-6" y="-8" width="12" height="70" rx="5" fill="#333" stroke="${ink}" stroke-width="4"/>
       <ellipse cx="0" cy="118" rx="44" ry="56" fill="rgba(255,255,255,.35)" stroke="${ink}" stroke-width="7"/>
       <path d="M-30 90 L30 90 M-38 110 L38 110 M-38 130 L38 130 M-30 150 L30 150 M-20 70 L-20 168 M0 64 L0 172 M20 70 L20 168" stroke="${ink}" stroke-width="2" opacity=".55"/></g>`,
+    badminton: `<g transform="rotate(20)"><rect x="-4" y="-8" width="9" height="34" rx="4" fill="#333" stroke="${ink}" stroke-width="4"/><path d="M0 26 L0 92" stroke="${ink}" stroke-width="5"/>
+      <ellipse cx="0" cy="128" rx="30" ry="38" fill="rgba(255,255,255,.35)" stroke="${ink}" stroke-width="6"/>
+      <path d="M-22 108 L22 108 M-28 128 L28 128 M-22 148 L22 148 M-12 92 L-12 164 M0 90 L0 166 M12 92 L12 164" stroke="${ink}" stroke-width="2" opacity=".55"/></g>`,
     paddle: `<g transform="rotate(180)"><rect x="-7" y="-8" width="14" height="44" rx="5" fill="#8a5a2b" stroke="${ink}" stroke-width="4"/><circle cx="0" cy="78" r="46" fill="#d33" stroke="${ink}" stroke-width="7"/></g>`,
     tennisball: `<g transform="translate(0 -6)"><circle r="20" fill="#D7F03A" stroke="${ink}" stroke-width="5"/><path d="M-14 -12 Q0 0 -14 14 M14 -14 Q0 0 14 12" stroke="#fff" stroke-width="3" fill="none"/></g>`,
     basketball: `<g transform="translate(0 -10)"><circle r="34" fill="#E8762B" stroke="${ink}" stroke-width="6"/><path d="M-34 0 L34 0 M0 -34 L0 34 M-24 -24 Q0 0 -24 24 M24 -24 Q0 0 24 24" stroke="${ink}" stroke-width="3" fill="none"/></g>`,
@@ -305,6 +325,8 @@ export function bodyPoints(p) {
     const mid = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
     pts[side + "Thigh"] = mid(hip, knee);
     pts[side + "Calf"] = mid(knee, ankle);
+    // Achilles: low on the shin, just above the heel, nudged to the back of the leg (side poses face right).
+    pts[side + "Achilles"] = [ankle[0] + (knee[0] - ankle[0]) * 0.2 - (pose.view === "side" ? 10 : 0), ankle[1] + (knee[1] - ankle[1]) * 0.2];
     pts[side + "Arm"] = mid(sp, elbow);
     pts[side + "Forearm"] = mid(elbow, wrist);
   }

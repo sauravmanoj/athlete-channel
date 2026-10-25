@@ -270,7 +270,7 @@ export function stat(s, t, ctx) {
   const a = ctx.at(s.at, Math.max(0.15, t.speechStart));
   const html = `<div class="wrap">
     ${s.icon ? `<svg id="${id}-ic" width="150" height="150" viewBox="-70 -70 140 140">${icon(s.icon)}</svg>` : ""}
-    <div class="num"><span>${esc(s.prefix || "")}</span><span id="${id}-n">0</span><span class="suf">${esc(s.suffix || "")}</span></div>
+    <div class="num" id="${id}-num"><span>${esc(s.prefix || "")}</span><span id="${id}-n">0</span><span class="suf">${esc(s.suffix || "")}</span></div>
     <div class="lab" id="${id}-lab">${highlightHtml(s.label || "", s.highlight)}</div></div>`;
   const css = `
   #${id}-root .wrap{position:absolute;left:140px;width:${s.mascot ? 1000 : 1640}px;top:50%;transform:translateY(-55%)}
@@ -281,6 +281,7 @@ export function stat(s, t, ctx) {
   #${id}-root .lab .hl{color:var(--accent)}`;
   let js = `tl.fromTo("#${id}-stage",{scale:1},{scale:1.03,duration:${f(t.dur)},ease:"none"},0);`;
   if (s.icon) js += `tl.fromTo("#${id}-ic",{scale:0},{scale:1,duration:.35,ease:"back.out(2.4)"},${f(Math.max(0, a - 0.2))});`;
+  js += `tl.fromTo("#${id}-num",{opacity:0},{opacity:1,duration:.2},${f(Math.max(0, a - 0.1))});`;
   js += `(function(){var el=document.querySelector("#${id}-n");var o={v:0};tl.fromTo(o,{v:0},{v:${s.value},duration:1.3,ease:"power2.out",onUpdate:function(){if(el)el.textContent=o.v.toLocaleString("en-US",{minimumFractionDigits:${dec},maximumFractionDigits:${dec}})}},${f(a)});})();`;
   js += `tl.fromTo("#${id}-lab",{opacity:0,y:20},{opacity:1,y:0,duration:.4},${f(a + 0.5)});`;
   return { html: `<div class="stage" id="${id}-stage">${svgWrap(sm.svg)}${html}</div>`, css, js: js + sm.js };

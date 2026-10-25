@@ -1,0 +1,262 @@
+[
+  {
+    "id": "S1",
+    "title": "The Science of Badminton: Game Characteristics, Anthropometry, Physiology, Visual Fitness and Biomechanics",
+    "author": "Phomsoupha M, Laffaye G",
+    "publisher": "Sports Medicine 45(4):473-495",
+    "year": "2015",
+    "url": "https://www.worldbadminton.com/reference/research/documents/The_Science_of_Badminton_Game.pdf",
+    "type": "review",
+    "notes": "Typical rally 7 s / rest 15 s / effective playing time 31%; ~60-70% aerobic and ~30% anaerobic energy, mainly alactic rather than lactic; mean HR >90% HRmax; mean match lactate 4.4 mmol/L (range 2.9-12.2); matches 40 min-1 h; lunges ~17.9% of singles movements; sweat rate 1.11 L/h; aerobic capacity aids recovery between rallies; VO2max ~56 (men) / ~47 (women) ml/kg/min."
+  },
+  {
+    "id": "S2",
+    "title": "Physiological characteristics of badminton match play",
+    "author": "Faude O, Meyer T, Rosenberger F, Fries M, Huber G, Kindermann W",
+    "publisher": "European Journal of Applied Physiology 100(4):479-485",
+    "year": "2007",
+    "url": "https://www.springermedizin.de/physiological-characteristics-of-badminton-match-play/8480050",
+    "type": "trial",
+    "notes": "12 international players, simulated match: rally 5.5 s, rest 11.4 s, 5.1 shots/rally; VO2 73% of peak; HR 89% of peak; lactate 1.9 mmol/L. Conclusion: both alactic anaerobic and aerobic energy are important; good aerobic endurance needed for fast recovery between rallies and for intensive training. DOI 10.1007/s00421-007-0441-8."
+  },
+  {
+    "id": "S3",
+    "title": "Match-play data according to playing categories in badminton: a systematic review",
+    "author": "Winata B, Brochhagen J, Apriantono T, Hoppe MW",
+    "publisher": "Frontiers in Sports and Active Living 7",
+    "year": "2025",
+    "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1466778/full",
+    "type": "review",
+    "notes": "Pooled values by category: MS rally 8.8 s / rest 22.9 s; WS 9.3 / 17.2 s; MD 6.5 / 24.9 s; rest between games ~134-147 s; work density ~0.4 singles; avg HR 163-169 bpm; one study 160-240 lunges per men's singles match (mean 194). Almost all data from elite players; only one study on recreational players."
+  },
+  {
+    "id": "S4",
+    "title": "Changes in the Game Characteristics of a Badminton Match: A Longitudinal Study through the Olympic Game Finals Analysis in Men's Singles",
+    "author": "Laffaye G, Phomsoupha M, Dor F",
+    "publisher": "Journal of Sports Science and Medicine 14:584-590",
+    "year": "2015",
+    "url": "https://jssm.org/jssm-14-584.xml-Fulltext",
+    "type": "trial",
+    "notes": "Olympic MS finals 1992-2012: rest time rose 14.8 to 33.5 s; rally ~10 s; shot frequency up ~34%. Authors recommend metabolic training at ~1:3 work:rest with high-intensity rallies, developing both aerobic and alactic systems. Elite-only, observational."
+  },
+  {
+    "id": "S5",
+    "title": "A comparison of singles and doubles badminton: heart rate response, player profiles and game characteristics",
+    "author": "Alcock A, Cable NT",
+    "publisher": "International Journal of Performance Analysis in Sport 9(2):228-237",
+    "year": "2009",
+    "url": "https://lida.sport-iat.de/dbv-badminton/Record/4019179",
+    "type": "trial",
+    "notes": "Singles mean/peak HR 88.8%/96.8% HRmax vs doubles 75.5%/89.0%; singles ~594 steps/game vs ~315; singles players higher predicted VO2max (50.6 vs 45.5). Abstract only."
+  },
+  {
+    "id": "S6",
+    "title": "Notational singles match analysis of male badminton players who participated in the African Badminton Championships",
+    "author": "Abdullahi Y, Coetzee B",
+    "publisher": "International Journal of Performance Analysis in Sport (post-print, Ahmadu Bello University repository)",
+    "year": "2017",
+    "url": "https://kubanni.abu.edu.ng/items/b7ef7ad9-a63e-4b10-bf19-3b3cec34a507/full",
+    "type": "trial",
+    "notes": "20 men's singles matches: per match ~46 forward lunges, ~52 half-lunges, ~175 chasse steps, ~62 split-steps, ~38 scissor kicks; 68 rallies, 6.5 shots/rally; real playing time 29.8% of match."
+  },
+  {
+    "id": "S7",
+    "title": "European singles and doubles badminton matches analysis with specific focus on pair doubles",
+    "author": "Le Mansec Y, Boiveau M, Doron J, Jubeau M",
+    "publisher": "International Journal of Racket Sports Science 5(1):14-22",
+    "year": "2023",
+    "url": "https://revistaseug.ugr.es/index.php/IJRSS/article/view/33244",
+    "type": "trial",
+    "notes": "Singles ~40% more jumps and ~250% more lunges than doubles; men's/mixed doubles rallies ~45% shorter, rests ~18% longer. Abstract only (relative values)."
+  },
+  {
+    "id": "S8",
+    "title": "Oxygen cost and physiological responses of recreational badminton match play",
+    "author": "Deka P, Berg K, Harder J, Batelaan H, McGrath M",
+    "publisher": "Journal of Sports Medicine and Physical Fitness 57(6):760-765",
+    "year": "2017",
+    "url": "https://umimpact.umt.edu/en/publications/oxygen-cost-and-physiological-responses-of-recreational-badminton/",
+    "type": "trial",
+    "notes": "14 recreational men (~36 y), 30-min singles: VO2 76% of max, mean HR 168 bpm; HR higher in last 10 min; RPE rose 15.8 to 17.6 from 15 to 30 min; ~2,400 steps; ~392 kcal. Vigorous intensity. Amateur evidence."
+  },
+  {
+    "id": "S9",
+    "title": "The relationship between aerobic fitness and recovery from high intensity intermittent exercise",
+    "author": "Tomlin DL, Wenger HA",
+    "publisher": "Sports Medicine 31(1):1-11",
+    "year": "2001",
+    "url": "https://doi.org/10.2165/00007256-200131010-00001",
+    "type": "review",
+    "notes": "Aerobic fitness linked to faster PCr regeneration and better power recovery across repeated efforts; lactate-removal evidence mixed. Abstract read via Europe PMC."
+  },
+  {
+    "id": "S10",
+    "title": "Anaerobic and Aerobic Energy System Contribution During Maximal Exercise: A Systematic Review",
+    "author": "Gastin PB, Suppiah HT",
+    "publisher": "Sports Medicine 56(7):1723-1747",
+    "year": "2026",
+    "url": "https://doi.org/10.1007/s40279-026-02414-7",
+    "type": "review",
+    "notes": "102 studies: anaerobic energy dominates single maximal efforts up to ~75-80 s; equal contribution at ~79 s; systems work together dynamically. Abstract read via Europe PMC. Supports 'all engines run at once' analogy."
+  },
+  {
+    "id": "S11",
+    "title": "High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis",
+    "author": "Buchheit M, Laursen PB",
+    "publisher": "Sports Medicine 43(5):313-338",
+    "year": "2013",
+    "url": "https://doi.org/10.1007/s40279-013-0029-x",
+    "type": "review",
+    "notes": "HIT = repeated short-to-long high-intensity bouts with recovery; repeated sprints/all-out efforts effective for team and racket-sport players; aim for several minutes per session at >=90% VO2max; nine programming variables. Abstract only."
+  },
+  {
+    "id": "S12",
+    "title": "Effects of physical training programs on healthy badminton players' performance: a systematic review and meta-analysis",
+    "author": "Ma S, Xue W, Soh KG, et al.",
+    "publisher": "BMC Sports Science, Medicine and Rehabilitation 17:189",
+    "year": "2025",
+    "url": "https://doi.org/10.1186/s13102-025-01199-y",
+    "type": "review",
+    "notes": "15 studies, 370 players, 4-10 wk, 2-3 sessions/wk. HIIT and sprint interval training improved VO2max (SMD 1.27, but only 2 studies/32 players); strength/plyometric/core improve agility. Small samples, unclear blinding. Full text via Europe PMC PMC12239426."
+  },
+  {
+    "id": "S13",
+    "title": "Effects of resistance training on performance in competitive badminton players: a systematic review",
+    "author": "Wang T, Ng YG, Amri S, Kamalden TF, Gao Z",
+    "publisher": "Frontiers in Physiology 16",
+    "year": "2025",
+    "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2025.1548869/full",
+    "type": "review",
+    "notes": "14 studies, 377 players: resistance training improved power, speed, agility and endurance; lower-limb training clearest for jumps; typical 2-3 sessions/wk for 4-14 wk. Small, mostly male samples."
+  },
+  {
+    "id": "S14",
+    "title": "Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults (ACSM Position Stand) — reviewed in 'From 1998 to 2011: ACSM Publishes Updated Exercise Guidelines'",
+    "author": "Garber CE et al. (position stand); summary by Kravitz L",
+    "publisher": "Medicine & Science in Sports & Exercise 43(7):1334-1359 / University of New Mexico",
+    "year": "2011",
+    "url": "https://www.unm.edu/~lkravitz/Article%20folder/ACSMGuidelinesUNM.pdf",
+    "type": "position-stand",
+    "notes": "Cardio: >=3 d/wk vigorous (RPE 14-17) 20-60 min or >=5 d/wk moderate (RPE 12-13) 30-60 min; progress gradually. Resistance: 2-3 d/wk, 48 h between same muscles, 60-70% 1RM for novice-intermediate, 8-12 reps, 2-4 sets, 2-3 min rest. Flexibility-injury link not substantiated. Read via faithful summary tables, not original."
+  },
+  {
+    "id": "S15",
+    "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+    "author": "Lauersen JB, Bertelsen DM, Andersen LB",
+    "publisher": "British Journal of Sports Medicine 48(11):871-877",
+    "year": "2014",
+    "url": "https://doi.org/10.1136/bjsports-2013-092538",
+    "type": "review",
+    "notes": "25 RCTs, 26,610 participants: strength training RR 0.315 (injuries cut to <1/3); proprioception RR 0.55; multi-component RR 0.655; stretching RR 0.963 (no effect). Abstract via Europe PMC. Not badminton-specific."
+  },
+  {
+    "id": "S16",
+    "title": "The effect of plyometric training volume on jumping performance",
+    "author": "Ebben WP, Suchomel TJ, Garceau LR",
+    "publisher": "ISBS Conference Proceedings Archive (pp. 566-569)",
+    "year": "c. 2014",
+    "url": "https://ojs.ub.uni-konstanz.de/cpa/article/view/6015/5496",
+    "type": "trial",
+    "notes": "Cites recommendations of 80-100 foot contacts/session for novices (Potach & Chu 2008; Chu & Myer 2013); low-volume (60-100 contacts, 2x/wk, 48-96 h apart) as effective as double volume. Year approximate: not printed on the PDF."
+  },
+  {
+    "id": "S17",
+    "title": "Systematic review on badminton injuries: incidence, characteristics and risk factors",
+    "author": "Stepper B, Hecksteden A, Stagge H, Faude O, Donath L",
+    "publisher": "BMJ Open Sport & Exercise Medicine",
+    "year": "2025",
+    "url": "https://doi.org/10.1136/bmjsem-2024-002127",
+    "type": "review",
+    "notes": "19 studies: ~1-4 injuries per 1,000 h; lower body 41-92% of injuries; strains, sprains, tendinopathy, stress fractures; 73-100% mild/moderate. Abstract via Europe PMC."
+  },
+  {
+    "id": "S18",
+    "title": "Acute Achilles tendon rupture in badminton players",
+    "author": "Fahlstrom M, Bjornstig U, Lorentzon R",
+    "publisher": "American Journal of Sports Medicine 26(3):467-470",
+    "year": "1998",
+    "url": "https://lida.sport-iat.de/twm/Record/4003836?lng=en",
+    "type": "trial",
+    "notes": "31 ruptures, mean age 36; 97% recreational/beginners; 94% at the middle or end of a game; 16% had earlier local symptoms. Authors suggest local fatigue may play a role; recommend strength, endurance and coordination training and early care of minor injuries."
+  },
+  {
+    "id": "S19",
+    "title": "Adjusted Landing Technique Reduces the Load on the Achilles Tendon in Badminton Players",
+    "author": "Kaldau NC, Nedergaard NJ, Holmich P, Bencke J",
+    "publisher": "Journal of Sports Science and Medicine 21:224-232",
+    "year": "2022",
+    "url": "https://jssm.org/jssm-21-224.xml-Fulltext",
+    "type": "trial",
+    "notes": "Danish data: 21% of Achilles ruptures occurred in badminton; risk among recreational men 31-45; landing on externally rotated non-racket foot (with upper-body rotation) cut estimated Achilles force ~25% (68 to 50 N/kg). Lab study, n=20."
+  },
+  {
+    "id": "S20",
+    "title": "Nutrition and Athletic Performance (Joint Position Statement)",
+    "author": "American College of Sports Medicine, American Dietetic Association, Dietitians of Canada (Rodriguez NR, DiMarco NM, Langley S)",
+    "publisher": "Medicine & Science in Sports & Exercise 41(3):709-731",
+    "year": "2009",
+    "url": "https://fct.unesp.br/Home/Pesquisa/labsim/nutrition.pdf",
+    "type": "position-stand",
+    "notes": "Dehydration >2-3% body mass decreases performance; don't drink in excess of sweat rate; during exercise ~30-60 g carbohydrate/h, especially for sessions >1 h; carbohydrate/electrolyte drinks help. DOI 10.1249/MSS.0b013e318190eb86."
+  },
+  {
+    "id": "S21",
+    "title": "Laws of Badminton — Law 16 Continuous play, misconduct and penalties (copy hosted by Tower Hamlets Council)",
+    "author": "Badminton World Federation",
+    "publisher": "London Borough of Tower Hamlets (reproduction)",
+    "year": "current at access (2026)",
+    "url": "https://www.towerhamlets.gov.uk/FAQs/Mayors-Cup/Badminton/Continuous-play-misconduct-and-penalties.aspx",
+    "type": "org",
+    "notes": "Law 16.2: intervals not exceeding 60 s when leading score reaches 11, and not exceeding 120 s between games. Applies to 3x21 scoring; secondary copy of BWF text."
+  },
+  {
+    "id": "S22",
+    "title": "BWF Approves 3x15 Scoring System",
+    "author": "USA Badminton",
+    "publisher": "USA Badminton",
+    "year": "2026",
+    "url": "https://usabadminton.org/bwf-approves-3x15-scoring-system/",
+    "type": "org",
+    "notes": "BWF members adopted 3x15 scoring at the 87th AGM (April 2026), effective 4 January 2027. Interval details not given on this page."
+  },
+  {
+    "id": "S23",
+    "title": "Intensity of tennis match play",
+    "author": "Fernandez J, Mendez-Villanueva A, Pluim BM",
+    "publisher": "British Journal of Sports Medicine 40(5):387-391",
+    "year": "2006",
+    "url": "https://doi.org/10.1136/bjsm.2005.023168",
+    "type": "review",
+    "notes": "Tennis alternates maximal/near-maximal bursts with moderate/low intensity; matches often >1 h, sometimes >5 h. Abstract only (via Europe PMC); used only for sport-variation contrast."
+  },
+  {
+    "id": "S24",
+    "title": "Interaction among Skeletal Muscle Metabolic Energy Systems during Intense Exercise",
+    "author": "Baker JS, McCormick MC, Robergs RA",
+    "publisher": "Journal of Nutrition and Metabolism 2010:905612",
+    "year": "2010",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC3005844/",
+    "type": "review",
+    "notes": "Phosphagen system dominates maximal efforts of ~5–6 s; CrP largely depleted within ~10 s; all three systems contribute at once (added by fact-checker)."
+  },
+  {
+    "id": "S25",
+    "title": "Aerobic high-intensity intervals improve VO2max more than moderate training",
+    "author": "Helgerud J, et al.",
+    "publisher": "Medicine & Science in Sports & Exercise 39(4):665–671",
+    "year": "2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17414804/",
+    "type": "study",
+    "notes": "40 moderately trained men, 8 wk, 3x/wk; 4x4 min at 90–95% HRmax and 15s/15s intervals both improved VO2max more than steady training. Running, not badminton (added by fact-checker)."
+  },
+  {
+    "id": "S26",
+    "title": "Achilles tendon rupture — patient information leaflet (AAE_ATR_02)",
+    "author": "St George's University Hospitals NHS Foundation Trust",
+    "publisher": "St George's NHS",
+    "year": "2023",
+    "url": "https://www.stgeorges.nhs.uk/wp-content/uploads/2023/12/AAE_ATR.pdf",
+    "type": "health body",
+    "notes": "Patients feel as if someone has hit them on the back of the heel, often with a snapping or popping sound, and find it difficult to walk or stand on tip toe. Generic red-flag line only (replaces CUH page per second-pass fact-check)."
+  }
+]

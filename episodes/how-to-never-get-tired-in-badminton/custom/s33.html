@@ -1,0 +1,53 @@
+<!-- Hero scene: weak vs strong "recharger". Each battery is the sprint battery at the start of a rally.
+     Illustration only: no numbers on purpose (fact-check row 23). -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root .row   { position:absolute; left:120px; right:120px; height:300px; }
+    #__ID__-root .lab   { position:absolute; left:0; top:90px; width:420px; font:700 54px var(--display); text-transform:uppercase; color:var(--ink); }
+    #__ID__-root .lab small { display:block; font:600 30px var(--sans); text-transform:none; opacity:.7; margin-top:6px; }
+    #__ID__-root .bat   { position:absolute; top:40px; width:230px; height:200px; border:10px solid var(--ink); border-radius:26px; background:#fff; overflow:hidden; }
+    #__ID__-root .bat:after { content:""; position:absolute; right:-34px; top:60px; width:24px; height:60px; background:var(--ink); border-radius:0 10px 10px 0; }
+    #__ID__-root .tip   { position:absolute; top:40px; width:28px; height:70px; margin-left:242px; margin-top:65px; background:var(--ink); border-radius:0 10px 10px 0; }
+    #__ID__-root .fill  { position:absolute; left:0; top:0; bottom:0; width:100%; transform-origin:0 50%; }
+    #__ID__-root .tag   { position:absolute; top:268px; width:230px; text-align:center; font:600 28px var(--sans); color:var(--ink); opacity:.75; }
+    #__ID__-root .note  { position:absolute; right:60px; bottom:40px; font:600 26px var(--sans); color:var(--ink); opacity:.55; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:50px;text-align:center">Battery at the start of each rally</div>
+
+  <div class="row" style="top:210px" id="__ID__-r1">
+    <div class="lab">Weak charger<small>refills a little less each time</small></div>
+    <div class="bat" style="left:470px"><div class="fill" id="__ID__-w1" style="background:var(--good)"></div></div><div class="tip" style="left:470px"></div><div class="tag" style="left:470px">Rally 1</div>
+    <div class="bat" style="left:790px"><div class="fill" id="__ID__-w2" style="background:var(--hl)"></div></div><div class="tip" style="left:790px"></div><div class="tag" style="left:790px">Rally 2</div>
+    <div class="bat" style="left:1110px"><div class="fill" id="__ID__-w3" style="background:var(--hl)"></div></div><div class="tip" style="left:1110px"></div><div class="tag" style="left:1110px">Rally 3</div>
+    <div class="bat" style="left:1430px"><div class="fill" id="__ID__-w4" style="background:var(--bad)"></div></div><div class="tip" style="left:1430px"></div><div class="tag" style="left:1430px">Rally 4</div>
+  </div>
+
+  <div class="row" style="top:590px" id="__ID__-r2">
+    <div class="lab">Strong charger<small>back to full before the serve</small></div>
+    <div class="bat" style="left:470px"><div class="fill" id="__ID__-s1" style="background:var(--good)"></div></div><div class="tip" style="left:470px"></div><div class="tag" style="left:470px">Rally 1</div>
+    <div class="bat" style="left:790px"><div class="fill" id="__ID__-s2" style="background:var(--good)"></div></div><div class="tip" style="left:790px"></div><div class="tag" style="left:790px">Rally 2</div>
+    <div class="bat" style="left:1110px"><div class="fill" id="__ID__-s3" style="background:var(--good)"></div></div><div class="tip" style="left:1110px"></div><div class="tag" style="left:1110px">Rally 3</div>
+    <div class="bat" style="left:1430px"><div class="fill" id="__ID__-s4" style="background:var(--good)"></div></div><div class="tip" style="left:1430px"></div><div class="tag" style="left:1430px">Rally 4</div>
+  </div>
+  <div class="note">Illustration</div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.05);
+  tl.fromTo(["#__ID__-r1", "#__ID__-r2"], { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.4, stagger: 0.15 }, 0.15);
+  var weak = [1, 0.78, 0.55, 0.32];
+  var step = Math.max(0.45, (D - 1.2) / 4);
+  for (var i = 0; i < 4; i++) {
+    var t = 0.5 + i * step;
+    tl.fromTo("#__ID__-w" + (i + 1), { scaleX: 0 }, { scaleX: weak[i], duration: 0.45, ease: "power2.out" }, t);
+    tl.fromTo("#__ID__-s" + (i + 1), { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power2.out" }, t);
+  }
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

@@ -43,7 +43,10 @@ function transcribeWords(wav) {
   const out = wav.replace(/\.wav$/, ".words.json");
   if (fs.existsSync(out) && !force) return readJSON(out);
   try {
-    hf(["transcribe", wav, "--output", out, "--optional"], { quiet: true });
+    hf(["transcribe", wav, "--optional"], { quiet: true });
+    // HyperFrames 0.8 writes word timings to transcript.json next to the input (--output is only for SRT/VTT).
+    const tj = path.join(path.dirname(wav), "transcript.json");
+    if (fs.existsSync(tj)) fs.renameSync(tj, out);
     if (!fs.existsSync(out)) throw new Error("no output");
     canTranscribe = true;
     const data = readJSON(out);

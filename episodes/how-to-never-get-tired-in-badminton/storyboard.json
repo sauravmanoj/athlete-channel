@@ -1,0 +1,2723 @@
+{
+ "title": "How to never get tired in badminton",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "mascot",
+   "chapter": "Intro",
+   "background": "court",
+   "transition": "fade",
+   "poses": [
+    {
+     "pose": "ready",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "lunge",
+     "at": "@drops",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@legs"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "Game 3",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.35,
+     "levelTo": 0.05,
+     "levelAt": "@no",
+     "pos": [
+      1560,
+      260
+     ],
+     "size": 1.3
+    }
+   ],
+   "narration": "It's the third game. The shuttle drops short at the net, and your legs just say no."
+  },
+  {
+   "id": "s02",
+   "kind": "versus",
+   "left": {
+    "label": "You",
+    "pose": "hands_knees",
+    "face": "tired",
+    "gauge": {
+     "label": "Energy",
+     "icon": "bolt",
+     "from": 40,
+     "to": 10,
+     "at": "@gasping"
+    }
+   },
+   "right": {
+    "label": "Opponent",
+    "pose": "ready",
+    "props": {
+     "r": "badminton"
+    },
+    "gauge": {
+     "label": "Energy",
+     "icon": "bolt",
+     "from": 85,
+     "to": 80,
+     "at": "@fresh"
+    },
+    "poses": [
+     {
+      "pose": "ready",
+      "rUpper": -35,
+      "rFore": -95
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "Your opponent looks fresh. You're bent over, gasping between every point."
+  },
+  {
+   "id": "s03",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "tired_front"
+    },
+    {
+     "pose": "shrug",
+     "at": "@Everyone"
+    },
+    {
+     "pose": "point_up",
+     "face": "determined",
+     "at": "@push"
+    }
+   ],
+   "headline": {
+    "text": "Push it later",
+    "highlight": "later",
+    "at": "@push",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "clock",
+     "pos": [
+      1450,
+      620
+     ],
+     "at": "@later",
+     "size": 1.2
+    }
+   ],
+   "narration": "You'll still get tired. Everyone does. But you can push it much later into the match."
+  },
+  {
+   "id": "s04",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.4,
+    "from": 0,
+    "to": "@does"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "think",
+     "at": "@once"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@train"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      110,
+      -110
+     ],
+     "at": "@once"
+    }
+   ],
+   "narration": "Badminton doesn't tire you out the way running does. And once you see how it really works, you can train for it."
+  },
+  {
+   "id": "s05",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "flex",
+     "at": "@build"
+    }
+   ],
+   "headline": {
+    "text": "Two engines",
+    "highlight": "Two",
+    "at": "@two",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 1,
+     "pos": [
+      1350,
+      700
+     ],
+     "at": "@engines",
+     "size": 1.1
+    },
+    {
+     "icon": "heart",
+     "pos": [
+      1600,
+      700
+     ],
+     "at": "@engines",
+     "size": 1.1,
+     "pulse": true
+    }
+   ],
+   "narration": "Today I'll show you the two engines badminton runs on, and exactly how to build each one."
+  },
+  {
+   "id": "s06",
+   "kind": "chart",
+   "chapter": "Two engines",
+   "title": "A typical rally",
+   "unit": " s",
+   "max": 20,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "sprint",
+      "at": "@seven"
+     },
+     {
+      "pose": "hands_hips",
+      "at": "@rest"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Rally",
+     "value": 7,
+     "display": "about 7 s",
+     "at": "@short"
+    },
+    {
+     "label": "Rest",
+     "value": 15,
+     "display": "about 15 s",
+     "at": "@fifteen"
+    }
+   ],
+   "transition": "push",
+   "narration": "A badminton rally is short. Even at the top level, a typical rally lasts about 7 seconds. Then you get about 15 seconds of rest."
+  },
+  {
+   "id": "s07",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "lunge",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "side_stand",
+     "at": "20%"
+    },
+    {
+     "pose": "lunge",
+     "at": "38%",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "side_stand",
+     "at": "55%"
+    },
+    {
+     "pose": "jump",
+     "at": "70%"
+    },
+    {
+     "pose": "land",
+     "at": "82%"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "Burst · rest · burst · rest",
+    "at": 0.2
+   },
+   "narration": "Burst, rest. Burst, rest. Over and over, for the whole match."
+  },
+  {
+   "id": "s08",
+   "kind": "stat",
+   "value": 90,
+   "suffix": "%",
+   "label": "of max heart rate, on average, all match",
+   "highlight": "all match",
+   "icon": "heart",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "hands_knees",
+      "face": "tired"
+     },
+     {
+      "pose": "tired_front",
+      "face": "tired",
+      "at": "@maximum"
+     }
+    ]
+   },
+   "at": "@90",
+   "narration": "And it's hard. Across studies, players' heart rate averages around 90% of their maximum for the whole match."
+  },
+  {
+   "id": "s09",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "swing_back",
+     "swing_through"
+    ],
+    "period": 0.9,
+    "from": 0
+   },
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "Club players: ~168 bpm",
+    "at": "@168"
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1500,
+      280
+     ],
+     "pulse": true,
+     "at": "@168",
+     "size": 1.1
+    }
+   ],
+   "narration": "Even club players in their thirties averaged around 168 beats per minute in a 30-minute match."
+  },
+  {
+   "id": "s10",
+   "kind": "slam",
+   "text": "Two main engines",
+   "highlight": "Two",
+   "style": "dark",
+   "icon": "bolt",
+   "pauseAfter": 0.6,
+   "narration": "So your body runs two main engines."
+  },
+  {
+   "id": "s11",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "lunge",
+     "at": "@lunge",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "jump",
+     "at": "@jump"
+    },
+    {
+     "pose": "sprint",
+     "facing": "left",
+     "at": "@push"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "headline": {
+    "text": "Sprint battery",
+    "highlight": "battery",
+    "at": "@sprint",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 1,
+     "levelTo": 0.45,
+     "levelAt": "@push",
+     "pos": [
+      1450,
+      700
+     ],
+     "size": 1.2
+    }
+   ],
+   "narration": "Engine one is the sprint battery. It powers every lunge, jump and push back to the middle."
+  },
+  {
+   "id": "s12",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.6,
+    "from": 0
+   },
+   "props": {
+    "r": "badminton"
+   },
+   "headline": {
+    "text": "The recharger",
+    "highlight": "recharger",
+    "at": "@recharger",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.35,
+     "levelTo": 1,
+     "levelAt": "@refills",
+     "pos": [
+      1450,
+      700
+     ],
+     "size": 1.2
+    },
+    {
+     "icon": "lungs",
+     "pos": [
+      1680,
+      700
+     ],
+     "at": "@aerobic",
+     "size": 1
+    }
+   ],
+   "narration": "Engine two is the recharger. It's your aerobic system, and it refills that battery between rallies."
+  },
+  {
+   "id": "s13",
+   "kind": "chart",
+   "title": "Where the energy comes from",
+   "unit": "%",
+   "max": 100,
+   "focus": 0,
+   "mascot": {
+    "pose": "point_up"
+   },
+   "bars": [
+    {
+     "label": "Recharger (aerobic)",
+     "value": 65,
+     "display": "about ⅔",
+     "at": "@two-thirds"
+    },
+    {
+     "label": "Everything else",
+     "value": 35,
+     "display": "about ⅓"
+    }
+   ],
+   "narration": "About two-thirds of the total energy actually comes from the recharger."
+  },
+  {
+   "id": "s14",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@burn"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Leg burn",
+     "target": "rKnee",
+     "at": "@burn+0.5"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "fire",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@feel",
+     "size": 1
+    }
+   ],
+   "narration": "There's a third engine, the one behind the leg burn. It's always running a little, but in badminton it plays a smaller part. You feel it most in long, brutal rallies."
+  },
+  {
+   "id": "s15",
+   "kind": "title",
+   "chapter": "The sprint battery",
+   "number": 1,
+   "heading": "The sprint battery",
+   "sub": "Huge power, a few seconds",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.3
+    }
+   },
+   "transition": "push",
+   "narration": "Engine one is like a camera flash. Huge power, instantly, but only for a few seconds at full blast."
+  },
+  {
+   "id": "s16",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "crouch",
+     "at": "@split"
+    },
+    {
+     "pose": "lunge",
+     "at": "@lunge",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "sprint",
+     "facing": "left",
+     "at": "@push"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@firing",
+     "rUpper": -35,
+     "rFore": -95
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 1,
+     "levelTo": 0.6,
+     "levelAt": "@firing",
+     "pos": [
+      1560,
+      260
+     ],
+     "size": 1.2
+    },
+    {
+     "icon": "bolt",
+     "pos": [
+      1450,
+      700
+     ],
+     "at": "@lunge"
+    }
+   ],
+   "narration": "Think of a split step, a lunge to the net, and a push back to the middle. That's the sprint battery firing."
+  },
+  {
+   "id": "s17",
+   "kind": "stat",
+   "value": 46,
+   "label": "full lunges per match, plus 52 half lunges",
+   "highlight": "per match",
+   "icon": "target",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      {
+       "pose": "lunge",
+       "rUpper": -75,
+       "rFore": -15
+      },
+      {
+       "pose": "ready",
+       "rUpper": -35,
+       "rFore": -95
+      }
+     ],
+     "period": 1
+    },
+    "props": {
+     "r": "badminton"
+    }
+   },
+   "at": "@forty-six",
+   "narration": "One study of 20 men's singles matches counted, on average, about 46 full lunges and 52 half lunges per match."
+  },
+  {
+   "id": "s18",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.3,
+    "from": "@short",
+    "to": "@real+0.6"
+   },
+   "poses": [
+    {
+     "pose": "ready"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@real+0.6"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@proven"
+    }
+   ],
+   "headline": {
+    "text": "Short, fast, real rest",
+    "highlight": "real rest",
+    "at": "@copy",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1450,
+      720
+     ],
+     "at": "@rest",
+     "size": 1.1
+    }
+   ],
+   "narration": "To train it, copy the rhythm of a real rally: short, fast, and then real rest. Repeated short sprints are a proven way to train racket players."
+  },
+  {
+   "id": "s19",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "stand"
+    },
+    {
+     "pose": "think",
+     "at": "@chest"
+    },
+    {
+     "pose": "present",
+     "at": "@doctor"
+    }
+   ],
+   "headline": {
+    "text": "Check first",
+    "highlight": "first",
+    "at": 0.2,
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "near": "chest",
+     "offset": [
+      0,
+      0
+     ],
+     "at": "@chest",
+     "pulse": true,
+     "size": 0.8
+    },
+    {
+     "icon": "check",
+     "pos": [
+      1450,
+      720
+     ],
+     "at": "@doctor",
+     "size": 1.1
+    }
+   ],
+   "narration": "Quick check first. If you've had chest pain, fainting or unusual breathlessness when exercising, or you have a heart condition, see a doctor before hard training."
+  },
+  {
+   "id": "s20",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready",
+     "face": "focused",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "point_up",
+     "at": "@starting"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "headline": {
+    "text": "Shadow rally repeats",
+    "highlight": "rally",
+    "at": "@shadow",
+    "side": "right"
+   },
+   "caption": {
+    "text": "Drill 1",
+    "at": 0.2
+   },
+   "narration": "Drill one: shadow rally repeats. A good starting point, built from real match rhythm:"
+  },
+  {
+   "id": "s21",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.28,
+    "from": 0,
+    "to": "@then"
+   },
+   "move": {
+    "to": "right",
+    "at": 0.1,
+    "dur": 1.6
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "lunge",
+     "at": "@corner",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@then"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "8–10 s all out  ·  20–30 s rest",
+    "at": "@eight"
+   },
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1560,
+      260
+     ],
+     "at": "@eight",
+     "size": 1.1
+    }
+   ],
+   "narration": "move to a corner and back to the middle at full speed for 8 to 10 seconds, then rest 20 to 30 seconds."
+  },
+  {
+   "id": "s22",
+   "kind": "list",
+   "title": "Shadow rally repeats",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "present",
+      "at": "@easy"
+     },
+     {
+      "pose": "flex",
+      "at": "@week"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "8 reps, 2 or 3 sets",
+     "icon": "bolt",
+     "at": "@eight"
+    },
+    {
+     "text": "3 easy minutes between sets",
+     "icon": "clock",
+     "at": "@easy"
+    },
+    {
+     "text": "Once or twice a week",
+     "icon": "check",
+     "at": "@once"
+    }
+   ],
+   "narration": "Try 8 reps, 2 or 3 sets, with 3 easy minutes between sets, once or twice a week."
+  },
+  {
+   "id": "s23",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "You",
+    "cycle": {
+     "poses": [
+      {
+       "pose": "lunge",
+       "rUpper": -75,
+       "rFore": -15
+      },
+      {
+       "pose": "ready",
+       "rUpper": -35,
+       "rFore": -95
+      }
+     ],
+     "period": 0.7,
+     "from": "@feeds",
+     "to": "@swap"
+    },
+    "pose": "ready",
+    "props": {
+     "r": "badminton"
+    },
+    "poses": [
+     {
+      "pose": "ready",
+      "rUpper": -35,
+      "rFore": -95
+     }
+    ]
+   },
+   "right": {
+    "label": "Partner",
+    "cycle": {
+     "poses": [
+      "swing_back",
+      "swing_through"
+     ],
+     "period": 0.7,
+     "from": "@feeds",
+     "to": "@swap"
+    },
+    "pose": "ready",
+    "props": {
+     "r": "badminton"
+    },
+    "poses": [
+     {
+      "pose": "ready",
+      "rUpper": -35,
+      "rFore": -95
+     }
+    ]
+   },
+   "vs": "Drill 2",
+   "narration": "Drill two: multi-shuttle feeding. A partner feeds 8 to 12 shuttles fast to all four corners. Then you swap, so you rest while they work."
+  },
+  {
+   "id": "s24",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "lunge",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "ready",
+     "at": "@plenty",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "facepalm",
+     "at": "@sloppy"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "2 sets × 8 rounds",
+    "at": "@Two"
+   },
+   "icons": [
+    {
+     "icon": "cross",
+     "near": "head",
+     "offset": [
+      120,
+      -100
+     ],
+     "at": "@sloppy"
+    }
+   ],
+   "narration": "Two sets of 8 rounds is plenty. Stop when your footwork gets sloppy."
+  },
+  {
+   "id": "s25",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.25,
+    "from": "@explode",
+    "to": "@point"
+   },
+   "poses": [
+    {
+     "pose": "ready",
+     "face": "focused",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "crouch",
+     "at": "@Split"
+    },
+    {
+     "pose": "run_a",
+     "at": "@explode"
+    },
+    {
+     "pose": "lunge",
+     "at": "@point",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@full"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "headline": {
+    "text": "Reaction starts",
+    "highlight": "Reaction",
+    "at": "@reaction",
+    "side": "right"
+   },
+   "caption": {
+    "text": "5–6 reps × 3 sets, full rest",
+    "at": "@Five"
+   },
+   "narration": "Drill three: reaction starts. Split step on your partner's call, then explode 2 or 3 steps to the corner they point at. 5 or 6 reps, 3 sets, with full rest between reps."
+  },
+  {
+   "id": "s26",
+   "kind": "list",
+   "title": "Warm up first",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "walk_a",
+      "walk_b"
+     ],
+     "period": 0.6
+    }
+   },
+   "items": [
+    {
+     "text": "5 minutes easy movement",
+     "icon": "heart",
+     "at": "@Five"
+    },
+    {
+     "text": "Walking lunges",
+     "icon": "check",
+     "at": "@walking"
+    },
+    {
+     "text": "Skips",
+     "icon": "check",
+     "at": "@skips"
+    },
+    {
+     "text": "Build-up sprints",
+     "icon": "bolt",
+     "at": "@build-up"
+    },
+    {
+     "text": "Small jumps",
+     "icon": "bolt",
+     "at": "@small"
+    }
+   ],
+   "narration": "Always warm up first: 5 minutes of easy movement, then walking lunges, skips, and a few build-up sprints and small jumps."
+  },
+  {
+   "id": "s27",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "squat",
+     "at": "@strength"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@start"
+    }
+   ],
+   "headline": {
+    "text": "Base first",
+    "highlight": "first",
+    "at": "@Spend",
+    "side": "right"
+   },
+   "caption": {
+    "text": "3–4 weeks base  ·  then 2 × 6 reps",
+    "at": "@Then"
+   },
+   "narration": "New to hard training? Spend 3 to 4 weeks on the aerobic and strength work first. Then start with 2 sets of 6 reps and longer rests."
+  },
+  {
+   "id": "s28",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Real rest",
+    "pose": "sprint",
+    "gauge": {
+     "label": "Speed",
+     "icon": "bolt",
+     "from": 95,
+     "to": 90,
+     "at": "@slower"
+    },
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.3
+    }
+   },
+   "right": {
+    "label": "Rest cut short",
+    "pose": "hands_knees",
+    "face": "tired",
+    "gauge": {
+     "label": "Speed",
+     "icon": "bolt",
+     "from": 95,
+     "to": 35,
+     "at": "@slower"
+    }
+   },
+   "vs": "VS",
+   "narration": "The common mistake is cutting the rest short. Every rep gets slower, and it stops being sprint training. That's a different workout, which we'll get to."
+  },
+  {
+   "id": "s29",
+   "kind": "slam",
+   "text": "Quality first",
+   "highlight": "Quality",
+   "style": "brand",
+   "icon": "check",
+   "sub": "Speed drops? Stop the set.",
+   "pauseAfter": 0.7,
+   "narration": "Quality first. If your speed drops, stop the set."
+  },
+  {
+   "id": "s30",
+   "kind": "title",
+   "chapter": "The recharger",
+   "number": 2,
+   "heading": "The recharger",
+   "sub": "Your aerobic system",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "walk_a",
+      "walk_b"
+     ],
+     "period": 0.6
+    }
+   },
+   "transition": "push",
+   "narration": "Engine two is the phone charger. The battery gives you the burst. The charger decides how full it is when the next rally starts."
+  },
+  {
+   "id": "s31",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.6,
+    "from": 0
+   },
+   "props": {
+    "r": "badminton"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.3,
+     "levelTo": 0.95,
+     "levelAt": "@refilling",
+     "pos": [
+      1500,
+      700
+     ],
+     "size": 1.3
+    },
+    {
+     "icon": "heart",
+     "pos": [
+      1720,
+      700
+     ],
+     "pulse": true,
+     "at": "@Fitter",
+     "size": 1
+    }
+   ],
+   "narration": "Fitter players tend to recover their power faster between repeated sprints, and refilling that sprint fuel is a big part of why."
+  },
+  {
+   "id": "s32",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@strong"
+    }
+   ],
+   "headline": {
+    "text": "Strong engine, fast recovery",
+    "highlight": "fast recovery",
+    "at": "@need",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "lungs",
+     "pos": [
+      1350,
+      760
+     ],
+     "at": "@aerobic",
+     "size": 1
+    },
+    {
+     "icon": "heart",
+     "pos": [
+      1580,
+      760
+     ],
+     "at": "@aerobic",
+     "size": 1,
+     "pulse": true
+    }
+   ],
+   "narration": "Researchers who tested international players in a simulated match agreed: you need a strong aerobic engine for fast recovery between rallies."
+  },
+  {
+   "id": "s33",
+   "kind": "custom",
+   "file": "custom/s33.html",
+   "pauseAfter": 1.2,
+   "narration": "With a weak charger, you start each rally a little emptier than the last."
+  },
+  {
+   "id": "s34",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "swing_back",
+     "swing_through"
+    ],
+    "period": 0.9,
+    "from": 0,
+    "to": "@climbs"
+   },
+   "poses": [
+    {
+     "pose": "swing_back"
+    },
+    {
+     "pose": "tired_front",
+     "face": "tired",
+     "at": "@harder"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "Last 10 minutes",
+    "at": "@last"
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1500,
+      420
+     ],
+     "pulse": true,
+     "at": "@climbs",
+     "size": 1
+    },
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1560,
+      260
+     ],
+     "at": "@last",
+     "size": 1.1
+    }
+   ],
+   "narration": "You can even see it in club players. In the last 10 minutes of a match, heart rate climbs and the effort feels harder."
+  },
+  {
+   "id": "s35",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.42,
+    "from": 0
+   },
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "happy"
+    }
+   ],
+   "headline": {
+    "text": "Easy aerobic base",
+    "highlight": "Easy",
+    "at": "@easy",
+    "side": "right"
+   },
+   "caption": {
+    "text": "Talking pace · 30–45 min · 1–2× a week",
+    "at": "@30"
+   },
+   "narration": "Drill one: easy aerobic base. Jog, cycle or swim at a pace where you can still talk, for 30 to 45 minutes, once or twice a week."
+  },
+  {
+   "id": "s36",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.3,
+    "from": "@Four",
+    "to": "@easy"
+   },
+   "poses": [
+    {
+     "pose": "ready"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@easy"
+    },
+    {
+     "pose": "walk_b",
+     "at": "@easy+0.4"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@easy+0.8"
+    },
+    {
+     "pose": "walk_b",
+     "at": "@easy+1.2"
+    },
+    {
+     "pose": "point_up",
+     "at": "@once"
+    }
+   ],
+   "headline": {
+    "text": "Long intervals",
+    "highlight": "Long",
+    "at": "@long",
+    "side": "right"
+   },
+   "caption": {
+    "text": "4 × 3–4 min hard  ·  2–3 min easy",
+    "at": "@Four"
+   },
+   "narration": "Drill two: long intervals. A good starting point: 4 rounds of 3 to 4 minutes, hard but controlled, with 2 to 3 minutes easy in between, once a week."
+  },
+  {
+   "id": "s37",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     {
+      "pose": "lunge",
+      "rUpper": -75,
+      "rFore": -15
+     },
+     {
+      "pose": "ready",
+      "rUpper": -35,
+      "rFore": -95
+     }
+    ],
+    "period": 0.6,
+    "from": "@Shadow",
+    "to": "@rest"
+   },
+   "poses": [
+    {
+     "pose": "ready",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@rest"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@Strong",
+     "rUpper": -35,
+     "rFore": -95
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "headline": {
+    "text": "Court blocks",
+    "highlight": "Court",
+    "at": "@court",
+    "side": "right"
+   },
+   "caption": {
+    "text": "15 s on · 15 s off · 8–10 min",
+    "at": "@15"
+   },
+   "narration": "Drill three: court blocks, a good starting point. Shadow footwork for 15 seconds, rest 15 seconds, for 8 to 10 minutes. Strong, but not all out."
+  },
+  {
+   "id": "s38",
+   "kind": "slam",
+   "text": "Early studies: 4 to 10 weeks",
+   "highlight": "weeks",
+   "style": "dark",
+   "icon": "clock",
+   "sub": "Small groups, so treat it as a guide",
+   "narration": "Early studies show interval training can raise aerobic fitness in badminton players within about 4 to 10 weeks.",
+   "pauseAfter": 1.3
+  },
+  {
+   "id": "s39",
+   "kind": "mascot",
+   "background": "spotlight",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.7,
+    "from": 0,
+    "to": "@one"
+   },
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "point_up",
+     "at": "@one"
+    },
+    {
+     "pose": "arms_crossed",
+     "at": "@not"
+    }
+   ],
+   "headline": {
+    "text": "Step by step",
+    "highlight": "Step",
+    "at": "@one",
+    "side": "right"
+   },
+   "caption": {
+    "text": "More time OR more intensity",
+    "at": "@Add"
+   },
+   "narration": "Build it up gradually. Add a little time or a little intensity, one step at a time, not both at once."
+  },
+  {
+   "id": "s40",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.45,
+    "from": "@long",
+    "to": "@never"
+   },
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "run_a",
+     "at": "@long"
+    },
+    {
+     "pose": "shrug",
+     "at": "@never"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "near": "head",
+     "offset": [
+      130,
+      -110
+     ],
+     "at": "@never"
+    }
+   ],
+   "caption": {
+    "text": "Only jogs",
+    "at": "@long"
+   },
+   "narration": "The mistake is picking only one. Only long jogs, and you never train your sprints."
+  },
+  {
+   "id": "s41",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.25,
+    "from": 0,
+    "to": "@struggle"
+   },
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@struggle"
+    },
+    {
+     "pose": "flex",
+     "face": "happy",
+     "at": "@both"
+    }
+   ],
+   "headline": {
+    "text": "You need both",
+    "highlight": "both",
+    "at": "@both",
+    "side": "right"
+   },
+   "caption": {
+    "text": "Only intervals",
+    "at": 0.2
+   },
+   "narration": "Only hard intervals, and you'll struggle to recover from them, because a solid aerobic base helps you handle hard training. You need both.",
+   "pauseAfter": 0.8
+  },
+  {
+   "id": "s42",
+   "kind": "title",
+   "chapter": "The shock absorbers",
+   "number": 3,
+   "heading": "The shock absorbers",
+   "sub": "Strong legs and tendons",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "squat",
+      "side_stand"
+     ],
+     "period": 1.2
+    }
+   },
+   "transition": "push",
+   "narration": "Your two engines need a chassis that can take a beating. That's your legs."
+  },
+  {
+   "id": "s43",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "lunge",
+     "at": "@lunge",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "land",
+     "at": "@landing"
+    },
+    {
+     "pose": "side_stand",
+     "face": "happy",
+     "at": "@room"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "callouts": [
+    {
+     "label": "Strong legs",
+     "target": "rKnee",
+     "at": "@landing"
+    }
+   ],
+   "narration": "Think of car suspension. Strong shocks handle every lunge and landing with room to spare."
+  },
+  {
+   "id": "s44",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Singles",
+    "cycle": {
+     "poses": [
+      {
+       "pose": "lunge",
+       "rUpper": -75,
+       "rFore": -15
+      },
+      "jump"
+     ],
+     "period": 0.8,
+     "from": "@lunge"
+    },
+    "pose": "ready",
+    "props": {
+     "r": "badminton"
+    },
+    "poses": [
+     {
+      "pose": "ready",
+      "rUpper": -35,
+      "rFore": -95
+     }
+    ]
+   },
+   "right": {
+    "label": "Doubles",
+    "pose": "ready",
+    "props": {
+     "r": "badminton"
+    },
+    "poses": [
+     {
+      "pose": "ready",
+      "rUpper": -35,
+      "rFore": -95
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "Singles players lunge and jump far more than doubles players do."
+  },
+  {
+   "id": "s45",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "squat"
+    },
+    {
+     "pose": "jump",
+     "at": "@powerful"
+    },
+    {
+     "pose": "sprint",
+     "at": "@faster"
+    },
+    {
+     "pose": "sprint",
+     "facing": "left",
+     "at": "@changing"
+    }
+   ],
+   "headline": {
+    "text": "Stronger, faster",
+    "highlight": "faster",
+    "at": "@faster",
+    "side": "right"
+   },
+   "narration": "Strength training makes badminton players more powerful, faster and better at changing direction."
+  },
+  {
+   "id": "s46",
+   "kind": "slam",
+   "text": "Strength cut injuries to about a third",
+   "highlight": "a third",
+   "style": "brand",
+   "icon": "muscle",
+   "sub": "Review of trials across many sports",
+   "narration": "In a big review of injury-prevention trials across many sports, strength training cut injuries to about a third.",
+   "pauseAfter": 1.3
+  },
+  {
+   "id": "s47",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "side_stand",
+     "face": "focused",
+     "at": "@Achilles"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Achilles tendon",
+     "target": "rAchilles",
+     "at": "@Achilles"
+    }
+   ],
+   "narration": "That matters for one injury in particular: the Achilles tendon."
+  },
+  {
+   "id": "s48",
+   "kind": "stat",
+   "value": 97,
+   "suffix": "%",
+   "label": "of ruptures were recreational players, average age 36",
+   "highlight": "recreational",
+   "icon": "target",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "shrug",
+      "at": "@recreational"
+     },
+     {
+      "pose": "point_up",
+      "at": "@average"
+     }
+    ]
+   },
+   "at": "@ninety",
+   "narration": "In one study, 97% of badminton Achilles ruptures happened to recreational players. Their average age was 36."
+  },
+  {
+   "id": "s49",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "swing_back",
+     "swing_through"
+    ],
+    "period": 0.9,
+    "from": 0,
+    "to": "@researchers"
+   },
+   "poses": [
+    {
+     "pose": "swing_back"
+    },
+    {
+     "pose": "tired_front",
+     "face": "tired",
+     "at": "@researchers"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "94%: middle or end of a game",
+    "at": "@ninety"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.8,
+     "levelTo": 0.2,
+     "levelAt": "@end",
+     "pos": [
+      1560,
+      260
+     ],
+     "size": 1.2
+    }
+   ],
+   "narration": "And 94% happened in the middle or at the end of a game. The researchers think tired muscles may play a part."
+  },
+  {
+   "id": "s50",
+   "kind": "mascot",
+   "background": "gym",
+   "callouts": [
+    {
+     "label": "Quads",
+     "target": "rThigh",
+     "at": "@lunges"
+    }
+   ],
+   "headline": {
+    "text": "Split squats",
+    "highlight": "Split",
+    "at": "@split",
+    "side": "right"
+   },
+   "caption": {
+    "text": "2–3 × 8–12 per leg · 2× a week",
+    "at": "@two"
+   },
+   "narration": "Drill one: split squats, building up to lunges. 2 to 3 sets of 8 to 12 per leg, twice a week.",
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "lunge",
+     "at": "@split"
+    },
+    {
+     "pose": "lunge",
+     "rThigh": -78,
+     "rShin": 80,
+     "lThigh": 38,
+     "lShin": 56,
+     "at": "@lunges"
+    },
+    {
+     "pose": "lunge",
+     "at": "@two"
+    },
+    {
+     "pose": "lunge",
+     "rThigh": -78,
+     "rShin": 80,
+     "lThigh": 38,
+     "lShin": 56,
+     "at": "@per"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@twice"
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "kind": "mascot",
+   "background": "gym",
+   "callouts": [
+    {
+     "label": "Calves & Achilles",
+     "target": "rAchilles",
+     "at": "@Move"
+    }
+   ],
+   "headline": {
+    "text": "Calf raises",
+    "highlight": "Calf",
+    "at": "@calf",
+    "side": "right"
+   },
+   "caption": {
+    "text": "3 × 12–15, slow · two legs → one",
+    "at": "@Three"
+   },
+   "narration": "Drill two: calf raises, with straight knees and bent knees. 3 sets of 12 to 15, slow and controlled. Move from two legs to one when it's easy.",
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "calf_raise",
+     "at": "@calf"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@Three"
+    },
+    {
+     "pose": "calf_raise",
+     "at": "@slow"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@controlled"
+    },
+    {
+     "pose": "calf_raise",
+     "at": "@Move"
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "land",
+     "jump"
+    ],
+    "period": 0.45,
+    "from": "@hops",
+    "to": "@Add"
+   },
+   "poses": [
+    {
+     "pose": "ready"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@Add"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@pain-free"
+    }
+   ],
+   "headline": {
+    "text": "Small hops, later",
+    "highlight": "later",
+    "at": "@Add",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "check",
+     "pos": [
+      1450,
+      740
+     ],
+     "at": "@pain-free",
+     "size": 1.1
+    }
+   ],
+   "narration": "Drill three: small hops, like pogo hops and side-to-side line hops. Add them once the calf raises feel easy and pain-free, after a few weeks."
+  },
+  {
+   "id": "s53",
+   "kind": "list",
+   "title": "Hops: start small",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "land",
+      "calf_raise"
+     ],
+     "period": 0.7
+    }
+   },
+   "items": [
+    {
+     "text": "About 60 easy contacts",
+     "icon": "target",
+     "at": "@sixty"
+    },
+    {
+     "text": "Twice a week, 2 days apart",
+     "icon": "clock",
+     "at": "@twice"
+    },
+    {
+     "text": "After your warm-up",
+     "icon": "fire",
+     "at": "@warm-up"
+    },
+    {
+     "text": "Sprung court or grass",
+     "icon": "check",
+     "at": "@sprung"
+    }
+   ],
+   "narration": "Start at the low end, around 60 easy contacts, twice a week with 2 days between. Do them after your warm-up, on a sprung court or grass, not concrete."
+  },
+  {
+   "id": "s54",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "land"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@build"
+    },
+    {
+     "pose": "side_stand",
+     "face": "tired",
+     "at": "@sore"
+    },
+    {
+     "pose": "side_stand",
+     "face": "normal",
+     "rUpper": -40,
+     "rFore": -60,
+     "at": "@back"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Achilles",
+     "target": "rAchilles",
+     "at": "@Achilles"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "moon",
+     "pos": [
+      1500,
+      250
+     ],
+     "at": "@morning",
+     "size": 1
+    }
+   ],
+   "narration": "Land softly and quietly, and build up slowly. If your Achilles is sore the next morning, back off."
+  },
+  {
+   "id": "s55",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "swing_back"
+    },
+    {
+     "pose": "jump",
+     "at": "@jump"
+    },
+    {
+     "pose": "swing_through",
+     "at": "@rotate"
+    },
+    {
+     "pose": "land",
+     "at": "@lands"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "callouts": [
+    {
+     "label": "Non-racket foot",
+     "target": "lFoot",
+     "at": "@non-racket"
+    }
+   ],
+   "caption": {
+    "text": "One small lab study",
+    "at": 0.2
+   },
+   "narration": "A landing tip from one small lab study: after a rear-court forehand jump, rotate your upper body so your non-racket foot lands turned out, like the pros' scissor kick."
+  },
+  {
+   "id": "s56",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 1,
+    "from": "@Practise"
+   },
+   "poses": [
+    {
+     "pose": "point_up"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@Practise"
+    }
+   ],
+   "headline": {
+    "text": "Practise it slowly",
+    "highlight": "slowly",
+    "at": "@Practise",
+    "side": "right"
+   },
+   "caption": {
+    "text": "≈ a quarter less estimated Achilles load",
+    "at": "@quarter"
+   },
+   "narration": "That cut the estimated load on the Achilles by about a quarter. Practise it slowly first, ideally with a coach."
+  },
+  {
+   "id": "s57",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Stretching",
+    "pose": "stretch_quad"
+   },
+   "right": {
+    "label": "Strengthening",
+    "pose": "flex",
+    "cycle": {
+     "poses": [
+      "squat",
+      "flex"
+     ],
+     "period": 1.2,
+     "from": "@Strength"
+    }
+   },
+   "vs": "VS",
+   "narration": "The common mistake? Stretching instead of strengthening. Stretching programs didn't reduce injuries. Strength training did."
+  },
+  {
+   "id": "s58",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "tired"
+    },
+    {
+     "pose": "side_stand",
+     "face": "normal",
+     "at": "@play"
+    },
+    {
+     "pose": "side_stand",
+     "face": "happy",
+     "rUpper": -70,
+     "rFore": -20,
+     "at": "@physio"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Heel / calf",
+     "target": "rAchilles",
+     "at": "@heel"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "check",
+     "pos": [
+      1480,
+      720
+     ],
+     "at": "@physio",
+     "size": 1
+    }
+   ],
+   "narration": "If your heel or calf hurts, don't play through it. Get it checked by a physio."
+  },
+  {
+   "id": "s59",
+   "kind": "mascot",
+   "background": "dark",
+   "poses": [
+    {
+     "pose": "lunge"
+    },
+    {
+     "pose": "side_stand",
+     "face": "surprised",
+     "at": "@snap"
+    },
+    {
+     "pose": "stand",
+     "face": "surprised",
+     "at": "@stop"
+    }
+   ],
+   "headline": {
+    "text": "Stop. Get help.",
+    "highlight": "Stop.",
+    "at": "@stop",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1480,
+      740
+     ],
+     "at": "@stop",
+     "size": 1.1
+    }
+   ],
+   "narration": "And if you ever feel a sudden snap or a kick to the back of your heel, stop playing straight away and get urgent medical care."
+  },
+  {
+   "id": "s60",
+   "kind": "title",
+   "chapter": "Use the gaps",
+   "number": 4,
+   "heading": "Use the gaps",
+   "sub": "Rest is where you refill",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "walk_a",
+      "walk_b"
+     ],
+     "period": 0.6
+    }
+   },
+   "transition": "push",
+   "narration": "Rest between rallies isn't dead time. It's where the recharger does its job."
+  },
+  {
+   "id": "s61",
+   "kind": "chart",
+   "title": "Rest between rallies, Olympic finals",
+   "unit": " s",
+   "max": 40,
+   "focus": 1,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@doubled"
+     },
+     {
+      "pose": "shrug",
+      "at": "@researchers"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "1992",
+     "value": 15,
+     "display": "about 15 s",
+     "at": "@fifteen"
+    },
+    {
+     "label": "2012",
+     "value": 33,
+     "display": "over 30 s",
+     "at": "@thirty"
+    }
+   ],
+   "narration": "In Olympic finals, the rest between rallies more than doubled over 20 years, from about 15 to over 30 seconds. The researchers think players needed more recovery as the game got faster."
+  },
+  {
+   "id": "s62",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.7,
+    "from": "@Walk",
+    "to": "@breathe"
+   },
+   "poses": [
+    {
+     "pose": "ready",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "walk_a",
+     "at": "@Walk"
+    },
+    {
+     "pose": "meditate",
+     "at": "@breathe"
+    },
+    {
+     "pose": "serve",
+     "at": "@serve"
+    },
+    {
+     "pose": "point_up",
+     "at": "@stall"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "icons": [
+    {
+     "icon": "lungs",
+     "pos": [
+      1500,
+      260
+     ],
+     "at": "@breathe",
+     "size": 1
+    }
+   ],
+   "caption": {
+    "text": "Don't stall: play is continuous",
+    "at": "@stall"
+   },
+   "narration": "Habit one: use the time between rallies. Walk back, breathe, reset, and don't rush your serve when you're gassed. Just don't stall: the rules say play must be continuous."
+  },
+  {
+   "id": "s63",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "props": {
+      "r": "bottle"
+     }
+    },
+    {
+     "pose": "drink",
+     "at": "@drink"
+    }
+   ],
+   "props": {
+    "r": "bottle"
+   },
+   "icons": [
+    {
+     "icon": "water",
+     "pos": [
+      1500,
+      260
+     ],
+     "at": "@sweat",
+     "size": 1.1
+    }
+   ],
+   "caption": {
+    "text": "~1 litre of sweat an hour",
+    "at": "@litre"
+   },
+   "narration": "Habit two: drink in the breaks. Players can lose around a litre of sweat an hour."
+  },
+  {
+   "id": "s64",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@But"
+    }
+   ],
+   "headline": {
+    "text": "Match your sweat",
+    "highlight": "sweat",
+    "at": "@But",
+    "side": "right"
+   },
+   "caption": {
+    "text": "Losing over 2–3% body weight hurts performance",
+    "at": "@2"
+   },
+   "icons": [
+    {
+     "icon": "water",
+     "pos": [
+      1480,
+      740
+     ],
+     "at": "@fluid",
+     "size": 1
+    }
+   ],
+   "narration": "Losing more than 2 to 3% of your body weight in fluid hurts performance. But don't force down more than you sweat."
+  },
+  {
+   "id": "s65",
+   "kind": "list",
+   "title": "Long sessions (over an hour)",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "present",
+      "props": {
+       "r": "bottle"
+      }
+     },
+     {
+      "pose": "drink",
+      "at": "@drink"
+     }
+    ],
+    "props": {
+     "r": "bottle"
+    }
+   },
+   "items": [
+    {
+     "text": "Like tournaments",
+     "icon": "clock",
+     "at": "@tournaments"
+    },
+    {
+     "text": "Sports drink",
+     "icon": "water",
+     "at": "@drink"
+    },
+    {
+     "text": "Or a banana",
+     "icon": "food",
+     "at": "@banana"
+    }
+   ],
+   "narration": "Habit three: for long sessions over an hour, like tournaments, have some carbs. A sports drink or a banana.",
+   "pauseAfter": 0.8
+  },
+  {
+   "id": "s66",
+   "kind": "list",
+   "chapter": "Your week",
+   "title": "Your week",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "flex",
+      "at": "@strength"
+     },
+     {
+      "pose": "present",
+      "at": "@interval"
+     }
+    ]
+   },
+   "focus": false,
+   "transition": "push",
+   "items": [
+    {
+     "text": "2 strength days, 2+ days apart",
+     "icon": "muscle",
+     "at": "@strength"
+    },
+    {
+     "text": "1 easy aerobic session",
+     "icon": "heart",
+     "at": "@easy"
+    },
+    {
+     "text": "1 interval session",
+     "icon": "stopwatch",
+     "at": "@interval"
+    }
+   ],
+   "narration": "Here's a simple week. Two strength days, at least 2 days apart, with your calf raises and, later, your hops. One easy aerobic session, and one interval session."
+  },
+  {
+   "id": "s67",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "swing_back",
+     "swing_through"
+    ],
+    "period": 0.9,
+    "from": "@Play",
+    "to": "@keep"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "sprint",
+     "at": "@rally"
+    },
+    {
+     "pose": "lunge",
+     "at": "@warm-up",
+     "rUpper": -75,
+     "rFore": -15
+    },
+    {
+     "pose": "swing_back",
+     "at": "@Play"
+    },
+    {
+     "pose": "lie",
+     "at": "@rest"
+    }
+   ],
+   "props": {
+    "r": "badminton"
+   },
+   "caption": {
+    "text": "Rally repeats → club night → rest day",
+    "at": "@rally"
+   },
+   "icons": [
+    {
+     "icon": "zzz",
+     "near": "head",
+     "offset": [
+      60,
+      -120
+     ],
+     "at": "@rest"
+    }
+   ],
+   "narration": "One or two short sets of rally repeats before one club night, after a proper warm-up. Play your club games, and keep one full rest day."
+  },
+  {
+   "id": "s68",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "arms_crossed"
+    },
+    {
+     "pose": "point_up",
+     "at": "@Add"
+    },
+    {
+     "pose": "present",
+     "at": "@keep"
+    },
+    {
+     "pose": "arms_crossed",
+     "at": "@skip"
+    }
+   ],
+   "headline": {
+    "text": "Build up slowly",
+    "highlight": "slowly",
+    "at": "@Add",
+    "side": "right"
+   },
+   "caption": {
+    "text": "No hops, sprints or intervals the day before a match",
+    "at": "@skip"
+   },
+   "narration": "Don't start everything at once. Add one new session every week or two, keep your hard days apart, and skip hops, sprints and intervals the day before a match."
+  },
+  {
+   "id": "s69",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "meditate",
+     "face": "happy",
+     "at": "@easy"
+    },
+    {
+     "pose": "point_up",
+     "at": "@Under"
+    }
+   ],
+   "caption": {
+    "text": "Under 18? Learn it with a qualified coach",
+    "at": "@Under"
+   },
+   "narration": "If you're sore or flat, swap a hard session for an easy one. Under 18? Learn the strength and jump drills with a qualified coach first."
+  },
+  {
+   "id": "s70",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready"
+    },
+    {
+     "pose": "flex",
+     "face": "happy",
+     "at": "@changes"
+    }
+   ],
+   "headline": {
+    "text": "Give it 4 to 10 weeks",
+    "highlight": "4 to 10 weeks",
+    "at": "@Give",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "clock",
+     "pos": [
+      1500,
+      760
+     ],
+     "at": "@weeks",
+     "size": 1
+    }
+   ],
+   "narration": "Give it 4 to 10 weeks. That's how long training studies took to see changes."
+  },
+  {
+   "id": "s71",
+   "kind": "lineup",
+   "chapter": "Recap",
+   "title": "Your three upgrades",
+   "transition": "push",
+   "members": [
+    {
+     "pose": "sprint",
+     "label": "Sprint battery",
+     "sub": "bursts",
+     "at": "@battery"
+    },
+    {
+     "cycle": {
+      "poses": [
+       "walk_a",
+       "walk_b"
+      ],
+      "period": 0.6
+     },
+     "pose": "walk_a",
+     "label": "Recharger",
+     "sub": "refills",
+     "at": "@charger"
+    },
+    {
+     "pose": "squat",
+     "label": "Shock absorbers",
+     "sub": "carry both",
+     "at": "@legs"
+    }
+   ],
+   "narration": "A small battery that bursts. A big charger that refills it. Strong legs that carry both."
+  },
+  {
+   "id": "s72",
+   "kind": "versus",
+   "pauseAfter": 1,
+   "left": {
+    "label": "You",
+    "poses": [
+     {
+      "pose": "ready",
+      "props": {
+       "r": "badminton"
+      },
+      "rUpper": -35,
+      "rFore": -95
+     },
+     {
+      "pose": "celebrate",
+      "face": "happy",
+      "at": "@fresh"
+     }
+    ],
+    "props": {
+     "r": "badminton"
+    },
+    "gauge": {
+     "label": "Energy",
+     "icon": "bolt",
+     "from": 85,
+     "to": 75,
+     "at": "@third"
+    }
+   },
+   "right": {
+    "label": "Opponent",
+    "pose": "hands_knees",
+    "face": "tired",
+    "gauge": {
+     "label": "Energy",
+     "icon": "bolt",
+     "from": 85,
+     "to": 20,
+     "at": "@third"
+    }
+   },
+   "vs": "Game 3",
+   "narration": "Train those, use the gaps, and in the third game, you'll be the one who still looks fresh."
+  }
+ ],
+ "thumbnail": {
+  "pose": "hands_knees",
+  "props": {},
+  "background": "court",
+  "headline": "Never get tired",
+  "highlight": "tired",
+  "icons": [
+   {
+    "icon": "battery",
+    "level": 0.1
+   }
+  ],
+  "opponent": {
+   "pose": "celebrate",
+   "props": {
+    "r": "badminton"
+   }
+  },
+  "side": "right"
+ },
+ "youtube": {
+  "title": "How to never get tired in badminton",
+  "titleOptions": [
+   "Why you get tired in badminton (and how to fix it)",
+   "The 2 engines badminton runs on"
+  ],
+  "description": "Badminton is burst, rest, burst, rest: 7-second rallies with about 15 seconds to recover. Here's how to train the sprint battery and the aerobic recharger behind it, plus the leg strength that protects your Achilles, so you're still quick to the shuttle in the third game.",
+  "tags": [
+   "badminton fitness",
+   "badminton stamina",
+   "badminton endurance",
+   "badminton footwork drills",
+   "badminton conditioning",
+   "how to not get tired in badminton",
+   "badminton training",
+   "shadow footwork",
+   "badminton achilles",
+   "aerobic fitness",
+   "interval training",
+   "amateur badminton"
+  ]
+ }
+}

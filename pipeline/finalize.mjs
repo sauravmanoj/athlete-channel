@@ -29,16 +29,26 @@ if (chapters.length && chapters[0].t > 0) chapters[0].t = 0;
 chapters = chapters.filter((c, i, a) => i === 0 || c.t - a[i - 1].t >= 10);
 const chapterBlock = chapters.length >= 3 ? `Chapters\n${chapters.map((c) => `${fmtTime(c.t)} ${c.title}`).join("\n")}\n\n` : "";
 
-const srcBlock = sources.length
-  ? `Sources\n${sources.map((s) => `• ${s.author ? s.author + ", " : ""}${s.title}${s.publisher ? " (" + s.publisher + ")" : ""}${s.url ? " — " + s.url : ""}`).join("\n")}\n\n`
-  : "";
+// Full citations first; if that pushes the description past YouTube's 5,000-char limit,
+// fall back to a compact list (first author et al., year, link). Full details stay in sources.json.
+const fullSrc = (s) => `• ${s.author ? s.author + ", " : ""}${s.title}${s.publisher ? " (" + s.publisher + ")" : ""}${s.url ? " — " + s.url : ""}`;
+const shortSrc = (s) => {
+  const first = (s.author || s.publisher || s.title || "").split(",")[0].trim();
+  const etal = (s.author || "").includes(",") ? " et al." : "";
+  return `• ${first}${etal}${s.year && s.year !== "n.d." ? " (" + s.year + ")" : ""}${s.url ? " " + s.url : ""}`;
+};
 const promo = ch.promo ? `${ch.promo.trim()}\n\n` : "";
-const description = `${yt.description.trim()}
+const build = (fmt) => {
+  const srcBlock = sources.length ? `Sources\n${sources.map(fmt).join("\n")}\n\n` : "";
+  return `${yt.description.trim()}
 
 ${promo}${chapterBlock}${srcBlock}This channel shares general education, not medical advice. Check with a qualified coach or physio before changing your training, especially if you're injured.
 Narration is AI-generated (Kokoro TTS). Script researched and fact-checked against the sources above.
 ${ch.name} — ${ch.tagline}
 `;
+};
+let description = build(fullSrc);
+if (description.length > 5000) description = build(shortSrc);
 fs.writeFileSync(path.join(pub, "description.txt"), description);
 fs.writeFileSync(path.join(pub, "title.txt"), [yt.title, ...(yt.titleOptions || []).filter((t) => t !== yt.title)].join("\n") + "\n");
 fs.writeFileSync(path.join(pub, "tags.txt"), (yt.tags || []).join(", ") + "\n");

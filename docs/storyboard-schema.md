@@ -38,7 +38,7 @@
   "facing": "right",            // side-view poses face right; "left" mirrors
   "position": "center",         // left | center | right | farleft | farright, or "x": 700
   "scale": 1.05,
-  "props": {"r": "racket"},     // in the right (front) hand: racket paddle tennisball basketball football dumbbell bottle phone
+  "props": {"r": "racket"},     // in the right (front) hand: racket badminton paddle tennisball basketball football dumbbell bottle phone
   "tint": "opponent",           // grey "other player"
   "move": {"to": "right", "at": "@ran", "dur": 1.5}   // travel across the frame (combine with a run cycle)
 }
@@ -63,7 +63,7 @@ Poses live in `pipeline/mascot/poses.json` — run `node pipeline/poses.mjs` to 
  "narration":"…"}
 ```
 - `headline` puts big text on one side (mascot moves to the other side automatically). ≤ 5 words.
-- `callouts[].target`: `head chest core hips back lShoulder rShoulder lArm rArm lElbow rElbow lForearm rForearm lHand rHand lHip rHip lThigh rThigh lKnee rKnee lCalf rCalf lFoot rFoot`. The point is computed from the pose at that moment. Max 3 per scene.
+- `callouts[].target`: `head chest core hips back lShoulder rShoulder lArm rArm lElbow rElbow lForearm rForearm lHand rHand lHip rHip lThigh rThigh lKnee rKnee lCalf rCalf lAchilles rAchilles lFoot rFoot`. The point is computed from the pose at that moment. Max 3 per scene.
 - `icons[]`: `battery heart bolt brain moon zzz clock stopwatch fire water check cross trophy muscle target lungs question food`. Place with `pos:[x,y]` (1920×1080 frame) or `near: <body point>` + `offset`. `pulse: true` for a heartbeat effect. Battery: `level` 0–1, animate with `levelTo` + `levelAt`.
 - `gauges[]`: stacked bars at top-right (0–100), green → yellow → red as they drop.
 - `zoom`: slow camera push amount (default 1.04).

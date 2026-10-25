@@ -1,0 +1,29 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node pipeline/*)",
+      "Bash(npx hyperframes:*)",
+      "Bash(./node_modules/.bin/hyperframes:*)",
+      "Bash(ffmpeg:*)",
+      "Bash(ffprobe:*)",
+      "Bash(npm install)",
+      "Bash(npm ci)",
+      "Bash(ls:*)",
+      "Bash(mkdir:*)",
+      "Bash(cp:*)",
+      "WebSearch",
+      "WebFetch",
+      "Read(./**)",
+      "Edit(./episodes/**)",
+      "Write(./episodes/**)",
+      "Edit(./topics/**)",
+      "Write(./topics/**)",
+      "Edit(./pipeline/lexicon.json)",
+      "Edit(./pipeline/mascot/poses.json)"
+    ],
+    "deny": [
+      "Bash(rm -rf /*)",
+      "Read(./.env)"
+    ]
+  }
+}

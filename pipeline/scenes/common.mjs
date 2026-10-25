@@ -29,6 +29,7 @@ export function mascot(mid, spec, t, ctx, defaults = {}) {
     pose: typeof p === "string" ? p : p,
     t: i === 0 ? 0 : ctx.at(typeof p === "object" ? p.at : undefined, t.speechStart + (i / list.length) * t.speechDur),
     dur: typeof p === "object" ? p.dur : undefined,
+    facing: typeof p === "object" ? p.facing : undefined,
   }));
   for (let i = 1; i < keys.length; i++) keys[i].t = Math.max(keys[i].t, keys[i - 1].t + 0.3);
   let cycle = null;
@@ -39,8 +40,20 @@ export function mascot(mid, spec, t, ctx, defaults = {}) {
   const y = s.y ?? GROUND;
   const scale = s.scale ?? 1.05;
   const flip = s.facing === "left" ? -1 : 1;
-  const svg = `<g id="${mid}-mv">${mascotSvg({ id: mid, pose: keys[0].pose, x, y, scale, facing: s.facing, props: s.props, tint: s.tint, colors: s.colors })}</g>`;
+  const svg = `<g id="${mid}-mv"><g id="${mid}-fl">${mascotSvg({ id: mid, pose: keys[0].pose, x, y, scale, facing: s.facing, props: s.props, tint: s.tint, colors: s.colors })}</g></g>`;
   let js = mascotMotionJs(mid, keys, t.dur, cycle);
+  // Per-key facing: a pose key may turn the mascot around ({"pose":"sprint","facing":"left","at":"@back"}).
+  // Keys without "facing" keep the scene's facing. Flips are instant, around the mascot's own x.
+  const base = s.facing === "left" ? "left" : "right";
+  const keyFlip = (k) => (k.facing && k.facing !== base ? -1 : 1);
+  if (keys.some((k) => keyFlip(k) === -1)) {
+    let cur = 1;
+    keys.forEach((k) => {
+      const f = keyFlip(k);
+      if (f !== cur) js += `tl.set("#${mid}-fl",{scaleX:${f},svgOrigin:"${x} ${y}"},${k.t.toFixed(3)});`;
+      cur = f;
+    });
+  }
   let dx = 0;
   if (s.move) {
     const at = ctx.at(s.move.at, 0);
@@ -53,11 +66,16 @@ export function mascot(mid, spec, t, ctx, defaults = {}) {
     for (const k of keys) if (k.t <= time) p = k.pose;
     return p;
   };
+  const keyAt = (time) => {
+    let k = keys[0];
+    for (const kk of keys) if (kk.t <= time) k = kk;
+    return k;
+  };
   const point = (name, time = t.dur) => {
     const bp = bodyPoints(poseAt(time));
     const v = bp[name] || bp.chest;
     const moved = s.move && time >= ctx.at(s.move.at, 0) ? dx : 0;
-    return [x + flip * scale * v[0] + moved, y + scale * v[1]];
+    return [x + flip * keyFlip(keyAt(time)) * scale * v[0] + moved, y + scale * v[1]];
   };
   return { svg, js, point, keys, x, scale };
 }
