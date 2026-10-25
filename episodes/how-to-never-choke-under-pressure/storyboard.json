@@ -1,0 +1,2147 @@
+{
+ "title": "How to never choke under pressure",
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "mascot",
+   "chapter": "Intro",
+   "background": "court",
+   "transition": "fade",
+   "cycle": {
+    "poses": [
+     "serve",
+     "swing_through"
+    ],
+    "period": 0.8,
+    "from": 0,
+    "to": "@Now"
+   },
+   "poses": [
+    {
+     "pose": "serve"
+    },
+    {
+     "pose": "stand",
+     "face": "surprised",
+     "rUpper": -4,
+     "rFore": 0,
+     "at": "@Now"
+    }
+   ],
+   "props": {
+    "r": "racket"
+   },
+   "caption": {
+    "text": "Match point",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      110,
+      -110
+     ],
+     "at": "@someone"
+    }
+   ],
+   "narration": "Match point. You've hit this serve a thousand times in practice. Now your arm feels like it belongs to someone else."
+  },
+  {
+   "id": "s02",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "focused"
+    },
+    {
+     "pose": "kick",
+     "face": "surprised",
+     "at": "@legs"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@kick"
+    }
+   ],
+   "caption": {
+    "text": "Penalty to win",
+    "at": "@penalty"
+   },
+   "narration": "Or it's a penalty to win the game, and your legs forget how to kick."
+  },
+  {
+   "id": "s03",
+   "kind": "slam",
+   "text": "That's choking",
+   "highlight": "choking",
+   "style": "dark",
+   "icon": "brain",
+   "sub": "It can happen to anyone",
+   "pauseAfter": 0.5,
+   "narration": "That's choking. It can happen to anyone, from club players to superstars."
+  },
+  {
+   "id": "s04",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@learn"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@four"
+    }
+   ],
+   "headline": {
+    "text": "Four skills",
+    "highlight": "Four",
+    "at": "@four",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1450,
+      720
+     ],
+     "pulse": true,
+     "at": "@Nerves",
+     "size": 1
+    }
+   ],
+   "narration": "Nerves won't disappear. But you can learn to play your best with them. Today I'll show you four skills that help you do exactly that."
+  },
+  {
+   "id": "s05",
+   "kind": "title",
+   "chapter": "Why you choke",
+   "heading": "Why you choke",
+   "sub": "Worse, right when it matters",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "stand"
+     },
+     {
+      "pose": "facepalm",
+      "at": "@worse"
+     }
+    ]
+   },
+   "transition": "push",
+   "narration": "Choking means playing worse than you normally would, right when it matters most."
+  },
+  {
+   "id": "s06",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "at": "@two"
+    },
+    {
+     "pose": "shoot",
+     "at": "@controlling"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@apart"
+    }
+   ],
+   "headline": {
+    "text": "1. Overthinking",
+    "highlight": "Overthinking",
+    "at": "@overthinking",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "brain",
+     "pos": [
+      1500,
+      720
+     ],
+     "at": "@overthinking",
+     "size": 1.1
+    }
+   ],
+   "narration": "Scientists have two main explanations. The first is overthinking. Under pressure, you start controlling a move that normally runs on autopilot, and it falls apart.",
+   "props": {
+    "r": "basketball"
+   }
+  },
+  {
+   "id": "s07",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present",
+     "face": "happy"
+    },
+    {
+     "pose": "think",
+     "at": "@remember"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@stumble"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      110,
+      -110
+     ],
+     "at": "@note"
+    }
+   ],
+   "caption": {
+    "text": "A song you know by heart",
+    "at": "@song"
+   },
+   "narration": "It's like singing a song you know by heart, but trying to remember every single note. You stumble."
+  },
+  {
+   "id": "s08",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "focused"
+    },
+    {
+     "pose": "think",
+     "at": "@attention"
+    },
+    {
+     "pose": "shrug",
+     "face": "surprised",
+     "at": "@goalkeeper"
+    }
+   ],
+   "headline": {
+    "text": "2. Worry",
+    "highlight": "Worry",
+    "at": "@worry",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "question",
+     "pos": [
+      1350,
+      740
+     ],
+     "at": "@threats",
+     "size": 0.9
+    },
+    {
+     "icon": "clock",
+     "pos": [
+      1560,
+      740
+     ],
+     "at": "@threats",
+     "size": 0.9
+    }
+   ],
+   "narration": "The second is worry. Worry eats up your attention and drags it toward threats, like the goalkeeper, the crowd or the score."
+  },
+  {
+   "id": "s09",
+   "kind": "versus",
+   "left": {
+    "label": "Anxious taker",
+    "poses": [
+     {
+      "pose": "side_stand",
+      "face": "surprised"
+     },
+     {
+      "pose": "kick",
+      "at": "@shot"
+     }
+    ]
+   },
+   "right": {
+    "label": "Goalkeeper",
+    "pose": "ready"
+   },
+   "vs": "VS",
+   "narration": "In one study, anxious penalty takers looked at the goalkeeper sooner and for longer, and shot closer to him."
+  },
+  {
+   "id": "s10",
+   "kind": "stat",
+   "value": 650,
+   "suffix": "k+",
+   "label": "Grand Slam points analysed",
+   "highlight": "Grand Slam",
+   "icon": "target",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "swing_through"
+     },
+     {
+      "pose": "facepalm",
+      "at": "@error"
+     }
+    ],
+    "props": {
+     "r": "racket"
+    }
+   },
+   "at": "@snowball",
+   "narration": "And mistakes snowball. In over 650,000 Grand Slam tennis points, pressure and a previous error both made the next error more likely."
+  },
+  {
+   "id": "s11",
+   "kind": "list",
+   "title": "The plan",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "flex",
+      "at": "@Lock"
+     }
+    ]
+   },
+   "focus": false,
+   "items": [
+    {
+     "text": "Train the pressure",
+     "icon": "stopwatch",
+     "at": "@Train"
+    },
+    {
+     "text": "Reframe the nerves",
+     "icon": "heart",
+     "at": "@Reframe"
+    },
+    {
+     "text": "Lock in",
+     "icon": "target",
+     "at": "@Lock"
+    },
+    {
+     "text": "Reset after mistakes",
+     "icon": "check",
+     "at": "@reset"
+    }
+   ],
+   "narration": "So here's the plan. Train the pressure. Reframe the nerves. Lock in. And reset after mistakes."
+  },
+  {
+   "id": "s12",
+   "kind": "title",
+   "chapter": "Train the pressure",
+   "number": 1,
+   "heading": "Train the pressure",
+   "sub": "Practise with something at stake",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "shoot",
+      "side_stand"
+     ],
+     "period": 1.1
+    },
+    "props": {
+     "r": "basketball"
+    }
+   },
+   "transition": "push",
+   "narration": "Skill one: practise with something at stake, so the big day feels familiar."
+  },
+  {
+   "id": "s13",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "stand"
+    },
+    {
+     "pose": "flex",
+     "at": "@safe"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@real"
+    }
+   ],
+   "headline": {
+    "text": "A small, safe dose",
+    "highlight": "safe dose",
+    "at": "@small",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "check",
+     "pos": [
+      1450,
+      740
+     ],
+     "at": "@doesn't",
+     "size": 1
+    }
+   ],
+   "narration": "Think of it like a vaccine. A small, safe dose of pressure in training, so the real thing doesn't knock you over."
+  },
+  {
+   "id": "s14",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Pressure training",
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "celebrate",
+      "face": "happy",
+      "at": "@beat"
+     }
+    ]
+   },
+   "right": {
+    "label": "Normal training",
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "shrug",
+      "at": "@beat"
+     }
+    ]
+   },
+   "vs": "14 studies",
+   "narration": "A review of 14 studies found pressure training beat normal training when it came to performing under pressure."
+  },
+  {
+   "id": "s15",
+   "kind": "lineup",
+   "title": "Different skills",
+   "narration": "It worked for beginners and experienced players, and for different kinds of skills.",
+   "members": [
+    {
+     "pose": "kick",
+     "label": "Football",
+     "at": "@beginners"
+    },
+    {
+     "pose": "serve",
+     "props": {
+      "r": "racket"
+     },
+     "label": "Tennis",
+     "at": "@experienced"
+    },
+    {
+     "pose": "shoot",
+     "props": {
+      "r": "basketball"
+     },
+     "label": "Basketball",
+     "at": "@skills"
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Filmed & judged",
+    "poses": [
+     {
+      "pose": "ready",
+      "face": "focused"
+     },
+     {
+      "pose": "celebrate",
+      "face": "happy",
+      "at": "@didn't"
+     }
+    ]
+   },
+   "right": {
+    "label": "Normal practice",
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "facepalm",
+      "at": "@did"
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "In a classic experiment, novice golfers who practised putting while being filmed and judged didn't choke later. The golfers who practised normally did."
+  },
+  {
+   "id": "s17",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "shoot",
+     "side_stand"
+    ],
+    "period": 1,
+    "from": "@Take"
+   },
+   "poses": [
+    {
+     "pose": "point_up"
+    },
+    {
+     "pose": "shoot",
+     "at": "@Take"
+    }
+   ],
+   "props": {
+    "r": "basketball"
+   },
+   "headline": {
+    "text": "Consequence sets",
+    "highlight": "Consequence",
+    "at": "@consequence",
+    "side": "right"
+   },
+   "caption": {
+    "text": "10 reps · a miss = small forfeit or leaderboard",
+    "at": "@Every"
+   },
+   "narration": "Here's how to build it. Drill one: consequence sets. Take 10 penalties, free throws or short serves. Every miss costs a small forfeit, or goes on a leaderboard."
+  },
+  {
+   "id": "s18",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "present",
+     "at": 0
+    },
+    {
+     "pose": "present",
+     "face": "happy",
+     "at": "@teammate"
+    }
+   ],
+   "props": {
+    "r": "phone"
+   },
+   "headline": {
+    "text": "Film it",
+    "highlight": "Film",
+    "at": "@film",
+    "side": "right"
+   },
+   "caption": {
+    "text": "A teammate scores you out of 10",
+    "at": "@score"
+   },
+   "narration": "Drill two: film yourself, and have a teammate score you out of 10."
+  },
+  {
+   "id": "s19",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "shoot",
+     "side_stand"
+    ],
+    "period": 0.9,
+    "from": "@Make",
+    "to": "@Or"
+   },
+   "poses": [
+    {
+     "pose": "stand"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "at": "@shootouts"
+    }
+   ],
+   "props": {
+    "r": "basketball"
+   },
+   "headline": {
+    "text": "Must-make ladders",
+    "highlight": "Must-make",
+    "at": "@must-make",
+    "side": "right"
+   },
+   "caption": {
+    "text": "5 in a row, or start again",
+    "at": "@Make"
+   },
+   "narration": "Drill three: must-make ladders. Make 5 in a row, or start again. Or play first-to-3 shootouts against a teammate."
+  },
+  {
+   "id": "s20",
+   "kind": "list",
+   "title": "Pressure block",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "present",
+      "at": "@end"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "1 or 2 sets",
+     "icon": "target",
+     "at": "@sets"
+    },
+    {
+     "text": "Once or twice a week",
+     "icon": "clock",
+     "at": "@once"
+    },
+    {
+     "text": "End of a normal session",
+     "icon": "check",
+     "at": "@end"
+    }
+   ],
+   "narration": "A good starting point is one or two sets, once or twice a week, at the end of a normal session."
+  },
+  {
+   "id": "s21",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "wave",
+     "face": "happy"
+    },
+    {
+     "pose": "arms_crossed",
+     "at": "@Never"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@exhausted"
+    }
+   ],
+   "headline": {
+    "text": "Light and friendly",
+    "highlight": "friendly",
+    "at": "@light",
+    "side": "right"
+   },
+   "icons": [],
+   "narration": "Keep the forfeits light and friendly. Never humiliating, and never extra exercise when you're already exhausted.",
+   "caption": {
+    "text": "Never humiliating · no extra exercise when exhausted",
+    "at": "@Never"
+   }
+  },
+  {
+   "id": "s22",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Calm practice",
+    "poses": [
+     {
+      "pose": "meditate"
+     },
+     {
+      "pose": "think",
+      "at": "@hoping"
+     },
+     {
+      "pose": "shrug",
+      "at": "@beat"
+     }
+    ]
+   },
+   "right": {
+    "label": "Under pressure",
+    "poses": [
+     {
+      "pose": "ready",
+      "face": "focused"
+     },
+     {
+      "pose": "celebrate",
+      "face": "happy",
+      "at": "@beat"
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "The common mistake? Only practising in calm, easy drills, and hoping more reps will be enough. In the studies, the same practice done under pressure beat calm practice."
+  },
+  {
+   "id": "s23",
+   "kind": "title",
+   "chapter": "Reframe the nerves",
+   "number": 2,
+   "heading": "Reframe the nerves",
+   "sub": "Ready, not danger",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "tired_front",
+      "face": "tired"
+     },
+     {
+      "pose": "ready",
+      "face": "determined",
+      "at": "@read"
+     }
+    ]
+   },
+   "transition": "push",
+   "narration": "Skill two: your heart is pounding before the big moment. That's normal. What matters is how you read it."
+  },
+  {
+   "id": "s24",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Danger",
+    "face": "tired",
+    "gauge": {
+     "label": "Revs",
+     "icon": "heart",
+     "from": 20,
+     "to": 90,
+     "at": "@revs"
+    },
+    "poses": [
+     {
+      "pose": "tired_front",
+      "face": "tired"
+     },
+     {
+      "pose": "hands_knees",
+      "face": "tired",
+      "at": "@danger"
+     }
+    ]
+   },
+   "right": {
+    "label": "Ready",
+    "face": "determined",
+    "gauge": {
+     "label": "Revs",
+     "icon": "heart",
+     "from": 20,
+     "to": 90,
+     "at": "@revs"
+    },
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "flex",
+      "face": "determined",
+      "at": "@ready"
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "It's the same engine with a different dashboard light. The revs are high either way. You decide whether it says danger or ready."
+  },
+  {
+   "id": "s25",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@Both"
+    },
+    {
+     "pose": "flex",
+     "face": "determined",
+     "at": "@believe"
+    }
+   ],
+   "headline": {
+    "text": "Challenge, not threat",
+    "highlight": "Challenge",
+    "at": "@threat",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1450,
+      740
+     ],
+     "pulse": true,
+     "at": "@arousal",
+     "size": 1
+    }
+   ],
+   "narration": "Scientists call this threat versus challenge. Both come with high arousal. In a challenge state, you believe you have what it takes."
+  },
+  {
+   "id": "s26",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "focused"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "at": "@better"
+    }
+   ],
+   "caption": {
+    "text": "60 experienced golfers",
+    "at": "@golfers"
+   },
+   "icons": [
+    {
+     "icon": "trophy",
+     "pos": [
+      1450,
+      720
+     ],
+     "at": "@better",
+     "size": 1
+    }
+   ],
+   "narration": "In a study of 60 experienced golfers, the ones guided into a challenge mindset putted better, and did less overthinking."
+  },
+  {
+   "id": "s27",
+   "kind": "stat",
+   "value": 90,
+   "prefix": "",
+   "suffix": "%+",
+   "label": "think calm down is the best tactic",
+   "highlight": "calm down",
+   "icon": "question",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "meditate"
+     },
+     {
+      "pose": "shrug",
+      "at": "@tactic"
+     }
+    ]
+   },
+   "at": "@90",
+   "narration": "Most people try to calm down. In one survey, over 90% thought that was the best tactic."
+  },
+  {
+   "id": "s28",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "\"I'm excited\"",
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "celebrate",
+      "face": "happy",
+      "at": "@accurately"
+     },
+     {
+      "pose": "hands_hips",
+      "face": "happy",
+      "at": "@hearts"
+     }
+    ]
+   },
+   "right": {
+    "label": "\"I'm anxious\"",
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "tired_front",
+      "face": "tired",
+      "at": "@anxious"
+     },
+     {
+      "pose": "hands_knees",
+      "face": "tired",
+      "at": "@hearts"
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "But in one experiment, people who said \"I'm excited\" out loud before singing karaoke sang more accurately than people who said \"I'm anxious\". In a separate check, saying it didn't slow their racing hearts at all."
+  },
+  {
+   "id": "s29",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "shrug",
+     "at": "@sport"
+    }
+   ],
+   "caption": {
+    "text": "Not sport studies",
+    "at": "@sport"
+   },
+   "narration": "To be fair, those studies were about singing, public speaking and maths, not sport."
+  },
+  {
+   "id": "s30",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "arms_crossed",
+     "at": "@benefit"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@free"
+    }
+   ],
+   "headline": {
+    "text": "Worth trying",
+    "highlight": "trying",
+    "at": "@free",
+    "side": "right"
+   },
+   "caption": {
+    "text": "Not a proven fix",
+    "at": "@proven"
+   },
+   "narration": "And in sport, the few studies of quick reframing cues haven't shown a clear benefit yet. So treat it as a free tool worth trying, not a proven fix."
+  },
+  {
+   "id": "s31",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "stand"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "at": "@excited"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@ready"
+    }
+   ],
+   "headline": {
+    "text": "\"I'm excited\"",
+    "highlight": "excited",
+    "at": "@excited",
+    "side": "right"
+   },
+   "narration": "Drill one: before your key moment, say it out loud. I'm excited. This is my body getting ready."
+  },
+  {
+   "id": "s32",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "present",
+     "face": "focused"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@prepare"
+    }
+   ],
+   "props": {
+    "r": "phone"
+   },
+   "headline": {
+    "text": "Write down 3 things",
+    "highlight": "3 things",
+    "at": "@write",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "check",
+     "pos": [
+      1450,
+      740
+     ],
+     "at": "@training",
+     "size": 1
+    }
+   ],
+   "narration": "Drill two: before a match, write down 3 things you've done in training that prepare you for it."
+  },
+  {
+   "id": "s33",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "meditate",
+     "at": "@Slow"
+    },
+    {
+     "pose": "shrug",
+     "at": "@mixed"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "lungs",
+     "pos": [
+      1450,
+      280
+     ],
+     "at": "@breathing",
+     "size": 1.1
+    }
+   ],
+   "caption": {
+    "text": "Performance results: mixed",
+    "at": "@mixed"
+   },
+   "narration": "What about deep breathing? Slow breathing does shift your body toward rest. But for sport performance, the results are mixed."
+  },
+  {
+   "id": "s34",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "meditate"
+    },
+    {
+     "pose": "ready",
+     "face": "focused",
+     "at": "@routine"
+    }
+   ],
+   "headline": {
+    "text": "One breath, not a cure",
+    "highlight": "One breath",
+    "at": "@one",
+    "side": "right"
+   },
+   "narration": "So use one slow breath as part of your routine, not as a cure."
+  },
+  {
+   "id": "s35",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@panic"
+    },
+    {
+     "pose": "present",
+     "face": "normal",
+     "at": "@talk"
+    }
+   ],
+   "headline": {
+    "text": "Talk to someone",
+    "highlight": "someone",
+    "at": "@talk",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1450,
+      740
+     ],
+     "at": "@talk",
+     "size": 1
+    }
+   ],
+   "narration": "And if your nerves are constant, cause panic attacks, or stop you sleeping, eating or wanting to play, talk to a sport psychologist or a doctor."
+  },
+  {
+   "id": "s36",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "point_up"
+    },
+    {
+     "pose": "wave",
+     "face": "happy",
+     "at": "@coach"
+    }
+   ],
+   "caption": {
+    "text": "Under 18? Tell a coach or parent",
+    "at": 0.2
+   },
+   "narration": "If you're under 18, tell a coach or parent too."
+  },
+  {
+   "id": "s37",
+   "kind": "title",
+   "chapter": "Lock in",
+   "number": 3,
+   "heading": "Lock in",
+   "sub": "One routine, one look, one cue",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "side_stand",
+      "face": "focused"
+     },
+     {
+      "pose": "point_up",
+      "at": "@look"
+     },
+     {
+      "pose": "ready",
+      "face": "determined",
+      "at": "@cue"
+     }
+    ]
+   },
+   "transition": "push",
+   "narration": "Skill three: one routine, one look, one cue."
+  },
+  {
+   "id": "s38",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "present",
+     "at": "@checklist"
+    },
+    {
+     "pose": "point_up",
+     "face": "focused",
+     "at": "@runway"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "check",
+     "pos": [
+      1450,
+      740
+     ],
+     "at": "@checklist",
+     "size": 1
+    }
+   ],
+   "headline": {
+    "text": "Same steps, every time",
+    "highlight": "every time",
+    "at": "@same",
+    "side": "right"
+   },
+   "narration": "A routine is the same short set of actions before every key shot, like a pilot's checklist that ends with eyes on the runway."
+  },
+  {
+   "id": "s39",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "flex",
+     "face": "happy",
+     "at": "@held"
+    }
+   ],
+   "caption": {
+    "text": "Routines help, even under pressure",
+    "at": "@improved"
+   },
+   "icons": [
+    {
+     "icon": "trophy",
+     "pos": [
+      1450,
+      720
+     ],
+     "at": "@held",
+     "size": 1
+    }
+   ],
+   "narration": "A big review found routines improved performance, and the benefit held up under pressure."
+  },
+  {
+   "id": "s40",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "focused"
+    },
+    {
+     "pose": "shoot",
+     "at": "@move"
+    }
+   ],
+   "props": {
+    "r": "basketball"
+   },
+   "headline": {
+    "text": "Quiet eye",
+    "highlight": "Quiet",
+    "at": "@quiet",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "target",
+     "pos": [
+      1460,
+      700
+     ],
+     "at": "@target",
+     "size": 1.1
+    }
+   ],
+   "narration": "Then the look. The quiet eye is your final, steady look at the target just before you move."
+  },
+  {
+   "id": "s41",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Expert",
+    "face": "focused",
+    "gauge": {
+     "label": "Quiet eye",
+     "icon": "target",
+     "from": 10,
+     "to": 80,
+     "at": "@longer"
+    },
+    "poses": [
+     {
+      "pose": "ready",
+      "face": "focused"
+     },
+     {
+      "pose": "side_stand",
+      "face": "focused",
+      "at": "@longer"
+     }
+    ]
+   },
+   "right": {
+    "label": "Beginner",
+    "gauge": {
+     "label": "Quiet eye",
+     "icon": "target",
+     "from": 10,
+     "to": 35,
+     "at": "@longer"
+    },
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "shrug",
+      "at": "@longer"
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "Experts hold it longer than beginners. And across training studies, practising the quiet eye improved performance."
+  },
+  {
+   "id": "s42",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "point_up",
+     "at": "@corner"
+    },
+    {
+     "pose": "side_stand",
+     "face": "focused",
+     "at": "@eyes"
+    },
+    {
+     "pose": "kick",
+     "at": "@kicked"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "at": "@improve"
+    }
+   ],
+   "caption": {
+    "text": "Call the corner · look ~1 second · kick",
+    "at": "@corner"
+   },
+   "icons": [
+    {
+     "icon": "target",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@corner",
+     "size": 1
+    }
+   ],
+   "narration": "In one football study, players who called out their corner, held their eyes on it for about 1 second, and then kicked were the only group to improve in a pressure shootout."
+  },
+  {
+   "id": "s43",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.22,
+    "from": "@started",
+    "to": "@scored"
+   },
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "surprised"
+    },
+    {
+     "pose": "kick",
+     "at": "@scored"
+    }
+   ],
+   "headline": {
+    "text": "Don't rush",
+    "highlight": "rush",
+    "at": "@rush",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1500,
+      700
+     ],
+     "at": "@whistle",
+     "size": 1
+    }
+   ],
+   "narration": "And don't rush. In major tournament shootouts, players who started their run-up within about half a second of the whistle scored 68% of the time."
+  },
+  {
+   "id": "s44",
+   "kind": "chart",
+   "title": "Penalty shootouts: scored",
+   "unit": "%",
+   "max": 100,
+   "focus": 1,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "meditate",
+      "at": "@slow"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Rushed",
+     "value": 68,
+     "display": "68%",
+     "at": 0.2,
+     "color": "#E8423A"
+    },
+    {
+     "label": "Waited longer",
+     "value": 82,
+     "display": "82%",
+     "at": "@waited",
+     "color": "#3DBE6E"
+    }
+   ],
+   "narration": "Players who waited a moment longer scored 82%. Rushing might be a sign of nerves, but either way, slow down."
+  },
+  {
+   "id": "s45",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "focused"
+    },
+    {
+     "pose": "point_up",
+     "at": "@corner"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@helps"
+    }
+   ],
+   "headline": {
+    "text": "One cue word",
+    "highlight": "One",
+    "at": "@cue",
+    "side": "right"
+   },
+   "caption": {
+    "text": "corner · through · smooth",
+    "at": "@corner"
+   },
+   "narration": "Finally, one cue word, about the target, not your body. Something like corner, through or smooth. Self-talk like this helps, especially for precise skills."
+  },
+  {
+   "id": "s46",
+   "kind": "custom",
+   "file": "custom/routine.html",
+   "pauseAfter": 0.6,
+   "narration": "Drill one: build a 4-step routine. Set up, breathe, eyes on target, cue word. Then go. Use it on every rep in training, not just in matches."
+  },
+  {
+   "id": "s47",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "point_up"
+    },
+    {
+     "pose": "side_stand",
+     "face": "focused",
+     "at": "@hold"
+    },
+    {
+     "pose": "shoot",
+     "at": "@go"
+    }
+   ],
+   "props": {
+    "r": "basketball"
+   },
+   "headline": {
+    "text": "Quiet-eye drill",
+    "highlight": "Quiet-eye",
+    "at": "@quiet-eye",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "target",
+     "pos": [
+      1460,
+      700
+     ],
+     "at": "@target",
+     "size": 1.1
+    }
+   ],
+   "narration": "Drill two: the quiet-eye drill. Call your target, hold your eyes on it for about 1 second, then go."
+  },
+  {
+   "id": "s48",
+   "kind": "list",
+   "title": "Quiet-eye drill",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "shoot",
+      "side_stand"
+     ],
+     "period": 1.2
+    },
+    "props": {
+     "r": "basketball"
+    }
+   },
+   "items": [
+    {
+     "text": "At least 10 reps a session",
+     "icon": "target",
+     "at": "@Start"
+    },
+    {
+     "text": "For at least 3 weeks",
+     "icon": "clock",
+     "at": "@keep"
+    },
+    {
+     "text": "Like one small football study",
+     "icon": "check",
+     "at": "@roughly"
+    }
+   ],
+   "narration": "Start with at least 10 reps a session, and keep it up for at least 3 weeks. That's roughly what one small football study used."
+  },
+  {
+   "id": "s49",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.2,
+    "from": "@speeding",
+    "to": "@over"
+   },
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@over"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "near": "head",
+     "offset": [
+      120,
+      -110
+     ],
+     "at": "@over"
+    }
+   ],
+   "narration": "The common mistake is changing your routine in the big moment, or speeding it up to get it over with."
+  },
+  {
+   "id": "s50",
+   "kind": "title",
+   "chapter": "Reset after mistakes",
+   "number": 4,
+   "heading": "Reset after mistakes",
+   "sub": "Break the spiral",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "facepalm"
+     },
+     {
+      "pose": "ready",
+      "face": "determined",
+      "at": "@spiral"
+     }
+    ]
+   },
+   "transition": "push",
+   "narration": "Skill four: one mistake raises the chance of another, especially on the big points. That's the spiral."
+  },
+  {
+   "id": "s51",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "facepalm"
+    },
+    {
+     "pose": "wave",
+     "at": "@Close"
+    },
+    {
+     "pose": "ready",
+     "face": "happy",
+     "at": "@fresh"
+    }
+   ],
+   "headline": {
+    "text": "Close the tab",
+    "highlight": "Close",
+    "at": "@Close",
+    "side": "right"
+   },
+   "narration": "A reset is like closing all your browser tabs. Close the last point, and open one fresh tab for the next."
+  },
+  {
+   "id": "s52",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "present",
+     "at": "@routines"
+    }
+   ],
+   "caption": {
+    "text": "Built from routine + self-talk research",
+    "at": "@routines"
+   },
+   "narration": "This part has less direct research behind it. It takes what works for routines and self-talk, and uses it between points."
+  },
+  {
+   "id": "s53",
+   "kind": "list",
+   "title": "The reset",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "side_stand",
+      "facing": "left"
+     },
+     {
+      "pose": "meditate",
+      "at": "@Breathe"
+     },
+     {
+      "pose": "point_up",
+      "at": "@Refocus"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Release: turn away",
+     "icon": "check",
+     "at": "@Release"
+    },
+    {
+     "text": "Breathe: one slow breath out",
+     "icon": "lungs",
+     "at": "@Breathe"
+    },
+    {
+     "text": "Refocus: one cue word",
+     "icon": "target",
+     "at": "@Refocus"
+    }
+   ],
+   "narration": "The reset has three steps. Release: turn away, or wipe your hands. Breathe: one slow breath out. Refocus: one cue word for the next play."
+  },
+  {
+   "id": "s54",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready",
+     "face": "focused",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "serve",
+     "at": "@routine"
+    }
+   ],
+   "props": {
+    "r": "racket"
+   },
+   "narration": "Then go straight into your normal routine."
+  },
+  {
+   "id": "s55",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "facepalm"
+    },
+    {
+     "pose": "side_stand",
+     "facing": "left",
+     "at": "@reset"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@automatic"
+    }
+   ],
+   "caption": {
+    "text": "After every error",
+    "at": "@every"
+   },
+   "narration": "Drill one: in training games, run the reset after every single error, so it becomes automatic."
+  },
+  {
+   "id": "s56",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.45,
+    "from": "@jog",
+    "to": "@clap"
+   },
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "run_a",
+     "at": "@jog"
+    },
+    {
+     "pose": "wave",
+     "face": "happy",
+     "at": "@clap"
+    },
+    {
+     "pose": "point_up",
+     "at": "@next"
+    }
+   ],
+   "headline": {
+    "text": "What-if plan",
+    "highlight": "What-if",
+    "at": "@what-if",
+    "side": "right"
+   },
+   "narration": "Drill two: write a what-if plan. If I miss, I'll jog back, clap my teammate, and say next."
+  },
+  {
+   "id": "s57",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "at": "@bad",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "serve",
+     "at": "@goals"
+    }
+   ],
+   "props": {
+    "r": "racket"
+   },
+   "caption": {
+    "text": "Start at 0–30 or 2 goals down",
+    "at": "@bad"
+   },
+   "narration": "Drill three: start practice games from a bad score, like 0-30 or two goals down."
+  },
+  {
+   "id": "s58",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "hands_hips",
+     "face": "happy"
+    },
+    {
+     "pose": "facepalm",
+     "face": "tired",
+     "at": "@Beating"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "near": "head",
+     "offset": [
+      120,
+      -110
+     ],
+     "at": "@Beating"
+    }
+   ],
+   "headline": {
+    "text": "Kind and useful",
+    "highlight": "Kind",
+    "at": "@kind",
+    "side": "right"
+   },
+   "narration": "Keep your self-talk kind and useful. Beating yourself up is not a reset."
+  },
+  {
+   "id": "s59",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Replay it",
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "facepalm",
+      "at": "@replaying"
+     },
+     {
+      "pose": "kick",
+      "face": "determined",
+      "at": "@chasing"
+     }
+    ]
+   },
+   "right": {
+    "label": "Reset",
+    "poses": [
+     {
+      "pose": "ready"
+     },
+     {
+      "pose": "side_stand",
+      "facing": "left",
+      "at": "@Errors"
+     },
+     {
+      "pose": "ready",
+      "face": "determined",
+      "at": "@break"
+     }
+    ]
+   },
+   "vs": "VS",
+   "narration": "The common mistake is replaying the error, or chasing it with a risky shot. Errors cluster under pressure, so break the chain."
+  },
+  {
+   "id": "s60",
+   "kind": "list",
+   "chapter": "Your week",
+   "title": "Your week",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "think",
+      "at": "@write"
+     },
+     {
+      "pose": "point_up",
+      "at": "@Practise"
+     }
+    ]
+   },
+   "focus": false,
+   "transition": "push",
+   "items": [
+    {
+     "text": "Write routine, cue word, what-if plan",
+     "icon": "check",
+     "at": "@write"
+    },
+    {
+     "text": "Routine + quiet eye, 3 × 10",
+     "icon": "target",
+     "at": "@Practise"
+    }
+   ],
+   "narration": "Here's a simple week. Early in the week, write your routine, your cue word and your what-if plan. Practise the routine with quiet eye, 3 sets of 10."
+  },
+  {
+   "id": "s61",
+   "kind": "mascot",
+   "background": "court",
+   "cycle": {
+    "poses": [
+     "shoot",
+     "side_stand"
+    ],
+    "period": 1,
+    "from": 0
+   },
+   "props": {
+    "r": "basketball"
+   },
+   "headline": {
+    "text": "Pressure block",
+    "highlight": "Pressure",
+    "at": "@pressure",
+    "side": "right"
+   },
+   "caption": {
+    "text": "10 reps · consequences · filmed",
+    "at": "@Ten"
+   },
+   "narration": "Midweek, a pressure block. Ten reps with consequences, filmed, with the routine on every rep and a reset after every miss."
+  },
+  {
+   "id": "s62",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready",
+     "face": "determined",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "serve",
+     "at": "@scores"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "at": "@ladder"
+    }
+   ],
+   "props": {
+    "r": "racket"
+   },
+   "caption": {
+    "text": "Bad-score games · must-make ladder",
+    "at": "@Later"
+   },
+   "narration": "Later, play games from bad scores, and finish with a must-make ladder."
+  },
+  {
+   "id": "s63",
+   "kind": "list",
+   "title": "Match day",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "ready",
+      "face": "focused"
+     },
+     {
+      "pose": "point_up",
+      "at": "@reset"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Same routine, every key moment",
+     "icon": "check",
+     "at": "@same"
+    },
+    {
+     "text": "Don't rush",
+     "icon": "stopwatch",
+     "at": "@rush"
+    },
+    {
+     "text": "Reset after every mistake",
+     "icon": "target",
+     "at": "@reset"
+    }
+   ],
+   "narration": "On match day, use the same routine on every key moment. Don't rush, and reset after every mistake."
+  },
+  {
+   "id": "s64",
+   "kind": "lineup",
+   "chapter": "Recap",
+   "title": "Before · During · After",
+   "transition": "push",
+   "members": [
+    {
+     "pose": "shoot",
+     "props": {
+      "r": "basketball"
+     },
+     "label": "Before",
+     "sub": "train it, reframe it",
+     "at": "@Before"
+    },
+    {
+     "pose": "side_stand",
+     "face": "focused",
+     "label": "During",
+     "sub": "lock in",
+     "at": "@During"
+    },
+    {
+     "pose": "ready",
+     "face": "determined",
+     "label": "After a mistake",
+     "sub": "reset",
+     "at": "@After"
+    }
+   ],
+   "narration": "Before the match, train the pressure and reframe the nerves. During it, lock in. After a mistake, reset."
+  },
+  {
+   "id": "s65",
+   "kind": "mascot",
+   "background": "court",
+   "pauseAfter": 1,
+   "poses": [
+    {
+     "pose": "ready",
+     "face": "focused",
+     "rUpper": -35,
+     "rFore": -95
+    },
+    {
+     "pose": "serve",
+     "at": "@know"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "at": "@them"
+    }
+   ],
+   "props": {
+    "r": "racket"
+   },
+   "caption": {
+    "text": "Match point",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1500,
+      280
+     ],
+     "pulse": true,
+     "at": "@nerves",
+     "size": 1
+    }
+   ],
+   "narration": "The nerves will still show up at match point. This time, you'll know exactly what to do with them."
+  }
+ ],
+ "thumbnail": {
+  "pose": "facepalm",
+  "props": {},
+  "background": "field",
+  "headline": "Stop choking",
+  "highlight": "choking",
+  "icons": [
+   {
+    "icon": "heart"
+   }
+  ],
+  "opponent": {
+   "pose": "celebrate"
+  },
+  "side": "right"
+ },
+ "youtube": {
+  "title": "How to never choke under pressure",
+  "titleOptions": [
+   "Why you choke in big moments (and how to stop)",
+   "The 4 skills that stop you choking"
+  ],
+  "description": "Match point, a penalty to win, two free throws with the game on the line. Here's why skills fall apart under pressure, and the four evidence-based skills that help you play closer to your best when it matters: train the pressure, reframe the nerves, lock in, and reset after mistakes.",
+  "tags": [
+   "choking under pressure",
+   "sports psychology",
+   "mental game",
+   "how to not choke",
+   "pre-performance routine",
+   "quiet eye",
+   "penalty kicks",
+   "free throw routine",
+   "tennis mental game",
+   "performance anxiety sport",
+   "nerves before a game",
+   "athlete mindset"
+  ]
+ }
+}

@@ -293,7 +293,7 @@ export function propSvg(name, c = colors()) {
   if (!name) return "";
   const ink = c.ink;
   const P = {
-    racket: `<g transform="rotate(180)"><rect x="-6" y="-8" width="12" height="70" rx="5" fill="#333" stroke="${ink}" stroke-width="4"/>
+    racket: `<g transform="rotate(20)"><rect x="-6" y="-8" width="12" height="70" rx="5" fill="#333" stroke="${ink}" stroke-width="4"/>
       <ellipse cx="0" cy="118" rx="44" ry="56" fill="rgba(255,255,255,.35)" stroke="${ink}" stroke-width="7"/>
       <path d="M-30 90 L30 90 M-38 110 L38 110 M-38 130 L38 130 M-30 150 L30 150 M-20 70 L-20 168 M0 64 L0 172 M20 70 L20 168" stroke="${ink}" stroke-width="2" opacity=".55"/></g>`,
     badminton: `<g transform="rotate(20)"><rect x="-4" y="-8" width="9" height="34" rx="4" fill="#333" stroke="${ink}" stroke-width="4"/><path d="M0 26 L0 92" stroke="${ink}" stroke-width="5"/>

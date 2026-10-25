@@ -1,0 +1,45 @@
+<!-- Hero scene: the lock-in routine. Five steps light up in order; the "eyes on target" step shows a ~1 s hold bar. -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root .row  { position:absolute; left:110px; right:110px; top:390px; height:260px; display:flex; gap:28px; }
+    #__ID__-root .step { flex:1; position:relative; border:8px solid var(--ink); border-radius:30px; background:#fff; display:flex; flex-direction:column; align-items:center; justify-content:center; opacity:.28; }
+    #__ID__-root .num  { font:700 44px var(--display); color:var(--accent); }
+    #__ID__-root .lab  { font:700 52px/1.05 var(--display); text-transform:uppercase; color:var(--ink); text-align:center; margin-top:6px; }
+    #__ID__-root .go   { background:var(--brand); }
+    #__ID__-root .go .lab, #__ID__-root .go .num { color:#fff; }
+    #__ID__-root .arrow{ position:absolute; top:505px; width:28px; height:28px; border-top:7px solid var(--ink); border-right:7px solid var(--ink); transform:rotate(45deg); opacity:.4; }
+    #__ID__-root .hold { position:absolute; left:0; right:0; bottom:-70px; height:22px; border:5px solid var(--ink); border-radius:14px; background:#fff; overflow:hidden; }
+    #__ID__-root .holdf{ position:absolute; left:0; top:0; bottom:0; width:100%; background:var(--good); transform-origin:0 50%; }
+    #__ID__-root .holdt{ position:absolute; left:0; right:0; bottom:-120px; text-align:center; font:600 30px var(--sans); color:var(--ink); }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:150px;text-align:center">Your routine: 4 steps, then go</div>
+  <div class="row">
+    <div class="step" id="__ID__-s1"><div class="num">1</div><div class="lab">Set up</div></div>
+    <div class="step" id="__ID__-s2"><div class="num">2</div><div class="lab">Breathe</div></div>
+    <div class="step" id="__ID__-s3"><div class="num">3</div><div class="lab">Eyes on<br>target</div>
+      <div class="hold"><div class="holdf" id="__ID__-h"></div></div><div class="holdt" id="__ID__-ht">about 1 second</div></div>
+    <div class="step" id="__ID__-s4"><div class="num">4</div><div class="lab">Cue<br>word</div></div>
+    <div class="step go" id="__ID__-s5"><div class="num">→</div><div class="lab">Go</div></div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.05);
+  // Synced to the narration: "Set up" 2.5 s, "breathe" 3.06, "eyes on target" 3.7, "cue word" 4.9, "Then go" 6.34 (timings.json).
+  var T = [2.45, 3.0, 3.65, 4.85, 6.3];
+  for (var i = 1; i <= 5; i++) {
+    var t = Math.min(T[i - 1], D - 0.6);
+    tl.fromTo("#__ID__-s" + i, { opacity: 0.28, scale: 0.94 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2)" }, t);
+    if (i < 5) tl.to("#__ID__-s" + i, { opacity: 0.55, duration: 0.25 }, Math.min(T[i], D - 0.6) - 0.05);
+  }
+  tl.fromTo("#__ID__-h", { scaleX: 0 }, { scaleX: 1, duration: 1.0, ease: "none" }, 3.75);
+  tl.fromTo("#__ID__-ht", { opacity: 0 }, { opacity: 1, duration: 0.3 }, 3.75);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

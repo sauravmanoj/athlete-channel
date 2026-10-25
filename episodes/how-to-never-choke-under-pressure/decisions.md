@@ -1,0 +1,10 @@
+# Decisions — How to never choke under pressure
+
+- 2026-10-25 · The user asked for an episode inspired by https://youtu.be/2TKRSX9tbNQ (The Blue Guy, "How to perform at your best mentally during a match"). Per hard rule 3 (original), we only take the topic area, mental performance in matches. Our own title (never-choke angle), framework, script and visuals. Not checked: that video's script or structure; we never copy them.
+- 2026-10-25 · Title "How to never choke under pressure" (template: never-X / mental-game). It's for all sports, with examples from tennis, football, basketball and badminton. The script must include an honest line (nerves don't disappear; you learn to perform with them).
+- 2026-10-25 · Research: 20 sources (S21 added by the fact-checker). The reset part has no controlled trial, and the script says so ("less direct research behind it").
+- 2026-10-25 · Fact-check: two passes. 11 wording fixes (e.g. "can happen to anyone", the karaoke-only comparison, the reframing-cue caveat, the quiet-eye dose framed as a starting point). Safety: mental-health signpost + under-18 line.
+- 2026-10-25 · Visuals: 65 scenes across 4 sports (tennis serve, penalty, free throw, golf). The hero scene `custom/routine.html` shows "4 steps, then go" with a ~1 s quiet-eye bar. Forfeits are never shown as punishment exercise (fact-check note).
+- 2026-10-25 · Pipeline: the tennis `racket` prop had the same backwards orientation as the badminton one. Fixed in rig.mjs (`rotate(20)`), and racket-holding ready poses raise the arm.
+- 2026-10-25 · Thumbnail text is "Stop choking", not "Never choke again", so it doesn't over-promise. Title template still "How to never choke under pressure".
+- 2026-10-25 · Visual QA: two reviewer passes. The 6 majors from pass 1 and 2 from pass 2 (static holds in s28 and s59) are fixed and checked on screen. Chart bars use hex colours because CSS variables render blank. I approved without a third reviewer pass. Minors left: the `shrug` pose reads as hands-on-hips, small sub-labels in s64, and the serve pose hides the face.

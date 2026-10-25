@@ -1,0 +1,212 @@
+[
+  {
+    "id": "S1",
+    "title": "Choking interventions in sports: A systematic review",
+    "author": "Gröpel, P.; Mesagno, C.",
+    "publisher": "International Review of Sport and Exercise Psychology 12(1):176–201 (online 2017)",
+    "year": "2019",
+    "url": "https://lida.sport-iat.de/ta/Record/4055257",
+    "type": "review",
+    "notes": "47 studies to Apr 2017; interventions grouped as distraction-based, self-focus-based, acclimatisation. Best supported: pre-performance routines, quiet eye training, left-hand contractions, acclimatisation (pressure) training. Dual-task helped under pressure but hurt in training; analogy learning mixed; goal setting, neurofeedback and reappraisal cues showed null effects. DOI 10.1080/1750984X.2017.1408134. Abstract only."
+  },
+  {
+    "id": "S2",
+    "title": "Pressure Training for Performance Domains: A Meta-Analysis",
+    "author": "Low, W.R.; Sandercock, G.R.H.; Freeman, P.; Winter, M.E.; Butt, J.; Maynard, I.",
+    "publisher": "Sport, Exercise, and Performance Psychology 10(1):149–163",
+    "year": "2021",
+    "url": "https://shura.shu.ac.uk/25578/",
+    "type": "review",
+    "notes": "14 studies (10 sport, 4 law enforcement), n=394; pressure training vs control on pressurised posttests g=0.67 (95% CI 0.43–1.12), I²=17%. Benefits novices and experienced, open and closed tasks; no clear dose moderator. Pressure created via rewards, punishments, evaluation by coaches; consequences raise anxiety more than higher demands; practising under pressure beats mere exposure (Oudejans & Pijpers darts). Coaches should create pressurised environments rather than add volume. Read accepted manuscript pp.1–5."
+  },
+  {
+    "id": "S3",
+    "title": "The effectiveness of pre-performance routines in sports: a meta-analysis",
+    "author": "Rupprecht, A.G.O.; Tran, U.S.; Gröpel, P.",
+    "publisher": "International Review of Sport and Exercise Psychology 17(1):39–64",
+    "year": "2024 (online 2021)",
+    "url": "https://lida.sport-iat.de/ta/Record/4088526?lng=en",
+    "type": "review",
+    "notes": "PPR = set of task-relevant thoughts and actions before performing. 112 effect sizes. Pre-post SMC=0.31; experimental designs g=0.64 (low pressure) and g=0.70 (pressure). No moderation by routine type, age, gender, skill level. Both multi-element and stand-alone routines (left-hand handgrip, quiet eye) effective. DOI 10.1080/1750984X.2021.1944271. Abstract only."
+  },
+  {
+    "id": "S4",
+    "title": "Quiet eye and performance in sport: A meta-analysis",
+    "author": "Lebeau, J.C.; Liu, S.; Sáenz-Moncaleano, C.; Sanduvete-Chaves, S.; Chacón-Moscoso, S.; Becker, B.J.; Tenenbaum, G.",
+    "publisher": "Journal of Sport & Exercise Psychology 38(5):441–457",
+    "year": "2016",
+    "url": "https://lida.sport-iat.de/ta/Record/4045573?lng=en",
+    "type": "review",
+    "notes": "Quiet eye = final fixation before a motor action. 27 non-intervention studies: experts vs novices d=1.04; successful vs unsuccessful attempts d=0.58. 9 intervention studies: QE duration d=1.53, performance d=0.84. Abstract only."
+  },
+  {
+    "id": "S5",
+    "title": "Superiority of External Attentional Focus for Motor Performance and Learning: Systematic Reviews and Meta-Analyses",
+    "author": "Chua, L.-K.; Jimenez-Diaz, J.; Lewthwaite, R.; Kim, T.; Wulf, G.",
+    "publisher": "Psychological Bulletin 147(6):618–645",
+    "year": "2021",
+    "url": "https://pure.psu.edu/en/publications/superiority-of-external-attentional-focus-for-motor-performance-a/",
+    "type": "review",
+    "notes": "73 studies/1,824 participants (performance): external vs internal focus g=0.264; retention g=0.583; transfer g=0.584; distal > proximal external focus g=0.224. Read p.1 of full PDF."
+  },
+  {
+    "id": "S6",
+    "title": "Reporting bias, not external focus: A robust Bayesian meta-analysis and systematic review of the attentional focus literature",
+    "author": "McKay, B.; Corson, A.E.; Seedu, J.; De Faveri, C.S.; Hasan, H.; Arnold, K.; Adams, F.C.; Carter, M.J.",
+    "publisher": "Psychological Bulletin 150(11):1347–1362 (accepted manuscript via SportRxiv)",
+    "year": "2024",
+    "url": "https://sportrxiv.org/index.php/server/preprint/view/304",
+    "type": "review",
+    "notes": "Re-analysis of the external-focus literature: moderate-to-strong evidence of publication bias; after correction effects negligible (performance g=0.01, retention 0.15, transfer 0.09); heterogeneity suggests context-dependent effects; contradicts 'external focus is always better'. Read abstract pp.1–2."
+  },
+  {
+    "id": "S7",
+    "title": "Self-talk and sports performance: A meta-analysis",
+    "author": "Hatzigeorgiadis, A.; Zourbanos, N.; Galanis, E.; Theodorakis, Y.",
+    "publisher": "Perspectives on Psychological Science 6(4):348–356",
+    "year": "2011",
+    "url": "https://www.psychologicalscience.org/journals/perspectives/1745691611413136/",
+    "type": "review",
+    "notes": "32 studies, 62 ES; overall ES=0.48 (moderate). Larger for fine vs gross motor tasks and novel vs well-learned tasks; instructional > motivational for fine tasks; interventions that trained self-talk more effective."
+  },
+  {
+    "id": "S8",
+    "title": "Get Excited: Reappraising Pre-Performance Anxiety as Excitement",
+    "author": "Brooks, A.W.",
+    "publisher": "Journal of Experimental Psychology: General 143(3):1144–1158",
+    "year": "2014",
+    "url": "https://www.apa.org/pubs/journals/releases/xge-a0035325.pdf",
+    "type": "trial",
+    "notes": ">90% of people believe 'try to calm down' is best. Saying 'I am excited' out loud increased excitement and performance in karaoke (n=113: accuracy 80.5% excited vs 69.3% no statement vs 53.0% anxious), public speaking (n=140) and maths. Heart rate stayed high — reappraisal changes interpretation, not arousal. Non-sport tasks, student samples. Read pp.1144–1149."
+  },
+  {
+    "id": "S9",
+    "title": "Champ or chump? Challenge and threat states during pressurized competition",
+    "author": "Moore, L.J.; Wilson, M.R.; Vine, S.J.; Coussens, A.H.; Freeman, P.",
+    "publisher": "Journal of Sport & Exercise Psychology 35:551–562",
+    "year": "2013",
+    "url": "https://eprints.glos.ac.uk/2878/",
+    "type": "trial",
+    "notes": "Study 1: 199 club golfers; evaluating competition as a challenge (resources ≥ demands) associated with better competitive scores. Study 2: 60 experienced golfers randomised to challenge vs threat instructions; challenge group putted better, reported less anxiety, more facilitative interpretation of anxiety, less conscious processing, longer quiet eye (none mediated the effect). Defines challenge/threat (BPSM, TCTSA Jones et al. 2009); both states involve high arousal. Read post-print pp.1–8."
+  },
+  {
+    "id": "S10",
+    "title": "When Superstars Flop: Public Status and Choking Under Pressure in International Soccer Penalty Shootouts",
+    "author": "Jordet, G.",
+    "publisher": "Journal of Applied Sport Psychology 21:125–130",
+    "year": "2009",
+    "url": "https://www.gwern.net/doc/statistics/bias/2009-jordet.pdf",
+    "type": "trial",
+    "notes": "Video analysis of all shootouts in World Cup, Euros, Champions League to 2007: 37 shootouts, 366 kicks. Overall 73.8% scored. Response time (whistle to first step): quick ≤0.40 s 68.2% vs slow ≥0.77 s 82.4% (OR 0.46, p=.023). Current award-winning 'superstars' 65.0% vs future-status 88.9%. Defines choking (Baumeister 1984) and summarises explicit-monitoring vs distraction hypotheses. Recommends routines that take extra seconds. Observational; small multivariate effects. Full text read."
+  },
+  {
+    "id": "S11",
+    "title": "Temporal links to performing under pressure in international soccer penalty shootouts (as reported in BPS Research Digest)",
+    "author": "Jordet, G.; Hartman, E.; Sigmundstad, E.",
+    "publisher": "Psychology of Sport and Exercise 10(6):621–627; summary by British Psychological Society Research Digest",
+    "year": "2009",
+    "url": "https://bps.org.uk/research-digest/football-players-who-rush-penalty-kicks-are-less-likely-score",
+    "type": "trial",
+    "notes": "Per BPS digest: players starting run-up <200 ms after whistle scored ~57%; >1 s ~80%. Referee-imposed delays associated with lower scoring. 'Short self-imposed times and long externally imposed waiting times accompany low performance.' Retrospective; some small subgroups. Secondary summary only."
+  },
+  {
+    "id": "S12",
+    "title": "The BASES Expert Statement on the Psychological Preparation for Football Penalty Shootouts",
+    "author": "Wilson, M.; Wood, G.; Jordet, G.",
+    "publisher": "British Association of Sport and Exercise Sciences, The Sport and Exercise Scientist 38",
+    "year": "2013",
+    "url": "https://www.cases.org.uk/imgs/545_expert_statement_on_psychological_preparation_for_football_penalty_shootouts557.pdf",
+    "type": "position-stand",
+    "notes": "Anxiety biggest factor in shootout failure. <60% scored when a miss = loss vs 92% when a goal wins (Jordet 2007). <1 s placing ball ~58% vs longer ~80%; ~1 s+ response to whistle better. Anxiety pulls gaze to keeper and shots toward keeper (Wilson et al. 2009). Keeper-independent strategy more accurate. Recommendations: routine with gaze control element, target practice to all corners, innovative pressure in training, 'what if' plans for misses, don't rush, take a breath while looking at target, celebrate (82% of substantial celebrators on tied kicks end up winning, Moll 2010). Full text read."
+  },
+  {
+    "id": "S13",
+    "title": "Quiet-eye training, perceived control and performing under pressure (BPS Research Digest summary)",
+    "author": "Wood, G.; Wilson, M.R.",
+    "publisher": "Psychology of Sport and Exercise 13:721–728; summary by British Psychological Society Research Digest",
+    "year": "2012",
+    "url": "https://www.bps.org.uk/research-digest/eye-movement-training-helps-penalty-takers-football-feel-more-control",
+    "type": "trial",
+    "notes": "20 university players; QE group 10 kicks/week × 3 weeks: call target corner, fixate ~1 s, then run up. Only QE group improved vs baseline in a £100 competitive shootout and kept perceived-control gains; anxiety not lower than control. Limitation: extra structure may explain effect."
+  },
+  {
+    "id": "S14",
+    "title": "On the fragility of skilled performance: What governs choking under pressure? (Scientific American summary)",
+    "author": "Beilock, S.L.; Carr, T.H.",
+    "publisher": "Journal of Experimental Psychology: General 130:701–725; summary by Scientific American",
+    "year": "2001",
+    "url": "https://www.scientificamerican.com/article/athletes-can-train-to-avo",
+    "type": "trial",
+    "notes": "54 novice golfers trained to high putting skill under: normal practice, dual-task distraction, or self-consciousness (videotaped, told a pro would critique). Similar under low pressure; under high pressure control and distraction groups worsened, self-consciousness-trained group did not (improved). Supports explicit monitoring + acclimatisation training. Secondary summary."
+  },
+  {
+    "id": "S15",
+    "title": "Anxiety and Cognitive Performance: Attentional Control Theory",
+    "author": "Eysenck, M.W.; Derakshan, N.; Santos, R.; Calvo, M.G.",
+    "publisher": "Emotion 7(2):336–353",
+    "year": "2007",
+    "url": "https://tu-dresden.de/mn/psychologie/allgpsy/ressourcen/dateien/lehre/pruefungsliteratur_KN_2013/Eysenck-2007.pdf",
+    "type": "review",
+    "notes": "Anxiety impairs the goal-directed attentional system, increases stimulus-driven processing and attention to threat; affects inhibition and shifting; may not reduce performance if compensated by extra effort (efficiency vs effectiveness). Read p.336."
+  },
+  {
+    "id": "S16",
+    "title": "Psychological pressure and compounded errors during elite-level tennis",
+    "author": "Harris, D.J.; Vine, S.J.; Eysenck, M.W.; Wilson, M.R.",
+    "publisher": "Psychology of Sport and Exercise 56:101987",
+    "year": "2021",
+    "url": "https://lida.sport-iat.de/svd/Record/4071036",
+    "type": "trial",
+    "notes": ">650,000 points, 12 Grand Slams 2016–19. Higher pressure (break points, match stage) raised probability of double faults/unforced errors; an error on the previous point also raised it, more so under high pressure (supports ACT:Sport). Winners and losers similarly affected. Observational; abstract only."
+  },
+  {
+    "id": "S17",
+    "title": "Effects of voluntary slow breathing on heart rate and heart rate variability: A systematic review and a meta-analysis",
+    "author": "Laborde, S.; Allen, M.S.; Borges, U.; et al.",
+    "publisher": "Neuroscience & Biobehavioral Reviews 138:104711",
+    "year": "2022",
+    "url": "https://eprints.bournemouth.ac.uk/38169/",
+    "type": "review",
+    "notes": "223 studies; slow breathing increases vagally-mediated HRV during, immediately after one session, and after multi-session interventions; low-cost, few adverse effects expected. Physiological outcome, not sport performance. Abstract only."
+  },
+  {
+    "id": "S18",
+    "title": "Relaxation techniques in sports: A systematic review on acute effects on performance",
+    "author": "Pelka, M.; Heidari, J.; Ferrauti, A.; Meyer, T.; Pfeiffer, M.; Kellmann, M.",
+    "publisher": "Performance Enhancement & Health 5(2):47–59",
+    "year": "2016",
+    "url": "https://lida.sport-iat.de/ta/Record/4041799?lng=en",
+    "type": "review",
+    "notes": "21 RCTs; biofeedback and hypnosis most effective; techniques that work clinically gave inconsistent results in sport; trial quality often low; responses highly individual. Abstract only."
+  },
+  {
+    "id": "S19",
+    "title": "Individual vs. Team Sport Failure: Similarities, Differences, and Current Developments",
+    "author": "Wergin, V.V.; Mallett, C.J.; Beckmann, J.",
+    "publisher": "Frontiers in Psychology 13:930025",
+    "year": "2022",
+    "url": "https://www.frontiersin.org/articles/10.3389/fpsyg.2022.930025/full",
+    "type": "review",
+    "notes": "Narrative review. Choking = performance decrement when importance of performing well rises (Baumeister 1984); attention-based models (self-focus vs distraction) and self-presentation models. Interventions: routines, self-talk, quiet eye, analogy learning, reappraisal, simulation training, breathing, left-hand handgrip (10–15 s). States intervention effectiveness remains contested; recommendations modest."
+  },
+  {
+    "id": "S20",
+    "title": "Mental health in elite athletes: International Olympic Committee consensus statement (2019)",
+    "author": "Reardon, C.L.; Hainline, B.; Aron, C.M.; et al.; Engebretsen, L.",
+    "publisher": "British Journal of Sports Medicine 53(11):667–699",
+    "year": "2019",
+    "url": "https://experts.arizona.edu/en/publications/mental-health-in-elite-athletes-international-olympic-committee-c/",
+    "type": "position-stand",
+    "notes": "Mental health symptoms/disorders are common in athletes, can impair performance, raise injury risk and slow recovery; need to distinguish normal athlete traits from maladaptation; management should involve individual treatment and environment changes. Abstract only. Supports the 'see a professional' line."
+  },
+  {
+    "id": "S21",
+    "title": "Anxiety, attentional control, and performance impairment in penalty kicks",
+    "author": "Wilson MR, Wood G, Vine SJ",
+    "publisher": "Journal of Sport & Exercise Psychology 31(6):761–775",
+    "year": "2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20384011/",
+    "type": "trial",
+    "notes": "14 experienced footballers; under high threat: faster first fixations and longer fixation on the goalkeeper, more central shots (abstract; added by fact-checker)."
+  }
+]
