@@ -1,0 +1,16 @@
+node_modules/
+pipeline/runtime/
+.DS_Store
+
+# Regenerated per episode — keep the decisions (json/md), not the bulky outputs
+episodes/*/project/
+episodes/*/thumb/
+episodes/*/review/
+episodes/*/renders/
+episodes/*/audio/scenes/
+pose-sheet/
+episodes/*/publish/*.mp4
+episodes/*/audio/narration.wav
+
+music/*
+!music/README.md

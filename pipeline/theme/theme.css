@@ -1,0 +1,35 @@
+/* Flat explainer look: soft light background, navy ink, one warm brand color, bold condensed headlines. */
+:root {
+  --bg: #E9ECF2;
+  --bg-2: #DDE2EC;
+  --ink: #1C2140;
+  --ink-2: #4A5170;
+  --muted: #8A90A6;
+  --brand: #F2913D;      /* overwritten from channel.json mascot.body at build */
+  --accent: #E8423A;     /* mascot.accent */
+  --hl: #FFD23F;         /* highlight */
+  --good: #3DBE6E;
+  --bad: #E8423A;
+  --blue: #3C7BE0;
+  --display: "Oswald", Impact, "Arial Narrow", sans-serif;
+  --sans: "Inter", Helvetica, Arial, sans-serif;
+}
+html, body { margin: 0; background: #000; }
+#root { position: relative; width: 1920px; height: 1080px; overflow: hidden; background: var(--bg); }
+.scene { position: absolute; inset: 0; overflow: hidden; font-family: var(--sans); color: var(--ink); background: var(--bg); }
+.stage { position: absolute; inset: 0; transform-origin: 50% 55%; }
+.full { position: absolute; inset: 0; }
+svg.full { width: 1920px; height: 1080px; overflow: visible; }
+
+.headline { position: absolute; font: 700 92px/1.02 var(--display); text-transform: uppercase; letter-spacing: .01em; color: var(--ink); }
+.headline .hl { color: var(--accent); }
+.on-dark .headline, .on-dark .label { color: #fff; }
+.label { font: 700 40px/1 var(--display); text-transform: uppercase; letter-spacing: .03em; color: var(--ink); }
+.chip { display: inline-block; background: var(--ink); color: #fff; font: 700 30px/1 var(--display); letter-spacing: .06em; text-transform: uppercase; padding: 12px 20px 10px; border-radius: 10px; }
+.chip.brand { background: var(--accent); }
+.callout { position: absolute; font: 700 30px/1 var(--display); text-transform: uppercase; letter-spacing: .04em; background: #fff; color: var(--ink); border: 4px solid var(--ink); border-radius: 12px; padding: 10px 16px 8px; white-space: nowrap; box-shadow: 0 6px 0 var(--ink); }
+.gauge { position: absolute; width: 420px; }
+.gauge .gl { font: 700 30px/1 var(--display); text-transform: uppercase; letter-spacing: .05em; margin-bottom: 10px; display: flex; align-items: center; gap: 10px; }
+.gauge .track { height: 34px; border: 5px solid var(--ink); border-radius: 12px; background: #fff; overflow: hidden; }
+.gauge .fill { height: 100%; background: var(--good); transform-origin: 0 50%; }
+.card { background: #fff; border: 5px solid var(--ink); border-radius: 18px; box-shadow: 0 8px 0 var(--ink); }

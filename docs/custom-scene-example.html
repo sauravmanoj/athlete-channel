@@ -1,0 +1,31 @@
+<!-- Example custom hero scene: three "engines" filling and emptying over time.
+     Copy to episodes/<slug>/custom/<id>.html and use {"kind":"custom","file":"custom/<id>.html"}.
+     __ID__ and __DURATION__ are replaced at build time. Keep ids prefixed with __ID__-. -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root .tank { position:absolute; bottom:220px; width:280px; height:520px; border:8px solid var(--ink); border-radius:28px; background:#fff; overflow:hidden; }
+    #__ID__-root .lvl  { position:absolute; left:0; right:0; bottom:0; height:100%; transform-origin:50% 100%; }
+    #__ID__-root .cap  { position:absolute; bottom:130px; width:280px; text-align:center; font:700 44px var(--display); text-transform:uppercase; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:70px;text-align:center">Three engines, three timers</div>
+  <div class="tank" style="left:330px"><div class="lvl" id="__ID__-a" style="background:var(--bad)"></div></div>
+  <div class="tank" style="left:820px"><div class="lvl" id="__ID__-b" style="background:var(--hl)"></div></div>
+  <div class="tank" style="left:1310px"><div class="lvl" id="__ID__-c" style="background:var(--good)"></div></div>
+  <div class="cap" style="left:330px">Sprint</div><div class="cap" style="left:820px">Hard</div><div class="cap" style="left:1310px">Endurance</div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  // drain at different speeds: sprint empties fast, endurance barely moves
+  tl.fromTo("#__ID__-a", { scaleY: 1 }, { scaleY: 0.05, duration: 1.2, ease: "power2.in" }, 0.8);
+  tl.fromTo("#__ID__-b", { scaleY: 1 }, { scaleY: 0.25, duration: Math.max(1.5, D * 0.5), ease: "none" }, 0.8);
+  tl.fromTo("#__ID__-c", { scaleY: 1 }, { scaleY: 0.8, duration: Math.max(2, D - 1.2), ease: "none" }, 0.8);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

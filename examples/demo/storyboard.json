@@ -1,0 +1,38 @@
+{
+  "title": "Demo: Why you run out of energy",
+  "scenes": [
+    {"id": "s01", "kind": "mascot", "chapter": "Intro", "background": "court", "transition": "fade",
+     "poses": [{"pose": "run_a"}, {"pose": "hands_knees", "at": "@gas"}],
+     "cycle": {"poses": ["run_a", "run_b"], "period": 0.3, "to": "@gas-0.3"},
+     "icons": [{"icon": "battery", "level": 0.9, "levelTo": 0.1, "levelAt": "@second", "pos": [1500, 260], "size": 1.4}],
+     "narration": "It's the second set and you're out of gas, while your opponent looks like they just warmed up."},
+    {"id": "s02", "kind": "slam", "text": "Three energy systems", "highlight": "Three", "style": "dark",
+     "narration": "The fix starts with three energy systems."},
+    {"id": "s03", "kind": "lineup", "chapter": "The three engines", "title": "Your three engines",
+     "members": [
+       {"pose": "sprint", "label": "Sprint", "sub": "0–10 s", "at": "@sprint"},
+       {"pose": "hands_knees", "label": "Hard effort", "sub": "30 s – 2 min", "at": "@hard"},
+       {"pose": "walk_a", "label": "Endurance", "sub": "minutes to hours", "at": "@long"}],
+     "narration": "One for an all-out sprint, one for hard efforts that last up to two minutes, and one for long, steady work."},
+    {"id": "s04", "kind": "mascot", "background": "spotlight", "poses": [{"pose": "stand"}, {"pose": "flex", "at": "@legs"}],
+     "headline": {"text": "Train each one", "highlight": "each", "at": "@train"},
+     "callouts": [{"label": "Legs", "target": "rThigh", "at": "@legs"}, {"label": "Lungs", "target": "chest", "at": "@lungs", "side": "left"}],
+     "narration": "So you train each one on purpose: your legs for power, your heart and lungs for the long game."},
+    {"id": "s05", "kind": "versus", "chapter": "Why it matters",
+     "left": {"label": "You", "pose": "ready", "gauge": {"label": "Energy", "icon": "bolt", "from": 90, "to": 70, "at": "@stays"}},
+     "right": {"label": "Opponent", "pose": "tired_front", "gauge": {"label": "Energy", "icon": "bolt", "from": 90, "to": 15, "at": "@fades"}},
+     "narration": "Do that and your energy stays high late in the match, while theirs fades."},
+    {"id": "s06", "kind": "list", "title": "This week", "mascot": {"pose": "point_up"},
+     "items": [{"text": "Two short sprint sessions", "icon": "bolt", "at": "@sprint"}, {"text": "One interval workout", "icon": "stopwatch", "at": "@interval"}, {"text": "One long easy run", "icon": "heart", "at": "@easy"}],
+     "narration": "This week, add two short sprint sessions, one interval workout, and one long easy run."},
+    {"id": "s07", "kind": "chart", "title": "Effort by system", "unit": " s", "focus": 1,
+     "bars": [{"label": "Sprint", "value": 10, "display": "~10 s"}, {"label": "Hard", "value": 120, "display": "up to 2 min"}, {"label": "Endurance", "value": 300, "display": "minutes+"}],
+     "narration": "Each one covers a different stretch of effort, from ten seconds to hours."},
+    {"id": "s08", "kind": "stat", "chapter": "Wrap-up", "value": 3, "suffix": " systems", "label": "One plan", "mascot": {"pose": "arms_crossed"},
+     "narration": "Three systems. One plan."},
+    {"id": "s09", "kind": "title", "number": 1, "heading": "Next: sprint drills", "mascot": {"pose": "celebrate"},
+     "narration": "Next time, the sprint drills."}
+  ],
+  "thumbnail": {"pose": "hands_knees", "headline": "Never get tired", "highlight": "tired", "background": "court", "icons": [{"icon": "battery", "level": 0.1}]},
+  "youtube": {"title": "Why You Run Out of Energy (Demo)", "titleOptions": ["Never Get Tired in Your Sport"], "description": "A short demo of the pipeline.", "tags": ["endurance", "energy systems", "athlete training"]}
+}

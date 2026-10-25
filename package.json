@@ -1,0 +1,14 @@
+{
+  "name": "athlete-channel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI-run mascot explainer channel pipeline (Claude Code + HyperFrames)",
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@fontsource/inter": "^5.0.0",
+    "@fontsource/oswald": "^5.0.0",
+    "gsap": "^3.13.0",
+    "hyperframes": "0.8.192"
+  }
+}

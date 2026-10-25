@@ -1,0 +1,27 @@
+{
+  "name": "Your Channel Name",
+  "tagline": "Train smarter.",
+  "niche": "athletic performance for amateur athletes (all sports)",
+  "audience": "amateur and club athletes, 16–40, who want to get better at their sport",
+  "contact": "set-your-email-or-url-here",
+  "promo": "",
+
+  "mascot": {
+    "name": "Coach Ember",
+    "body": "#F2913D",
+    "outline": "#1C2140",
+    "shorts": "#1C2140",
+    "accent": "#E8423A",
+    "shoes": "#FFFFFF"
+  },
+
+  "video": { "width": 1920, "height": 1080, "fps": 30, "targetMinutes": [3, 10], "idealMinutes": 7 },
+
+  "voice": { "id": "am_michael", "speed": 1.0, "leadIn": 0.1, "pauseAfterScene": 0.25, "wordsPerMinute": 160 },
+
+  "music": { "dir": "music", "volume": 0.08, "fadeIn": 1.5, "fadeOut": 3 },
+
+  "render": { "draftQuality": "draft", "finalQuality": "high", "loudnessLUFS": -14 },
+
+  "endCard": { "enabled": true, "duration": 4, "text": "Sources are in the description." }
+}
