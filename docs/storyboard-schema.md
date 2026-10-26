@@ -38,7 +38,7 @@
   "facing": "right",            // side-view poses face right; "left" mirrors
   "position": "center",         // left | center | right | farleft | farright, or "x": 700
   "scale": 1.05,
-  "props": {"r": "racket"},     // in the right (front) hand: racket badminton paddle tennisball basketball football dumbbell bottle phone
+  "props": {"r": "racket"},     // in the right (front) hand: racket badminton paddle tennisball basketball football cricketball dumbbell bottle phone
   "tint": "opponent",           // grey "other player"
   "move": {"to": "right", "at": "@ran", "dur": 1.5}   // travel across the frame (combine with a run cycle)
 }
@@ -46,6 +46,7 @@
 A pose entry may override joints inline: `{"pose": "stand", "head": 15, "face": "happy", "at": "@yes"}`.
 Faces: `normal happy determined tired sleep surprised focused`.
 Poses live in `pipeline/mascot/poses.json` — run `node pipeline/poses.mjs` to see them all. New pose? Use `/new-pose`.
+Bowling (right-arm, facing right): `bowl_gather` → `bowl_brace` → `bowl_release` → `bowl_follow` (use as timed `poses` for a delivery). `hold_back`: hand on lower back, wincing.
 
 ---
 

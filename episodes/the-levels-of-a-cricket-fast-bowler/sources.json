@@ -1,0 +1,312 @@
+[
+  {
+    "id": "S1",
+    "title": "Biomechanical and physical determinants of bowling speed in cricket: a novel approach to systematic review and meta-analysis of correlational data",
+    "author": "Ramachandran AK, Singh U, Connor JD, Doma K",
+    "publisher": "Sports Biomechanics 23(3) (online first 2021)",
+    "year": "2024",
+    "url": "https://portfolio.jcu.edu.au/Publications/JCU171665",
+    "type": "review",
+    "notes": "18 studies. Pooled correlations with ball release speed: overall biomechanics r=0.42, overall physical characteristics r=0.65; run-up speed r=0.50; front knee angle at release r=0.40; front knee angle at front-foot contact r=0.26; total arm length r=0.65; shoulder strength r=0.58; CoM velocity at release and vertical GRF not significant. Correlational, not causal. DOI 10.1080/14763141.2020.1858152. Abstract only."
+  },
+  {
+    "id": "S2",
+    "title": "Technique Variables Associated with Fast Bowling Performance: A Systematic-Narrative Review",
+    "author": "Bhandurge S, Alway P, Allen S, Blenkinsop G, King M",
+    "publisher": "Applied Sciences 14(15):6752",
+    "year": "2024",
+    "url": "https://doi.org/10.3390/app14156752",
+    "type": "review",
+    "notes": "15 studies 2000-2022. Consensus: faster run-up; efficient sequential transfer of linear to angular momentum; quick deceleration in the delivery stride with an extended front knee from front-foot contact to release; delaying the bowling arm. Other variables conflicting/limited. Abstract read via Crossref (publisher page blocked)."
+  },
+  {
+    "id": "S3",
+    "title": "Relationships between fast bowling technique and ball release speed in cricket",
+    "author": "Worthington PJ, King MA, Ranson CA",
+    "publisher": "Journal of Applied Biomechanics 29(1):78-84",
+    "year": "2013",
+    "url": "https://www.bisp-surf.de/Record/PU201310006980",
+    "type": "trial",
+    "notes": "20 elite male fast bowlers; 4 technique variables explained 74% of release-speed variation: faster run-up, straighter front knee through front-foot contact, more upper-trunk flexion before release, delayed onset of arm circumduction. DOI 10.1123/jab.29.1.78. Abstract only."
+  },
+  {
+    "id": "S4",
+    "title": "Technique factors related to ball release speed and trunk injuries in high performance cricket fast bowlers",
+    "author": "Portus MR, Mason BR, Elliott BC, Pfitzner MC, Done RP",
+    "publisher": "Sports Biomechanics 3(2):263-284",
+    "year": "2004",
+    "url": "https://doi.org/10.1080/14763140408522845",
+    "type": "trial",
+    "notes": "42 AIS high-performance fast bowlers over 4 years. Faster bowlers: extended front knee during front-foot contact, higher/faster braking and vertical impact forces, maximum hip-shoulder separation reached LATER in the stride, larger shoulder rotation to release. More front-on shoulders at back-foot contact -> more shoulder counter-rotation. Lumbar stress fracture group had higher counter-rotation (p=0.01); back-injured bowlers showed 'mixed' technique characteristics. Abstract via Europe PMC."
+  },
+  {
+    "id": "S5",
+    "title": "The velocity dependence of techniques commonly linked with lower back injury in cricket fast bowling",
+    "author": "Middleton K, Chauhan P, Elliott B, Alderson J",
+    "publisher": "ISBS Conference Proceedings (27th International Conference on Biomechanics in Sports)",
+    "year": "2009",
+    "url": "https://ojs.ub.uni-konstanz.de/cpa/article/view/3382",
+    "type": "trial",
+    "notes": "17 high-performance bowlers, fast/normal/slow deliveries. NO association between velocity and shoulder counter-rotation or front-knee flexion; velocity associated with trunk lateral flexion and max hip-shoulder separation (together ~11% of variance for normal deliveries at ~31.3 m/s). Conference abstract."
+  },
+  {
+    "id": "S6",
+    "title": "The Athletic Profile of Fast Bowling in Cricket: A Review",
+    "author": "Johnstone JA, Mitchell ACS, Hughes G, Watson T, Ford PA, Garrett AT",
+    "publisher": "Journal of Strength and Conditioning Research 28(5):1465-1473",
+    "year": "2014",
+    "url": "https://uhra.herts.ac.uk/id/eprint/4451/1/906988.pdf",
+    "type": "review",
+    "notes": "Elite fast bowlers 36-40.5 m/s (129-146 km/h), 'express' >146 km/h (citing Glazier 2000, n=9). Run-up length r=0.70 with delivery speed; run-up speed may account for up to 16% of release speed; faster final 5 m of run-up r=0.72; run-up velocity ~17-21.6 km/h, ~22 km/h in last 5 m. Straighter front knee (>150 deg) linked to speed but front-foot impact 5-9x body mass absorbed by soft tissue and lower back; eccentric lower-body strength may help hold the knee. Elite bowlers 1.83-1.92 m tall. GPS: ~22 km per multi-day day, ~13 km ODI, ~5.5 km T20. Accepted manuscript read in full."
+  },
+  {
+    "id": "S7",
+    "title": "Anthropometric and strength correlates of fast bowling speed in junior and senior cricketers",
+    "author": "Pyne DB, Duthie GM, Saunders PU, Petersen CA, Portus MR",
+    "publisher": "Journal of Strength and Conditioning Research 20(3):620-626",
+    "year": "2006",
+    "url": "https://vuir.vu.edu.au/31989/",
+    "type": "trial",
+    "notes": "24 first-class seniors (23.9 y) peak speed 126.7 km/h vs 48 junior representative bowlers (14.8 y) 99.6 km/h. Junior speed predicted by static jump, bench throw, body mass, % muscle, height (r=0.86); seniors by static jump and arm length (r=0.74). Abstract via Europe PMC."
+  },
+  {
+    "id": "S8",
+    "title": "The effects of a four weeks combined resistance training programme on cricket bowling velocity",
+    "author": "Maker R, Taliep MS",
+    "publisher": "South African Journal of Sports Medicine 33(1)",
+    "year": "2021",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9924600/",
+    "type": "trial",
+    "notes": "18 adult male CLUB pace bowlers (1st/2nd division), baseline 87-91 km/h. 2x/wk for 4 wk alongside nets: bodyweight squats 2x10-12, hip raises 2x10-12, split squats 2x6-8, med-ball chest pass/overhead slam/rotational throws 2x6-8, 1 min rest, plus over/underweight balls (+/-10-15%). +5.1 km/h (~6%) vs 0 in control; accuracy unchanged; no injuries reported. n=9 per group. Full text read. Programme also included over/underweight ball bowling (±10–15%, 24–30 balls), done first each session."
+  },
+  {
+    "id": "S9",
+    "title": "Female cricket pace bowling: kinematic and anthropometric relationships with ball release speed (summarised by Clean Bowled / whit.com.au)",
+    "author": "Lyons C, Felton PJ, McCabe C",
+    "publisher": "South African Journal of Sports Medicine 35(1):1-5",
+    "year": "2023",
+    "url": "https://www.whit.com.au/cleanbowled/cricket-biomechanics/fast-bowling-technique-and-context/2023-lyons-female-kinematic-anthropometric-brs/",
+    "type": "trial",
+    "notes": "11 high-performance (Irish international/interprovincial) female bowlers: 23.0 m/s (~83 km/h, range ~73-95) vs elite female mean 27.9 m/s (~100 km/h) from Felton 2019; run-up ~18 km/h. Later arm position at release strongest predictor; 'individual-specific optimal run-up speeds' likely based on height. Read via detailed secondary summary; journal page confirmed title only."
+  },
+  {
+    "id": "S10",
+    "title": "Investigating the relationships between technique parameters and ball release speed in female fast bowling (summarised by Clean Bowled / whit.com.au)",
+    "author": "Felton P, Lister S, King M",
+    "publisher": "5th World Congress of Science and Medicine in Cricket (conference abstract)",
+    "year": "2015",
+    "url": "https://www.whit.com.au/cleanbowled/cricket-biomechanics/fast-bowling-technique-and-context/2015-felton-female-technique-ball-speed/",
+    "type": "trial",
+    "notes": "18 elite female bowlers: run-up speed predicted speed (as in men), but faster women had MORE front-knee flexion at release and earlier arm - opposite to elite men; attributed to strength/technique differences (front knee collapsing). Secondary summary of a conference abstract; low weight."
+  },
+  {
+    "id": "S11",
+    "title": "Strength and conditioning practices for the optimisation of speed and accuracy in cricket fast bowlers: A systematic review and meta-analysis",
+    "author": "Ramachandran AK, Singh U, Lathlean TJH",
+    "publisher": "International Journal of Sports Science & Coaching 17(5):1211-1224",
+    "year": "2022",
+    "url": "https://researchonline.jcu.edu.au/78009/",
+    "type": "review",
+    "notes": "10 studies (8 meta-analysed), quality low-moderate. Plyometric training: moderate significant effect on bowling speed (SMD 0.75); resistance training small non-significant (SMD 0.40); modified ball weight small non-significant (SMD 0.30). DOI 10.1177/17479541211070938. Abstract only."
+  },
+  {
+    "id": "S12",
+    "title": "Effect of Ball Weight on Speed, Accuracy, and Mechanics in Cricket Fast Bowling",
+    "author": "Wickington KL, Linthorne NP",
+    "publisher": "Sports (Basel) 5(1):18",
+    "year": "2017",
+    "url": "https://doi.org/10.3390/sports5010018",
+    "type": "trial",
+    "notes": "10 trained men; balls 46-137% of 156 g. Speed fell ~1.1 m/s per +100 g; accuracy/mechanics not adversely affected. Training with under/overweight balls may have given >1.5 m/s gains in some players. Small sample. Abstract via Europe PMC."
+  },
+  {
+    "id": "S13",
+    "title": "Spikes in acute workload are associated with increased injury risk in elite cricket fast bowlers",
+    "author": "Hulin BT, Gabbett TJ, Blanch P, Chapman P, Bailey D, Orchard JW",
+    "publisher": "British Journal of Sports Medicine 48(8):708-712",
+    "year": "2014",
+    "url": "https://unleash.catapult.com/wp-content/uploads/research//Cricket/Hulin (2014) Acute Workload Injury Risk Cricket.pdf",
+    "type": "trial",
+    "notes": "28 elite bowlers, 43 seasons. Acute = 1-week, chronic = 4-week rolling average. Acute>chronic -> RR 2.1 (balls) / 2.2 (sRPE) next week. Acute >200% of chronic: RR 3.3 (balls) and 4.5 (sRPE) vs 50-99%; 150-199% internal RR 2.1. Higher chronic external workload associated with lower injury risk. Intro cites: forces up to ~8x body mass at delivery stride; Dennis 2003 window 123-188 deliveries/week (RR 1.4 below/above), <2 days (RR 2.4) or >5 days (RR 1.8) between sessions; Orchard 2009 >50 overs in a match -> injury risk 9-16% over following 14-28 days, 3-4 week delay. Full text read. DOI 10.1136/bjsports-2013-092524. Citing Dennis 2003: lowest injury risk at 3–4 days between bowling sessions (<2 days RR 2.4, >5 days RR 1.8)."
+  },
+  {
+    "id": "S14",
+    "title": "Is bowling workload a risk factor for injury to Australian junior cricket fast bowlers?",
+    "author": "Dennis RJ, Finch CF, Farhart PJ",
+    "publisher": "British Journal of Sports Medicine 39(11):843-846",
+    "year": "2005",
+    "url": "https://doi.org/10.1136/bjsm.2005.018515",
+    "type": "trial",
+    "notes": "44 junior bowlers (mean 14.7 y), one season; 25% overuse injury (7 of 11 back). Average <3.5 days between bowling days RR 3.1 (1.1-8.9); bowling >=2.5 days/week RR 2.5 (ns trend); >=50 deliveries/day RR 2.0 (ns trend). Abstract via Europe PMC."
+  },
+  {
+    "id": "S15",
+    "title": "Incidence and prevalence of lumbar stress fracture in English County Cricket fast bowlers, association with bowling workload and seasonal variation",
+    "author": "Alway P, Brooke-Wavell K, Langley B, King M, Peirce N",
+    "publisher": "BMJ Open Sport & Exercise Medicine 5(1):e000529",
+    "year": "2019",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6540320",
+    "type": "trial",
+    "notes": "368 county fast bowlers 2010-2016; 2.46 LSF per 100 bowlers/yr; 18-22 y highest (4.90/100/yr, 56% of LSFs); 74% under 25; L4/L5 most affected. Peak 7-day load 234-293 deliveries OR 11.0 vs <197; 28- and 90-day loads not significant. Recommend workload guidance for under-25s. Full text: 234–293 deliveries OR 11.0 (95% CI 2.2–55.9) but relative risk ≈3.18 (95% CI 1.68–3.86) vs <197; script uses ~3×. 93% of fractures contralateral to the bowling arm. ≥294 deliveries RR 3.06 (1.72–3.63)."
+  },
+  {
+    "id": "S16",
+    "title": "Incidence and prevalence of elite male cricket injuries using updated consensus definitions",
+    "author": "Orchard JW, Kountouris A, Sims K",
+    "publisher": "Open Access Journal of Sports Medicine 7:187-194",
+    "year": "2016",
+    "url": "https://www.dovepress.com/incidence-and-prevalence-of-elite-male-cricket-injuries-using-updated--peer-reviewed-article-OAJSM",
+    "type": "trial",
+    "notes": "Australian elite cricket 2006-2016: fast bowler injury prevalence 20.6% vs 12.5% all players; lumbar stress fractures most prevalent injury, ~15% of all missed playing time; spikes riskier than absolute load; low loads leave players underprepared; research hasn't shown that technique coaching prospectively reduces LSF risk."
+  },
+  {
+    "id": "S17",
+    "title": "Are Fast-Bowlers Prone to Back Injuries? Prevalence of Lumbar Spine Injuries in Fast-Bowlers: Review of MRI-Based Studies",
+    "author": "Arora M, Paoloni JA, Kandwal P, Diwan AD",
+    "publisher": "Asian Journal of Sports Medicine 5(4):e24291",
+    "year": "2014",
+    "url": "https://doi.org/10.5812/asjsm.24291",
+    "type": "review",
+    "notes": "Narrative review of 9 MRI studies. Defines side-on, front-on, mixed (switches front-on to side-on in the delivery stride). Mixed action -> excessive lumbar extension/rotation and counter-rotation; counter-rotation cut-offs >40 deg (some studies) and >20 deg (Burnett 1996). Pars abnormalities 24-81% of bowlers; non-dominant-side pars abnormality 81% vs 36% controls (Ranson 2005). Elliott & Khangure 2002 education programme: safe technique 20% -> 67%; only 1 safe-technique bowler developed new disc degeneration vs 20 mixed. Full text via Europe PMC."
+  },
+  {
+    "id": "S18",
+    "title": "Risk factors and successful interventions for cricket-related low back pain: a systematic review",
+    "author": "Morton S, Barton CJ, Rice S, Morrissey D",
+    "publisher": "British Journal of Sports Medicine 48(8):685-691",
+    "year": "2014",
+    "url": "https://doi.org/10.1136/bjsports-2012-091782",
+    "type": "review",
+    "notes": "12 risk-factor studies; moderate evidence that shoulder counter-rotation (associated with mixed actions) is linked to LBP; moderate evidence that acute MRI bone stress precedes lumbar stress fracture; intervention studies too low quality for conclusions. Abstract via Europe PMC."
+  },
+  {
+    "id": "S19",
+    "title": "Biomechanical Evolution in Longitudinal Analysis of Lumbar Stress Injuries in Fast Bowlers: A Systematic Review",
+    "author": "Arun C, Raman SA, Nimishaanth SS, Thiagarajan KA, Sivaraman A",
+    "publisher": "Cureus 17(12):e99363",
+    "year": "2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12805602/",
+    "type": "review",
+    "notes": "37 studies, mostly observational. Counter-rotation >25 deg linked to higher spinal loading; mixed-action label itself inconsistently linked (73-78% of bowlers classed mixed in some cohorts; Ranson 2008 no link). Lateral trunk flexion linked to injury; straighter front knee raises shear/GRF; under-22s 3.7-6.7x bone stress risk (Blanch 2015); each year younger 2.99x; taller and faster bowlers slightly higher risk (Sims 2021). Recommends screening, workload regulation, gradual progression, lumbopelvic strength/control. No formal evidence grading."
+  },
+  {
+    "id": "S20",
+    "title": "Lumbar load in adolescent fast bowlers: A prospective injury study",
+    "author": "Bayne H, Elliott B, Campbell A, Alderson J",
+    "publisher": "Journal of Science and Medicine in Sport 19(2):117-122",
+    "year": "2016",
+    "url": "https://doi.org/10.1016/j.jsams.2015.02.011",
+    "type": "trial",
+    "notes": "25 bowlers aged 14-19; 12 developed low back injury. Injured: more thorax lateral flexion at release (50 vs 40 deg), higher lumbar moments, lower back-extensor endurance (103 vs 132 s), more knee valgus in single-leg decline squat. Abstract via Europe PMC."
+  },
+  {
+    "id": "S21",
+    "title": "Exercise-based injury prevention for community-level adolescent cricket pace bowlers: A cluster-randomised controlled trial",
+    "author": "Forrest MRL, Hebert JJ, Scott BR, Dempsey AR",
+    "publisher": "Journal of Science and Medicine in Sport 23(5):475-480",
+    "year": "2020",
+    "url": "https://doi.org/10.1016/j.jsams.2019.12.009",
+    "type": "trial",
+    "notes": "65 community bowlers aged 14-17; 8-week programme during twice-weekly training improved shoulder, hamstring and hip adductor strength, balance reach (~+3.6-3.8% leg length) and back endurance (+20 s). Did not measure injuries. Abstract via Europe PMC."
+  },
+  {
+    "id": "S22",
+    "title": "Modifying bowling kinematics in cricket pace bowlers with exercise-based injury prevention: A cluster-randomised controlled trial",
+    "author": "Forrest MRL, Hebert JJ, Scott BR, Dempsey AR",
+    "publisher": "Journal of Science and Medicine in Sport 23(12):1172-1177",
+    "year": "2020",
+    "url": "https://doi.org/10.1016/j.jsams.2020.06.014",
+    "type": "trial",
+    "notes": "Same programme: reduced shoulder counter-rotation (-3.8 deg) and lateral trunk flexion (-2.2 deg) vs control; no change in ball velocity (+1.1 km/h, ns). Abstract via Europe PMC."
+  },
+  {
+    "id": "S23",
+    "title": "Junior Pace Bowling Workload Guidelines",
+    "author": "Cricket Australia",
+    "publisher": "Cricket Australia (play.cricket.com.au)",
+    "year": "2026",
+    "url": "https://play.cricket.com.au/community/resources/player-safety/junior-bowling-guidelines/guidelines",
+    "type": "org",
+    "notes": "U17 '1-3-5': rest day after each bowling day, max 3 bowling days/wk, max 5 overs/spell, 20 min between training spells. 17-19 '2-4-6': max 2 days in a row, 4 days/wk, 6 overs/spell. Match: 15-17 5 overs/spell 16/day; 17-19 6/18. Pre-season build-up 6-8 weeks (15-19), full build-up usually >10 wk. Light week every 4-6 wk; 7-10 days off every 10-12 wk; ~3 months off end of season. Back bone stress injuries often develop before pain; if a junior gets back pain while bowling, stop and see a sports doctor/physio. Higher risk 2-3 years after growth spurt; taller/faster/recently grown/previous injury need more recovery."
+  },
+  {
+    "id": "S24",
+    "title": "ECB Recreational Cricket Safety Regulations 2025 - Regulation 20.1 Fast Bowling (reproduced by Cornwall Cricket Board)",
+    "author": "England and Wales Cricket Board",
+    "publisher": "Cornwall Cricket Board (reproduction of ECB regulations)",
+    "year": "2025",
+    "url": "https://cornwallcricket.co.uk/asset/688804A4-BE78-4BE0-9E8DD0683288194B",
+    "type": "org",
+    "notes": "Revised limits 2025 (mandatory, age 19 and under, hardball): <=11: 4 overs/spell, 8/day; 12-13: 5/10; 14-15: 5/12; 16-17: 6/15; 18-19: 7/18. Rest after a spell until the same number of overs bowled from that end. Training deliveries at (near) match intensity count; walk-throughs/half-speed don't. Secondary copy; ECB site not opened."
+  },
+  {
+    "id": "S25",
+    "title": "Acute:Chronic Workload Ratio: Conceptual Issues and Fundamental Pitfalls",
+    "author": "Impellizzeri FM, Tenan MS, Kempton T, Novak A, Coutts AJ",
+    "publisher": "International Journal of Sports Physiology and Performance 15(6):907-913",
+    "year": "2020",
+    "url": "https://doi.org/10.1123/ijspp.2019-0864",
+    "type": "review",
+    "notes": "ACWR causal role not established; ratio has statistical artefacts and lacks rationale; authors say no evidence supports using ACWR for load-management or injury-reduction recommendations. Abstract via Europe PMC."
+  },
+  {
+    "id": "S26",
+    "title": "Quantifying Workload and Injury Risk Among Cricket Fast Bowlers: A Systematic Review and Meta-Analysis",
+    "author": "Chelladurai A, Raman SA, Kirthen H, et al.",
+    "publisher": "Cureus 18(3):e104847",
+    "year": "2026",
+    "url": "https://doi.org/10.7759/cureus.104847",
+    "type": "review",
+    "notes": "33 studies; 6 cohorts pooled: elevated ACWR associated with injury RR 2.45 (1.48-4.06), I2 ~77%; ACWR ~1.4-2.0+ linked to higher incidence. High heterogeneity. Abstract via Europe PMC."
+  },
+  {
+    "id": "S27",
+    "title": "ACSM Position Stand: Quantity and quality of exercise... in apparently healthy adults - reviewed in 'From 1998 to 2011: ACSM Publishes Updated Exercise Guidelines'",
+    "author": "Garber CE et al. (position stand); summary by Kravitz L",
+    "publisher": "Medicine & Science in Sports & Exercise 43(7):1334-1359 / University of New Mexico",
+    "year": "2011",
+    "url": "https://www.unm.edu/~lkravitz/Article%20folder/ACSMGuidelinesUNM.pdf",
+    "type": "position-stand",
+    "notes": "Resistance: 2-3 d/wk, 48 h between sessions for the same muscles; 60-70% 1RM novice-intermediate; 8-12 reps; single set for novices, 2-4 sets for most adults; 2-3 min rest. Flexibility-injury link not substantiated. Read via summary tables."
+  },
+  {
+    "id": "S28",
+    "title": "The effect of plyometric training volume on jumping performance",
+    "author": "Ebben WP, Suchomel TJ, Garceau LR",
+    "publisher": "ISBS Conference Proceedings Archive pp. 566-569",
+    "year": "c. 2014",
+    "url": "https://ojs.ub.uni-konstanz.de/cpa/article/view/6015/5496",
+    "type": "trial",
+    "notes": "Novice recommendation 80-100 foot contacts/session (Potach & Chu 2008; Chu & Myer 2013). Low-volume (60-100 contacts, 2x/wk, 48-96 h apart) as effective as double volume. Year not printed."
+  },
+  {
+    "id": "S29",
+    "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+    "author": "Lauersen JB, Bertelsen DM, Andersen LB",
+    "publisher": "British Journal of Sports Medicine 48(11):871-877",
+    "year": "2014",
+    "url": "https://doi.org/10.1136/bjsports-2013-092538",
+    "type": "review",
+    "notes": "Strength training RR 0.315 (0.207-0.480); proprioception RR 0.55; stretching RR 0.963 (no effect). Not cricket-specific. Abstract via Europe PMC."
+  },
+  {
+    "id": "S30",
+    "title": "Risk Factors and Successful Interventions for Cricket-Related Low Back Pain: An Updated Systematic Review",
+    "author": "Singh S, Baker J, Egginton S",
+    "publisher": "Cureus 17(3):e79869",
+    "year": "2025",
+    "url": "https://doi.org/10.7759/cureus.79869",
+    "type": "review",
+    "notes": "16 risk-factor studies (15 high quality): LBP associated with higher workload, lower bone mineral density, poor lumbopelvic control (more side flexion); MRI bone marrow oedema an early sign before stress fracture; high-quality intervention studies scarce. Abstract via Europe PMC."
+  },
+  {
+    "id": "S31",
+    "title": "Fastest delivery of a cricket ball (male)",
+    "author": "Guinness World Records",
+    "publisher": "Guinness World Records",
+    "year": "2003",
+    "url": "https://www.guinnessworldrecords.com/world-records/fastest-bowl-of-a-cricket-ball",
+    "type": "record",
+    "notes": "Shoaib Akhtar, 161.3 km/h (100.23 mph), England v Pakistan, Newlands, 22 Feb 2003. ICC does not officially recognise speed-gun records."
+  }
+]

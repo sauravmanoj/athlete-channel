@@ -147,10 +147,16 @@ if (prev && prev.total && Math.abs(prev.total - timings.total) > 0.5) log(`  tim
 log(`\n✓ Voiceover: ${timings.scenes.length} scenes, ${(timings.total / 60).toFixed(2)} min, voice ${voice} @ ${speed}`);
 log(`  ${rel(narration)}\n  ${rel(path.join(ep, "timings.json"))}\n  ${rel(path.join(ep, "captions.srt"))}`);
 
+// Use the repo's Kokoro venv (created by setup.mjs) unless HYPERFRAMES_PYTHON is already set.
+function hfEnv() {
+  const py = path.join(ROOT, "pipeline", "runtime", "venv", "bin", "python");
+  return process.env.HYPERFRAMES_PYTHON || !fs.existsSync(py) ? process.env : { ...process.env, HYPERFRAMES_PYTHON: py };
+}
+
 function hfAsync(args) {
   const bin = path.join(ROOT, "node_modules", ".bin", "hyperframes");
   return new Promise((resolve, reject) => {
-    const p = spawn(fs.existsSync(bin) ? bin : "npx", fs.existsSync(bin) ? args : ["hyperframes", ...args], { stdio: ["ignore", "pipe", "pipe"] });
+    const p = spawn(fs.existsSync(bin) ? bin : "npx", fs.existsSync(bin) ? args : ["hyperframes", ...args], { stdio: ["ignore", "pipe", "pipe"], env: hfEnv() });
     let err = "";
     p.stdout.on("data", () => {});
     p.stderr.on("data", (d) => (err += d));

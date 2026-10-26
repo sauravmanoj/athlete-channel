@@ -1,0 +1,2676 @@
+{
+ "title": "The levels of a cricket fast bowler",
+ "thumbnail": {
+  "pose": "bowl_release",
+  "props": {
+   "r": "cricketball"
+  },
+  "background": "field",
+  "headline": "5 levels of pace",
+  "highlight": "pace",
+  "icons": [
+   {
+    "icon": "bolt"
+   }
+  ],
+  "side": "right"
+ },
+ "youtube": {
+  "title": "The levels of a cricket fast bowler",
+  "titleOptions": [
+   "How fast bowlers actually get fast",
+   "From arm slinger to strike bowler: the 5 levels"
+  ],
+  "description": "Most club bowlers try to bowl faster with their arm. The fastest bowlers get their pace from the run-up, a braced front leg and a whole-body whip, and they keep it by protecting their back and managing their workload. Here are the five levels of fast bowling, with the drills that move you up one level at a time.",
+  "tags": [
+   "fast bowling",
+   "how to bowl faster",
+   "cricket fast bowling tips",
+   "fast bowling drills",
+   "cricket bowling action",
+   "mixed action",
+   "fast bowler workload",
+   "lumbar stress fracture cricket",
+   "cricket training",
+   "bowling speed",
+   "front leg brace",
+   "pace bowling",
+   "cricket coaching",
+   "the orange athlete"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "mascot",
+   "chapter": "Intro",
+   "background": "field",
+   "transition": "fade",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.3,
+    "from": 0,
+    "to": "@put"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@put"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@everything"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@into"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@ball"
+    },
+    {
+     "pose": "shrug",
+     "face": "surprised",
+     "at": "@floats"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "caption": {
+    "text": "Full effort…",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      110,
+      -110
+     ],
+     "at": "@floats"
+    }
+   ],
+   "narration": "You charge in, put everything into it, and the ball still floats down."
+  },
+  {
+   "id": "s02",
+   "kind": "stat",
+   "value": 90,
+   "suffix": " km/h",
+   "label": "club bowlers' average, one study",
+   "highlight": "club bowlers",
+   "at": "@averaged",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "bowl_follow"
+     },
+     {
+      "pose": "think",
+      "at": "@averaged"
+     }
+    ]
+   },
+   "narration": "In one study, club bowlers averaged about 90 kilometres an hour."
+  },
+  {
+   "id": "s03",
+   "kind": "chart",
+   "title": "Bowling speed (km/h)",
+   "unit": " km/h",
+   "max": 165,
+   "focus": 3,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "present",
+      "at": "@first-class"
+     },
+     {
+      "pose": "point_up",
+      "at": "@Elite"
+     },
+     {
+      "pose": "shrug",
+      "face": "surprised",
+      "at": "@quickest"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Club",
+     "value": 90,
+     "display": "~90"
+    },
+    {
+     "label": "First-class",
+     "value": 127,
+     "display": "~127",
+     "at": "@first-class"
+    },
+    {
+     "label": "Elite",
+     "value": 145,
+     "display": "130–145",
+     "at": "@Elite"
+    },
+    {
+     "label": "Quickest ever",
+     "value": 161,
+     "display": "160+",
+     "at": "@quickest",
+     "color": "accent"
+    }
+   ],
+   "narration": "Australian first-class bowlers averaged a top speed of about 127. Elite fast bowlers usually sit around 130 to 145. And the very quickest have been clocked above 160."
+  },
+  {
+   "id": "s04",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "arms_crossed"
+    },
+    {
+     "pose": "point_up",
+     "at": "@ladder"
+    },
+    {
+     "pose": "present",
+     "at": "@Today"
+    }
+   ],
+   "headline": {
+    "text": "5 levels",
+    "highlight": "5",
+    "at": "@ladder",
+    "side": "right"
+   },
+   "pauseAfter": 0.6,
+   "narration": "That gap isn't just talent. It's a ladder with five levels. Today: where you are, and the drills that move you up."
+  },
+  {
+   "id": "s05",
+   "kind": "title",
+   "chapter": "The five levels",
+   "heading": "The ladder",
+   "sub": "a coaching ladder, not an official scale",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "point_up",
+      "at": "@coaching"
+     }
+    ]
+   },
+   "transition": "push",
+   "narration": "This is how I group it. It's a coaching ladder, not an official scale."
+  },
+  {
+   "id": "s06",
+   "kind": "lineup",
+   "title": "The levels of a fast bowler",
+   "grow": true,
+   "highlight": 5,
+   "dimPrevious": true,
+   "members": [
+    {
+     "pose": "arm_sling",
+     "props": {
+      "r": "cricketball"
+     },
+     "label": "Arm Slinger",
+     "sub": "all arm",
+     "at": "@Arm"
+    },
+    {
+     "cycle": {
+      "poses": [
+       "run_a",
+       "run_b"
+      ],
+      "period": 0.36
+     },
+     "pose": "run_a",
+     "label": "Rhythm Runner",
+     "sub": "smooth run-up",
+     "at": "@Rhythm"
+    },
+    {
+     "pose": "bowl_brace",
+     "label": "Aligned Bowler",
+     "sub": "lined up, braced",
+     "at": "@Aligned"
+    },
+    {
+     "pose": "bowl_release",
+     "props": {
+      "r": "cricketball"
+     },
+     "label": "The Whip",
+     "sub": "whole-body speed",
+     "at": "@Whip"
+    },
+    {
+     "pose": "bowl_follow",
+     "face": "happy",
+     "label": "Durable",
+     "sub": "fast all season",
+     "at": "@Durable"
+    }
+   ],
+   "narration": "Level 1, the Arm Slinger. Level 2, the Rhythm Runner. Level 3, the Aligned Bowler. Level 4, the Whip. And Level 5, the Durable Strike Bowler."
+  },
+  {
+   "id": "s07",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "point_up",
+     "at": "@climb"
+    }
+   ],
+   "headline": {
+    "text": "Climb in order",
+    "highlight": "order",
+    "at": "@climb",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "trophy",
+     "pos": [
+      1500,
+      560
+     ],
+     "at": "@pays",
+     "size": 1.1
+    }
+   ],
+   "narration": "Each level builds on the one before, so it pays to climb in order."
+  },
+  {
+   "id": "s08",
+   "kind": "title",
+   "chapter": "Level 1: The Arm Slinger",
+   "number": 1,
+   "heading": "The Arm Slinger",
+   "sub": "all arm, no body",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "walk_a",
+      "walk_b"
+     ],
+     "period": 0.55,
+     "from": 0,
+     "to": "@tries"
+    },
+    "poses": [
+     {
+      "pose": "walk_a"
+     },
+     {
+      "pose": "arm_sling",
+      "at": "@tries"
+     }
+    ],
+    "props": {
+     "r": "cricketball"
+    }
+   },
+   "transition": "push",
+   "narration": "The Arm Slinger walks in and tries to bowl fast with the arm alone."
+  },
+  {
+   "id": "s09",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.36,
+    "from": 0,
+    "to": "@stronger"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "flex",
+     "at": "@stronger"
+    }
+   ],
+   "caption": {
+    "text": "18 studies",
+    "at": 0.3
+   },
+   "callouts": [
+    {
+     "label": "Run-up",
+     "target": "rFoot",
+     "at": "@run-ups"
+    },
+    {
+     "label": "Strong body",
+     "target": "chest",
+     "at": "@powerful"
+    }
+   ],
+   "narration": "Across 18 studies, faster bowlers tended to have quicker run-ups and stronger, more powerful bodies."
+  },
+  {
+   "id": "s10",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "stand",
+     "rUpper": -60,
+     "rFore": -110,
+     "face": "focused"
+    },
+    {
+     "pose": "stand",
+     "rUpper": -70,
+     "rFore": -40,
+     "at": "@wrist"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@left"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "target",
+     "pos": [
+      1500,
+      420
+     ],
+     "at": 0.3,
+     "size": 1.2
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Legs",
+     "target": "lKnee",
+     "at": "@legs"
+    }
+   ],
+   "narration": "It's like throwing a dart with just your wrist. You've left your legs and body out of the job."
+  },
+  {
+   "id": "s11",
+   "kind": "list",
+   "title": "The phases",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "run_a"
+     },
+     {
+      "pose": "bowl_gather",
+      "at": "@gather"
+     },
+     {
+      "pose": "bowl_gather",
+      "at": "@back"
+     },
+     {
+      "pose": "bowl_brace",
+      "at": "@front"
+     },
+     {
+      "pose": "bowl_release",
+      "at": "@release"
+     },
+     {
+      "pose": "bowl_follow",
+      "at": "@follow-through"
+     }
+    ],
+    "props": {
+     "r": "cricketball"
+    }
+   },
+   "items": [
+    {
+     "text": "Run-up",
+     "at": "@run-up"
+    },
+    {
+     "text": "Gather",
+     "at": "@gather"
+    },
+    {
+     "text": "Back foot lands",
+     "at": "@back"
+    },
+    {
+     "text": "Front foot lands",
+     "at": "@front"
+    },
+    {
+     "text": "Release",
+     "at": "@release"
+    },
+    {
+     "text": "Follow-through",
+     "at": "@follow-through"
+    }
+   ],
+   "narration": "Fast bowling is one movement in phases: run-up, gather, back foot lands, front foot lands, release, follow-through."
+  },
+  {
+   "id": "s12",
+   "kind": "versus",
+   "left": {
+    "label": "Side-on",
+    "pose": "bowl_gather",
+    "props": {
+     "r": "cricketball"
+    }
+   },
+   "right": {
+    "label": "Front-on",
+    "pose": "stand",
+    "poses": [
+     {
+      "pose": "stand",
+      "rUpper": -165,
+      "rFore": -10,
+      "lUpper": 40,
+      "lFore": 10,
+      "lThigh": 20,
+      "lShin": -30,
+      "rThigh": -6,
+      "face": "focused"
+     }
+    ],
+    "props": {
+     "r": "cricketball"
+    }
+   },
+   "opponentTint": false,
+   "vs": "OR",
+   "narration": "And you choose one shape. Side-on, with your back foot parallel to the crease. Or front-on, with your chest more open. Both are fine."
+  },
+  {
+   "id": "s13",
+   "kind": "list",
+   "title": "Warm up first: 5–10 min",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.5
+    },
+    "pose": "run_a",
+    "face": "happy"
+   },
+   "items": [
+    {
+     "text": "Easy jogging",
+     "icon": "heart",
+     "at": "@jogging"
+    },
+    {
+     "text": "Skips",
+     "icon": "bolt",
+     "at": "@skips"
+    },
+    {
+     "text": "Walking lunges",
+     "icon": "muscle",
+     "at": "@lunges"
+    },
+    {
+     "text": "Easy run-throughs",
+     "icon": "check",
+     "at": "@run-throughs"
+    }
+   ],
+   "narration": "Before any bowling, running or jumping drill in this video, warm up for 5 to 10 minutes: easy jogging, skips, walking lunges and a few easy run-throughs."
+  },
+  {
+   "id": "s14",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.55,
+    "from": 0,
+    "to": "@action"
+   },
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@action"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@half"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@effort"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@sets"
+    },
+    {
+     "pose": "point_up",
+     "at": "@filmed"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "caption": {
+    "text": "Drill 1 · Walk-throughs",
+    "at": 0.2
+   },
+   "headline": {
+    "text": "3 × 6 · half effort",
+    "highlight": "half",
+    "at": "@sets",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "target",
+     "pos": [
+      1500,
+      760
+     ],
+     "at": "@target",
+     "size": 0.9
+    }
+   ],
+   "narration": "Drill 1: walk-throughs. 3 walking steps into your action at half effort. 3 sets of 6 balls at a target, filmed on your phone."
+  },
+  {
+   "id": "s15",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_gather"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@step"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@bowl"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@60"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@Front"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@lands"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@late"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "caption": {
+    "text": "Drill 2 · Stand and deliver · 3 × 6 at 60–70%",
+    "at": 0.2
+   },
+   "callouts": [
+    {
+     "label": "Front foot first",
+     "target": "lFoot",
+     "at": "@lands"
+    },
+    {
+     "label": "Arm late",
+     "target": "rHand",
+     "at": "@late"
+    }
+   ],
+   "narration": "Drill 2: stand and deliver. From the back-foot position, step and bowl. 3 sets of 6 at 60 to 70 percent. Front foot lands first, then the arm comes over late."
+  },
+  {
+   "id": "s16",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "flex"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@harder"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1480,
+      360
+     ],
+     "at": "@mistake",
+     "size": 1.2
+    }
+   ],
+   "narration": "The mistake? Muscling the arm harder."
+  },
+  {
+   "id": "s17",
+   "kind": "slam",
+   "text": "Run-up. Brace. Sequence.",
+   "highlight": "Sequence.",
+   "style": "brand",
+   "icon": "bolt",
+   "pauseAfter": 0.6,
+   "narration": "The speed lives in the run-up, the brace and the sequence."
+  },
+  {
+   "id": "s18",
+   "kind": "title",
+   "chapter": "Level 2: The Rhythm Runner",
+   "number": 2,
+   "heading": "The Rhythm Runner",
+   "sub": "the run-up",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.36
+    },
+    "pose": "run_a"
+   },
+   "transition": "push",
+   "narration": "Level 2 is the run-up. Run-up speed is one of the most consistent predictors of ball speed."
+  },
+  {
+   "id": "s19",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.42,
+    "from": 0,
+    "to": "@review"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "sprint",
+     "at": "@last"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@review"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@closely"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "gauges": [
+    {
+     "label": "Run-up speed",
+     "icon": "bolt",
+     "from": 35,
+     "to": 90,
+     "at": 0.2,
+     "changeAt": "@last"
+    }
+   ],
+   "caption": {
+    "text": "Fastest in the last 5 m",
+    "at": "@last"
+   },
+   "narration": "The fastest part should be the last 5 metres. In one review, speed over that final stretch tracked ball speed closely."
+  },
+  {
+   "id": "s20",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.4,
+    "from": 0,
+    "to": "@control"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@control"
+    }
+   ],
+   "headline": {
+    "text": "Build speed smoothly",
+    "highlight": "smoothly",
+    "at": "@motorway",
+    "side": "right"
+   },
+   "gauges": [
+    {
+     "label": "Speed",
+     "icon": "bolt",
+     "from": 20,
+     "to": 85,
+     "at": 0.3,
+     "changeAt": "@Build"
+    }
+   ],
+   "narration": "Think of a motorway on-ramp. Build speed smoothly, and arrive at the crease at the fastest speed you can still control."
+  },
+  {
+   "id": "s21",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "shrug",
+     "at": "@better"
+    },
+    {
+     "pose": "point_up",
+     "at": "@match"
+    }
+   ],
+   "headline": {
+    "text": "Speed you can hold",
+    "highlight": "hold",
+    "at": "@match",
+    "side": "right"
+   },
+   "narration": "Faster isn't always better, though. Your run-up has to match the action you can hold together."
+  },
+  {
+   "id": "s22",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.55,
+    "from": 0,
+    "to": "@put"
+   },
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "crouch",
+     "at": "@put"
+    },
+    {
+     "pose": "run_a",
+     "at": "@do"
+    }
+   ],
+   "caption": {
+    "text": "Drill 1 · Mark your run-up · 8–12 strides",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "target",
+     "pos": [
+      1250,
+      900
+     ],
+     "at": "@marker",
+     "size": 0.7
+    }
+   ],
+   "narration": "Drill 1: mark your run-up. Start with 8 to 12 strides, put down a marker, and do 6 to 8 run-throughs without a ball."
+  },
+  {
+   "id": "s23",
+   "kind": "list",
+   "title": "Drill 2 · Build-up runs",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.34
+    },
+    "pose": "run_a"
+   },
+   "items": [
+    {
+     "text": "4–6 runs of 20–25 m",
+     "icon": "stopwatch",
+     "at": "@runs"
+    },
+    {
+     "text": "Last 5 m fastest",
+     "icon": "bolt",
+     "at": "@fastest"
+    },
+    {
+     "text": "Walk back between each",
+     "icon": "heart",
+     "at": "@Walk"
+    }
+   ],
+   "narration": "Drill 2: build-up runs. 4 to 6 runs of 20 to 25 metres, with the last 5 metres fastest. Walk back between each."
+  },
+  {
+   "id": "s24",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.36,
+    "from": 0,
+    "to": "@delivery"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@delivery"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@70"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@percent"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@sets"
+    },
+    {
+     "pose": "point_up",
+     "at": "@count"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "caption": {
+    "text": "Drill 3 · 2–3 × 6 at 70–80%",
+    "at": 0.2
+   },
+   "headline": {
+    "text": "Count every ball",
+    "highlight": "every",
+    "at": "@count",
+    "side": "right"
+   },
+   "narration": "Drill 3: run-up plus delivery at 70 to 80 percent. 2 to 3 sets of 6 balls, and count every one in your weekly total."
+  },
+  {
+   "id": "s25",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "run_a",
+     "at": "@long"
+    },
+    {
+     "pose": "sprint",
+     "at": "@fast"
+    },
+    {
+     "pose": "side_stand",
+     "torso": -18,
+     "head": 10,
+     "face": "surprised",
+     "at": "@stutter"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@throwing"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@mistake",
+     "size": 1.1
+    }
+   ],
+   "narration": "The mistake? A run-up so long or so fast that you stutter and brake before the crease, throwing away your momentum."
+  },
+  {
+   "id": "s26",
+   "kind": "title",
+   "chapter": "Level 3: The Aligned Bowler",
+   "number": 3,
+   "heading": "The Aligned Bowler",
+   "sub": "protect your back",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "bowl_gather"
+     },
+     {
+      "pose": "bowl_brace",
+      "at": "@protect"
+     }
+    ]
+   },
+   "transition": "push",
+   "narration": "Level 3 is the most important level, because this is where you protect your back."
+  },
+  {
+   "id": "s27",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "bowl_gather"
+    },
+    {
+     "pose": "bowl_gather",
+     "torso": -35,
+     "head": 25,
+     "at": "@twist"
+    }
+   ],
+   "headline": {
+    "text": "Mixed action",
+    "highlight": "Mixed",
+    "at": 0.3,
+    "side": "right"
+   },
+   "callouts": [
+    {
+     "label": "Hips this way",
+     "target": "hips",
+     "at": "@hips"
+    },
+    {
+     "label": "Shoulders twist",
+     "target": "rShoulder",
+     "at": "@twist"
+    }
+   ],
+   "narration": "A mixed action means your hips point one way while your shoulders twist round the other way."
+  },
+  {
+   "id": "s28",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "bowl_gather",
+     "torso": -22,
+     "at": "@slamming"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@front"
+    }
+   ],
+   "headline": {
+    "text": "Spine = towel",
+    "highlight": "towel",
+    "at": "@spine",
+    "side": "right"
+   },
+   "callouts": [
+    {
+     "label": "Spine",
+     "target": "back",
+     "side": "left",
+     "at": "@spine"
+    }
+   ],
+   "narration": "Picture wringing out a wet towel, then slamming it down on your front foot. Your spine is the towel."
+  },
+  {
+   "id": "s29",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "bowl_brace"
+    },
+    {
+     "pose": "hold_back",
+     "at": "@pain"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Low back",
+     "target": "back",
+     "side": "left",
+     "at": "@lower"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "fire",
+     "near": "back",
+     "offset": [
+      -60,
+      40
+     ],
+     "at": "@fractures",
+     "size": 0.7
+    }
+   ],
+   "narration": "That twist is linked to lower back pain and to stress fractures in the low back."
+  },
+  {
+   "id": "s30",
+   "kind": "versus",
+   "left": {
+    "label": "Less twist",
+    "pose": "bowl_release",
+    "props": {
+     "r": "cricketball"
+    },
+    "gauge": {
+     "label": "Ball speed",
+     "icon": "bolt",
+     "from": 0,
+     "to": 60,
+     "at": "@study"
+    }
+   },
+   "right": {
+    "label": "More twist",
+    "pose": "bowl_gather",
+    "poses": [
+     {
+      "pose": "bowl_gather",
+      "torso": -22,
+      "head": 18,
+      "face": "tired"
+     }
+    ],
+    "props": {
+     "r": "cricketball"
+    },
+    "gauge": {
+     "label": "Ball speed",
+     "icon": "bolt",
+     "from": 0,
+     "to": 60,
+     "at": "@study"
+    }
+   },
+   "opponentTint": false,
+   "vs": "=",
+   "narration": "And in one small study of high-performance bowlers, more twist didn't go with more ball speed."
+  },
+  {
+   "id": "s31",
+   "kind": "slam",
+   "text": "Risk, not pace",
+   "highlight": "Risk,",
+   "style": "dark",
+   "icon": "cross",
+   "pauseAfter": 0.7,
+   "narration": "So the twist seems to buy you risk, not pace."
+  },
+  {
+   "id": "s32",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_gather"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@land"
+    },
+    {
+     "pose": "think",
+     "at": "@women"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Firm front knee",
+     "target": "lKnee",
+     "at": "@firm"
+    }
+   ],
+   "caption": {
+    "text": "Men: firm knee · Women: more mixed",
+    "at": "@women"
+   },
+   "narration": "Then the front leg. In studies of men, the fastest bowlers tend to land on a firm, straighter front knee. In women, the picture is more mixed."
+  },
+  {
+   "id": "s33",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_brace"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@catapulted"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@forward"
+    },
+    {
+     "pose": "lunge",
+     "face": "tired",
+     "at": "@collapsing"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "icons": [
+    {
+     "icon": "bolt",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@catapulted",
+     "size": 1.1
+    }
+   ],
+   "narration": "It's like a pole vaulter's plant. The leg stops, and the body is catapulted forward. A collapsing knee leaks that energy."
+  },
+  {
+   "id": "s34",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "bowl_gather"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@hit"
+    }
+   ],
+   "headline": {
+    "text": "5–9× body weight",
+    "highlight": "5–9×",
+    "at": "@absorbs",
+    "side": "right"
+   },
+   "callouts": [
+    {
+     "label": "Front foot",
+     "target": "lFoot",
+     "at": "@foot"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "bolt",
+     "near": "lFoot",
+     "offset": [
+      40,
+      -70
+     ],
+     "at": "@hit",
+     "size": 0.8
+    }
+   ],
+   "narration": "But that leg takes a big hit. The front foot absorbs roughly 5 to 9 times your body weight on landing."
+  },
+  {
+   "id": "s35",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "lunge"
+    },
+    {
+     "pose": "squat",
+     "at": "@strength"
+    },
+    {
+     "pose": "point_up",
+     "at": "@lock"
+    }
+   ],
+   "headline": {
+    "text": "Earn the brace",
+    "highlight": "Earn",
+    "at": "@earn",
+    "side": "right"
+   },
+   "narration": "So you earn the brace with strength. You don't just lock your knee."
+  },
+  {
+   "id": "s36",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_release"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@back-foot"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "caption": {
+    "text": "Drill 1 · Phone check",
+    "at": 0.2
+   },
+   "callouts": [
+    {
+     "label": "Feet",
+     "target": "rFoot",
+     "at": "@feet"
+    },
+    {
+     "label": "Hips",
+     "target": "hips",
+     "side": "right",
+     "at": "@hips"
+    },
+    {
+     "label": "Shoulders",
+     "target": "rShoulder",
+     "at": "@shoulders"
+    }
+   ],
+   "narration": "Drill 1: the phone check. Film 6 balls from behind and side-on. At back-foot contact, do your feet, hips and shoulders point roughly the same way?"
+  },
+  {
+   "id": "s37",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "at": "@coach"
+    },
+    {
+     "pose": "present",
+     "at": "@Changing"
+    }
+   ],
+   "headline": {
+    "text": "Ask a coach",
+    "highlight": "coach",
+    "at": "@qualified",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "check",
+     "pos": [
+      1500,
+      760
+     ],
+     "at": "@job",
+     "size": 0.9
+    }
+   ],
+   "narration": "If you see a big twist, get a qualified coach to look. Changing an action is a coach's job."
+  },
+  {
+   "id": "s38",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.55,
+    "from": 0,
+    "to": "@land"
+   },
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@land"
+    },
+    {
+     "pose": "bowl_release",
+     "rUpper": 40,
+     "rFore": -20,
+     "at": "@chest"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@sets"
+    },
+    {
+     "pose": "bowl_release",
+     "rUpper": 40,
+     "rFore": -20,
+     "at": "@twice"
+    }
+   ],
+   "caption": {
+    "text": "Drill 2 · Step and brace · 3 × 6, twice a week",
+    "at": 0.2
+   },
+   "callouts": [
+    {
+     "label": "Firm knee",
+     "target": "lKnee",
+     "at": "@knee"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1560,
+      320
+     ],
+     "at": "@hold",
+     "size": 0.9
+    }
+   ],
+   "narration": "Drill 2: step and brace. From 3 steps, land on the front foot, firm the knee, let your chest come over it, and hold 2 seconds. 3 sets of 6, twice a week, without a ball at first."
+  },
+  {
+   "id": "s39",
+   "kind": "list",
+   "title": "Drill 3 · Front-leg strength",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "side_stand",
+      "lunge"
+     ],
+     "period": 1.4
+    },
+    "pose": "lunge"
+   },
+   "items": [
+    {
+     "text": "Split squats",
+     "icon": "muscle",
+     "at": "@Split"
+    },
+    {
+     "text": "Slow 3-second lowering",
+     "icon": "clock",
+     "at": "@slow"
+    },
+    {
+     "text": "2–3 × 8–12 per leg",
+     "icon": "check",
+     "at": "@sets"
+    },
+    {
+     "text": "Twice a week",
+     "icon": "check",
+     "at": "@twice"
+    }
+   ],
+   "narration": "Drill 3: front-leg strength. Split squats with a slow 3-second lowering. 2 to 3 sets of 8 to 12 per leg, twice a week."
+  },
+  {
+   "id": "s40",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@alone"
+    },
+    {
+     "pose": "shrug",
+     "at": "@hard"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@mistake",
+     "size": 1.1
+    },
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      110,
+      -110
+     ],
+     "at": "@judge"
+    }
+   ],
+   "narration": "The mistake? Trying to fix your action alone from video clips. The twist is hard to judge by eye."
+  },
+  {
+   "id": "s41",
+   "kind": "title",
+   "chapter": "Level 4: The Whip",
+   "number": 4,
+   "heading": "The Whip",
+   "sub": "power through the whole chain",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "bowl_brace"
+     },
+     {
+      "pose": "bowl_release",
+      "at": "@flows"
+     }
+    ],
+    "props": {
+     "r": "cricketball"
+    }
+   },
+   "transition": "push",
+   "narration": "At Level 4, power flows through the whole chain."
+  },
+  {
+   "id": "s42",
+   "kind": "custom",
+   "file": "custom/chain.html",
+   "narration": "The front leg plants, the hips open, the chest drives forward and down, and the arm comes through late."
+  },
+  {
+   "id": "s43",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_gather"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@stops"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@races"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@hand"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "callouts": [
+    {
+     "label": "Legs stop",
+     "target": "lKnee",
+     "at": "@stops"
+    },
+    {
+     "label": "The tip",
+     "target": "rHand",
+     "at": "@races"
+    }
+   ],
+   "narration": "It's like cracking a whip. The handle stops sharply, and the energy races down to the tip. Your hand is the tip."
+  },
+  {
+   "id": "s44",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "point_up"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@Faster"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@front-foot"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Hips open",
+     "target": "hips",
+     "at": "@hips"
+    },
+    {
+     "label": "Shoulders late",
+     "target": "rShoulder",
+     "at": "@late"
+    }
+   ],
+   "narration": "One detail matters. Faster bowlers open up between hips and shoulders late, at front-foot contact, not by twisting early."
+  },
+  {
+   "id": "s45",
+   "kind": "slam",
+   "text": "Late, not more twist",
+   "highlight": "Late,",
+   "style": "brand",
+   "icon": "clock",
+   "pauseAfter": 0.6,
+   "narration": "So the cue is \"late\", not \"more twist\"."
+  },
+  {
+   "id": "s46",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "stand",
+     "torso": 18,
+     "head": -8
+    },
+    {
+     "pose": "hold_back",
+     "at": "@Side-bend"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@don't",
+     "size": 1.1
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Back",
+     "target": "back",
+     "side": "left",
+     "at": "@Side-bend+0.3"
+    }
+   ],
+   "narration": "And don't lean sideways for pace. Side-bend is linked to back injury."
+  },
+  {
+   "id": "s47",
+   "kind": "mascot",
+   "background": "gym",
+   "cycle": {
+    "poses": [
+     "crouch",
+     "jump"
+    ],
+    "period": 0.7,
+    "from": 0
+   },
+   "pose": "crouch",
+   "headline": {
+    "text": "Plyometrics",
+    "highlight": "Plyometrics",
+    "at": 0.3,
+    "side": "right"
+   },
+   "caption": {
+    "text": "Drill 1 · a review of small studies",
+    "at": "@review"
+   },
+   "narration": "Drill 1: plyometrics, the best-supported speed method so far. In a review of small fast-bowling studies, jump training had a moderate effect on bowling speed."
+  },
+  {
+   "id": "s48",
+   "kind": "list",
+   "title": "Plyos: start low",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "crouch",
+      "jump"
+     ],
+     "period": 0.55
+    },
+    "pose": "crouch"
+   },
+   "items": [
+    {
+     "text": "~60 easy contacts",
+     "icon": "bolt",
+     "at": "@60"
+    },
+    {
+     "text": "Pogo hops",
+     "icon": "check",
+     "at": "@pogo"
+    },
+    {
+     "text": "2 days between",
+     "icon": "clock",
+     "at": "@between"
+    },
+    {
+     "text": "Then bounds, skater jumps",
+     "icon": "muscle",
+     "at": "@bounds"
+    },
+    {
+     "text": "Max ~100 contacts",
+     "icon": "target",
+     "at": "@under"
+    }
+   ],
+   "narration": "Start low: about 60 easy foot contacts, like pogo hops, twice a week with 2 days between. Over a few weeks, add bounds and skater jumps, and stay at or under about 100."
+  },
+  {
+   "id": "s49",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "jump"
+    },
+    {
+     "pose": "land",
+     "at": "@softly"
+    },
+    {
+     "pose": "point_up",
+     "at": "@not"
+    }
+   ],
+   "headline": {
+    "text": "Not the day before",
+    "highlight": "Not",
+    "at": "@not",
+    "side": "right"
+   },
+   "narration": "Land softly, on grass or a sprung floor, and not the day before you bowl hard."
+  },
+  {
+   "id": "s50",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "swing_back"
+    },
+    {
+     "pose": "swing_through",
+     "at": "@throws"
+    },
+    {
+     "pose": "squat",
+     "at": "@squats"
+    },
+    {
+     "pose": "lunge",
+     "at": "@split"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@bowling"
+    }
+   ],
+   "props": {
+    "r": "basketball"
+   },
+   "caption": {
+    "text": "Drill 2 · Med-ball circuit · one small study",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "muscle",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@squats",
+     "size": 1.0
+    }
+   ],
+   "narration": "Drill 2: a med-ball power circuit. In one small study, club bowlers did med-ball throws, squats and split squats twice a week, plus bowling slightly heavier and lighter balls."
+  },
+  {
+   "id": "s51",
+   "kind": "stat",
+   "prefix": "+",
+   "value": 5,
+   "suffix": " km/h",
+   "label": "in 4 weeks (one small study)",
+   "highlight": "4 weeks",
+   "at": "@5",
+   "icon": "stopwatch",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "bowl_follow"
+     },
+     {
+      "pose": "celebrate",
+      "at": "@weeks"
+     }
+    ]
+   },
+   "pauseAfter": 0.6,
+   "narration": "They gained about 5 kilometres an hour in 4 weeks."
+  },
+  {
+   "id": "s52",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "point_up",
+     "at": "@coach"
+    },
+    {
+     "pose": "think",
+     "at": "@count"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "headline": {
+    "text": "±10–15% only",
+    "highlight": "only",
+    "at": "@10",
+    "side": "right"
+   },
+   "narration": "If you try modified balls, keep them within about 10 to 15 percent of normal weight, use them with a coach, and count them in your total."
+  },
+  {
+   "id": "s53",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "at": "@supervise"
+    },
+    {
+     "pose": "hold_back",
+     "at": "@pain"
+    },
+    {
+     "pose": "present",
+     "at": "@checked"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "check",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@checked",
+     "size": 1.1
+    }
+   ],
+   "narration": "Under 18, or new to jumping and lifting? Get a coach to supervise. Had back pain or a recent growth spurt? Get checked first."
+  },
+  {
+   "id": "s54",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "flex"
+    },
+    {
+     "pose": "shrug",
+     "at": "@small"
+    }
+   ],
+   "props": {
+    "r": "dumbbell"
+   },
+   "gauges": [
+    {
+     "label": "Speed",
+     "icon": "bolt",
+     "from": 50,
+     "to": 55,
+     "at": 0.3,
+     "changeAt": "@small"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      700
+     ],
+     "at": "@mistake",
+     "size": 1.0
+    }
+   ],
+   "narration": "The mistake? Thinking the gym alone will do it. Lifting on its own showed only a small, uncertain effect on speed."
+  },
+  {
+   "id": "s55",
+   "kind": "title",
+   "chapter": "Level 5: The Durable Strike Bowler",
+   "number": 5,
+   "heading": "The Durable Strike Bowler",
+   "sub": "fast all season",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "bowl_release"
+     },
+     {
+      "pose": "bowl_follow",
+      "face": "happy",
+      "at": "@season"
+     }
+    ],
+    "props": {
+     "r": "cricketball"
+    }
+   },
+   "transition": "push",
+   "narration": "Level 5 is the bowler who's still fast in the last over of the season."
+  },
+  {
+   "id": "s56",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_release"
+    },
+    {
+     "pose": "hold_back",
+     "at": "@injured"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "callouts": [
+    {
+     "label": "Low back",
+     "target": "back",
+     "side": "left",
+     "at": "@Stress"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "fire",
+     "near": "back",
+     "offset": [
+      -60,
+      40
+     ],
+     "at": "@fractures",
+     "size": 0.7
+    }
+   ],
+   "narration": "Fast bowlers are the most injured players in cricket. Stress fractures in the low back cost the most playing time, and they hit young bowlers hardest."
+  },
+  {
+   "id": "s57",
+   "kind": "slam",
+   "text": "The spike",
+   "highlight": "spike",
+   "style": "dark",
+   "icon": "fire",
+   "narration": "The biggest trigger is the spike."
+  },
+  {
+   "id": "s58",
+   "kind": "chart",
+   "title": "Balls bowled per week (illustration)",
+   "focus": 4,
+   "max": 300,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "bowl_release"
+     },
+     {
+      "pose": "bowl_follow",
+      "at": "@study"
+     },
+     {
+      "pose": "think",
+      "at": "@meaning"
+     },
+     {
+      "pose": "hold_back",
+      "at": "@injury"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Week 1",
+     "value": 100,
+     "display": ""
+    },
+    {
+     "label": "Week 2",
+     "value": 105,
+     "display": ""
+    },
+    {
+     "label": "Week 3",
+     "value": 95,
+     "display": ""
+    },
+    {
+     "label": "Week 4",
+     "value": 100,
+     "display": "usual"
+    },
+    {
+     "label": "Spike week",
+     "value": 220,
+     "display": "3–4× risk",
+     "at": "@double",
+     "color": "bad"
+    }
+   ],
+   "narration": "In one study of elite bowlers, a week of more than double their usual load, meaning their average over the last month, came with 3 to 4 times the injury risk the following week."
+  },
+  {
+   "id": "s59",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "bowl_brace",
+     "bowl_release"
+    ],
+    "period": 0.5,
+    "from": 0,
+    "to": "@risk"
+   },
+   "poses": [
+    {
+     "pose": "bowl_brace"
+    },
+    {
+     "pose": "hold_back",
+     "at": "@risk"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "headline": {
+    "text": "234+ balls: ~3× risk",
+    "highlight": "~3×",
+    "at": "@roughly",
+    "side": "right"
+   },
+   "narration": "In English county pros, weeks of 234 balls or more, about 39 overs, came with roughly 3 times the risk of a back stress fracture, compared with weeks under about 200."
+  },
+  {
+   "id": "s60",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "present",
+     "at": "@Steady"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@bounces"
+    },
+    {
+     "pose": "hold_back",
+     "at": "@later"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.4,
+     "levelTo": 0.85,
+     "levelAt": "@build",
+     "pos": [
+      1500,
+      330
+     ],
+     "size": 1.3,
+     "at": "@savings"
+    },
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      620
+     ],
+     "at": "@bounces",
+     "size": 1.0
+    },
+    {
+     "icon": "clock",
+     "pos": [
+      1700,
+      620
+     ],
+     "at": "@later",
+     "size": 1.0
+    }
+   ],
+   "narration": "Think of your body's load tolerance like a savings account. Steady deposits build the balance. One huge withdrawal bounces, and the bill can arrive a week or more later."
+  },
+  {
+   "id": "s61",
+   "kind": "mascot",
+   "background": "night",
+   "poses": [
+    {
+     "pose": "lie"
+    },
+    {
+     "pose": "hold_back",
+     "at": "@Bowlers"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@hurt",
+     "size": 1.0
+    }
+   ],
+   "narration": "But resting completely isn't safe either. Bowlers with too little regular bowling were also more likely to get hurt."
+  },
+  {
+   "id": "s62",
+   "kind": "list",
+   "title": "Drill 1 · Count your balls",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@never"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Log every hard delivery",
+     "icon": "check",
+     "at": "@Log"
+    },
+    {
+     "text": "Build up gradually",
+     "icon": "bolt",
+     "at": "@gradually"
+    },
+    {
+     "text": "Never double your usual week",
+     "icon": "cross",
+     "at": "@never"
+    },
+    {
+     "text": "Lighter week every 4–6",
+     "icon": "moon",
+     "at": "@lighter"
+    }
+   ],
+   "narration": "Drill 1: count your balls. Log every hard delivery. Build up gradually, never jump to double your usual week, and borrow the junior rule: a lighter week every 4 to 6 weeks."
+  },
+  {
+   "id": "s63",
+   "kind": "chart",
+   "title": "Injury risk vs days between bowling (elite)",
+   "unit": "",
+   "focus": 1,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@lowest"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Under 2 days",
+     "value": 2.4,
+     "display": "higher",
+     "color": "bad"
+    },
+    {
+     "label": "3–4 days",
+     "value": 1.0,
+     "display": "lowest",
+     "at": "@lowest",
+     "color": "good"
+    },
+    {
+     "label": "Over 5 days",
+     "value": 1.8,
+     "display": "higher",
+     "color": "bad"
+    }
+   ],
+   "narration": "Drill 2: spread your bowling days. Elite bowlers had the lowest injury risk with about 3 to 4 days between bowling sessions."
+  },
+  {
+   "id": "s64",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_follow"
+    },
+    {
+     "pose": "point_up",
+     "at": "@2"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@most"
+    }
+   ],
+   "headline": {
+    "text": "2 days a week",
+    "highlight": "2",
+    "at": "@2",
+    "side": "right"
+   },
+   "narration": "So a good starting point for adults is 2 bowling days a week, well spaced, and 3 at most."
+  },
+  {
+   "id": "s65",
+   "kind": "list",
+   "title": "Juniors: follow your board",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "point_up",
+      "at": "@caps"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Follow your board's limits",
+     "icon": "check",
+     "at": "@Follow"
+    },
+    {
+     "text": "CA under-17s: 5-over spells",
+     "icon": "stopwatch",
+     "at": "@5-over"
+    },
+    {
+     "text": "Max 3 bowling days a week",
+     "icon": "clock",
+     "at": "@3"
+    }
+   ],
+   "narration": "Under 19? Follow your board's limits. Cricket Australia, for example, caps under-17s at 5-over spells and 3 bowling days a week."
+  },
+  {
+   "id": "s66",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "plank"
+    },
+    {
+     "pose": "flex",
+     "at": "@stronger"
+    },
+    {
+     "pose": "plank",
+     "at": "@endurance"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@reduced"
+    },
+    {
+     "pose": "shrug",
+     "at": "@didn't"
+    }
+   ],
+   "caption": {
+    "text": "Drill 3 · Back armour · 8 weeks",
+    "at": 0.2
+   },
+   "narration": "Drill 3: back armour. An 8-week exercise programme made 14 to 17 year old bowlers stronger, with better back endurance, and slightly reduced the twist without slowing the ball. It didn't test injuries."
+  },
+  {
+   "id": "s67",
+   "kind": "list",
+   "title": "Back circuit",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "plank"
+     },
+     {
+      "pose": "squat",
+      "at": "@single-leg"
+     },
+     {
+      "pose": "point_up",
+      "at": "@pain-free"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Back holds",
+     "icon": "muscle",
+     "at": "@holds"
+    },
+    {
+     "text": "Side planks",
+     "icon": "muscle",
+     "at": "@side"
+    },
+    {
+     "text": "Single-leg squats",
+     "icon": "muscle",
+     "at": "@single-leg"
+    },
+    {
+     "text": "2–3 times a week",
+     "icon": "clock",
+     "at": "@times"
+    },
+    {
+     "text": "Keep it pain-free",
+     "icon": "check",
+     "at": "@pain-free"
+    }
+   ],
+   "narration": "A good starting point: back holds, side planks and single-leg squats, 2 to 3 times a week. Keep it pain-free."
+  },
+  {
+   "id": "s68",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "bowl_follow"
+    },
+    {
+     "pose": "hold_back",
+     "at": "@pain"
+    },
+    {
+     "pose": "point_up",
+     "face": "focused",
+     "at": "@stop"
+    },
+    {
+     "pose": "present",
+     "face": "focused",
+     "at": "@doctor"
+    }
+   ],
+   "headline": {
+    "text": "Back pain? Stop.",
+    "highlight": "Stop.",
+    "at": "@stop",
+    "side": "right"
+   },
+   "narration": "Most important: if you get low back pain while or after bowling, especially on one side, stop bowling and see a sports doctor or physio before you bowl again."
+  },
+  {
+   "id": "s69",
+   "kind": "slam",
+   "text": "Injury before pain",
+   "highlight": "before",
+   "style": "dark",
+   "icon": "clock",
+   "pauseAfter": 0.8,
+   "narration": "These bone injuries can start before the pain does."
+  },
+  {
+   "id": "s70",
+   "kind": "list",
+   "chapter": "Your week",
+   "title": "A simple week",
+   "transition": "push",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "squat"
+     },
+     {
+      "pose": "plank",
+      "at": "@Tuesday"
+     },
+     {
+      "pose": "bowl_release",
+      "at": "@Wednesday"
+     }
+    ],
+    "props": {
+     "r": "cricketball"
+    }
+   },
+   "items": [
+    {
+     "text": "Mon: strength + jumps",
+     "icon": "muscle",
+     "at": "@Monday"
+    },
+    {
+     "text": "Tue: rest + back circuit",
+     "icon": "moon",
+     "at": "@Tuesday"
+    },
+    {
+     "text": "Wed: nets, 4–6 overs",
+     "icon": "target",
+     "at": "@Wednesday"
+    }
+   ],
+   "focus": false,
+   "narration": "A simple week. Monday: strength and jumps. Tuesday: rest, plus the back circuit. Wednesday: nets, run-up rhythm, 4 to 6 overs."
+  },
+  {
+   "id": "s71",
+   "kind": "list",
+   "title": "A simple week",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "lunge"
+     },
+     {
+      "pose": "sit",
+      "at": "@Friday"
+     },
+     {
+      "pose": "bowl_follow",
+      "at": "@Saturday"
+     },
+     {
+      "pose": "lie",
+      "at": "@Sunday"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Thu: light strength + back",
+     "icon": "muscle",
+     "at": "@Thursday"
+    },
+    {
+     "text": "Fri: rest",
+     "icon": "moon",
+     "at": "@Friday"
+    },
+    {
+     "text": "Sat: match",
+     "icon": "trophy",
+     "at": "@Saturday"
+    },
+    {
+     "text": "Sun: rest",
+     "icon": "moon",
+     "at": "@Sunday"
+    }
+   ],
+   "focus": false,
+   "narration": "Thursday: lighter strength, a few jumps and the back circuit again. Friday: rest. Saturday: match. Sunday: rest."
+  },
+  {
+   "id": "s72",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.55,
+    "from": 0,
+    "to": "@build"
+   },
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "run_a",
+     "at": "@build"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@zero"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@full"
+    }
+   ],
+   "headline": {
+    "text": "6–10 week build-up",
+    "highlight": "6–10",
+    "at": "@6",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "clock",
+     "pos": [
+      1500,
+      760
+     ],
+     "at": "@weeks",
+     "size": 0.9
+    }
+   ],
+   "narration": "And before the season, build up over 6 to 10 weeks. Don't go from zero to full spells."
+  },
+  {
+   "id": "s73",
+   "kind": "mascot",
+   "chapter": "Recap",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.36,
+    "from": 0,
+    "to": "@line"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "bowl_gather",
+     "at": "@line"
+    },
+    {
+     "pose": "bowl_brace",
+     "at": "@brace"
+    },
+    {
+     "pose": "bowl_release",
+     "at": "@whip"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@late"
+    },
+    {
+     "pose": "point_up",
+     "at": "@count"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "narration": "Run in with rhythm, line up, brace, whip it through late, and count every ball."
+  },
+  {
+   "id": "s74",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "bowl_release"
+    },
+    {
+     "pose": "bowl_follow",
+     "at": "@faster"
+    },
+    {
+     "pose": "celebrate",
+     "at": "@season"
+    }
+   ],
+   "props": {
+    "r": "cricketball"
+   },
+   "icons": [
+    {
+     "icon": "trophy",
+     "pos": [
+      1500,
+      330
+     ],
+     "at": "@season",
+     "size": 1.2
+    }
+   ],
+   "transition": "fade",
+   "pauseAfter": 1.0,
+   "narration": "Climb one level at a time, and you won't just bowl faster. You'll still be bowling fast at the end of the season."
+  }
+ ]
+}

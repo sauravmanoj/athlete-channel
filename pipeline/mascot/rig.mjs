@@ -305,6 +305,7 @@ export function propSvg(name, c = colors()) {
     football: `<g transform="translate(0 -10)"><circle r="32" fill="#fff" stroke="${ink}" stroke-width="6"/><path d="M0 -12 L11 -4 L7 10 L-7 10 L-11 -4 Z" fill="${ink}"/></g>`,
     dumbbell: `<g><rect x="-6" y="-4" width="12" height="10" fill="${ink}"/><rect x="-46" y="-8" width="92" height="12" rx="5" fill="#888" stroke="${ink}" stroke-width="4"/><rect x="-62" y="-26" width="20" height="48" rx="5" fill="#333" stroke="${ink}" stroke-width="4"/><rect x="42" y="-26" width="20" height="48" rx="5" fill="#333" stroke="${ink}" stroke-width="4"/></g>`,
     bottle: `<g transform="translate(0 -40)"><rect x="-16" y="0" width="32" height="70" rx="10" fill="#5BB8F0" stroke="${ink}" stroke-width="5"/><rect x="-9" y="-12" width="18" height="14" rx="3" fill="#fff" stroke="${ink}" stroke-width="4"/></g>`,
+    cricketball: `<g transform="translate(0 -6)"><circle r="17" fill="#B3202A" stroke="${ink}" stroke-width="5"/><path d="M-12 -12 Q-4 0 -12 12 M-7 -15 Q1 0 -7 15" stroke="#fff" stroke-width="2" fill="none" opacity=".85"/></g>`,
     phone: `<g transform="translate(0 -30)"><rect x="-18" y="0" width="36" height="64" rx="7" fill="#222" stroke="${ink}" stroke-width="4"/><rect x="-13" y="6" width="26" height="48" rx="3" fill="#7cc4ff"/></g>`,
   };
   return P[name] || "";
@@ -336,7 +337,7 @@ export function bodyPoints(p) {
   pts.chest = rotV(0, -125, pose.torso);
   pts.core = rotV(0, -60, pose.torso);
   pts.hips = [0, 0];
-  pts.back = rotV(-30 * v.torsoW, -110, pose.torso);
+  pts.back = rotV(-45 * v.torsoW, -50, pose.torso); // low back (lumbar), rear edge
   const low = lowestPoint(pose);
   const out = {};
   for (const [k, [x, y]] of Object.entries(pts)) {

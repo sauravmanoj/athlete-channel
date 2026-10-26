@@ -1,0 +1,56 @@
+<!-- Hero scene: the kinetic chain as a whip. Each link lights in order; the speed bar under it grows.
+     Illustration only: bar lengths are not data (no numbers shown). -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root .link  { position:absolute; top:330px; width:290px; height:250px; border:8px solid var(--ink); border-radius:28px; background:#fff; text-align:center; opacity:.35; }
+    #__ID__-root .link .n { display:block; margin-top:34px; font:700 72px var(--display); color:var(--brand); }
+    #__ID__-root .link .l { display:block; margin-top:8px; font:700 40px var(--display); text-transform:uppercase; color:var(--ink); line-height:1.05; padding:0 14px; }
+    #__ID__-root .arr   { position:absolute; top:425px; width:60px; height:60px; font:700 60px var(--display); color:var(--ink); text-align:center; opacity:.25; }
+    #__ID__-root .bar   { position:absolute; top:640px; height:46px; border:6px solid var(--ink); border-radius:23px; background:#fff; overflow:hidden; }
+    #__ID__-root .fill  { position:absolute; left:0; top:0; bottom:0; width:100%; transform-origin:0 50%; transform:scaleX(0); }
+    #__ID__-root .ball  { position:absolute; top:395px; left:1750px; width:110px; height:110px; border-radius:50%; background:#B3202A; border:8px solid var(--ink); opacity:0; }
+    #__ID__-root .seam  { position:absolute; left:30px; top:-4px; width:22px; height:104px; border-left:4px dashed #fff; border-right:4px dashed #fff; }
+    #__ID__-root .speedlab { position:absolute; top:720px; left:120px; font:600 32px var(--sans); color:var(--ink); opacity:.7; }
+    #__ID__-root .note  { position:absolute; right:60px; bottom:40px; font:600 26px var(--sans); color:var(--ink); opacity:.55; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:90px;text-align:center">Crack the whip</div>
+
+  <div class="link" id="__ID__-k1" style="left:100px"><span class="n">1</span><span class="l">Front leg plants</span></div>
+  <div class="arr"  id="__ID__-a1" style="left:398px">›</div>
+  <div class="link" id="__ID__-k2" style="left:465px"><span class="n">2</span><span class="l">Hips open</span></div>
+  <div class="arr"  id="__ID__-a2" style="left:763px">›</div>
+  <div class="link" id="__ID__-k3" style="left:830px"><span class="n">3</span><span class="l">Chest drives down</span></div>
+  <div class="arr"  id="__ID__-a3" style="left:1128px">›</div>
+  <div class="link" id="__ID__-k4" style="left:1195px"><span class="n">4</span><span class="l">Arm comes late</span></div>
+  <div class="arr"  id="__ID__-a4" style="left:1493px">›</div>
+  <div class="ball" id="__ID__-ball"><div class="seam"></div></div>
+
+  <div class="bar" style="left:100px;width:1600px"><div class="fill" id="__ID__-f" style="background:linear-gradient(90deg,var(--good),var(--hl),var(--bad))"></div></div>
+  <div class="speedlab" id="__ID__-sl">Speed builds along the chain</div>
+  <div class="note">Illustration</div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.05);
+  tl.fromTo("#__ID__-sl", { opacity: 0 }, { opacity: 0.7, duration: 0.4 }, 0.3);
+  var step = Math.max(0.5, (D - 1.6) / 5);
+  var stops = [0.12, 0.3, 0.52, 0.8, 1];
+  for (var i = 1; i <= 4; i++) {
+    var t = 0.5 + (i - 1) * step;
+    tl.to("#__ID__-k" + i, { opacity: 1, scale: 1.06, duration: 0.25, ease: "back.out(2)" }, t);
+    tl.to("#__ID__-k" + i, { scale: 1, duration: 0.2 }, t + 0.25);
+    tl.to("#__ID__-a" + i, { opacity: 1, duration: 0.2 }, t + 0.2);
+    tl.fromTo("#__ID__-f", { scaleX: i === 1 ? 0 : stops[i - 2] }, { scaleX: stops[i - 1], duration: step * 0.8, ease: "power2.in", immediateRender: false }, t);
+  }
+  var tb = 0.5 + 4 * step;
+  tl.fromTo("#__ID__-ball", { opacity: 0, x: -120, scale: 0.6 }, { opacity: 1, x: 0, scale: 1, duration: 0.35, ease: "power3.out" }, tb);
+  tl.fromTo("#__ID__-f", { scaleX: stops[3] }, { scaleX: 1, duration: 0.3, ease: "power3.out", immediateRender: false }, tb);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>
