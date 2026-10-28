@@ -1,0 +1,312 @@
+[
+  {
+    "id": "S1",
+    "title": "Match performance of high-standard soccer players with special reference to development of fatigue",
+    "author": "Mohr M, Krustrup P, Bangsbo J",
+    "publisher": "Journal of Sports Sciences 21(7):519-528",
+    "year": "2003",
+    "url": "https://portal.findresearcher.sdu.dk/da/publications/match-performance-of-high-standard-soccer-players-with-special-re/",
+    "type": "trial",
+    "notes": "18 top-class vs 24 moderate professionals, time-motion. Top-class: 28% more high-intensity running (2.43 vs 1.90 km), 58% more sprinting (0.65 vs 0.41 km), Yo-Yo IR 11% better (2.26 vs 2.04 km). High-intensity running 35-45% lower in last 15 min vs first 15 min, at all standards and positions. 12% drop in the 5 min after the peak 5-min period vs game average. Substitutes ran 25% more high-intensity in the final 15 min. DOI 10.1080/0264041031000071182. Abstract read. Total distance top-class 10.86 vs moderate 10.33 km."
+  },
+  {
+    "id": "S2",
+    "title": "Physiological Demands of Football (Sports Science Exchange #125)",
+    "author": "Bangsbo J",
+    "publisher": "Gatorade Sports Science Institute",
+    "year": "2014",
+    "url": "https://www.gssiweb.org/sports-science-exchange/article/sse-125-physiological-demands-of-football",
+    "type": "review",
+    "notes": "Expert narrative review by a leading football physiologist. Top-level outfield men cover 10-13 km; >70% of game low intensity; avg HR ~85% HRmax, peak ~98%, rarely <65%; VO2 ~70% of max; core temp 39-40 C; ~700 turns, >100 intense actions; women ~30% less high-intensity running than elite men; creatine phosphate ~75% of resting 15-30 s after intense activity; glycogen low/depleted in many fibres after games; second-half drops in sprint, high-intensity and total distance; temporary fatigue after intense periods; technical skill generally maintained. Industry-funded site (GSSI) but peer-cited author."
+  },
+  {
+    "id": "S3",
+    "title": "Physical and metabolic demands of training and match-play in the elite football player",
+    "author": "Bangsbo J, Mohr M, Krustrup P",
+    "publisher": "Journal of Sports Sciences 24(7):665-674",
+    "year": "2006",
+    "url": "https://lida.sport-iat.de/ta/Record/4010826?lng=en",
+    "type": "review",
+    "notes": ">70% of game at low intensity yet average VO2 ~70% of max; 150-250 brief intense actions per game for top-class players; muscle glycogen the most important substrate; late-game fatigue may relate to glycogen depletion in some fibres; demands vary with fitness and tactical role. DOI 10.1080/02640410500482529. Abstract read."
+  },
+  {
+    "id": "S4",
+    "title": "Fatigue in soccer: a brief review",
+    "author": "Mohr M, Krustrup P, Bangsbo J",
+    "publisher": "Journal of Sports Sciences 23(6):593-599",
+    "year": "2005",
+    "url": "https://doi.org/10.1080/02640410400021286",
+    "type": "review",
+    "notes": "End-of-game fatigue possibly due to low glycogen in many individual fibres; temporary fatigue after intense periods not explained by glycogen, lactate, acidity or CP, possibly by disturbed muscle ion homeostasis; in hot/humid conditions dehydration and reduced brain function may add. Abstract via Europe PMC."
+  },
+  {
+    "id": "S5",
+    "title": "Muscle and blood metabolites during a soccer game: implications for sprint performance",
+    "author": "Krustrup P, Mohr M, Steensberg A, Bencke J, Kjaer M, Bangsbo J",
+    "publisher": "Medicine & Science in Sports & Exercise 38(6):1165-1174",
+    "year": "2006",
+    "url": "https://doi.org/10.1249/01.mss.0000222845.89262.cd",
+    "type": "trial",
+    "notes": "Muscle glycogen fell ~449 to 255 mmol/kg dw; ~47% of fibres empty or almost empty after the game. Sprint times unchanged after first half but ~2.8% slower after the game, and slower after intense periods in 1st (~1.6%) and 2nd half (~3.6%). Blood lactate ~6 mM (1st half) / ~5 mM (2nd). Abstract via Europe PMC. 31 Danish fourth-division players; 47 ± 7% of fibres empty/near-empty."
+  },
+  {
+    "id": "S6",
+    "title": "The Yo-Yo intermittent recovery test: physiological response, reliability, and validity",
+    "author": "Krustrup P, Mohr M, Amstrup T, Rysgaard T, Johansen J, Steensberg A, Pedersen PK, Bangsbo J",
+    "publisher": "Medicine & Science in Sports & Exercise 35(4):697-705",
+    "year": "2003",
+    "url": "https://doi.org/10.1249/01.MSS.0000058441.94520.32",
+    "type": "trial",
+    "notes": "37 elite players: match high-intensity running correlated with Yo-Yo IR1 (r = 0.71) but not with VO2max or treadmill performance. Test-retest CV 4.9%. During test muscle CP -51%, glycogen -23%, muscle lactate x8. Abstract via Europe PMC (PMID 12673156)."
+  },
+  {
+    "id": "S7",
+    "title": "The Yo-Yo intermittent recovery test: a useful tool for evaluation of physical performance in intermittent sports",
+    "author": "Bangsbo J, Iaia FM, Krustrup P",
+    "publisher": "Sports Medicine 38(1):37-51",
+    "year": "2008",
+    "url": "https://doi.org/10.2165/00007256-200838010-00004",
+    "type": "review",
+    "notes": "Yo-Yo IR1 assesses intermittent exercise that maximally taxes the aerobic system; IR2 the ability to recover from repeated exercise with high anaerobic contribution; Yo-Yo tests detect training changes more sensitively than VO2max; higher competitive level = better Yo-Yo. Abstract via Europe PMC."
+  },
+  {
+    "id": "S8",
+    "title": "Aerobic endurance training improves soccer performance",
+    "author": "Helgerud J, Engen LC, Wisloff U, Hoff J",
+    "publisher": "Medicine & Science in Sports & Exercise 33(11):1925-1931",
+    "year": "2001",
+    "url": "https://doi.org/10.1097/00005768-200111000-00019",
+    "type": "trial",
+    "notes": "RCT, 19 elite junior men. 4 x 4 min at 90-95% HRmax, 3 min jog recovery, 2x/week, 8 weeks. VO2max 58.1 to 64.3 ml/kg/min (~11%); lactate threshold +16%, running economy +6.7%; match distance +20%, sprints +100%, ball involvements +24%, average match intensity 82.7 to 85.6% HRmax. No change in jump, strength, speed, kicking. Abstract via Europe PMC (PMID 11689745) and SDSU summary."
+  },
+  {
+    "id": "S9",
+    "title": "The effect of in-season, high-intensity interval training in soccer players",
+    "author": "Dupont G, Akakpo K, Berthoin S",
+    "publisher": "Journal of Strength and Conditioning Research 18(3):584-589",
+    "year": "2004",
+    "url": "https://lida.sport-iat.de/ta/Record/4008845?lng=en",
+    "type": "trial",
+    "notes": "22 professional men, 10-wk control then 10-wk intervention. Added 12-15 x 15 s runs at 120% maximal aerobic speed / 15 s rest, and 12-15 x 40 m all-out sprints / 30 s rest. Maximal aerobic speed +8.1%, 40 m sprint time -3.5%. Abstract read; weekly frequency not stated in abstract. Protocol: 12–15 × 15 s at 120% MAS / 15 s rest (one ~7-min block) plus 40 m sprints; 10 weeks vs prior control period, no parallel control."
+  },
+  {
+    "id": "S10",
+    "title": "The relationship between aerobic fitness and recovery from high intensity intermittent exercise",
+    "author": "Tomlin DL, Wenger HA",
+    "publisher": "Sports Medicine 31(1):1-11",
+    "year": "2001",
+    "url": "https://doi.org/10.2165/00007256-200131010-00001",
+    "type": "review",
+    "notes": "Aerobic fitness linked to a larger aerobic response during repeated bouts, faster phosphocreatine regeneration and better power recovery across repeated efforts; lactate-removal evidence mixed. Abstract via Europe PMC."
+  },
+  {
+    "id": "S11",
+    "title": "Repeated-sprint ability - part I: factors contributing to fatigue",
+    "author": "Girard O, Mendez-Villanueva A, Bishop D",
+    "publisher": "Sports Medicine 41(8):673-694",
+    "year": "2011",
+    "url": "https://doi.org/10.2165/11590550-000000000-00000",
+    "type": "review",
+    "notes": "Fatigue in repeated sprints = falling sprint speed; limited energy supply (PCr, glycolysis, oxidative metabolism), metabolite build-up (H+) and neural factors; heat/hypoxia may add. Abstract via Europe PMC."
+  },
+  {
+    "id": "S12",
+    "title": "Repeated-sprint ability - part II: recommendations for training",
+    "author": "Bishop D, Girard O, Mendez-Villanueva A",
+    "publisher": "Sports Medicine 41(9):741-756",
+    "year": "2011",
+    "url": "https://vuir.vu.edu.au/9243/",
+    "type": "review",
+    "notes": "No single best method. Recommend (i) single-sprint training (sprint + strength/power) and (ii) high-intensity intervals at ~80-90% VO2max to improve recovery between sprints. Unclear if RSA gains transfer to match performance. Abstract read."
+  },
+  {
+    "id": "S13",
+    "title": "Physiology of small-sided games training in football: a systematic review",
+    "author": "Hill-Haas SV, Dawson B, Impellizzeri FM, Coutts AJ",
+    "publisher": "Sports Medicine 41(3):199-220",
+    "year": "2011",
+    "url": "https://doi.org/10.2165/11539740-000000000-00000",
+    "type": "review",
+    "notes": "Intensity generally rises with fewer players and more pitch area per player; coach encouragement raises intensity; small formats can exceed match intensity and reach intensities similar to running HIIT; SSGs and generic running drills improve fitness similarly. Abstract via Europe PMC."
+  },
+  {
+    "id": "S14",
+    "title": "Recreational football as a health promoting activity: a topical review",
+    "author": "Krustrup P, Aagaard P, Nybo L, Petersen J, Mohr M, Bangsbo J",
+    "publisher": "Scandinavian Journal of Medicine & Science in Sports 20(Suppl 1):1-13",
+    "year": "2010",
+    "url": "https://doi.org/10.1111/j.1600-0838.2010.01108.x",
+    "type": "review",
+    "notes": "Small-sided recreational football: mean HR 80-85% HRmax (similar to elite match play), with high-speed runs, sprints, turns, jumps, tackles; marked VO2max gains in untrained men. Abstract via Europe PMC."
+  },
+  {
+    "id": "S15",
+    "title": "Small-sided games in soccer: amateur vs. professional players' physiological responses, physical, and technical activities",
+    "author": "Dellal A, Hill-Haas S, Lago-Penas C, Chamari K",
+    "publisher": "Journal of Strength and Conditioning Research 25(9):2371-2381",
+    "year": "2011",
+    "url": "https://doi.org/10.1519/JSC.0b013e3181fb4296",
+    "type": "trial",
+    "notes": "Amateurs vs professionals in SSGs: similar %HRmax, but amateurs covered less sprint and high-intensity distance, completed fewer successful passes and lost the ball more. Abstract via Europe PMC (no numeric values in abstract)."
+  },
+  {
+    "id": "S16",
+    "title": "Effects of high-intensity interval training in men soccer player's physical fitness: a systematic review with meta-analysis of randomized-controlled and non-controlled trials",
+    "author": "Clemente FM, Ramirez-Campillo R, Nakamura FY, Sarmento H",
+    "publisher": "Journal of Sports Sciences 39(11):1202-1222",
+    "year": "2021",
+    "url": "https://doi.org/10.1080/02640414.2020.1863644",
+    "type": "review",
+    "notes": "33 studies. vs controls HIIT improved VO2max (p=0.018) and repeated-sprint ability (p=0.049) but not linear sprint time; effective regardless of HIIT type; sprint/jump need complementary training. Abstract via Europe PMC."
+  },
+  {
+    "id": "S17",
+    "title": "High-speed running and sprinting in professional adult soccer: current thresholds definition, match demands and training strategies. A systematic review",
+    "author": "Gualtieri A, Rampinini E, Dello Iacono A, Beato M",
+    "publisher": "Frontiers in Sports and Active Living 5:1116293",
+    "year": "2023",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9968809/",
+    "type": "review",
+    "notes": "No consensus on speed thresholds (UEFA/FIFA men HSR 20, sprint 25 km/h). Men: HSR 618-1001 m, sprint 153-295 m per match; HSR ~7-11% and sprint ~1-3% of total distance. 2014 World Cup: 33 +/- 11 sprints/match (~1 every 173 s), max 68. Sprints >30 km/h ~5-9 s / 30-55 m (LaLiga). Positional differences. Sided games with large area per player for HSR exposure; sprint exposure often under-trained. Full text read (first ~2/3). Sprint threshold 25.2 km/h; 2014 World Cup."
+  },
+  {
+    "id": "S18",
+    "title": "Match running performance fluctuations in elite soccer: indicative of fatigue, pacing or situational influences?",
+    "author": "Bradley PS, Noakes TD",
+    "publisher": "Journal of Sports Sciences 31(15):1627-1638",
+    "year": "2013",
+    "url": "https://doi.org/10.1080/02640414.2013.796062",
+    "type": "trial",
+    "notes": "EPL players with high first-half activity dropped 12% in second-half high-intensity running; moderate/low groups did not. HIR fell 8% for ~5 min after the most intense period. Score line changed positional running (central defenders -17%, attackers +15% when winning big). Subs +15% HIR. Cause (fatigue vs pacing vs tactics) unresolved. Abstract via Europe PMC."
+  },
+  {
+    "id": "S19",
+    "title": "The association of environmental heat stress with performance: analysis of the 2014 FIFA World Cup Brazil",
+    "author": "Nassis GP, Brito J, Dvorak J, Chalabi H, Racinais S",
+    "publisher": "British Journal of Sports Medicine 49(9):609-613",
+    "year": "2015",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4413686/",
+    "type": "trial",
+    "notes": "64 World Cup 2014 matches: high-intensity running lower under high heat stress (24.8 vs 26.9 m/min/player); total distance unchanged; pass success higher. Players appear to modulate activity in heat. Abstract via Europe PMC (PMID 25690408)."
+  },
+  {
+    "id": "S20",
+    "title": "Consensus recommendations on training and competing in the heat",
+    "author": "Racinais S, Alonso JM, Coutts AJ, et al.",
+    "publisher": "British Journal of Sports Medicine 49(18):1164-1173 (also Sports Med, Scand J Med Sci Sports)",
+    "year": "2015",
+    "url": "https://doi.org/10.1136/bjsports-2015-094915",
+    "type": "position-stand",
+    "notes": "Heat acclimatisation via repeated exercise in heat over ~1-2 weeks is the most important intervention; start euhydrated and limit dehydration; pre-cooling can help. Abstract via Europe PMC."
+  },
+  {
+    "id": "S21",
+    "title": "UEFA expert group statement on nutrition in elite football. Current evidence to inform practical recommendations and guide future research",
+    "author": "Collins J, Maughan RJ, Gleeson M, et al.",
+    "publisher": "British Journal of Sports Medicine 55(8):416-442",
+    "year": "2021 (online Oct 2020)",
+    "url": "https://doi.org/10.1136/bjsports-2019-101961",
+    "type": "position-stand",
+    "notes": "Match HR ~85% max, ~70% VO2max, energy ~1300-1600 kcal, CHO 60-70% of energy. EPL 2006-2013: total distance ~10.7-10.9 km (trivial change), HSR +30%, sprint count 31 to 57. Lower-division Danish friendly: ~50% of fibres empty/partly empty after match; starting with low glycogen = less distance and much less high-speed running, especially second half. MD-1: >=6-8 g/kg CHO. Pre-match meal 1-3 g/kg CHO 3-4 h before; 5-7 ml/kg fluid 2-4 h before. During: ~30-60 g CHO after warm-up and again at half-time (or 30-60 g/h); benefits clearer for dribbling/shooting/passing than sprint/jump. Sweat 0.5-2.5 L/h; avoid >2-3% body-mass deficit and avoid weight gain from overdrinking. Notes most football-model nutrition studies used recreational-level players. Pages 416-419 read from full PDF."
+  },
+  {
+    "id": "S22",
+    "title": "Quantity and quality of exercise for developing and maintaining cardiorespiratory, musculoskeletal, and neuromotor fitness in apparently healthy adults (ACSM Position Stand) - reviewed in 'From 1998 to 2011: ACSM Publishes Updated Exercise Guidelines'",
+    "author": "Garber CE et al. (position stand); summary by Kravitz L",
+    "publisher": "Medicine & Science in Sports & Exercise 43(7):1334-1359 / University of New Mexico",
+    "year": "2011",
+    "url": "https://www.unm.edu/~lkravitz/Article%20folder/ACSMGuidelinesUNM.pdf",
+    "type": "position-stand",
+    "notes": "Cardio: >=5 d/wk moderate (RPE 12-13) 30-60 min or >=3 d/wk vigorous (RPE 14-17) 20-60 min; progress intensity, duration and frequency gradually. For apparently healthy adults. Read Table 1 of summary."
+  },
+  {
+    "id": "S23",
+    "title": "The Football Association Medical Research Programme: an audit of injuries in professional football - analysis of hamstring injuries",
+    "author": "Woods C, Hawkins RD, Maltby S, Hulse M, Thomas A, Hodson A",
+    "publisher": "British Journal of Sports Medicine 38(1):36-41",
+    "year": "2004",
+    "url": "https://doi.org/10.1136/bjsm.2002.002352",
+    "type": "trial",
+    "notes": "Hamstring strains 12% of all injuries; 57% occurred while running; 62% in matches with an increase toward the end of each half; 12% re-injury. Abstract via Europe PMC. Strains increase at the end of each half (p<0.01)."
+  },
+  {
+    "id": "S24",
+    "title": "Epidemiology of muscle injuries in professional football (soccer)",
+    "author": "Ekstrand J, Hagglund M, Walden M",
+    "publisher": "American Journal of Sports Medicine 39(6):1226-1232",
+    "year": "2011",
+    "url": "https://doi.org/10.1177/0363546510395879",
+    "type": "trial",
+    "notes": "Muscle injuries 31% of all injuries; hamstrings 37% of muscle injuries; 16% re-injuries. Abstract via Europe PMC."
+  },
+  {
+    "id": "S25",
+    "title": "Including the Nordic hamstring exercise in injury prevention programmes halves the rate of hamstring injuries: a systematic review and meta-analysis of 8459 athletes",
+    "author": "van Dyk N, Behan FP, Whiteley R",
+    "publisher": "British Journal of Sports Medicine 53(21):1362-1370",
+    "year": "2019",
+    "url": "https://doi.org/10.1136/bjsports-2018-100045",
+    "type": "review",
+    "notes": "15 studies, 8459 athletes: RR 0.49 (95% CI 0.32-0.74); RCTs only RR 0.52; high-bias studies removed RR 0.55. Abstract via Europe PMC."
+  },
+  {
+    "id": "S26",
+    "title": "Why methods matter in a meta-analysis: a reappraisal showed inconclusive injury preventive effect of Nordic hamstring exercise",
+    "author": "Impellizzeri FM, McCall A, van Smeden M",
+    "publisher": "Journal of Clinical Epidemiology 140:111-124",
+    "year": "2021",
+    "url": "https://doi.org/10.1016/j.jclinepi.2021.09.007",
+    "type": "review",
+    "notes": "Only 5 of the 15 studies were RCTs testing NHE; re-analysis RR 0.59 (95% CI 0.27-1.29): effect inconclusive; at best a conditional recommendation in football. Abstract via Europe PMC."
+  },
+  {
+    "id": "S27",
+    "title": "The preventive effect of the Nordic hamstring exercise on hamstring injuries in amateur soccer players: a randomized controlled trial",
+    "author": "van der Horst N, Smits DW, Petersen J, Goedhart EA, Backx FJ",
+    "publisher": "American Journal of Sports Medicine 43(6):1316-1323",
+    "year": "2015",
+    "url": "https://doi.org/10.1177/0363546515574057",
+    "type": "trial",
+    "notes": "40 Dutch amateur teams, 579 men (mean 24.5 y). 25 NHE sessions over 13 weeks. Hamstring injury incidence 0.25 vs 0.8 per 1000 h; OR 0.28. 91% compliance. Match incidence 1.2 vs training 0.33 per 1000 h. Sets/reps not in abstract. Abstract via Europe PMC."
+  },
+  {
+    "id": "S28",
+    "title": "Effect of specific exercise-based football injury prevention programmes on the overall injury rate in football: a systematic review and meta-analysis of the FIFA 11 and 11+ programmes",
+    "author": "Thorborg K, Krommes KK, Esteve E, Clausen MB, Bartels EM, Rathleff MS",
+    "publisher": "British Journal of Sports Medicine 51(7):562-571",
+    "year": "2017",
+    "url": "https://doi.org/10.1136/bjsports-2016-097066",
+    "type": "review",
+    "notes": "6 cluster RCTs. FIFA 11+ (4 studies) IRR 0.61 (~39% fewer injuries); original FIFA 11 no significant effect. Abstract via Europe PMC. Populations recreational/sub-elite; IRR CI 0.48–0.77."
+  },
+  {
+    "id": "S29",
+    "title": "How much is too much? (Part 1) International Olympic Committee consensus statement on load in sport and risk of injury",
+    "author": "Soligard T, Schwellnus M, Alonso JM, et al.",
+    "publisher": "British Journal of Sports Medicine 50(17):1030-1041",
+    "year": "2016",
+    "url": "https://doi.org/10.1136/bjsports-2016-096581",
+    "type": "position-stand",
+    "notes": "Poor load management, including rapid changes in training/competition load, is a major injury risk factor; guidance on prescribing and monitoring load. Abstract via Europe PMC."
+  },
+  {
+    "id": "S30",
+    "title": "Updating ACSM's Recommendations for Exercise Preparticipation Health Screening",
+    "author": "Riebe D, Franklin BA, Thompson PD, et al.",
+    "publisher": "Medicine & Science in Sports & Exercise 47(11):2473-2479",
+    "year": "2015",
+    "url": "https://doi.org/10.1249/MSS.0000000000000664",
+    "type": "position-stand",
+    "notes": "Need for medical clearance depends on current activity, signs/symptoms or known cardiovascular/metabolic/renal disease, and desired intensity; exercise-related cardiac events are often preceded by warning signs/symptoms. Abstract via Europe PMC."
+  },
+  {
+    "id": "S31",
+    "title": "Heat exhaustion and heatstroke",
+    "author": "NHS",
+    "publisher": "NHS (UK National Health Service)",
+    "year": "current at access (2026)",
+    "url": "https://www.nhs.uk/conditions/heat-exhaustion-heatstroke/",
+    "type": "org",
+    "notes": "Heat exhaustion signs: tiredness, dizziness, headache, nausea, heavy sweating, cramps, intense thirst. Cool down, fluids; should improve within 30 min. Heatstroke (emergency): very high temperature, hot skin not sweating, fast breathing/heartbeat, confusion, seizure, loss of consciousness."
+  }
+]

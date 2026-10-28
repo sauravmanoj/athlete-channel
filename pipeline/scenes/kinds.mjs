@@ -38,7 +38,7 @@ export function mascotScene(s, t, ctx) {
     js += `tl.fromTo("#${id}-ic${i}",{scale:0,opacity:0,transformOrigin:"50% 50%"},{scale:1,opacity:1,duration:.35,ease:"back.out(2.4)"},${f(a)});`;
     if (ic.icon === "battery" && ic.levelTo !== undefined) {
       const la = ctx.at(ic.levelAt, a + 0.8);
-      const col = ic.levelTo > 0.5 ? "var(--good)" : ic.levelTo > 0.2 ? "var(--hl)" : "var(--bad)";
+      const col = ic.levelTo > 0.5 ? "#3DBE6E" : ic.levelTo > 0.2 ? "#FFD23F" : "#E8423A"; // hex: GSAP cannot tween CSS variables
       js += `tl.fromTo("#${id}-ic${i}-lvl",{attr:{width:${92 * level}}},{attr:{width:${92 * ic.levelTo}},fill:"${col}",duration:${ic.levelDur || 1.4},ease:"power1.inOut",immediateRender:false},${f(la)});`;
     }
     if (ic.pulse) js += `tl.to("#${id}-ic${i}",{scale:1.12,duration:.35,yoyo:true,repeat:${Math.max(1, Math.floor((t.dur - a) / 0.35) - 2)},ease:"sine.inOut"},${f(a + 0.4)});`;
@@ -61,7 +61,8 @@ export function mascotScene(s, t, ctx) {
   (s.gauges || []).forEach((g, i) => {
     const a = ctx.at(g.at, t.speechStart + 0.3);
     const from = g.from ?? 100, to = g.to ?? from;
-    const col = (v) => (v > 50 ? "var(--good)" : v > 25 ? "var(--hl)" : "var(--bad)");
+    // Hex, not CSS variables: GSAP can't tween var(--x) colours (the fill went blank mid-tween).
+    const col = (v) => (v > 50 ? "#3DBE6E" : v > 25 ? "#FFD23F" : "#E8423A");
     html += `<div class="gauge" id="${id}-g${i}" style="right:${g.right ?? 110}px;top:${(g.top ?? 110) + i * 110}px">
       <div class="gl">${g.icon ? `<svg width="44" height="44" viewBox="-60 -60 120 120">${icon(g.icon)}</svg>` : ""}${esc(g.label || "")}</div>
       <div class="track"><div class="fill" id="${id}-gf${i}" style="transform:scaleX(${from / 100});background:${col(from)}"></div></div></div>`;
@@ -93,7 +94,7 @@ export function slam(s, t, ctx) {
   const bgc = style === "dark" ? "#1B1F36" : style === "brand" ? "var(--brand)" : "var(--bg)";
   const fg = style === "plain" ? "var(--ink)" : "#fff";
   const words = s.text.split(/\s+/);
-  const hl = new Set([].concat(s.highlight || []).flatMap((h) => h.toUpperCase().split(/\s+/)));
+  const hl = new Set([].concat(s.highlight || []).flatMap((h) => h.toUpperCase().split(/\s+/).map((w) => w.replace(/[^\w]/g, ""))));
   const size = s.size || (s.text.length > 22 ? 150 : s.text.length > 12 ? 190 : 240);
   const html = `<div class="full" style="background:${bgc}"></div>
   <div class="stage" id="${id}-stage"><div class="wrap">
@@ -174,7 +175,8 @@ export function versus(s, t, ctx) {
     if (side.gauge) {
       const g = side.gauge;
       const from = g.from ?? 100, to = g.to ?? from;
-      const col = (v) => (v > 50 ? "var(--good)" : v > 25 ? "var(--hl)" : "var(--bad)");
+      // Hex, not CSS variables: GSAP can't tween var(--x) colours (the fill went blank mid-tween).
+    const col = (v) => (v > 50 ? "#3DBE6E" : v > 25 ? "#FFD23F" : "#E8423A");
       html += `<div class="gauge" id="${id}-${k}-g" style="left:${x - 210}px;top:140px"><div class="gl">${g.icon ? `<svg width="44" height="44" viewBox="-60 -60 120 120">${icon(g.icon)}</svg>` : ""}${esc(g.label || "")}</div>
         <div class="track"><div class="fill" id="${id}-${k}-gf" style="transform:scaleX(${from / 100});background:${col(from)}"></div></div></div>`;
       js += `tl.fromTo("#${id}-${k}-g",{opacity:0},{opacity:1,duration:.3},${f(a + 0.3)});`;

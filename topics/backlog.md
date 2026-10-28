@@ -6,37 +6,17 @@
   - Framework: short explosive rallies + aerobic recovery between them. Acting: lunges, smash jumps, gasping, battery gauge.
 - [x] **The levels of a cricket fast bowler** — template: levels
   - Framework: run-up, load, delivery stride, follow-through, workload management. Acting: lineup with growing characters.
-- [ ] **How to recover overnight** — template: how-to-X-like-an-athlete
-  - Framework: sleep, refuel, rehydrate, easy movement. Acting: lie/sleep, bottle, food icons.
-- [ ] **5 mistakes killing your sprint speed** — template: N-mistakes
-  - Acting: sprint cycle, facepalm per mistake, fix pose.
-- [ ] **The mental game of a penalty taker** — template: mental-game
-  - Framework: pre-shot routine, breathing, decision commitment. Acting: brain/heart icons, focus gauge.
 
 <!-- /new-topics 2026-10-25 — scores: desire/framework/acting/demand/gap/safety, each /5 -->
-- [ ] **How to never get tired in football** — 28/30 — template: never-get-tired
+- [x] **How to never get tired in football** — 28/30 — template: never-get-tired
   - Framework: repeated-sprint ability: aerobic base to recover between bursts + interval work that matches the game + pacing off the ball
   - Acting: jog → sprint → walk cycle, pressing run, hands-on-knees, battery gauge draining/refilling at stoppages
   - Demand: lots of evergreen "soccer stamina" guides and questions · Competition: generic listicles with no framework; the badminton episode's sequel
-- [ ] **The levels of a pickleball player** — 28/30 — template: levels
+- [x] **The levels of a pickleball player** — 28/30 — template: levels
   - Framework: 2.0 → 5.0+ ladder (rules → rallies → third-shot drop → resets under pressure → no weak spots), with DUPR share at each level (~29% sit at 3.0–3.49, ~16% at 4.0+)
   - Acting: lineup of mascots that get better, paddle swings, dink at the kitchen line, facepalm on unforced errors
   - Demand: fast-growing sport; rating confusion is a top question · Competition: mostly written guides, few animated explainers
-- [ ] **Your vertical jump is weak (here's why)** — 27/30 — template: your-X-is-weak
-  - Framework: strength base, how fast you produce force (plyos), take-off technique, fatigue hiding your jump
-  - Acting: squat → countermovement jump, arm swing, approach jump, gauge for height, tired mascot jumping lower
-  - Demand: perennial "why isn't my vertical improving" threads (volleyball, basketball) · Competition: crowded but mostly influencer programs; a framework angle is open
-  - Safety: limit plyo volume, landing mechanics first
-- [ ] **How to never get tired in basketball** — 27/30 — template: never-get-tired
-  - Framework: work:rest ratios, game-specific conditioning (sprints, backpedals, slides) over long jogs, skills under fatigue
-  - Acting: fast break sprint, defensive slide cycle, free throw while gasping, bench rest gauge
-  - Demand: steady "basketball conditioning" demand · Competition: myth-busting angle ("running miles isn't the answer") is under-served
-- [ ] **How to change direction faster than anyone** — 26/30 — template: faster-than-anyone
-  - Framework: brake → plant → push off; eccentric strength; approach speed vs cut angle
-  - Acting: sprint → hard stop → cut cycle, slow-motion plant with knee/hip callouts, cones
-  - Demand: agility questions across football, basketball, rugby, racket sports · Competition: coaching blogs, few explainers. Separate from "first step" (that's starting, this is stopping)
-  - Safety: braking work builds up step by step; mention non-contact injury risk
-- [ ] **The levels of a padel player** — 26/30 — template: levels
+- [x] **The levels of a padel player** — 26/30 — template: levels
   - Framework: levels 1–7 (rules/positioning → longer rallies → glass and lobs → bandeja/víbora → tournament)
   - Acting: lineup, wall rebound, bandeja overhead, partner positioning
   - Demand: booming in Europe/Middle East, Playtomic levels confuse players · Competition: very low for animated content
@@ -44,16 +24,4 @@
   - Framework: running too fast, adding miles too quickly, overstriding, no rest days, running underfuelled
   - Acting: sprint-off-the-start → collapse, facepalm per mistake, fix pose, conversational-pace speech bubble
   - Demand: very high beginner demand · Competition: heavily covered, so we stand out with the mascot format. Low-risk advice
-- [ ] **How to never gas out in boxing** — 25/30 — template: never-get-tired
-  - Framework: pacing and tempo, relaxed footwork, aerobic base for between rounds, round-based intervals (3 on / 1 off)
-  - Acting: guard stance, jab cycle, tense vs relaxed shoulders, skipping rope, sitting on the stool breathing
-  - Demand: "gassing out" is a constant beginner complaint · Competition: blogs/podcasts, few visual explainers
-  - Safety: keep to conditioning/pacing, no sparring-intensity advice, no weight cutting
-- [ ] **The mental game of a tennis player** — 24/30 — template: mental-game
-  - Framework: between-point routine, breathing reset, one point at a time, accept what you can't control
-  - Acting: towel/breath routine, tight vs loose swing, scoreboard fading out, focus gauge
-  - Demand: "choking in tennis" is a common club-player search · Competition: lots of text, little animation. Science is softer, so present it as habits, not guarantees
-- [ ] **The physique of a swimmer** — 24/30 — template: physique
-  - Framework: lats and shoulders from thousands of strokes, long limbs (genetics), staying lean, why bulk causes drag
-  - Acting: freestyle stroke cycle, body-part callouts on lats/delts, "made in training vs born with it" split
-  - Demand: "why do swimmers have broad shoulders" is a classic question · Competition: moderate; separating training effects from selection is our angle
+

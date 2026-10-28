@@ -1,0 +1,54 @@
+<!-- Why the drop: after the two-bounce rule the serving team is still at the baseline while the returners can be at the kitchen line. Side view, roughly to scale (44 ft court). -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:#7FB3E8; }
+    #__ID__-root .floor { position:absolute; left:0; right:0; top:820px; bottom:0; background:#3F7FC6; }
+    #__ID__-root .line { position:absolute; top:816px; height:10px; background:#fff; }
+    #__ID__-root .kz { position:absolute; top:820px; height:40px; width:255px; background:var(--accent); opacity:.85; }
+    #__ID__-root .post { position:absolute; left:954px; top:690px; width:12px; height:130px; background:var(--ink); border-radius:6px; }
+    #__ID__-root .mesh { position:absolute; left:946px; top:690px; width:28px; height:70px; background:repeating-linear-gradient(0deg,rgba(28,33,64,.55) 0 4px,transparent 4px 12px); border-top:8px solid #fff; }
+    #__ID__-root .pl { position:absolute; top:610px; width:90px; height:210px; }
+    #__ID__-root .pl .h { position:absolute; left:20px; top:0; width:50px; height:50px; border-radius:50%; border:6px solid var(--ink); box-sizing:border-box; }
+    #__ID__-root .pl .b { position:absolute; left:12px; top:52px; width:66px; height:158px; border-radius:26px 26px 12px 12px; border:6px solid var(--ink); box-sizing:border-box; }
+    #__ID__-root .us .h, #__ID__-root .us .b { background:var(--brand); }
+    #__ID__-root .them .h, #__ID__-root .them .b { background:#AEB4C2; }
+    #__ID__-root .tag { position:absolute; font:700 40px var(--display); text-transform:uppercase; color:var(--ink); text-align:center; }
+    #__ID__-root .chip2 { position:absolute; padding:12px 26px; border-radius:20px; background:#fff; border:6px solid var(--ink); font:700 38px var(--display); text-transform:uppercase; color:var(--ink); opacity:0; }
+    #__ID__-root .ball { position:absolute; left:0; top:0; width:34px; height:34px; margin:-17px 0 0 -17px; border-radius:50%; background:#F5D33A; border:5px solid var(--ink); box-sizing:border-box; opacity:0; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:80px;text-align:center">Why the third shot is hard</div>
+  <div class="floor"></div>
+  <div class="line" style="left:150px;width:1620px"></div>
+  <div class="kz" style="left:705px"></div><div class="kz" style="left:960px"></div>
+  <div class="tag" style="left:705px;width:510px;top:870px;font-size:30px;opacity:.85">kitchen · kitchen</div>
+  <div class="mesh"></div><div class="post"></div>
+  <div class="pl us" id="__ID__-u1" style="left:150px"><div class="h"></div><div class="b"></div></div>
+  <div class="pl us" id="__ID__-u2" style="left:250px"><div class="h"></div><div class="b"></div></div>
+  <div class="pl them" id="__ID__-o1" style="left:1215px"><div class="h"></div><div class="b"></div></div>
+  <div class="pl them" id="__ID__-o2" style="left:1315px"><div class="h"></div><div class="b"></div></div>
+  <div class="chip2" id="__ID__-c1" style="left:110px;top:470px">Serving team: at the back</div>
+  <div class="chip2" id="__ID__-c2" style="left:1110px;top:470px">Returners: at the net</div>
+  <div class="chip2" id="__ID__-n" style="left:600px;top:390px;font-size:30px">3rd shot</div>
+  <div class="ball" id="__ID__-ball"></div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  // returners start at the baseline and move up to the kitchen line
+  tl.set(["#__ID__-o1", "#__ID__-o2"], { x: 440 }, 0);
+  tl.to(["#__ID__-o1", "#__ID__-o2"], { x: 0, duration: 1.2, ease: "power2.out", stagger: 0.1 }, D * 0.62);
+  tl.to("#__ID__-c1", { opacity: 1, duration: 0.4 }, D * 0.3);
+  tl.to("#__ID__-n", { opacity: 1, duration: 0.3 }, D * 0.4);
+  tl.set("#__ID__-ball", { x: 345, y: 640, opacity: 1 }, D * 0.4);
+  tl.to("#__ID__-ball", { x: 560, y: 420, duration: 0.7, ease: "power1.out" }, D * 0.4 + 0.2);
+  tl.to("#__ID__-c2", { opacity: 1, duration: 0.4 }, D * 0.7);
+  tl.to(["#__ID__-u1", "#__ID__-u2"], { y: -10, duration: 0.25, yoyo: true, repeat: 3 }, D * 0.32);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

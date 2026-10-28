@@ -300,6 +300,9 @@ export function propSvg(name, c = colors()) {
       <ellipse cx="0" cy="128" rx="30" ry="38" fill="rgba(255,255,255,.35)" stroke="${ink}" stroke-width="6"/>
       <path d="M-22 108 L22 108 M-28 128 L28 128 M-22 148 L22 148 M-12 92 L-12 164 M0 90 L0 166 M12 92 L12 164" stroke="${ink}" stroke-width="2" opacity=".55"/></g>`,
     paddle: `<g transform="rotate(180)"><rect x="-7" y="-8" width="14" height="44" rx="5" fill="#8a5a2b" stroke="${ink}" stroke-width="4"/><circle cx="0" cy="78" r="46" fill="#d33" stroke="${ink}" stroke-width="7"/></g>`,
+    pbpaddle: `<g transform="rotate(8)"><rect x="-8" y="-8" width="16" height="48" rx="6" fill="#333" stroke="${ink}" stroke-width="4"/><rect x="-40" y="36" width="80" height="96" rx="26" fill="#2BB673" stroke="${ink}" stroke-width="7"/><rect x="-30" y="46" width="60" height="10" rx="5" fill="rgba(255,255,255,.35)"/></g>`,
+    padel: `<g transform="rotate(14)"><rect x="-8" y="-8" width="16" height="46" rx="6" fill="#333" stroke="${ink}" stroke-width="4"/><path d="M-12 36 L-20 52 M12 36 L20 52" stroke="${ink}" stroke-width="6"/><ellipse cx="0" cy="98" rx="42" ry="50" fill="#2B6CB0" stroke="${ink}" stroke-width="7"/><ellipse cx="0" cy="98" rx="30" ry="37" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="4"/><g fill="${ink}" opacity=".55"><circle cx="0" cy="80" r="3.5"/><circle cx="-14" cy="88" r="3.5"/><circle cx="14" cy="88" r="3.5"/><circle cx="0" cy="98" r="3.5"/><circle cx="-14" cy="108" r="3.5"/><circle cx="14" cy="108" r="3.5"/><circle cx="0" cy="116" r="3.5"/><circle cx="-24" cy="98" r="3.5"/><circle cx="24" cy="98" r="3.5"/></g></g>`,
+    pickleball: `<g transform="translate(0 -6)"><circle r="19" fill="#F5D33A" stroke="${ink}" stroke-width="5"/><g fill="${ink}" opacity=".7"><circle cx="0" cy="0" r="3.5"/><circle cx="-9" cy="-8" r="3"/><circle cx="9" cy="-8" r="3"/><circle cx="-9" cy="8" r="3"/><circle cx="9" cy="8" r="3"/></g></g>`,
     tennisball: `<g transform="translate(0 -6)"><circle r="20" fill="#D7F03A" stroke="${ink}" stroke-width="5"/><path d="M-14 -12 Q0 0 -14 14 M14 -14 Q0 0 14 12" stroke="#fff" stroke-width="3" fill="none"/></g>`,
     basketball: `<g transform="translate(0 -10)"><circle r="34" fill="#E8762B" stroke="${ink}" stroke-width="6"/><path d="M-34 0 L34 0 M0 -34 L0 34 M-24 -24 Q0 0 -24 24 M24 -24 Q0 0 24 24" stroke="${ink}" stroke-width="3" fill="none"/></g>`,
     football: `<g transform="translate(0 -10)"><circle r="32" fill="#fff" stroke="${ink}" stroke-width="6"/><path d="M0 -12 L11 -4 L7 10 L-7 10 L-11 -4 Z" fill="${ink}"/></g>`,
@@ -326,6 +329,8 @@ export function bodyPoints(p) {
     const mid = (a, b) => [(a[0] + b[0]) / 2, (a[1] + b[1]) / 2];
     pts[side + "Thigh"] = mid(hip, knee);
     pts[side + "Calf"] = mid(knee, ankle);
+    // Hamstring: lower-mid thigh, nudged to the back of the leg (side poses face right).
+    pts[side + "Hamstring"] = [hip[0] + (knee[0] - hip[0]) * 0.6 - (pose.view === "side" ? 12 : 0), hip[1] + (knee[1] - hip[1]) * 0.6];
     // Achilles: low on the shin, just above the heel, nudged to the back of the leg (side poses face right).
     pts[side + "Achilles"] = [ankle[0] + (knee[0] - ankle[0]) * 0.2 - (pose.view === "side" ? 10 : 0), ankle[1] + (knee[1] - ankle[1]) * 0.2];
     pts[side + "Arm"] = mid(sp, elbow);
@@ -334,6 +339,9 @@ export function bodyPoints(p) {
   const neck = rotV(0, DIM.neckY, pose.torso);
   const hc = rotV(0, DIM.headCy, pose.torso + pose.head);
   pts.head = [neck[0] + hc[0], neck[1] + hc[1]];
+  // Eyes: up from the head centre, toward the face in side view.
+  const ec = rotV(pose.view === "side" ? 14 : 0, -6, pose.torso + pose.head);
+  pts.eyes = [pts.head[0] + ec[0], pts.head[1] + ec[1]];
   pts.chest = rotV(0, -125, pose.torso);
   pts.core = rotV(0, -60, pose.torso);
   pts.hips = [0, 0];

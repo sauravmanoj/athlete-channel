@@ -1,0 +1,44 @@
+<!-- Hero scene: high-intensity running per 15-minute block across a match.
+     Shape is illustrative; the only number shown (35–45% lower, last vs first 15 min) is from S1 (pro data). -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root .axis { position:absolute; left:200px; right:200px; top:860px; height:6px; background:var(--ink); border-radius:3px; }
+    #__ID__-root .col  { position:absolute; bottom:220px; width:170px; border:7px solid var(--ink); border-bottom:none; border-radius:18px 18px 0 0; background:var(--brand); transform-origin:50% 100%; transform:scaleY(0); }
+    #__ID__-root .lab  { position:absolute; top:885px; width:170px; text-align:center; font:700 36px var(--display); color:var(--ink); }
+    #__ID__-root .tag  { position:absolute; font:700 46px var(--display); text-transform:uppercase; color:var(--accent); opacity:0; text-align:center; width:420px; line-height:1.05; }
+    #__ID__-root .arrow { position:absolute; height:6px; background:var(--accent); transform-origin:0 50%; transform:scaleX(0); }
+    #__ID__-root .ylab { position:absolute; left:200px; top:200px; font:600 32px var(--sans); color:var(--ink); opacity:.7; }
+    #__ID__-root .note { position:absolute; right:60px; bottom:40px; font:600 26px var(--sans); color:var(--ink); opacity:.55; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:80px;text-align:center">The last-15-minute cliff</div>
+  <div class="ylab" id="__ID__-y">High-intensity running, per 15 minutes</div>
+  <div class="axis"></div>
+  <div class="col" id="__ID__-c0" style="left:230px;height:520px"></div>
+  <div class="col" id="__ID__-c1" style="left:475px;height:480px"></div>
+  <div class="col" id="__ID__-c2" style="left:720px;height:455px"></div>
+  <div class="col" id="__ID__-c3" style="left:1020px;height:470px"></div>
+  <div class="col" id="__ID__-c4" style="left:1265px;height:420px"></div>
+  <div class="col" id="__ID__-c5" style="left:1510px;height:310px;background:var(--bad)"></div>
+  <div class="lab" style="left:230px">0–15</div><div class="lab" style="left:475px">15–30</div><div class="lab" style="left:720px">30–45</div>
+  <div class="lab" style="left:1020px">45–60</div><div class="lab" style="left:1265px">60–75</div><div class="lab" style="left:1510px">75–90</div>
+  <div class="tag" id="__ID__-g" style="left:1390px;top:400px">35–45% lower</div>
+  <div class="note">Pattern from studies of pro players · illustration</div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.05);
+  tl.fromTo("#__ID__-y", { opacity: 0 }, { opacity: 0.7, duration: 0.4 }, 0.3);
+  var step = Math.max(0.35, (D * 0.6) / 6);
+  for (var i = 0; i < 6; i++) {
+    tl.fromTo("#__ID__-c" + i, { scaleY: 0 }, { scaleY: 1, duration: 0.5, ease: "power2.out", immediateRender: false }, 0.5 + i * step);
+  }
+  tl.fromTo("#__ID__-g", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, immediateRender: false }, 0.5 + 6 * step);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

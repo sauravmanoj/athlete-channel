@@ -1,0 +1,2582 @@
+{
+  "title": "The levels of a pickleball player",
+  "thumbnail": {
+    "pose": "pb_shrug",
+    "face": "surprised",
+    "props": {
+      "r": "pbpaddle"
+    },
+    "background": "court",
+    "headline": "Your real level?",
+    "highlight": "level",
+    "icons": [
+      {
+        "icon": "question"
+      }
+    ],
+    "side": "right"
+  },
+  "youtube": {
+    "title": "The levels of a pickleball player",
+    "titleOptions": [
+      "Which pickleball level are you really?",
+      "From Starter to No Weak Spots: the 5 pickleball levels"
+    ],
+    "description": "Most players think moving up in pickleball means hitting harder. The official skill sheets say something else: at every level you need new skills and fewer misses, from 7 out of 10 at 3.0 to 10 out of 10 at 4.5. Here are the five levels, which one you're really at, and the drill that moves you up to the next.",
+    "tags": [
+      "pickleball",
+      "pickleball levels",
+      "pickleball skill levels",
+      "pickleball rating",
+      "DUPR rating",
+      "third shot drop",
+      "pickleball reset",
+      "pickleball drills",
+      "how to get better at pickleball",
+      "pickleball for beginners",
+      "dink drill",
+      "pickleball 3.5",
+      "pickleball 4.0",
+      "pickleball tips"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "mascot",
+      "chapter": "Intro",
+      "background": "court",
+      "transition": "fade",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "swing_back",
+          "face": "determined"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@hard"
+        }
+      ],
+      "caption": {
+        "text": "Full power…",
+        "at": 0.2
+      },
+      "narration": "You smash the ball as hard as you can."
+    },
+    {
+      "id": "s02",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "swing_through"
+        },
+        {
+          "pose": "pb_shrug",
+          "face": "surprised",
+          "at": "@straight"
+        },
+        {
+          "pose": "facepalm",
+          "at": "@lose"
+        }
+      ],
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            150,
+            -170
+          ],
+          "at": "@lose"
+        }
+      ],
+      "pauseAfter": 0.5,
+      "narration": "It comes straight back at your feet, and you lose the point. Again."
+    },
+    {
+      "id": "s03",
+      "kind": "slam",
+      "text": "Not harder. Missing less",
+      "highlight": "less",
+      "style": "dark",
+      "icon": "target",
+      "pauseAfter": 0.7,
+      "narration": "To climb the pickleball ladder, hitting harder isn't the main thing. Missing less is."
+    },
+    {
+      "id": "s04",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "present"
+        },
+        {
+          "pose": "think",
+          "at": "@really"
+        },
+        {
+          "pose": "point_up",
+          "at": "@skill"
+        }
+      ],
+      "headline": {
+        "text": "5 levels",
+        "highlight": "5",
+        "at": "@five",
+        "side": "right"
+      },
+      "narration": "Today: the five levels, which one you're really at, and the skill that moves you up."
+    },
+    {
+      "id": "s05",
+      "kind": "title",
+      "chapter": "The five levels",
+      "heading": "The ladder",
+      "sub": "USA Pickleball skill levels: 1.0 to 5.5+",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "present"
+          },
+          {
+            "pose": "point_up",
+            "at": "@mostly"
+          }
+        ]
+      },
+      "narration": "USA Pickleball's skill levels run from 1.0 up to 5.5-plus, mostly in half-point steps."
+    },
+    {
+      "id": "s06",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "think"
+        },
+        {
+          "pose": "present",
+          "at": "@My"
+        },
+        {
+          "pose": "hands_hips",
+          "face": "happy",
+          "at": "@names"
+        }
+      ],
+      "headline": {
+        "text": "Our 5 levels",
+        "highlight": "5",
+        "at": "@My",
+        "side": "right"
+      },
+      "caption": {
+        "text": "Our cut of the official chart",
+        "at": "@differently"
+      },
+      "narration": "Its own overview groups them into five tiers. My five levels are cut slightly differently, one skill each, and the names are mine."
+    },
+    {
+      "id": "s07",
+      "kind": "lineup",
+      "title": "The levels of a pickleball player",
+      "grow": true,
+      "highlight": 5,
+      "dimPrevious": true,
+      "members": [
+        {
+          "pose": "pb_shrug",
+          "face": "surprised",
+          "props": {
+            "r": "pbpaddle"
+          },
+          "label": "Starter",
+          "sub": "learning the rules",
+          "at": "@Starter"
+        },
+        {
+          "cycle": {
+            "poses": [
+              "dink",
+              "dink_b"
+            ],
+            "period": 0.9
+          },
+          "pose": "dink",
+          "props": {
+            "r": "pbpaddle"
+          },
+          "label": "Rallier",
+          "sub": "keeps it going",
+          "at": "@Rallier"
+        },
+        {
+          "pose": "pb_drop",
+          "props": {
+            "r": "pbpaddle"
+          },
+          "label": "Dropper",
+          "sub": "the soft third shot",
+          "at": "@Dropper"
+        },
+        {
+          "pose": "block",
+          "props": {
+            "r": "pbpaddle"
+          },
+          "label": "Resetter",
+          "sub": "soft hands",
+          "at": "@Resetter"
+        },
+        {
+          "pose": "celebrate",
+          "face": "happy",
+          "label": "No Weak Spots",
+          "sub": "every shot, both sides",
+          "at": "@Weak"
+        }
+      ],
+      "narration": "Level 1, the Starter. Level 2, the Rallier. Level 3, the Dropper. Level 4, the Resetter. And Level 5, No Weak Spots."
+    },
+    {
+      "id": "s08",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "think"
+        },
+        {
+          "pose": "point_up",
+          "at": "@thread"
+        },
+        {
+          "pose": "swing_back",
+          "at": "@serves"
+        },
+        {
+          "pose": "dink",
+          "at": "@volleys"
+        }
+      ],
+      "headline": {
+        "text": "3.0: 7 out of 10",
+        "highlight": "7",
+        "at": "@checklist",
+        "side": "right"
+      },
+      "narration": "And there's a hidden thread. At 3.0, the official checklist asks you to land serves, returns and volleys 7 times out of 10."
+    },
+    {
+      "id": "s09",
+      "kind": "chart",
+      "title": "Serves, returns, volleys landed (out of 10)",
+      "unit": "",
+      "max": 10,
+      "focus": 4,
+      "mascot": {
+        "poses": [
+          {
+            "pose": "present"
+          },
+          {
+            "pose": "point_up",
+            "at": "@9"
+          },
+          {
+            "pose": "flex",
+            "at": "@out"
+          }
+        ]
+      },
+      "bars": [
+        {
+          "label": "3.0",
+          "value": 7,
+          "display": "7/10"
+        },
+        {
+          "label": "3.5",
+          "value": 8,
+          "display": "8/10",
+          "at": "@8"
+        },
+        {
+          "label": "4.0",
+          "value": 9,
+          "display": "9/10",
+          "at": "@9"
+        },
+        {
+          "label": "4.5",
+          "value": 10,
+          "display": "10/10",
+          "at": "@10",
+          "color": "accent"
+        },
+        {
+          "label": "5.0",
+          "value": 10,
+          "display": "10/10",
+          "at": "@10",
+          "color": "accent"
+        }
+      ],
+      "narration": "At 3.5, it's 8. At 4.0, it's 9. At 4.5 and 5.0, it's 10 out of 10."
+    },
+    {
+      "id": "s10",
+      "kind": "slam",
+      "text": "New skills, fewer misses",
+      "highlight": "fewer misses",
+      "style": "brand",
+      "icon": "check",
+      "pauseAfter": 0.6,
+      "narration": "So: new skills at every level, and fewer misses on all of them."
+    },
+    {
+      "id": "s11",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "point_up"
+        },
+        {
+          "pose": "present",
+          "at": "@match"
+        },
+        {
+          "pose": "shrug",
+          "at": "@checklist"
+        }
+      ],
+      "props": {
+        "r": "phone"
+      },
+      "headline": {
+        "text": "DUPR = results",
+        "highlight": "results",
+        "at": "@results",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "trophy",
+          "pos": [
+            1450,
+            640
+          ],
+          "at": "@match",
+          "size": 1
+        }
+      ],
+      "narration": "A DUPR rating is different. It comes from your match results, not a skill checklist."
+    },
+    {
+      "id": "s12",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "present"
+        },
+        {
+          "pose": "think",
+          "at": "@quote"
+        },
+        {
+          "pose": "point_up",
+          "at": "@active"
+        },
+        {
+          "pose": "shrug",
+          "at": "@not"
+        }
+      ],
+      "headline": {
+        "text": "Active doubles ratings only",
+        "highlight": "only",
+        "at": "@active",
+        "side": "right"
+      },
+      "narration": "When I quote DUPR numbers, they only cover players with an active doubles rating, not everyone who plays."
+    },
+    {
+      "id": "s13",
+      "kind": "title",
+      "chapter": "Level 1: The Starter",
+      "number": 1,
+      "heading": "The Starter",
+      "sub": "about 1.0 – 2.5",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "dink"
+          },
+          {
+            "pose": "dink_b",
+            "at": "@rally"
+          },
+          {
+            "pose": "think",
+            "at": "@score"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "The official 2.5 player can keep a short rally going and has a basic ability to keep score."
+    },
+    {
+      "id": "s14",
+      "kind": "mascot",
+      "background": "plain",
+      "poses": [
+        {
+          "pose": "think"
+        },
+        {
+          "pose": "point_up",
+          "at": "@Rules"
+        },
+        {
+          "pose": "hands_hips",
+          "at": "@Speed"
+        }
+      ],
+      "headline": {
+        "text": "Rules first",
+        "highlight": "Rules",
+        "at": "@Rules",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "check",
+          "pos": [
+            1500,
+            700
+          ],
+          "at": "@Rules",
+          "size": 0.9
+        }
+      ],
+      "narration": "It's like learning to drive in an empty car park. Rules of the road first. Speed later."
+    },
+    {
+      "id": "s15",
+      "kind": "list",
+      "title": "Rule 1: two bounces",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "point_up"
+          },
+          {
+            "pose": "dink",
+            "at": "@volley"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "items": [
+        {
+          "text": "Serve bounces",
+          "icon": "check",
+          "at": "@serve"
+        },
+        {
+          "text": "Return bounces",
+          "icon": "check",
+          "at": "@return"
+        },
+        {
+          "text": "Now anyone can volley",
+          "icon": "bolt",
+          "at": "@volley"
+        }
+      ],
+      "narration": "Rule one is the two-bounce rule. The serve must bounce, then the return must bounce. Only after that can anyone volley."
+    },
+    {
+      "id": "s16",
+      "kind": "custom",
+      "file": "custom/kitchen.html",
+      "narration": "Rule two is the kitchen: the zone 7 feet from the net on each side. You can't volley while standing in it."
+    },
+    {
+      "id": "s17",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "run_a",
+          "run_b"
+        ],
+        "period": 0.32,
+        "from": "@rush",
+        "to": "@volley"
+      },
+      "move": {
+        "to": "right",
+        "at": "@rush",
+        "dur": 1
+      },
+      "poses": [
+        {
+          "pose": "swing_back"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@serve"
+        },
+        {
+          "pose": "run_a",
+          "at": "@rush"
+        },
+        {
+          "pose": "dink_b",
+          "at": "@volley"
+        },
+        {
+          "pose": "facepalm",
+          "at": "@lose"
+        }
+      ],
+      "caption": {
+        "text": "Two-bounce fault!",
+        "at": "@lose"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            150,
+            -170
+          ],
+          "at": "@lose"
+        }
+      ],
+      "narration": "The classic Starter moment: you serve, rush the net, volley the return, and lose the point."
+    },
+    {
+      "id": "s18",
+      "kind": "stat",
+      "value": 31,
+      "suffix": "%",
+      "label": "of DUPR-rated players are below 3.0",
+      "highlight": "below 3.0",
+      "icon": "target",
+      "at": 0.3,
+      "mascot": {
+        "poses": [
+          {
+            "pose": "think"
+          },
+          {
+            "pose": "shrug",
+            "at": "@below"
+          }
+        ]
+      },
+      "narration": "Among players with a DUPR rating, about 31% are below 3.0.",
+      "prefix": "~"
+    },
+    {
+      "id": "s19",
+      "kind": "list",
+      "title": "Warm up: 5–8 minutes",
+      "mascot": {
+        "cycle": {
+          "poses": [
+            "run_a",
+            "run_b"
+          ],
+          "period": 0.5
+        },
+        "pose": "run_a",
+        "face": "happy"
+      },
+      "items": [
+        {
+          "text": "Light jogging",
+          "icon": "heart",
+          "at": "@jogging"
+        },
+        {
+          "text": "Side shuffles",
+          "icon": "bolt",
+          "at": "@shuffles"
+        },
+        {
+          "text": "Leg swings",
+          "icon": "check",
+          "at": "@swings"
+        },
+        {
+          "text": "Walking lunges",
+          "icon": "muscle",
+          "at": "@lunges"
+        },
+        {
+          "text": "Easy calf raises",
+          "icon": "muscle",
+          "at": "@calf"
+        }
+      ],
+      "narration": "Before any drill in this video, warm up for 5 to 8 minutes: light jogging, side shuffles, leg swings, walking lunges and easy calf raises."
+    },
+    {
+      "id": "s20",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "dink",
+          "dink_b"
+        ],
+        "period": 0.9,
+        "from": 0,
+        "to": "@drives"
+      },
+      "poses": [
+        {
+          "pose": "dink"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@drives"
+        },
+        {
+          "pose": "point_up",
+          "at": "@Doctors"
+        }
+      ],
+      "headline": {
+        "text": "Soft → drives",
+        "highlight": "Soft",
+        "at": 0.3,
+        "side": "right"
+      },
+      "narration": "Then soft dinks, building up to drives. Doctors who study pickleball injuries recommend a proper warm-up."
+    },
+    {
+      "id": "s21",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "point_up"
+        },
+        {
+          "pose": "swing_back",
+          "at": "@Serve"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@side"
+        },
+        {
+          "pose": "think",
+          "at": "@count"
+        }
+      ],
+      "caption": {
+        "text": "Drill 1 · 10-ball serve test",
+        "at": "@Drill"
+      },
+      "icons": [
+        {
+          "icon": "target",
+          "pos": [
+            1500,
+            420
+          ],
+          "at": "@Serve",
+          "size": 1.1
+        }
+      ],
+      "narration": "To move up, get the ball in play. Drill 1: the 10-ball serve test. Serve 10 from each side and count how many land in."
+    },
+    {
+      "id": "s22",
+      "kind": "stat",
+      "value": 7,
+      "suffix": "/10",
+      "label": "serves in: the 3.0 bar",
+      "highlight": "3.0 bar",
+      "icon": "check",
+      "at": 0.3,
+      "mascot": {
+        "props": {
+          "r": "pbpaddle"
+        },
+        "poses": [
+          {
+            "pose": "swing_through"
+          },
+          {
+            "pose": "flex",
+            "at": "@target"
+          }
+        ]
+      },
+      "narration": "3 rounds, 2 or 3 times a week. Your target is 7 out of 10."
+    },
+    {
+      "id": "s23",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "dink",
+          "dink_b"
+        ],
+        "period": 0.9,
+        "from": 0,
+        "to": "@20"
+      },
+      "poses": [
+        {
+          "pose": "dink"
+        },
+        {
+          "pose": "celebrate",
+          "face": "happy",
+          "at": "@20"
+        }
+      ],
+      "caption": {
+        "text": "Drill 2 · The dink count",
+        "at": 0.2
+      },
+      "headline": {
+        "text": "3 × 2 min · 10, then 20",
+        "highlight": "20",
+        "at": "@rounds",
+        "side": "right"
+      },
+      "narration": "Drill 2: the dink count. With a partner at the kitchen line, trade soft shots that bounce in the kitchen. 3 rounds of 2 minutes. Aim for 10 in a row, then 20."
+    },
+    {
+      "id": "s24",
+      "kind": "mascot",
+      "background": "plain",
+      "cycle": {
+        "poses": [
+          "walk_a",
+          "walk_b"
+        ],
+        "period": 0.55,
+        "from": 0,
+        "to": "@pain"
+      },
+      "poses": [
+        {
+          "pose": "walk_a"
+        },
+        {
+          "pose": "hold_back",
+          "face": "tired",
+          "at": "@pain"
+        }
+      ],
+      "headline": {
+        "text": "Build up gradually",
+        "highlight": "gradually",
+        "at": "@gradually",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            120,
+            -120
+          ],
+          "at": "@pain"
+        }
+      ],
+      "narration": "New to sport, or coming back after a break? Build your court time up gradually, and don't play through pain."
+    },
+    {
+      "id": "s25",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "swing_back",
+          "face": "determined"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@Swinging"
+        },
+        {
+          "pose": "facepalm",
+          "at": "@level"
+        },
+        {
+          "pose": "point_up",
+          "at": "@keeping"
+        }
+      ],
+      "caption": {
+        "text": "The mistake",
+        "at": 0.2
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "pos": [
+            1500,
+            360
+          ],
+          "at": "@Swinging",
+          "size": 1
+        },
+        {
+          "icon": "check",
+          "pos": [
+            1500,
+            360
+          ],
+          "at": "@keeping",
+          "size": 1
+        }
+      ],
+      "narration": "The mistake? Swinging hard to win points. At this level, the game is keeping the ball in."
+    },
+    {
+      "id": "s26",
+      "kind": "title",
+      "chapter": "Level 2: The Rallier",
+      "number": 2,
+      "heading": "The Rallier",
+      "sub": "about 3.0",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "swing_through"
+          },
+          {
+            "pose": "dink",
+            "at": "@dink"
+          },
+          {
+            "pose": "pb_shrug",
+            "at": "@avoid"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "Level 2 is the 3.0 player: medium-paced forehands, a basic dink rally, and a backhand they avoid."
+    },
+    {
+      "id": "s27",
+      "kind": "stat",
+      "value": 29,
+      "suffix": "%",
+      "label": "of DUPR-rated players: 3.0–3.49, the biggest band",
+      "highlight": "biggest band",
+      "icon": "trophy",
+      "at": 0.3,
+      "mascot": {
+        "poses": [
+          {
+            "pose": "present"
+          },
+          {
+            "pose": "point_up",
+            "at": "@biggest"
+          }
+        ]
+      },
+      "narration": "Among DUPR-rated players, 3.0 to 3.49 is the single biggest rating band: about 29%.",
+      "prefix": "~"
+    },
+    {
+      "id": "s28",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "swing_through"
+        },
+        {
+          "pose": "facepalm",
+          "at": "@frequent"
+        },
+        {
+          "pose": "pb_shrug",
+          "at": "@nobody"
+        }
+      ],
+      "headline": {
+        "text": "Unforced errors",
+        "highlight": "Unforced",
+        "at": "@unforced",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "pos": [
+            1380,
+            680
+          ],
+          "at": "@frequent",
+          "size": 0.8
+        },
+        {
+          "icon": "cross",
+          "pos": [
+            1520,
+            680
+          ],
+          "at": "@errors",
+          "size": 0.8
+        },
+        {
+          "icon": "cross",
+          "pos": [
+            1660,
+            680
+          ],
+          "at": "@misses",
+          "size": 0.8
+        }
+      ],
+      "narration": "The Rallier still makes frequent unforced errors. Those are misses nobody forced you into."
+    },
+    {
+      "id": "s29",
+      "kind": "versus",
+      "vs": "VS",
+      "left": {
+        "label": "You, at the back",
+        "poses": [
+          {
+            "pose": "swing_back"
+          },
+          {
+            "pose": "swing_through",
+            "at": "@medium-paced"
+          },
+          {
+            "pose": "pb_shrug",
+            "face": "surprised",
+            "at": "@feet"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "right": {
+        "label": "Opponents, at the net",
+        "poses": [
+          {
+            "pose": "block"
+          },
+          {
+            "pose": "dink_b",
+            "at": "@volley"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "And here's the trap. The Rallier hits a medium-paced third shot from the back with no real plan. The opponents are already at the net, and they volley it back at your feet."
+    },
+    {
+      "id": "s30",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "dink",
+          "dink_b"
+        ],
+        "period": 0.9,
+        "from": "@going"
+      },
+      "poses": [
+        {
+          "pose": "present"
+        },
+        {
+          "pose": "dink",
+          "at": "@going"
+        }
+      ],
+      "headline": {
+        "text": "Keep it going",
+        "highlight": "going",
+        "at": "@going",
+        "side": "right"
+      },
+      "narration": "Think of playing catch. Your job is to keep the ball going, not to win the throw."
+    },
+    {
+      "id": "s31",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "run_a",
+          "run_b"
+        ],
+        "period": 0.34,
+        "from": "@move"
+      },
+      "poses": [
+        {
+          "pose": "point_up"
+        },
+        {
+          "pose": "swing_back",
+          "at": "@place"
+        },
+        {
+          "pose": "pb_drop",
+          "at": "@deep"
+        },
+        {
+          "pose": "run_a",
+          "at": "@move"
+        }
+      ],
+      "headline": {
+        "text": "Deep · 8 of 10",
+        "highlight": "8",
+        "at": "@8",
+        "side": "right"
+      },
+      "narration": "To move up, return deep and get forward. The 3.5 checklist asks you to place serves and returns deep, land them 8 times out of 10, and move up to the kitchen line when you get the chance."
+    },
+    {
+      "id": "s32",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "run_a",
+          "run_b"
+        ],
+        "period": 0.32,
+        "from": "@move",
+        "to": "@back"
+      },
+      "move": {
+        "to": "right",
+        "at": "@move",
+        "dur": 1.4
+      },
+      "poses": [
+        {
+          "pose": "block"
+        },
+        {
+          "pose": "pb_drop",
+          "at": "@return"
+        },
+        {
+          "pose": "run_a",
+          "at": "@move"
+        },
+        {
+          "pose": "block",
+          "at": "@back"
+        },
+        {
+          "pose": "point_up",
+          "at": "@sets"
+        }
+      ],
+      "caption": {
+        "text": "Drill · Return and run",
+        "at": 0.2
+      },
+      "narration": "The drill: return and run. Your partner serves. You return deep, then move up to the kitchen line before the ball comes back. 3 sets of 10."
+    },
+    {
+      "id": "s33",
+      "kind": "mascot",
+      "background": "court",
+      "cycle": {
+        "poses": [
+          "walk_a",
+          "walk_b"
+        ],
+        "period": 0.55,
+        "from": 0,
+        "to": "@sprint"
+      },
+      "poses": [
+        {
+          "pose": "walk_a"
+        },
+        {
+          "pose": "lunge",
+          "face": "surprised",
+          "at": "@lunge"
+        },
+        {
+          "pose": "side_stand",
+          "face": "tired",
+          "at": "@records"
+        }
+      ],
+      "headline": {
+        "text": "Under control",
+        "highlight": "control",
+        "at": "@control",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Foot & ankle",
+          "target": "rAchilles",
+          "at": "@records"
+        }
+      ],
+      "narration": "Move forward under control. Don't sprint and lunge. In one clinic's records, running or lunging forward was the most common way players hurt a foot or ankle."
+    },
+    {
+      "id": "s34",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "pb_shrug",
+          "face": "surprised"
+        },
+        {
+          "pose": "swing_back",
+          "facing": "left",
+          "at": "@Train"
+        },
+        {
+          "pose": "swing_through",
+          "facing": "left",
+          "at": "@now"
+        }
+      ],
+      "caption": {
+        "text": "The mistake",
+        "at": 0.2
+      },
+      "headline": {
+        "text": "Train the backhand",
+        "highlight": "backhand",
+        "at": "@Train",
+        "side": "right"
+      },
+      "narration": "The mistake? Hiding from your backhand. Train it now, not later."
+    },
+    {
+      "id": "s35",
+      "kind": "title",
+      "chapter": "Level 3: The Dropper",
+      "number": 3,
+      "heading": "The Dropper",
+      "sub": "about 3.5",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "dink"
+          },
+          {
+            "pose": "pb_drop",
+            "at": "@famous"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "Level 3, the 3.5 player, is building the most famous shot in pickleball: the third-shot drop."
+    },
+    {
+      "id": "s36",
+      "kind": "custom",
+      "file": "custom/positions.html",
+      "narration": "Why that shot? Because of the two-bounce rule, the serving team hits the third shot from the back, while the returners can already be at the net."
+    },
+    {
+      "id": "s37",
+      "kind": "custom",
+      "file": "custom/drop.html",
+      "narration": "A drop is a soft shot that floats over the net and lands in the kitchen. It's hard for the players at the net to attack, so it buys you time to move forward."
+    },
+    {
+      "id": "s38",
+      "kind": "versus",
+      "vs": "OR",
+      "opponentTint": false,
+      "left": {
+        "label": "Drop = parachute",
+        "cycle": {
+          "poses": [
+            "walk_a",
+            "walk_b"
+          ],
+          "period": 0.55,
+          "from": "@walk"
+        },
+        "poses": [
+          {
+            "pose": "pb_drop",
+            "face": "happy"
+          },
+          {
+            "pose": "walk_a",
+            "at": "@walk"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "right": {
+        "label": "Drive = rocket",
+        "poses": [
+          {
+            "pose": "swing_through",
+            "face": "determined"
+          },
+          {
+            "pose": "pb_shrug",
+            "face": "surprised",
+            "at": "@back"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "Think of a parachute: while the ball floats down, you walk in. A hard drive is a rocket. Fast, but it can come right back at you."
+    },
+    {
+      "id": "s39",
+      "kind": "stat",
+      "value": 24,
+      "suffix": "%",
+      "label": "of DUPR-rated players: 3.5–3.99",
+      "highlight": "3.5–3.99",
+      "icon": "target",
+      "at": 0.3,
+      "mascot": {
+        "props": {
+          "r": "pbpaddle"
+        },
+        "poses": [
+          {
+            "pose": "pb_drop"
+          },
+          {
+            "pose": "point_up",
+            "at": "@rated"
+          }
+        ]
+      },
+      "narration": "About 24% of DUPR players are rated 3.5 to 3.99.",
+      "prefix": "~"
+    },
+    {
+      "id": "s40",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "dink"
+        },
+        {
+          "pose": "walk_a",
+          "facing": "left",
+          "at": "@step"
+        },
+        {
+          "pose": "dink",
+          "at": "@keep"
+        },
+        {
+          "pose": "walk_b",
+          "facing": "left",
+          "at": "@again"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@baseline"
+        }
+      ],
+      "caption": {
+        "text": "Drill 1 · The drop ladder",
+        "at": 0.2
+      },
+      "move": {
+        "to": "left",
+        "at": "@step",
+        "dur": 0.8
+      },
+      "headline": {
+        "text": "2 steps back each time",
+        "highlight": "back",
+        "at": "@step",
+        "side": "right"
+      },
+      "narration": "Drill 1: the drop ladder. Start at the kitchen line with a dink rally. Then step back 2 steps and keep landing soft shots in the kitchen. When 4 land, step back again, all the way to the baseline."
+    },
+    {
+      "id": "s41",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "dink"
+        },
+        {
+          "pose": "pb_drop",
+          "at": "@drop"
+        },
+        {
+          "pose": "pb_shrug",
+          "face": "happy",
+          "at": "@loses"
+        }
+      ],
+      "caption": {
+        "text": "Drill 2 · Third shot must be a drop",
+        "at": 0.2
+      },
+      "headline": {
+        "text": "Game to 11",
+        "highlight": "11",
+        "at": "@11",
+        "side": "right"
+      },
+      "narration": "Drill 2: third shot must be a drop. Play a game to 11 where every third shot has to be a drop, even if it loses you the point."
+    },
+    {
+      "id": "s42",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "walk_a",
+          "walk_b"
+        ],
+        "period": 0.55,
+        "from": "@net"
+      },
+      "poses": [
+        {
+          "pose": "pb_drop"
+        },
+        {
+          "pose": "pb_hands_hips",
+          "face": "happy",
+          "at": "@admiring"
+        },
+        {
+          "pose": "point_up",
+          "at": "@exists"
+        },
+        {
+          "pose": "walk_a",
+          "at": "@net"
+        }
+      ],
+      "caption": {
+        "text": "The mistake",
+        "at": 0.2
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            120,
+            -120
+          ],
+          "at": "@admiring"
+        }
+      ],
+      "narration": "The mistake? Hitting a beautiful drop and admiring it from the baseline. The drop exists to get you to the net."
+    },
+    {
+      "id": "s43",
+      "kind": "title",
+      "chapter": "Level 4: The Resetter",
+      "number": 4,
+      "heading": "The Resetter",
+      "sub": "about 4.0 – 4.5",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "dink"
+          },
+          {
+            "pose": "dink_b",
+            "at": "@learning"
+          },
+          {
+            "pose": "block",
+            "at": "@reset"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "Level 4 covers 4.0 and 4.5. These players are learning the reset."
+    },
+    {
+      "id": "s44",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "block"
+        },
+        {
+          "pose": "block",
+          "at": "@block"
+        },
+        {
+          "pose": "dink",
+          "at": "@drops"
+        },
+        {
+          "pose": "dink_b",
+          "face": "happy",
+          "at": "@calm"
+        }
+      ],
+      "gauges": [
+        {
+          "label": "Rally speed",
+          "icon": "bolt",
+          "from": 95,
+          "to": 20,
+          "at": 0.2,
+          "changeAt": "@takes",
+          "dur": 2.5
+        }
+      ],
+      "narration": "A reset is a soft block. It takes the pace off a hard ball and drops it into the kitchen. The rally goes from frantic back to calm."
+    },
+    {
+      "id": "s45",
+      "kind": "mascot",
+      "background": "spotlight",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "block"
+        },
+        {
+          "pose": "block",
+          "at": "@Soft"
+        },
+        {
+          "pose": "dink",
+          "at": "@give"
+        }
+      ],
+      "headline": {
+        "text": "Soft hands",
+        "highlight": "Soft",
+        "at": "@Soft",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Give with it",
+          "target": "rHand",
+          "at": "@give"
+        }
+      ],
+      "narration": "Picture catching an egg. Soft hands that give with the ball."
+    },
+    {
+      "id": "s46",
+      "kind": "stat",
+      "value": 7,
+      "prefix": "~",
+      "suffix": " in 10",
+      "label": "shots from mid-court (transition zone) · one study, 8 pro men's doubles matches",
+      "highlight": "mid-court",
+      "icon": "target",
+      "at": 0.3,
+      "mascot": {
+        "poses": [
+          {
+            "pose": "think"
+          },
+          {
+            "pose": "present",
+            "at": "@study"
+          },
+          {
+            "pose": "point_up",
+            "at": "@transition"
+          }
+        ]
+      },
+      "narration": "Why does this matter? In one study of 8 pro men's doubles matches, about 7 in 10 shots were played from what the researchers called the transition zone, roughly mid-court."
+    },
+    {
+      "id": "s47",
+      "kind": "list",
+      "title": "The 4.0 checklist",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "block"
+          },
+          {
+            "pose": "point_up",
+            "at": "@9"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "items": [
+        {
+          "text": "Block hard volleys",
+          "icon": "check",
+          "at": "@block"
+        },
+        {
+          "text": "Start making resets",
+          "icon": "check",
+          "at": "@resets"
+        },
+        {
+          "text": "Know which balls to attack",
+          "icon": "target",
+          "at": "@attack"
+        },
+        {
+          "text": "Serves, returns, volleys: 9/10",
+          "icon": "check",
+          "at": "@9"
+        }
+      ],
+      "narration": "The 4.0 checklist asks you to block hard volleys, start making resets, and know which balls you can attack. And serves, returns and volleys now need 9 out of 10."
+    },
+    {
+      "id": "s48",
+      "kind": "stat",
+      "value": 15,
+      "suffix": "%",
+      "label": "of DUPR-rated players: 4.0–4.99",
+      "highlight": "4.0–4.99",
+      "icon": "trophy",
+      "at": 0.3,
+      "mascot": {
+        "props": {
+          "r": "pbpaddle"
+        },
+        "poses": [
+          {
+            "pose": "block"
+          },
+          {
+            "pose": "point_up",
+            "at": "@rated"
+          }
+        ]
+      },
+      "narration": "About 15% of DUPR players are rated 4.0 to 4.99.",
+      "prefix": "~"
+    },
+    {
+      "id": "s49",
+      "kind": "versus",
+      "vs": "&",
+      "opponentTint": false,
+      "left": {
+        "label": "You · mid-court",
+        "poses": [
+          {
+            "pose": "block"
+          },
+          {
+            "pose": "block",
+            "at": "@feeds"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "right": {
+        "label": "Partner · kitchen line",
+        "cycle": {
+          "poses": [
+            "dink",
+            "dink_b"
+          ],
+          "period": 1,
+          "from": "@feeds"
+        },
+        "poses": [
+          {
+            "pose": "dink"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "The drill: the mid-court reset. Stand mid-court. Your partner at the kitchen line feeds balls at a pace you can control, aimed below your waist."
+    },
+    {
+      "id": "s50",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "block"
+        },
+        {
+          "pose": "dink",
+          "at": "@sets"
+        },
+        {
+          "pose": "block",
+          "at": "@backhand"
+        },
+        {
+          "pose": "point_up",
+          "at": "@Only"
+        }
+      ],
+      "caption": {
+        "text": "Drill · Mid-court reset",
+        "at": 0.2
+      },
+      "headline": {
+        "text": "3 × 10 · speed up at 9/10",
+        "highlight": "9/10",
+        "at": "@sets",
+        "side": "right"
+      },
+      "narration": "Block them softly into the kitchen. 3 sets of 10, forehand and backhand. Only speed up once you're landing 9 out of 10."
+    },
+    {
+      "id": "s51",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "block"
+        },
+        {
+          "pose": "point_up",
+          "at": "@wear"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Protect your eyes",
+          "target": "eyes",
+          "at": "@face"
+        }
+      ],
+      "headline": {
+        "text": "Eye protection",
+        "highlight": "Eye",
+        "at": "@wear",
+        "side": "right"
+      },
+      "narration": "This drill gets faster and brings the ball near your face, so wear eye protection rated for racket sports."
+    },
+    {
+      "id": "s52",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "swing_back",
+          "face": "determined"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@Swinging"
+        },
+        {
+          "pose": "block",
+          "at": "@block"
+        },
+        {
+          "pose": "dink",
+          "at": "@drop"
+        },
+        {
+          "pose": "block",
+          "at": "@wait"
+        }
+      ],
+      "caption": {
+        "text": "The mistake",
+        "at": 0.2
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "pos": [
+            1500,
+            360
+          ],
+          "at": "@Swinging",
+          "size": 1
+        },
+        {
+          "icon": "check",
+          "pos": [
+            1500,
+            360
+          ],
+          "at": "@block",
+          "size": 1
+        }
+      ],
+      "narration": "The mistake? Swinging at every hard ball. At this level, you block it, drop it, and wait for a better ball."
+    },
+    {
+      "id": "s53",
+      "kind": "title",
+      "chapter": "Level 5: No Weak Spots",
+      "number": 5,
+      "heading": "No Weak Spots",
+      "sub": "5.0 and above",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "dink"
+          },
+          {
+            "pose": "swing_through",
+            "at": "@pace"
+          },
+          {
+            "pose": "celebrate",
+            "face": "happy",
+            "at": "@rarely"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "Level 5 is 5.0 and above. These players have mastered the dink and the drop, change pace easily, and rarely make unforced errors."
+    },
+    {
+      "id": "s54",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "swing_through"
+        },
+        {
+          "pose": "swing_through",
+          "facing": "left",
+          "at": "@backhand"
+        },
+        {
+          "pose": "pb_hands_hips",
+          "face": "determined",
+          "at": "@castle"
+        },
+        {
+          "pose": "flex",
+          "at": "@holds"
+        }
+      ],
+      "headline": {
+        "text": "No weak wall",
+        "highlight": "weak",
+        "at": "@castle",
+        "side": "right"
+      },
+      "narration": "Every shot works from both the forehand and the backhand. Think of a castle with no weak wall. Whichever side you attack, it holds."
+    },
+    {
+      "id": "s55",
+      "kind": "stat",
+      "value": 1,
+      "suffix": "%",
+      "label": "of DUPR-rated players are 5.0 or higher",
+      "highlight": "5.0 or higher",
+      "icon": "trophy",
+      "at": 0.3,
+      "mascot": {
+        "poses": [
+          {
+            "pose": "flex"
+          },
+          {
+            "pose": "celebrate",
+            "face": "happy",
+            "at": "@higher"
+          }
+        ]
+      },
+      "narration": "Only about 1% of DUPR players are rated 5.0 or higher.",
+      "prefix": "~"
+    },
+    {
+      "id": "s56",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "facing": "left",
+      "cycle": {
+        "poses": [
+          "dink",
+          "dink_b"
+        ],
+        "period": 0.9,
+        "from": "@backhand-only"
+      },
+      "poses": [
+        {
+          "pose": "point_up"
+        },
+        {
+          "pose": "dink",
+          "at": "@backhand-only"
+        }
+      ],
+      "caption": {
+        "text": "Drill 1 · Weak-side week",
+        "at": 0.2
+      },
+      "headline": {
+        "text": "10 min · 3×/week",
+        "highlight": "10 min",
+        "at": "@10",
+        "side": "right"
+      },
+      "narration": "Drill 1: weak-side week. 10 minutes per session of backhand-only dinks and drops, 3 sessions a week."
+    },
+    {
+      "id": "s57",
+      "kind": "list",
+      "title": "Drill 2 · The error tally",
+      "mascot": {
+        "props": {
+          "r": "pbpaddle"
+        },
+        "poses": [
+          {
+            "pose": "think"
+          },
+          {
+            "pose": "point_up",
+            "at": "@tick"
+          },
+          {
+            "pose": "swing_back",
+            "at": "@game"
+          },
+          {
+            "pose": "pb_drop",
+            "at": "@official"
+          },
+          {
+            "pose": "point_up",
+            "at": "@train"
+          }
+        ]
+      },
+      "items": [
+        {
+          "text": "A friend ticks every error",
+          "icon": "cross",
+          "at": "@tick"
+        },
+        {
+          "text": "One full game",
+          "icon": "stopwatch",
+          "at": "@game"
+        },
+        {
+          "text": "Train the most-ticked shot",
+          "icon": "target",
+          "at": "@train"
+        }
+      ],
+      "narration": "Drill 2: the error tally. Ask a friend to make a tick mark for every unforced error you make in one game, just like the official rating sheet. Then train the shot with the most ticks."
+    },
+    {
+      "id": "s58",
+      "kind": "mascot",
+      "background": "gym",
+      "props": {
+        "r": "dumbbell"
+      },
+      "poses": [
+        {
+          "pose": "stand"
+        },
+        {
+          "pose": "squat",
+          "at": "@Strength"
+        },
+        {
+          "pose": "flex",
+          "at": "@days"
+        },
+        {
+          "pose": "squat",
+          "at": "@light"
+        }
+      ],
+      "headline": {
+        "text": "2+ days a week",
+        "highlight": "2+",
+        "at": "@days",
+        "side": "right"
+      },
+      "narration": "Strength train all your major muscle groups at least 2 days a week, and start light if you're new to it."
+    },
+    {
+      "id": "s59",
+      "kind": "mascot",
+      "background": "gym",
+      "poses": [
+        {
+          "pose": "side_stand",
+          "face": "tired"
+        },
+        {
+          "pose": "side_stand",
+          "face": "focused",
+          "head": -6,
+          "at": "@physio"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Calf & Achilles",
+          "target": "rAchilles",
+          "at": "@calf"
+        },
+        {
+          "label": "Knee",
+          "target": "rKnee",
+          "at": "@knee"
+        },
+        {
+          "label": "Shoulder",
+          "target": "rShoulder",
+          "at": "@shoulder"
+        }
+      ],
+      "headline": {
+        "text": "See a physio",
+        "highlight": "physio",
+        "at": "@physio",
+        "side": "right"
+      },
+      "narration": "If something already hurts, like your calf, Achilles, knee or shoulder, see a physio or sports doctor before adding load."
+    },
+    {
+      "id": "s60",
+      "kind": "chart",
+      "title": "Sports injuries (review of trials)",
+      "unit": "",
+      "max": 100,
+      "focus": 1,
+      "mascot": {
+        "poses": [
+          {
+            "pose": "think"
+          },
+          {
+            "pose": "point_up",
+            "at": "@third"
+          },
+          {
+            "pose": "shrug",
+            "at": "@handful"
+          }
+        ]
+      },
+      "bars": [
+        {
+          "label": "Usual rate",
+          "value": 100,
+          "display": "100%"
+        },
+        {
+          "label": "With strength training",
+          "value": 32,
+          "display": "~⅓",
+          "at": "@third",
+          "color": "accent"
+        }
+      ],
+      "narration": "In a review of sports trials, strength training cut injuries to about a third of the usual rate. That came from only a handful of trials, none in pickleball."
+    },
+    {
+      "id": "s61",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "swing_back"
+        },
+        {
+          "pose": "swing_through",
+          "at": "@power"
+        },
+        {
+          "pose": "dink",
+          "at": "@control"
+        },
+        {
+          "pose": "point_up",
+          "at": "@Pace"
+        }
+      ],
+      "caption": {
+        "text": "The mistake",
+        "at": 0.2
+      },
+      "headline": {
+        "text": "Control + variety",
+        "highlight": "variety",
+        "at": "@control",
+        "side": "right"
+      },
+      "narration": "The mistake? Chasing power. The top level is defined by control and variety. Pace is just one of the tools."
+    },
+    {
+      "id": "s62",
+      "kind": "title",
+      "chapter": "Stay on court",
+      "heading": "Stay on court",
+      "sub": "falls, ankles, eyes",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "walk_a"
+          },
+          {
+            "pose": "lie",
+            "face": "tired",
+            "at": "@falling"
+          },
+          {
+            "pose": "sit",
+            "at": "@patients"
+          }
+        ]
+      },
+      "narration": "In US emergency-room data, the most common way people got hurt playing pickleball was falling, and most of those patients were over 60."
+    },
+    {
+      "id": "s63",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "run_a",
+          "run_b"
+        ],
+        "period": 0.32,
+        "from": "@turn",
+        "to": "@backpedal"
+      },
+      "poses": [
+        {
+          "pose": "block",
+          "face": "surprised"
+        },
+        {
+          "pose": "run_a",
+          "facing": "left",
+          "at": "@turn"
+        },
+        {
+          "pose": "stand",
+          "at": "@backpedal"
+        },
+        {
+          "pose": "block",
+          "at": "@backpedal+0.8"
+        }
+      ],
+      "headline": {
+        "text": "Turn and run",
+        "highlight": "run",
+        "at": "@turn",
+        "side": "right"
+      },
+      "move": {
+        "to": "left",
+        "at": "@turn",
+        "dur": 1
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "pos": [
+            1500,
+            680
+          ],
+          "at": "@backpedal",
+          "size": 0.9
+        }
+      ],
+      "narration": "So when a lob sails over your head, turn and run. Don't backpedal."
+    },
+    {
+      "id": "s64",
+      "kind": "mascot",
+      "background": "plain",
+      "poses": [
+        {
+          "pose": "walk_a"
+        },
+        {
+          "pose": "land",
+          "face": "surprised",
+          "at": "@twist"
+        },
+        {
+          "pose": "side_stand",
+          "face": "focused",
+          "at": "@sports"
+        },
+        {
+          "pose": "stretch_quad",
+          "face": "focused",
+          "at": "@balance"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Twisted ankle",
+          "target": "rFoot",
+          "at": "@twist"
+        }
+      ],
+      "headline": {
+        "text": "Balance training",
+        "highlight": "Balance",
+        "at": "@sports",
+        "side": "right"
+      },
+      "narration": "For players aged 18 to 34 in that data, the most common cause of injury was a twist or a rolled ankle. In sports trials, balance training lowered injury rates."
+    },
+    {
+      "id": "s65",
+      "kind": "mascot",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "poses": [
+        {
+          "pose": "block"
+        },
+        {
+          "pose": "present",
+          "at": "@eye"
+        },
+        {
+          "pose": "point_up",
+          "at": "@level"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Eyes",
+          "target": "eyes",
+          "at": "@eye"
+        }
+      ],
+      "headline": {
+        "text": "Eyewear at any level",
+        "highlight": "any level",
+        "at": "@level",
+        "side": "right"
+      },
+      "narration": "A ball strike is the most common cause of pickleball eye injuries, so eye protection rated for racket sports is worth wearing at any level."
+    },
+    {
+      "id": "s66",
+      "kind": "mascot",
+      "background": "plain",
+      "poses": [
+        {
+          "pose": "side_stand",
+          "face": "surprised"
+        },
+        {
+          "pose": "hold_calf",
+          "at": "@kick"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Kick or snap here",
+          "target": "rAchilles",
+          "at": "@heel"
+        }
+      ],
+      "headline": {
+        "text": "Get checked",
+        "highlight": "checked",
+        "at": "@checked",
+        "side": "right"
+      },
+      "narration": "And stop and get checked promptly if you feel a sudden kick or snap at the back of your heel or calf, or can't push off your toes."
+    },
+    {
+      "id": "s67",
+      "kind": "list",
+      "title": "Also get checked if…",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "point_up"
+          },
+          {
+            "pose": "facepalm",
+            "face": "tired",
+            "at": "@eye"
+          },
+          {
+            "pose": "shrug",
+            "at": "@wrist"
+          },
+          {
+            "pose": "think",
+            "at": "@head"
+          },
+          {
+            "pose": "point_up",
+            "at": "@rolled"
+          }
+        ]
+      },
+      "items": [
+        {
+          "text": "Eye hit: blur, flashes or pain",
+          "icon": "cross",
+          "at": "@eye"
+        },
+        {
+          "text": "Wrist swollen after a fall",
+          "icon": "cross",
+          "at": "@wrist"
+        },
+        {
+          "text": "You hit your head",
+          "icon": "cross",
+          "at": "@head"
+        },
+        {
+          "text": "Ankle won't take weight",
+          "icon": "cross",
+          "at": "@rolled"
+        }
+      ],
+      "narration": "Same if a hit to the eye leaves you with blurred vision, flashes or pain, if a fall leaves your wrist swollen or misshapen, if you hit your head, or if a rolled ankle won't take your weight."
+    },
+    {
+      "id": "s68",
+      "kind": "title",
+      "chapter": "Your plan",
+      "heading": "Which level are you?",
+      "sub": "count your misses",
+      "transition": "push",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "think"
+          },
+          {
+            "pose": "point_up",
+            "at": "@Count"
+          }
+        ]
+      },
+      "narration": "So, which level are you? Count your misses."
+    },
+    {
+      "id": "s69",
+      "kind": "list",
+      "title": "Quick self-check",
+      "mascot": {
+        "poses": [
+          {
+            "pose": "think"
+          },
+          {
+            "pose": "point_up",
+            "at": "@Landing"
+          }
+        ]
+      },
+      "items": [
+        {
+          "text": "Under 7/10 serves → Level 1",
+          "icon": "target",
+          "at": "@Can't"
+        },
+        {
+          "text": "Stuck at the back → Level 2",
+          "icon": "target",
+          "at": "@stuck"
+        }
+      ],
+      "narration": "Can't land 7 serves out of 10? You're probably still on Level 1. Landing 7, but stuck at the back? Level 2: return deep and get forward."
+    },
+    {
+      "id": "s70",
+      "kind": "versus",
+      "vs": "OR",
+      "opponentTint": false,
+      "left": {
+        "label": "Rushed → Level 3: drop",
+        "poses": [
+          {
+            "pose": "dink"
+          },
+          {
+            "pose": "pb_drop",
+            "at": "@drop"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "right": {
+        "label": "Mid-court → Level 4: reset",
+        "poses": [
+          {
+            "pose": "block"
+          },
+          {
+            "pose": "block",
+            "at": "@reset"
+          }
+        ],
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "narration": "Getting forward, but always rushed? Level 3: the drop. Caught in mid-court a lot? Level 4: the reset."
+    },
+    {
+      "id": "s71",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "shrug"
+        },
+        {
+          "pose": "present",
+          "at": "@rater"
+        }
+      ],
+      "headline": {
+        "text": "Just a rough guide",
+        "highlight": "rough",
+        "at": "@rough",
+        "side": "right"
+      },
+      "narration": "It's a rough self-check, not an official rating. For that, a rater watches your whole game."
+    },
+    {
+      "id": "s72",
+      "kind": "list",
+      "title": "This week",
+      "mascot": {
+        "cycle": {
+          "poses": [
+            "dink",
+            "dink_b"
+          ],
+          "period": 0.9
+        },
+        "pose": "dink",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "items": [
+        {
+          "text": "2 sessions",
+          "icon": "clock",
+          "at": "@2"
+        },
+        {
+          "text": "Warm up",
+          "icon": "heart",
+          "at": "@Warm"
+        },
+        {
+          "text": "One 10-ball test",
+          "icon": "target",
+          "at": "@test"
+        },
+        {
+          "text": "15 min on your level's drill",
+          "icon": "check",
+          "at": "@15"
+        }
+      ],
+      "narration": "This week, play 2 sessions. Warm up, do one 10-ball test, then spend 15 minutes on your level's drill."
+    },
+    {
+      "id": "s73",
+      "kind": "mascot",
+      "chapter": "Close",
+      "background": "court",
+      "props": {
+        "r": "pbpaddle"
+      },
+      "cycle": {
+        "poses": [
+          "walk_a",
+          "walk_b"
+        ],
+        "period": 0.55,
+        "from": "@walk"
+      },
+      "move": {
+        "to": "right",
+        "at": "@walk",
+        "dur": 2.2
+      },
+      "poses": [
+        {
+          "pose": "swing_through"
+        },
+        {
+          "pose": "facepalm",
+          "at": "@feet"
+        },
+        {
+          "pose": "dink",
+          "face": "happy",
+          "at": "@soft"
+        },
+        {
+          "pose": "walk_a",
+          "face": "happy",
+          "at": "@walk"
+        }
+      ],
+      "pauseAfter": 1,
+      "narration": "Remember that ball you smashed straight back at your feet? Next time, hit it soft, and walk in behind it."
+    }
+  ]
+}

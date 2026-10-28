@@ -38,7 +38,7 @@
   "facing": "right",            // side-view poses face right; "left" mirrors
   "position": "center",         // left | center | right | farleft | farright, or "x": 700
   "scale": 1.05,
-  "props": {"r": "racket"},     // in the right (front) hand: racket badminton paddle tennisball basketball football cricketball dumbbell bottle phone
+  "props": {"r": "racket"},     // in the right (front) hand: racket badminton paddle pbpaddle pickleball tennisball basketball football cricketball dumbbell bottle phone
   "tint": "opponent",           // grey "other player"
   "move": {"to": "right", "at": "@ran", "dur": 1.5}   // travel across the frame (combine with a run cycle)
 }
@@ -47,6 +47,7 @@ A pose entry may override joints inline: `{"pose": "stand", "head": 15, "face": 
 Faces: `normal happy determined tired sleep surprised focused`.
 Poses live in `pipeline/mascot/poses.json` — run `node pipeline/poses.mjs` to see them all. New pose? Use `/new-pose`.
 Bowling (right-arm, facing right): `bowl_gather` → `bowl_brace` → `bowl_release` → `bowl_follow` (use as timed `poses` for a delivery). `hold_back`: hand on lower back, wincing.
+Pickleball (props `pbpaddle` + `pickleball`): `dink` (side, low soft push at the kitchen line), `block` (front, low wide stance, paddle up: reset/soft hands); use `swing_back`/`swing_through` for drives and drops, `serve` overhead is tennis — for an underhand pickleball serve use `swing_back` → `dink`.
 
 ---
 
@@ -64,8 +65,8 @@ Bowling (right-arm, facing right): `bowl_gather` → `bowl_brace` → `bowl_rele
  "narration":"…"}
 ```
 - `headline` puts big text on one side (mascot moves to the other side automatically). ≤ 5 words.
-- `callouts[].target`: `head chest core hips back lShoulder rShoulder lArm rArm lElbow rElbow lForearm rForearm lHand rHand lHip rHip lThigh rThigh lKnee rKnee lCalf rCalf lAchilles rAchilles lFoot rFoot`. The point is computed from the pose at that moment. Max 3 per scene.
-- `icons[]`: `battery heart bolt brain moon zzz clock stopwatch fire water check cross trophy muscle target lungs question food`. Place with `pos:[x,y]` (1920×1080 frame) or `near: <body point>` + `offset`. `pulse: true` for a heartbeat effect. Battery: `level` 0–1, animate with `levelTo` + `levelAt`.
+- `callouts[].target`: `head eyes chest core hips back lShoulder rShoulder lArm rArm lElbow rElbow lForearm rForearm lHand rHand lHip rHip lThigh rThigh lHamstring rHamstring lKnee rKnee lCalf rCalf lAchilles rAchilles lFoot rFoot`. The point is computed from the pose at that moment. Max 3 per scene.
+- `icons[]`: `battery heart bolt brain moon zzz clock stopwatch fire water check cross trophy muscle target lungs question food football`. Place with `pos:[x,y]` (1920×1080 frame) or `near: <body point>` + `offset`. `pulse: true` for a heartbeat effect. Battery: `level` 0–1, animate with `levelTo` + `levelAt`.
 - `gauges[]`: stacked bars at top-right (0–100), green → yellow → red as they drop.
 - `zoom`: slow camera push amount (default 1.04).
 

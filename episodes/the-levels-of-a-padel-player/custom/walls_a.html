@@ -1,0 +1,71 @@
+<!-- Rule one, side view of a padel court (20 m, back glass 3 m + 1 m mesh, net 0.88 m, roughly to scale). Good ball lands on the far floor first; bad ball hits the far glass on the full and loses the point. -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:#7FB3E8; }
+    #__ID__-root .floor { position:absolute; left:0; right:0; top:820px; bottom:0; background:#2F6DB5; }
+    #__ID__-root .glass { position:absolute; top:577px; width:22px; height:243px; background:rgba(255,255,255,.55); border:5px solid var(--ink); box-sizing:border-box; border-radius:4px; }
+    #__ID__-root .meshw { position:absolute; top:496px; width:22px; height:81px; background:repeating-linear-gradient(0deg,rgba(28,33,64,.6) 0 4px,transparent 4px 12px); }
+    #__ID__-root .post { position:absolute; left:954px; top:740px; width:12px; height:80px; background:var(--ink); border-radius:6px; }
+    #__ID__-root .mesh { position:absolute; left:946px; top:749px; width:28px; height:50px; background:repeating-linear-gradient(0deg,rgba(28,33,64,.55) 0 4px,transparent 4px 12px); border-top:8px solid #fff; }
+    #__ID__-root .sl { position:absolute; top:818px; width:60px; height:8px; margin-left:-30px; background:#fff; border-radius:4px; }
+    #__ID__-root .pl { position:absolute; top:610px; width:90px; height:210px; }
+    #__ID__-root .pl .h { position:absolute; left:20px; top:0; width:50px; height:50px; border-radius:50%; border:6px solid var(--ink); box-sizing:border-box; }
+    #__ID__-root .pl .b { position:absolute; left:12px; top:52px; width:66px; height:158px; border-radius:26px 26px 12px 12px; border:6px solid var(--ink); box-sizing:border-box; }
+    #__ID__-root .us .h, #__ID__-root .us .b { background:var(--brand); }
+    #__ID__-root .them .h, #__ID__-root .them .b { background:#AEB4C2; }
+    #__ID__-root .chip2 { position:absolute; padding:12px 26px; border-radius:20px; background:#fff; border:6px solid var(--ink); font:700 38px var(--display); text-transform:uppercase; color:var(--ink); opacity:0; white-space:nowrap; }
+    #__ID__-root .chip2.good { border-color:var(--good); }
+    #__ID__-root .chip2.bad { border-color:var(--bad); color:var(--bad); }
+    #__ID__-root .ball { position:absolute; left:0; top:0; width:32px; height:32px; margin:-16px 0 0 -16px; border-radius:50%; background:#D7F03A; border:5px solid var(--ink); box-sizing:border-box; opacity:0; }
+    #__ID__-root svg.arc { position:absolute; left:0; top:0; }
+    #__ID__-root .flash { position:absolute; top:577px; width:22px; height:243px; background:var(--bad); opacity:0; border-radius:4px; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:70px;text-align:center">Rule 1: floor first</div>
+  <div class="floor"></div>
+  <div class="meshw" style="left:128px"></div><div class="glass" style="left:128px"></div>
+  <div class="meshw" style="left:1770px"></div><div class="glass" style="left:1770px"></div>
+  <div class="sl" style="left:397px"></div><div class="sl" style="left:1523px"></div>
+  <div class="mesh"></div><div class="post"></div>
+
+  <svg class="arc" width="1920" height="1080" viewBox="0 0 1920 1080">
+    <path id="__ID__-pa" d="M330 650 Q 940 240 1480 818 Q 1610 690 1768 650" fill="none" stroke="#fff" stroke-width="8" stroke-dasharray="18 16" stroke-linecap="round" opacity="0"/>
+    <path id="__ID__-pb" d="M330 650 Q 1050 260 1768 690" fill="none" style="stroke:var(--bad)" stroke-width="8" stroke-dasharray="18 16" stroke-linecap="round" opacity="0"/>
+  </svg>
+  <div class="flash" id="__ID__-fl" style="left:1770px"></div>
+  <div class="pl us" style="left:230px"><div class="h"></div><div class="b"></div></div>
+  <div class="pl them" style="left:1560px"><div class="h"></div><div class="b"></div></div>
+  <div class="chip2 good" id="__ID__-c1" style="left:1240px;top:880px">✓ Floor first</div>
+  <div class="chip2 bad" id="__ID__-c2" style="left:1150px;top:330px">✗ Glass first = point lost</div>
+  <div class="ball" id="__ID__-ba"></div><div class="ball" id="__ID__-bb"></div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+
+  function fly(pathId, ballId, start, dur, ease) {
+    var path = document.getElementById(pathId), L = path.getTotalLength(), p = { t: 0 };
+    tl.set("#" + ballId, { opacity: 1 }, start);
+    tl.fromTo(p, { t: 0 }, { t: 1, duration: dur, ease: ease || "none", onUpdate: function () {
+      var pt = path.getPointAtLength(p.t * L); gsap.set("#" + ballId, { x: pt.x, y: pt.y });
+    } }, start);
+  }
+
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  var fa = Math.max(1.6, D * 0.3);
+  tl.to("#__ID__-pa", { opacity: 0.9, duration: 0.3 }, 0.3);
+  fly("__ID__-pa", "__ID__-ba", 0.3, fa);
+  tl.to("#__ID__-c1", { opacity: 1, duration: 0.3 }, 0.3 + fa * 0.62);
+  var sb = Math.max(0.3 + fa + 0.3, D * 0.5), fb = Math.max(1.2, D * 0.22);
+  tl.to(["#__ID__-pa", "#__ID__-ba", "#__ID__-c1"], { opacity: 0.25, duration: 0.3 }, sb - 0.3);
+  tl.to("#__ID__-pb", { opacity: 0.9, duration: 0.3 }, sb);
+  fly("__ID__-pb", "__ID__-bb", sb, fb);
+  tl.to("#__ID__-fl", { opacity: 0.8, duration: 0.12, yoyo: true, repeat: 3 }, sb + fb);
+  tl.fromTo("#__ID__-c2", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2)" }, sb + fb);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

@@ -1,0 +1,272 @@
+[
+  {
+    "id": "S1",
+    "title": "Player Skill Level Definitions (skill matrix, 2.5 to 5.5+)",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball (national governing body)",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Player-Skill-Level-Matrix.pdf",
+    "type": "org",
+    "notes": "Official matrix, PDF created June 2025. Rows 2.5 Beginner, 3.0 Advanced Beginner, 3.5 Intermediate, 4.0 Advanced Intermediate, 4.5 Advanced, 5.0 Expert, 5.5+ Expert Pro. Columns: forehand, backhand, serve/return, dink, 3rd shot, volley, strategy. Key lines: 2.5 'can sustain a short rally... basic ability to keep score'; 3.0 third shot 'medium paced ball with limited direction', 'frequent unforced errors likely'; 3.5 third shot 'Developing the drop shot in a way to get to the net', 'Unforced errors significantly reduce game success'; 4.0 third shot 'selectively mixing up soft shots with power shots... inconsistent results', volley 'Starting to understand the block/re-set volley', 'Beginning to understand and execute resets', 'moderate number of unforced errors'; 4.5 'Able to block hard volleys... consistently drop them into the NVZ', 'Limited number of unforced errors'; 5.0 'Hits all shot types at a high level... from both the forehand and backhand sides', 'Mastered the dink and drop shots', 'Rarely makes unforced errors'; 5.5+ 'Performance and tournament wins speak for this player's ability'. Read in full. NOTE: the HTML version of the skill page appeared to shift some lines by one level when machine-read; use this PDF as the authority."
+  },
+  {
+    "id": "S2",
+    "title": "Skill Level (overview page and self-assessment)",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball",
+    "year": "2026",
+    "url": "https://usapickleball.org/skill-level/",
+    "type": "org",
+    "notes": "Groups levels into five named tiers: 1.0; 2.0 & 2.5; 3.0 & 3.5; 4.0 & 4.5; 5.0 & 5.5. Skill Levels are 'not official ratings', are 'a helpful guide' like a golf handicap, and are based 'solely on knowledge and proficiencies', whereas ratings/rankings are based on match results. USA Pickleball 'established the first nationwide, official Skill Level scale in 2005'. 12-question self-assessment, 3-5 minutes. Links to the matrix [S1] and assessment sheets [S3-S7]. Overview tier names include 'The Rookies' for 1.0 — we don't reuse them. Year note: 2026 (page ©2026; scale est. 2005)."
+  },
+  {
+    "id": "S3",
+    "title": "Skill Assessment for 3.0 Players",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Skill-Assessment-for-3.0.pdf",
+    "type": "org",
+    "notes": "Rater checklist scored 0-3. Includes 'Able to consistently sustain a basic dink rally', 'Starting to move to NVZ (non-volley zone) and play there', 'Frequent unforced errors'. Volley, serve and return requirements: 7 out of 10 (70%). Athleticism (mobility, quickness, hand-eye coordination, previous sports experience) is factored in by the assessor. Read in full."
+  },
+  {
+    "id": "S4",
+    "title": "Skill Assessment for 3.5 Players",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Skill-Assessment-for-3.5.pdf",
+    "type": "org",
+    "notes": "'Should ALSO possess all 3.0 Skills'. Includes 'Able to place serves deep in the court', 'Able to place return of serves deep', 'Able to dink and sustains medium length rallies', 'Hits 3rd shot drop/drive to gain advantage to the net with limited success', 'Moves quickly to NVZ when opportunity is there', 'Understands difference b/w hard game and soft game'. Volley/serve/return requirement 8 out of 10 (80%). Read in full."
+  },
+  {
+    "id": "S5",
+    "title": "Skill Assessment for 4.0 Players",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Skill-Assessment-for-4.0.pdf",
+    "type": "org",
+    "notes": "'Should ALSO possess all 3.5 Skills'. Includes 'Understands which balls are attackable in a dink rally', 'Sustains a dink exchange with patience at the net to elicit a put away shot', 'Executes baseline 3rd shot drop/drive to approach the net with moderate success', 'Able to block and return fast, hard volleys', 'Starting to understand and execute resets', 'moderate number of unforced errors per game'. Requirements 9 out of 10 (90%). Read in full."
+  },
+  {
+    "id": "S6",
+    "title": "Skill Assessment for 4.5 Players",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Skill-Assessment-for-4.5.pdf",
+    "type": "org",
+    "notes": "'Should ALSO possess all 4.0 Skills'. Includes 'Able to intentionally and consistently place the 3rd shot drop', 'Able to block hard volleys directed at them and consistently drop them in NVZ', 'Poaches effectively & starting to use ATP, ERNE, reset, and counter-attack', 'Has good footwork and moves laterally, forward and backward well', 'Limited number of unforced errors'. Requirements 10 out of 10 (100%); also checks service foot fault. Read in full."
+  },
+  {
+    "id": "S7",
+    "title": "Skill Assessment for 5.0 Players",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Skill-Assessment-for-5.0.pdf",
+    "type": "org",
+    "notes": "'Should ALSO possess all 4.5 Skills'. Includes 'Mastered the 3rd shot choices... Able to drop and drive ball from both the forehand and backhand side with high level consistency', 'Changes pace of play easily using drives, drops, blocks, dinks', 'Able to use surprise and deception', 'Able to think ahead & execute shots that create opportunities', 'Rarely makes unforced errors'. Requirements 10 out of 10 (100%). Rating scale ledger: 0 not observed, 1 attempted/very poor, 2 good basic form, 3 solid, consistent. Read in full."
+  },
+  {
+    "id": "S8",
+    "title": "2026 USA Pickleball Official Rulebook",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball (copy hosted by Pickleball Canada)",
+    "year": "2026",
+    "url": "https://pickleballcanada.org/wp-content/uploads/2026/03/2026-Official-Rulebook-EN.pdf",
+    "type": "org",
+    "notes": "Section 1: 20 x 44 ft court; serve diagonal; in standard scoring only the serving side scores; typically first to 11, win by 2; rally scoring provisionally approved as an option. Two-Bounce Rule: receiver must let the serve bounce, then the serving side must let the return bounce. Non-Volley Zone: 7 ft from the net on each side (7 x 20 ft), no volleying inside it. Fig 3-1: net 36 in at sidelines, 34 in at centre. Read pp. 1-7."
+  },
+  {
+    "id": "S9",
+    "title": "How it works (DUPR rating)",
+    "author": "DUPR",
+    "publisher": "DUPR (Dynamic Universal Pickleball Rating)",
+    "year": "2026",
+    "url": "https://www.dupr.com/how-it-works",
+    "type": "org",
+    "notes": "New players start NR (not rated); scale 2.000-8.000. Each match has an expected outcome from players' ratings; 'If your team scores more points than expected, your rating goes up.' Doubles team rating = average of the two players. Verified club/league/tournament matches weigh more than self-posted; recent matches weigh more; Reliability Score 1-100%. Separate singles, gender doubles and mixed doubles ratings, plus age-group ratings for 50-65+."
+  },
+  {
+    "id": "S10",
+    "title": "Cracking the DUPR Code: How Pickleball's Rating System Shapes the Game",
+    "author": "DUPR",
+    "publisher": "DUPR blog",
+    "year": "c. 2024-2025",
+    "url": "https://www.dupr.com/post/cracking-the-dupr-code-how-pickleballs-rating-system-shapes-the-game",
+    "type": "org",
+    "notes": "Everyone from beginner to pro is on the same scale. Ratings 'can now go up with a loss if you outperform expectations, or down with a win if you underperform.' Reliability rises with more matches, more recent play and more variety of partners/opponents; higher reliability = smaller swings. About 90% of DUPR data comes from doubles. Date not printed."
+  },
+  {
+    "id": "S11",
+    "title": "DUPR Rating Percentiles: Where Does Your Rating Rank?",
+    "author": "Shields T",
+    "publisher": "The Dink Pickleball (data provided by DUPR)",
+    "year": "2026",
+    "url": "https://www.thedinkpickleball.com/dupr-rating-percentiles-where-does-your-rating-rank/",
+    "type": "org",
+    "notes": "Published 7 Oct 2026. Previously unpublished DUPR data, snapshot 22 Sep 2026: global DUPR users with a result in the past 12 months, doubles ratings only, total N not stated. 2.0-2.49 11%; 2.5-2.99 20%; 3.0-3.49 29%; 3.5-3.99 24%; 4.0-4.49 11%; 4.5-4.99 4%; 5.0+ 1%. Whole-number rounding; explicitly 'not the skill distribution of everyone who plays pickleball'. Secondary report of company data (moderate-low verifiability)."
+  },
+  {
+    "id": "S12",
+    "title": "Am I good enough for a pickleball tournament? What DUPR data says",
+    "author": "Poon A",
+    "publisher": "Selkirk Sport (paddle brand) blog",
+    "year": "2026",
+    "url": "https://www.selkirk.com/blogs/pickleball-education/am-i-good-enough-for-a-pickleball-tournament-what-dupr-data-says",
+    "type": "org",
+    "notes": "Published 21 May 2026. DUPR doubles ratings of 'hundreds of thousands' of tournament registrants, 2023-2025. 2025: largest single band 3.5-3.99 (nearly 30%); 3.0-4.49 about 73%; below 3.0 about 10.9%; 5.0+ about 6.8%. Tournament-only sample; commercial publisher."
+  },
+  {
+    "id": "S13",
+    "title": "Match activity profile analysis during professional men's double pickleball tournaments",
+    "author": "Lozano M, Casals M, Ampuero R, Fernandez-Fernandez J, Campos-Rius J, Baiget E",
+    "publisher": "International Journal of Performance Analysis in Sport 25(5):868-880",
+    "year": "2025",
+    "url": "https://merit.url.edu/ca/publications/match-activity-profile-analysis-during-professional-mens-double-p/",
+    "type": "trial",
+    "notes": "Observational; 6,839 shots, 8 PPA men's doubles matches (final stages). Match 36 +/- 15.9 min; work:rest 1:1.6; actual playing time 14.0 min (39%). Most points 3-9 s (67.4%), rest 9-15 s (84.3%). 60.5% of rallies 3-10 shots; forehand most frequent (40.2%); 71.3% of shots played from the transition zone; cross-court 54%; 90.8% of shots 'intercepted'; winning pairs' left-side players hit 27.3% more shots per game. DOI 10.1080/24748668.2025.2457223. Abstract only. Transition zone not defined in the abstract; script says 'roughly mid-court' and 'about 7 in 10'."
+  },
+  {
+    "id": "S14",
+    "title": "Increasing Incidence of Pickleball Injuries Presenting to US Emergency Departments: A 10-year Epidemiologic Analysis of Mechanisms and Trends",
+    "author": "Yu J, Yendluri A, Linden GS, et al.",
+    "publisher": "Orthopaedic Journal of Sports Medicine 13(1):23259671241305364",
+    "year": "2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39866953/",
+    "type": "review",
+    "notes": "NEISS 2013-2022: 1,110 cases ~ 66,350 national estimate; mean age 64. Ages 65-80 61.1%, 35-64 31.3%. Falls most common mechanism (65.5%). Fractures 32.7%, strains/sprains 30.8%; wrist most injured site (12.7%). Ages 0-17: struck by paddle most common; ages 18-34: twisting/inversion most common. Emergency-department data only. Abstract. The 18–34 finding is a mechanism (twist/inversion), not a diagnosis; no % given."
+  },
+  {
+    "id": "S15",
+    "title": "A Substantial Increase in Injuries and Hospitalizations Associated With Playing Pickleball From 2020 to 2022",
+    "author": "Cheng R, Moran J, Kim B, et al.",
+    "publisher": "Arthroscopy, Sports Medicine, and Rehabilitation (2025 Apr)",
+    "year": "2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12034057/",
+    "type": "review",
+    "notes": "NEISS 2020-2022: ~40,698 estimated injuries; annual injuries 8,894 -> 16,997 (+91%). 73% aged 60-79; under 50 about 8%. Fractures 29%, strains/sprains 21%; most strains/sprains lower limb (62%). Age 65+ OR 2.48 for admission. Authors suggest proper footwear, ankle braces, adequate warm-up and resistance training (recommendation, not tested). Full text. Recommends adequate warm-up in general terms only; no protocol."
+  },
+  {
+    "id": "S16",
+    "title": "Pickleball-Related Fractures in the United States From 2002 to 2022: An Analysis Using the NEISS Database",
+    "author": "Ghattas YS, Zeblisky P, Cassinat J, Aceto M, Spindler KP, Cannada LK",
+    "publisher": "Orthopaedic Journal of Sports Medicine 12(6):23259671241255674",
+    "year": "2024",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/38881851",
+    "type": "review",
+    "notes": "397 fractures (~5,400/yr national estimate); 90-fold rise; 87% over 60; 69% female; 66% upper limb, radius most common; 92% from falls. Abstract."
+  },
+  {
+    "id": "S17",
+    "title": "Epidemiology of Pickleball Foot and Ankle Injuries: 2015-2023 (AAOS 2025 abstract)",
+    "author": "Kingston K, Parker EB, Higgins AC, Smith JT",
+    "publisher": "AAOS Annual Meeting 2025 / Brigham and Women's Hospital",
+    "year": "2025",
+    "url": "https://index.mirasmart.com/AAOS2025/PDFfiles/AAOS2025-004078.PDF",
+    "type": "trial",
+    "notes": "Single-institution retrospective, 198 patients; mean age 58.3; 58.6% male; 77.8% traumatic. Diagnoses: Achilles rupture 39.4%, gastrocnemius (calf) injury 15.7%, Achilles tendinopathy 12.1%. Mechanisms: running or lunging forward 30.9%, planting the foot 16.5%, inverting the ankle 15.5%. Incidence up 6.5-fold 2019-2023. Conference abstract (low-moderate)."
+  },
+  {
+    "id": "S18",
+    "title": "Pickleball eye injuries are growing at an alarming rate (with a few caveats) - report on JAMA Ophthalmology NEISS study",
+    "author": "The Dink Pickleball (reporting Tsui JC et al., JAMA Ophthalmology 2025)",
+    "publisher": "The Dink Pickleball",
+    "year": "2025",
+    "url": "https://www.thedinkpickleball.com/pickleball-eye-injuries-are-growing-at-an-alarming-rate-with-a-few-caveats/",
+    "type": "org",
+    "notes": "Secondary summary (primary JAMA paper not opened). ~3,100 estimated eye injuries 2005-2024; ~1,262 in 2024; +405/yr 2021-2024; ~70% in players 50+. Mechanisms: ball strike 43%, falls 28%, paddle 12%. Periocular lacerations ~35%, corneal abrasions ~16%; retinal detachment ~3%, globe trauma ~3%, orbital fracture ~2%. NEISS covers ~2% of US EDs."
+  },
+  {
+    "id": "S19",
+    "title": "ASTM F3164-24 Standard Specification for Eye Protectors for Racket Sports (that is, Racquetball, Squash, Tennis, Pickleball)",
+    "author": "ASTM International Committee F08",
+    "publisher": "ASTM International",
+    "year": "2024",
+    "url": "https://store.astm.org/f3164-24.html",
+    "type": "org",
+    "notes": "Covers eye protectors that 'minimize or significantly reduce injury to the eye and adnexa' from rackets, paddles and balls; pickleball named in title; 'Polycarbonate is the most impact resistant spectacle lens material and should be used.' Does not protect other parts of the head. Scope page only."
+  },
+  {
+    "id": "S20",
+    "title": "Fall prevention in pickleball",
+    "author": "Sariban N, PT, DPT (IPTPA-certified teaching pro)",
+    "publisher": "Pickleball Magazine",
+    "year": "2023",
+    "url": "https://www.pickleballmagazine.com/health/fall-prevention-in-pickleball",
+    "type": "org",
+    "notes": "Expert opinion, no studies cited. Backpedalling after a lob is 'extremely dangerous': looking up shifts weight behind the centre of mass, causing backward falls that are hard to soften, linked to wrist/hand fractures and head injuries. Advice: turn and run toward where the ball will land instead of backpedalling."
+  },
+  {
+    "id": "S21",
+    "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+    "author": "Lauersen JB, Bertelsen DM, Andersen LB",
+    "publisher": "British Journal of Sports Medicine 48(11):871-877",
+    "year": "2014",
+    "url": "https://search.pedro.org.au/search-results/record-detail/39522",
+    "type": "review",
+    "notes": "25 RCTs, 26,610 participants. Strength training RR 0.315 (0.207-0.480); proprioception RR 0.550 (0.347-0.869); stretching RR 0.963 (0.846-1.095, no effect). Not pickleball-specific. Abstract via PEDro. DOI 10.1136/bjsports-2013-092538."
+  },
+  {
+    "id": "S22",
+    "title": "5 Things to Know About Creating an Effective Resistance Training Plan (infographic of the 2026 ACSM Position Stand on resistance training prescription in healthy adults)",
+    "author": "American College of Sports Medicine",
+    "publisher": "ACSM / Medicine & Science in Sports & Exercise",
+    "year": "2026",
+    "url": "https://acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf",
+    "type": "position-stand",
+    "notes": "Train all major muscle groups at least 2 days/week and build gradually. Biggest gain is going from none to any. Strength: ~80% 1RM, 2-3 sets per exercise; hypertrophy ~10 sets/muscle/week; power: 30-70% 1RM moved fast. Bands, bodyweight and home training are effective. Infographic only (full paper not opened)."
+  },
+  {
+    "id": "S23",
+    "title": "The effect of contextual interference on transfer in motor learning: a systematic review and meta-analysis",
+    "author": "Czyz SH, Wojcik AM, Solarska P",
+    "publisher": "Frontiers in Psychology 15:1377122",
+    "year": "2024",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11349744",
+    "type": "review",
+    "notes": "34 studies, 1,421 participants. Random (mixed) practice beat blocked practice for transfer: SMD 0.55 overall (0.40 after removing outliers). Lab studies 0.75; applied/field studies 0.37 (p=0.06, ns; 0.11 after outliers). Adults 18-59: 0.54 (0.38). Evidence mostly low quality, high heterogeneity. Full text."
+  },
+  {
+    "id": "S24",
+    "title": "Drills for 2 to 8 people - Drill Eleven: Third shot drop",
+    "author": "Pickleball Global",
+    "publisher": "Pickleball Global coaching material",
+    "year": "2021",
+    "url": "https://pickleball.global/coachingMaterial/Third_Shot_Drop1.pdf",
+    "type": "org",
+    "notes": "Copyrighted; paraphrase only. Progression: both players just behind the NVZ hold an 8-dink rally; one player steps back 2 steps and keeps dinking until 4 land, then steps back again until they can do it from the baseline; swap after 5 min. Cue: lengthen the swing slightly without overhitting. Game: in doubles, every third shot must be an attempted drop."
+  },
+  {
+    "id": "S25",
+    "title": "U.S. Pickleball Participation Statistics",
+    "author": "Sports & Fitness Industry Association (SFIA)",
+    "publisher": "SFIA",
+    "year": "2026",
+    "url": "https://sfia.org/research/u-s-pickleball-participation/",
+    "type": "org",
+    "notes": "24.3 million US players in 2025 (from ~4.2 million in 2020); +171.8% 2022-2025; fastest-growing sport over the past three years; 57% male, 43% female; strong engagement among young adults, adults 25-44 and 65+."
+  },
+  {
+    "id": "S26",
+    "title": "Strength training as superior, dose-dependent and safe prevention of acute and overuse sports injuries: a systematic review, qualitative analysis and meta-analysis",
+    "author": "Lauersen JB, Andersen TE, Andersen LB",
+    "publisher": "British Journal of Sports Medicine 52:1557–1563",
+    "year": "2018",
+    "url": "https://search.pedro.org.au/search-results/record-detail/55623",
+    "type": "study",
+    "notes": "Six studies; strength training RR 0.338 (0.238–0.480). Not pickleball-specific."
+  },
+  {
+    "id": "S27",
+    "title": "Achilles tendon rupture: management and rehabilitation (patient leaflet)",
+    "author": "Cambridge University Hospitals NHS Foundation Trust",
+    "publisher": "CUH NHS",
+    "year": "2026",
+    "url": "https://www.cuh.nhs.uk/patient-information/achilles-tendon-rupture-management-and-rehabilitation/",
+    "type": "org",
+    "notes": "Opened 2026-10-27: sudden heel or calf pain; snapping or popping sound; feels 'as if someone has hit them in the back of the leg'; difficult to push off; may be unable to stand on tiptoes."
+  }
+]

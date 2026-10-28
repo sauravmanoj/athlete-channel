@@ -1,0 +1,2341 @@
+{
+ "title": "How to never get tired in football",
+ "thumbnail": {
+  "pose": "hands_knees",
+  "props": {},
+  "background": "field",
+  "headline": "Never get tired",
+  "highlight": "tired",
+  "icons": [
+   {
+    "icon": "battery",
+    "level": 0.1
+   }
+  ],
+  "opponent": {
+   "pose": "sprint"
+  },
+  "side": "right"
+ },
+ "youtube": {
+  "title": "How to never get tired in football",
+  "titleOptions": [
+   "Why your legs die at 80 minutes (and how to fix it)",
+   "How to have football stamina that lasts 90 minutes"
+  ],
+  "description": "In studies of pro players, high-intensity running drops 35–45% in the last 15 minutes. You can hold that off for longer. Here are the four parts of a football engine: the recharger, the repeat-sprint battery, smart running and the fuel tank. For each one you get the drills and habits that build it.",
+  "tags": [
+   "football fitness",
+   "soccer stamina",
+   "how to not get tired in football",
+   "football conditioning",
+   "soccer conditioning drills",
+   "4x4 intervals",
+   "repeated sprint training",
+   "small sided games",
+   "nordic hamstring curl",
+   "football nutrition",
+   "match fitness",
+   "the orange athlete"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "mascot",
+   "chapter": "Intro",
+   "background": "field",
+   "transition": "fade",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.42,
+    "from": 0,
+    "to": "@legs"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@legs"
+    }
+   ],
+   "caption": {
+    "text": "80'",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.3,
+     "levelTo": 0.05,
+     "levelAt": "@won't",
+     "pos": [
+      1560,
+      260
+     ],
+     "size": 1.3
+    }
+   ],
+   "narration": "It's the 80th minute. The ball goes over your head, and your legs just won't go."
+  },
+  {
+   "id": "s02",
+   "kind": "custom",
+   "file": "custom/timeline.html",
+   "narration": "In one classic study of pro players, high-intensity running in the last 15 minutes was 35 to 45 percent lower than in the first 15."
+  },
+  {
+   "id": "s03",
+   "kind": "versus",
+   "left": {
+    "label": "Fresh sub",
+    "pose": "sprint",
+    "poses": [
+     {
+      "pose": "sprint"
+     }
+    ],
+    "gauge": {
+     "label": "High-intensity, last 15",
+     "icon": "bolt",
+     "from": 0,
+     "to": 100,
+     "at": "@ran"
+    }
+   },
+   "right": {
+    "label": "On all game",
+    "pose": "hands_knees",
+    "poses": [
+     {
+      "pose": "hands_knees",
+      "face": "tired"
+     }
+    ],
+    "gauge": {
+     "label": "High-intensity, last 15",
+     "icon": "bolt",
+     "from": 0,
+     "to": 80,
+     "at": "@ran"
+    }
+   },
+   "vs": "+25%",
+   "opponentTint": false,
+   "narration": "And substitutes who came on fresh ran 25 percent more at high intensity in that final spell than the players who'd been on all game."
+  },
+  {
+   "id": "s04",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "shrug"
+    },
+    {
+     "pose": "point_up",
+     "at": "@hold"
+    },
+    {
+     "pose": "present",
+     "at": "@how"
+    }
+   ],
+   "headline": {
+    "text": "Hold it off",
+    "highlight": "off",
+    "at": "@hold",
+    "side": "right"
+   },
+   "pauseAfter": 0.5,
+   "narration": "So tiredness is normal. But you can hold it off for longer. Here's how."
+  },
+  {
+   "id": "s05",
+   "kind": "stat",
+   "chapter": "The four parts",
+   "transition": "push",
+   "prefix": ">",
+   "value": 70,
+   "suffix": "%",
+   "label": "of a match is low intensity",
+   "highlight": "low intensity",
+   "at": "@mostly",
+   "icon": "heart",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "walk_a",
+      "walk_b"
+     ],
+     "period": 0.55
+    },
+    "pose": "walk_a"
+   },
+   "narration": "Football is mostly walking and jogging. More than 70 percent of a match is low intensity."
+  },
+  {
+   "id": "s06",
+   "kind": "mascot",
+   "background": "field",
+   "icons": [
+    {
+     "icon": "football",
+     "near": "rFoot",
+     "offset": [
+      75,
+      -30
+     ],
+     "size": 0.85,
+     "at": "@tackles"
+    }
+   ],
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "sprint",
+     "at": "@sprints"
+    },
+    {
+     "pose": "lunge",
+     "at": "@turns"
+    },
+    {
+     "pose": "jump",
+     "at": "@jumps"
+    },
+    {
+     "pose": "kick",
+     "at": "@tackles"
+    }
+   ],
+   "headline": {
+    "text": "150–250 bursts",
+    "highlight": "150–250",
+    "at": "@150",
+    "side": "right"
+   },
+   "narration": "But in top-level games, it's broken up by 150 to 250 short, intense actions: sprints, turns, jumps and tackles."
+  },
+  {
+   "id": "s07",
+   "kind": "list",
+   "title": "Your football engine",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "walk_a",
+      "at": "@recharger"
+     },
+     {
+      "pose": "sprint",
+      "at": "@repeat-sprint"
+     },
+     {
+      "pose": "think",
+      "at": "@Smart"
+     },
+     {
+      "pose": "hands_hips",
+      "face": "happy",
+      "at": "@fuel"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "The Recharger",
+     "icon": "battery",
+     "at": "@recharger"
+    },
+    {
+     "text": "The Repeat-Sprint Battery",
+     "icon": "bolt",
+     "at": "@repeat-sprint"
+    },
+    {
+     "text": "Smart Running",
+     "icon": "brain",
+     "at": "@Smart"
+    },
+    {
+     "text": "The Fuel Tank",
+     "icon": "food",
+     "at": "@fuel"
+    }
+   ],
+   "focus": false,
+   "narration": "So you need four things. A recharger, to refill you between bursts. A repeat-sprint battery, to burst again and again. Smart running, so you don't waste energy. And a full fuel tank, so you don't run dry."
+  },
+  {
+   "id": "s08",
+   "kind": "title",
+   "chapter": "Part 1: The Recharger",
+   "number": 1,
+   "heading": "The Recharger",
+   "sub": "pros average ~85% of max heart rate",
+   "transition": "push",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.5
+    },
+    "pose": "run_a"
+   },
+   "narration": "Even while they're mostly jogging, pros' hearts average around 85 percent of maximum across a match."
+  },
+  {
+   "id": "s09",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.55,
+    "from": 0
+   },
+   "pose": "walk_a",
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.3,
+     "levelTo": 0.9,
+     "levelAt": "@refilling",
+     "pos": [
+      1500,
+      300
+     ],
+     "size": 1.3
+    },
+    {
+     "icon": "heart",
+     "pos": [
+      1700,
+      300
+     ],
+     "pulse": true,
+     "at": "@aerobic",
+     "size": 1
+    }
+   ],
+   "caption": {
+    "text": "The recharger",
+    "at": 0.3
+   },
+   "narration": "That's your aerobic system working hard in the gaps, refilling the fuel your sprints just burned."
+  },
+  {
+   "id": "s10",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "sprint",
+     "at": "@sprint"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@jog"
+    },
+    {
+     "pose": "tired_front",
+     "at": "@weak"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.9,
+     "levelTo": 0.45,
+     "levelAt": "@half",
+     "pos": [
+      1500,
+      300
+     ],
+     "size": 1.4
+    }
+   ],
+   "narration": "Think of a phone charger. Every sprint drains the battery. The jog back is it on charge. A weak charger means you start the next sprint half empty."
+  },
+  {
+   "id": "s11",
+   "kind": "stat",
+   "prefix": "+",
+   "value": 11,
+   "suffix": "%",
+   "label": "aerobic fitness in 8 weeks (one study)",
+   "highlight": "8 weeks",
+   "at": "@study",
+   "icon": "heart",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.32
+    },
+    "pose": "run_a"
+   },
+   "narration": "In one famous study of elite junior players, adding hard intervals twice a week for 8 weeks raised their aerobic fitness by about 11 percent."
+  },
+  {
+   "id": "s12",
+   "kind": "chart",
+   "title": "In matches, after 8 weeks (one study)",
+   "unit": "%",
+   "max": 100,
+   "focus": 1,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "celebrate",
+      "at": "@twice"
+     },
+     {
+      "pose": "think",
+      "at": "@small"
+     },
+     {
+      "pose": "point_up",
+      "at": "@review"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Distance",
+     "value": 20,
+     "display": "+20%",
+     "at": "@distance"
+    },
+    {
+     "label": "Sprints",
+     "value": 100,
+     "display": "2×",
+     "at": "@twice"
+    },
+    {
+     "label": "Ball touches",
+     "value": 24,
+     "display": "more",
+     "at": "@touches"
+    }
+   ],
+   "narration": "In matches, they covered 20 percent more distance, made twice as many sprints, and got more touches of the ball. It was a small study, but a review of 33 studies also found hard intervals boost players' fitness."
+  },
+  {
+   "id": "s13",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.55,
+    "from": 0,
+    "to": "@cut"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "lunge",
+     "at": "@structured"
+    },
+    {
+     "pose": "point_up",
+     "at": "@cut"
+    }
+   ],
+   "headline": {
+    "text": "−39% injuries",
+    "highlight": "−39%",
+    "at": "@cut",
+    "side": "right"
+   },
+   "narration": "Before any drill in this video, warm up properly. A structured warm-up like FIFA 11+ cut injuries by about 39 percent in trials."
+  },
+  {
+   "id": "s14",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "tired_front"
+    },
+    {
+     "pose": "point_up",
+     "face": "focused",
+     "at": "@doctor"
+    }
+   ],
+   "headline": {
+    "text": "See a doctor first",
+    "highlight": "doctor",
+    "at": "@doctor",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1500,
+      760
+     ],
+     "pulse": true,
+     "at": "@chest",
+     "size": 1
+    }
+   ],
+   "narration": "And if you ever get chest pain, feel faint or get unusually breathless when you exercise, stop, and see a doctor before any more hard training. The same goes if you have a known heart condition."
+  },
+  {
+   "id": "s15",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.32,
+    "from": 0,
+    "to": "@jog"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@jog"
+    },
+    {
+     "pose": "point_up",
+     "at": "@Do"
+    }
+   ],
+   "caption": {
+    "text": "Drill 1 · 4 × 4 min hard / 3 min easy",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1560,
+      280
+     ],
+     "at": 0.3,
+     "size": 1.1
+    },
+    {
+     "icon": "heart",
+     "pos": [
+      1750,
+      280
+     ],
+     "pulse": true,
+     "at": "@hard",
+     "size": 1
+    }
+   ],
+   "narration": "Drill 1: the 4 by 4. Run 4 minutes hard, so you can only say a few words, then jog easy for 3. Do 4 rounds."
+  },
+  {
+   "id": "s16",
+   "kind": "list",
+   "title": "Starting out",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@build"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "3 rounds",
+     "icon": "stopwatch",
+     "at": "@3"
+    },
+    {
+     "text": "Once a week",
+     "icon": "clock",
+     "at": "@once"
+    },
+    {
+     "text": "Build up gradually",
+     "icon": "check",
+     "at": "@build"
+    }
+   ],
+   "narration": "New to this? A good starting point is 3 rounds, once a week. Then build up gradually."
+  },
+  {
+   "id": "s17",
+   "kind": "mascot",
+   "background": "field",
+   "icons": [
+    {
+     "icon": "football",
+     "near": "rFoot",
+     "offset": [
+      75,
+      -30
+     ],
+     "size": 0.85,
+     "at": 0.2
+    }
+   ],
+   "poses": [
+    {
+     "pose": "dribble"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@rest"
+    },
+    {
+     "pose": "dribble",
+     "at": "@Fewer"
+    }
+   ],
+   "caption": {
+    "text": "Drill 2 · 3v3 or 4v4 · 4-min bouts",
+    "at": 0.2
+   },
+   "narration": "Drill 2: small-sided games. A good starting point: 3 v 3 or 4 v 4, in 4-minute bouts with 2 to 3 minutes rest. Fewer players makes the game harder."
+  },
+  {
+   "id": "s18",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.55,
+    "from": 0
+   },
+   "pose": "run_a",
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "happy"
+    }
+   ],
+   "caption": {
+    "text": "Drill 3 · 30–45 min easy",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1560,
+      300
+     ],
+     "at": "@easy",
+     "size": 1
+    },
+    {
+     "icon": "check",
+     "pos": [
+      1740,
+      300
+     ],
+     "at": "@talk",
+     "size": 1
+    }
+   ],
+   "narration": "Drill 3: an easy base. Try 30 to 45 minutes of jogging, cycling or swimming at a pace where you can still talk, once a week."
+  },
+  {
+   "id": "s19",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.6,
+    "from": 0,
+    "to": "@stop-start"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "sprint",
+     "at": "@stop-start"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@tracked"
+    },
+    {
+     "pose": "sprint",
+     "at": "@match"
+    },
+    {
+     "pose": "shrug",
+     "at": "@Plain"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@mistake",
+     "size": 1.1
+    }
+   ],
+   "narration": "The mistake? Only doing long, slow runs. A stop-start running test tracked match high-intensity running in pros. Plain aerobic capacity didn't."
+  },
+  {
+   "id": "s20",
+   "kind": "slam",
+   "text": "Hard, stop-start work",
+   "highlight": "stop-start",
+   "style": "dark",
+   "icon": "bolt",
+   "pauseAfter": 0.6,
+   "narration": "You need hard, stop-start work too."
+  },
+  {
+   "id": "s21",
+   "kind": "title",
+   "chapter": "Part 2: The Repeat-Sprint Battery",
+   "number": 2,
+   "heading": "The Repeat-Sprint Battery",
+   "sub": "~33 sprints a match (2014 World Cup)",
+   "transition": "push",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "sprint"
+     }
+    ]
+   },
+   "narration": "At the 2014 World Cup, players made about 33 sprints a match, roughly one every 3 minutes."
+  },
+  {
+   "id": "s22",
+   "kind": "chart",
+   "title": "Top pros vs lower-level pros",
+   "unit": "%",
+   "max": 60,
+   "focus": 2,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "shrug",
+      "at": "@mainly"
+     },
+     {
+      "pose": "sprint",
+      "at": "@58"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Total distance",
+     "value": 5,
+     "display": "+5%",
+     "at": "@distance"
+    },
+    {
+     "label": "High-intensity",
+     "value": 28,
+     "display": "+28%",
+     "at": "@28"
+    },
+    {
+     "label": "Sprinting",
+     "value": 58,
+     "display": "+58%",
+     "at": "@58"
+    }
+   ],
+   "narration": "And here's what separated top pros from lower-level pros. It wasn't mainly total distance. They did 28 percent more high-intensity running and 58 percent more sprinting."
+  },
+  {
+   "id": "s23",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "ready"
+    },
+    {
+     "pose": "sprint",
+     "at": "@flash"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@recharges"
+    },
+    {
+     "pose": "sprint",
+     "at": "@brighter"
+    },
+    {
+     "pose": "flex",
+     "at": "@fire"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "bolt",
+     "pos": [
+      1480,
+      300
+     ],
+     "at": "@flash",
+     "size": 1
+    },
+    {
+     "icon": "battery",
+     "level": 0.3,
+     "levelTo": 0.9,
+     "levelAt": "@recharges",
+     "pos": [
+      1680,
+      300
+     ],
+     "size": 1.1
+    },
+    {
+     "icon": "bolt",
+     "pos": [
+      1580,
+      560
+     ],
+     "at": "@brighter",
+     "size": 1.6
+    }
+   ],
+   "narration": "Think of a camera flash. Part 1 decides how fast it recharges. This part makes the flash brighter, and lets it fire more times."
+  },
+  {
+   "id": "s24",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.26,
+    "from": 0,
+    "to": "@walk"
+   },
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@walk"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@fresh"
+    },
+    {
+     "pose": "point_up",
+     "at": "@Experts"
+    }
+   ],
+   "caption": {
+    "text": "Drill 1 · 6–8 × 20–30 m, walk back",
+    "at": 0.2
+   },
+   "narration": "Drill 1: sprint quality. 6 to 8 sprints of 20 to 30 metres, with a slow walk back between each, early in the session on fresh legs. Experts recommend real sprint training."
+  },
+  {
+   "id": "s25",
+   "kind": "list",
+   "title": "New to sprinting?",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@build"
+     },
+     {
+      "pose": "hands_knees",
+      "face": "tired",
+      "at": "@pain"
+     },
+     {
+      "pose": "point_up",
+      "at": "@physio"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Weeks 1–2: 4–6 at 80–90%",
+     "icon": "stopwatch",
+     "at": "@first"
+    },
+    {
+     "text": "Then build",
+     "icon": "check",
+     "at": "@build"
+    },
+    {
+     "text": "Pain or recent strain? Skip",
+     "icon": "cross",
+     "at": "@Skip"
+    },
+    {
+     "text": "Until a physio clears you",
+     "icon": "check",
+     "at": "@physio"
+    }
+   ],
+   "narration": "New to sprinting? For the first 2 weeks, do 4 to 6 at about 80 to 90 percent effort, then build. Skip max sprints if you have hamstring, groin or calf pain, or you're coming back from a strain, until a physio clears you."
+  },
+  {
+   "id": "s26",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.26,
+    "from": "@starting",
+    "to": "@rest"
+   },
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "sprint",
+     "at": "@starting"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@rest"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@minutes"
+    },
+    {
+     "pose": "point_up",
+     "at": "@Build"
+    }
+   ],
+   "caption": {
+    "text": "Drill 2 · 1–2 × 6 × 20–30 m",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1560,
+      300
+     ],
+     "at": "@rest",
+     "size": 1.1
+    }
+   ],
+   "narration": "Drill 2: repeated-sprint sets, after a few weeks of sprint quality. A good starting point: 1 to 2 sets of 6 sprints of 20 to 30 metres, 25 to 30 seconds rest between sprints, and 3 to 4 minutes between sets. Build to 3 sets."
+  },
+  {
+   "id": "s27",
+   "kind": "mascot",
+   "background": "track",
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@drop"
+    },
+    {
+     "pose": "point_up",
+     "at": "@form"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@Stop",
+     "size": 1.1
+    }
+   ],
+   "narration": "Stop the set if your times clearly drop or your form breaks."
+  },
+  {
+   "id": "s28",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.32,
+    "from": 0,
+    "to": "@walking"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@walking"
+    },
+    {
+     "pose": "point_up",
+     "at": "@blocks"
+    }
+   ],
+   "caption": {
+    "text": "Drill 3 · 15 s fast / 15 s walk",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1560,
+      300
+     ],
+     "at": 0.4,
+     "size": 1.1
+    }
+   ],
+   "narration": "Drill 3: 15-15s. 15 seconds of fast striding, not all-out, then 15 seconds walking. A good starting point is one block of about 6 to 8 minutes. Over a few weeks, build to 2 blocks, with 3 minutes of easy walking between."
+  },
+  {
+   "id": "s29",
+   "kind": "stat",
+   "prefix": "+",
+   "value": 8,
+   "suffix": "%",
+   "label": "aerobic running speed in 10 weeks (pros, one study)",
+   "highlight": "10 weeks",
+   "at": "@study",
+   "icon": "bolt",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.32
+    },
+    "pose": "run_a"
+   },
+   "narration": "In one study, pros added one block of fast 15-second runs, plus all-out sprints, for 10 weeks, and their aerobic running speed rose by about 8 percent."
+  },
+  {
+   "id": "s30",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "lunge",
+     "face": "tired",
+     "at": "@protect"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Hamstring",
+     "target": "lHamstring",
+     "side": "left",
+     "at": "@strains",
+     "dy": -120
+    }
+   ],
+   "headline": {
+    "text": "~12% of pro injuries",
+    "highlight": "~12%",
+    "at": "@12",
+    "side": "right"
+   },
+   "narration": "Now, protect your hamstrings. Hamstring strains are about 12 percent of all injuries in pro football, and they increase toward the end of each half, when players are likely to be tired."
+  },
+  {
+   "id": "s31",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "nordic"
+    },
+    {
+     "pose": "nordic",
+     "torso": 52,
+     "at": "@trial"
+    },
+    {
+     "pose": "nordic",
+     "torso": 30,
+     "at": "@cut"
+    }
+   ],
+   "headline": {
+    "text": "~2/3 fewer strains",
+    "highlight": "~2/3",
+    "at": "@trial",
+    "side": "right"
+   },
+   "caption": {
+    "text": "One amateur trial",
+    "at": "@trial"
+   },
+   "narration": "Nordic curls look promising. In one trial of amateur players, they cut hamstring injuries by about two thirds."
+  },
+  {
+   "id": "s32",
+   "kind": "slam",
+   "text": "Promising, not magic",
+   "highlight": "magic",
+   "style": "dark",
+   "icon": "question",
+   "pauseAfter": 0.6,
+   "narration": "But a later review called the overall evidence inconclusive. So: promising, not magic."
+  },
+  {
+   "id": "s33",
+   "kind": "list",
+   "title": "Nordic curls",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "nordic"
+     },
+     {
+      "pose": "nordic",
+      "torso": 55,
+      "at": "@catch"
+     },
+     {
+      "pose": "nordic",
+      "at": "@Start"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Lower slowly, catch with hands",
+     "icon": "check",
+     "at": "@Lower"
+    },
+    {
+     "text": "2 sets of 5",
+     "icon": "muscle",
+     "at": "@sets"
+    },
+    {
+     "text": "1–2× a week, after training",
+     "icon": "clock",
+     "at": "@once"
+    },
+    {
+     "text": "Not 2 days before a match",
+     "icon": "cross",
+     "at": "@not"
+    },
+    {
+     "text": "Expect soreness at first",
+     "icon": "fire",
+     "at": "@Expect"
+    }
+   ],
+   "narration": "Lower yourself slowly and catch yourself with your hands. Start with 2 sets of 5, once or twice a week, after training, and not in the 2 days before a match. Expect sore legs at first."
+  },
+  {
+   "id": "s34",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "at": "@coach"
+    }
+   ],
+   "headline": {
+    "text": "Under 18? Coach watching",
+    "highlight": "Coach",
+    "at": "@coach",
+    "side": "right"
+   },
+   "narration": "Under 18? Do sprint sets and Nordics with a coach watching."
+  },
+  {
+   "id": "s35",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "lunge",
+     "face": "tired",
+     "at": "@feel"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Back of thigh",
+     "target": "lHamstring",
+     "side": "left",
+     "at": "@back",
+     "dy": -120
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@no",
+     "size": 1.1
+    }
+   ],
+   "narration": "And no sprinting through pain. If you feel a sudden sharp pain in the back of your thigh, stop, and get it checked by a physio."
+  },
+  {
+   "id": "s36",
+   "kind": "mascot",
+   "background": "track",
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@puke"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@slower"
+    },
+    {
+     "pose": "point_up",
+     "at": "@quality"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@mistake",
+     "size": 1.1
+    }
+   ],
+   "narration": "The mistake? Turning sprints into a puke session, with short rests and slower every rep. Sprint quality needs real rest."
+  },
+  {
+   "id": "s37",
+   "kind": "title",
+   "chapter": "Part 3: Smart Running",
+   "number": 3,
+   "heading": "Smart Running",
+   "sub": "two kinds of tired",
+   "transition": "push",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     }
+    ]
+   },
+   "narration": "Football fatigue comes in two kinds."
+  },
+  {
+   "id": "s38",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@fell"
+    },
+    {
+     "pose": "ready",
+     "at": "@came"
+    }
+   ],
+   "headline": {
+    "text": "Temporary: −12%",
+    "highlight": "Temporary:",
+    "at": "@temporary",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.9,
+     "levelTo": 0.55,
+     "levelAt": "@fell",
+     "pos": [
+      1500,
+      760
+     ],
+     "size": 1.1
+    }
+   ],
+   "narration": "The first is temporary. In the 5 minutes after a player's most intense spell, high-intensity running fell about 12 percent below their average. Then it came back."
+  },
+  {
+   "id": "s39",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "tired_front"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@drop"
+    }
+   ],
+   "caption": {
+    "text": "75–90 min",
+    "at": "@last"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.45,
+     "levelTo": 0.1,
+     "levelAt": "@drop",
+     "pos": [
+      1560,
+      280
+     ],
+     "size": 1.3
+    }
+   ],
+   "narration": "The second builds up. That's the drop in the last 15 minutes."
+  },
+  {
+   "id": "s40",
+   "kind": "versus",
+   "left": {
+    "label": "Steady 1st half",
+    "pose": "ready",
+    "poses": [
+     {
+      "pose": "ready"
+     }
+    ],
+    "gauge": {
+     "label": "2nd half",
+     "icon": "bolt",
+     "from": 75,
+     "to": 75,
+     "at": "@Moderate-workrate"
+    }
+   },
+   "right": {
+    "label": "All-out 1st half",
+    "pose": "hands_knees",
+    "poses": [
+     {
+      "pose": "sprint"
+     },
+     {
+      "pose": "hands_knees",
+      "face": "tired",
+      "at": "@break"
+     }
+    ],
+    "gauge": {
+     "label": "2nd half",
+     "icon": "bolt",
+     "from": 75,
+     "to": 62,
+     "at": "@less"
+    }
+   },
+   "vs": "VS",
+   "opponentTint": false,
+   "narration": "Elite players with very high first-half workrates ran about 12 percent less at high intensity after the break. Moderate-workrate players didn't drop."
+  },
+  {
+   "id": "s41",
+   "kind": "mascot",
+   "background": "spotlight",
+   "props": {
+    "r": "phone"
+   },
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "point_up",
+     "at": "@stops"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.5,
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@saver",
+     "size": 1.3
+    }
+   ],
+   "narration": "Think of your phone's battery saver. It just stops apps you're not using from draining it."
+  },
+  {
+   "id": "s42",
+   "kind": "slam",
+   "text": "Don't stop working. Stop wasting.",
+   "highlight": "wasting.",
+   "style": "dark",
+   "icon": "brain",
+   "pauseAfter": 0.6,
+   "narration": "Smart players don't stop working. They stop wasting."
+  },
+  {
+   "id": "s43",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.55,
+    "from": 0,
+    "to": "@Use"
+   },
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "hands_hips",
+     "face": "happy",
+     "at": "@Use"
+    },
+    {
+     "pose": "point_up",
+     "at": "@recharger"
+    }
+   ],
+   "caption": {
+    "text": "Habit 1 · Recover in the gaps",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.4,
+     "levelTo": 0.9,
+     "levelAt": "@breathe",
+     "pos": [
+      1560,
+      280
+     ],
+     "size": 1.2
+    }
+   ],
+   "narration": "Habit 1: when the ball is far away, walk or jog into position instead of drifting at half pace. Use throw-ins and goal kicks to breathe. That's when the recharger works."
+  },
+  {
+   "id": "s44",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "ready"
+    },
+    {
+     "pose": "think",
+     "at": "@bad"
+    },
+    {
+     "pose": "sprint",
+     "at": "@goes"
+    }
+   ],
+   "caption": {
+    "text": "Habit 2 · Press on a trigger",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "bolt",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@trigger",
+     "size": 1.1
+    }
+   ],
+   "narration": "Habit 2: press on a trigger, as a team. A bad touch, a back-pass. Then everyone goes together."
+  },
+  {
+   "id": "s45",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@less"
+    },
+    {
+     "pose": "dribble",
+     "at": "@kept"
+    },
+    {
+     "pose": "kick",
+     "at": "@passed"
+    }
+   ],
+   "caption": {
+    "text": "Habit 3 · Adjust in the heat",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "fire",
+     "pos": [
+      1560,
+      280
+     ],
+     "at": "@heat",
+     "size": 1.1
+    },
+    {
+     "icon": "football",
+     "near": "rFoot",
+     "offset": [
+      75,
+      -30
+     ],
+     "size": 0.85,
+     "at": "@passed"
+    }
+   ],
+   "narration": "Habit 3: in the heat, expect less high-speed running. World Cup players ran less at high intensity in hot matches, but kept their total distance and passed more accurately."
+  },
+  {
+   "id": "s46",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "shrug",
+     "at": "@tested"
+    },
+    {
+     "pose": "point_up",
+     "at": "@treat"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      110,
+      -110
+     ],
+     "at": "@study"
+    }
+   ],
+   "narration": "No study has tested teaching amateurs to pace. So treat these as smart habits, not proven fixes."
+  },
+  {
+   "id": "s47",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.28,
+    "from": 0,
+    "to": "@late"
+   },
+   "poses": [
+    {
+     "pose": "sprint"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@late"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@mistake",
+     "size": 1.1
+    }
+   ],
+   "narration": "The mistake? Treating \"never stop running\" as a badge of honour. All-action running early may cost you late."
+  },
+  {
+   "id": "s48",
+   "kind": "title",
+   "chapter": "Part 4: The Fuel Tank",
+   "number": 4,
+   "heading": "The Fuel Tank",
+   "sub": "carbs and fluids",
+   "transition": "push",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "drink"
+     }
+    ],
+    "props": {
+     "r": "bottle"
+    }
+   },
+   "narration": "The last part isn't training at all. It's fuel."
+  },
+  {
+   "id": "s49",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.36,
+    "from": 0,
+    "to": "@After"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@After"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Thigh muscle",
+     "target": "rThigh",
+     "at": "@thigh",
+     "side": "left"
+    }
+   ],
+   "headline": {
+    "text": "~½ of fibres empty",
+    "highlight": "~½",
+    "at": "@empty",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.9,
+     "levelTo": 0.5,
+     "levelAt": "@empty",
+     "pos": [
+      1500,
+      760
+     ],
+     "size": 1.1
+    }
+   ],
+   "narration": "Carbohydrate supplies most of the energy in a match. After one match, about half of the thigh muscle fibres were empty or nearly empty of their stored carbs."
+  },
+  {
+   "id": "s50",
+   "kind": "versus",
+   "left": {
+    "label": "Fuelled",
+    "pose": "sprint",
+    "poses": [
+     {
+      "pose": "sprint"
+     }
+    ],
+    "gauge": {
+     "label": "Fuel",
+     "icon": "bolt",
+     "from": 90,
+     "to": 60,
+     "at": "@second"
+    }
+   },
+   "right": {
+    "label": "Low on carbs",
+    "pose": "hands_knees",
+    "poses": [
+     {
+      "pose": "hands_knees",
+      "face": "tired"
+     }
+    ],
+    "gauge": {
+     "label": "Fuel",
+     "icon": "bolt",
+     "from": 40,
+     "to": 8,
+     "at": "@second"
+    }
+   },
+   "vs": "VS",
+   "narration": "Players who started a game low on stored carbs did much less high-speed running, especially in the second half."
+  },
+  {
+   "id": "s51",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "flex",
+     "at": "@engine"
+    },
+    {
+     "pose": "tired_front",
+     "at": "@half"
+    }
+   ],
+   "gauges": [
+    {
+     "label": "Fuel",
+     "icon": "bolt",
+     "from": 100,
+     "to": 50,
+     "at": 0.3,
+     "changeAt": "@half"
+    }
+   ],
+   "narration": "Think of a car. A great engine won't help if you start with half a tank."
+  },
+  {
+   "id": "s52",
+   "kind": "list",
+   "title": "Fuel: UEFA guidelines",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "point_up",
+      "at": "@day"
+     },
+     {
+      "pose": "hands_hips",
+      "face": "happy",
+      "at": "@Eat"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Day before: carbs every meal",
+     "icon": "food",
+     "at": "@day"
+    },
+    {
+     "text": "3–4 h before: carb meal",
+     "icon": "clock",
+     "at": "@hours"
+    },
+    {
+     "text": "Familiar, easy to digest",
+     "icon": "check",
+     "at": "@familiar"
+    }
+   ],
+   "narration": "So, from UEFA's expert guidelines for elite players. The day before, make carbs the main part of every meal. Eat a carb-based meal 3 to 4 hours before kick-off, something familiar and easy to digest."
+  },
+  {
+   "id": "s53",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "drink",
+     "at": "@quick"
+    }
+   ],
+   "props": {
+    "r": "bottle"
+   },
+   "headline": {
+    "text": "30–60 g carbs",
+    "highlight": "30–60 g",
+    "at": "@guideline",
+    "side": "right"
+   },
+   "caption": {
+    "text": "After warm-up + at half-time",
+    "at": 0.2
+   },
+   "narration": "After the warm-up and again at half-time, take in some quick carbs, like a sports drink. The guideline is 30 to 60 grams each time."
+  },
+  {
+   "id": "s54",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "drink"
+    },
+    {
+     "pose": "point_up",
+     "at": "@overdrink"
+    }
+   ],
+   "props": {
+    "r": "bottle"
+   },
+   "headline": {
+    "text": "Lose no more than 2–3%",
+    "highlight": "2–3%",
+    "at": "@2",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "water",
+     "pos": [
+      1500,
+      760
+     ],
+     "at": "@sweat",
+     "size": 1
+    }
+   ],
+   "narration": "And drink enough that you don't lose more than 2 to 3 percent of your body weight in sweat. But don't overdrink either."
+  },
+  {
+   "id": "s55",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.45,
+    "from": 0
+   },
+   "pose": "run_a",
+   "headline": {
+    "text": "1–2 weeks to adapt",
+    "highlight": "1–2 weeks",
+    "at": "@1",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "fire",
+     "pos": [
+      1500,
+      760
+     ],
+     "at": "@heat",
+     "size": 1
+    }
+   ],
+   "narration": "In the heat, give your body 1 to 2 weeks of training to adapt."
+  },
+  {
+   "id": "s56",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "tired_front"
+    },
+    {
+     "pose": "sit",
+     "at": "@cool"
+    },
+    {
+     "pose": "drink",
+     "at": "@drink"
+    },
+    {
+     "pose": "hands_hips",
+     "face": "happy",
+     "at": "@better"
+    }
+   ],
+   "props": {
+    "r": "bottle"
+   },
+   "icons": [
+    {
+     "icon": "clock",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@30",
+     "size": 1.1
+    }
+   ],
+   "caption": {
+    "text": "Heat: stop, cool, drink",
+    "at": 0.2
+   },
+   "narration": "Feel dizzy, sick or crampy in the heat? Stop, get somewhere cool, cool your skin and drink. You should feel better within 30 minutes."
+  },
+  {
+   "id": "s57",
+   "kind": "versus",
+   "left": {
+    "label": "Call an ambulance",
+    "pose": "present",
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "present",
+      "face": "focused",
+      "at": "@call"
+     }
+    ],
+    "props": {
+     "r": "phone"
+    }
+   },
+   "right": {
+    "label": "Confused or collapsed",
+    "pose": "lie",
+    "poses": [
+     {
+      "pose": "tired_front"
+     },
+     {
+      "pose": "lie",
+      "at": "@collapses"
+     }
+    ]
+   },
+   "vs": "!",
+   "opponentTint": false,
+   "narration": "If you don't, or someone becomes confused, collapses or has a fit, call an ambulance, and keep cooling them while you wait."
+  },
+  {
+   "id": "s58",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@empty"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@breakfast"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@mistake",
+     "size": 1.1
+    },
+    {
+     "icon": "food",
+     "pos": [
+      1700,
+      300
+     ],
+     "at": "@empty",
+     "size": 1
+    }
+   ],
+   "narration": "The mistake? Playing an evening match on an empty stomach, or a morning match with no breakfast."
+  },
+  {
+   "id": "s59",
+   "kind": "list",
+   "chapter": "Your week",
+   "transition": "push",
+   "title": "A simple week (Saturday match)",
+   "focus": false,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "lie",
+      "at": "@Sunday"
+     },
+     {
+      "pose": "run_a",
+      "at": "@Monday"
+     },
+     {
+      "pose": "sprint",
+      "at": "@Tuesday"
+     },
+     {
+      "pose": "nordic",
+      "at": "@Nordics"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Sun: rest",
+     "icon": "moon",
+     "at": "@Sunday"
+    },
+    {
+     "text": "Mon: easy run",
+     "icon": "heart",
+     "at": "@Monday"
+    },
+    {
+     "text": "Tue: sprints, 4×4 or games, Nordics",
+     "icon": "bolt",
+     "at": "@Tuesday"
+    }
+   ],
+   "narration": "Here's a simple week, with a Saturday match. Sunday: rest. Monday: easy base run. Tuesday: sprint quality, then 4 by 4s or small-sided games, then Nordics."
+  },
+  {
+   "id": "s60",
+   "kind": "list",
+   "title": "A simple week (Saturday match)",
+   "focus": false,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "walk_a"
+     },
+     {
+      "pose": "run_a",
+      "at": "@Thursday"
+     },
+     {
+      "pose": "hands_hips",
+      "face": "happy",
+      "at": "@Friday"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Wed: rest or easy",
+     "icon": "moon",
+     "at": "@Wednesday"
+    },
+    {
+     "text": "Thu: 15-15s or 1–2 sprint sets",
+     "icon": "stopwatch",
+     "at": "@Thursday"
+    },
+    {
+     "text": "Fri: rest + carb meals",
+     "icon": "food",
+     "at": "@Friday"
+    }
+   ],
+   "narration": "Wednesday: rest or easy work. Thursday: 15-15s or 1 to 2 sprint sets. Friday: rest, and carb-focused meals."
+  },
+  {
+   "id": "s61",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "nordic"
+    },
+    {
+     "pose": "nordic",
+     "torso": 52,
+     "at": "@second"
+    }
+   ],
+   "caption": {
+    "text": "2nd Nordic session: Sun or Mon",
+    "at": "@second"
+   },
+   "narration": "Once the soreness has gone, add a second Nordic session on Sunday or Monday."
+  },
+  {
+   "id": "s62",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "at": "@Keep"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@give"
+    }
+   ],
+   "headline": {
+    "text": "2 hard days weekly",
+    "highlight": "2",
+    "at": "@Keep",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "clock",
+     "pos": [
+      1500,
+      760
+     ],
+     "at": "@weeks",
+     "size": 1
+    }
+   ],
+   "narration": "If your team trains midweek, that session takes the place of Tuesday's or Thursday's work, whichever is closer. Keep it to 2 hard days a week, with an easy day between, and give it 8 to 10 weeks."
+  },
+  {
+   "id": "s63",
+   "kind": "mascot",
+   "background": "track",
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "run_a",
+     "at": "@gradually"
+    },
+    {
+     "pose": "sprint",
+     "at": "@jumps"
+    },
+    {
+     "pose": "lunge",
+     "face": "tired",
+     "at": "@injury"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@injury",
+     "size": 1.1
+    }
+   ],
+   "narration": "Build up gradually. Big jumps in training load raise injury risk."
+  },
+  {
+   "id": "s64",
+   "kind": "mascot",
+   "chapter": "Recap",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "sprint",
+     "at": "@Sprint"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@recover"
+    },
+    {
+     "pose": "sprint",
+     "at": "@again"
+    },
+    {
+     "pose": "kick",
+     "at": "@matters"
+    },
+    {
+     "pose": "hands_hips",
+     "face": "happy",
+     "at": "@full"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 1,
+     "pos": [
+      1560,
+      280
+     ],
+     "at": "@full",
+     "size": 1.2
+    },
+    {
+     "icon": "football",
+     "near": "rFoot",
+     "offset": [
+      75,
+      -30
+     ],
+     "size": 0.85,
+     "at": "@matters"
+    }
+   ],
+   "narration": "Recharge in the gaps. Sprint, recover, sprint again. Spend energy when it matters. And start with a full tank."
+  },
+  {
+   "id": "s65",
+   "kind": "mascot",
+   "background": "field",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.34,
+    "from": 0,
+    "to": "@still"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "celebrate",
+     "at": "@still"
+    }
+   ],
+   "caption": {
+    "text": "80'",
+    "at": 0.2
+   },
+   "icons": [
+    {
+     "icon": "trophy",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@still",
+     "size": 1.2
+    }
+   ],
+   "transition": "fade",
+   "pauseAfter": 1,
+   "narration": "Do that, and in the 80th minute, you're the one still going."
+  }
+ ]
+}

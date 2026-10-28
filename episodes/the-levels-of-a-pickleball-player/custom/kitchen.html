@@ -1,0 +1,40 @@
+<!-- Rule two: top-down court with the two kitchens (non-volley zones), 7 ft each side of the net. To scale: 44 × 20 ft court. -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:#7FB3E8; }
+    #__ID__-root .court { position:absolute; left:300px; top:300px; width:1320px; height:600px; background:#3F7FC6; border:8px solid #fff; box-sizing:border-box; }
+    #__ID__-root .kz { position:absolute; top:300px; width:210px; height:600px; background:var(--accent); opacity:0; border:8px solid #fff; box-sizing:border-box; }
+    #__ID__-root .net { position:absolute; left:954px; top:300px; width:12px; height:600px; background:var(--ink); border-radius:6px; }
+    #__ID__-root .mid { position:absolute; top:596px; height:8px; background:#fff; }
+    #__ID__-root .lab { position:absolute; font:700 46px var(--display); text-transform:uppercase; color:var(--ink); text-align:center; }
+    #__ID__-root .dim { position:absolute; top:920px; font:600 34px var(--sans); color:var(--ink); }
+    #__ID__-root .badge { position:absolute; left:760px; top:520px; width:400px; padding:18px 0; text-align:center; border-radius:24px; background:#fff; border:8px solid var(--ink); font:700 50px var(--display); text-transform:uppercase; color:var(--bad); opacity:0; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:80px;text-align:center">Rule 2: the kitchen</div>
+  <div class="court" id="__ID__-c"></div>
+  <div class="mid" style="left:300px;width:450px"></div><div class="mid" style="left:1170px;width:450px"></div>
+  <div class="kz" id="__ID__-k1" style="left:750px"></div>
+  <div class="kz" id="__ID__-k2" style="left:960px"></div>
+  <div class="net"></div>
+  <div class="lab" id="__ID__-l" style="left:660px;width:600px;top:210px;opacity:0">Kitchen · 7 ft each side</div>
+  <div class="dim" id="__ID__-d1" style="left:750px;opacity:0">← 7 ft →</div>
+  <div class="dim" id="__ID__-d2" style="left:1000px;opacity:0">← 7 ft →</div>
+  <div class="badge" id="__ID__-b">✕ No volleys</div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-c", { opacity: 0, scale: 0.96 }, { opacity: 1, scale: 1, duration: 0.5 }, 0.2);
+  tl.to(["#__ID__-k1", "#__ID__-k2"], { opacity: 0.85, duration: 0.5, stagger: 0.15 }, D * 0.18);
+  tl.to("#__ID__-l", { opacity: 1, duration: 0.4 }, D * 0.2);
+  tl.to(["#__ID__-d1", "#__ID__-d2"], { opacity: 0.8, duration: 0.4 }, D * 0.3);
+  tl.fromTo("#__ID__-b", { opacity: 0, scale: 0.6 }, { opacity: 1, scale: 1, duration: 0.4, ease: "back.out(2)" }, D * 0.62);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

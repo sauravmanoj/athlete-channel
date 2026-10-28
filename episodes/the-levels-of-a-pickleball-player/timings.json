@@ -1,0 +1,8592 @@
+{
+  "voice": "am_michael",
+  "speed": 1,
+  "narrationHash": "36554963",
+  "scenes": [
+    {
+      "id": "s01",
+      "start": 0,
+      "dur": 2.782,
+      "speechStart": 0.1,
+      "speechDur": 2.432,
+      "words": [
+        {
+          "text": "You",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "smash",
+          "start": 0.33999999999999997,
+          "end": 0.82
+        },
+        {
+          "text": "the",
+          "start": 0.82,
+          "end": 0.9
+        },
+        {
+          "text": "ball",
+          "start": 0.9,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "as",
+          "start": 1.2200000000000002,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "hard",
+          "start": 1.3800000000000001,
+          "end": 1.62
+        },
+        {
+          "text": "as",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "you",
+          "start": 1.78,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "can.",
+          "start": 1.9400000000000002,
+          "end": 2.3400000000000003
+        }
+      ]
+    },
+    {
+      "id": "s02",
+      "start": 2.782,
+      "dur": 4.44,
+      "speechStart": 0.1,
+      "speechDur": 3.84,
+      "words": [
+        {
+          "text": "it",
+          "start": 0.1,
+          "end": 0.18
+        },
+        {
+          "text": "comes",
+          "start": 0.33999999999999997,
+          "end": 0.66
+        },
+        {
+          "text": "straight",
+          "start": 0.66,
+          "end": 0.9
+        },
+        {
+          "text": "back",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "at",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "your",
+          "start": 1.2200000000000002,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "feet,",
+          "start": 1.3800000000000001,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "and",
+          "start": 1.7000000000000002,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "you",
+          "start": 1.9400000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "lose",
+          "start": 2.1,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "the",
+          "start": 2.3400000000000003,
+          "end": 2.58
+        },
+        {
+          "text": "point.",
+          "start": 2.58,
+          "end": 3.14
+        },
+        {
+          "text": "Again.",
+          "start": 3.14,
+          "end": 3.86
+        }
+      ]
+    },
+    {
+      "id": "s03",
+      "start": 7.222,
+      "dur": 6.027,
+      "speechStart": 0.1,
+      "speechDur": 5.227,
+      "words": [
+        {
+          "text": "To",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "climb",
+          "start": 0.26,
+          "end": 0.5
+        },
+        {
+          "text": "the",
+          "start": 0.5,
+          "end": 0.58
+        },
+        {
+          "text": "pickle",
+          "start": 0.58,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "ball",
+          "start": 1.2200000000000002,
+          "end": 1.54
+        },
+        {
+          "text": "ladder,",
+          "start": 1.54,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "hitting",
+          "start": 1.9400000000000002,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "harder",
+          "start": 2.3400000000000003,
+          "end": 2.74
+        },
+        {
+          "text": "isn't",
+          "start": 2.74,
+          "end": 3.06
+        },
+        {
+          "text": "the",
+          "start": 3.06,
+          "end": 3.22
+        },
+        {
+          "text": "main",
+          "start": 3.22,
+          "end": 3.46
+        },
+        {
+          "text": "thing.",
+          "start": 3.46,
+          "end": 4.1
+        },
+        {
+          "text": "Missing",
+          "start": 4.1,
+          "end": 4.58
+        },
+        {
+          "text": "less",
+          "start": 4.58,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "is.",
+          "start": 4.819999999999999,
+          "end": 5.14
+        }
+      ]
+    },
+    {
+      "id": "s04",
+      "start": 13.249,
+      "dur": 5.235,
+      "speechStart": 0.1,
+      "speechDur": 4.885,
+      "words": [
+        {
+          "text": "Today,",
+          "start": 0.1,
+          "end": 0.66
+        },
+        {
+          "text": "the",
+          "start": 0.66,
+          "end": 0.82
+        },
+        {
+          "text": "five",
+          "start": 0.82,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "levels",
+          "start": 1.2200000000000002,
+          "end": 1.54
+        },
+        {
+          "text": "which",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "one",
+          "start": 1.9400000000000002,
+          "end": 2.18
+        },
+        {
+          "text": "you're",
+          "start": 2.18,
+          "end": 2.42
+        },
+        {
+          "text": "really",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "at,",
+          "start": 2.8200000000000003,
+          "end": 3.14
+        },
+        {
+          "text": "and",
+          "start": 3.14,
+          "end": 3.38
+        },
+        {
+          "text": "the",
+          "start": 3.38,
+          "end": 3.54
+        },
+        {
+          "text": "skill",
+          "start": 3.54,
+          "end": 3.94
+        },
+        {
+          "text": "that",
+          "start": 3.94,
+          "end": 4.1
+        },
+        {
+          "text": "moves",
+          "start": 4.1,
+          "end": 4.42
+        },
+        {
+          "text": "you",
+          "start": 4.42,
+          "end": 4.58
+        },
+        {
+          "text": "up.",
+          "start": 4.58,
+          "end": 4.8999999999999995
+        }
+      ]
+    },
+    {
+      "id": "s05",
+      "start": 18.484,
+      "dur": 8.329,
+      "speechStart": 0.1,
+      "speechDur": 7.979,
+      "words": [
+        {
+          "text": "USA",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "pickleball's",
+          "start": 0.58,
+          "end": 1.54
+        },
+        {
+          "text": "skill",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "levels",
+          "start": 1.78,
+          "end": 2.18
+        },
+        {
+          "text": "run",
+          "start": 2.18,
+          "end": 2.42
+        },
+        {
+          "text": "from",
+          "start": 2.42,
+          "end": 2.66
+        },
+        {
+          "text": "one",
+          "start": 2.66,
+          "end": 2.9
+        },
+        {
+          "text": "point",
+          "start": 3.06,
+          "end": 3.38
+        },
+        {
+          "text": "zero",
+          "start": 3.38,
+          "end": 3.86
+        },
+        {
+          "text": "up",
+          "start": 3.86,
+          "end": 4.1
+        },
+        {
+          "text": "to",
+          "start": 4.1,
+          "end": 4.34
+        },
+        {
+          "text": "five",
+          "start": 4.34,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "point",
+          "start": 4.739999999999999,
+          "end": 5.06
+        },
+        {
+          "text": "five",
+          "start": 5.06,
+          "end": 5.3
+        },
+        {
+          "text": "plus,",
+          "start": 5.38,
+          "end": 6.18
+        },
+        {
+          "text": "mostly",
+          "start": 6.18,
+          "end": 6.58
+        },
+        {
+          "text": "in",
+          "start": 6.58,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "half",
+          "start": 6.739999999999999,
+          "end": 7.06
+        },
+        {
+          "text": "point",
+          "start": 7.14,
+          "end": 7.38
+        },
+        {
+          "text": "steps.",
+          "start": 7.54,
+          "end": 8.02
+        }
+      ]
+    },
+    {
+      "id": "s06",
+      "start": 26.813,
+      "dur": 9.459,
+      "speechStart": 0.1,
+      "speechDur": 9.109,
+      "words": [
+        {
+          "text": "Its",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "own",
+          "start": 0.42000000000000004,
+          "end": 0.66
+        },
+        {
+          "text": "overview",
+          "start": 0.66,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "groups",
+          "start": 1.2200000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "them",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "into",
+          "start": 1.78,
+          "end": 2.1
+        },
+        {
+          "text": "five",
+          "start": 2.1,
+          "end": 2.42
+        },
+        {
+          "text": "tiers.",
+          "start": 2.42,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "My",
+          "start": 3.3000000000000003,
+          "end": 3.54
+        },
+        {
+          "text": "five",
+          "start": 3.54,
+          "end": 3.94
+        },
+        {
+          "text": "levels",
+          "start": 3.94,
+          "end": 4.42
+        },
+        {
+          "text": "are",
+          "start": 4.42,
+          "end": 4.58
+        },
+        {
+          "text": "cut",
+          "start": 4.58,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "slightly",
+          "start": 4.9799999999999995,
+          "end": 5.46
+        },
+        {
+          "text": "differently,",
+          "start": 5.46,
+          "end": 6.34
+        },
+        {
+          "text": "one",
+          "start": 6.34,
+          "end": 6.58
+        },
+        {
+          "text": "skill",
+          "start": 6.659999999999999,
+          "end": 7.14
+        },
+        {
+          "text": "each,",
+          "start": 7.14,
+          "end": 7.619999999999999
+        },
+        {
+          "text": "and",
+          "start": 7.619999999999999,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "the",
+          "start": 7.859999999999999,
+          "end": 8.02
+        },
+        {
+          "text": "names",
+          "start": 8.02,
+          "end": 8.42
+        },
+        {
+          "text": "are",
+          "start": 8.42,
+          "end": 8.58
+        },
+        {
+          "text": "mine.",
+          "start": 8.58,
+          "end": 9.139999999999999
+        }
+      ]
+    },
+    {
+      "id": "s07",
+      "start": 36.272,
+      "dur": 9.267,
+      "speechStart": 0.1,
+      "speechDur": 8.917,
+      "words": [
+        {
+          "text": "Level",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "1",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "the",
+          "start": 0.82,
+          "end": 1.06
+        },
+        {
+          "text": "starter,",
+          "start": 1.06,
+          "end": 1.78
+        },
+        {
+          "text": "level",
+          "start": 1.78,
+          "end": 2.18
+        },
+        {
+          "text": "2",
+          "start": 2.18,
+          "end": 2.42
+        },
+        {
+          "text": "the",
+          "start": 2.5,
+          "end": 2.58
+        },
+        {
+          "text": "rallier",
+          "start": 2.58,
+          "end": 3.54
+        },
+        {
+          "text": "level",
+          "start": 3.54,
+          "end": 3.86
+        },
+        {
+          "text": "3",
+          "start": 3.86,
+          "end": 4.18
+        },
+        {
+          "text": "the",
+          "start": 4.26,
+          "end": 4.42
+        },
+        {
+          "text": "dropper,",
+          "start": 4.42,
+          "end": 5.22
+        },
+        {
+          "text": "level",
+          "start": 5.22,
+          "end": 5.54
+        },
+        {
+          "text": "4",
+          "start": 5.54,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "the",
+          "start": 5.9399999999999995,
+          "end": 6.02
+        },
+        {
+          "text": "resetter,",
+          "start": 6.02,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "and",
+          "start": 6.8999999999999995,
+          "end": 7.06
+        },
+        {
+          "text": "level",
+          "start": 7.06,
+          "end": 7.38
+        },
+        {
+          "text": "5",
+          "start": 7.38,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "no",
+          "start": 7.859999999999999,
+          "end": 8.1
+        },
+        {
+          "text": "weak",
+          "start": 8.1,
+          "end": 8.42
+        },
+        {
+          "text": "spots.",
+          "start": 8.42,
+          "end": 8.9
+        }
+      ]
+    },
+    {
+      "id": "s08",
+      "start": 45.539,
+      "dur": 9.63,
+      "speechStart": 0.1,
+      "speechDur": 9.28,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "there's",
+          "start": 0.33999999999999997,
+          "end": 0.58
+        },
+        {
+          "text": "a",
+          "start": 0.58,
+          "end": 0.66
+        },
+        {
+          "text": "hidden",
+          "start": 0.66,
+          "end": 1.06
+        },
+        {
+          "text": "thread.",
+          "start": 1.06,
+          "end": 1.78
+        },
+        {
+          "text": "At",
+          "start": 1.78,
+          "end": 2.02
+        },
+        {
+          "text": "3.0,",
+          "start": 2.02,
+          "end": 3.38
+        },
+        {
+          "text": "the",
+          "start": 3.38,
+          "end": 3.54
+        },
+        {
+          "text": "official",
+          "start": 3.54,
+          "end": 3.94
+        },
+        {
+          "text": "checklist",
+          "start": 3.94,
+          "end": 4.58
+        },
+        {
+          "text": "asks",
+          "start": 4.58,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "you",
+          "start": 4.8999999999999995,
+          "end": 5.06
+        },
+        {
+          "text": "to",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "text": "land",
+          "start": 5.22,
+          "end": 5.54
+        },
+        {
+          "text": "serves,",
+          "start": 5.54,
+          "end": 6.42
+        },
+        {
+          "text": "returns",
+          "start": 6.42,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "and",
+          "start": 7.06,
+          "end": 7.22
+        },
+        {
+          "text": "volleys",
+          "start": 7.22,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "seven",
+          "start": 7.9399999999999995,
+          "end": 8.26
+        },
+        {
+          "text": "times",
+          "start": 8.26,
+          "end": 8.5
+        },
+        {
+          "text": "out",
+          "start": 8.5,
+          "end": 8.66
+        },
+        {
+          "text": "of",
+          "start": 8.66,
+          "end": 8.82
+        },
+        {
+          "text": "ten.",
+          "start": 8.82,
+          "end": 9.299999999999999
+        }
+      ]
+    },
+    {
+      "id": "s09",
+      "start": 55.169,
+      "dur": 9.331,
+      "speechStart": 0.1,
+      "speechDur": 8.981,
+      "words": [
+        {
+          "text": "At",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "three",
+          "start": 0.33999999999999997,
+          "end": 0.74
+        },
+        {
+          "text": "point",
+          "start": 0.74,
+          "end": 0.98
+        },
+        {
+          "text": "five",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "it's",
+          "start": 1.3,
+          "end": 1.62
+        },
+        {
+          "text": "eight.",
+          "start": 1.62,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "At",
+          "start": 2.2600000000000002,
+          "end": 2.5
+        },
+        {
+          "text": "four",
+          "start": 2.5,
+          "end": 2.98
+        },
+        {
+          "text": "point",
+          "start": 2.98,
+          "end": 3.22
+        },
+        {
+          "text": "zero",
+          "start": 3.22,
+          "end": 3.62
+        },
+        {
+          "text": "it's",
+          "start": 3.7,
+          "end": 4.02
+        },
+        {
+          "text": "nine.",
+          "start": 4.02,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "At",
+          "start": 4.739999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "four",
+          "start": 4.9799999999999995,
+          "end": 5.38
+        },
+        {
+          "text": "point",
+          "start": 5.38,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "five",
+          "start": 5.699999999999999,
+          "end": 6.02
+        },
+        {
+          "text": "and",
+          "start": 6.02,
+          "end": 6.26
+        },
+        {
+          "text": "five",
+          "start": 6.26,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "point",
+          "start": 6.659999999999999,
+          "end": 6.9799999999999995
+        },
+        {
+          "text": "zero",
+          "start": 6.9799999999999995,
+          "end": 7.38
+        },
+        {
+          "text": "it's",
+          "start": 7.54,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "ten",
+          "start": 7.859999999999999,
+          "end": 8.02
+        },
+        {
+          "text": "out",
+          "start": 8.18,
+          "end": 8.42
+        },
+        {
+          "text": "of",
+          "start": 8.42,
+          "end": 8.58
+        },
+        {
+          "text": "ten.",
+          "start": 8.58,
+          "end": 8.98
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "start": 64.501,
+      "dur": 4.967,
+      "speechStart": 0.1,
+      "speechDur": 4.267,
+      "words": [
+        {
+          "text": "So",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "new",
+          "start": 0.58,
+          "end": 0.9
+        },
+        {
+          "text": "skills",
+          "start": 0.9,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "at",
+          "start": 1.3800000000000001,
+          "end": 1.54
+        },
+        {
+          "text": "every",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "level,",
+          "start": 1.78,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "and",
+          "start": 2.2600000000000002,
+          "end": 2.5
+        },
+        {
+          "text": "fewer",
+          "start": 2.5,
+          "end": 2.98
+        },
+        {
+          "text": "misses",
+          "start": 2.98,
+          "end": 3.54
+        },
+        {
+          "text": "on",
+          "start": 3.54,
+          "end": 3.7
+        },
+        {
+          "text": "all",
+          "start": 3.7,
+          "end": 3.86
+        },
+        {
+          "text": "of",
+          "start": 3.86,
+          "end": 4.02
+        },
+        {
+          "text": "them.",
+          "start": 4.02,
+          "end": 4.26
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "start": 69.467,
+      "dur": 5.555,
+      "speechStart": 0.1,
+      "speechDur": 5.205,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "duper",
+          "start": 0.26,
+          "end": 0.58
+        },
+        {
+          "text": "rating",
+          "start": 0.82,
+          "end": 1.06
+        },
+        {
+          "text": "is",
+          "start": 1.2200000000000002,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "different.",
+          "start": 1.3800000000000001,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "It",
+          "start": 1.9400000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "comes",
+          "start": 2.1,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "from",
+          "start": 2.3400000000000003,
+          "end": 2.58
+        },
+        {
+          "text": "your",
+          "start": 2.58,
+          "end": 2.74
+        },
+        {
+          "text": "match",
+          "start": 2.74,
+          "end": 3.22
+        },
+        {
+          "text": "results,",
+          "start": 3.22,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "not",
+          "start": 3.7800000000000002,
+          "end": 4.02
+        },
+        {
+          "text": "a",
+          "start": 4.02,
+          "end": 4.18
+        },
+        {
+          "text": "skill",
+          "start": 4.18,
+          "end": 4.58
+        },
+        {
+          "text": "checklist.",
+          "start": 4.58,
+          "end": 5.3
+        }
+      ]
+    },
+    {
+      "id": "s12",
+      "start": 75.023,
+      "dur": 7.369,
+      "speechStart": 0.1,
+      "speechDur": 7.019,
+      "words": [
+        {
+          "text": "When",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "I",
+          "start": 0.26,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "quote",
+          "start": 0.33999999999999997,
+          "end": 0.66
+        },
+        {
+          "text": "duper",
+          "start": 0.66,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "numbers,",
+          "start": 1.3,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "they",
+          "start": 1.9400000000000002,
+          "end": 2.18
+        },
+        {
+          "text": "only",
+          "start": 2.18,
+          "end": 2.5
+        },
+        {
+          "text": "cover",
+          "start": 2.5,
+          "end": 2.9
+        },
+        {
+          "text": "players",
+          "start": 2.9,
+          "end": 3.38
+        },
+        {
+          "text": "with",
+          "start": 3.38,
+          "end": 3.54
+        },
+        {
+          "text": "an",
+          "start": 3.54,
+          "end": 3.7
+        },
+        {
+          "text": "active",
+          "start": 3.7,
+          "end": 4.18
+        },
+        {
+          "text": "doubles",
+          "start": 4.18,
+          "end": 4.58
+        },
+        {
+          "text": "rating,",
+          "start": 4.739999999999999,
+          "end": 5.46
+        },
+        {
+          "text": "not",
+          "start": 5.46,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "everyone",
+          "start": 5.779999999999999,
+          "end": 6.18
+        },
+        {
+          "text": "who",
+          "start": 6.18,
+          "end": 6.42
+        },
+        {
+          "text": "plays.",
+          "start": 6.42,
+          "end": 6.9799999999999995
+        }
+      ]
+    },
+    {
+      "id": "s13",
+      "start": 82.391,
+      "dur": 7.155,
+      "speechStart": 0.1,
+      "speechDur": 6.805,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "official",
+          "start": 0.33999999999999997,
+          "end": 0.82
+        },
+        {
+          "text": "2.5",
+          "start": 0.82,
+          "end": 1.54
+        },
+        {
+          "text": "player",
+          "start": 1.78,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "can",
+          "start": 2.2600000000000002,
+          "end": 2.5
+        },
+        {
+          "text": "keep",
+          "start": 2.5,
+          "end": 2.66
+        },
+        {
+          "text": "a",
+          "start": 2.66,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "short",
+          "start": 2.8200000000000003,
+          "end": 3.14
+        },
+        {
+          "text": "rally",
+          "start": 3.14,
+          "end": 3.7
+        },
+        {
+          "text": "going",
+          "start": 3.7,
+          "end": 4.02
+        },
+        {
+          "text": "and",
+          "start": 4.34,
+          "end": 4.58
+        },
+        {
+          "text": "has",
+          "start": 4.58,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "a",
+          "start": 4.819999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "basic",
+          "start": 4.9799999999999995,
+          "end": 5.38
+        },
+        {
+          "text": "ability",
+          "start": 5.38,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "to",
+          "start": 5.779999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "keep",
+          "start": 5.9399999999999995,
+          "end": 6.26
+        },
+        {
+          "text": "score.",
+          "start": 6.26,
+          "end": 6.819999999999999
+        }
+      ]
+    },
+    {
+      "id": "s14",
+      "start": 89.547,
+      "dur": 6.387,
+      "speechStart": 0.1,
+      "speechDur": 6.037,
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "like",
+          "start": 0.42000000000000004,
+          "end": 0.58
+        },
+        {
+          "text": "learning",
+          "start": 0.58,
+          "end": 0.98
+        },
+        {
+          "text": "to",
+          "start": 0.98,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "drive",
+          "start": 1.1400000000000001,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "in",
+          "start": 1.4600000000000002,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "an",
+          "start": 1.7000000000000002,
+          "end": 1.86
+        },
+        {
+          "text": "empty",
+          "start": 1.86,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "car",
+          "start": 2.2600000000000002,
+          "end": 2.58
+        },
+        {
+          "text": "park.",
+          "start": 2.58,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "Rules",
+          "start": 3.3000000000000003,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "of",
+          "start": 3.7800000000000002,
+          "end": 3.94
+        },
+        {
+          "text": "the",
+          "start": 3.94,
+          "end": 4.02
+        },
+        {
+          "text": "road",
+          "start": 4.02,
+          "end": 4.42
+        },
+        {
+          "text": "first,",
+          "start": 4.42,
+          "end": 5.06
+        },
+        {
+          "text": "speed",
+          "start": 5.06,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "later.",
+          "start": 5.619999999999999,
+          "end": 6.02
+        }
+      ]
+    },
+    {
+      "id": "s15",
+      "start": 95.934,
+      "dur": 8.606,
+      "speechStart": 0.1,
+      "speechDur": 8.256,
+      "words": [
+        {
+          "text": "Rule",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "one",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "is",
+          "start": 0.74,
+          "end": 0.82
+        },
+        {
+          "text": "the",
+          "start": 0.82,
+          "end": 0.98
+        },
+        {
+          "text": "two",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "bounce",
+          "start": 1.3,
+          "end": 1.86
+        },
+        {
+          "text": "rule.",
+          "start": 1.86,
+          "end": 2.42
+        },
+        {
+          "text": "The",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "serve",
+          "start": 2.58,
+          "end": 3.14
+        },
+        {
+          "text": "must",
+          "start": 3.14,
+          "end": 3.38
+        },
+        {
+          "text": "bounce,",
+          "start": 3.38,
+          "end": 3.94
+        },
+        {
+          "text": "then",
+          "start": 3.94,
+          "end": 4.18
+        },
+        {
+          "text": "the",
+          "start": 4.18,
+          "end": 4.34
+        },
+        {
+          "text": "return",
+          "start": 4.34,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "must",
+          "start": 4.8999999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "bounce.",
+          "start": 5.14,
+          "end": 6.02
+        },
+        {
+          "text": "Only",
+          "start": 6.02,
+          "end": 6.42
+        },
+        {
+          "text": "after",
+          "start": 6.42,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "that",
+          "start": 6.659999999999999,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "can",
+          "start": 6.8999999999999995,
+          "end": 7.22
+        },
+        {
+          "text": "anyone",
+          "start": 7.22,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "volley.",
+          "start": 7.699999999999999,
+          "end": 8.26
+        }
+      ]
+    },
+    {
+      "id": "s16",
+      "start": 104.54,
+      "dur": 7.347,
+      "speechStart": 0.1,
+      "speechDur": 6.997,
+      "words": [
+        {
+          "text": "Rule",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "two",
+          "start": 0.58,
+          "end": 0.74
+        },
+        {
+          "text": "is",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "the",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "kitchen,",
+          "start": 1.2200000000000002,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "the",
+          "start": 1.9400000000000002,
+          "end": 2.18
+        },
+        {
+          "text": "zone",
+          "start": 2.18,
+          "end": 2.66
+        },
+        {
+          "text": "seven",
+          "start": 2.66,
+          "end": 2.98
+        },
+        {
+          "text": "feet",
+          "start": 2.98,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "from",
+          "start": 3.3000000000000003,
+          "end": 3.46
+        },
+        {
+          "text": "the",
+          "start": 3.46,
+          "end": 3.62
+        },
+        {
+          "text": "net",
+          "start": 3.62,
+          "end": 3.94
+        },
+        {
+          "text": "on",
+          "start": 3.94,
+          "end": 4.1
+        },
+        {
+          "text": "each",
+          "start": 4.1,
+          "end": 4.42
+        },
+        {
+          "text": "side.",
+          "start": 4.42,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "You",
+          "start": 4.9799999999999995,
+          "end": 5.22
+        },
+        {
+          "text": "can't",
+          "start": 5.22,
+          "end": 5.54
+        },
+        {
+          "text": "volley",
+          "start": 5.54,
+          "end": 6.18
+        },
+        {
+          "text": "while",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "text": "standing",
+          "start": 6.34,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "in",
+          "start": 6.659999999999999,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "it.",
+          "start": 6.819999999999999,
+          "end": 7.06
+        }
+      ]
+    },
+    {
+      "id": "s17",
+      "start": 111.887,
+      "dur": 6.003,
+      "speechStart": 0.1,
+      "speechDur": 5.653,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "classic",
+          "start": 0.26,
+          "end": 0.66
+        },
+        {
+          "text": "starter",
+          "start": 0.66,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "moment.",
+          "start": 1.1400000000000001,
+          "end": 1.78
+        },
+        {
+          "text": "You",
+          "start": 1.78,
+          "end": 2.02
+        },
+        {
+          "text": "serve,",
+          "start": 2.02,
+          "end": 2.5
+        },
+        {
+          "text": "rush",
+          "start": 2.5,
+          "end": 2.9
+        },
+        {
+          "text": "the",
+          "start": 2.9,
+          "end": 3.06
+        },
+        {
+          "text": "net,",
+          "start": 3.06,
+          "end": 3.46
+        },
+        {
+          "text": "volley",
+          "start": 3.46,
+          "end": 4.02
+        },
+        {
+          "text": "the",
+          "start": 4.02,
+          "end": 4.18
+        },
+        {
+          "text": "return,",
+          "start": 4.18,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "and",
+          "start": 4.659999999999999,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "lose",
+          "start": 4.819999999999999,
+          "end": 5.06
+        },
+        {
+          "text": "the",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "text": "point.",
+          "start": 5.22,
+          "end": 5.619999999999999
+        }
+      ]
+    },
+    {
+      "id": "s18",
+      "start": 117.891,
+      "dur": 6.003,
+      "speechStart": 0.1,
+      "speechDur": 5.653,
+      "words": [
+        {
+          "text": "Among",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "players",
+          "start": 0.5,
+          "end": 0.82
+        },
+        {
+          "text": "with",
+          "start": 0.82,
+          "end": 0.98
+        },
+        {
+          "text": "a",
+          "start": 0.98,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "duper",
+          "start": 1.1400000000000001,
+          "end": 1.54
+        },
+        {
+          "text": "rating,",
+          "start": 1.78,
+          "end": 2.5
+        },
+        {
+          "text": "about",
+          "start": 2.5,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "thirty",
+          "start": 2.8200000000000003,
+          "end": 3.22
+        },
+        {
+          "text": "one",
+          "start": 3.22,
+          "end": 3.46
+        },
+        {
+          "text": "percent",
+          "start": 3.46,
+          "end": 3.86
+        },
+        {
+          "text": "are",
+          "start": 3.86,
+          "end": 4.1
+        },
+        {
+          "text": "below",
+          "start": 4.1,
+          "end": 4.5
+        },
+        {
+          "text": "three",
+          "start": 4.5,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "point",
+          "start": 4.8999999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "zero.",
+          "start": 5.14,
+          "end": 5.46
+        }
+      ]
+    },
+    {
+      "id": "s19",
+      "start": 123.894,
+      "dur": 10.291,
+      "speechStart": 0.1,
+      "speechDur": 9.941,
+      "words": [
+        {
+          "text": "Before",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "any",
+          "start": 0.42000000000000004,
+          "end": 0.58
+        },
+        {
+          "text": "drill",
+          "start": 0.58,
+          "end": 0.98
+        },
+        {
+          "text": "in",
+          "start": 0.98,
+          "end": 1.06
+        },
+        {
+          "text": "this",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "video",
+          "start": 1.2200000000000002,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "warm",
+          "start": 1.62,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "up",
+          "start": 1.9400000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "for",
+          "start": 2.1,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "five",
+          "start": 2.2600000000000002,
+          "end": 2.66
+        },
+        {
+          "text": "to",
+          "start": 2.66,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "eight",
+          "start": 2.8200000000000003,
+          "end": 3.06
+        },
+        {
+          "text": "minutes.",
+          "start": 3.06,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "Light",
+          "start": 3.7800000000000002,
+          "end": 4.18
+        },
+        {
+          "text": "jogging,",
+          "start": 4.18,
+          "end": 5.06
+        },
+        {
+          "text": "side",
+          "start": 5.06,
+          "end": 5.54
+        },
+        {
+          "text": "shuffles,",
+          "start": 5.54,
+          "end": 6.26
+        },
+        {
+          "text": "leg",
+          "start": 6.26,
+          "end": 6.58
+        },
+        {
+          "text": "swings,",
+          "start": 6.58,
+          "end": 7.3
+        },
+        {
+          "text": "walking",
+          "start": 7.3,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "lunges,",
+          "start": 7.779999999999999,
+          "end": 8.42
+        },
+        {
+          "text": "and",
+          "start": 8.42,
+          "end": 8.58
+        },
+        {
+          "text": "easy",
+          "start": 8.58,
+          "end": 8.98
+        },
+        {
+          "text": "calf",
+          "start": 8.98,
+          "end": 9.379999999999999
+        },
+        {
+          "text": "raises.",
+          "start": 9.379999999999999,
+          "end": 9.94
+        }
+      ]
+    },
+    {
+      "id": "s20",
+      "start": 134.185,
+      "dur": 7.518,
+      "speechStart": 0.1,
+      "speechDur": 7.168,
+      "words": [
+        {
+          "text": "Then",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "soft",
+          "start": 0.42000000000000004,
+          "end": 0.74
+        },
+        {
+          "text": "dinks,",
+          "start": 0.74,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "building",
+          "start": 1.4600000000000002,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "up",
+          "start": 1.9400000000000002,
+          "end": 2.18
+        },
+        {
+          "text": "to",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "drives.",
+          "start": 2.3400000000000003,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "Doctors",
+          "start": 3.3000000000000003,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "who",
+          "start": 3.7800000000000002,
+          "end": 3.94
+        },
+        {
+          "text": "study",
+          "start": 3.94,
+          "end": 4.26
+        },
+        {
+          "text": "pickleball",
+          "start": 4.26,
+          "end": 5.22
+        },
+        {
+          "text": "injuries",
+          "start": 5.22,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "recommend",
+          "start": 5.699999999999999,
+          "end": 6.18
+        },
+        {
+          "text": "a",
+          "start": 6.18,
+          "end": 6.26
+        },
+        {
+          "text": "proper",
+          "start": 6.26,
+          "end": 6.58
+        },
+        {
+          "text": "warm",
+          "start": 6.58,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "up.",
+          "start": 6.8999999999999995,
+          "end": 7.22
+        }
+      ]
+    },
+    {
+      "id": "s21",
+      "start": 141.703,
+      "dur": 8.286,
+      "speechStart": 0.1,
+      "speechDur": 7.936,
+      "words": [
+        {
+          "text": "To",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "move",
+          "start": 0.33999999999999997,
+          "end": 0.5
+        },
+        {
+          "text": "up,",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "get",
+          "start": 0.74,
+          "end": 0.98
+        },
+        {
+          "text": "the",
+          "start": 0.98,
+          "end": 1.06
+        },
+        {
+          "text": "ball",
+          "start": 1.06,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "in",
+          "start": 1.3800000000000001,
+          "end": 1.54
+        },
+        {
+          "text": "play.",
+          "start": 1.54,
+          "end": 2.1
+        },
+        {
+          "text": "Drill",
+          "start": 2.1,
+          "end": 2.66
+        },
+        {
+          "text": "one,",
+          "start": 2.66,
+          "end": 3.06
+        },
+        {
+          "text": "the",
+          "start": 3.06,
+          "end": 3.22
+        },
+        {
+          "text": "ten",
+          "start": 3.22,
+          "end": 3.38
+        },
+        {
+          "text": "ball",
+          "start": 3.54,
+          "end": 3.94
+        },
+        {
+          "text": "serve",
+          "start": 3.94,
+          "end": 4.42
+        },
+        {
+          "text": "test.",
+          "start": 4.42,
+          "end": 5.06
+        },
+        {
+          "text": "Serve",
+          "start": 5.06,
+          "end": 5.46
+        },
+        {
+          "text": "ten",
+          "start": 5.46,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "from",
+          "start": 5.779999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "each",
+          "start": 5.9399999999999995,
+          "end": 6.18
+        },
+        {
+          "text": "side",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "text": "and",
+          "start": 6.42,
+          "end": 6.58
+        },
+        {
+          "text": "count",
+          "start": 6.58,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "how",
+          "start": 6.8999999999999995,
+          "end": 7.06
+        },
+        {
+          "text": "many",
+          "start": 7.06,
+          "end": 7.38
+        },
+        {
+          "text": "land",
+          "start": 7.38,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "in.",
+          "start": 7.699999999999999,
+          "end": 8.02
+        }
+      ]
+    },
+    {
+      "id": "s22",
+      "start": 149.989,
+      "dur": 5.086,
+      "speechStart": 0.1,
+      "speechDur": 4.736,
+      "words": [
+        {
+          "text": "Three",
+          "start": 0.18,
+          "end": 0.5
+        },
+        {
+          "text": "rounds",
+          "start": 0.5,
+          "end": 0.9
+        },
+        {
+          "text": "two",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "or",
+          "start": 1.2200000000000002,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "three",
+          "start": 1.3800000000000001,
+          "end": 1.62
+        },
+        {
+          "text": "times",
+          "start": 1.62,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "a",
+          "start": 1.9400000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "week,",
+          "start": 2.1,
+          "end": 2.66
+        },
+        {
+          "text": "your",
+          "start": 2.66,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "target",
+          "start": 2.98,
+          "end": 3.38
+        },
+        {
+          "text": "is",
+          "start": 3.38,
+          "end": 3.62
+        },
+        {
+          "text": "seven",
+          "start": 3.62,
+          "end": 4.02
+        },
+        {
+          "text": "out",
+          "start": 4.02,
+          "end": 4.18
+        },
+        {
+          "text": "of",
+          "start": 4.18,
+          "end": 4.34
+        },
+        {
+          "text": "ten.",
+          "start": 4.34,
+          "end": 4.739999999999999
+        }
+      ]
+    },
+    {
+      "id": "s23",
+      "start": 155.075,
+      "dur": 11.401,
+      "speechStart": 0.1,
+      "speechDur": 11.051,
+      "words": [
+        {
+          "text": "Drill",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "two",
+          "start": 0.5,
+          "end": 0.66
+        },
+        {
+          "text": "the",
+          "start": 0.82,
+          "end": 0.98
+        },
+        {
+          "text": "dink",
+          "start": 0.98,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "count.",
+          "start": 1.4600000000000002,
+          "end": 2.02
+        },
+        {
+          "text": "With",
+          "start": 2.02,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "a",
+          "start": 2.3400000000000003,
+          "end": 2.42
+        },
+        {
+          "text": "partner",
+          "start": 2.42,
+          "end": 2.66
+        },
+        {
+          "text": "at",
+          "start": 2.8200000000000003,
+          "end": 2.9
+        },
+        {
+          "text": "the",
+          "start": 2.9,
+          "end": 3.06
+        },
+        {
+          "text": "kitchen",
+          "start": 3.06,
+          "end": 3.46
+        },
+        {
+          "text": "line,",
+          "start": 3.46,
+          "end": 3.94
+        },
+        {
+          "text": "trade",
+          "start": 3.94,
+          "end": 4.34
+        },
+        {
+          "text": "soft",
+          "start": 4.34,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "shots",
+          "start": 4.739999999999999,
+          "end": 5.14
+        },
+        {
+          "text": "that",
+          "start": 5.14,
+          "end": 5.3
+        },
+        {
+          "text": "bounce",
+          "start": 5.3,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "in",
+          "start": 5.859999999999999,
+          "end": 6.02
+        },
+        {
+          "text": "the",
+          "start": 6.02,
+          "end": 6.1
+        },
+        {
+          "text": "kitchen.",
+          "start": 6.1,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "Three",
+          "start": 6.819999999999999,
+          "end": 7.22
+        },
+        {
+          "text": "rounds",
+          "start": 7.22,
+          "end": 7.619999999999999
+        },
+        {
+          "text": "of",
+          "start": 7.619999999999999,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "two",
+          "start": 7.779999999999999,
+          "end": 8.1
+        },
+        {
+          "text": "minutes.",
+          "start": 8.1,
+          "end": 8.74
+        },
+        {
+          "text": "Aim",
+          "start": 8.74,
+          "end": 9.139999999999999
+        },
+        {
+          "text": "for",
+          "start": 9.139999999999999,
+          "end": 9.299999999999999
+        },
+        {
+          "text": "ten",
+          "start": 9.299999999999999,
+          "end": 9.62
+        },
+        {
+          "text": "in",
+          "start": 9.62,
+          "end": 9.78
+        },
+        {
+          "text": "a",
+          "start": 9.78,
+          "end": 9.86
+        },
+        {
+          "text": "row,",
+          "start": 9.86,
+          "end": 10.26
+        },
+        {
+          "text": "then",
+          "start": 10.26,
+          "end": 10.58
+        },
+        {
+          "text": "twenty.",
+          "start": 10.58,
+          "end": 11.06
+        }
+      ]
+    },
+    {
+      "id": "s24",
+      "start": 166.476,
+      "dur": 7.219,
+      "speechStart": 0.1,
+      "speechDur": 6.869,
+      "words": [
+        {
+          "text": "new",
+          "start": 0.18,
+          "end": 0.5
+        },
+        {
+          "text": "to",
+          "start": 0.5,
+          "end": 0.66
+        },
+        {
+          "text": "sport",
+          "start": 0.66,
+          "end": 0.98
+        },
+        {
+          "text": "or",
+          "start": 1.06,
+          "end": 1.3
+        },
+        {
+          "text": "coming",
+          "start": 1.3,
+          "end": 1.62
+        },
+        {
+          "text": "back",
+          "start": 1.62,
+          "end": 1.86
+        },
+        {
+          "text": "after",
+          "start": 1.86,
+          "end": 2.18
+        },
+        {
+          "text": "a",
+          "start": 2.18,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "break.",
+          "start": 2.3400000000000003,
+          "end": 3.06
+        },
+        {
+          "text": "Build",
+          "start": 3.06,
+          "end": 3.38
+        },
+        {
+          "text": "your",
+          "start": 3.38,
+          "end": 3.54
+        },
+        {
+          "text": "court",
+          "start": 3.54,
+          "end": 4.02
+        },
+        {
+          "text": "time",
+          "start": 4.02,
+          "end": 4.34
+        },
+        {
+          "text": "up",
+          "start": 4.34,
+          "end": 4.58
+        },
+        {
+          "text": "gradually",
+          "start": 4.58,
+          "end": 5.14
+        },
+        {
+          "text": "and",
+          "start": 5.22,
+          "end": 5.46
+        },
+        {
+          "text": "don't",
+          "start": 5.46,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "play",
+          "start": 5.779999999999999,
+          "end": 6.1
+        },
+        {
+          "text": "through",
+          "start": 6.1,
+          "end": 6.42
+        },
+        {
+          "text": "pain.",
+          "start": 6.42,
+          "end": 6.819999999999999
+        }
+      ]
+    },
+    {
+      "id": "s25",
+      "start": 173.695,
+      "dur": 5.982,
+      "speechStart": 0.1,
+      "speechDur": 5.632,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "mistake",
+          "start": 0.33999999999999997,
+          "end": 0.82
+        },
+        {
+          "text": "swinging",
+          "start": 0.98,
+          "end": 1.54
+        },
+        {
+          "text": "hard",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "to",
+          "start": 1.78,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "win",
+          "start": 1.9400000000000002,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "points.",
+          "start": 2.2600000000000002,
+          "end": 3.06
+        },
+        {
+          "text": "At",
+          "start": 3.06,
+          "end": 3.22
+        },
+        {
+          "text": "this",
+          "start": 3.22,
+          "end": 3.38
+        },
+        {
+          "text": "level",
+          "start": 3.38,
+          "end": 3.7
+        },
+        {
+          "text": "the",
+          "start": 3.7800000000000002,
+          "end": 3.94
+        },
+        {
+          "text": "game",
+          "start": 3.94,
+          "end": 4.26
+        },
+        {
+          "text": "is",
+          "start": 4.26,
+          "end": 4.5
+        },
+        {
+          "text": "keeping",
+          "start": 4.5,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "the",
+          "start": 4.819999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "ball",
+          "start": 4.9799999999999995,
+          "end": 5.3
+        },
+        {
+          "text": "in.",
+          "start": 5.3,
+          "end": 5.699999999999999
+        }
+      ]
+    },
+    {
+      "id": "s26",
+      "start": 179.677,
+      "dur": 8.521,
+      "speechStart": 0.1,
+      "speechDur": 8.171,
+      "words": [
+        {
+          "text": "Level",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "two",
+          "start": 0.58,
+          "end": 0.74
+        },
+        {
+          "text": "is",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "the",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "three",
+          "start": 1.2200000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "point",
+          "start": 1.62,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "zero",
+          "start": 1.9400000000000002,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "player,",
+          "start": 2.3400000000000003,
+          "end": 3.22
+        },
+        {
+          "text": "medium",
+          "start": 3.22,
+          "end": 3.7
+        },
+        {
+          "text": "paced",
+          "start": 3.7,
+          "end": 4.26
+        },
+        {
+          "text": "forehands,",
+          "start": 4.26,
+          "end": 5.06
+        },
+        {
+          "text": "a",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "text": "basic",
+          "start": 5.22,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "dink",
+          "start": 5.699999999999999,
+          "end": 6.18
+        },
+        {
+          "text": "rally,",
+          "start": 6.18,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "and",
+          "start": 6.659999999999999,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "a",
+          "start": 6.819999999999999,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "backhand",
+          "start": 6.8999999999999995,
+          "end": 7.38
+        },
+        {
+          "text": "they",
+          "start": 7.54,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "avoid.",
+          "start": 7.699999999999999,
+          "end": 8.26
+        }
+      ]
+    },
+    {
+      "id": "s27",
+      "start": 188.198,
+      "dur": 9.587,
+      "speechStart": 0.1,
+      "speechDur": 9.237,
+      "words": [
+        {
+          "text": "Among",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "duperated",
+          "start": 0.42000000000000004,
+          "end": 1.06
+        },
+        {
+          "text": "players,",
+          "start": 1.3,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "three",
+          "start": 1.9400000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "point",
+          "start": 2.42,
+          "end": 2.66
+        },
+        {
+          "text": "zero",
+          "start": 2.66,
+          "end": 3.14
+        },
+        {
+          "text": "to",
+          "start": 3.14,
+          "end": 3.38
+        },
+        {
+          "text": "three",
+          "start": 3.38,
+          "end": 3.7
+        },
+        {
+          "text": "point",
+          "start": 3.7,
+          "end": 4.02
+        },
+        {
+          "text": "four",
+          "start": 4.02,
+          "end": 4.42
+        },
+        {
+          "text": "nine",
+          "start": 4.42,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "is",
+          "start": 4.9799999999999995,
+          "end": 5.22
+        },
+        {
+          "text": "the",
+          "start": 5.22,
+          "end": 5.46
+        },
+        {
+          "text": "single",
+          "start": 5.46,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "biggest",
+          "start": 5.859999999999999,
+          "end": 6.34
+        },
+        {
+          "text": "rating",
+          "start": 6.34,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "band,",
+          "start": 6.819999999999999,
+          "end": 7.619999999999999
+        },
+        {
+          "text": "about",
+          "start": 7.619999999999999,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "twenty",
+          "start": 7.9399999999999995,
+          "end": 8.34
+        },
+        {
+          "text": "nine",
+          "start": 8.34,
+          "end": 8.58
+        },
+        {
+          "text": "percent.",
+          "start": 8.58,
+          "end": 8.98
+        }
+      ]
+    },
+    {
+      "id": "s28",
+      "start": 197.785,
+      "dur": 6.003,
+      "speechStart": 0.1,
+      "speechDur": 5.653,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.18
+        },
+        {
+          "text": "rallier",
+          "start": 0.18,
+          "end": 0.82
+        },
+        {
+          "text": "still",
+          "start": 0.82,
+          "end": 0.98
+        },
+        {
+          "text": "makes",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "frequent",
+          "start": 1.2200000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "unforced",
+          "start": 1.7000000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "errors.",
+          "start": 2.42,
+          "end": 3.22
+        },
+        {
+          "text": "Those",
+          "start": 3.22,
+          "end": 3.54
+        },
+        {
+          "text": "are",
+          "start": 3.54,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "misses",
+          "start": 3.7800000000000002,
+          "end": 4.26
+        },
+        {
+          "text": "nobody",
+          "start": 4.42,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "forced",
+          "start": 4.819999999999999,
+          "end": 5.22
+        },
+        {
+          "text": "you",
+          "start": 5.22,
+          "end": 5.38
+        },
+        {
+          "text": "into.",
+          "start": 5.38,
+          "end": 5.699999999999999
+        }
+      ]
+    },
+    {
+      "id": "s29",
+      "start": 203.789,
+      "dur": 11.102,
+      "speechStart": 0.1,
+      "speechDur": 10.752,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "here's",
+          "start": 0.33999999999999997,
+          "end": 0.66
+        },
+        {
+          "text": "the",
+          "start": 0.66,
+          "end": 0.82
+        },
+        {
+          "text": "trap.",
+          "start": 0.82,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "The",
+          "start": 1.4600000000000002,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "rallier",
+          "start": 1.7000000000000002,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "hits",
+          "start": 2.3400000000000003,
+          "end": 2.58
+        },
+        {
+          "text": "a",
+          "start": 2.58,
+          "end": 2.74
+        },
+        {
+          "text": "medium",
+          "start": 2.74,
+          "end": 3.14
+        },
+        {
+          "text": "paced",
+          "start": 3.14,
+          "end": 3.62
+        },
+        {
+          "text": "third",
+          "start": 3.62,
+          "end": 4.02
+        },
+        {
+          "text": "shot",
+          "start": 4.02,
+          "end": 4.42
+        },
+        {
+          "text": "from",
+          "start": 4.42,
+          "end": 4.58
+        },
+        {
+          "text": "the",
+          "start": 4.58,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "back",
+          "start": 4.739999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "with",
+          "start": 5.06,
+          "end": 5.3
+        },
+        {
+          "text": "no",
+          "start": 5.3,
+          "end": 5.54
+        },
+        {
+          "text": "real",
+          "start": 5.54,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "plan.",
+          "start": 5.859999999999999,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "The",
+          "start": 6.739999999999999,
+          "end": 6.9799999999999995
+        },
+        {
+          "text": "opponents",
+          "start": 6.9799999999999995,
+          "end": 7.54
+        },
+        {
+          "text": "are",
+          "start": 7.54,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "already",
+          "start": 7.699999999999999,
+          "end": 8.02
+        },
+        {
+          "text": "at",
+          "start": 8.02,
+          "end": 8.18
+        },
+        {
+          "text": "the",
+          "start": 8.18,
+          "end": 8.42
+        },
+        {
+          "text": "net,",
+          "start": 8.42,
+          "end": 8.82
+        },
+        {
+          "text": "and",
+          "start": 8.82,
+          "end": 8.98
+        },
+        {
+          "text": "they",
+          "start": 8.98,
+          "end": 9.219999999999999
+        },
+        {
+          "text": "volley",
+          "start": 9.219999999999999,
+          "end": 9.78
+        },
+        {
+          "text": "it",
+          "start": 9.78,
+          "end": 9.94
+        },
+        {
+          "text": "back",
+          "start": 9.94,
+          "end": 10.1
+        },
+        {
+          "text": "at",
+          "start": 10.1,
+          "end": 10.26
+        },
+        {
+          "text": "your",
+          "start": 10.26,
+          "end": 10.42
+        },
+        {
+          "text": "feet.",
+          "start": 10.42,
+          "end": 10.82
+        }
+      ]
+    },
+    {
+      "id": "s30",
+      "start": 214.891,
+      "dur": 5.747,
+      "speechStart": 0.1,
+      "speechDur": 5.397,
+      "words": [
+        {
+          "text": "Think",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "of",
+          "start": 0.33999999999999997,
+          "end": 0.5
+        },
+        {
+          "text": "playing",
+          "start": 0.5,
+          "end": 0.9
+        },
+        {
+          "text": "catch.",
+          "start": 0.9,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "Your",
+          "start": 1.7000000000000002,
+          "end": 2.02
+        },
+        {
+          "text": "job",
+          "start": 2.02,
+          "end": 2.42
+        },
+        {
+          "text": "is",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "to",
+          "start": 2.58,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "keep",
+          "start": 2.8200000000000003,
+          "end": 3.06
+        },
+        {
+          "text": "the",
+          "start": 3.06,
+          "end": 3.14
+        },
+        {
+          "text": "ball",
+          "start": 3.14,
+          "end": 3.54
+        },
+        {
+          "text": "going,",
+          "start": 3.54,
+          "end": 4.1
+        },
+        {
+          "text": "not",
+          "start": 4.1,
+          "end": 4.26
+        },
+        {
+          "text": "to",
+          "start": 4.26,
+          "end": 4.42
+        },
+        {
+          "text": "win",
+          "start": 4.42,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "the",
+          "start": 4.739999999999999,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "throw.",
+          "start": 4.8999999999999995,
+          "end": 5.38
+        }
+      ]
+    },
+    {
+      "id": "s31",
+      "start": 220.638,
+      "dur": 13.363,
+      "speechStart": 0.1,
+      "speechDur": 13.013,
+      "words": [
+        {
+          "text": "To",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "move",
+          "start": 0.33999999999999997,
+          "end": 0.58
+        },
+        {
+          "text": "up,",
+          "start": 0.58,
+          "end": 0.9
+        },
+        {
+          "text": "return",
+          "start": 0.9,
+          "end": 1.3
+        },
+        {
+          "text": "deep",
+          "start": 1.3,
+          "end": 1.54
+        },
+        {
+          "text": "and",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "get",
+          "start": 1.78,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "forward.",
+          "start": 2.02,
+          "end": 2.9
+        },
+        {
+          "text": "The",
+          "start": 2.9,
+          "end": 3.14
+        },
+        {
+          "text": "3.5",
+          "start": 3.14,
+          "end": 4.02
+        },
+        {
+          "text": "checklist",
+          "start": 4.26,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "asks",
+          "start": 4.9799999999999995,
+          "end": 5.22
+        },
+        {
+          "text": "you",
+          "start": 5.22,
+          "end": 5.38
+        },
+        {
+          "text": "to",
+          "start": 5.38,
+          "end": 5.54
+        },
+        {
+          "text": "play",
+          "start": 5.54,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "serves",
+          "start": 5.9399999999999995,
+          "end": 6.42
+        },
+        {
+          "text": "and",
+          "start": 6.5,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "returns",
+          "start": 6.659999999999999,
+          "end": 7.22
+        },
+        {
+          "text": "deep,",
+          "start": 7.22,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "land",
+          "start": 7.9399999999999995,
+          "end": 8.1
+        },
+        {
+          "text": "them",
+          "start": 8.26,
+          "end": 8.5
+        },
+        {
+          "text": "eight",
+          "start": 8.5,
+          "end": 8.82
+        },
+        {
+          "text": "times",
+          "start": 8.82,
+          "end": 9.139999999999999
+        },
+        {
+          "text": "out",
+          "start": 9.139999999999999,
+          "end": 9.379999999999999
+        },
+        {
+          "text": "of",
+          "start": 9.379999999999999,
+          "end": 9.54
+        },
+        {
+          "text": "ten,",
+          "start": 9.54,
+          "end": 10.1
+        },
+        {
+          "text": "and",
+          "start": 10.1,
+          "end": 10.34
+        },
+        {
+          "text": "move",
+          "start": 10.34,
+          "end": 10.58
+        },
+        {
+          "text": "up",
+          "start": 10.58,
+          "end": 10.82
+        },
+        {
+          "text": "to",
+          "start": 10.82,
+          "end": 10.9
+        },
+        {
+          "text": "the",
+          "start": 10.9,
+          "end": 11.06
+        },
+        {
+          "text": "kitchen",
+          "start": 11.06,
+          "end": 11.459999999999999
+        },
+        {
+          "text": "line",
+          "start": 11.459999999999999,
+          "end": 11.86
+        },
+        {
+          "text": "when",
+          "start": 11.86,
+          "end": 12.02
+        },
+        {
+          "text": "you",
+          "start": 12.02,
+          "end": 12.18
+        },
+        {
+          "text": "get",
+          "start": 12.18,
+          "end": 12.42
+        },
+        {
+          "text": "the",
+          "start": 12.42,
+          "end": 12.58
+        },
+        {
+          "text": "chance.",
+          "start": 12.58,
+          "end": 12.98
+        }
+      ]
+    },
+    {
+      "id": "s32",
+      "start": 234.001,
+      "dur": 10.099,
+      "speechStart": 0.1,
+      "speechDur": 9.749,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "drill,",
+          "start": 0.26,
+          "end": 0.82
+        },
+        {
+          "text": "return",
+          "start": 0.82,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "and",
+          "start": 1.3800000000000001,
+          "end": 1.62
+        },
+        {
+          "text": "run.",
+          "start": 1.62,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "Your",
+          "start": 2.2600000000000002,
+          "end": 2.5
+        },
+        {
+          "text": "partner",
+          "start": 2.5,
+          "end": 2.74
+        },
+        {
+          "text": "serves.",
+          "start": 3.06,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "You",
+          "start": 3.7800000000000002,
+          "end": 4.02
+        },
+        {
+          "text": "return",
+          "start": 4.02,
+          "end": 4.5
+        },
+        {
+          "text": "deep,",
+          "start": 4.5,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "then",
+          "start": 4.9799999999999995,
+          "end": 5.22
+        },
+        {
+          "text": "move",
+          "start": 5.22,
+          "end": 5.46
+        },
+        {
+          "text": "up",
+          "start": 5.46,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "to",
+          "start": 5.619999999999999,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "the",
+          "start": 5.699999999999999,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "kitchen",
+          "start": 5.859999999999999,
+          "end": 6.26
+        },
+        {
+          "text": "line",
+          "start": 6.26,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "before",
+          "start": 6.659999999999999,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "the",
+          "start": 6.8999999999999995,
+          "end": 7.06
+        },
+        {
+          "text": "ball",
+          "start": 7.06,
+          "end": 7.46
+        },
+        {
+          "text": "comes",
+          "start": 7.46,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "back.",
+          "start": 7.9399999999999995,
+          "end": 8.42
+        },
+        {
+          "text": "Three",
+          "start": 8.42,
+          "end": 8.74
+        },
+        {
+          "text": "sets",
+          "start": 8.74,
+          "end": 9.06
+        },
+        {
+          "text": "of",
+          "start": 9.06,
+          "end": 9.219999999999999
+        },
+        {
+          "text": "ten.",
+          "start": 9.219999999999999,
+          "end": 9.62
+        }
+      ]
+    },
+    {
+      "id": "s33",
+      "start": 244.101,
+      "dur": 10.825,
+      "speechStart": 0.1,
+      "speechDur": 10.475,
+      "words": [
+        {
+          "text": "Move",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "forward",
+          "start": 0.5,
+          "end": 0.9
+        },
+        {
+          "text": "under",
+          "start": 0.9,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "control.",
+          "start": 1.2200000000000002,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "Don't",
+          "start": 1.9400000000000002,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "sprint",
+          "start": 2.3400000000000003,
+          "end": 2.9
+        },
+        {
+          "text": "and",
+          "start": 2.9,
+          "end": 3.06
+        },
+        {
+          "text": "lunge.",
+          "start": 3.06,
+          "end": 3.86
+        },
+        {
+          "text": "In",
+          "start": 3.86,
+          "end": 4.1
+        },
+        {
+          "text": "one",
+          "start": 4.1,
+          "end": 4.34
+        },
+        {
+          "text": "clinic's",
+          "start": 4.34,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "records,",
+          "start": 4.9799999999999995,
+          "end": 5.54
+        },
+        {
+          "text": "running",
+          "start": 5.54,
+          "end": 6.02
+        },
+        {
+          "text": "or",
+          "start": 6.02,
+          "end": 6.18
+        },
+        {
+          "text": "lunging",
+          "start": 6.18,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "forward",
+          "start": 6.819999999999999,
+          "end": 7.3
+        },
+        {
+          "text": "was",
+          "start": 7.3,
+          "end": 7.54
+        },
+        {
+          "text": "the",
+          "start": 7.54,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "most",
+          "start": 7.699999999999999,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "common",
+          "start": 7.859999999999999,
+          "end": 8.26
+        },
+        {
+          "text": "way",
+          "start": 8.26,
+          "end": 8.58
+        },
+        {
+          "text": "players",
+          "start": 8.58,
+          "end": 8.98
+        },
+        {
+          "text": "hurt",
+          "start": 8.98,
+          "end": 9.379999999999999
+        },
+        {
+          "text": "a",
+          "start": 9.379999999999999,
+          "end": 9.54
+        },
+        {
+          "text": "foot",
+          "start": 9.54,
+          "end": 9.78
+        },
+        {
+          "text": "or",
+          "start": 9.78,
+          "end": 10.02
+        },
+        {
+          "text": "ankle.",
+          "start": 10.02,
+          "end": 10.5
+        }
+      ]
+    },
+    {
+      "id": "s34",
+      "start": 254.925,
+      "dur": 4.446,
+      "speechStart": 0.1,
+      "speechDur": 4.096,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "mistake",
+          "start": 0.33999999999999997,
+          "end": 0.74
+        },
+        {
+          "text": "hiding",
+          "start": 0.82,
+          "end": 1.3
+        },
+        {
+          "text": "from",
+          "start": 1.3,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "your",
+          "start": 1.4600000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "backhand.",
+          "start": 1.62,
+          "end": 2.5
+        },
+        {
+          "text": "Train",
+          "start": 2.5,
+          "end": 2.9
+        },
+        {
+          "text": "it",
+          "start": 2.9,
+          "end": 3.06
+        },
+        {
+          "text": "now,",
+          "start": 3.06,
+          "end": 3.46
+        },
+        {
+          "text": "not",
+          "start": 3.46,
+          "end": 3.7
+        },
+        {
+          "text": "later.",
+          "start": 3.7,
+          "end": 4.1
+        }
+      ]
+    },
+    {
+      "id": "s35",
+      "start": 259.371,
+      "dur": 7.539,
+      "speechStart": 0.1,
+      "speechDur": 7.189,
+      "words": [
+        {
+          "text": "Level",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "3,",
+          "start": 0.58,
+          "end": 0.98
+        },
+        {
+          "text": "the",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "3.5",
+          "start": 1.2200000000000002,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "player,",
+          "start": 2.18,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "is",
+          "start": 2.8200000000000003,
+          "end": 2.98
+        },
+        {
+          "text": "building",
+          "start": 2.98,
+          "end": 3.46
+        },
+        {
+          "text": "the",
+          "start": 3.46,
+          "end": 3.54
+        },
+        {
+          "text": "most",
+          "start": 3.54,
+          "end": 3.7
+        },
+        {
+          "text": "famous",
+          "start": 3.7,
+          "end": 4.18
+        },
+        {
+          "text": "shot",
+          "start": 4.18,
+          "end": 4.42
+        },
+        {
+          "text": "in",
+          "start": 4.42,
+          "end": 4.58
+        },
+        {
+          "text": "Pickleball,",
+          "start": 4.58,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "the",
+          "start": 5.779999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "third",
+          "start": 5.9399999999999995,
+          "end": 6.26
+        },
+        {
+          "text": "shot",
+          "start": 6.26,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "drop.",
+          "start": 6.659999999999999,
+          "end": 7.14
+        }
+      ]
+    },
+    {
+      "id": "s36",
+      "start": 266.911,
+      "dur": 9.139,
+      "speechStart": 0.1,
+      "speechDur": 8.789,
+      "words": [
+        {
+          "text": "Why",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "that",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "shot?",
+          "start": 0.74,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "Because",
+          "start": 1.3800000000000001,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "of",
+          "start": 1.7000000000000002,
+          "end": 1.78
+        },
+        {
+          "text": "the",
+          "start": 1.78,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "two",
+          "start": 1.9400000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "bounce",
+          "start": 2.3400000000000003,
+          "end": 2.9
+        },
+        {
+          "text": "rule,",
+          "start": 2.9,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "the",
+          "start": 3.3000000000000003,
+          "end": 3.54
+        },
+        {
+          "text": "serving",
+          "start": 3.54,
+          "end": 4.02
+        },
+        {
+          "text": "team",
+          "start": 4.02,
+          "end": 4.34
+        },
+        {
+          "text": "hits",
+          "start": 4.34,
+          "end": 4.58
+        },
+        {
+          "text": "the",
+          "start": 4.58,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "third",
+          "start": 4.739999999999999,
+          "end": 5.06
+        },
+        {
+          "text": "shot",
+          "start": 5.06,
+          "end": 5.54
+        },
+        {
+          "text": "from",
+          "start": 5.54,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "the",
+          "start": 5.699999999999999,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "back,",
+          "start": 5.859999999999999,
+          "end": 6.34
+        },
+        {
+          "text": "while",
+          "start": 6.34,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "the",
+          "start": 6.659999999999999,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "returners",
+          "start": 6.739999999999999,
+          "end": 7.46
+        },
+        {
+          "text": "can",
+          "start": 7.46,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "already",
+          "start": 7.699999999999999,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "be",
+          "start": 7.9399999999999995,
+          "end": 8.1
+        },
+        {
+          "text": "at",
+          "start": 8.1,
+          "end": 8.26
+        },
+        {
+          "text": "the",
+          "start": 8.26,
+          "end": 8.42
+        },
+        {
+          "text": "net.",
+          "start": 8.42,
+          "end": 8.82
+        }
+      ]
+    },
+    {
+      "id": "s37",
+      "start": 276.05,
+      "dur": 10.419,
+      "speechStart": 0.1,
+      "speechDur": 10.069,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "drop",
+          "start": 0.33999999999999997,
+          "end": 0.74
+        },
+        {
+          "text": "is",
+          "start": 0.74,
+          "end": 0.9
+        },
+        {
+          "text": "a",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "soft",
+          "start": 1.06,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "shot",
+          "start": 1.4600000000000002,
+          "end": 1.86
+        },
+        {
+          "text": "that",
+          "start": 1.86,
+          "end": 2.02
+        },
+        {
+          "text": "floats",
+          "start": 2.02,
+          "end": 2.5
+        },
+        {
+          "text": "over",
+          "start": 2.5,
+          "end": 2.66
+        },
+        {
+          "text": "the",
+          "start": 2.66,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "net",
+          "start": 2.8200000000000003,
+          "end": 3.06
+        },
+        {
+          "text": "and",
+          "start": 3.06,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "lands",
+          "start": 3.3000000000000003,
+          "end": 3.62
+        },
+        {
+          "text": "in",
+          "start": 3.62,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "the",
+          "start": 3.7800000000000002,
+          "end": 3.94
+        },
+        {
+          "text": "kitchen.",
+          "start": 3.94,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "It's",
+          "start": 4.739999999999999,
+          "end": 5.06
+        },
+        {
+          "text": "hard",
+          "start": 5.06,
+          "end": 5.38
+        },
+        {
+          "text": "for",
+          "start": 5.38,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "the",
+          "start": 5.619999999999999,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "players",
+          "start": 5.699999999999999,
+          "end": 6.18
+        },
+        {
+          "text": "at",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "text": "the",
+          "start": 6.34,
+          "end": 6.5
+        },
+        {
+          "text": "net",
+          "start": 6.5,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "to",
+          "start": 6.819999999999999,
+          "end": 7.06
+        },
+        {
+          "text": "attack,",
+          "start": 7.06,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "so",
+          "start": 7.699999999999999,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "it",
+          "start": 7.9399999999999995,
+          "end": 8.1
+        },
+        {
+          "text": "buys",
+          "start": 8.1,
+          "end": 8.58
+        },
+        {
+          "text": "you",
+          "start": 8.58,
+          "end": 8.82
+        },
+        {
+          "text": "time",
+          "start": 8.82,
+          "end": 9.06
+        },
+        {
+          "text": "to",
+          "start": 9.06,
+          "end": 9.219999999999999
+        },
+        {
+          "text": "move",
+          "start": 9.219999999999999,
+          "end": 9.54
+        },
+        {
+          "text": "forward.",
+          "start": 9.54,
+          "end": 10.02
+        }
+      ]
+    },
+    {
+      "id": "s38",
+      "start": 286.469,
+      "dur": 8.585,
+      "speechStart": 0.1,
+      "speechDur": 8.235,
+      "words": [
+        {
+          "text": "Think",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "of",
+          "start": 0.33999999999999997,
+          "end": 0.5
+        },
+        {
+          "text": "a",
+          "start": 0.5,
+          "end": 0.58
+        },
+        {
+          "text": "parachute.",
+          "start": 0.58,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "While",
+          "start": 1.4600000000000002,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "the",
+          "start": 1.7000000000000002,
+          "end": 1.78
+        },
+        {
+          "text": "ball",
+          "start": 1.78,
+          "end": 2.1
+        },
+        {
+          "text": "floats",
+          "start": 2.1,
+          "end": 2.58
+        },
+        {
+          "text": "down,",
+          "start": 2.58,
+          "end": 2.98
+        },
+        {
+          "text": "you",
+          "start": 2.98,
+          "end": 3.14
+        },
+        {
+          "text": "walk",
+          "start": 3.14,
+          "end": 3.46
+        },
+        {
+          "text": "in.",
+          "start": 3.46,
+          "end": 4.02
+        },
+        {
+          "text": "A",
+          "start": 4.02,
+          "end": 4.18
+        },
+        {
+          "text": "hard",
+          "start": 4.18,
+          "end": 4.58
+        },
+        {
+          "text": "drive",
+          "start": 4.58,
+          "end": 5.06
+        },
+        {
+          "text": "is",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "text": "a",
+          "start": 5.22,
+          "end": 5.38
+        },
+        {
+          "text": "rocket,",
+          "start": 5.38,
+          "end": 6.1
+        },
+        {
+          "text": "fast,",
+          "start": 6.1,
+          "end": 6.58
+        },
+        {
+          "text": "but",
+          "start": 6.58,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "it",
+          "start": 6.739999999999999,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "can",
+          "start": 6.8999999999999995,
+          "end": 7.06
+        },
+        {
+          "text": "come",
+          "start": 7.06,
+          "end": 7.3
+        },
+        {
+          "text": "right",
+          "start": 7.3,
+          "end": 7.54
+        },
+        {
+          "text": "back",
+          "start": 7.54,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "at",
+          "start": 7.779999999999999,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "you.",
+          "start": 7.9399999999999995,
+          "end": 8.26
+        }
+      ]
+    },
+    {
+      "id": "s39",
+      "start": 295.054,
+      "dur": 6.515,
+      "speechStart": 0.1,
+      "speechDur": 6.165,
+      "words": [
+        {
+          "text": "About",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "twenty",
+          "start": 0.5,
+          "end": 0.82
+        },
+        {
+          "text": "four",
+          "start": 0.82,
+          "end": 0.98
+        },
+        {
+          "text": "percent",
+          "start": 0.98,
+          "end": 1.3
+        },
+        {
+          "text": "of",
+          "start": 1.3,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "duper",
+          "start": 1.4600000000000002,
+          "end": 1.86
+        },
+        {
+          "text": "players",
+          "start": 2.1,
+          "end": 2.5
+        },
+        {
+          "text": "are",
+          "start": 2.5,
+          "end": 2.74
+        },
+        {
+          "text": "rated",
+          "start": 2.74,
+          "end": 3.22
+        },
+        {
+          "text": "three",
+          "start": 3.22,
+          "end": 3.54
+        },
+        {
+          "text": "point",
+          "start": 3.62,
+          "end": 3.94
+        },
+        {
+          "text": "five",
+          "start": 3.94,
+          "end": 4.5
+        },
+        {
+          "text": "to",
+          "start": 4.5,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "three",
+          "start": 4.739999999999999,
+          "end": 5.06
+        },
+        {
+          "text": "point",
+          "start": 5.14,
+          "end": 5.46
+        },
+        {
+          "text": "nine",
+          "start": 5.46,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "nine.",
+          "start": 5.699999999999999,
+          "end": 5.9399999999999995
+        }
+      ]
+    },
+    {
+      "id": "s40",
+      "start": 301.569,
+      "dur": 13.854,
+      "speechStart": 0.1,
+      "speechDur": 13.504,
+      "words": [
+        {
+          "text": "Drill",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "one,",
+          "start": 0.58,
+          "end": 0.9
+        },
+        {
+          "text": "the",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "drop",
+          "start": 1.06,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "ladder.",
+          "start": 1.4600000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "Start",
+          "start": 2.1,
+          "end": 2.42
+        },
+        {
+          "text": "at",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "the",
+          "start": 2.58,
+          "end": 2.74
+        },
+        {
+          "text": "kitchen",
+          "start": 2.74,
+          "end": 3.06
+        },
+        {
+          "text": "line",
+          "start": 3.06,
+          "end": 3.38
+        },
+        {
+          "text": "with",
+          "start": 3.38,
+          "end": 3.46
+        },
+        {
+          "text": "a",
+          "start": 3.46,
+          "end": 3.7
+        },
+        {
+          "text": "dink",
+          "start": 3.7,
+          "end": 4.18
+        },
+        {
+          "text": "rally,",
+          "start": 4.18,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "then",
+          "start": 4.9799999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "step",
+          "start": 5.3,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "back",
+          "start": 5.619999999999999,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "two",
+          "start": 5.859999999999999,
+          "end": 6.1
+        },
+        {
+          "text": "steps",
+          "start": 6.18,
+          "end": 6.5
+        },
+        {
+          "text": "and",
+          "start": 6.5,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "keep",
+          "start": 6.739999999999999,
+          "end": 6.9799999999999995
+        },
+        {
+          "text": "landing",
+          "start": 6.9799999999999995,
+          "end": 7.54
+        },
+        {
+          "text": "soft",
+          "start": 7.54,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "shots",
+          "start": 7.9399999999999995,
+          "end": 8.34
+        },
+        {
+          "text": "in",
+          "start": 8.34,
+          "end": 8.5
+        },
+        {
+          "text": "the",
+          "start": 8.5,
+          "end": 8.66
+        },
+        {
+          "text": "kitchen.",
+          "start": 8.66,
+          "end": 9.379999999999999
+        },
+        {
+          "text": "When",
+          "start": 9.379999999999999,
+          "end": 9.7
+        },
+        {
+          "text": "four",
+          "start": 9.7,
+          "end": 10.18
+        },
+        {
+          "text": "land,",
+          "start": 10.18,
+          "end": 10.66
+        },
+        {
+          "text": "step",
+          "start": 10.66,
+          "end": 10.98
+        },
+        {
+          "text": "back",
+          "start": 10.98,
+          "end": 11.219999999999999
+        },
+        {
+          "text": "again",
+          "start": 11.219999999999999,
+          "end": 11.62
+        },
+        {
+          "text": "all",
+          "start": 11.86,
+          "end": 12.1
+        },
+        {
+          "text": "the",
+          "start": 12.1,
+          "end": 12.26
+        },
+        {
+          "text": "way",
+          "start": 12.26,
+          "end": 12.5
+        },
+        {
+          "text": "to",
+          "start": 12.5,
+          "end": 12.66
+        },
+        {
+          "text": "the",
+          "start": 12.66,
+          "end": 12.82
+        },
+        {
+          "text": "baseline.",
+          "start": 12.82,
+          "end": 13.459999999999999
+        }
+      ]
+    },
+    {
+      "id": "s41",
+      "start": 315.423,
+      "dur": 9.374,
+      "speechStart": 0.1,
+      "speechDur": 9.024,
+      "words": [
+        {
+          "text": "Drill",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "2.",
+          "start": 0.58,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "Third",
+          "start": 1.1400000000000001,
+          "end": 1.54
+        },
+        {
+          "text": "shot",
+          "start": 1.54,
+          "end": 2.02
+        },
+        {
+          "text": "must",
+          "start": 2.02,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "be",
+          "start": 2.2600000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "a",
+          "start": 2.42,
+          "end": 2.5
+        },
+        {
+          "text": "drop.",
+          "start": 2.5,
+          "end": 3.22
+        },
+        {
+          "text": "Play",
+          "start": 3.22,
+          "end": 3.54
+        },
+        {
+          "text": "a",
+          "start": 3.54,
+          "end": 3.62
+        },
+        {
+          "text": "game",
+          "start": 3.62,
+          "end": 3.94
+        },
+        {
+          "text": "to",
+          "start": 3.94,
+          "end": 4.18
+        },
+        {
+          "text": "11",
+          "start": 4.18,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "where",
+          "start": 4.739999999999999,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "every",
+          "start": 4.8999999999999995,
+          "end": 5.22
+        },
+        {
+          "text": "third",
+          "start": 5.22,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "shot",
+          "start": 5.619999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "has",
+          "start": 5.9399999999999995,
+          "end": 6.18
+        },
+        {
+          "text": "to",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "text": "be",
+          "start": 6.34,
+          "end": 6.42
+        },
+        {
+          "text": "a",
+          "start": 6.42,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "drop,",
+          "start": 6.659999999999999,
+          "end": 7.3
+        },
+        {
+          "text": "even",
+          "start": 7.3,
+          "end": 7.54
+        },
+        {
+          "text": "if",
+          "start": 7.54,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "it",
+          "start": 7.699999999999999,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "loses",
+          "start": 7.859999999999999,
+          "end": 8.26
+        },
+        {
+          "text": "you",
+          "start": 8.26,
+          "end": 8.5
+        },
+        {
+          "text": "the",
+          "start": 8.5,
+          "end": 8.66
+        },
+        {
+          "text": "point.",
+          "start": 8.66,
+          "end": 9.06
+        }
+      ]
+    },
+    {
+      "id": "s42",
+      "start": 324.797,
+      "dur": 7.71,
+      "speechStart": 0.1,
+      "speechDur": 7.36,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "mistake",
+          "start": 0.33999999999999997,
+          "end": 0.9
+        },
+        {
+          "text": "hitting",
+          "start": 1.06,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "a",
+          "start": 1.4600000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "beautiful",
+          "start": 1.62,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "drop",
+          "start": 2.2600000000000002,
+          "end": 2.66
+        },
+        {
+          "text": "and",
+          "start": 2.66,
+          "end": 2.9
+        },
+        {
+          "text": "admiring",
+          "start": 2.9,
+          "end": 3.54
+        },
+        {
+          "text": "it",
+          "start": 3.54,
+          "end": 3.7
+        },
+        {
+          "text": "from",
+          "start": 3.7,
+          "end": 3.86
+        },
+        {
+          "text": "the",
+          "start": 3.86,
+          "end": 4.1
+        },
+        {
+          "text": "baseline.",
+          "start": 4.1,
+          "end": 5.14
+        },
+        {
+          "text": "The",
+          "start": 5.14,
+          "end": 5.3
+        },
+        {
+          "text": "drop",
+          "start": 5.3,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "exists",
+          "start": 5.779999999999999,
+          "end": 6.18
+        },
+        {
+          "text": "to",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "text": "get",
+          "start": 6.34,
+          "end": 6.5
+        },
+        {
+          "text": "you",
+          "start": 6.5,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "to",
+          "start": 6.659999999999999,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "the",
+          "start": 6.819999999999999,
+          "end": 6.9799999999999995
+        },
+        {
+          "text": "net.",
+          "start": 6.9799999999999995,
+          "end": 7.3
+        }
+      ]
+    },
+    {
+      "id": "s43",
+      "start": 332.507,
+      "dur": 6.558,
+      "speechStart": 0.1,
+      "speechDur": 6.208,
+      "words": [
+        {
+          "text": "Level",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "4",
+          "start": 0.58,
+          "end": 0.98
+        },
+        {
+          "text": "covers",
+          "start": 0.98,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "4.0",
+          "start": 1.3800000000000001,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "and",
+          "start": 2.5,
+          "end": 2.74
+        },
+        {
+          "text": "4.5.",
+          "start": 2.74,
+          "end": 4.26
+        },
+        {
+          "text": "These",
+          "start": 4.26,
+          "end": 4.5
+        },
+        {
+          "text": "players",
+          "start": 4.5,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "are",
+          "start": 4.9799999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "learning",
+          "start": 5.14,
+          "end": 5.54
+        },
+        {
+          "text": "the",
+          "start": 5.54,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "reset.",
+          "start": 5.699999999999999,
+          "end": 6.26
+        }
+      ]
+    },
+    {
+      "id": "s44",
+      "start": 339.065,
+      "dur": 9.246,
+      "speechStart": 0.1,
+      "speechDur": 8.896,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "resette",
+          "start": 0.26,
+          "end": 0.9
+        },
+        {
+          "text": "is",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "a",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "soft",
+          "start": 1.2200000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "block.",
+          "start": 1.62,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "It",
+          "start": 2.2600000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "takes",
+          "start": 2.42,
+          "end": 2.74
+        },
+        {
+          "text": "the",
+          "start": 2.74,
+          "end": 2.9
+        },
+        {
+          "text": "pace",
+          "start": 2.9,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "off",
+          "start": 3.3000000000000003,
+          "end": 3.46
+        },
+        {
+          "text": "a",
+          "start": 3.46,
+          "end": 3.62
+        },
+        {
+          "text": "hard",
+          "start": 3.62,
+          "end": 3.94
+        },
+        {
+          "text": "ball",
+          "start": 3.94,
+          "end": 4.34
+        },
+        {
+          "text": "and",
+          "start": 4.34,
+          "end": 4.5
+        },
+        {
+          "text": "drops",
+          "start": 4.5,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "it",
+          "start": 4.8999999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "into",
+          "start": 5.14,
+          "end": 5.3
+        },
+        {
+          "text": "the",
+          "start": 5.3,
+          "end": 5.46
+        },
+        {
+          "text": "kitchen.",
+          "start": 5.46,
+          "end": 6.18
+        },
+        {
+          "text": "The",
+          "start": 6.18,
+          "end": 6.42
+        },
+        {
+          "text": "rally",
+          "start": 6.42,
+          "end": 6.9799999999999995
+        },
+        {
+          "text": "goes",
+          "start": 6.9799999999999995,
+          "end": 7.22
+        },
+        {
+          "text": "from",
+          "start": 7.22,
+          "end": 7.46
+        },
+        {
+          "text": "frantic",
+          "start": 7.46,
+          "end": 8.02
+        },
+        {
+          "text": "back",
+          "start": 8.02,
+          "end": 8.26
+        },
+        {
+          "text": "to",
+          "start": 8.26,
+          "end": 8.42
+        },
+        {
+          "text": "calm.",
+          "start": 8.42,
+          "end": 8.9
+        }
+      ]
+    },
+    {
+      "id": "s45",
+      "start": 348.311,
+      "dur": 4.105,
+      "speechStart": 0.1,
+      "speechDur": 3.755,
+      "words": [
+        {
+          "text": "Picture",
+          "start": 0.18,
+          "end": 0.66
+        },
+        {
+          "text": "catching",
+          "start": 0.66,
+          "end": 1.06
+        },
+        {
+          "text": "an",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "egg,",
+          "start": 1.2200000000000002,
+          "end": 1.78
+        },
+        {
+          "text": "soft",
+          "start": 1.78,
+          "end": 2.18
+        },
+        {
+          "text": "hands",
+          "start": 2.18,
+          "end": 2.58
+        },
+        {
+          "text": "that",
+          "start": 2.58,
+          "end": 2.74
+        },
+        {
+          "text": "give",
+          "start": 2.74,
+          "end": 3.06
+        },
+        {
+          "text": "with",
+          "start": 3.06,
+          "end": 3.22
+        },
+        {
+          "text": "the",
+          "start": 3.22,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "ball.",
+          "start": 3.3000000000000003,
+          "end": 3.7
+        }
+      ]
+    },
+    {
+      "id": "s46",
+      "start": 352.416,
+      "dur": 11.913,
+      "speechStart": 0.1,
+      "speechDur": 11.563,
+      "words": [
+        {
+          "text": "Why",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "does",
+          "start": 0.42000000000000004,
+          "end": 0.66
+        },
+        {
+          "text": "this",
+          "start": 0.66,
+          "end": 0.9
+        },
+        {
+          "text": "matter?",
+          "start": 0.9,
+          "end": 1.54
+        },
+        {
+          "text": "In",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "one",
+          "start": 1.78,
+          "end": 2.02
+        },
+        {
+          "text": "study",
+          "start": 2.02,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "of",
+          "start": 2.3400000000000003,
+          "end": 2.5
+        },
+        {
+          "text": "eight",
+          "start": 2.5,
+          "end": 2.9
+        },
+        {
+          "text": "pro",
+          "start": 2.9,
+          "end": 3.22
+        },
+        {
+          "text": "men's",
+          "start": 3.22,
+          "end": 3.7
+        },
+        {
+          "text": "doubles",
+          "start": 3.7,
+          "end": 3.94
+        },
+        {
+          "text": "matches,",
+          "start": 4.18,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "about",
+          "start": 4.9799999999999995,
+          "end": 5.3
+        },
+        {
+          "text": "seven",
+          "start": 5.3,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "in",
+          "start": 5.699999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "ten",
+          "start": 5.9399999999999995,
+          "end": 6.1
+        },
+        {
+          "text": "shots",
+          "start": 6.26,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "were",
+          "start": 6.739999999999999,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "played",
+          "start": 6.8999999999999995,
+          "end": 7.22
+        },
+        {
+          "text": "from",
+          "start": 7.22,
+          "end": 7.46
+        },
+        {
+          "text": "what",
+          "start": 7.46,
+          "end": 7.619999999999999
+        },
+        {
+          "text": "the",
+          "start": 7.619999999999999,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "researchers",
+          "start": 7.779999999999999,
+          "end": 8.34
+        },
+        {
+          "text": "call",
+          "start": 8.34,
+          "end": 8.66
+        },
+        {
+          "text": "the",
+          "start": 8.74,
+          "end": 8.9
+        },
+        {
+          "text": "transition",
+          "start": 8.9,
+          "end": 9.62
+        },
+        {
+          "text": "zone,",
+          "start": 9.62,
+          "end": 10.34
+        },
+        {
+          "text": "roughly",
+          "start": 10.34,
+          "end": 10.82
+        },
+        {
+          "text": "mid-court.",
+          "start": 10.82,
+          "end": 11.54
+        }
+      ]
+    },
+    {
+      "id": "s47",
+      "start": 364.329,
+      "dur": 12.787,
+      "speechStart": 0.1,
+      "speechDur": 12.437,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "4.0",
+          "start": 0.26,
+          "end": 1.3
+        },
+        {
+          "text": "checklist",
+          "start": 1.3,
+          "end": 2.02
+        },
+        {
+          "text": "asks",
+          "start": 2.02,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "you",
+          "start": 2.2600000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "to",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "block",
+          "start": 2.58,
+          "end": 2.9
+        },
+        {
+          "text": "hard",
+          "start": 2.9,
+          "end": 3.22
+        },
+        {
+          "text": "volleys,",
+          "start": 3.22,
+          "end": 4.18
+        },
+        {
+          "text": "start",
+          "start": 4.18,
+          "end": 4.5
+        },
+        {
+          "text": "making",
+          "start": 4.5,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "resets,",
+          "start": 4.8999999999999995,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "and",
+          "start": 5.699999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "know",
+          "start": 5.9399999999999995,
+          "end": 6.18
+        },
+        {
+          "text": "which",
+          "start": 6.18,
+          "end": 6.42
+        },
+        {
+          "text": "balls",
+          "start": 6.42,
+          "end": 6.9799999999999995
+        },
+        {
+          "text": "you",
+          "start": 6.9799999999999995,
+          "end": 7.14
+        },
+        {
+          "text": "can",
+          "start": 7.14,
+          "end": 7.3
+        },
+        {
+          "text": "attack,",
+          "start": 7.3,
+          "end": 8.18
+        },
+        {
+          "text": "and",
+          "start": 8.18,
+          "end": 8.42
+        },
+        {
+          "text": "serves",
+          "start": 8.42,
+          "end": 8.9
+        },
+        {
+          "text": "returns",
+          "start": 9.219999999999999,
+          "end": 9.86
+        },
+        {
+          "text": "and",
+          "start": 9.94,
+          "end": 10.1
+        },
+        {
+          "text": "volleys",
+          "start": 10.1,
+          "end": 10.66
+        },
+        {
+          "text": "now",
+          "start": 10.74,
+          "end": 10.9
+        },
+        {
+          "text": "need",
+          "start": 11.06,
+          "end": 11.139999999999999
+        },
+        {
+          "text": "nine",
+          "start": 11.299999999999999,
+          "end": 11.62
+        },
+        {
+          "text": "out",
+          "start": 11.7,
+          "end": 11.86
+        },
+        {
+          "text": "of",
+          "start": 11.86,
+          "end": 12.02
+        },
+        {
+          "text": "ten.",
+          "start": 12.02,
+          "end": 12.42
+        }
+      ]
+    },
+    {
+      "id": "s48",
+      "start": 377.116,
+      "dur": 6.473,
+      "speechStart": 0.1,
+      "speechDur": 6.123,
+      "words": [
+        {
+          "text": "About",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "fifteen",
+          "start": 0.5,
+          "end": 0.82
+        },
+        {
+          "text": "percent",
+          "start": 0.9,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "of",
+          "start": 1.1400000000000001,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "Duper",
+          "start": 1.3800000000000001,
+          "end": 1.78
+        },
+        {
+          "text": "players",
+          "start": 2.02,
+          "end": 2.42
+        },
+        {
+          "text": "are",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "rated",
+          "start": 2.58,
+          "end": 2.9
+        },
+        {
+          "text": "four",
+          "start": 3.06,
+          "end": 3.38
+        },
+        {
+          "text": "point",
+          "start": 3.46,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "zero",
+          "start": 3.7800000000000002,
+          "end": 4.34
+        },
+        {
+          "text": "to",
+          "start": 4.34,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "four",
+          "start": 4.659999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "point",
+          "start": 5.14,
+          "end": 5.38
+        },
+        {
+          "text": "nine",
+          "start": 5.38,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "nine.",
+          "start": 5.699999999999999,
+          "end": 5.9399999999999995
+        }
+      ]
+    },
+    {
+      "id": "s49",
+      "start": 383.589,
+      "dur": 10.142,
+      "speechStart": 0.1,
+      "speechDur": 9.792,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "drill,",
+          "start": 0.26,
+          "end": 0.9
+        },
+        {
+          "text": "the",
+          "start": 0.9,
+          "end": 1.06
+        },
+        {
+          "text": "midcourt",
+          "start": 1.06,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "reset.",
+          "start": 1.7000000000000002,
+          "end": 2.58
+        },
+        {
+          "text": "Stand",
+          "start": 2.58,
+          "end": 2.9
+        },
+        {
+          "text": "midcourt.",
+          "start": 3.06,
+          "end": 4.02
+        },
+        {
+          "text": "Your",
+          "start": 4.02,
+          "end": 4.34
+        },
+        {
+          "text": "partner",
+          "start": 4.34,
+          "end": 4.5
+        },
+        {
+          "text": "at",
+          "start": 4.739999999999999,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "the",
+          "start": 4.819999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "kitchen",
+          "start": 4.9799999999999995,
+          "end": 5.3
+        },
+        {
+          "text": "line",
+          "start": 5.38,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "feeds",
+          "start": 5.859999999999999,
+          "end": 6.26
+        },
+        {
+          "text": "balls",
+          "start": 6.26,
+          "end": 6.58
+        },
+        {
+          "text": "at",
+          "start": 6.58,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "a",
+          "start": 6.739999999999999,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "pace",
+          "start": 6.8999999999999995,
+          "end": 7.3
+        },
+        {
+          "text": "you",
+          "start": 7.3,
+          "end": 7.46
+        },
+        {
+          "text": "can",
+          "start": 7.46,
+          "end": 7.619999999999999
+        },
+        {
+          "text": "control",
+          "start": 7.619999999999999,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "aimed",
+          "start": 8.26,
+          "end": 8.74
+        },
+        {
+          "text": "below",
+          "start": 8.74,
+          "end": 9.06
+        },
+        {
+          "text": "your",
+          "start": 9.06,
+          "end": 9.299999999999999
+        },
+        {
+          "text": "waist.",
+          "start": 9.299999999999999,
+          "end": 9.78
+        }
+      ]
+    },
+    {
+      "id": "s50",
+      "start": 393.731,
+      "dur": 8.926,
+      "speechStart": 0.1,
+      "speechDur": 8.576,
+      "words": [
+        {
+          "text": "Block",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "them",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "softly",
+          "start": 0.74,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "into",
+          "start": 1.1400000000000001,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "the",
+          "start": 1.3800000000000001,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "kitchen.",
+          "start": 1.4600000000000002,
+          "end": 2.18
+        },
+        {
+          "text": "Three",
+          "start": 2.18,
+          "end": 2.66
+        },
+        {
+          "text": "sets",
+          "start": 2.66,
+          "end": 2.98
+        },
+        {
+          "text": "of",
+          "start": 2.98,
+          "end": 3.14
+        },
+        {
+          "text": "ten,",
+          "start": 3.14,
+          "end": 3.7
+        },
+        {
+          "text": "forehand",
+          "start": 3.7,
+          "end": 4.42
+        },
+        {
+          "text": "and",
+          "start": 4.42,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "backhand.",
+          "start": 4.659999999999999,
+          "end": 5.54
+        },
+        {
+          "text": "Only",
+          "start": 5.54,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "speed",
+          "start": 5.9399999999999995,
+          "end": 6.42
+        },
+        {
+          "text": "up",
+          "start": 6.42,
+          "end": 6.58
+        },
+        {
+          "text": "once",
+          "start": 6.58,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "you're",
+          "start": 6.819999999999999,
+          "end": 7.06
+        },
+        {
+          "text": "landing",
+          "start": 7.06,
+          "end": 7.54
+        },
+        {
+          "text": "nine",
+          "start": 7.54,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "out",
+          "start": 7.859999999999999,
+          "end": 8.02
+        },
+        {
+          "text": "of",
+          "start": 8.02,
+          "end": 8.18
+        },
+        {
+          "text": "ten.",
+          "start": 8.18,
+          "end": 8.58
+        }
+      ]
+    },
+    {
+      "id": "s51",
+      "start": 402.657,
+      "dur": 7.262,
+      "speechStart": 0.1,
+      "speechDur": 6.912,
+      "words": [
+        {
+          "text": "This",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "drill",
+          "start": 0.33999999999999997,
+          "end": 0.82
+        },
+        {
+          "text": "gets",
+          "start": 0.82,
+          "end": 1.06
+        },
+        {
+          "text": "faster",
+          "start": 1.06,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "and",
+          "start": 1.4600000000000002,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "brings",
+          "start": 1.7000000000000002,
+          "end": 2.02
+        },
+        {
+          "text": "the",
+          "start": 2.02,
+          "end": 2.18
+        },
+        {
+          "text": "ball",
+          "start": 2.18,
+          "end": 2.5
+        },
+        {
+          "text": "near",
+          "start": 2.5,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "your",
+          "start": 2.8200000000000003,
+          "end": 3.14
+        },
+        {
+          "text": "face,",
+          "start": 3.14,
+          "end": 3.7
+        },
+        {
+          "text": "so",
+          "start": 3.7,
+          "end": 3.94
+        },
+        {
+          "text": "we're",
+          "start": 3.94,
+          "end": 4.42
+        },
+        {
+          "text": "eye",
+          "start": 4.42,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "protection",
+          "start": 4.739999999999999,
+          "end": 5.3
+        },
+        {
+          "text": "rated",
+          "start": 5.3,
+          "end": 5.54
+        },
+        {
+          "text": "for",
+          "start": 5.699999999999999,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "racket",
+          "start": 5.859999999999999,
+          "end": 6.18
+        },
+        {
+          "text": "sports.",
+          "start": 6.42,
+          "end": 6.8999999999999995
+        }
+      ]
+    },
+    {
+      "id": "s52",
+      "start": 409.919,
+      "dur": 7.006,
+      "speechStart": 0.1,
+      "speechDur": 6.656,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "mistake",
+          "start": 0.33999999999999997,
+          "end": 0.82
+        },
+        {
+          "text": "swinging",
+          "start": 0.98,
+          "end": 1.54
+        },
+        {
+          "text": "at",
+          "start": 1.54,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "every",
+          "start": 1.7000000000000002,
+          "end": 2.02
+        },
+        {
+          "text": "hard",
+          "start": 2.02,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "ball.",
+          "start": 2.3400000000000003,
+          "end": 3.06
+        },
+        {
+          "text": "At",
+          "start": 3.06,
+          "end": 3.22
+        },
+        {
+          "text": "this",
+          "start": 3.22,
+          "end": 3.38
+        },
+        {
+          "text": "level,",
+          "start": 3.38,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "you",
+          "start": 3.7800000000000002,
+          "end": 4.02
+        },
+        {
+          "text": "block",
+          "start": 4.02,
+          "end": 4.34
+        },
+        {
+          "text": "it,",
+          "start": 4.34,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "drop",
+          "start": 4.659999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "it,",
+          "start": 4.9799999999999995,
+          "end": 5.22
+        },
+        {
+          "text": "and",
+          "start": 5.22,
+          "end": 5.38
+        },
+        {
+          "text": "wait",
+          "start": 5.38,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "for",
+          "start": 5.699999999999999,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "a",
+          "start": 5.859999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "better",
+          "start": 5.9399999999999995,
+          "end": 6.26
+        },
+        {
+          "text": "ball.",
+          "start": 6.26,
+          "end": 6.659999999999999
+        }
+      ]
+    },
+    {
+      "id": "s53",
+      "start": 416.925,
+      "dur": 10.718,
+      "speechStart": 0.1,
+      "speechDur": 10.368,
+      "words": [
+        {
+          "text": "Level",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "five",
+          "start": 0.58,
+          "end": 0.98
+        },
+        {
+          "text": "is",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "five",
+          "start": 1.2200000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "point",
+          "start": 1.62,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "zero",
+          "start": 1.9400000000000002,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "and",
+          "start": 2.3400000000000003,
+          "end": 2.66
+        },
+        {
+          "text": "above.",
+          "start": 2.66,
+          "end": 3.38
+        },
+        {
+          "text": "These",
+          "start": 3.38,
+          "end": 3.7
+        },
+        {
+          "text": "players",
+          "start": 3.7,
+          "end": 4.18
+        },
+        {
+          "text": "have",
+          "start": 4.18,
+          "end": 4.34
+        },
+        {
+          "text": "mastered",
+          "start": 4.34,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "the",
+          "start": 4.739999999999999,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "dink",
+          "start": 4.8999999999999995,
+          "end": 5.38
+        },
+        {
+          "text": "and",
+          "start": 5.38,
+          "end": 5.54
+        },
+        {
+          "text": "the",
+          "start": 5.54,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "drop,",
+          "start": 5.699999999999999,
+          "end": 6.42
+        },
+        {
+          "text": "change",
+          "start": 6.42,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "pace",
+          "start": 6.819999999999999,
+          "end": 7.38
+        },
+        {
+          "text": "easily,",
+          "start": 7.38,
+          "end": 8.02
+        },
+        {
+          "text": "and",
+          "start": 8.02,
+          "end": 8.26
+        },
+        {
+          "text": "rarely",
+          "start": 8.26,
+          "end": 8.82
+        },
+        {
+          "text": "make",
+          "start": 8.82,
+          "end": 9.06
+        },
+        {
+          "text": "unforced",
+          "start": 9.06,
+          "end": 9.86
+        },
+        {
+          "text": "errors.",
+          "start": 9.86,
+          "end": 10.34
+        }
+      ]
+    },
+    {
+      "id": "s54",
+      "start": 427.643,
+      "dur": 8.841,
+      "speechStart": 0.1,
+      "speechDur": 8.491,
+      "words": [
+        {
+          "text": "Every",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "shot",
+          "start": 0.5,
+          "end": 0.9
+        },
+        {
+          "text": "works",
+          "start": 0.9,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "from",
+          "start": 1.2200000000000002,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "both",
+          "start": 1.3800000000000001,
+          "end": 1.62
+        },
+        {
+          "text": "the",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "forehand",
+          "start": 1.78,
+          "end": 2.42
+        },
+        {
+          "text": "and",
+          "start": 2.42,
+          "end": 2.58
+        },
+        {
+          "text": "the",
+          "start": 2.58,
+          "end": 2.74
+        },
+        {
+          "text": "backhand.",
+          "start": 2.74,
+          "end": 3.62
+        },
+        {
+          "text": "Think",
+          "start": 3.62,
+          "end": 3.94
+        },
+        {
+          "text": "of",
+          "start": 3.94,
+          "end": 4.1
+        },
+        {
+          "text": "a",
+          "start": 4.1,
+          "end": 4.18
+        },
+        {
+          "text": "castle",
+          "start": 4.18,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "with",
+          "start": 4.739999999999999,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "no",
+          "start": 4.8999999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "weak",
+          "start": 5.14,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "wall.",
+          "start": 5.619999999999999,
+          "end": 6.18
+        },
+        {
+          "text": "Whichever",
+          "start": 6.18,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "side",
+          "start": 6.819999999999999,
+          "end": 7.14
+        },
+        {
+          "text": "you",
+          "start": 7.14,
+          "end": 7.3
+        },
+        {
+          "text": "attack",
+          "start": 7.3,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "it",
+          "start": 7.779999999999999,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "holds.",
+          "start": 7.9399999999999995,
+          "end": 8.5
+        }
+      ]
+    },
+    {
+      "id": "s55",
+      "start": 436.483,
+      "dur": 5.555,
+      "speechStart": 0.1,
+      "speechDur": 5.205,
+      "words": [
+        {
+          "text": "Only",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "about",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "1%",
+          "start": 0.74,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "of",
+          "start": 1.3,
+          "end": 1.54
+        },
+        {
+          "text": "Duper",
+          "start": 1.54,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "players",
+          "start": 2.18,
+          "end": 2.66
+        },
+        {
+          "text": "are",
+          "start": 2.66,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "rated",
+          "start": 2.8200000000000003,
+          "end": 3.38
+        },
+        {
+          "text": "5.0",
+          "start": 3.38,
+          "end": 4.34
+        },
+        {
+          "text": "or",
+          "start": 4.5,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "higher.",
+          "start": 4.739999999999999,
+          "end": 5.22
+        }
+      ]
+    },
+    {
+      "id": "s56",
+      "start": 442.039,
+      "dur": 7.603,
+      "speechStart": 0.1,
+      "speechDur": 7.253,
+      "words": [
+        {
+          "text": "Drill",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "1,",
+          "start": 0.58,
+          "end": 0.98
+        },
+        {
+          "text": "Week",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "Side",
+          "start": 1.3,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "Week,",
+          "start": 1.7000000000000002,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "10",
+          "start": 2.3400000000000003,
+          "end": 2.66
+        },
+        {
+          "text": "minutes",
+          "start": 2.66,
+          "end": 3.06
+        },
+        {
+          "text": "per",
+          "start": 3.06,
+          "end": 3.22
+        },
+        {
+          "text": "session",
+          "start": 3.22,
+          "end": 3.62
+        },
+        {
+          "text": "of",
+          "start": 3.62,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "backhand",
+          "start": 3.7800000000000002,
+          "end": 4.1
+        },
+        {
+          "text": "only",
+          "start": 4.34,
+          "end": 4.5
+        },
+        {
+          "text": "dinks",
+          "start": 4.659999999999999,
+          "end": 5.14
+        },
+        {
+          "text": "and",
+          "start": 5.14,
+          "end": 5.3
+        },
+        {
+          "text": "drops,",
+          "start": 5.3,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "three",
+          "start": 5.9399999999999995,
+          "end": 6.26
+        },
+        {
+          "text": "sessions",
+          "start": 6.26,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "a",
+          "start": 6.739999999999999,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "week.",
+          "start": 6.819999999999999,
+          "end": 7.22
+        }
+      ]
+    },
+    {
+      "id": "s57",
+      "start": 449.642,
+      "dur": 12.403,
+      "speechStart": 0.1,
+      "speechDur": 12.053,
+      "words": [
+        {
+          "text": "Drill",
+          "start": 0.1,
+          "end": 0.58
+        },
+        {
+          "text": "2,",
+          "start": 0.58,
+          "end": 1.06
+        },
+        {
+          "text": "The",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "Error",
+          "start": 1.2200000000000002,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "Tally.",
+          "start": 1.7000000000000002,
+          "end": 2.58
+        },
+        {
+          "text": "Ask",
+          "start": 2.58,
+          "end": 2.9
+        },
+        {
+          "text": "a",
+          "start": 2.9,
+          "end": 2.98
+        },
+        {
+          "text": "friend",
+          "start": 2.98,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "to",
+          "start": 3.3000000000000003,
+          "end": 3.38
+        },
+        {
+          "text": "make",
+          "start": 3.38,
+          "end": 3.54
+        },
+        {
+          "text": "a",
+          "start": 3.54,
+          "end": 3.7
+        },
+        {
+          "text": "tick",
+          "start": 3.7,
+          "end": 4.02
+        },
+        {
+          "text": "mark",
+          "start": 4.02,
+          "end": 4.34
+        },
+        {
+          "text": "for",
+          "start": 4.34,
+          "end": 4.5
+        },
+        {
+          "text": "every",
+          "start": 4.5,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "unforced",
+          "start": 4.8999999999999995,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "error",
+          "start": 5.619999999999999,
+          "end": 6.02
+        },
+        {
+          "text": "you",
+          "start": 6.02,
+          "end": 6.18
+        },
+        {
+          "text": "make",
+          "start": 6.18,
+          "end": 6.42
+        },
+        {
+          "text": "in",
+          "start": 6.42,
+          "end": 6.58
+        },
+        {
+          "text": "one",
+          "start": 6.58,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "game,",
+          "start": 6.8999999999999995,
+          "end": 7.46
+        },
+        {
+          "text": "just",
+          "start": 7.46,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "like",
+          "start": 7.699999999999999,
+          "end": 7.9399999999999995
+        },
+        {
+          "text": "the",
+          "start": 7.9399999999999995,
+          "end": 8.1
+        },
+        {
+          "text": "official",
+          "start": 8.1,
+          "end": 8.5
+        },
+        {
+          "text": "rating",
+          "start": 8.5,
+          "end": 9.139999999999999
+        },
+        {
+          "text": "sheet.",
+          "start": 9.139999999999999,
+          "end": 9.7
+        },
+        {
+          "text": "Then",
+          "start": 9.7,
+          "end": 10.02
+        },
+        {
+          "text": "train",
+          "start": 10.02,
+          "end": 10.42
+        },
+        {
+          "text": "the",
+          "start": 10.42,
+          "end": 10.58
+        },
+        {
+          "text": "shot",
+          "start": 10.58,
+          "end": 10.98
+        },
+        {
+          "text": "with",
+          "start": 10.98,
+          "end": 11.139999999999999
+        },
+        {
+          "text": "the",
+          "start": 11.139999999999999,
+          "end": 11.299999999999999
+        },
+        {
+          "text": "most",
+          "start": 11.299999999999999,
+          "end": 11.54
+        },
+        {
+          "text": "ticks.",
+          "start": 11.54,
+          "end": 12.02
+        }
+      ]
+    },
+    {
+      "id": "s58",
+      "start": 462.045,
+      "dur": 6.494,
+      "speechStart": 0.1,
+      "speechDur": 6.144,
+      "words": [
+        {
+          "text": "Strength",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "train",
+          "start": 0.66,
+          "end": 1.06
+        },
+        {
+          "text": "all",
+          "start": 1.1400000000000001,
+          "end": 1.3
+        },
+        {
+          "text": "your",
+          "start": 1.3,
+          "end": 1.54
+        },
+        {
+          "text": "major",
+          "start": 1.54,
+          "end": 1.86
+        },
+        {
+          "text": "muscle",
+          "start": 1.86,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "groups",
+          "start": 2.3400000000000003,
+          "end": 2.74
+        },
+        {
+          "text": "at",
+          "start": 2.74,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "least",
+          "start": 2.8200000000000003,
+          "end": 3.14
+        },
+        {
+          "text": "two",
+          "start": 3.14,
+          "end": 3.38
+        },
+        {
+          "text": "days",
+          "start": 3.38,
+          "end": 3.7
+        },
+        {
+          "text": "a",
+          "start": 3.7,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "week,",
+          "start": 3.7800000000000002,
+          "end": 4.26
+        },
+        {
+          "text": "and",
+          "start": 4.26,
+          "end": 4.5
+        },
+        {
+          "text": "start",
+          "start": 4.5,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "light",
+          "start": 4.8999999999999995,
+          "end": 5.3
+        },
+        {
+          "text": "if",
+          "start": 5.3,
+          "end": 5.38
+        },
+        {
+          "text": "you're",
+          "start": 5.38,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "new",
+          "start": 5.619999999999999,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "to",
+          "start": 5.779999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "it.",
+          "start": 5.9399999999999995,
+          "end": 6.18
+        }
+      ]
+    },
+    {
+      "id": "s59",
+      "start": 468.539,
+      "dur": 8.606,
+      "speechStart": 0.1,
+      "speechDur": 8.256,
+      "words": [
+        {
+          "text": "If",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "something",
+          "start": 0.33999999999999997,
+          "end": 0.66
+        },
+        {
+          "text": "already",
+          "start": 0.66,
+          "end": 1.06
+        },
+        {
+          "text": "hurts,",
+          "start": 1.06,
+          "end": 1.54
+        },
+        {
+          "text": "like",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "your",
+          "start": 1.78,
+          "end": 2.02
+        },
+        {
+          "text": "calf,",
+          "start": 2.02,
+          "end": 2.74
+        },
+        {
+          "text": "Achilles,",
+          "start": 2.74,
+          "end": 3.62
+        },
+        {
+          "text": "knee",
+          "start": 3.62,
+          "end": 3.94
+        },
+        {
+          "text": "or",
+          "start": 4.02,
+          "end": 4.26
+        },
+        {
+          "text": "shoulder,",
+          "start": 4.26,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "see",
+          "start": 4.9799999999999995,
+          "end": 5.22
+        },
+        {
+          "text": "a",
+          "start": 5.22,
+          "end": 5.3
+        },
+        {
+          "text": "physio",
+          "start": 5.3,
+          "end": 6.02
+        },
+        {
+          "text": "or",
+          "start": 6.02,
+          "end": 6.26
+        },
+        {
+          "text": "sports",
+          "start": 6.26,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "doctor",
+          "start": 6.659999999999999,
+          "end": 7.06
+        },
+        {
+          "text": "before",
+          "start": 7.06,
+          "end": 7.38
+        },
+        {
+          "text": "adding",
+          "start": 7.38,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "load.",
+          "start": 7.779999999999999,
+          "end": 8.26
+        }
+      ]
+    },
+    {
+      "id": "s60",
+      "start": 477.145,
+      "dur": 11.166,
+      "speechStart": 0.1,
+      "speechDur": 10.816,
+      "words": [
+        {
+          "text": "In",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "a",
+          "start": 0.33999999999999997,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "review",
+          "start": 0.42000000000000004,
+          "end": 0.82
+        },
+        {
+          "text": "of",
+          "start": 0.82,
+          "end": 1.06
+        },
+        {
+          "text": "sports",
+          "start": 1.06,
+          "end": 1.54
+        },
+        {
+          "text": "trials,",
+          "start": 1.54,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "strength",
+          "start": 2.2600000000000002,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "training",
+          "start": 2.8200000000000003,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "cut",
+          "start": 3.3000000000000003,
+          "end": 3.62
+        },
+        {
+          "text": "injuries",
+          "start": 3.62,
+          "end": 4.18
+        },
+        {
+          "text": "to",
+          "start": 4.18,
+          "end": 4.34
+        },
+        {
+          "text": "about",
+          "start": 4.34,
+          "end": 4.5
+        },
+        {
+          "text": "a",
+          "start": 4.5,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "third",
+          "start": 4.659999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "of",
+          "start": 4.9799999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "the",
+          "start": 5.14,
+          "end": 5.3
+        },
+        {
+          "text": "usual",
+          "start": 5.3,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "rate.",
+          "start": 5.779999999999999,
+          "end": 6.5
+        },
+        {
+          "text": "That",
+          "start": 6.5,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "came",
+          "start": 6.739999999999999,
+          "end": 7.14
+        },
+        {
+          "text": "from",
+          "start": 7.14,
+          "end": 7.46
+        },
+        {
+          "text": "only",
+          "start": 7.46,
+          "end": 7.699999999999999
+        },
+        {
+          "text": "a",
+          "start": 7.699999999999999,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "handful",
+          "start": 7.859999999999999,
+          "end": 8.34
+        },
+        {
+          "text": "of",
+          "start": 8.34,
+          "end": 8.58
+        },
+        {
+          "text": "trials,",
+          "start": 8.58,
+          "end": 9.379999999999999
+        },
+        {
+          "text": "none",
+          "start": 9.379999999999999,
+          "end": 9.7
+        },
+        {
+          "text": "in",
+          "start": 9.7,
+          "end": 9.94
+        },
+        {
+          "text": "pickleball.",
+          "start": 9.94,
+          "end": 10.9
+        }
+      ]
+    },
+    {
+      "id": "s61",
+      "start": 488.311,
+      "dur": 8.073,
+      "speechStart": 0.1,
+      "speechDur": 7.723,
+      "words": [
+        {
+          "text": "The",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "mistake",
+          "start": 0.33999999999999997,
+          "end": 0.82
+        },
+        {
+          "text": "chasing",
+          "start": 0.98,
+          "end": 1.54
+        },
+        {
+          "text": "power.",
+          "start": 1.54,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "The",
+          "start": 2.2600000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "top",
+          "start": 2.42,
+          "end": 2.74
+        },
+        {
+          "text": "level",
+          "start": 2.74,
+          "end": 3.14
+        },
+        {
+          "text": "is",
+          "start": 3.14,
+          "end": 3.38
+        },
+        {
+          "text": "defined",
+          "start": 3.38,
+          "end": 3.86
+        },
+        {
+          "text": "by",
+          "start": 3.86,
+          "end": 4.18
+        },
+        {
+          "text": "control",
+          "start": 4.18,
+          "end": 4.5
+        },
+        {
+          "text": "and",
+          "start": 4.659999999999999,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "variety.",
+          "start": 4.8999999999999995,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "Pace",
+          "start": 5.859999999999999,
+          "end": 6.26
+        },
+        {
+          "text": "is",
+          "start": 6.42,
+          "end": 6.58
+        },
+        {
+          "text": "just",
+          "start": 6.58,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "one",
+          "start": 6.739999999999999,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "of",
+          "start": 6.8999999999999995,
+          "end": 7.06
+        },
+        {
+          "text": "the",
+          "start": 7.06,
+          "end": 7.22
+        },
+        {
+          "text": "tools.",
+          "start": 7.22,
+          "end": 7.699999999999999
+        }
+      ]
+    },
+    {
+      "id": "s62",
+      "start": 496.384,
+      "dur": 9.609,
+      "speechStart": 0.1,
+      "speechDur": 9.259,
+      "words": [
+        {
+          "text": "In",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "US",
+          "start": 0.33999999999999997,
+          "end": 0.82
+        },
+        {
+          "text": "emergency",
+          "start": 0.9,
+          "end": 1.62
+        },
+        {
+          "text": "room",
+          "start": 1.62,
+          "end": 2.02
+        },
+        {
+          "text": "data,",
+          "start": 2.02,
+          "end": 2.58
+        },
+        {
+          "text": "the",
+          "start": 2.58,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "most",
+          "start": 2.8200000000000003,
+          "end": 3.06
+        },
+        {
+          "text": "common",
+          "start": 3.06,
+          "end": 3.54
+        },
+        {
+          "text": "way",
+          "start": 3.54,
+          "end": 3.86
+        },
+        {
+          "text": "people",
+          "start": 3.86,
+          "end": 4.1
+        },
+        {
+          "text": "got",
+          "start": 4.1,
+          "end": 4.34
+        },
+        {
+          "text": "hurt",
+          "start": 4.34,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "playing",
+          "start": 4.659999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "pickleball",
+          "start": 4.9799999999999995,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "was",
+          "start": 5.9399999999999995,
+          "end": 6.18
+        },
+        {
+          "text": "falling,",
+          "start": 6.18,
+          "end": 6.8999999999999995
+        },
+        {
+          "text": "and",
+          "start": 6.8999999999999995,
+          "end": 7.14
+        },
+        {
+          "text": "most",
+          "start": 7.14,
+          "end": 7.38
+        },
+        {
+          "text": "of",
+          "start": 7.38,
+          "end": 7.46
+        },
+        {
+          "text": "those",
+          "start": 7.46,
+          "end": 7.779999999999999
+        },
+        {
+          "text": "patients",
+          "start": 7.779999999999999,
+          "end": 8.18
+        },
+        {
+          "text": "were",
+          "start": 8.18,
+          "end": 8.42
+        },
+        {
+          "text": "over",
+          "start": 8.42,
+          "end": 8.66
+        },
+        {
+          "text": "sixty.",
+          "start": 8.66,
+          "end": 9.139999999999999
+        }
+      ]
+    },
+    {
+      "id": "s63",
+      "start": 505.993,
+      "dur": 4.702,
+      "speechStart": 0.1,
+      "speechDur": 4.352,
+      "words": [
+        {
+          "text": "So",
+          "start": 0.1,
+          "end": 0.18
+        },
+        {
+          "text": "when",
+          "start": 0.26,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "a",
+          "start": 0.42000000000000004,
+          "end": 0.5
+        },
+        {
+          "text": "lob",
+          "start": 0.5,
+          "end": 0.82
+        },
+        {
+          "text": "sails",
+          "start": 0.98,
+          "end": 1.3800000000000001
+        },
+        {
+          "text": "over",
+          "start": 1.3800000000000001,
+          "end": 1.54
+        },
+        {
+          "text": "your",
+          "start": 1.54,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "head,",
+          "start": 1.7000000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "turn",
+          "start": 2.1,
+          "end": 2.5
+        },
+        {
+          "text": "and",
+          "start": 2.5,
+          "end": 2.74
+        },
+        {
+          "text": "run.",
+          "start": 2.74,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "Don't",
+          "start": 3.3000000000000003,
+          "end": 3.62
+        },
+        {
+          "text": "backpedal.",
+          "start": 3.62,
+          "end": 4.42
+        }
+      ]
+    },
+    {
+      "id": "s64",
+      "start": 510.695,
+      "dur": 12.297,
+      "speechStart": 0.1,
+      "speechDur": 11.947,
+      "words": [
+        {
+          "text": "For",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "players",
+          "start": 0.33999999999999997,
+          "end": 0.74
+        },
+        {
+          "text": "aged",
+          "start": 0.74,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "18",
+          "start": 1.2200000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "to",
+          "start": 1.7000000000000002,
+          "end": 1.86
+        },
+        {
+          "text": "34",
+          "start": 1.86,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "in",
+          "start": 2.5,
+          "end": 2.66
+        },
+        {
+          "text": "that",
+          "start": 2.66,
+          "end": 2.9
+        },
+        {
+          "text": "data,",
+          "start": 2.9,
+          "end": 3.62
+        },
+        {
+          "text": "the",
+          "start": 3.62,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "most",
+          "start": 3.7800000000000002,
+          "end": 4.1
+        },
+        {
+          "text": "common",
+          "start": 4.1,
+          "end": 4.42
+        },
+        {
+          "text": "cause",
+          "start": 4.42,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "of",
+          "start": 4.819999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "injury",
+          "start": 4.9799999999999995,
+          "end": 5.54
+        },
+        {
+          "text": "was",
+          "start": 5.54,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "a",
+          "start": 5.699999999999999,
+          "end": 5.859999999999999
+        },
+        {
+          "text": "twist",
+          "start": 5.859999999999999,
+          "end": 6.34
+        },
+        {
+          "text": "or",
+          "start": 6.34,
+          "end": 6.5
+        },
+        {
+          "text": "a",
+          "start": 6.5,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "rolled",
+          "start": 6.659999999999999,
+          "end": 7.14
+        },
+        {
+          "text": "ankle.",
+          "start": 7.3,
+          "end": 8.02
+        },
+        {
+          "text": "In",
+          "start": 8.02,
+          "end": 8.26
+        },
+        {
+          "text": "sports",
+          "start": 8.26,
+          "end": 8.82
+        },
+        {
+          "text": "trials,",
+          "start": 8.82,
+          "end": 9.62
+        },
+        {
+          "text": "balance",
+          "start": 9.62,
+          "end": 10.02
+        },
+        {
+          "text": "training",
+          "start": 10.18,
+          "end": 10.58
+        },
+        {
+          "text": "lowered",
+          "start": 10.58,
+          "end": 11.139999999999999
+        },
+        {
+          "text": "injury",
+          "start": 11.139999999999999,
+          "end": 11.54
+        },
+        {
+          "text": "rates.",
+          "start": 11.54,
+          "end": 12.02
+        }
+      ]
+    },
+    {
+      "id": "s65",
+      "start": 522.991,
+      "dur": 9.331,
+      "speechStart": 0.1,
+      "speechDur": 8.981,
+      "words": [
+        {
+          "text": "A",
+          "start": 0.1,
+          "end": 0.26
+        },
+        {
+          "text": "ball",
+          "start": 0.26,
+          "end": 0.66
+        },
+        {
+          "text": "strike",
+          "start": 0.66,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "is",
+          "start": 1.1400000000000001,
+          "end": 1.3
+        },
+        {
+          "text": "the",
+          "start": 1.3,
+          "end": 1.4600000000000002
+        },
+        {
+          "text": "most",
+          "start": 1.4600000000000002,
+          "end": 1.7000000000000002
+        },
+        {
+          "text": "common",
+          "start": 1.7000000000000002,
+          "end": 2.02
+        },
+        {
+          "text": "cause",
+          "start": 2.02,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "of",
+          "start": 2.3400000000000003,
+          "end": 2.5
+        },
+        {
+          "text": "pickleball",
+          "start": 2.5,
+          "end": 3.46
+        },
+        {
+          "text": "eye",
+          "start": 3.46,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "injuries,",
+          "start": 3.7800000000000002,
+          "end": 4.58
+        },
+        {
+          "text": "so",
+          "start": 4.58,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "eye",
+          "start": 4.8999999999999995,
+          "end": 5.3
+        },
+        {
+          "text": "protection",
+          "start": 5.3,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "rated",
+          "start": 5.779999999999999,
+          "end": 6.1
+        },
+        {
+          "text": "for",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "text": "racket",
+          "start": 6.34,
+          "end": 6.659999999999999
+        },
+        {
+          "text": "sports",
+          "start": 6.9799999999999995,
+          "end": 7.46
+        },
+        {
+          "text": "is",
+          "start": 7.46,
+          "end": 7.619999999999999
+        },
+        {
+          "text": "worth",
+          "start": 7.619999999999999,
+          "end": 7.859999999999999
+        },
+        {
+          "text": "wearing",
+          "start": 7.859999999999999,
+          "end": 8.26
+        },
+        {
+          "text": "at",
+          "start": 8.26,
+          "end": 8.42
+        },
+        {
+          "text": "any",
+          "start": 8.42,
+          "end": 8.66
+        },
+        {
+          "text": "level.",
+          "start": 8.66,
+          "end": 9.06
+        }
+      ]
+    },
+    {
+      "id": "s66",
+      "start": 532.323,
+      "dur": 8.371,
+      "speechStart": 0.1,
+      "speechDur": 8.021,
+      "words": [
+        {
+          "text": "And",
+          "start": 0.1,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "stop",
+          "start": 0.42000000000000004,
+          "end": 0.74
+        },
+        {
+          "text": "and",
+          "start": 0.74,
+          "end": 0.9
+        },
+        {
+          "text": "get",
+          "start": 0.9,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "checked",
+          "start": 1.1400000000000001,
+          "end": 1.54
+        },
+        {
+          "text": "promptly",
+          "start": 1.54,
+          "end": 2.1
+        },
+        {
+          "text": "if",
+          "start": 2.1,
+          "end": 2.2600000000000002
+        },
+        {
+          "text": "you",
+          "start": 2.2600000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "feel",
+          "start": 2.42,
+          "end": 2.74
+        },
+        {
+          "text": "a",
+          "start": 2.74,
+          "end": 2.8200000000000003
+        },
+        {
+          "text": "sudden",
+          "start": 2.8200000000000003,
+          "end": 3.22
+        },
+        {
+          "text": "kick",
+          "start": 3.22,
+          "end": 3.62
+        },
+        {
+          "text": "or",
+          "start": 3.62,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "snap",
+          "start": 3.7800000000000002,
+          "end": 4.18
+        },
+        {
+          "text": "at",
+          "start": 4.18,
+          "end": 4.34
+        },
+        {
+          "text": "the",
+          "start": 4.34,
+          "end": 4.42
+        },
+        {
+          "text": "back",
+          "start": 4.42,
+          "end": 4.659999999999999
+        },
+        {
+          "text": "of",
+          "start": 4.659999999999999,
+          "end": 4.739999999999999
+        },
+        {
+          "text": "your",
+          "start": 4.739999999999999,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "heel",
+          "start": 4.8999999999999995,
+          "end": 5.3
+        },
+        {
+          "text": "or",
+          "start": 5.3,
+          "end": 5.54
+        },
+        {
+          "text": "calf,",
+          "start": 5.54,
+          "end": 6.26
+        },
+        {
+          "text": "or",
+          "start": 6.26,
+          "end": 6.42
+        },
+        {
+          "text": "can't",
+          "start": 6.42,
+          "end": 6.739999999999999
+        },
+        {
+          "text": "push",
+          "start": 6.739999999999999,
+          "end": 7.06
+        },
+        {
+          "text": "off",
+          "start": 7.06,
+          "end": 7.3
+        },
+        {
+          "text": "your",
+          "start": 7.3,
+          "end": 7.46
+        },
+        {
+          "text": "toes.",
+          "start": 7.46,
+          "end": 8.02
+        }
+      ]
+    },
+    {
+      "id": "s67",
+      "start": 540.694,
+      "dur": 12.851,
+      "speechStart": 0.1,
+      "speechDur": 12.501,
+      "words": [
+        {
+          "text": "Same",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "if",
+          "start": 0.5,
+          "end": 0.66
+        },
+        {
+          "text": "a",
+          "start": 0.66,
+          "end": 0.74
+        },
+        {
+          "text": "hit",
+          "start": 0.74,
+          "end": 0.98
+        },
+        {
+          "text": "to",
+          "start": 0.98,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "the",
+          "start": 1.1400000000000001,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "eye",
+          "start": 1.2200000000000002,
+          "end": 1.54
+        },
+        {
+          "text": "leaves",
+          "start": 1.54,
+          "end": 1.78
+        },
+        {
+          "text": "you",
+          "start": 1.78,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "with",
+          "start": 1.9400000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "blurred",
+          "start": 2.1,
+          "end": 2.66
+        },
+        {
+          "text": "vision,",
+          "start": 2.66,
+          "end": 3.06
+        },
+        {
+          "text": "flashes",
+          "start": 3.22,
+          "end": 3.86
+        },
+        {
+          "text": "or",
+          "start": 3.94,
+          "end": 4.18
+        },
+        {
+          "text": "pain,",
+          "start": 4.18,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "if",
+          "start": 4.9799999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "a",
+          "start": 5.14,
+          "end": 5.3
+        },
+        {
+          "text": "fall",
+          "start": 5.3,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "leaves",
+          "start": 5.699999999999999,
+          "end": 6.02
+        },
+        {
+          "text": "your",
+          "start": 6.02,
+          "end": 6.18
+        },
+        {
+          "text": "wrist",
+          "start": 6.18,
+          "end": 6.58
+        },
+        {
+          "text": "swollen",
+          "start": 6.58,
+          "end": 7.22
+        },
+        {
+          "text": "or",
+          "start": 7.22,
+          "end": 7.38
+        },
+        {
+          "text": "misshapen,",
+          "start": 7.38,
+          "end": 8.42
+        },
+        {
+          "text": "if",
+          "start": 8.42,
+          "end": 8.58
+        },
+        {
+          "text": "you",
+          "start": 8.58,
+          "end": 8.74
+        },
+        {
+          "text": "hit",
+          "start": 8.74,
+          "end": 9.06
+        },
+        {
+          "text": "your",
+          "start": 9.06,
+          "end": 9.219999999999999
+        },
+        {
+          "text": "head,",
+          "start": 9.219999999999999,
+          "end": 9.86
+        },
+        {
+          "text": "or",
+          "start": 9.86,
+          "end": 10.02
+        },
+        {
+          "text": "if",
+          "start": 10.02,
+          "end": 10.26
+        },
+        {
+          "text": "a",
+          "start": 10.26,
+          "end": 10.42
+        },
+        {
+          "text": "rolled",
+          "start": 10.42,
+          "end": 10.9
+        },
+        {
+          "text": "ankle",
+          "start": 10.9,
+          "end": 11.379999999999999
+        },
+        {
+          "text": "won't",
+          "start": 11.379999999999999,
+          "end": 11.62
+        },
+        {
+          "text": "take",
+          "start": 11.62,
+          "end": 11.94
+        },
+        {
+          "text": "your",
+          "start": 11.94,
+          "end": 12.1
+        },
+        {
+          "text": "weight.",
+          "start": 12.1,
+          "end": 12.5
+        }
+      ]
+    },
+    {
+      "id": "s68",
+      "start": 553.545,
+      "dur": 3.059,
+      "speechStart": 0.1,
+      "speechDur": 2.709,
+      "words": [
+        {
+          "text": "So",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "which",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "level",
+          "start": 0.74,
+          "end": 1.06
+        },
+        {
+          "text": "are",
+          "start": 1.06,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "you?",
+          "start": 1.2200000000000002,
+          "end": 1.62
+        },
+        {
+          "text": "Count",
+          "start": 1.62,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "your",
+          "start": 1.9400000000000002,
+          "end": 2.1
+        },
+        {
+          "text": "misses.",
+          "start": 2.1,
+          "end": 2.66
+        }
+      ]
+    },
+    {
+      "id": "s69",
+      "start": 556.605,
+      "dur": 10.227,
+      "speechStart": 0.1,
+      "speechDur": 9.877,
+      "words": [
+        {
+          "text": "Can't",
+          "start": 0.18,
+          "end": 0.5
+        },
+        {
+          "text": "land",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "seven",
+          "start": 0.74,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "serves",
+          "start": 1.1400000000000001,
+          "end": 1.62
+        },
+        {
+          "text": "out",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "of",
+          "start": 1.78,
+          "end": 1.86
+        },
+        {
+          "text": "ten,",
+          "start": 1.86,
+          "end": 2.42
+        },
+        {
+          "text": "you're",
+          "start": 2.42,
+          "end": 2.74
+        },
+        {
+          "text": "probably",
+          "start": 2.74,
+          "end": 3.14
+        },
+        {
+          "text": "still",
+          "start": 3.14,
+          "end": 3.46
+        },
+        {
+          "text": "on",
+          "start": 3.46,
+          "end": 3.7
+        },
+        {
+          "text": "level",
+          "start": 3.7,
+          "end": 4.18
+        },
+        {
+          "text": "one,",
+          "start": 4.18,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "landing",
+          "start": 4.819999999999999,
+          "end": 5.3
+        },
+        {
+          "text": "seven",
+          "start": 5.3,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "but",
+          "start": 5.699999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "stuck",
+          "start": 5.9399999999999995,
+          "end": 6.26
+        },
+        {
+          "text": "at",
+          "start": 6.26,
+          "end": 6.42
+        },
+        {
+          "text": "the",
+          "start": 6.42,
+          "end": 6.5
+        },
+        {
+          "text": "back.",
+          "start": 6.5,
+          "end": 7.06
+        },
+        {
+          "text": "Level",
+          "start": 7.06,
+          "end": 7.54
+        },
+        {
+          "text": "two,",
+          "start": 7.54,
+          "end": 8.1
+        },
+        {
+          "text": "return",
+          "start": 8.1,
+          "end": 8.66
+        },
+        {
+          "text": "deep",
+          "start": 8.66,
+          "end": 8.98
+        },
+        {
+          "text": "and",
+          "start": 8.98,
+          "end": 9.139999999999999
+        },
+        {
+          "text": "get",
+          "start": 9.139999999999999,
+          "end": 9.379999999999999
+        },
+        {
+          "text": "forward.",
+          "start": 9.379999999999999,
+          "end": 9.78
+        }
+      ]
+    },
+    {
+      "id": "s70",
+      "start": 566.832,
+      "dur": 7.497,
+      "speechStart": 0.1,
+      "speechDur": 7.147,
+      "words": [
+        {
+          "text": "Getting",
+          "start": 0.18,
+          "end": 0.58
+        },
+        {
+          "text": "forward",
+          "start": 0.58,
+          "end": 0.9
+        },
+        {
+          "text": "but",
+          "start": 0.98,
+          "end": 1.2200000000000002
+        },
+        {
+          "text": "always",
+          "start": 1.2200000000000002,
+          "end": 1.54
+        },
+        {
+          "text": "rushed.",
+          "start": 1.54,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "Level",
+          "start": 2.3400000000000003,
+          "end": 2.74
+        },
+        {
+          "text": "three,",
+          "start": 2.74,
+          "end": 3.22
+        },
+        {
+          "text": "the",
+          "start": 3.22,
+          "end": 3.38
+        },
+        {
+          "text": "drop,",
+          "start": 3.38,
+          "end": 4.02
+        },
+        {
+          "text": "caught",
+          "start": 4.02,
+          "end": 4.34
+        },
+        {
+          "text": "in",
+          "start": 4.34,
+          "end": 4.5
+        },
+        {
+          "text": "midcourt",
+          "start": 4.5,
+          "end": 5.06
+        },
+        {
+          "text": "a",
+          "start": 5.06,
+          "end": 5.22
+        },
+        {
+          "text": "lot.",
+          "start": 5.22,
+          "end": 5.619999999999999
+        },
+        {
+          "text": "Level",
+          "start": 5.619999999999999,
+          "end": 6.02
+        },
+        {
+          "text": "four",
+          "start": 6.02,
+          "end": 6.26
+        },
+        {
+          "text": "the",
+          "start": 6.42,
+          "end": 6.58
+        },
+        {
+          "text": "reset.",
+          "start": 6.58,
+          "end": 7.14
+        }
+      ]
+    },
+    {
+      "id": "s71",
+      "start": 574.329,
+      "dur": 6.259,
+      "speechStart": 0.1,
+      "speechDur": 5.909,
+      "words": [
+        {
+          "text": "It's",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "a",
+          "start": 0.33999999999999997,
+          "end": 0.42000000000000004
+        },
+        {
+          "text": "rough",
+          "start": 0.42000000000000004,
+          "end": 0.74
+        },
+        {
+          "text": "self",
+          "start": 0.74,
+          "end": 1.06
+        },
+        {
+          "text": "check,",
+          "start": 1.1400000000000001,
+          "end": 1.62
+        },
+        {
+          "text": "not",
+          "start": 1.62,
+          "end": 1.78
+        },
+        {
+          "text": "an",
+          "start": 1.78,
+          "end": 1.9400000000000002
+        },
+        {
+          "text": "official",
+          "start": 1.9400000000000002,
+          "end": 2.42
+        },
+        {
+          "text": "rating.",
+          "start": 2.42,
+          "end": 3.22
+        },
+        {
+          "text": "For",
+          "start": 3.22,
+          "end": 3.46
+        },
+        {
+          "text": "that,",
+          "start": 3.46,
+          "end": 3.7800000000000002
+        },
+        {
+          "text": "a",
+          "start": 3.7800000000000002,
+          "end": 3.94
+        },
+        {
+          "text": "rater",
+          "start": 3.94,
+          "end": 4.34
+        },
+        {
+          "text": "watches",
+          "start": 4.5,
+          "end": 4.8999999999999995
+        },
+        {
+          "text": "your",
+          "start": 4.8999999999999995,
+          "end": 5.14
+        },
+        {
+          "text": "whole",
+          "start": 5.14,
+          "end": 5.46
+        },
+        {
+          "text": "game.",
+          "start": 5.46,
+          "end": 5.859999999999999
+        }
+      ]
+    },
+    {
+      "id": "s72",
+      "start": 580.588,
+      "dur": 7.603,
+      "speechStart": 0.1,
+      "speechDur": 7.253,
+      "words": [
+        {
+          "text": "This",
+          "start": 0.1,
+          "end": 0.33999999999999997
+        },
+        {
+          "text": "week,",
+          "start": 0.33999999999999997,
+          "end": 0.74
+        },
+        {
+          "text": "play",
+          "start": 0.74,
+          "end": 1.06
+        },
+        {
+          "text": "two",
+          "start": 1.06,
+          "end": 1.3
+        },
+        {
+          "text": "sessions.",
+          "start": 1.3,
+          "end": 2.18
+        },
+        {
+          "text": "Warm",
+          "start": 2.18,
+          "end": 2.5
+        },
+        {
+          "text": "up,",
+          "start": 2.66,
+          "end": 2.98
+        },
+        {
+          "text": "do",
+          "start": 2.98,
+          "end": 3.22
+        },
+        {
+          "text": "one",
+          "start": 3.22,
+          "end": 3.3000000000000003
+        },
+        {
+          "text": "10",
+          "start": 3.46,
+          "end": 3.94
+        },
+        {
+          "text": "ball",
+          "start": 3.94,
+          "end": 4.34
+        },
+        {
+          "text": "test,",
+          "start": 4.34,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "then",
+          "start": 4.819999999999999,
+          "end": 4.9799999999999995
+        },
+        {
+          "text": "spend",
+          "start": 5.14,
+          "end": 5.38
+        },
+        {
+          "text": "15",
+          "start": 5.38,
+          "end": 5.779999999999999
+        },
+        {
+          "text": "minutes",
+          "start": 5.779999999999999,
+          "end": 6.02
+        },
+        {
+          "text": "on",
+          "start": 6.02,
+          "end": 6.18
+        },
+        {
+          "text": "your",
+          "start": 6.18,
+          "end": 6.34
+        },
+        {
+          "text": "levels",
+          "start": 6.34,
+          "end": 6.819999999999999
+        },
+        {
+          "text": "drill.",
+          "start": 6.819999999999999,
+          "end": 7.22
+        }
+      ]
+    },
+    {
+      "id": "s73",
+      "start": 588.191,
+      "dur": 7.628,
+      "speechStart": 0.1,
+      "speechDur": 6.528,
+      "words": [
+        {
+          "text": "Remember",
+          "start": 0.1,
+          "end": 0.5
+        },
+        {
+          "text": "that",
+          "start": 0.5,
+          "end": 0.74
+        },
+        {
+          "text": "ball",
+          "start": 0.74,
+          "end": 1.1400000000000001
+        },
+        {
+          "text": "you",
+          "start": 1.1400000000000001,
+          "end": 1.3
+        },
+        {
+          "text": "smash",
+          "start": 1.3,
+          "end": 1.86
+        },
+        {
+          "text": "straight",
+          "start": 1.86,
+          "end": 2.1
+        },
+        {
+          "text": "back",
+          "start": 2.1,
+          "end": 2.3400000000000003
+        },
+        {
+          "text": "at",
+          "start": 2.3400000000000003,
+          "end": 2.5
+        },
+        {
+          "text": "your",
+          "start": 2.5,
+          "end": 2.74
+        },
+        {
+          "text": "feet.",
+          "start": 2.74,
+          "end": 3.38
+        },
+        {
+          "text": "Next",
+          "start": 3.38,
+          "end": 3.86
+        },
+        {
+          "text": "time,",
+          "start": 3.86,
+          "end": 4.26
+        },
+        {
+          "text": "hit",
+          "start": 4.26,
+          "end": 4.58
+        },
+        {
+          "text": "it",
+          "start": 4.58,
+          "end": 4.819999999999999
+        },
+        {
+          "text": "soft",
+          "start": 4.819999999999999,
+          "end": 5.14
+        },
+        {
+          "text": "and",
+          "start": 5.14,
+          "end": 5.38
+        },
+        {
+          "text": "walk",
+          "start": 5.38,
+          "end": 5.699999999999999
+        },
+        {
+          "text": "in",
+          "start": 5.699999999999999,
+          "end": 5.9399999999999995
+        },
+        {
+          "text": "behind",
+          "start": 5.9399999999999995,
+          "end": 6.26
+        },
+        {
+          "text": "it.",
+          "start": 6.26,
+          "end": 6.5
+        }
+      ]
+    },
+    {
+      "id": "endcard",
+      "start": 595.819,
+      "dur": 4,
+      "speechStart": 0,
+      "speechDur": 0
+    }
+  ],
+  "total": 599.819
+}

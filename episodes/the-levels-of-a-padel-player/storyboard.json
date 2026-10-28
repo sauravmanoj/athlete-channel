@@ -1,0 +1,2473 @@
+{
+ "title": "The levels of a padel player",
+ "thumbnail": {
+  "pose": "flinch",
+  "face": "surprised",
+  "props": {
+   "r": "padel"
+  },
+  "background": "court",
+  "headline": "Your real level?",
+  "highlight": "level",
+  "icons": [
+   {
+    "icon": "question",
+    "pos": [
+     150,
+     150
+    ],
+    "size": 1.3
+   }
+  ],
+  "side": "right"
+ },
+ "youtube": {
+  "title": "The levels of a padel player",
+  "titleOptions": [
+   "Which padel level are you really?",
+   "From Wall Dodger to Tournament Player: the 5 padel levels"
+  ],
+  "description": "Your Playtomic number says one thing, but what can you actually do on court? Padel is a fight for the net, and every level up gives you one more tool to win it or keep it: the back glass, moving as a pair, the lob, the bandeja and smart shot choice. Here are the five levels, which one you're really at, and the drill that moves you up.",
+  "tags": [
+   "padel",
+   "padel levels",
+   "padel level",
+   "playtomic level",
+   "padel for beginners",
+   "padel tips",
+   "bandeja",
+   "padel lob",
+   "padel drills",
+   "how to get better at padel",
+   "padel back glass",
+   "padel tactics",
+   "LTA padel rating",
+   "padel rules"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "mascot",
+   "chapter": "Intro",
+   "background": "court",
+   "transition": "fade",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready",
+     "face": "focused"
+    },
+    {
+     "pose": "flinch",
+     "at": "@smacks"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@point"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "near": "head",
+     "offset": [
+      150,
+      -170
+     ],
+     "at": "@point"
+    }
+   ],
+   "caption": {
+    "text": "Ouch…",
+    "at": "@smacks"
+   },
+   "pauseAfter": 0.5,
+   "narration": "The ball flies past you, hits the back glass, and smacks you in the back. Point lost."
+  },
+  {
+   "id": "s02",
+   "kind": "slam",
+   "text": "The glass is your friend",
+   "highlight": "friend",
+   "style": "dark",
+   "icon": "check",
+   "pauseAfter": 0.6,
+   "narration": "In padel, the glass is not your enemy. It's your friend. And learning that is just level 1."
+  },
+  {
+   "id": "s03",
+   "kind": "mascot",
+   "background": "spotlight",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "present",
+     "face": "happy"
+    },
+    {
+     "pose": "think",
+     "at": "@really"
+    },
+    {
+     "pose": "point_up",
+     "at": "@skill"
+    }
+   ],
+   "headline": {
+    "text": "Which level are you?",
+    "highlight": "level",
+    "at": "@five",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      -130,
+      -150
+     ],
+     "at": "@really"
+    }
+   ],
+   "narration": "Today: the five levels of padel, which one you're really at, and the one skill that moves you up."
+  },
+  {
+   "id": "s04",
+   "kind": "stat",
+   "chapter": "The five levels",
+   "value": 5.6,
+   "decimals": 1,
+   "suffix": " / 7",
+   "label": "the amateur ceiling on Playtomic's 0–7 scale",
+   "highlight": "amateur ceiling",
+   "icon": "target",
+   "at": "@rates",
+   "mascot": {
+    "props": {
+     "r": "phone"
+    },
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@amateurs"
+     }
+    ]
+   },
+   "narration": "First, the numbers. Playtomic, a booking app a lot of club players use, rates you from 0 to 7. Amateurs top out at 5.6."
+  },
+  {
+   "id": "s05",
+   "kind": "list",
+   "title": "Your app number depends on…",
+   "mascot": {
+    "props": {
+     "r": "phone"
+    },
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "shrug",
+      "face": "surprised",
+      "at": "@barely"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Your partner",
+     "icon": "heart",
+     "at": "@with"
+    },
+    {
+     "text": "Your opponents",
+     "icon": "target",
+     "at": "@against"
+    },
+    {
+     "text": "How sure the app is",
+     "icon": "question",
+     "at": "@sure"
+    },
+    {
+     "text": "Win… and barely move",
+     "icon": "cross",
+     "at": "@win"
+    }
+   ],
+   "narration": "It comes from match results: who you played with, who you played against, and how sure the app is about you. So you can win and barely move."
+  },
+  {
+   "id": "s06",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "at": "@pick"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@sounds"
+    }
+   ],
+   "headline": {
+    "text": "Pick your sentence",
+    "highlight": "sentence",
+    "at": "@pick",
+    "side": "right"
+   },
+   "caption": {
+    "text": "LTA: 1.0 – 7.0",
+    "at": "@1.0"
+   },
+   "narration": "The LTA's padel rating works differently. From 1.0 to 7.0, you pick the sentence that sounds like you."
+  },
+  {
+   "id": "s07",
+   "kind": "slam",
+   "text": "Numbers differ. Skills don't.",
+   "highlight": "Skills",
+   "style": "brand",
+   "icon": "muscle",
+   "narration": "The numbers differ. The skills don't. So my five levels are built on skills, and the names are mine."
+  },
+  {
+   "id": "s08",
+   "kind": "lineup",
+   "title": "The levels of a padel player",
+   "grow": true,
+   "highlight": 5,
+   "dimPrevious": true,
+   "members": [
+    {
+     "pose": "flinch",
+     "face": "surprised",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Wall Dodger",
+     "sub": "scared of the glass",
+     "at": "@dodger"
+    },
+    {
+     "pose": "drive_finish",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Rallier",
+     "sub": "keeps it going",
+     "at": "@rallier"
+    },
+    {
+     "pose": "lob",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Wall Player",
+     "sub": "plays off the glass",
+     "at": "@3"
+    },
+    {
+     "pose": "bandeja",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Net Keeper",
+     "sub": "the bandeja",
+     "at": "@keeper"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Tournament Player",
+     "sub": "right shot, big points",
+     "at": "@tournament"
+    }
+   ],
+   "pauseAfter": 0.4,
+   "narration": "Level 1, the Wall Dodger. Level 2, the Rallier. Level 3, the Wall Player. Level 4, the Net Keeper. And Level 5, the Tournament Player."
+  },
+  {
+   "id": "s09",
+   "kind": "slam",
+   "text": "A fight for the net",
+   "highlight": "net",
+   "style": "dark",
+   "icon": "target",
+   "narration": "And there's a hidden thread. Padel is a fight for the net."
+  },
+  {
+   "id": "s10",
+   "kind": "chart",
+   "title": "4 men's pro finals (one study)",
+   "unit": "%",
+   "max": 130,
+   "focus": 0,
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@85"
+     },
+     {
+      "pose": "shrug",
+      "at": "@none"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Winning pair",
+     "value": 85,
+     "display": "attacked in 85% of points",
+     "at": "@85",
+     "color": "accent"
+    },
+    {
+     "label": "Losing pair",
+     "value": 47,
+     "display": "no attack in 47%",
+     "at": "@47"
+    }
+   ],
+   "narration": "In one study of four men's pro finals, the winning pair played at least one attacking shot in 85% of points. The losing pair played none in 47% of points.",
+   "pauseAfter": 0.8
+  },
+  {
+   "id": "s11",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "position": "left",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.5,
+    "from": 0,
+    "to": "@net"
+   },
+   "move": {
+    "to": "center",
+    "at": 0.2,
+    "dur": 2.0
+   },
+   "poses": [
+    {
+     "pose": "walk_a"
+    },
+    {
+     "pose": "bandeja",
+     "at": "@keep"
+    }
+   ],
+   "narration": "Every level up gives you one more tool to win the net, or keep it."
+  },
+  {
+   "id": "s12",
+   "kind": "title",
+   "chapter": "Level 1: The Wall Dodger",
+   "transition": "push",
+   "number": 1,
+   "heading": "The Wall Dodger",
+   "sub": "getting the ball in play",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "padel_ready",
+      "face": "focused"
+     },
+     {
+      "pose": "flinch",
+      "at": "@working"
+     }
+    ]
+   },
+   "narration": "On the LTA scale, the 1.0 player is still working on getting the ball in play."
+  },
+  {
+   "id": "s13",
+   "kind": "custom",
+   "file": "custom/walls_a.html",
+   "narration": "Rule one: your shot must land on the floor of the other side first. If it hits their glass before it bounces, you lose the point."
+  },
+  {
+   "id": "s14",
+   "kind": "custom",
+   "file": "custom/walls_b.html",
+   "narration": "Rule two: after one bounce, the ball can hit any wall, and it's still in play until it bounces again."
+  },
+  {
+   "id": "s15",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel",
+    "l": "tennisball"
+   },
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "swing_back",
+     "at": "@bounce"
+    },
+    {
+     "pose": "soft_hit",
+     "at": "@hit"
+    }
+   ],
+   "headline": {
+    "text": "Serve below the waist",
+    "highlight": "waist",
+    "at": "@underarm",
+    "side": "right"
+   },
+   "callouts": [
+    {
+     "label": "Waist height",
+     "target": "hips",
+     "at": "@waist"
+    }
+   ],
+   "narration": "The serve is underarm. Bounce the ball, then hit it at or below your waist, diagonally into the box."
+  },
+  {
+   "id": "s16",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "side_stand",
+     "face": "happy",
+     "at": "@wait"
+    },
+    {
+     "pose": "soft_hit",
+     "face": "happy",
+     "at": "@easier"
+    }
+   ],
+   "caption": {
+    "text": "Wait for it…",
+    "at": "@wait"
+   },
+   "narration": "Think of a wall passing the ball back to you. Wait, and it comes to you, slower and easier."
+  },
+  {
+   "id": "s17",
+   "kind": "list",
+   "title": "Warm-up: 6–8 minutes",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_b"
+     ],
+     "period": 0.45,
+     "from": 0,
+     "to": "@swings"
+    },
+    "poses": [
+     {
+      "pose": "run_a"
+     },
+     {
+      "pose": "lunge",
+      "at": "@lunges"
+     },
+     {
+      "pose": "calf_raise",
+      "at": "@calf"
+     },
+     {
+      "pose": "drive_finish",
+      "props": {
+       "r": "padel"
+      },
+      "at": "@volleys"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Easy jog, side shuffles",
+     "icon": "heart",
+     "at": "@jogging"
+    },
+    {
+     "text": "Leg swings, lunges",
+     "icon": "muscle",
+     "at": "@leg"
+    },
+    {
+     "text": "Calf raises, arm circles",
+     "icon": "muscle",
+     "at": "@calf"
+    },
+    {
+     "text": "Volleys, then groundstrokes",
+     "icon": "target",
+     "at": "@volleys"
+    },
+    {
+     "text": "Overheads last",
+     "icon": "check",
+     "at": "@overheads"
+    }
+   ],
+   "narration": "Before any drill in this video, warm up for 6 to 8 minutes: easy jogging, side shuffles, leg swings, lunges, calf raises and arm circles. Then volleys and groundstrokes, overheads last."
+  },
+  {
+   "id": "s18",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "wave",
+     "face": "happy"
+    },
+    {
+     "pose": "point_up",
+     "at": "@build"
+    },
+    {
+     "pose": "hold_calf",
+     "at": "@pain"
+    }
+   ],
+   "headline": {
+    "text": "Don't play through pain",
+    "highlight": "pain",
+    "at": "@build",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "cross",
+     "near": "head",
+     "offset": [
+      -140,
+      -140
+     ],
+     "at": "@pain"
+    }
+   ],
+   "narration": "New to padel, or back after a break? Build up your court time week by week, and don't play through pain."
+  },
+  {
+   "id": "s19",
+   "kind": "slam",
+   "text": "Read the back glass",
+   "highlight": "glass",
+   "style": "brand",
+   "icon": "target",
+   "sub": "early racket · let it come off · take the pace off",
+   "narration": "To move up, read the back glass. Prepare your racket early, let the ball come off the glass, and take the pace off it."
+  },
+  {
+   "id": "s20",
+   "kind": "mascot",
+   "background": "court",
+   "poses": [
+    {
+     "pose": "ready"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@turn"
+    },
+    {
+     "pose": "block",
+     "face": "happy",
+     "at": "@catch"
+    }
+   ],
+   "headline": {
+    "text": "Toss and turn",
+    "highlight": "turn",
+    "at": 0.3,
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "check",
+     "near": "head",
+     "offset": [
+      140,
+      -160
+     ],
+     "at": "@catch"
+    }
+   ],
+   "narration": "The drill: toss and turn. Your partner tosses a ball that bounces once and hits your back glass. Turn side-on, let it come off, and catch it."
+  },
+  {
+   "id": "s21",
+   "kind": "list",
+   "title": "Toss and turn",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "soft_hit",
+      "at": "@soft"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "3 × 10",
+     "icon": "stopwatch",
+     "at": "@sets"
+    },
+    {
+     "text": "Twice a week",
+     "icon": "clock",
+     "at": "@twice"
+    },
+    {
+     "text": "Then: a soft shot",
+     "icon": "target",
+     "at": "@soft"
+    }
+   ],
+   "narration": "3 sets of 10, twice a week. Then swap the catch for a soft shot.",
+   "pauseAfter": 0.8
+  },
+  {
+   "id": "s22",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "facepalm"
+    },
+    {
+     "pose": "swing_back",
+     "rUpper": 120,
+     "rFore": -20,
+     "at": "@swinging"
+    },
+    {
+     "pose": "short_back",
+     "at": "@short"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "at": "@swinging",
+     "pos": [
+      1500,
+      280
+     ]
+    },
+    {
+     "icon": "check",
+     "at": "@short",
+     "pos": [
+      1500,
+      280
+     ]
+    }
+   ],
+   "caption": {
+    "text": "Short backswing",
+    "at": "@short"
+   },
+   "pauseAfter": 0.5,
+   "narration": "The mistake? Swinging like a tennis player. Keep your backswing short on both sides."
+  },
+  {
+   "id": "s23",
+   "kind": "title",
+   "chapter": "Level 2: The Rallier",
+   "transition": "push",
+   "number": 2,
+   "heading": "The Rallier",
+   "sub": "rallies, but no technique yet",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "cycle": {
+     "poses": [
+      "swing_back",
+      "drive_finish"
+     ],
+     "period": 1.0
+    }
+   },
+   "narration": "The LTA 2.5 player can rally with basic shots, but lacks technique."
+  },
+  {
+   "id": "s24",
+   "kind": "custom",
+   "file": "custom/pairs.html",
+   "narration": "The Rallier trap: one partner at the net, one at the back. The ball goes straight through the gap."
+  },
+  {
+   "id": "s25",
+   "kind": "custom",
+   "file": "custom/shapes.html",
+   "narration": "The LTA's two normal shapes: both up at the net, or both back defending."
+  },
+  {
+   "id": "s26",
+   "kind": "versus",
+   "opponentTint": false,
+   "vs": "=",
+   "left": {
+    "label": "You",
+    "props": {
+     "r": "padel"
+    },
+    "pose": "padel_ready",
+    "poses": [
+     {
+      "pose": "padel_ready"
+     },
+     {
+      "pose": "lunge",
+      "at": "@tied"
+     },
+     {
+      "pose": "padel_ready",
+      "at": "@move"
+     },
+     {
+      "pose": "lunge",
+      "at": "@one"
+     },
+     {
+      "pose": "padel_ready",
+      "face": "happy",
+      "at": "@one+0.6"
+     }
+    ]
+   },
+   "right": {
+    "label": "Partner",
+    "props": {
+     "r": "padel"
+    },
+    "pose": "padel_ready",
+    "poses": [
+     {
+      "pose": "padel_ready"
+     },
+     {
+      "pose": "lunge",
+      "at": "@tied"
+     },
+     {
+      "pose": "padel_ready",
+      "at": "@move"
+     },
+     {
+      "pose": "lunge",
+      "at": "@one"
+     },
+     {
+      "pose": "padel_ready",
+      "face": "happy",
+      "at": "@one+0.6"
+     }
+    ],
+    "facing": "right",
+    "at": 0.1
+   },
+   "narration": "Think of two windscreen wipers tied together. You move as one."
+  },
+  {
+   "id": "s27",
+   "kind": "mascot",
+   "background": "spotlight",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "point_up",
+     "at": "@pair"
+    }
+   ],
+   "headline": {
+    "text": "Consistent, as a pair",
+    "highlight": "pair",
+    "at": "@consistent",
+    "side": "right"
+   },
+   "narration": "To move up: be consistent, and move as a pair."
+  },
+  {
+   "id": "s28",
+   "kind": "list",
+   "title": "Drill 1: cross-court count",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "cycle": {
+     "poses": [
+      "swing_back",
+      "drive_finish"
+     ],
+     "period": 1.1
+    }
+   },
+   "items": [
+    {
+     "text": "Diagonal, half court",
+     "icon": "target",
+     "at": "@diagonally"
+    },
+    {
+     "text": "Count your longest streak",
+     "icon": "check",
+     "at": "@streak"
+    },
+    {
+     "text": "3 × 3 minutes",
+     "icon": "stopwatch",
+     "at": "@rounds"
+    },
+    {
+     "text": "Aim: 10, then 20",
+     "icon": "trophy",
+     "at": "@aim"
+    }
+   ],
+   "narration": "Drill 1: the cross-court count. Rally diagonally in half the court and count your longest streak. 3 rounds of 3 minutes. Aim for 10 in a row, then 20."
+  },
+  {
+   "id": "s29",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "position": "left",
+   "poses": [
+    {
+     "pose": "padel_ready"
+    }
+   ],
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.4,
+    "from": "@up",
+    "to": "@together+0.6"
+   },
+   "move": {
+    "to": "center",
+    "at": "@up",
+    "dur": 1.6
+   },
+   "caption": {
+    "text": "4 × 30 seconds",
+    "at": "@rounds"
+   },
+   "narration": "Drill 2: mirror shadowing. No ball. A coach calls \"up\" or \"back\", and you both move together. 4 rounds of 30 seconds."
+  },
+  {
+   "id": "s30",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "wave",
+     "face": "happy",
+     "at": "@mine"
+    },
+    {
+     "pose": "present",
+     "at": "@yours"
+    }
+   ],
+   "caption": {
+    "text": "“Mine!” / “Yours!”",
+    "at": "@mine"
+   },
+   "narration": "Call \"mine\" or \"yours\" on balls down the middle, so you don't clash rackets."
+  },
+  {
+   "id": "s31",
+   "kind": "versus",
+   "opponentTint": false,
+   "left": {
+    "label": "Power",
+    "pose": "drive_finish",
+    "face": "determined",
+    "props": {
+     "r": "padel"
+    }
+   },
+   "right": {
+    "label": "Placement",
+    "pose": "soft_hit",
+    "face": "happy",
+    "props": {
+     "r": "padel"
+    }
+   },
+   "vs": "<",
+   "pauseAfter": 0.5,
+   "narration": "The mistake? Hitting hard to win the point. Placement beats power here."
+  },
+  {
+   "id": "s32",
+   "kind": "title",
+   "chapter": "Level 3: The Wall Player",
+   "transition": "push",
+   "number": 3,
+   "heading": "The Wall Player",
+   "sub": "consistent, plays off the wall",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "padel_ready"
+     },
+     {
+      "pose": "lob",
+      "at": "@consistent"
+     }
+    ]
+   },
+   "narration": "At LTA 3.0, you're pretty consistent and can use tactics like playing off the wall."
+  },
+  {
+   "id": "s33",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "block"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@defending"
+    },
+    {
+     "pose": "shrug",
+     "at": "@owns"
+    }
+   ],
+   "gauges": [
+    {
+     "label": "Net control",
+     "icon": "target",
+     "from": 50,
+     "to": 10,
+     "at": 0.2,
+     "changeAt": "@owns"
+    }
+   ],
+   "narration": "The problem? You're stuck at the back, defending, while the other pair owns the net."
+  },
+  {
+   "id": "s34",
+   "kind": "custom",
+   "file": "custom/lob.html",
+   "narration": "The way out is the lob. The LTA calls it the most important shot in padel. It pushes the net pair back and buys you time to move in."
+  },
+  {
+   "id": "s35",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "swing_back"
+    },
+    {
+     "pose": "lob",
+     "face": "happy",
+     "at": "@over"
+    }
+   ],
+   "headline": {
+    "text": "Over, not through",
+    "highlight": "Over",
+    "at": "@through",
+    "side": "right"
+   },
+   "narration": "Picture a rainbow over a castle wall. You can't go through the defenders, so you go over them."
+  },
+  {
+   "id": "s36",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "lob"
+    },
+    {
+     "pose": "lob_load",
+     "at": "@bend"
+    },
+    {
+     "pose": "lob",
+     "at": "@low"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Bend the knees",
+     "target": "lKnee",
+     "at": "@bend",
+     "side": "left",
+     "dy": 60
+    }
+   ],
+   "caption": {
+    "text": "Past the service line, before the glass",
+    "at": "@landing"
+   },
+   "narration": "Hit it high, cross-court, landing just past the service line and before the back glass. Bend your legs and swing low to high."
+  },
+  {
+   "id": "s37",
+   "kind": "list",
+   "title": "Drill: two up, two back",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "cycle": {
+     "poses": [
+      "lob_load",
+      "lob"
+     ],
+     "period": 1.4,
+     "to": "@first"
+    },
+    "poses": [
+     {
+      "pose": "lob_load"
+     },
+     {
+      "pose": "celebrate",
+      "face": "happy",
+      "at": "@first"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Back pair starts with a lob",
+     "icon": "target",
+     "at": "@starts"
+    },
+    {
+     "text": "Play the point out",
+     "icon": "check",
+     "at": "@played"
+    },
+    {
+     "text": "Swap every 2 points",
+     "icon": "clock",
+     "at": "@swap"
+    },
+    {
+     "text": "First pair to 10",
+     "icon": "trophy",
+     "at": "@first"
+    }
+   ],
+   "narration": "The drill: two up, two back. The pair at the back starts every point with a lob, then the point is played out. Swap every 2 points. First pair to 10."
+  },
+  {
+   "id": "s38",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "facing": "left",
+   "position": "right",
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@stop"
+    }
+   ],
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.35,
+    "from": "@run",
+    "to": "@stop"
+   },
+   "move": {
+    "to": "left",
+    "at": "@run",
+    "dur": 1.2
+   },
+   "caption": {
+    "text": "Stop short of the glass",
+    "at": "@stop"
+   },
+   "narration": "If you're being lobbed, turn side-on and run back, but stop short of the glass."
+  },
+  {
+   "id": "s39",
+   "kind": "custom",
+   "file": "custom/lob_back.html",
+   "narration": "Let the lob bounce and come off the wall, then play it. One player chases, the other calls it."
+  },
+  {
+   "id": "s40",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "position": "left",
+   "poses": [
+    {
+     "pose": "lob",
+     "face": "happy"
+    },
+    {
+     "pose": "arms_crossed",
+     "at": "@staying"
+    },
+    {
+     "pose": "run_a",
+     "face": "determined",
+     "at": "@ticket"
+    }
+   ],
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_b"
+    ],
+    "period": 0.35,
+    "from": "@ticket"
+   },
+   "move": {
+    "to": "right",
+    "at": "@ticket",
+    "dur": 1.6
+   },
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@staying"
+    },
+    {
+     "icon": "check",
+     "pos": [
+      1500,
+      300
+     ],
+     "at": "@ticket"
+    }
+   ],
+   "pauseAfter": 0.6,
+   "narration": "The mistake? Hitting a great lob, then staying at the back. The lob is your ticket to the net. Use it."
+  },
+  {
+   "id": "s41",
+   "kind": "title",
+   "chapter": "Level 4: The Net Keeper",
+   "transition": "push",
+   "number": 4,
+   "heading": "The Net Keeper",
+   "sub": "controlled, covers the court",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "padel_ready"
+     },
+     {
+      "pose": "bandeja",
+      "at": "@cover"
+     }
+    ]
+   },
+   "narration": "At LTA 4.0, you're controlled, you cover the court well, and you know basic padel tactics."
+  },
+  {
+   "id": "s42",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "point_up",
+     "face": "surprised",
+     "at": "@lobs"
+    },
+    {
+     "pose": "bandeja_prep",
+     "at": "@answer"
+    },
+    {
+     "pose": "bandeja",
+     "at": "@bandeja"
+    }
+   ],
+   "headline": {
+    "text": "The bandeja",
+    "highlight": "bandeja",
+    "at": "@answer",
+    "side": "right"
+   },
+   "narration": "Now you hold the net, so the other pair lobs you. Your answer is the bandeja."
+  },
+  {
+   "id": "s43",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "bandeja_prep"
+    },
+    {
+     "pose": "bandeja",
+     "at": "@eye"
+    },
+    {
+     "pose": "bandeja_finish",
+     "at": "@across"
+    }
+   ],
+   "caption": {
+    "text": "bandeja = tray",
+    "at": 0.2
+   },
+   "callouts": [
+    {
+     "label": "Eye height",
+     "target": "eyes",
+     "at": "@eye",
+     "side": "right",
+     "dist": 360
+    },
+    {
+     "label": "Across the body",
+     "target": "rHand",
+     "at": "@across",
+     "side": "left"
+    }
+   ],
+   "narration": "Bandeja is Spanish for \"tray\". It's an overhead with an open face, hit at about eye height, across your body, with slice."
+  },
+  {
+   "id": "s44",
+   "kind": "slam",
+   "text": "It keeps you at the net",
+   "highlight": "net",
+   "style": "dark",
+   "icon": "target",
+   "pauseAfter": 0.5,
+   "narration": "It's not meant to win the point. It keeps you at the net."
+  },
+  {
+   "id": "s45",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present",
+     "face": "happy"
+    },
+    {
+     "pose": "drive_finish",
+     "face": "surprised",
+     "at": "@smash"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "water",
+     "near": "rHand",
+     "offset": [
+      0,
+      -80
+     ],
+     "at": "@drinks"
+    },
+    {
+     "icon": "check",
+     "pos": [
+      1500,
+      280
+     ],
+     "at": "@smooth"
+    },
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      280
+     ],
+     "at": "@throwing"
+    }
+   ],
+   "narration": "Think of carrying a tray of drinks. Smooth and flat, so nothing spills. A smash is throwing the tray."
+  },
+  {
+   "id": "s46",
+   "kind": "chart",
+   "title": "Attacking shots · 4 men's pro finals",
+   "unit": "%",
+   "max": 30,
+   "focus": 0,
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "bandeja"
+     },
+     {
+      "pose": "point_up",
+      "at": "@smashes"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Bandeja",
+     "value": 23,
+     "display": "~23%",
+     "at": "@bandejas",
+     "color": "accent"
+    },
+    {
+     "label": "Smash",
+     "value": 12,
+     "display": "~12%",
+     "at": "@smashes"
+    }
+   ],
+   "narration": "In those pro finals, bandejas were about 23% of attacking shots. Smashes, only about 12%."
+  },
+  {
+   "id": "s47",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "bandeja_prep"
+    },
+    {
+     "pose": "bandeja",
+     "face": "determined",
+     "at": "@shoulder"
+    }
+   ],
+   "headline": {
+    "text": "Víbora = viper",
+    "highlight": "viper",
+    "at": "@viper",
+    "side": "right"
+   },
+   "callouts": [
+    {
+     "label": "Shoulder height",
+     "target": "rShoulder",
+     "at": "@shoulder",
+     "side": "left"
+    }
+   ],
+   "narration": "Its attacking cousin is the víbora, or \"viper\": an overhead hit around head or shoulder height, with side-spin."
+  },
+  {
+   "id": "s48",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "position": "left",
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@turn"
+    },
+    {
+     "pose": "bandeja_prep",
+     "at": "@racket"
+    },
+    {
+     "pose": "bandeja",
+     "at": "@swing"
+    },
+    {
+     "pose": "bandeja_finish",
+     "at": "@body"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@step"
+    },
+    {
+     "pose": "padel_ready",
+     "face": "happy",
+     "at": "@sets"
+    }
+   ],
+   "move": {
+    "to": "center",
+    "at": "@step",
+    "dur": 1.0
+   },
+   "caption": {
+    "text": "3 × 10",
+    "at": "@sets"
+   },
+   "narration": "Drill 1: shadow bandeja. No ball. Turn sideways, racket up like a tray, swing across your body at eye height, then step back in to the net. 3 sets of 10."
+  },
+  {
+   "id": "s49",
+   "kind": "list",
+   "title": "Drill 2: defend the net",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "padel_ready"
+     },
+     {
+      "pose": "bandeja",
+      "at": "@land"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "2 up, 2 back",
+     "icon": "target",
+     "at": "@2"
+    },
+    {
+     "text": "Back pair lobs",
+     "icon": "question",
+     "at": "@lobs"
+    },
+    {
+     "text": "Bandeja past the service line",
+     "icon": "check",
+     "at": "@land"
+    },
+    {
+     "text": "Play it out",
+     "icon": "trophy",
+     "at": "@play"
+    }
+   ],
+   "narration": "Drill 2: defend the net. 2 at the net, 2 at the back. The back pair lobs. The net pair must land a bandeja past the service line, then play it out."
+  },
+  {
+   "id": "s50",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "bandeja_prep",
+     "at": "@soft"
+    },
+    {
+     "pose": "bandeja",
+     "face": "happy",
+     "at": "@live"
+    }
+   ],
+   "caption": {
+    "text": "Swap every 2 points",
+    "at": 0.2
+   },
+   "headline": {
+    "text": "Soft feeds first",
+    "highlight": "Soft",
+    "at": "@start",
+    "side": "right"
+   },
+   "narration": "Swap every 2 points. First to 10. Start with soft hand-fed lobs, and go live once most of your bandejas land deep."
+  },
+  {
+   "id": "s51",
+   "kind": "mascot",
+   "background": "plain",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "point_up",
+     "face": "focused"
+    },
+    {
+     "pose": "smash",
+     "at": "@overhead-0.8",
+     "face": "focused"
+    },
+    {
+     "pose": "land",
+     "at": "@land",
+     "face": "focused"
+    },
+    {
+     "pose": "sprint",
+     "at": "@push",
+     "face": "focused"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Calf (back of lower leg)",
+     "target": "rCalf",
+     "at": "@calf",
+     "side": "left"
+    }
+   ],
+   "narration": "Before you start, careful: the typical padel calf tear happens when you land on one leg after an overhead and push off to volley."
+  },
+  {
+   "id": "s52",
+   "kind": "list",
+   "title": "Build your calves first",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "stand",
+      "calf_raise"
+     ],
+     "period": 1.2
+    }
+   },
+   "items": [
+    {
+     "text": "Calf raises, 2–3× a week",
+     "icon": "muscle",
+     "at": "@raises"
+    },
+    {
+     "text": "Straight-knee + bent-knee",
+     "icon": "check",
+     "at": "@straight"
+    },
+    {
+     "text": "3 × 10–15",
+     "icon": "stopwatch",
+     "at": "@sets"
+    },
+    {
+     "text": "Build to one leg",
+     "icon": "trophy",
+     "at": "@building"
+    }
+   ],
+   "narration": "So first, build your calves: calf raises 2 or 3 times a week, straight-knee and bent-knee, 3 sets of 10 to 15, building to one leg."
+  },
+  {
+   "id": "s53",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "bandeja"
+    },
+    {
+     "pose": "land",
+     "at": "@land"
+    },
+    {
+     "pose": "hold_calf",
+     "face": "tired",
+     "at": "@hurts"
+    },
+    {
+     "pose": "point_up",
+     "at": "@physio"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1500,
+      280
+     ],
+     "at": "@minutes"
+    }
+   ],
+   "caption": {
+    "text": "~10 min of overheads",
+    "at": "@minutes"
+   },
+   "narration": "Keep early overhead sessions to about 10 minutes, and land on both feet when you can. If your shoulder or calf already hurts, see a physio first."
+  },
+  {
+   "id": "s54",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "smash",
+     "face": "determined",
+     "at": "@smashing"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@backing"
+    },
+    {
+     "pose": "bandeja",
+     "face": "happy",
+     "at": "@hit"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@step"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      280
+     ],
+     "at": "@smashing"
+    },
+    {
+     "icon": "check",
+     "pos": [
+      1500,
+      280
+     ],
+     "at": "@hit"
+    }
+   ],
+   "pauseAfter": 0.6,
+   "narration": "The mistake? Smashing every lob. Then backing off to the baseline. Hit the bandeja, and step back in."
+  },
+  {
+   "id": "s55",
+   "kind": "title",
+   "chapter": "Level 5: The Tournament Player",
+   "transition": "push",
+   "number": 5,
+   "heading": "The Tournament Player",
+   "sub": "experienced, knows the tactics",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "padel_ready"
+     },
+     {
+      "pose": "think",
+      "at": "@understanding"
+     }
+    ]
+   },
+   "narration": "LTA 5.0 is an experienced tournament player with a very good understanding of padel tactics."
+  },
+  {
+   "id": "s56",
+   "kind": "mascot",
+   "background": "spotlight",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "face": "determined",
+     "at": "@choosing"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "brain",
+     "near": "head",
+     "offset": [
+      -140,
+      -120
+     ],
+     "at": "@choosing"
+    }
+   ],
+   "headline": {
+    "text": "Choose the right shot",
+    "highlight": "right",
+    "at": "@choosing",
+    "side": "right"
+   },
+   "narration": "The jump isn't a new shot. It's choosing the right one under pressure."
+  },
+  {
+   "id": "s57",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "bandeja_prep"
+    },
+    {
+     "pose": "smash",
+     "face": "determined",
+     "at": "@smash"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "at": "@wall"
+    }
+   ],
+   "caption": {
+    "text": "x3 = out over the side wall",
+    "at": "@bounces"
+   },
+   "narration": "The por tres, or x3: a kick smash from close to the net that bounces out over the side wall."
+  },
+  {
+   "id": "s58",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready",
+     "face": "focused"
+    },
+    {
+     "pose": "think",
+     "at": "@golden"
+    },
+    {
+     "pose": "point_up",
+     "at": "@one"
+    }
+   ],
+   "headline": {
+    "text": "Golden point",
+    "highlight": "Golden",
+    "at": "@golden",
+    "side": "right"
+   },
+   "caption": {
+    "text": "Deuce → 1 deciding point",
+    "at": "@deuce"
+   },
+   "narration": "And the big points. With golden point scoring, deuce is settled by one deciding point."
+  },
+  {
+   "id": "s58b",
+   "kind": "stat",
+   "value": 60,
+   "prefix": ">",
+   "suffix": "%",
+   "label": "of men's pro golden points ended in an error",
+   "highlight": "error",
+   "icon": "cross",
+   "at": "@60",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "facepalm",
+      "at": "@error"
+     }
+    ]
+   },
+   "narration": "In men's pro golden points, more than 60% ended in an error, not a winner."
+  },
+  {
+   "id": "s59",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready",
+     "face": "focused"
+    },
+    {
+     "pose": "think",
+     "at": "@count"
+    },
+    {
+     "pose": "point_up",
+     "at": "@session"
+    }
+   ],
+   "headline": {
+    "text": "Golden-point sets",
+    "highlight": "Golden",
+    "at": 0.3,
+    "side": "right"
+   },
+   "caption": {
+    "text": "1 set per session",
+    "at": "@session"
+   },
+   "narration": "Drill 1: golden-point sets. Play every deuce as one deciding point, and count your errors. 1 set per session."
+  },
+  {
+   "id": "s60",
+   "kind": "versus",
+   "opponentTint": false,
+   "vs": "OR",
+   "left": {
+    "label": "Short lob: smash",
+    "pose": "smash",
+    "face": "determined",
+    "props": {
+     "r": "padel"
+    }
+   },
+   "right": {
+    "label": "Deep lob: bandeja",
+    "pose": "bandeja",
+    "props": {
+     "r": "padel"
+    }
+   },
+   "narration": "Drill 2: attack or reset. The net pair may only smash short lobs they can hit without stepping back past the service line."
+  },
+  {
+   "id": "s61",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "bandeja_prep"
+    },
+    {
+     "pose": "bandeja",
+     "at": "@bandeja"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@play"
+    }
+   ],
+   "caption": {
+    "text": "Play to 10",
+    "at": "@play"
+   },
+   "narration": "Anything that pushes them back must be a bandeja or a víbora. Play to 10."
+  },
+  {
+   "id": "s62",
+   "kind": "list",
+   "title": "Strength: 2+ days a week",
+   "mascot": {
+    "props": {
+     "r": "dumbbell"
+    },
+    "poses": [
+     {
+      "pose": "flex"
+     },
+     {
+      "pose": "point_up",
+      "at": "@physio"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "All major muscle groups",
+     "icon": "muscle",
+     "at": "@muscle"
+    },
+    {
+     "text": "Start light",
+     "icon": "check",
+     "at": "@light"
+    },
+    {
+     "text": "Build up gradually",
+     "icon": "clock",
+     "at": "@gradually"
+    },
+    {
+     "text": "Already hurts? Physio first",
+     "icon": "cross",
+     "at": "@physio"
+    }
+   ],
+   "narration": "Strength train all your major muscle groups at least 2 days a week. Start light, build up gradually, and if something already hurts, see a physio first."
+  },
+  {
+   "id": "s63",
+   "kind": "chart",
+   "title": "Injury rate vs normal (sports trials)",
+   "unit": "",
+   "max": 130,
+   "focus": 1,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@third"
+     },
+     {
+      "pose": "shrug",
+      "at": "@few"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Normal",
+     "value": 100,
+     "display": "100%"
+    },
+    {
+     "label": "Strength training",
+     "value": 32,
+     "display": "~⅓",
+     "at": "@third",
+     "color": "accent"
+    },
+    {
+     "label": "Balance training",
+     "value": 55,
+     "display": "~½",
+     "at": "@half"
+    },
+    {
+     "label": "Stretching",
+     "value": 96,
+     "display": "no change",
+     "at": "@stretching"
+    }
+   ],
+   "narration": "In a review of sports trials, strength training cut injury rates to about a third of normal, and balance training to about half. Stretching didn't help. Only a few trials tested strength work, and none were in padel."
+  },
+  {
+   "id": "s64",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "drive_finish",
+     "face": "determined"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@every"
+    },
+    {
+     "pose": "think",
+     "at": "@pick"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      280
+     ],
+     "at": "@every"
+    }
+   ],
+   "pauseAfter": 0.6,
+   "narration": "The mistake? Going for a winner on every high ball. Pick your moment."
+  },
+  {
+   "id": "s65",
+   "kind": "mascot",
+   "chapter": "Stay on court",
+   "background": "plain",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "present"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Outer elbow",
+     "target": "rElbow",
+     "at": "@elbow"
+    }
+   ],
+   "narration": "In a review of padel injury studies, the elbow was the most commonly injured spot."
+  },
+  {
+   "id": "s65b",
+   "kind": "stat",
+   "value": 20,
+   "prefix": ">",
+   "suffix": "%",
+   "label": "of padel injuries were tennis elbow (one review)",
+   "highlight": "tennis elbow",
+   "icon": "cross",
+   "at": "@20",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "think",
+      "at": "@tennis"
+     }
+    ]
+   },
+   "narration": "Tennis elbow alone made up more than 20% of injuries in another review."
+  },
+  {
+   "id": "s66",
+   "kind": "mascot",
+   "background": "plain",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "think",
+     "at": "@weight"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Outer elbow",
+     "target": "rElbow",
+     "at": "@outer"
+    }
+   ],
+   "narration": "Pick a racket weight and grip size that suit you. If your outer elbow still hurts after a few days' rest, see a doctor."
+  },
+  {
+   "id": "s67",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "flinch",
+     "at": "@fast"
+    },
+    {
+     "pose": "point_up",
+     "face": "focused",
+     "at": "@goggles"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Sports goggles",
+     "target": "eyes",
+     "at": "@goggles"
+    }
+   ],
+   "caption": {
+    "text": "Polycarbonate lenses",
+    "at": "@polycarbonate"
+   },
+   "narration": "The ball is small and fast, and experience doesn't protect your eyes. Sports goggles with polycarbonate lenses are worth wearing at any level."
+  },
+  {
+   "id": "s68",
+   "kind": "slam",
+   "text": "Eyes forward at the net",
+   "highlight": "forward",
+   "style": "dark",
+   "icon": "target",
+   "narration": "And at the net, don't turn round to watch your partner's shot."
+  },
+  {
+   "id": "s69",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "side_stand"
+    },
+    {
+     "pose": "hold_calf",
+     "face": "tired",
+     "at": "@pop"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Back of calf / heel",
+     "target": "rAchilles",
+     "at": "@heel"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1500,
+      280
+     ],
+     "at": "@pop"
+    }
+   ],
+   "narration": "Stop and get checked if you feel a sudden pop or snap at the back of your calf or heel, or can't push up onto your toes."
+  },
+  {
+   "id": "s70",
+   "kind": "mascot",
+   "background": "plain",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready"
+    },
+    {
+     "pose": "flinch",
+     "at": "@hits"
+    },
+    {
+     "pose": "point_up",
+     "at": "@doctor"
+    }
+   ],
+   "caption": {
+    "text": "Doctor, same day",
+    "at": "@same"
+   },
+   "narration": "If the ball hits you in the eye, stop playing and get it checked by a doctor the same day."
+  },
+  {
+   "id": "s71",
+   "kind": "list",
+   "title": "Emergency room now if:",
+   "focus": false,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up",
+      "face": "focused"
+     },
+     {
+      "pose": "think",
+      "at": "@light"
+     },
+     {
+      "pose": "point_up",
+      "at": "@sick"
+     },
+     {
+      "pose": "present",
+      "at": "@open"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Vision changes",
+     "icon": "cross",
+     "at": "@vision"
+    },
+    {
+     "text": "Light hurts",
+     "icon": "cross",
+     "at": "@light"
+    },
+    {
+     "text": "You feel sick",
+     "icon": "cross",
+     "at": "@sick"
+    },
+    {
+     "text": "Can't open or move the eye",
+     "icon": "cross",
+     "at": "@open"
+    }
+   ],
+   "narration": "Go to the emergency room straight away if your vision changes, light hurts, you feel sick, or you can't open or move the eye."
+  },
+  {
+   "id": "s72",
+   "kind": "lineup",
+   "chapter": "Your level, this week",
+   "title": "Which level are you?",
+   "grow": true,
+   "highlight": 5,
+   "dimPrevious": true,
+   "members": [
+    {
+     "pose": "flinch",
+     "face": "surprised",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Wall Dodger",
+     "sub": "dodging the glass",
+     "at": "@dodging"
+    },
+    {
+     "pose": "drive_finish",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Rallier",
+     "sub": "split from your partner",
+     "at": "@split"
+    },
+    {
+     "pose": "lob",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Wall Player",
+     "sub": "stuck at the back",
+     "at": "@stuck"
+    },
+    {
+     "pose": "bandeja",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Net Keeper",
+     "sub": "smashing every lob",
+     "at": "@smashing"
+    },
+    {
+     "pose": "celebrate",
+     "face": "happy",
+     "props": {
+      "r": "padel"
+     },
+     "label": "Tournament Player",
+     "sub": "losing big points",
+     "at": "@losing"
+    }
+   ],
+   "pauseAfter": 0.4,
+   "narration": "So which are you? Dodging the glass? Level 1. Split from your partner? Level 2. Stuck at the back? Level 3. Smashing every lob? Level 4. Losing big points? Level 5."
+  },
+  {
+   "id": "s73",
+   "kind": "list",
+   "title": "This week",
+   "mascot": {
+    "props": {
+     "r": "padel"
+    },
+    "poses": [
+     {
+      "pose": "point_up"
+     },
+     {
+      "pose": "hands_hips",
+      "face": "happy",
+      "at": "@twice"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Warm up",
+     "icon": "heart",
+     "at": "@warm"
+    },
+    {
+     "text": "The drills for your level",
+     "icon": "target",
+     "at": "@drills"
+    },
+    {
+     "text": "Twice",
+     "icon": "check",
+     "at": "@twice"
+    }
+   ],
+   "narration": "This week: warm up, then do the drills for your level, twice."
+  },
+  {
+   "id": "s74",
+   "kind": "mascot",
+   "background": "court",
+   "props": {
+    "r": "padel"
+   },
+   "poses": [
+    {
+     "pose": "padel_ready",
+     "face": "focused"
+    },
+    {
+     "pose": "side_stand",
+     "at": "@turn"
+    },
+    {
+     "pose": "swing_back",
+     "at": "@wait"
+    },
+    {
+     "pose": "drive_finish",
+     "face": "happy",
+     "at": "@pass"
+    }
+   ],
+   "headline": {
+    "text": "Let the wall pass it back",
+    "highlight": "wall",
+    "at": "@turn",
+    "side": "right"
+   },
+   "pauseAfter": 1.0,
+   "narration": "Next time the ball flies past you into the back glass, don't flinch. Turn, wait, and let the wall pass it back."
+  }
+ ]
+}

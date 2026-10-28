@@ -1,0 +1,242 @@
+[
+  {
+    "id": "S1",
+    "title": "Rules of Padel (review of application 01.01.2026)",
+    "author": "International Padel Federation (FIP)",
+    "publisher": "FIP (world governing body)",
+    "year": "2026",
+    "url": "https://www.padelfip.com/wp-content/uploads/2025/12/FIP_Rules-of-Padel.pdf",
+    "type": "org",
+    "notes": "Read pp. 1-19 in full. Court: 10 m wide x 20 m long (interior); service lines 6.95 m from the net; net 0.88 m at centre, 0.92 m at ends. Ends: 4 m total, first 3 m wall (glass/brick etc.) + 1 m metal fence. Sides: stepped walls (3 m x 2 m then 2 m x 2 m) or 'crystal' variant 3 m high x 4 m long; mesh completes enclosure. Ball: 6.35-6.77 cm, 56.0-59.4 g; new-ball bounce 135-145 cm from 2.54 m. Racket: max 45.5 cm long, 26 cm wide, 38 mm thick; wrist safety cord (max 35 cm) obligatory. Scoring: Option 1 advantage; Option 2 'Star Point' (deciding point after the third deuce); Option 3 'Golden Point' (deciding point at first deuce, receivers choose side). Sets to 6 (2-game margin), tie-break at 6-6 to 7; best of three; alternatives incl. super tie-break to 10. Rule 2: obligatory 3-minute courtesy rally (warm-up); max 20 s between points; 90 s at change of ends. Rule 6 serve: one foot behind service line; ball bounced on ground first, inside the box; 'height of the ball being served must be at or below the waist level at the moment of hitting it'; at least one foot on ground; diagonal into receiver's box; two serves. Rule 7: serve fault if it lands outside box or bounces in box then touches the metallic fence before the second bounce. Rule 8: receiver must let the serve bounce. Rule 12.3: after bouncing in the opponent's ground the ball may hit any wall/fence and stays in play until second bounce. Rule 13: point lost if ball hits opponents' walls/fence before bouncing on their ground (g); if player touches net (a); ball bounces twice (c); ball hits fence/ground on own side (l); safety cord breaks or racket dropped (r). Rule 14: return valid if it 'hits the wall in the players own court first and then bounces into the opponent's court' (b); ball may be volleyed (a). Safety area for out-of-court play: min 3 m wide x 4 m long; Rule 16 out-of-court play only when the court meets safety-area rules."
+  },
+  {
+    "id": "S2",
+    "title": "What is my padel rating? (LTA Padel Rating System)",
+    "author": "Lawn Tennis Association (LTA)",
+    "publisher": "LTA (British governing body for tennis and padel)",
+    "year": "2025",
+    "url": "https://www.lta.org.uk/advantage-home/my-game/what-is-my-padel-rating/",
+    "type": "org",
+    "notes": "Opened. Self-selected scale 1.0-7.0 in three bands. Beginner: 1.0 'still working on getting the ball in play'; 2.0 'can get the ball in play but my shots lack direction and control'; 2.5 'can rally with basic shots but I lack technique'; 3.0 'pretty consistent and can use tactics like playing off the wall'. Intermediate: 3.5 'lack technique but do have some control on the court' (competent tennis/squash players new to padel fall here); 4.0 'quite controlled... can cover it well, and have a basic understanding of padel tactics'; 4.5 'very good at covering the court, very good level of control, good understanding of padel tactics'; 5.0 'experienced tournament player... very good understanding of padel tactics'. Advanced: 5.5 nationally ranked; 6.0 semi-pro outside top 250 men / top 150 women; 6.5 inside top 250 men / 150 women; 7.0 inside top 150 men / top 50 women. Page shows (c)2025; no date. Self-assessment, no verification method stated."
+  },
+  {
+    "id": "S3",
+    "title": "How the Playtomic level system works / The Playtomic Levels: ups & downs (Help Center)",
+    "author": "Playtomic",
+    "publisher": "Playtomic (booking app)",
+    "year": "c. 2025-2026",
+    "url": "https://playerhelp.playtomic.com/hc/en-gb/articles/43310980754193-How-the-Playtomic-level-system-works",
+    "type": "org",
+    "notes": "LIMITED VERIFICATION: page returned HTTP 403 to automated fetch (all Help Center articles did); content taken from search-engine excerpts of the official pages only. Fact-checker should open in a browser. Excerpts: scale 0-7; initial level from an onboarding questionnaire that can only be completed once and is 'just an estimate'; level 'updates after each competitive match' using match result, opponents' levels, partner's level and reliability; averages each team's level, compares expected vs actual outcome; beating stronger opponents gains more; only competitive matches move the level (not casual/friendly); reliability is set automatically, low for new players so level swings more; a certified-club levelling session sets reliability to 50%; peer-feedback option can raise level by up to 0.5. Bands (excerpts): <1 Initiation; 1.0-1.49 Beginner; 1.5-2.4 Initiation Intermediate; 2.5-3.4 Intermediate; 3.5-4.4 Intermediate High; 4.5-5.4 Intermediate Advanced; 5.4-5.6 Competition (overlap at 5.4 as excerpted). Exact formula not published. Also backed by excerpts of playerhelp.playtomic.com/hc/en-gb/articles/19831827459345 and help.playtomic.com/en/articles/3112292 (403 to fetch)."
+  },
+  {
+    "id": "S4",
+    "title": "Playtomic Levelling Session (public class listing)",
+    "author": "Playtomic / host club",
+    "publisher": "Playtomic",
+    "year": "2025-2026",
+    "url": "https://playtomic.com/it/activities/public-classes/926368ae-af49-4aa7-861a-ad91920868b3",
+    "type": "org",
+    "notes": "Opened. 'The maximum reachable scale for amateurs is 5.6.' Coach evaluates the Playtomic level by assessing 'strokes, focus, competitiveness and condition'; it is an evaluation, not a lesson; level posted within two days; reliability reset to 50%."
+  },
+  {
+    "id": "S5",
+    "title": "Padel levels explained for all players",
+    "author": "Grabisch L",
+    "publisher": "Playtomic blog",
+    "year": "2025",
+    "url": "https://playtomic.com/blog/padel-levels",
+    "type": "org",
+    "notes": "Opened. Published 21 Apr 2025. Playtomic 'uses a scale from 0 to 7, with 7 being the highest level'; 'Levels are calculated based on match results and opponent rankings'; improve rating by competing in ranked matches; notes 'different organizations have their own ranking systems' (shows a generic 1-10 chart). Advanced skills listed: 'Effective use of walls for both attack and defense', 'Mastery of advanced tactics like lobs, chiquitas, and bandejas'. No distribution data."
+  },
+  {
+    "id": "S6",
+    "title": "Global Padel Report 2026",
+    "author": "Playtomic and PwC Strategy&",
+    "publisher": "Playtomic",
+    "year": "2026",
+    "url": "https://playtomic.com/global-padel-report",
+    "type": "org",
+    "notes": "Opened (landing page). 19.4 million players worldwide; 58,300 courts; nearly 20,000 clubs; courts projected to reach 91,000 by 2028. No level-distribution data. Industry report (commercial; methodology not on page)."
+  },
+  {
+    "id": "S7",
+    "title": "Official padel rules explained",
+    "author": "LTA Padel",
+    "publisher": "LTA",
+    "year": "2025",
+    "url": "https://ltapadel.org.uk/play/how-to-get-started-playing-padel/rules/",
+    "type": "org",
+    "notes": "Opened. 'The ball must bounce before you hit it and you must serve underarm'; 'If the ball hits the back glass or cage without bouncing, the shot is out'; 'If the ball bounces and hits the back glass after one bounce - the shot is in and the point is live'; 'The ball is out if it hits the opponents' wall or cage before bouncing in their court'; can use the doors to run outside to keep the rally going; keep one foot on the ground and behind the service line when serving; sets to six games with two-game lead."
+  },
+  {
+    "id": "S8",
+    "title": "Padel glossary: what do bandeja, vibora and chiquita mean?",
+    "author": "LTA Padel",
+    "publisher": "LTA",
+    "year": "2025",
+    "url": "https://www.ltapadel.org.uk/play/padel-glossary-what-do-bandeja-vibora-and-chiquita-mean/",
+    "type": "org",
+    "notes": "Opened. Bandeja: named after Spanish 'tray'; 'a defensive volley with slice, hit deep into the court so it stays low off the glass'. Vibora: 'An attacking shot hit at around head or shoulder height in which the player imparts side-spin'. Chiquita: 'A softly-struck shot hit from the back of the court towards your opponents' feet when they are stationed at the net' ('little'). Por tres: 'a kick smash, usually played from close to the net', named after the 3 m side wall ('for three'). Bajada: aggressive downward shot from over head height. Rulo: lower-risk top-spin smash diagonally towards the fence. Golden point: single deciding point at deuce. Boast: angled shot off own side glass first. Nevera ('fridge'): targeting the weaker opponent. Does not define por cuatro."
+  },
+  {
+    "id": "S9",
+    "title": "Essential tips on padel overheads, bandeja & the smash",
+    "author": "LTA Padel",
+    "publisher": "LTA",
+    "year": "2025",
+    "url": "https://ltapadel.org.uk/play/padel-tips-and-techniques/overheads-bandeja-and-the-smash/",
+    "type": "org",
+    "notes": "Opened. 'The bandeja is the most common overhead in padel and is known as the antidote to the lob'; defensive shot to retain net position; prepare early, racket like 'a plate'; contact when ball falls to about eye height; racket comes across the body (not all the way down), finish 'like a scarf', adds underspin; avoid a lot of pace so you have time to recover; use momentum to move back to the net level with partner. Smash = flat, speed and power. Drill 'Defend the net': two at net, two at back; back pair lobs; net pair must hit a bandeja beyond the service line, then point live; swap every two points; first to 10."
+  },
+  {
+    "id": "S10",
+    "title": "Tips to play and improve padel lobs",
+    "author": "Fletcher L (LTA Women's National Coach)",
+    "publisher": "LTA Padel",
+    "year": "2025",
+    "url": "https://ltapadel.org.uk/play/padel-tips-and-techniques/lobs/",
+    "type": "org",
+    "notes": "Opened. 'The lob is most important shot in padel'; pushes opponents back from the net and gives you time to move forward; good height so it goes over heads and has less rebound off the glass; open racket face; aim to bounce 'just beyond the service line but before the back glass'; cross-court gives longer distance and more room for error; low-to-high racket path, bend legs. Drills: racket-path progression (balance, flick, drop-and-hit, tap rallies); 'Two up, two back' (baseline team starts with a lob, play out, swap every two points, first to 10)."
+  },
+  {
+    "id": "S11",
+    "title": "Padel skills for beginners",
+    "author": "LTA Padel",
+    "publisher": "LTA",
+    "year": "2025",
+    "url": "https://www.ltapadel.org.uk/play/how-to-get-started-playing-padel/skills-for-beginners",
+    "type": "org",
+    "notes": "Opened. Ready position placed so you can change direction; short backswing on both sides; 'once the ball has bounced you can let the ball hit the glass before you return it' (gives more time; prepare racket early, take pace off); typical positions 'up at the net with your partner or both towards the back of the court defending'; communicate with partner; lob to move opponents back and regain the net; volleys and smashes from the net put pressure on. Drills: half-court rally keeping ball in play; target count of consecutive shots; practise deep lobs, net volleys and back-glass returns one per session; recover position and move with partner; home: tap-ups (alternate racket sides), volley against an outside wall. Verbatim (fact-check 2026-10-28): \"Padel is more about accuracy and ball placement than it is about power.\""
+  },
+  {
+    "id": "S12",
+    "title": "Analysis of attacking actions in professional men's padel (Análisis de las acciones de ataque en el pádel masculino profesional)",
+    "author": "Sánchez-Alcaraz BJ, Courel-Ibáñez J, Muñoz D, Infantes-Córdoba P, Sáenz de Zumarán F, Sánchez-Pay A",
+    "publisher": "Apunts. Educación Física y Deportes 142:29-34",
+    "year": "2020",
+    "url": "https://revista-apunts.com/en/?p=5803",
+    "type": "trial",
+    "notes": "Opened. Observational; 2,054 shots from four World Padel Tour 2017 men's finals (kappa > .85). Attacking shots: volleys ~65%, bandejas ~23%, smashes ~12%. Winning pairs made 327 attacking actions vs 186 for losers; winners performed >=1 attacking action in 85% of points; losers performed none in 47% of points. Cites prior work that points are usually <10 s. Small sample; elite men only; no víbora category."
+  },
+  {
+    "id": "S13",
+    "title": "Performance in padel",
+    "author": "Escudero-Tena A, Antona D, Muñoz D",
+    "publisher": "Aspetar Sports Medicine Journal, Vol 12 (Targeted topic: Sports medicine in padel)",
+    "year": "2023",
+    "url": "https://journal.aspetar.com/en/journals/volume-12-targeted-topic-sports-medicine-in-padel/performance-in-padel",
+    "type": "review",
+    "notes": "Opened. Narrative review (pro data). Points ~10-15 s; 8-10 shots per point (pros); actual play ~30-35% of match time; set just over 30 min, match ~60-90 min; ~11 m per point, ~2,900 m per match; servers/returners cover more distance. Both sexes make more errors than winners; men's golden points >60% end in an error. Pro men VO2max ~55.4, women ~46.8 mL/kg/min. Shot-frequency table (smash 35.7% etc.) has unclear denominator — NOT used."
+  },
+  {
+    "id": "S14",
+    "title": "Incidence, prevalence and nature of injuries in padel: a systematic review",
+    "author": "Dahmen J, Emanuel KS, Fontanellas-Fes A, Verhagen E, Kerkhoffs GMMJ, Pluim BM",
+    "publisher": "BMJ Open Sport & Exercise Medicine 9(2):e001607",
+    "year": "2023",
+    "url": "https://cris.maastrichtuniversity.nl/en/publications/incidence-prevalence-and-nature-of-injuries-in-padel-a-systematic",
+    "type": "review",
+    "notes": "Abstract opened via Maastricht University repository (BMJ page 403). 8 studies, 2,022 participants, mean ages 31-57. Incidence ~3 injuries per 1,000 h of training and 8 per 1,000 matches; prevalence 40-95%. Elbow most common site, then knee, shoulder, lower back. Tendinous and muscular injuries most reported. Descriptive synthesis, limited literature. DOI 10.1136/bmjsem-2023-001607."
+  },
+  {
+    "id": "S15",
+    "title": "Prevention of padel injuries",
+    "author": "Bernal B",
+    "publisher": "Aspetar Sports Medicine Journal, Vol 12",
+    "year": "2023",
+    "url": "https://journal.aspetar.com/en/journals/volume-12-targeted-topic-sports-medicine-in-padel/prevention-of-padel-injuries",
+    "type": "review",
+    "notes": "Opened. Clinical narrative review aimed at recreational players. Cites 65.6% of players reporting an injury and ~2.75 injuries/1,000 h; lower limb ~41% of injuries; lateral epicondyle tendinopathy (tennis elbow) >20% of injuries; Achilles tendinopathy and plantar fasciitis frequent; 'the most typical muscle injury is the tennis leg' (medial gastrocnemius), typically in 'the transition from single-leg landing from an overhead shot to try to volley the next shot'. Amateur risks: poor preparation, rapidly increasing hours, equipment choice; choose racket weight and grip size to match the player; shoe sole to suit grippier carpets. Prevention: ankle dorsiflexion and eccentric calf/Achilles capacity; scapular work for shoulder. No warm-up protocol given."
+  },
+  {
+    "id": "S16",
+    "title": "Medical issues affecting padel performance",
+    "author": "Thomas-Balaguer Cordero Á, Cabañas Morafraile J, Eirale C",
+    "publisher": "Aspetar Sports Medicine Journal, Vol 12",
+    "year": "2023",
+    "url": "https://journal.aspetar.com/en/journals/volume-12-targeted-topic-sports-medicine-in-padel/medical-issues-afecting-padel-performance",
+    "type": "review",
+    "notes": "Opened. 'two out of five padel players have suffered at least one injury during the last year'; ankle, shoulder and elbow most affected regions; trunk 13-20% of injuries; neck pain more frequent in left-side players, back pain in right-side players; padel at high risk of eye injuries due to small ball and high speed; 'being an experienced player does not decrease the risk'; ~11% of ocular trauma cases with permanent functional impairment (cited); recommends protective eyewear."
+  },
+  {
+    "id": "S17",
+    "title": "Analysis of differences in injuries in padel players according to sport-specific factors, level of physical activity, adherence to the Mediterranean diet, and psychological status",
+    "author": "Rocamora-López G, Mateo-Orcajada A",
+    "publisher": "Sports (Basel) 13(7):228",
+    "year": "2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12297936/",
+    "type": "trial",
+    "notes": "Opened (full text, first 100k chars). Cross-sectional, retrospective, convenience sample: 216 Spanish club players (163 M, 53 F), mean age 30 +/- 9.5. 54.2% reported an injury. Structure: muscle 43.6%, tendon 30.6%, ligament 19.3%, bone 6.5%. Location: knee 18.2%, leg/thigh 16.6%, ankle/foot 16.5%, shoulder 14.8%, elbow 10.5%. Associated with injury: more weekly match hours, more years of experience, higher level vs beginners; herringbone/mixed soles with more severe injuries; 350-370 g rackets with muscle/tendon/ligament injuries; sand courts. Cross-sectional — no causation."
+  },
+  {
+    "id": "S18",
+    "title": "Major risk of eye injuries from padel, research ophthalmologists say",
+    "author": "University of Gothenburg (Jakobsson G, Thörnland C; Läkartidningen case report)",
+    "publisher": "University of Gothenburg press release",
+    "year": "2021",
+    "url": "https://www.gu.se/en/news/major-risk-of-eye-injuries-from-padel-research-ophthalmologists-say",
+    "type": "org",
+    "notes": "Opened. Three cases, all needing surgery. Ball 'roughly the size of the eye socket opening'; speed up to ~130 km/h on a smash; goggles/visors can cut eye-injury risk by up to ~90% when used correctly (general figure); most injuries mild but rare severe cases cause lasting impairment. Recommends goggles. Low evidence (case series + press release). Note: it says ball ~50 g; FIP says 56-59.4 g [S1] — use FIP."
+  },
+  {
+    "id": "S19",
+    "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+    "author": "Lauersen JB, Bertelsen DM, Andersen LB",
+    "publisher": "British Journal of Sports Medicine 48(11):871-877",
+    "year": "2014",
+    "url": "https://search.pedro.org.au/search-results/record-detail/39522",
+    "type": "review",
+    "notes": "Opened (PEDro record). 25 RCTs, 26,610 participants. Strength training RR 0.315 (0.207-0.480); proprioception RR 0.550 (0.347-0.869); multiple exposure RR 0.655 (0.520-0.826); stretching RR 0.963 (0.846-1.095, no effect). Not padel-specific."
+  },
+  {
+    "id": "S20",
+    "title": "5 Things to Know About Creating an Effective Resistance Training Plan (infographic of 2026 ACSM position stand)",
+    "author": "American College of Sports Medicine",
+    "publisher": "ACSM / Medicine & Science in Sports & Exercise",
+    "year": "2026",
+    "url": "https://acsm.org/wp-content/uploads/2026/03/Resistance-Training-Position-Stand-infographic.pdf",
+    "type": "position-stand",
+    "notes": "Opened. Train all major muscle groups at least 2 days/week and build gradually; biggest gain going from none to any; strength ~80% 1RM for 2-3 sets per exercise; hypertrophy ~10 sets/muscle/week; power 30-70% 1RM moved fast; bands, bodyweight and home training effective. Infographic only."
+  },
+  {
+    "id": "S21",
+    "title": "Tennis elbow",
+    "author": "nidirect (NHS-based content, Northern Ireland)",
+    "publisher": "nidirect government services",
+    "year": "2025",
+    "url": "https://www.nidirect.gov.uk/conditions/tennis-elbow",
+    "type": "org",
+    "notes": "Opened. Pain/tenderness on the outside of the elbow, may spread to forearm/back of hand, worse with gripping and twisting; caused by overuse of forearm muscles that straighten the wrist; racket sports a known trigger; rest/avoid aggravating activity and see a GP if pain continues after a few days of rest; episode usually 6 months-2 years; ~80-90% fully recover within a year."
+  },
+  {
+    "id": "S22",
+    "title": "Eye injuries",
+    "author": "NHS 111 Wales",
+    "publisher": "NHS Wales",
+    "year": "2025",
+    "url": "https://111.wales.nhs.uk/Encyclopaedia/e/article/eyeinjuries",
+    "type": "org",
+    "notes": "Opened. Go to A&E/call 999 if: something has hit your eye at high speed; any change to sight after an eye injury; headache, high temperature or light sensitivity; feeling or being sick; cannot move the eye or keep it open; blood or pus from the eye. See optometrist or call 111 if not better after 24 h or worried."
+  },
+  {
+    "id": "S23",
+    "title": "Achilles tendon rupture: management and rehabilitation (patient leaflet)",
+    "author": "Cambridge University Hospitals NHS Foundation Trust",
+    "publisher": "CUH NHS",
+    "year": "2026",
+    "url": "https://www.cuh.nhs.uk/patient-information/achilles-tendon-rupture-management-and-rehabilitation/",
+    "type": "org",
+    "notes": "Opened. Sudden heel or calf pain; snapping/popping sound; feels as if hit in the back of the leg; swelling/bruising; difficulty pushing off, standing on tiptoes or climbing stairs. Often in 'activities which involve a forceful push off or lunging type movement' (tennis, badminton, squash named). Return to sport typically 4-12 months."
+  },
+  {
+    "id": "S24",
+    "title": "ASTM F3164-24 Standard Specification for Eye Protectors for Racket Sports (that is, Racquetball, Squash, Tennis, Pickleball)",
+    "author": "ASTM International Committee F08",
+    "publisher": "ASTM International",
+    "year": "2024",
+    "url": "https://store.astm.org/f3164-24.html",
+    "type": "org",
+    "notes": "Opened (scope page). Covers eye protectors for racket sports; names racquetball, squash, tennis, pickleball — padel NOT named. 'Polycarbonate is the most impact resistant spectacle lens material and should be used.' Use only as 'racket-sport eyewear standard', not as a padel certification."
+  }
+]

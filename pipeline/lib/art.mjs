@@ -26,12 +26,13 @@ export function icon(name, o = {}) {
     muscle: `<path d="M-50 30 Q-56 -6 -30 -20 Q-28 -46 -6 -52 Q12 -54 14 -38 Q4 -30 -6 -30 Q-2 -14 14 -10 Q40 -26 56 -4 Q60 30 26 40 Z" fill="var(--brand)" stroke="${INK}" stroke-width="7" stroke-linejoin="round"/>`,
     target: `<circle r="52" fill="#fff" stroke="${INK}" stroke-width="7"/><circle r="34" fill="var(--bad)" stroke="${INK}" stroke-width="6"/><circle r="16" fill="#fff" stroke="${INK}" stroke-width="6"/>`,
     lungs: `<g fill="#F7A8C4" stroke="${INK}" stroke-width="7"><path d="M-8 -30 C-40 -40 -56 20 -50 40 C-40 50 -10 44 -8 30 Z"/><path d="M8 -30 C40 -40 56 20 50 40 C40 50 10 44 8 30 Z"/></g><path d="M0 -56 L0 -20" stroke="${INK}" stroke-width="8"/>`,
+    football: `<circle r="48" fill="#fff" stroke="${INK}" stroke-width="7"/><path d="M0 -17 L16 -6 L10 13 L-10 13 L-16 -6 Z" fill="${INK}"/><path d="M0 -17 L0 -44 M16 -6 L42 -14 M10 13 L26 38 M-10 13 L-26 38 M-16 -6 L-42 -14" stroke="${INK}" stroke-width="4"/>`,
     question: `<circle r="50" fill="var(--hl)" stroke="${INK}" stroke-width="8"/><text y="22" text-anchor="middle" font-family="Oswald" font-weight="700" font-size="70" fill="${INK}">?</text>`,
     food: `<circle r="50" fill="#fff" stroke="${INK}" stroke-width="7"/><path d="M-30 -10 Q0 -40 30 -10 Q0 10 -30 -10Z" fill="var(--good)" stroke="${INK}" stroke-width="5"/><circle cx="-14" cy="20" r="14" fill="var(--bad)" stroke="${INK}" stroke-width="5"/><rect x="6" y="10" width="26" height="20" rx="5" fill="#E8C27A" stroke="${INK}" stroke-width="5"/>`,
   };
   return I[name] || `<text text-anchor="middle" font-size="40">${esc(name)}</text>`;
 }
-export const ICONS = ["battery", "heart", "bolt", "brain", "moon", "zzz", "clock", "stopwatch", "fire", "water", "check", "cross", "trophy", "muscle", "target", "lungs", "question", "food"];
+export const ICONS = ["battery", "heart", "bolt", "brain", "moon", "zzz", "clock", "stopwatch", "fire", "water", "check", "cross", "trophy", "muscle", "target", "lungs", "question", "food", "football"];
 
 /** Full-frame SVG background. groundY = where the mascot stands. */
 export function background(name = "plain", groundY = 930) {
