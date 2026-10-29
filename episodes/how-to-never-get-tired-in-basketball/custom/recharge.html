@@ -1,0 +1,57 @@
+<!-- Custom hero scene: The Basketball Battery Recharge (PCr Drain & Aerobic Fast-Charging) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; top:180px; width:720px; height:740px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-left { left:180px; }
+    #__ID__-root .card-right { left:1020px; }
+    #__ID__-root .header-tag { position:absolute; top:36px; left:0; right:0; text-align:center; font:800 44px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .sub-tag { position:absolute; top:95px; left:0; right:0; text-align:center; font:700 28px var(--sans); color:#64748B; }
+    #__ID__-root .battery-housing { position:absolute; top:180px; left:160px; width:400px; height:180px; border:10px solid var(--ink); border-radius:28px; background:#F8FAFC; overflow:hidden; }
+    #__ID__-root .battery-terminal { position:absolute; top:235px; left:560px; width:30px; height:70px; border:10px solid var(--ink); border-left:none; border-radius:0 16px 16px 0; background:var(--ink); }
+    #__ID__-root .battery-level { position:absolute; left:0; top:0; bottom:0; width:100%; transform-origin:0 50%; }
+    #__ID__-root .charge-pct { position:absolute; top:390px; left:0; right:0; text-align:center; font:900 64px var(--display); }
+    #__ID__-root .stat-pill { position:absolute; bottom:40px; left:60px; right:60px; height:80px; border-radius:20px; display:flex; align-items:center; justify-content:center; font:800 36px var(--display); text-transform:uppercase; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:60px;text-align:center">The battery recharge</div>
+
+  <!-- Left Card: Weak Aerobic Engine -->
+  <div class="card-box card-left" id="__ID__-card-a">
+    <div class="header-tag" style="color:var(--bad)">Weak Aerobic Charger</div>
+    <div class="sub-tag">Slow trickle recharge during dead balls</div>
+    <div class="battery-housing">
+      <div class="battery-level" id="__ID__-lvl-a" style="background:var(--bad)"></div>
+    </div>
+    <div class="battery-terminal"></div>
+    <div class="charge-pct" id="__ID__-pct-a" style="color:var(--bad)">20%</div>
+    <div class="stat-pill" style="background:#FEE2E2;color:var(--bad)">Fourth quarter empty</div>
+  </div>
+
+  <!-- Right Card: Strong Aerobic Engine -->
+  <div class="card-box card-right" id="__ID__-card-b">
+    <div class="header-tag" style="color:var(--good)">Fast-Charger Engine</div>
+    <div class="sub-tag">High mitochondrial PCr replenishment</div>
+    <div class="battery-housing">
+      <div class="battery-level" id="__ID__-lvl-b" style="background:var(--good)"></div>
+    </div>
+    <div class="battery-terminal"></div>
+    <div class="charge-pct" id="__ID__-pct-b" style="color:var(--good)">90%</div>
+    <div class="stat-pill" style="background:#DCFCE7;color:var(--good)">Refilled for every play</div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5 }, 0.4);
+  tl.fromTo("#__ID__-lvl-a", { scaleX: 1 }, { scaleX: 0.2, duration: 1.2, ease: "power2.inOut" }, 0.9);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5 }, 1.8);
+  tl.fromTo("#__ID__-lvl-b", { scaleX: 0.2 }, { scaleX: 0.9, duration: 1.4, ease: "power2.out" }, 2.3);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

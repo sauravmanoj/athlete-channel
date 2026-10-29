@@ -1,0 +1,75 @@
+<!-- Custom hero scene: The Organic Protractor - 90° Upright vs 45° Projection Force Vectors -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; top:180px; width:720px; height:740px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-left { left:180px; }
+    #__ID__-root .card-right { left:1020px; }
+    #__ID__-root .header-tag { position:absolute; top:36px; left:0; right:0; text-align:center; font:800 44px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .sub-tag { position:absolute; top:95px; left:0; right:0; text-align:center; font:700 28px var(--sans); color:#64748B; }
+    #__ID__-root svg.diagram { position:absolute; top:160px; left:60px; }
+    #__ID__-root .stat-pill { position:absolute; bottom:40px; left:60px; right:60px; height:80px; border-radius:20px; display:flex; align-items:center; justify-content:center; font:800 36px var(--display); text-transform:uppercase; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:60px;text-align:center">Where your force goes</div>
+
+  <!-- Left: 90° Upright -->
+  <div class="card-box card-left" id="__ID__-card-a">
+    <div class="header-tag" style="color:var(--bad)">90° Upright</div>
+    <div class="sub-tag">Chest pops up & vertical shins</div>
+    <svg class="diagram" width="600" height="420" viewBox="0 0 600 420">
+      <!-- Ground line -->
+      <line x1="40" y1="360" x2="560" y2="360" stroke="#1C2140" stroke-width="8" stroke-linecap="round"/>
+      <!-- Body representation: vertical stick/shin -->
+      <line x1="280" y1="360" x2="280" y2="120" stroke="#1C2140" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="280" cy="90" r="28" fill="#F2913D" stroke="#1C2140" stroke-width="8"/>
+      <!-- Vertical force arrow -->
+      <g id="__ID__-arr-vert">
+        <line x1="280" y1="360" x2="280" y2="180" stroke="var(--bad)" stroke-width="12" stroke-linecap="round"/>
+        <polygon points="280,150 262,195 298,195" fill="var(--bad)"/>
+        <text x="320" y="240" font-family="var(--display)" font-size="32" font-weight="800" fill="var(--bad)">VERTICAL LIFT</text>
+      </g>
+      <!-- 0 forward drive -->
+      <text x="280" y="330" text-anchor="middle" font-family="var(--sans)" font-size="24" font-weight="700" fill="#94A3B8">0% Forward Propulsion</text>
+    </svg>
+    <div class="stat-pill" style="background:#FEE2E2;color:var(--bad)">Shoots into the ceiling</div>
+  </div>
+
+  <!-- Right: 45° Projection -->
+  <div class="card-box card-right" id="__ID__-card-b">
+    <div class="header-tag" style="color:var(--good)">45° Projection</div>
+    <div class="sub-tag">Positive shin angle & straight torso</div>
+    <svg class="diagram" width="600" height="420" viewBox="0 0 600 420">
+      <!-- Ground line -->
+      <line x1="40" y1="360" x2="560" y2="360" stroke="#1C2140" stroke-width="8" stroke-linecap="round"/>
+      <!-- 45 deg Body representation -->
+      <line x1="200" y1="360" x2="380" y2="180" stroke="#1C2140" stroke-width="14" stroke-linecap="round"/>
+      <circle cx="400" cy="160" r="28" fill="#F2913D" stroke="#1C2140" stroke-width="8"/>
+      <!-- Angle arc -->
+      <path d="M 270 360 A 70 70 0 0 0 250 310" fill="none" stroke="#E8423A" stroke-width="6"/>
+      <text x="290" y="330" font-family="var(--display)" font-size="28" font-weight="800" fill="#E8423A">45°</text>
+      <!-- Horizontal propulsion arrow -->
+      <g id="__ID__-arr-horiz">
+        <line x1="200" y1="360" x2="480" y2="360" stroke="var(--good)" stroke-width="14" stroke-linecap="round"/>
+        <polygon points="515,360 470,342 470,378" fill="var(--good)"/>
+        <text x="360" y="320" font-family="var(--display)" font-size="32" font-weight="800" fill="var(--good)">FORWARD DRIVE</text>
+      </g>
+    </svg>
+    <div class="stat-pill" style="background:#DCFCE7;color:var(--good)">Max Horizontal Speed</div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5 }, 0.4);
+  tl.fromTo("#__ID__-arr-vert", { opacity: 0, scaleY: 0 }, { opacity: 1, scaleY: 1, transformOrigin: "280px 360px", duration: 0.6, ease: "back.out(1.5)" }, 1.0);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5 }, 1.8);
+  tl.fromTo("#__ID__-arr-horiz", { opacity: 0, scaleX: 0 }, { opacity: 1, scaleX: 1, transformOrigin: "200px 360px", duration: 0.7, ease: "power2.out" }, 2.5);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

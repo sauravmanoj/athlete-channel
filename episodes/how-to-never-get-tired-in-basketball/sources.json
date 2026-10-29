@@ -1,0 +1,212 @@
+[
+  {
+    "id": "S1",
+    "title": "The Activity Demands and Physiological Responses Encountered During Basketball Match-Play: A Systematic Review",
+    "author": "Stojanović E, Stojiljković N, Scanlan AT, Dalbo VJ, Berkelmans DM, Milanović Z",
+    "publisher": "Sports Medicine 48(1):111–135",
+    "year": "2018",
+    "url": "https://doi.org/10.1007/s40279-017-0794-z",
+    "type": "review",
+    "notes": "Systematic review of basketball match demands: total distance covered is 5–6 km per 40-min game; live play heart rate consistently exceeds lactate threshold, maintaining >85% HRmax; significant decrease in high-intensity activities occurs in the 4th quarter; blood lactate averages 3.2–6.8 mmol/L; guards sustain greater sprinting and high-intensity shuffling compared to forwards and centers."
+  },
+  {
+    "id": "S2",
+    "title": "The physiological load imposed on basketball players during competition",
+    "author": "McInnes SE, Carlson JS, Jones CJ, McKenna MJ",
+    "publisher": "Journal of Sports Sciences 13(5):387–397",
+    "year": "1995",
+    "url": "https://doi.org/10.1080/02640419508732254",
+    "type": "trial",
+    "notes": "Seminal match-play analysis: movement categories change every 2.0 s (~997 activity changes per game); players perform ~105 high-intensity runs (~1.7 s each, roughly one every 21 s); mean live-play HR is 169 ± 9 bpm (~89% peak HR); 75% of live play is spent above 85% peak HR; mean blood lactate is 6.8 ± 2.8 mM."
+  },
+  {
+    "id": "S3",
+    "title": "Time-motion analysis and physiological data of elite under-19-year-old basketball players during competition",
+    "author": "Ben Abdelkrim N, El Fazaa S, El Ati J",
+    "publisher": "British Journal of Sports Medicine 41(2):69–75",
+    "year": "2007",
+    "url": "https://doi.org/10.1136/bjsm.2006.032318",
+    "type": "trial",
+    "notes": "Time-motion and physiological demands under modern 24-s shot clock: 8.8% specific movements, 5.3% sprinting, 2.1% jumping; mean game HR 171 bpm; mean blood lactate 5.49 mmol/L (6.05 at half-time vs 4.94 at full-time); guards and forwards spend significantly more time in high-intensity activities (17.1% and 16.6%) than centers (14.7%)."
+  },
+  {
+    "id": "S4",
+    "title": "Multiple sprint work: physiological responses, mechanisms of fatigue and the influence of aerobic fitness",
+    "author": "Glaister M",
+    "publisher": "Sports Medicine 35(9):757–777",
+    "year": "2005",
+    "url": "https://doi.org/10.2165/00007256-200535090-00003",
+    "type": "review",
+    "notes": "Comprehensive review of multiple-sprint bioenergetics: single maximal efforts (<6 s) are fueled predominantly by phosphocreatine (PCr) degradation and anaerobic glycolysis; PCr depletion and inorganic phosphate accumulation are primary causes of acute fatigue; aerobic oxidative metabolism is the exclusive driver of PCr resynthesis, lactate handling, and muscle recovery during pauses."
+  },
+  {
+    "id": "S5",
+    "title": "Contribution of phosphocreatine and aerobic metabolism to energy supply during repeated sprint exercise",
+    "author": "Bogdanis GC, Nevill ME, Boobis LH, Lakomy HK",
+    "publisher": "Journal of Applied Physiology 80(3):876–884",
+    "year": "1996",
+    "url": "https://doi.org/10.1152/jappl.1996.80.3.876",
+    "type": "trial",
+    "notes": "Intramuscular metabolic recovery kinetics: PCr resynthesis follows a biphasic curve with a rapid fast-phase half-time of ~30–57 s (restoring ~50–70% of stores) and a slower phase requiring 2–4 min for 85–100% restoration; recovery of maximal muscle power output directly tracks intramuscular PCr replenishment."
+  },
+  {
+    "id": "S6",
+    "title": "Relation between maximal aerobic power and the ability to repeat sprints in young basketball players",
+    "author": "Castagna C, Manzi V, D'Ottavio S, Annino G, Padua E, Bishop D",
+    "publisher": "Journal of Strength and Conditioning Research 21(4):1172–1176",
+    "year": "2007",
+    "url": "https://doi.org/10.1519/R-20376.1",
+    "type": "trial",
+    "notes": "Direct investigation of aerobic capacity vs RSA in basketball: maximal aerobic power (VO2peak) showed no significant correlation with sprint decrement/fatigue index or total sprint time; demonstrates that high VO2peak alone does not prevent sprint drop-off without sport-specific shuttle and repeated-sprint training."
+  },
+  {
+    "id": "S7",
+    "title": "Effect of recovery mode on repeated sprint ability in young basketball players",
+    "author": "Castagna C, Abt G, Manzi V, Annino G, Padua E, D'Ottavio S",
+    "publisher": "Journal of Strength and Conditioning Research 22(3):923–929",
+    "year": "2008",
+    "url": "https://doi.org/10.1519/JSC.0b013e31816a4281",
+    "type": "trial",
+    "notes": "Recovery mode comparison during basketball shuttle sprints: passive rest between repeated sprints resulted in significantly lower fatigue indices and superior sprint times compared to low-intensity active jogging recovery, showing that resting passively during stoppages best preserves repeat-sprint speed."
+  },
+  {
+    "id": "S8",
+    "title": "Effects of small-sided games and high-intensity interval training on aerobic and repeated sprint performance and peripheral muscle oxygenation changes in elite junior basketball players",
+    "author": "Delextrat A, Gruet M, Bieuzen F",
+    "publisher": "Journal of Strength and Conditioning Research 32(7):1882–1891",
+    "year": "2018",
+    "url": "https://doi.org/10.1519/JSC.0000000000002570",
+    "type": "trial",
+    "notes": "6-week conditioning intervention in basketball: both HIIT and Small-Sided Games (SSGs) significantly improved maximal aerobic speed (vIFT), repeated sprint performance (lower sprint decrement), and peripheral muscle reoxygenation kinetics measured via NIRS."
+  },
+  {
+    "id": "S9",
+    "title": "Repeated-sprint ability — part II: recommendations for training",
+    "author": "Bishop D, Girard O, Mendez-Villanueva A",
+    "publisher": "Sports Medicine 41(9):741–756",
+    "year": "2011",
+    "url": "https://doi.org/10.2165/11590560-000000000-00000",
+    "type": "review",
+    "notes": "Systematic training review for RSA: recommended prescription uses short maximal sprints with changes of direction, work-to-rest ratios of 1:4 to 1:6 to preserve sprint mechanics and avoid excessive glycolytic slowing, combined with interval conditioning at 90–95% HRmax to enhance oxidative mitochondrial capacity and buffering."
+  },
+  {
+    "id": "S10",
+    "title": "High-Intensity Acceleration and Deceleration Demands in Elite Team Sports Competitive Match Play: A Systematic Review and Meta-Analysis of Observational Studies",
+    "author": "Harper DJ, Carling C, Kiely J",
+    "publisher": "Sports Medicine 49(12):1923–1947",
+    "year": "2019",
+    "url": "https://doi.org/10.1007/s40279-019-01170-1",
+    "type": "review",
+    "notes": "Systematic review and meta-analysis on braking demands: high-intensity decelerations occur at high frequencies, matching or outnumbering accelerations in team sports; decelerations impose immense eccentric mechanical load and tissue damage, making deceleration capacity a primary determinant of fatigue resistance."
+  },
+  {
+    "id": "S11",
+    "title": "Training load and match-play demands in basketball based on competition level: A systematic review",
+    "author": "Petway AJ, Freitas TT, Calleja-González J, Medina Leal D, Alcaraz PE",
+    "publisher": "PLoS ONE 15(3):e0229212",
+    "year": "2020",
+    "url": "https://doi.org/10.1371/journal.pone.0229212",
+    "type": "review",
+    "notes": "Systematic review of workload tracking in basketball: players experience dense mechanical loading from rapid decelerations, accelerations, jumps, and direction changes; underscores the need for dedicated deceleration conditioning and movement efficiency to prevent soft-tissue breakdown."
+  },
+  {
+    "id": "S12",
+    "title": "Prevalence of jumper's knee among elite athletes from various sports: a cross-sectional study",
+    "author": "Lian ØB, Engebretsen L, Bahr R",
+    "publisher": "American Journal of Sports Medicine 33(4):561–567",
+    "year": "2005",
+    "url": "https://doi.org/10.1177/0363546504270454",
+    "type": "trial",
+    "notes": "Epidemiological study of 612 elite athletes: patellar tendinopathy (jumper's knee) prevalence was 32% in elite basketball players (second highest behind volleyball at 45%); linked to high-volume jumping, landing, and repetitive eccentric braking on rigid wooden floors."
+  },
+  {
+    "id": "S13",
+    "title": "Metabolic optimisation of the basketball free throw",
+    "author": "Padulo J, Attene G, Migliaccio GM, Cuzzolin F, Vando S, Ardigò LP",
+    "publisher": "Journal of Sports Sciences 33(14):1454–1458",
+    "year": "2015",
+    "url": "https://doi.org/10.1080/02640414.2014.1003584",
+    "type": "trial",
+    "notes": "Controlled trial on cardiovascular fatigue and shooting precision: free-throw shooting accuracy was stable at rest and 50% HRmax (~80%), but dropped significantly by >20% (falling to ~60%) at 80% HRmax; proves that high cardiac strain degrades motor control, making dead-ball heart-rate down-regulation vital."
+  },
+  {
+    "id": "S14",
+    "title": "Impact of fatigue on the position of the release arm and shoulder girdle over a longer shooting distance for an elite basketball player",
+    "author": "Erčulj F, Supej M",
+    "publisher": "Journal of Strength and Conditioning Research 23(3):1029–1037",
+    "year": "2009",
+    "url": "https://doi.org/10.1519/JSC.0b013e3181a07a27",
+    "type": "trial",
+    "notes": "Kinematic analysis of jump shooting under progressive fatigue: fatigue induces significant decreases in jump height, lowers the height of the shoulder axis and wrist at release, and causes upper-body compensatory alignment, causing late-game jump shots to fall short."
+  },
+  {
+    "id": "S15",
+    "title": "Effects of Two Different Recovery Postures during High-Intensity Interval Training",
+    "author": "Michaelson JV, Brilla LR, Suprak DN, McLaughlin WL, Dahlquist DT",
+    "publisher": "Translational Journal of the American College of Sports Medicine 4(4):23–27",
+    "year": "2019",
+    "url": "https://doi.org/10.1249/TJX.0000000000000079",
+    "type": "trial",
+    "notes": "Controlled trial evaluating recovery postures: Hands on Knees (HK) produced significantly faster heart rate recovery, greater tidal volume (VT), and higher CO2 expiration compared to Hands on Head (HH) by optimizing the diaphragm's zone of apposition; debunks the coaching myth that hands on knees is unproductive."
+  },
+  {
+    "id": "S16",
+    "title": "Brief structured respiration practices enhance mood and reduce physiological arousal",
+    "author": "Balban MY, Neri E, Kogon MM, Weed L, Nouriani B, Jo B, Holl G, Zeitzer JM, Spiegel D, Huberman AD",
+    "publisher": "Cell Reports Medicine 4(1):100895",
+    "year": "2023",
+    "url": "https://doi.org/10.1016/j.xcrm.2022.100895",
+    "type": "trial",
+    "notes": "Randomized trial on breathwork: cyclic sighing / physiological sigh (two brief inhalations followed by a prolonged exhalation) rapidly down-regulates autonomic arousal, lowers resting respiratory rate, and stimulates parasympathetic tone via vagal activation."
+  },
+  {
+    "id": "S17",
+    "title": "Time-motion analysis of Italian elite women's basketball games: individual and team analyses",
+    "author": "Conte D, Favero TG, Lupo C, Francioni FM, Capranica L, Tessitore A",
+    "publisher": "Journal of Strength and Conditioning Research 29(1):144–150",
+    "year": "2015",
+    "url": "https://doi.org/10.1519/JSC.0000000000000633",
+    "type": "trial",
+    "notes": "Analysis of temporal match structure: live-action intervals average ~20–40 s, separated by stoppage intervals of 20–40 s (work-to-rest ratio ~1:1 to 1:1.5); dead balls (fouls, free throws, out-of-bounds, timeouts) account for more than 50% of total game duration."
+  },
+  {
+    "id": "S18",
+    "title": "Progressive dehydration causes a progressive decline in basketball skill performance",
+    "author": "Baker LB, Dougherty KA, Chow M, Kenney WL",
+    "publisher": "Medicine & Science in Sports & Exercise 39(7):1114–1123",
+    "year": "2007",
+    "url": "https://doi.org/10.1249/mss.0b013e318057a397",
+    "type": "trial",
+    "notes": "Controlled trial investigating hydration status in basketball: dehydration of 2% body mass causes statistically significant declines in basketball-specific skill and shooting performance; sweat rates average 0.95–1.5 L/h; performance decrements compound at 3% and 4% dehydration."
+  },
+  {
+    "id": "S19",
+    "title": "Quantity and Quality of Exercise for Developing and Maintaining Cardiorespiratory, Musculoskeletal, and Neuromotor Fitness (ACSM Position Stand)",
+    "author": "Garber CE, Blissmer B, Deschenes MR, Franklin BA, Lamonte MJ, Lee IM, Nieman DC, Swain DP",
+    "publisher": "Medicine & Science in Sports & Exercise 43(7):1334–1359",
+    "year": "2011",
+    "url": "https://doi.org/10.1249/MSS.0b013e318213fefb",
+    "type": "position-stand",
+    "notes": "Consensus guidelines for exercise prescription: cardiorespiratory fitness (moderate 30–60 min 5 d/wk or vigorous 20–60 min 3 d/wk), progressive overload, resistance training principles (2–3 d/wk, 2–4 sets, 8–12 reps), rest periods, and injury prevention safety progressions."
+  },
+  {
+    "id": "S20",
+    "title": "Isometric exercise induces analgesia and reduces inhibition in patellar tendinopathy",
+    "author": "Rio E, Kidgell D, Purdam C, Gaida J, Moseley GL, Pearce AJ, Cook J",
+    "publisher": "British Journal of Sports Medicine 49(19):1277–1283",
+    "year": "2015",
+    "url": "https://doi.org/10.1136/bjsports-2014-094386",
+    "type": "trial",
+    "notes": "Landmark trial on tendon pain and load tolerance: 5 sets of 45-second isometric Spanish/quadriceps squats with a heavy band at 60-degree knee flexion produced immediate pain relief for up to 45 minutes and reduced cortical muscle inhibition in athletes with jumper's knee."
+  },
+  {
+    "id": "S21",
+    "title": "Exercise and Fluid Replacement (ACSM Position Stand)",
+    "author": "Sawka MN, Burke LM, Eichner ER, Maughan RJ, Montain SJ, Stachenfeld NS",
+    "publisher": "Medicine & Science in Sports & Exercise 39(2):377–390",
+    "year": "2007",
+    "url": "https://doi.org/10.1249/mss.0b013e31802ca597",
+    "type": "position-stand",
+    "notes": "American College of Sports Medicine position stand: pre-hydrating with ~500 ml of fluid with electrolytes ~2 hours before exercise; fluid intake during exercise matching individual sweat rates (typically 0.4–0.8 L/h or individualized) to avoid >2% dehydration."
+  }
+]

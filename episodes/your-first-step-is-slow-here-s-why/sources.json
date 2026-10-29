@@ -1,0 +1,142 @@
+[
+  {
+    "id": "S1",
+    "title": "Technical ability of force application as a determinant factor of sprint performance",
+    "author": "Morin JB, Edouard P, Samozino P",
+    "publisher": "Medicine & Science in Sports & Exercise 43(9):1680-1688",
+    "year": "2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21364480/",
+    "type": "trial",
+    "notes": "Landmark study establishing that sprint acceleration performance is determined primarily by the net horizontal component of ground reaction force (FH) and the technical ability to orient force horizontally (Ratio of Forces, RF, and index of force application DRF), NOT by the total resultant force magnitude (FTot) or vertical force (FV). Field sprint performance strongly correlated with DRF (r = -0.73 to -0.84, p < 0.001) but not with total force."
+  },
+  {
+    "id": "S2",
+    "title": "Body position determines propulsive forces in accelerated running",
+    "author": "Kugler F, Janshen L",
+    "publisher": "Journal of Biomechanics 43(2):343-348",
+    "year": "2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19875117/",
+    "type": "trial",
+    "notes": "Biomechanics study demonstrating that forward propulsive force during acceleration is mechanically constrained by whole-body forward lean posture. The orientation of the maximum ground reaction force vector was strongly correlated with forward body lean at toe-off (r = 0.93). Athletes cannot independently force propulsion without the corresponding forward angular body posture and low acute segment angles."
+  },
+  {
+    "id": "S3",
+    "title": "Relationships between ground reaction force impulse and kinematics of sprint-running acceleration",
+    "author": "Hunter JP, Marshall RN, McNair PJ",
+    "publisher": "Journal of Applied Biomechanics 21(1):31-43",
+    "year": "2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16131707/",
+    "type": "trial",
+    "notes": "Kinematic and kinetic analysis of 36 sprinters showing that relative propulsive impulse accounted for 57% of the variance in acceleration sprinting velocity. Lower braking impulse was significantly associated with a smaller touchdown distance (foot landing closer to or behind center of mass) and an active backward-sweeping touchdown velocity of the foot relative to the hip."
+  },
+  {
+    "id": "S4",
+    "title": "Starting from standing; why step backwards?",
+    "author": "Kraan GA, van Veen J, Snijders CJ, Storm J",
+    "publisher": "Journal of Biomechanics 34(2):211-215",
+    "year": "2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11165283/",
+    "type": "trial",
+    "notes": "Seminal biomechanics paper demonstrating why taking a quick backward step (the 'false step' or 'plyo step') when initiating a sprint from a stationary standing position is mechanically advantageous. The backward step moves the base of support behind the body's center of mass, enabling a steep forward body lean and generating large horizontal propulsive forces that cannot be achieved from a static parallel stance."
+  },
+  {
+    "id": "S5",
+    "title": "Stepping back to improve sprint performance: a kinetic analysis of the first step forwards",
+    "author": "Frost DM, Cronin JB",
+    "publisher": "Journal of Strength and Conditioning Research 25(10):2721-2728",
+    "year": "2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21873898/",
+    "type": "trial",
+    "notes": "Kinetic comparison of standing sprint starts with and without a backward false step. Stepping backward prior to sprint initiation resulted in significantly greater vertical and horizontal impulses and peak power during the subsequent forward step, yielding faster sprint times over short distances (2.5m to 5m) compared to starting without the backward step."
+  },
+  {
+    "id": "S6",
+    "title": "Step-to-step spatiotemporal variables and ground reaction forces of intra-individual fastest sprinting in a single session",
+    "author": "Nagahara R, Mizutani M, Matsuo A, Kanehisa H, Fukunaga T",
+    "publisher": "Journal of Sports Sciences 36(12):1398-1405",
+    "year": "2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28876174/",
+    "type": "trial",
+    "notes": "Step-by-step force plate investigation over a 50m force platform system. Confirms initial ground contact times during the first step are relatively long (~0.18-0.22 s / 180-220 ms) to permit high propulsive impulse generation, progressively shortening to ~0.08-0.10 s (80-100 ms) at maximum velocity. Fastest trials exhibited significantly higher mean propulsive force and net anterior-posterior force during initial steps."
+  },
+  {
+    "id": "S7",
+    "title": "Influence of Muscle Slack on High-Intensity Sport Performance: A Review",
+    "author": "Van Hooren B, Bosch F",
+    "publisher": "Strength and Conditioning Journal 38(5):75-87",
+    "year": "2016",
+    "url": "https://journals.lww.com/nsca-scj/Fulltext/2016/10000/Influence_of_Muscle_Slack_on_High_Intensity_Sport.10.aspx",
+    "type": "review",
+    "notes": "Comprehensive review on muscle slack: the electromechanical delay between muscle activation and actual force transmission caused by resting tendon/fascicle slack. In high-speed explosive movements, pre-tension and anticipatory co-contraction take up muscle slack before ground strike, enabling immediate rate of force development and reactive stiffness rather than sluggish, delayed force expression."
+  },
+  {
+    "id": "S8",
+    "title": "Are running speeds maximized with simple-spring stance mechanics?",
+    "author": "Clark KP, Weyand PG",
+    "publisher": "Journal of Applied Physiology 117(6):604-615",
+    "year": "2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25082898/",
+    "type": "trial",
+    "notes": "Investigation demonstrating that running speed is governed by ground force application dynamics rather than rapid limb movement through the air. In early stance, fast sprinters generate rapid vertical and horizontal force impulses via high limb acceleration toward the ground ('whip from the hip'), achieving rapid force rise times in narrow ground contact windows."
+  },
+  {
+    "id": "S9",
+    "title": "Very-heavy sled training for improving horizontal-force output in soccer players",
+    "author": "Morin JB, Petrakos G, Jimenez-Reyes P, Brown SR, Samozino P, Balsalobre-Fernández C",
+    "publisher": "International Journal of Sports Physiology and Performance 12(6):840-844",
+    "year": "2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27834571/",
+    "type": "trial",
+    "notes": "Randomized trial in soccer players comparing 8 weeks of very-heavy sled sprint training (80% body mass load; 16 sessions of 10x20m sprints) vs unresisted sprint training. The heavy sled group showed large increases in maximal horizontal force output F0 (ES = 0.80 vs 0.20) and ratio of horizontal force RFmax (ES = 0.95 vs -0.11), significantly improving 5m and 20m sprint acceleration."
+  },
+  {
+    "id": "S10",
+    "title": "Resisted Sled Sprint Training to Improve Sprint Performance: A Systematic Review",
+    "author": "Petrakos G, Morin JB, Egan B",
+    "publisher": "Sports Medicine 46(3):381-400",
+    "year": "2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/26660753/",
+    "type": "review",
+    "notes": "Systematic review analyzing resisted sled training protocols. Heavy loads (>20-30% body mass, or >30-50% velocity decrement) overload early acceleration mechanics by forcing acute trunk lean, low positive shin angles, and high horizontal ground reaction forces, whereas light loads (<10% BM) primarily target maximum velocity transitions."
+  },
+  {
+    "id": "S11",
+    "title": "The Mechanics of Sprinting and Hurdling",
+    "author": "Mann R, Murphy A",
+    "publisher": "CreateSpace Independent Publishing Platform",
+    "year": "2018",
+    "url": "https://books.google.com/books?id=b_NsvgAACAAJ",
+    "type": "textbook",
+    "notes": "Foundational cinematographic biomechanical analysis of elite Olympic sprinters. Documents that initial acceleration requires a 40-45 degree whole-body projection angle, acute positive shin angles (~35-45 degrees), low heel recovery (minimizing backside mechanics delay), and forceful rearward foot acceleration prior to touchdown to eliminate braking."
+  },
+  {
+    "id": "S12",
+    "title": "Essentials of Strength Training and Conditioning (4th ed.)",
+    "author": "Haff GG, Triplett NT (Editors)",
+    "publisher": "Human Kinetics / National Strength and Conditioning Association (NSCA)",
+    "year": "2016",
+    "url": "https://www.humankinetics.com/products/all-products/essentials-of-strength-training-and-conditioning-4th-edition-with-web-resource",
+    "type": "textbook",
+    "notes": "NSCA textbook outlining sprint acceleration fundamentals: initial drive phase mechanics, low forward shin angles, aggressive knee punch and active ground strike, acceleration training progressions (wall drills, half-kneeling starts, falling starts), sprint volume dosages (e.g. 100-300m total sprint volume per session), and full rest intervals (1:10-1:20 work-to-rest ratio)."
+  },
+  {
+    "id": "S13",
+    "title": "Biomechanics of sprint running: a review",
+    "author": "Mero A, Komi PV, Gregor RJ",
+    "publisher": "Sports Medicine 13(6):376-392",
+    "year": "1992",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1615256/",
+    "type": "review",
+    "notes": "Seminal review on the kinetics and kinematics of sprint running. Contrasts the acceleration phase (characterized by high propulsive ground reaction force, longer contact times of 0.18-0.22s, forward body inclination, and concentric power output) with the constant maximum speed phase (governed by reactive stretch-shortening cycle, ultra-short contact times of 0.08-0.10s, and vertical support forces)."
+  },
+  {
+    "id": "S14",
+    "title": "An Evidence-Based Framework for Strengthening Exercises to Prevent Hamstring Injury",
+    "author": "Bourne MN, Timmins RG, Opar DA, Pizzari T, Ruddy JD, Sims C, Williams MD, Shield AJ",
+    "publisher": "Sports Medicine 48(2):251-267",
+    "year": "2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29119504/",
+    "type": "review",
+    "notes": "Evidence-based framework detailing hamstring loading mechanics. In acceleration and early stance, the biceps femoris and semitendinosus endure massive concentric-to-isometric hip extension forces, requiring dedicated eccentric and high-load posterior chain conditioning to prevent acute musculotendon strains during rapid start drills."
+  }
+]

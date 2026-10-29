@@ -1,0 +1,1276 @@
+import fs from "node:fs";
+
+const storyboard = {
+  title: "How to never get tired in basketball",
+  thumbnail: {
+    pose: "shoot",
+    face: "determined",
+    background: "court",
+    props: { r: "basketball" },
+    headline: "Never get tired",
+    highlight: "Never",
+    icons: [
+      {
+        icon: "bolt",
+        size: 1.3
+      }
+    ],
+    opponent: {
+      pose: "hands_knees"
+    },
+    side: "right"
+  },
+  youtube: {
+    title: "How to never get tired in basketball",
+    titleOptions: [
+      "Why you run out of gas in the 4th quarter: basketball stamina science",
+      "How to build 40-minute basketball endurance (without slow jogging)"
+    ],
+    description: "Clanging open fourth-quarter jump shots off the front rim? It's not your shooting form—your explosive battery is empty. Discover the 4 bioenergetic pillars of 40-minute basketball endurance: the 3 energy engines, Repeated Sprint Ability (RSA), deceleration economy, and the hands-on-knees recovery breathing protocol.",
+    tags: [
+      "basketball conditioning",
+      "basketball stamina",
+      "how to never get tired in basketball",
+      "fourth quarter fatigue",
+      "basketball endurance workout",
+      "repeated sprint ability",
+      "basketball speed training",
+      "hands on knees recovery",
+      "physiological sigh",
+      "jump shot fatigue",
+      "basketball conditioning drills",
+      "in season basketball training"
+    ]
+  },
+  scenes: [
+    // --- HOOK ---
+    {
+      id: "s01",
+      kind: "mascot",
+      chapter: "Intro",
+      background: "court",
+      transition: "fade",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "shoot", at: "@open" }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "Fourth quarter clock", highlight: "Fourth", at: "@fourth", side: "right" },
+      narration: "It's the fourth quarter with 2 minutes on the clock. You get an open look at the three-point line."
+    },
+    {
+      id: "s02",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "shoot", at: 0 },
+        { pose: "flinch", at: "@legs" }
+      ],
+      callouts: [
+        { label: "Legs like lead", target: "lThigh", at: "@legs", side: "left", dy: -20 }
+      ],
+      narration: "You rise up to shoot, but your legs feel like lead pipes."
+    },
+    {
+      id: "s03",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Front rim clang",
+      highlight: "Front",
+      style: "dark",
+      icon: "cross",
+      sub: "Fatigue kills release height",
+      narration: "The ball clangs flat off the front of the rim."
+    },
+    {
+      id: "s04",
+      kind: "versus",
+      background: "court",
+      transition: "cut",
+      left: {
+        label: "You",
+        pose: "hands_knees",
+        gauge: { label: "Battery", icon: "battery", from: 20, to: 5, at: "@next" }
+      },
+      right: {
+        label: "Opponent",
+        pose: "sprint",
+        gauge: { label: "Speed", icon: "bolt", from: 50, to: 90, at: "@next" }
+      },
+      vs: "VS",
+      narration: "On the next possession, you're bent over with your hands on your knees, watching an opponent blow past you for a transition layup."
+    },
+    {
+      id: "s05",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "tired_front", at: 0 },
+        { pose: "think", at: "@running" }
+      ],
+      icons: [
+        { icon: "battery", level: 0.1, pos: [1400, 320], size: 1.5 }
+      ],
+      headline: { text: "Empty battery", highlight: "battery", at: "@battery", side: "left" },
+      narration: "You don't lack heart, and you don't lack skill. You are simply running on an empty battery."
+    },
+    {
+      id: "s06",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "40-minute engine",
+      highlight: "engine",
+      style: "brand",
+      icon: "bolt",
+      sub: "Basketball conditioning science",
+      pauseAfter: 0.5,
+      narration: "Today: how to condition your body for 40 minutes of full-court basketball, so you finish the fourth quarter as explosive as the opening tip."
+    },
+
+    // --- THE FOUR PILLARS ---
+    {
+      id: "s07",
+      kind: "title",
+      chapter: "The four pillars",
+      number: 1,
+      heading: "The four pillars",
+      sub: "Intermittent court stamina",
+      mascot: { pose: "stand" },
+      transition: "push",
+      narration: "Basketball fatigue is different from any other sport."
+    },
+    {
+      id: "s08",
+      kind: "versus",
+      background: "plain",
+      transition: "cut",
+      left: {
+        label: "Marathon runner",
+        pose: "hands_knees",
+        gauge: { label: "Court Stamina", icon: "lungs", from: 30, to: 10, at: "@minutes" }
+      },
+      right: {
+        label: "Basketballer",
+        pose: "dribble",
+        props: { r: "basketball" },
+        gauge: { label: "Burst Stamina", icon: "bolt", from: 80, to: 80, at: "@minutes" }
+      },
+      vs: "VS",
+      narration: "A marathon runner can run 26 miles, but they will be gasping for air after 5 minutes of pickup basketball."
+    },
+    {
+      id: "s09",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 900,
+      suffix: " changes",
+      label: "of speed and movement category in a single match",
+      highlight: "900",
+      icon: "target",
+      mascot: { pose: "point_up" },
+      at: "@nine",
+      narration: "That's because basketball demands over 900 rapid changes of speed and direction in a single game."
+    },
+    {
+      id: "s10",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flex", at: "@four" }
+      ],
+      headline: { text: "Dominate 4 quarters", highlight: "Dominate", at: "@dominate", side: "right" },
+      narration: "To dominate all 4 quarters, you need four pillars."
+    },
+    {
+      id: "s11",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "The four pillars",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "1. Three energy engines", icon: "fire", at: "@three" },
+        { text: "2. Repeated sprint ability", icon: "bolt", at: "@repeated" },
+        { text: "3. Deceleration economy", icon: "target", at: "@deceleration" },
+        { text: "4. Dead-ball recovery", icon: "heart", at: "@dead-ball" }
+      ],
+      narration: "Pillar 1: the three energy engines. Pillar 2: repeated sprint ability. Pillar 3: deceleration economy. And Pillar 4: dead-ball recovery."
+    },
+    {
+      id: "s12",
+      kind: "mascot",
+      background: "court",
+      transition: "fade",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "dribble", at: "@outlast" }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "Outlast defenders", highlight: "Outlast", at: "@outlast", side: "right" },
+      narration: "Master these, and you will outlast every defender on the floor."
+    },
+
+    // --- PILLAR 1: THE THREE ENGINES ---
+    {
+      id: "s13",
+      kind: "title",
+      chapter: "Pillar 1: The three engines",
+      number: 2,
+      heading: "Pillar 1: The three engines",
+      sub: "Bioenergetics of basketball",
+      mascot: { pose: "think" },
+      transition: "push",
+      narration: "Your body relies on three distinct energy engines during a game."
+    },
+    {
+      id: "s14",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Engine 1: ATP-PC",
+      highlight: "ATP-PC",
+      style: "dark",
+      icon: "bolt",
+      sub: "Explosive alactic power",
+      narration: "Engine 1 is your ATP-PC system, your explosive rocket fuel."
+    },
+    {
+      id: "s15",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "dribble", at: 0 },
+        { pose: "sprint", at: "@fast-break" },
+        { pose: "jump", at: "@jumps" }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "2 to 4 second bursts", highlight: "bursts", at: "@between", side: "right" },
+      narration: "It powers your fast-break sprints, contest jumps, and crossover drives, which last between 2 and 4 seconds."
+    },
+    {
+      id: "s16",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "run_a", at: 0 },
+        { pose: "run_b", at: "@possessions" }
+      ],
+      headline: { text: "Engine 2: Glycolysis", highlight: "Glycolysis", at: "@glycolysis", side: "right" },
+      narration: "Engine 2 is glycolysis, which kicks in during frantic, back-and-forth possessions without a whistle."
+    },
+    {
+      id: "s17",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flinch", at: "@flooding" }
+      ],
+      callouts: [
+        { label: "Lactic acid buildup", target: "rThigh", at: "@lactic", side: "right" }
+      ],
+      narration: "Glycolysis burns muscle sugars fast, flooding your bloodstream with lactic acid and hydrogen ions."
+    },
+    {
+      id: "s18",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "hands_knees", at: 0 }
+      ],
+      callouts: [
+        { label: "Burning thighs", target: "rThigh", at: "@thighs", side: "right" }
+      ],
+      headline: { text: "Heavy legs", highlight: "Heavy", at: "@drops", side: "right" },
+      narration: "That acid buildup is why your thighs burn and your jump height drops late in the half."
+    },
+    {
+      id: "s19",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "The aerobic recharger",
+      highlight: "recharger",
+      style: "brand",
+      icon: "lungs",
+      sub: "Engine 3: The hidden secret",
+      narration: "Engine 3 is your aerobic engine. And here is the secret most hoopers miss."
+    },
+    {
+      id: "s20",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "point_up", at: 0 }
+      ],
+      headline: { text: "Requires oxygen", highlight: "oxygen", at: "@oxygen", side: "right" },
+      narration: "Phosphocreatine, your explosive rocket fuel, cannot recharge without oxygen."
+    },
+    {
+      id: "s21",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flex", at: "@refills" }
+      ],
+      headline: { text: "Refills the battery", highlight: "Refills", at: "@refills", side: "right" },
+      narration: "Your aerobic engine is the only system in your body that refills your explosive battery during whistles, free throws, and timeouts."
+    },
+    {
+      id: "s22",
+      kind: "custom",
+      file: "custom/recharge.html",
+      transition: "cut",
+      narration: "Think of a smartphone fast-charger. The explosive battery drains in seconds when running heavy apps. Your aerobic engine is the high-wattage charging cable."
+    },
+    {
+      id: "s23",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 20,
+      suffix: "%",
+      label: "battery left when starting plays with a weak aerobic engine",
+      highlight: "battery",
+      icon: "battery",
+      mascot: { pose: "tired_front" },
+      at: "@weak",
+      narration: "If your aerobic charger is weak, you start every fourth-quarter possession with a 20% battery."
+    },
+    {
+      id: "s24",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Alactic court intervals",
+      highlight: "intervals",
+      style: "dark",
+      icon: "bolt",
+      sub: "Power maintenance drill",
+      narration: "To build this engine, use alactic court intervals."
+    },
+    {
+      id: "s25",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "sprint", at: "@Sprint" }
+      ],
+      move: { to: "right", at: "@Sprint", dur: 1.2 },
+      headline: { text: "28m court sprint", highlight: "28m", at: "@meters", side: "left" },
+      narration: "Sprint from baseline to the half-court line and back, about 28 meters all-out in 5 to 6 seconds."
+    },
+    {
+      id: "s26",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "drink", at: "@Rest" }
+      ],
+      icons: [
+        { icon: "battery", level: 0.7, pos: [1400, 240], size: 1.3 }
+      ],
+      headline: { text: "30s passive rest", highlight: "passive", at: "@passively", side: "left" },
+      narration: "Rest passively for 30 seconds to allow partial battery recharge."
+    },
+    {
+      id: "s27",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "Alactic interval dosage",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "2 sets of 5 reps", icon: "bolt", at: "@sets" },
+        { text: "3 minutes rest between sets", icon: "stopwatch", at: "@resting" },
+        { text: "Beginners start with 1 set", icon: "check", at: "@Beginners" }
+      ],
+      narration: "Perform 2 sets of 5 reps, resting 3 minutes between sets. Beginners start with 1 set of 4 to 5 reps in week 1 before progressing to 2 sets."
+    },
+    {
+      id: "s28",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "walk_a", at: 0 },
+        { pose: "facepalm", at: "@jogs" }
+      ],
+      headline: { text: "Stop 5k jogging", highlight: "jogging", at: "@slow", side: "right" },
+      narration: "The common mistake? Running endless slow 5k jogs. Long, slow jogging trains slow-twitch muscle fibers, doing nothing to recharge explosive court speed."
+    },
+
+    // --- PILLAR 2: REPEATED SPRINT ABILITY ---
+    {
+      id: "s29",
+      kind: "title",
+      chapter: "Pillar 2: Repeated sprint ability",
+      number: 3,
+      heading: "Pillar 2: Repeated sprint ability",
+      sub: "Burst frequency & recovery",
+      mascot: { pose: "sprint" },
+      transition: "push",
+      narration: "In an average 40-minute game, a basketball player executes over 100 high-intensity sprint bursts."
+    },
+    {
+      id: "s30",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 21,
+      suffix: " seconds",
+      label: "average time between maximal sprint bursts during live play",
+      highlight: "21 seconds",
+      icon: "stopwatch",
+      mascot: { pose: "point_up" },
+      at: "@roughly",
+      narration: "That means you explode into a sprint roughly every 21 seconds of live play."
+    },
+    {
+      id: "s31",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "shrug", at: 0 },
+        { pose: "sprint", at: "@recover" }
+      ],
+      headline: { text: "VO2 max isn't enough", highlight: "enough", at: "@useless", side: "left" },
+      narration: "Having a high VO2 max is useless if your body cannot recover between max-effort sprints."
+    },
+    {
+      id: "s32",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Repeated Sprint Ability",
+      highlight: "Ability",
+      style: "brand",
+      icon: "bolt",
+      sub: "The true currency of basketball",
+      narration: "Sports scientists call this Repeated Sprint Ability, or RSA."
+    },
+    {
+      id: "s33",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "sprint", at: "@drag" }
+      ],
+      headline: { text: "Engine & radiator", highlight: "radiator", at: "@radiator", side: "right" },
+      narration: "Think of a high-performance drag racer paired with a massive cooling radiator."
+    },
+    {
+      id: "s34",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "drink", at: "@pit" }
+      ],
+      headline: { text: "8,000 RPM bursts", highlight: "bursts", at: "@revs", side: "right" },
+      narration: "The engine revs to 8,000 RPM for 3 seconds, dumps heat during a 20-second pit stop, and fires up again without blowing a gasket."
+    },
+    {
+      id: "s35",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "lunge", at: "@screen" },
+        { pose: "sprint", at: "@sprinting" }
+      ],
+      narration: "Picture a wing defender fighting through a double screen, contesting a corner three, and immediately sprinting 28 meters downcourt on the break."
+    },
+    {
+      id: "s36",
+      kind: "chart",
+      background: "plain",
+      transition: "cut",
+      title: "Sprint power output by quarter",
+      unit: "%",
+      focus: 1,
+      mascot: { pose: "tired_front" },
+      bars: [
+        { label: "1st Quarter", value: 100, display: "100%" },
+        { label: "4th Qtr (Weak RSA)", value: 72, display: "72%", color: "var(--bad)" },
+        { label: "4th Qtr (Trained RSA)", value: 94, display: "94%", color: "var(--good)" }
+      ],
+      narration: "If your RSA is weak, your power output drops on every single sprint after halftime."
+    },
+    {
+      id: "s37",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Rest passively",
+      highlight: "passively",
+      style: "dark",
+      icon: "target",
+      sub: "Don't jog between sprints",
+      narration: "Here is a game-changing lab finding: passive rest between sprints recharges your power significantly better than active jogging."
+    },
+    {
+      id: "s38",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "walk_a", at: 0 },
+        { pose: "facepalm", at: "@consumes" }
+      ],
+      headline: { text: "Jogging steals oxygen", highlight: "steals", at: "@consumes", side: "right" },
+      narration: "Jogging between sprints consumes the exact oxygen your mitochondria need to replenish phosphocreatine."
+    },
+    {
+      id: "s39",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "walk_b", at: "@walk" }
+      ],
+      headline: { text: "Stand or walk", highlight: "walk", at: "@walk", side: "right" },
+      narration: "When play stops, stand or walk slowly. Never jog back to the huddle."
+    },
+    {
+      id: "s40",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "15-on, 15-off shuttles",
+      highlight: "shuttles",
+      style: "brand",
+      icon: "stopwatch",
+      sub: "The gold standard RSA drill",
+      narration: "To train RSA, use 15-on, 15-off court shuttles."
+    },
+    {
+      id: "s41",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "sprint", at: 0 },
+        { pose: "stand", at: "@standing" }
+      ],
+      headline: { text: "90% court shuttles", highlight: "90%", at: "@90%", side: "right" },
+      narration: "Sprint court shuttles at 90% intensity for 15 seconds, followed by 15 seconds of standing rest."
+    },
+    {
+      id: "s42",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "RSA shuttle protocol",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "Two 6-minute blocks", icon: "bolt", at: "@blocks" },
+        { text: "3 minutes rest between blocks", icon: "stopwatch", at: "@resting" },
+        { text: "Once per week (Wednesday)", icon: "target", at: "@once" }
+      ],
+      narration: "Run two 6-minute blocks, resting 3 minutes between blocks, once per week."
+    },
+    {
+      id: "s43",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "walk_a", at: 0 },
+        { pose: "facepalm", at: "@Jogging" },
+        { pose: "point_up", at: "@100%" }
+      ],
+      headline: { text: "Sprint 100% effort", highlight: "100%", at: "@100%", side: "right" },
+      narration: "The mistake within the fix? Jogging through conditioning drills at 70% speed. If you don't sprint at 100% effort, your nervous system never adapts to game speed."
+    },
+
+    // --- PILLAR 3: DECELERATION ECONOMY ---
+    {
+      id: "s44",
+      kind: "title",
+      chapter: "Pillar 3: Deceleration economy",
+      number: 4,
+      heading: "Pillar 3: Deceleration economy",
+      sub: "Force absorption & joint protection",
+      mascot: { pose: "crouch" },
+      transition: "push",
+      narration: "Every time you sprint on a basketball court, you have to stop."
+    },
+    {
+      id: "s45",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 100,
+      suffix: "%",
+      label: "deceleration frequency matches or exceeds accelerations",
+      highlight: "decelerations",
+      icon: "target",
+      mascot: { pose: "point_up" },
+      at: "@many",
+      narration: "Studies show that basketball players perform as many violent decelerations as accelerations."
+    },
+    {
+      id: "s46",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 6,
+      suffix: "x Bodyweight",
+      label: "ground impact force absorbed during sudden court stops",
+      highlight: "impact forces",
+      icon: "bolt",
+      mascot: { pose: "flinch" },
+      at: "@six",
+      narration: "Stopping your momentum creates ground impact forces exceeding 4 to 6 times your body weight."
+    },
+    {
+      id: "s47",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "flinch", at: "@slamming" }
+      ],
+      callouts: [
+        { label: "Stiff knee impact", target: "rKnee", at: "@knees", side: "right" }
+      ],
+      narration: "Untrained players brake with their knees straight and chests upright, slamming force directly into their joints."
+    },
+    {
+      id: "s48",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 32,
+      suffix: "%",
+      label: "of elite basketball players suffer from jumper's knee",
+      highlight: "jumper's knee",
+      icon: "cross",
+      mascot: { pose: "hold_back" },
+      at: "@players",
+      narration: "That is why 32% of elite basketball players suffer from patellar tendinopathy, or jumper's knee."
+    },
+    {
+      id: "s49",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "facepalm", at: "@overheats" }
+      ],
+      headline: { text: "Overheating brakes", highlight: "brakes", at: "@brakes", side: "right" },
+      narration: "Think of the brake pads on a race car. Jamming the brakes with poor technique overheats the pads and burns through kinetic energy."
+    },
+    {
+      id: "s50",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "crouch", at: 0 },
+        { pose: "jump", at: "@rebound" }
+      ],
+      headline: { text: "Elastic rebound", highlight: "Elastic", at: "@elastic", side: "right" },
+      narration: "Smooth braking turns kinetic force into elastic rebound."
+    },
+    {
+      id: "s51",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "dribble", at: 0 },
+        { pose: "flinch", at: "@stumble" }
+      ],
+      props: { r: "basketball" },
+      narration: "Picture a ball-handler attacking the paint. If they brake with high, stiff hips, they stumble and lose the ball."
+    },
+    {
+      id: "s52",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "lunge", at: 0 },
+        { pose: "shoot", at: "@smoothly" }
+      ],
+      props: { r: "basketball" },
+      narration: "If they sink their hips into a compact 2-step stop, they rise smoothly into a balanced jump shot."
+    },
+    {
+      id: "s53",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "The low-hip 2-step brake",
+      highlight: "2-step",
+      style: "brand",
+      icon: "target",
+      sub: "Brake with glutes, not knees",
+      narration: "The fix: master the low-hip 2-step brake."
+    },
+    {
+      id: "s54",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "lunge", at: 0 }
+      ],
+      callouts: [
+        { label: "Low hips", target: "hips", at: "@hips", side: "left" },
+        { label: "Positive shin angle", target: "rCalf", at: "@shin", side: "right" }
+      ],
+      narration: "Drop your hips low on your penultimate step, keeping a positive shin angle to absorb force through your glutes and quads."
+    },
+    {
+      id: "s55",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "squat", at: 0 }
+      ],
+      callouts: [
+        { label: "Band behind knees", target: "lKnee", at: "@band", side: "left" }
+      ],
+      headline: { text: "Spanish squats", highlight: "Spanish", at: "@Spanish", side: "right" },
+      narration: "To bulletproof your knees, perform isometric Spanish squats: wrap a heavy resistance band behind your knees, sit back into a 45-degree squat, and hold for 45 seconds."
+    },
+    {
+      id: "s56",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "Spanish squat protocol",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "3 sets of 45-second holds", icon: "target", at: "@holds" },
+        { text: "60 to 90 seconds rest", icon: "stopwatch", at: "@resting" },
+        { text: "Pre-practice knee primer", icon: "check", at: "@practice" }
+      ],
+      narration: "Do 3 sets of 45-second holds before practice, resting 60 to 90 seconds between sets."
+    },
+    {
+      id: "s57",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "lunge", at: 0 },
+        { pose: "facepalm", at: "@Stomping" },
+        { pose: "lunge", at: "@Always" }
+      ],
+      callouts: [
+        { label: "Brake on forefoot", target: "rFoot", at: "@ball", side: "right" }
+      ],
+      narration: "The mistake within the fix? Stomping the lead heel into the hardwood to stop. Always brake through the ball of your foot with bent knees."
+    },
+
+    // --- PILLAR 4: DEAD-BALL RECOVERY ---
+    {
+      id: "s58",
+      kind: "title",
+      chapter: "Pillar 4: Dead-ball recovery",
+      number: 5,
+      heading: "Pillar 4: Dead-ball recovery",
+      sub: "Tactical respiration & down-regulation",
+      mascot: { pose: "meditate" },
+      transition: "push",
+      narration: "Here is an eye-opening statistic: live play accounts for less than 50% of total game time."
+    },
+    {
+      id: "s59",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 50,
+      suffix: "%+",
+      label: "of total match time spent in stoppages and dead balls",
+      highlight: "50%",
+      icon: "stopwatch",
+      mascot: { pose: "point_up" },
+      at: "@half",
+      narration: "The other half of the game is spent at the free-throw line, waiting for out-of-bounds whistles, and sitting in timeouts."
+    },
+    {
+      id: "s60",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "celebrate", at: "@wins" }
+      ],
+      headline: { text: "Win the stoppages", highlight: "stoppages", at: "@stoppages", side: "right" },
+      narration: "Whoever recovers fastest during those stoppages wins the fourth quarter."
+    },
+    {
+      id: "s61",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 20,
+      suffix: "% drop",
+      label: "in shooting accuracy when heart rate exceeds 80% HRmax",
+      highlight: "accuracy",
+      icon: "cross",
+      mascot: { pose: "flinch" },
+      at: "@drops",
+      narration: "In sports science trials, shooting jump shots or free throws with a heart rate over 80% of max drops shooting accuracy by over 20%."
+    },
+    {
+      id: "s62",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "shoot", at: 0 },
+        { pose: "facepalm", at: "@miss" }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "Front-rim fatigue", highlight: "fatigue", at: "@tired", side: "right" },
+      narration: "That explains why tired players miss front-rim free throws late in games."
+    },
+    {
+      id: "s63",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Two dead-ball protocols",
+      highlight: "protocols",
+      style: "brand",
+      icon: "heart",
+      sub: "Hands on knees & physiological sigh",
+      narration: "The fix is two dead-ball protocols."
+    },
+    {
+      id: "s64",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Hands on knees",
+      highlight: "knees",
+      style: "dark",
+      icon: "target",
+      sub: "Protocol 1: Biomechanical posture",
+      narration: "First: the hands-on-knees recovery posture."
+    },
+    {
+      id: "s65",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "arms_crossed", at: 0 }
+      ],
+      headline: { text: "Old coach myth", highlight: "myth", at: "@ordered", side: "right" },
+      narration: "For generations, old-school coaches ordered players to never put their hands on their knees, claiming it showed weakness."
+    },
+    {
+      id: "s66",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "celebrate", at: 0 }
+      ],
+      headline: { text: "Science proved it", highlight: "proved", at: "@proved", side: "right" },
+      narration: "Science proved those coaches wrong."
+    },
+    {
+      id: "s67",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "hands_knees", at: 0 }
+      ],
+      callouts: [
+        { label: "Diaphragm expansion", target: "chest", at: "@oxygen", side: "left" },
+        { label: "Hands on knees", target: "rHand", at: "@resting", side: "right" }
+      ],
+      narration: "A landmark study showed that resting your hands on your knees significantly accelerates heart rate recovery and increases oxygen intake compared to standing with hands on head."
+    },
+    {
+      id: "s68",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "hands_knees", at: 0 }
+      ],
+      callouts: [
+        { label: "Stabilized ribcage", target: "chest", at: "@stabilizes", side: "left" }
+      ],
+      narration: "Bending forward stabilizes your ribcage and optimizes diaphragmatic breathing."
+    },
+    {
+      id: "s69",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "The physiological sigh",
+      highlight: "sigh",
+      style: "brand",
+      icon: "lungs",
+      sub: "Protocol 2: Autonomic down-regulation",
+      narration: "Second: the physiological sigh."
+    },
+    {
+      id: "s70",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "stand", at: "@sniffs" }
+      ],
+      callouts: [
+        { label: "Two quick sniffs", target: "head", at: "@sniffs", side: "left", dy: -30 }
+      ],
+      headline: { text: "Two sniffs, long sigh", highlight: "sigh", at: "@sigh", side: "right" },
+      narration: "When standing at the free-throw line or during a stoppage, take two quick sniffs in through your nose, followed by one long, slow sigh out through your mouth."
+    },
+    {
+      id: "s71",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      icons: [
+        { icon: "lungs", pos: [1400, 260], size: 1.5 }
+      ],
+      headline: { text: "Dumps CO2", highlight: "CO2", at: "@dumping", side: "left" },
+      narration: "This double-inhale pops open collapsed air sacs in your lungs, immediately dumping carbon dioxide and slowing your heart rate."
+    },
+    {
+      id: "s72",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "walk_a", at: 0 },
+        { pose: "facepalm", at: "@spiking" }
+      ],
+      headline: { text: "Stop pacing", highlight: "pacing", at: "@pacing", side: "right" },
+      narration: "The mistake within the fix? Frantically pacing around the court between free throws, which keeps your adrenaline spiking."
+    },
+
+    // --- HYDRATION ---
+    {
+      id: "s73",
+      kind: "title",
+      chapter: "Hydration",
+      number: 6,
+      heading: "Hydration: The invisible leak",
+      sub: "Fluid and electrolyte balance",
+      mascot: { pose: "drink" },
+      transition: "push",
+      narration: "Indoor basketball courts trap heat and humidity, producing sweat rates between 1 and 1.5 liters per hour."
+    },
+    {
+      id: "s74",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 2,
+      suffix: "% fluid loss",
+      label: "causes progressive drops in shooting accuracy and reaction time",
+      highlight: "fluid loss",
+      icon: "water",
+      mascot: { pose: "flinch" },
+      at: "@two",
+      narration: "Clinical basketball studies prove that losing just 2% of your body weight in sweat causes a steep, progressive decline in shooting accuracy and reaction speed."
+    },
+    {
+      id: "s75",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "drink", at: 0 }
+      ],
+      headline: { text: "500ml pre-game", highlight: "500ml", at: "@500", side: "right" },
+      narration: "Drink 500 milliliters of water with sodium electrolytes 2 hours before tip-off."
+    },
+    {
+      id: "s76",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "drink", at: 0 }
+      ],
+      headline: { text: "3 to 4 swallows", highlight: "swallows", at: "@swallows", side: "right" },
+      narration: "During the game, take 3 to 4 swallows of fluid at every substitution and timeout."
+    },
+    {
+      id: "s77",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "point_up", at: "@thirsty" }
+      ],
+      headline: { text: "Don't wait for thirst", highlight: "thirst", at: "@thirsty", side: "right" },
+      narration: "If you wait until you feel thirsty, you are already dehydrated by 1 to 2%."
+    },
+
+    // --- STAY SAFE ---
+    {
+      id: "s78",
+      kind: "title",
+      chapter: "Stay safe",
+      number: 7,
+      heading: "Stay safe",
+      sub: "Patellar and Achilles tendon health",
+      mascot: { pose: "arms_crossed" },
+      transition: "push",
+      narration: "High-intensity basketball conditioning places immense demands on your Achilles tendons and patellar tendons."
+    },
+    {
+      id: "s79",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "Dynamic warmup protocol",
+      mascot: { pose: "stretch_quad" },
+      items: [
+        { text: "High knees & shuffles", icon: "fire", at: "@knees" },
+        { text: "Karaoke steps", icon: "check", at: "@karaoke" },
+        { text: "Progressive sprint builds", icon: "bolt", at: "@progressive" }
+      ],
+      narration: "Always complete an 8 to 10 minute dynamic warm-up: high knees, defensive shuffles, karaoke steps, and progressive acceleration runs."
+    },
+    {
+      id: "s80",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "point_up", at: "@gradually" }
+      ],
+      headline: { text: "Ramp volume slowly", highlight: "slowly", at: "@gradually", side: "right" },
+      narration: "Build your conditioning volume gradually. Start with one conditioning session per week before adding a second."
+    },
+    {
+      id: "s81",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "calf_pain", at: 0 }
+      ],
+      callouts: [
+        { label: "Stop on tendon pain", target: "rKnee", at: "@kneecap", side: "right" }
+      ],
+      narration: "If you experience sharp, localized pain at the base of your kneecap or behind your heel that lingers the next morning, stop explosive jumping drills."
+    },
+    {
+      id: "s82",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "hands_hips", at: "@physiotherapist" }
+      ],
+      headline: { text: "See a physio", highlight: "physio", at: "@physiotherapist", side: "right" },
+      narration: "See a sports physiotherapist to assess tendon load before you sprint again."
+    },
+
+    // --- YOUR WEEK ---
+    {
+      id: "s83",
+      kind: "title",
+      chapter: "Your week",
+      number: 8,
+      heading: "Your weekly routine",
+      sub: "Balancing practices & matches",
+      mascot: { pose: "present" },
+      transition: "push",
+      narration: "Here is a simple conditioning structure for basketball players."
+    },
+    {
+      id: "s84",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "point_up", at: "@around" }
+      ],
+      headline: { text: "Plan around games", highlight: "games", at: "@practice", side: "right" },
+      narration: "If you have team practice or games on Tuesday, Thursday, and Saturday, fit conditioning around them."
+    },
+    {
+      id: "s85",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "Monday: Alactic & Tendons",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "Dynamic warm-up", icon: "fire", at: "@warm-up" },
+        { text: "Isometric Spanish squats", icon: "target", at: "@Spanish" },
+        { text: "Alactic sprint intervals", icon: "bolt", at: "@sprint" }
+      ],
+      narration: "Monday: dynamic warm-up, isometric Spanish squats, followed by alactic court sprint intervals."
+    },
+    {
+      id: "s86",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "Wednesday & Friday",
+      mascot: { pose: "sprint" },
+      items: [
+        { text: "Wed: 15-on/15-off RSA shuttles", icon: "bolt", at: "@Wednesday" },
+        { text: "Two 6-minute blocks", icon: "stopwatch", at: "@blocks" },
+        { text: "Fri: Light active recovery flush", icon: "check", at: "@Friday" }
+      ],
+      narration: "Wednesday: dynamic warm-up, 15-on, 15-off Repeated Sprint Ability shuttles for two 6-minute blocks, followed by an active flush on Friday."
+    },
+    {
+      id: "s87",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "hands_knees", at: 0 },
+        { pose: "ready", at: "@sighs" }
+      ],
+      headline: { text: "Free throw reset", highlight: "reset", at: "@practice", side: "left" },
+      narration: "During games: practice the hands-on-knees posture and physiological sighs at every single free throw."
+    },
+    {
+      id: "s88",
+      kind: "stat",
+      background: "brand",
+      transition: "zoom",
+      value: 4,
+      suffix: " weeks",
+      label: "to surge aerobic PCr recharge rate and stay bouncy",
+      highlight: "bouncy",
+      icon: "bolt",
+      mascot: { pose: "celebrate" },
+      at: "@four",
+      narration: "Within 3 to 4 weeks, your aerobic recharge rate will surge, keeping your legs fresh and bouncy all 40 minutes."
+    },
+
+    // --- CLOSE ---
+    {
+      id: "s89",
+      kind: "mascot",
+      chapter: "Close",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flex", at: "@legs" }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "Finish strong", highlight: "strong", at: "@fourth", side: "right" },
+      narration: "Next time you step onto the court in the fourth quarter, don't let your legs fail you."
+    },
+    {
+      id: "s90",
+      kind: "mascot",
+      background: "court",
+      transition: "fade",
+      position: "center",
+      poses: [
+        { pose: "shoot", at: 0 },
+        { pose: "celebrate", at: "@knock" }
+      ],
+      headline: { text: "Game winner", highlight: "winner", at: "@knock", side: "left" },
+      narration: "Charge your aerobic battery, stop on your hips, breathe smart at the line, and knock down that game-winning shot."
+    }
+  ]
+};
+
+fs.writeFileSync(
+  "episodes/how-to-never-get-tired-in-basketball/storyboard.json",
+  JSON.stringify(storyboard, null, 2) + "\n"
+);
+console.log("Wrote storyboard.json with", storyboard.scenes.length, "scenes");

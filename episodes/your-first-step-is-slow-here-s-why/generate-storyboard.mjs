@@ -1,0 +1,1216 @@
+import fs from "node:fs";
+
+const storyboard = {
+  title: "Your first step is slow (here's why)",
+  thumbnail: {
+    pose: "sprint",
+    face: "determined",
+    background: "track",
+    headline: "First step fix",
+    highlight: "First",
+    icons: [
+      {
+        icon: "bolt",
+        size: 1.3
+      }
+    ],
+    opponent: {
+      pose: "overstride"
+    },
+    side: "right"
+  },
+  youtube: {
+    title: "Your first step is slow (here's why)",
+    titleOptions: [
+      "Why your first step is slow: 3 biomechanical fixes",
+      "Explode off the mark: how to fix your first step in any sport"
+    ],
+    description: "Reacting fast in your mind but feeling stuck in wet cement? It's not your reflexes—it's physics. Discover the 4 hidden biomechanical leaks killing your acceleration (the braking step, popping upright, muscle slack, and the false step myth) plus 3 drills to rewire your first step.",
+    tags: [
+      "first step quickness",
+      "sprint acceleration",
+      "how to be faster in basketball",
+      "soccer first step speed",
+      "acceleration biomechanics",
+      "speed training for athletes",
+      "positive shin angle",
+      "wall drill acceleration",
+      "half kneeling sprint",
+      "muscle slack",
+      "sprint mechanics",
+      "athletic performance",
+      "speed drills"
+    ]
+  },
+  scenes: [
+    // --- HOOK ---
+    {
+      id: "s01",
+      kind: "mascot",
+      chapter: "Intro",
+      background: "court",
+      transition: "fade",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "crouch", at: "@react" }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "Stuck in cement", highlight: "cement", at: "@cement", side: "right" },
+      narration: "A loose ball bounces between you and an opponent. You react instantly in your mind, but your feet feel stuck in wet cement."
+    },
+    {
+      id: "s02",
+      kind: "versus",
+      background: "court",
+      transition: "cut",
+      left: {
+        label: "You",
+        pose: "overstride",
+        gauge: { label: "Speed", icon: "stopwatch", from: 20, to: 15, at: "@time" }
+      },
+      right: {
+        label: "Opponent",
+        pose: "sprint",
+        gauge: { label: "Speed", icon: "bolt", from: 40, to: 85, at: "@time" }
+      },
+      vs: "VS",
+      narration: "By the time your body moves, the defender has already stolen the space."
+    },
+    {
+      id: "s03",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "shrug", at: 0 },
+        { pose: "think", at: "@physics" }
+      ],
+      icons: [
+        { icon: "brain", near: "head", offset: [-120, -100], at: "@reflexes" },
+        { icon: "muscle", near: "head", offset: [120, -100], at: "@muscles" }
+      ],
+      headline: { text: "It's physics", highlight: "physics", at: "@physics", side: "left" },
+      narration: "Most athletes blame slow reflexes or weak leg muscles. But the real problem is almost always physics."
+    },
+    {
+      id: "s04",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "The first step fix",
+      highlight: "fix",
+      style: "brand",
+      icon: "bolt",
+      sub: "3 biomechanical leaks to plug",
+      pauseAfter: 0.6,
+      narration: "Today: the hidden biomechanical leaks killing your first step, and the three drills to fix them."
+    },
+
+    // --- THE FOUR LEAKS ---
+    {
+      id: "s05",
+      kind: "title",
+      chapter: "The four leaks",
+      number: 1,
+      heading: "The four leaks",
+      sub: "Fighting stationary inertia",
+      mascot: { pose: "stand" },
+      transition: "push",
+      narration: "When you start from a dead stop, you're fighting stationary inertia."
+    },
+    {
+      id: "s06",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "overstride", at: 0 },
+        { pose: "facepalm", at: "@brakes" }
+      ],
+      headline: { text: "Hitting the brakes", highlight: "brakes", at: "@brakes", side: "right" },
+      narration: "If your mechanics are off, you end up hitting your own brakes."
+    },
+    {
+      id: "s07",
+      kind: "list",
+      background: "dark",
+      transition: "cut",
+      title: "The four leaks",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "1. The braking step", icon: "cross", at: "@braking" },
+        { text: "2. Popping straight up", icon: "cross", at: "@popping" },
+        { text: "3. The lazy spring", icon: "cross", at: "@lazy" },
+        { text: "4. Untrained motor patterns", icon: "target", at: "@untrained" }
+      ],
+      narration: "Leak 1: the braking step. Leak 2: popping straight up. Leak 3: the lazy spring. And Leak 4: untrained motor patterns."
+    },
+    {
+      id: "s08",
+      kind: "mascot",
+      background: "track",
+      transition: "fade",
+      position: "left",
+      poses: [
+        { pose: "crouch", at: 0 },
+        { pose: "sprint", at: "@forward" }
+      ],
+      move: { to: "right", at: "@forward", dur: 1.2 },
+      headline: { text: "Pure propulsion", highlight: "propulsion", at: "@propulsion", side: "left" },
+      narration: "Fix these, and your first step turns into pure forward propulsion."
+    },
+
+    // --- LEAK 1: THE BRAKING STEP ---
+    {
+      id: "s09",
+      kind: "title",
+      chapter: "Leak 1: The braking step",
+      number: 2,
+      heading: "Leak 1: The braking step",
+      sub: "Foot strike vs center of mass",
+      mascot: { pose: "overstride" },
+      transition: "push",
+      narration: "The most common mistake when accelerating is reaching your lead foot forward to grab ground."
+    },
+    {
+      id: "s10",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "overstride", at: 0 }
+      ],
+      callouts: [
+        { label: "Foot ahead", target: "rFoot", at: "@touches", side: "right", dy: 50 },
+        { label: "Braking force", target: "rCalf", at: "@floor", side: "left", dy: -40 }
+      ],
+      icons: [
+        { icon: "cross", near: "rFoot", offset: [40, -40], at: "@floor" }
+      ],
+      narration: "When your foot touches down ahead of your center of mass, the floor pushes straight back against your shin, creating a sharp braking spike."
+    },
+    {
+      id: "s11",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "overstride", at: 0 },
+        { pose: "hands_knees", at: "@killing" }
+      ],
+      headline: { text: "Colliding with ground", highlight: "Colliding", at: "@colliding", side: "right" },
+      narration: "You are literally colliding with the ground and killing your own momentum on step one."
+    },
+    {
+      id: "s12",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 57,
+      suffix: "%",
+      label: "of acceleration speed variance is propulsive impulse",
+      highlight: "propulsive impulse",
+      icon: "bolt",
+      mascot: { pose: "point_up" },
+      at: "@over",
+      narration: "Propulsive impulse accounts for over 50% of the difference in sprint acceleration, while braking forces slow you down."
+    },
+    {
+      id: "s13",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "facepalm", at: "@stalls" }
+      ],
+      icons: [
+        { icon: "cross", pos: [1400, 160], size: 1.5 }
+      ],
+      headline: { text: "Foot on the brake", highlight: "brake", at: "@brake", side: "right" },
+      narration: "Think of stamping on your car's accelerator while your other foot is pressing the brake pedal. The car jerks and stalls."
+    },
+    {
+      id: "s14",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "dribble", at: 0 },
+        { pose: "overstride", at: "@reach" },
+        { pose: "hands_knees", at: "@stopped" }
+      ],
+      props: { r: "basketball" },
+      narration: "Picture a basketball guard driving toward the rim. They reach their lead foot forward, plant the heel, and get stopped dead by the defender."
+    },
+    {
+      id: "s15",
+      kind: "mascot",
+      background: "field",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "run_a", at: 0 },
+        { pose: "overstride", at: "@overstrides" },
+        { pose: "shrug", at: "@beaten" }
+      ],
+      props: { r: "football" },
+      narration: "Or a soccer player chasing a through-ball who overstrides and gets beaten to the ball."
+    },
+    {
+      id: "s16",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Push backward",
+      highlight: "backward",
+      style: "brand",
+      icon: "target",
+      sub: "Don't reach forward",
+      narration: "The fix: stop reaching forward, and start pushing the ground backward."
+    },
+    {
+      id: "s17",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "good_stride", at: "@land" },
+        { pose: "sprint", at: "@driving" }
+      ],
+      callouts: [
+        { label: "Center of Mass", target: "hips", at: "@center" },
+        { label: "Ball of foot", target: "rFoot", at: "@ball" }
+      ],
+      narration: "Elite sprinters land with the ball of the foot directly under their center of mass, driving down and back."
+    },
+    {
+      id: "s18",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "point_up", at: "@Cue" }
+      ],
+      headline: { text: "Push the floor behind", highlight: "behind", at: "@behind", side: "right" },
+      narration: "Cue yourself: push the floor behind you."
+    },
+    {
+      id: "s19",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "sprint", at: "@elbow" }
+      ],
+      callouts: [
+        { label: "Elbow drive", target: "rElbow", at: "@elbow" },
+        { label: "Leg push", target: "lThigh", at: "@push" }
+      ],
+      narration: "Violently drive your opposite elbow backward at the same moment to balance the push."
+    },
+    {
+      id: "s20",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flinch", at: "@collapses" }
+      ],
+      callouts: [
+        { label: "Limp ankle", target: "rAchilles", at: "@limp" }
+      ],
+      icons: [
+        { icon: "cross", near: "rFoot", offset: [0, -60], at: "@absorbs" }
+      ],
+      narration: "The mistake within the fix? Landing on your tiptoes with a limp ankle, which collapses and absorbs force instead of projecting you forward."
+    },
+
+    // --- LEAK 2: POPPING STRAIGHT UP ---
+    {
+      id: "s21",
+      kind: "title",
+      chapter: "Leak 2: Popping straight up",
+      number: 3,
+      heading: "Leak 2: Popping straight up",
+      sub: "Vector alignment & shin angles",
+      mascot: { pose: "sprint" },
+      transition: "push",
+      narration: "Newton's Third Law is ruthless. The floor only pushes you in the exact opposite direction that you push it."
+    },
+    {
+      id: "s22",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "stand", at: "@instantly" }
+      ],
+      callouts: [
+        { label: "Upright chest", target: "chest", at: "@chest" }
+      ],
+      narration: "When the play starts, most amateur athletes instantly stand tall, chest pointing at the sky."
+    },
+    {
+      id: "s23",
+      kind: "custom",
+      file: "custom/vectors.html",
+      transition: "cut",
+      narration: "If your body is vertical, pushing hard against the ground shoots you straight up into the air, not forward."
+    },
+    {
+      id: "s24",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 0.93,
+      decimals: 2,
+      suffix: " r",
+      label: "correlation between body lean and forward propulsive force",
+      highlight: "body lean",
+      icon: "target",
+      mascot: { pose: "present" },
+      at: "@forward",
+      narration: "Biomechanics research shows that your forward propulsive force is directly constrained by your body lean, with a near-perfect correlation."
+    },
+    {
+      id: "s25",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Horizontal force",
+      highlight: "Horizontal",
+      style: "dark",
+      icon: "bolt",
+      sub: "Not raw squat strength",
+      narration: "Sprint acceleration depends on your ability to direct force horizontally, not simply on your total raw strength or vertical force output."
+    },
+    {
+      id: "s26",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "sprint", at: "@Tilt" }
+      ],
+      headline: { text: "Rocket trajectory", highlight: "Rocket", at: "@rocket", side: "right" },
+      narration: "Think of launching a rocket. Point the engines down, and it shoots into space. Tilt the rocket 45 degrees, and it blazes across the horizon."
+    },
+    {
+      id: "s27",
+      kind: "mascot",
+      background: "field",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "facepalm", at: "@glide" }
+      ],
+      props: { r: "football" },
+      narration: "Picture a soccer midfielder closing down an attacker. Popping the chest up on step one lets the attacker glide right past them."
+    },
+    {
+      id: "s28",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "The organic protractor",
+      highlight: "protractor",
+      style: "brand",
+      icon: "target",
+      sub: "Master your shin angle",
+      narration: "The fix: master your shin angle."
+    },
+    {
+      id: "s29",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "lunge", at: 0 }
+      ],
+      callouts: [
+        { label: "Shin vector", target: "rCalf", at: "@shin" }
+      ],
+      narration: "Your shin is an organic protractor. Wherever your shin points when your foot hits the turf is where your body travels."
+    },
+    {
+      id: "s30",
+      kind: "stat",
+      background: "spotlight",
+      transition: "cut",
+      value: 45,
+      suffix: "°",
+      label: "ideal positive shin angle relative to ground on step 1",
+      highlight: "shin angle",
+      icon: "target",
+      mascot: { pose: "lunge" },
+      at: "@forty",
+      narration: "On step one, you need an acute positive shin angle of 40 to 45 degrees relative to the ground."
+    },
+    {
+      id: "s31",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "sprint", at: 0 }
+      ],
+      callouts: [
+        { label: "Diagonal line of steel", target: "back", at: "@straight" }
+      ],
+      narration: "Your back leg, hips, spine, and head should form a straight diagonal line of steel, tilted forward at 45 degrees."
+    },
+    {
+      id: "s32",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "crouch", at: 0 },
+        { pose: "sprint", at: "@first" }
+      ],
+      callouts: [
+        { label: "Eyes on ground", target: "head", at: "@eyes" }
+      ],
+      headline: { text: "Eyes on ground", highlight: "ground", at: "@ground", side: "right" },
+      narration: "Keep your eyes focused on the ground 2 to 3 meters ahead for the first 3 steps to prevent standing up too early."
+    },
+    {
+      id: "s33",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "squat", at: 0 },
+        { pose: "flinch", at: "@breaks" }
+      ],
+      callouts: [
+        { label: "Broken spine", target: "chest", at: "@Bending" }
+      ],
+      narration: "The mistake within the fix? Bending only at the waist while your shins stay vertical. That breaks your spine line and ruins force transfer."
+    },
+
+    // --- LEAK 3: THE LAZY SPRING ---
+    {
+      id: "s34",
+      kind: "title",
+      chapter: "Leak 3: The lazy spring",
+      number: 4,
+      heading: "Leak 3: The lazy spring",
+      sub: "Pretension & ground contact time",
+      mascot: { pose: "crouch" },
+      transition: "push",
+      narration: "To explode forward, your tendons must act like stiff carbon-fiber springs."
+    },
+    {
+      id: "s35",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "tired_front", at: "@slack" }
+      ],
+      icons: [
+        { icon: "muscle", near: "rThigh", offset: [80, 0], at: "@slack" }
+      ],
+      narration: "When you start from rest, your muscles have slack, like a loose climbing rope."
+    },
+    {
+      id: "s36",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "flinch", at: 0 }
+      ],
+      callouts: [
+        { label: "Floppy ankle", target: "rAchilles", at: "@ankle" }
+      ],
+      narration: "If you hit the ground with a soft, floppy ankle, your body spends precious milliseconds taking up that slack before force transfers forward."
+    },
+    {
+      id: "s37",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Muscle slack",
+      highlight: "slack",
+      style: "dark",
+      icon: "stopwatch",
+      sub: "Electromechanical delay",
+      narration: "Sports scientists call this muscle slack and electromechanical delay."
+    },
+    {
+      id: "s38",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "ready", at: "@taut" }
+      ],
+      headline: { text: "Pull it taut", highlight: "taut", at: "@taut", side: "right" },
+      narration: "Think of a slingshot. If the rubber band is dangling loose, releasing it produces zero power. It must be pulled taut first."
+    },
+    {
+      id: "s39",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flinch", at: "@sink" }
+      ],
+      props: { r: "racket" },
+      narration: "Picture a tennis player reacting to a wide passing shot. Loose ankles make their feet sink into the court, arriving half a step late."
+    },
+    {
+      id: "s40",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Pretension the ankle",
+      highlight: "Pretension",
+      style: "brand",
+      icon: "bolt",
+      sub: "Lock the spring before impact",
+      narration: "The fix is pretension."
+    },
+    {
+      id: "s41",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "good_stride", at: "@shin" }
+      ],
+      callouts: [
+        { label: "Dorsiflexion", target: "rFoot", at: "@dorsiflexion" },
+        { label: "Achilles spring", target: "rAchilles", at: "@shin" }
+      ],
+      narration: "Before your foot touches the floor, pull your toes up toward your shin, locking your ankle in dorsiflexion."
+    },
+    {
+      id: "s42",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "flex", at: 0 }
+      ],
+      callouts: [
+        { label: "Stiff spring", target: "rCalf", at: "@stiff" }
+      ],
+      narration: "That tightens your Achilles tendon and calf, turning your lower leg into a stiff spring before impact."
+    },
+    {
+      id: "s43",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "sprint", at: 0 }
+      ],
+      callouts: [
+        { label: "Piston strike", target: "lFoot", at: "@piston" }
+      ],
+      narration: "As your back leg swings forward, snap the heel under your hip in a tight piston stroke, never letting it kick up behind you."
+    },
+    {
+      id: "s44",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "facepalm", at: "@tap" }
+      ],
+      headline: { text: "Don't tap-dance", highlight: "tap-dance", at: "@tap", side: "right" },
+      narration: "And don't try to tap the floor as fast as possible on step one."
+    },
+    {
+      id: "s45",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 90,
+      suffix: " ms",
+      label: "ground contact time at top maximum speed",
+      highlight: "top speed",
+      icon: "stopwatch",
+      mascot: { pose: "sprint" },
+      at: "@speed",
+      narration: "At top speed, your foot is on the ground for just 80 to 100 milliseconds."
+    },
+    {
+      id: "s46",
+      kind: "chart",
+      background: "plain",
+      transition: "cut",
+      title: "Ground contact time",
+      unit: "ms",
+      focus: 1,
+      mascot: { pose: "point_up" },
+      bars: [
+        { label: "Top speed", value: 90, display: "80-100 ms" },
+        { label: "First step", value: 200, display: "180-220 ms", color: "var(--brand)" }
+      ],
+      narration: "But on step one, overcoming stationary inertia takes 180 to 220 milliseconds of ground contact to deliver full horizontal push."
+    },
+    {
+      id: "s47",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Push hard, push long",
+      highlight: "long",
+      style: "brand",
+      icon: "target",
+      sub: "Overcome inertia",
+      pauseAfter: 0.5,
+      narration: "Push hard and push long. Don't tap-dance."
+    },
+
+    // --- THE FALSE STEP MYTH ---
+    {
+      id: "s48",
+      kind: "title",
+      chapter: "The false step myth",
+      number: 5,
+      heading: "The false step myth",
+      sub: "Why stepping back is faster",
+      mascot: { pose: "think" },
+      transition: "push",
+      narration: "For decades, coaches yelled at athletes for taking a quick backward step before sprinting forward, calling it a false step."
+    },
+    {
+      id: "s49",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "right",
+      poses: [
+        { pose: "point_up", at: 0 },
+        { pose: "celebrate", at: "@proved" }
+      ],
+      headline: { text: "Science proved it", highlight: "proved", at: "@proved", side: "left" },
+      narration: "Modern sports science proved those coaches wrong."
+    },
+    {
+      id: "s50",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "lunge", at: "@drop-step" }
+      ],
+      headline: { text: "Drop-step power", highlight: "power", at: "@superior", side: "right" },
+      narration: "When starting from a parallel standing stance, a quick backward drop-step is actually biomechanically superior."
+    },
+    {
+      id: "s51",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "lunge", at: 0 },
+        { pose: "sprint", at: "@angle" }
+      ],
+      callouts: [
+        { label: "45° lean", target: "back", at: "@45-degree" },
+        { label: "Base of support", target: "lFoot", at: "@base" }
+      ],
+      narration: "Stepping backward instantly moves your base of support behind your hips, creating that 45-degree forward lean and acute shin angle without delay."
+    },
+    {
+      id: "s52",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 5,
+      suffix: " meters",
+      label: "split speed improved by backward drop-step in biomechanics trials",
+      highlight: "drop-step",
+      icon: "bolt",
+      mascot: { pose: "flex" },
+      at: "@first",
+      narration: "In biomechanics trials, athletes using a backward drop-step produced higher horizontal power and ran faster over the first 2.5 to 5 meters."
+    },
+    {
+      id: "s53",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "point_up", at: "@physics" }
+      ],
+      headline: { text: "Trust your body", highlight: "Trust", at: "@physics", side: "right" },
+      narration: "If your body takes a natural drop-step from a parallel stance, let it happen. Your nervous system is using physics to accelerate faster."
+    },
+
+    // --- THE THREE REWIRING DRILLS ---
+    {
+      id: "s54",
+      kind: "title",
+      chapter: "The three drills",
+      number: 6,
+      heading: "The three rewiring drills",
+      sub: "Lock the motor pattern",
+      mascot: { pose: "flex" },
+      transition: "push",
+      narration: "You can't think about shin angles during a fast game. You have to rewire the pattern into muscle memory."
+    },
+    {
+      id: "s55",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "present", at: "@three" }
+      ],
+      headline: { text: "3 rewiring drills", highlight: "rewiring", at: "@drills", side: "right" },
+      narration: "Here are the three drills that build an explosive first step."
+    },
+    {
+      id: "s56",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Drill 1: Wall march",
+      highlight: "Wall",
+      style: "dark",
+      icon: "target",
+      sub: "Isometric acceleration posture",
+      narration: "Drill 1: The wall acceleration march."
+    },
+    {
+      id: "s57",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "sprint", at: "@feet" }
+      ],
+      callouts: [
+        { label: "Wall support", target: "rHand", at: "@hands", dy: -40 },
+        { label: "45° rigid line", target: "back", at: "@feet" }
+      ],
+      narration: "Put your hands on a sturdy wall at shoulder height. Step your feet back until your body forms a rigid 45-degree angle from head to heels."
+    },
+    {
+      id: "s58",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "sprint", at: 0 }
+      ],
+      callouts: [
+        { label: "Thigh parallel", target: "rThigh", at: "@thigh" },
+        { label: "Toe pulled up", target: "rFoot", at: "@toe" }
+      ],
+      narration: "Drive one knee up until your thigh is parallel to the ground, toe pulled up toward your shin."
+    },
+    {
+      id: "s59",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "sprint", at: 0 },
+        { pose: "good_stride", at: "@switches" }
+      ],
+      headline: { text: "Explosive switches", highlight: "switches", at: "@switches", side: "right" },
+      narration: "Hold for 3 seconds, then perform explosive single switches, driving the foot down and back into the floor."
+    },
+    {
+      id: "s60",
+      kind: "list",
+      background: "dark",
+      transition: "cut",
+      title: "Wall march dosage",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "3 to 4 sets per leg", icon: "target", at: "@sets" },
+        { text: "5 switches per leg", icon: "bolt", at: "@switches" },
+        { text: "60 seconds rest", icon: "stopwatch", at: "@resting" }
+      ],
+      narration: "Do 3 to 4 sets of 5 switches per leg, resting 60 seconds between sets."
+    },
+    {
+      id: "s61",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Drill 2: Half-kneeling start",
+      highlight: "Half-kneeling",
+      style: "dark",
+      icon: "target",
+      sub: "Pure concentric horizontal drive",
+      narration: "Drill 2: The half-kneeling sprint start."
+    },
+    {
+      id: "s62",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "lunge", at: 0 }
+      ],
+      callouts: [
+        { label: "Knee down", target: "lKnee", at: "@ground" },
+        { label: "Shin forward", target: "rCalf", at: "@shin" }
+      ],
+      narration: "Start with one knee on the ground and your front foot flat, shin angled forward over your toes."
+    },
+    {
+      id: "s63",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "lunge", at: 0 },
+        { pose: "sprint", at: "@push" }
+      ],
+      move: { to: "right", at: "@push", dur: 1.1 },
+      narration: "Lean your chest out over your front knee. Without rocking back, push violently off your front foot and sprint for 10 meters."
+    },
+    {
+      id: "s64",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "sprint", at: 0 }
+      ],
+      headline: { text: "Can't pop up", highlight: "pop", at: "@popping", side: "right" },
+      narration: "Starting on the ground forces you to push backward horizontally without popping up."
+    },
+    {
+      id: "s65",
+      kind: "list",
+      background: "dark",
+      transition: "cut",
+      title: "Half-kneeling dosage",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "4 to 6 sprint reps", icon: "bolt", at: "@reps" },
+        { text: "Alternate front legs", icon: "check", at: "@alternating" },
+        { text: "60 to 90 seconds rest", icon: "stopwatch", at: "@resting" }
+      ],
+      narration: "Do 4 to 6 reps, alternating front legs, resting 60 to 90 seconds between sprints."
+    },
+    {
+      id: "s66",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Drill 3: Falling & sled starts",
+      highlight: "Falling",
+      style: "dark",
+      icon: "bolt",
+      sub: "Gravity-assisted acceleration angle",
+      narration: "Drill 3: Falling starts and heavy sled pushes."
+    },
+    {
+      id: "s67",
+      kind: "mascot",
+      background: "track",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 },
+        { pose: "crouch", at: "@tips" },
+        { pose: "sprint", at: "@punch" }
+      ],
+      move: { to: "right", at: "@punch", dur: 1.1 },
+      narration: "Stand tall with feet hip-width. Without bending at the waist, fall forward from the ankles. The moment your balance tips past your toes, punch one knee forward into a 10-meter sprint."
+    },
+    {
+      id: "s68",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "sprint", at: 0 }
+      ],
+      callouts: [
+        { label: "45° gravity angle", target: "back", at: "@forty" }
+      ],
+      narration: "Gravity forces your body into a deep 45-degree angle, training your brain to drive the feet backward."
+    },
+    {
+      id: "s69",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "sprint", at: 0 }
+      ],
+      headline: { text: "Heavy sled push", highlight: "sled", at: "@sled", side: "left" },
+      narration: "If you have a weighted sled, push it for 10 to 15 meters using a moderate-to-heavy load where you can maintain a rigid neutral spine and continuous forward drive without stumbling (or substitute with heavy resistance band starts)."
+    },
+    {
+      id: "s70",
+      kind: "list",
+      background: "dark",
+      transition: "cut",
+      title: "Drill 3 dosage",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "4 falling starts", icon: "bolt", at: "@falling" },
+        { text: "3 sled pushes", icon: "target", at: "@sled" },
+        { text: "2 minutes rest between reps", icon: "stopwatch", at: "@resting" }
+      ],
+      narration: "Do 4 falling starts and 3 sled pushes, resting 2 minutes between reps."
+    },
+
+    // --- STAY SAFE ---
+    {
+      id: "s71",
+      kind: "title",
+      chapter: "Stay safe",
+      number: 7,
+      heading: "Stay safe",
+      sub: "Protect your hamstrings and tendons",
+      mascot: { pose: "arms_crossed" },
+      transition: "push",
+      narration: "Explosive acceleration puts high shear stress on your hamstrings and Achilles tendons."
+    },
+    {
+      id: "s72",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Never sprint cold",
+      highlight: "cold",
+      style: "brand",
+      icon: "fire",
+      sub: "8-10 minute dynamic warmup",
+      narration: "Never perform maximum-effort first-step drills cold."
+    },
+    {
+      id: "s73",
+      kind: "list",
+      background: "gym",
+      transition: "cut",
+      title: "Dynamic warmup protocol",
+      mascot: { pose: "stretch_quad" },
+      items: [
+        { text: "Leg swings & high knees", icon: "fire", at: "@swings" },
+        { text: "Walking lunges", icon: "check", at: "@lunges" },
+        { text: "Progressive build-up runs", icon: "bolt", at: "@build-up" }
+      ],
+      narration: "Spend 8 to 10 minutes on a dynamic warm-up: leg swings, high knees, and walking lunges, followed by progressive build-up runs."
+    },
+    {
+      id: "s74",
+      kind: "stat",
+      background: "spotlight",
+      transition: "cut",
+      value: 120,
+      suffix: " meters",
+      label: "maximum acceleration volume per session",
+      highlight: "volume",
+      icon: "stopwatch",
+      mascot: { pose: "point_up" },
+      at: "@one",
+      narration: "Keep sprint volume low: 60 to 120 total meters per session is plenty for speed development."
+    },
+    {
+      id: "s75",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "drink", at: 0 },
+        { pose: "point_up", at: "@fatigued" }
+      ],
+      headline: { text: "1 min rest per 10m", highlight: "rest", at: "@rest", side: "right" },
+      narration: "Rest at least 1 minute for every 10 meters sprinted. If you sprint fatigued, mechanics break down and injury risk climbs."
+    },
+    {
+      id: "s76",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "hold_back", at: 0 },
+        { pose: "hands_hips", at: "@physio" }
+      ],
+      callouts: [
+        { label: "Stop on sharp pull", target: "rHamstring", at: "@pull" }
+      ],
+      narration: "If you feel a sharp pull or pinch in your hamstring or groin, stop immediately. Never sprint through an acute strain. See a sports physio."
+    },
+
+    // --- YOUR WEEK ---
+    {
+      id: "s77",
+      kind: "title",
+      chapter: "Your week",
+      number: 8,
+      heading: "Your weekly routine",
+      sub: "2 days, under 15 minutes",
+      mascot: { pose: "present" },
+      transition: "push",
+      narration: "Here is how to add first-step training to your week."
+    },
+    {
+      id: "s78",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "center",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flex", at: "@fresh" }
+      ],
+      headline: { text: "Train when fresh", highlight: "fresh", at: "@fresh", side: "left" },
+      narration: "Pick 2 days when your legs are fresh, before team practice or gym work."
+    },
+    {
+      id: "s79",
+      kind: "list",
+      background: "dark",
+      transition: "cut",
+      title: "Day 1 acceleration",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "Dynamic warm-up", icon: "fire", at: "@warm-up" },
+        { text: "Wall march (3 sets)", icon: "target", at: "@march" },
+        { text: "5x 10m half-kneeling starts", icon: "bolt", at: "@half-kneeling" }
+      ],
+      narration: "Day 1: dynamic warm-up, wall acceleration march for 3 sets, and 5 half-kneeling sprint starts over 10 meters."
+    },
+    {
+      id: "s80",
+      kind: "list",
+      background: "dark",
+      transition: "cut",
+      title: "Day 2 acceleration",
+      mascot: { pose: "sprint" },
+      items: [
+        { text: "Dynamic warm-up", icon: "fire", at: "@warm-up" },
+        { text: "4x 10m falling starts", icon: "bolt", at: "@falling" },
+        { text: "3x heavy sled pushes", icon: "target", at: "@sled" }
+      ],
+      narration: "Day 2: dynamic warm-up, 4 falling starts over 10 meters, and 3 heavy sled pushes or resisted sprints."
+    },
+    {
+      id: "s81",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "sprint", at: "@must" }
+      ],
+      headline: { text: "100% explosive intent", highlight: "100%", at: "@must", side: "right" },
+      narration: "Total sprint time is under 15 minutes, but the intent on every rep must be 100% explosive."
+    },
+    {
+      id: "s82",
+      kind: "stat",
+      background: "brand",
+      transition: "zoom",
+      value: 6,
+      suffix: " weeks",
+      label: "to permanently rewire positive shin angles",
+      highlight: "rewire",
+      icon: "target",
+      mascot: { pose: "celebrate" },
+      at: "@weeks",
+      narration: "Within 4 to 6 weeks, your nervous system will lock in positive shin angles and eliminate the braking step."
+    },
+
+    // --- CLOSE ---
+    {
+      id: "s83",
+      kind: "mascot",
+      chapter: "Close",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "facepalm", at: "@reach" }
+      ],
+      props: { r: "basketball" },
+      narration: "Next time a loose ball bounces your way, don't reach for space in front."
+    },
+    {
+      id: "s84",
+      kind: "mascot",
+      background: "track",
+      transition: "fade",
+      position: "left",
+      poses: [
+        { pose: "crouch", at: 0 },
+        { pose: "sprint", at: "@Drive" }
+      ],
+      move: { to: "right", at: "@Drive", dur: 1.2 },
+      headline: { text: "In your dust", highlight: "dust", at: "@dust", side: "left" },
+      narration: "Drive the floor behind you, stay low, and leave the defender in your dust."
+    }
+  ]
+};
+
+fs.writeFileSync(
+  "episodes/your-first-step-is-slow-here-s-why/storyboard.json",
+  JSON.stringify(storyboard, null, 2) + "\n"
+);
+console.log("Wrote updated storyboard.json with", storyboard.scenes.length, "scenes");

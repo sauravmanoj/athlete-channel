@@ -9,3 +9,5 @@
 | 2026-10-27 | the-levels-of-a-pickleball-player | The levels of a pickleball player | 10:00 | awaiting review |
 | 2026-10-28 | the-levels-of-a-padel-player | The levels of a padel player | 9:35 | awaiting review |
 | 2026-10-28 | 5-mistakes-killing-your-running-stamina | 5 mistakes killing your running stamina | 9:21 | awaiting review |
+| 2026-10-29 | your-first-step-is-slow-here-s-why | Your first step is slow (here's why) | 9:50 | awaiting review |
+| 2026-10-29 | how-to-never-get-tired-in-basketball | How to never get tired in basketball | 10:37 | awaiting review |
