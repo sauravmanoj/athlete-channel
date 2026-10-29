@@ -2,7 +2,7 @@
 import fs from "node:fs";
 import path from "node:path";
 import { readJSON, loadChannel, hashString } from "./core.mjs";
-import { cleanDisplay, wordCount } from "./speech.mjs";
+import { cleanDisplay, wordCount, toSpeech } from "./speech.mjs";
 import { poseLibrary } from "../mascot/rig.mjs";
 import { ICONS, BACKGROUNDS } from "./art.mjs";
 
@@ -138,7 +138,12 @@ export function makeResolver(scene, timing) {
   function wordTime(phrase) {
     const p = phrase.toLowerCase().trim();
     if (words && words.length) {
-      const first = p.split(/\s+/)[0].replace(/[^\p{L}\p{N}']/gu, "");
+      let first = p.split(/\s+/)[0].replace(/[^\p{L}\p{N}']/gu, "");
+      // Numbers are spoken as words ("30" -> "thirty"), and word timings come from the spoken text.
+      if (/\d/.test(first)) {
+        const spoken = toSpeech(p.split(/\s+/)[0]).toLowerCase().split(/[\s-]+/)[0].replace(/[^\p{L}\p{N}']/gu, "");
+        if (spoken && words.some((w) => w.text.toLowerCase().replace(/[^\p{L}\p{N}']/gu, "") === spoken)) first = spoken;
+      }
       const hit = words.find((w) => w.text.toLowerCase().replace(/[^\p{L}\p{N}']/gu, "") === first) ||
         words.find((w) => w.text.toLowerCase().includes(first));
       if (hit) return hit.start;

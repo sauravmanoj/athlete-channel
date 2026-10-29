@@ -1,0 +1,272 @@
+[
+  {
+    "id": "S1",
+    "title": "Excessive progression in weekly running distance and risk of running-related injuries: an association which varies according to type of injury",
+    "author": "Nielsen RØ, Parner ET, Nohr EA, Sørensen H, Lind M, Rasmussen S",
+    "publisher": "Journal of Orthopaedic & Sports Physical Therapy 44(10):739-747",
+    "year": "2014",
+    "url": "https://vbn.aau.dk/da/publications/excessive-progression-in-weekly-running-distance-and-risk-of-runn",
+    "type": "trial",
+    "notes": "Abstract opened (Aalborg University repository). Explorative 1-year prospective cohort, 874 healthy novice runners with GPS watches; groups by weekly distance progression: <10% (or regression), 10-30%, >30%. 202 runners injured. NO significant difference in overall injury rate between groups. 'Distance-related' injuries (e.g. patellofemoral pain, ITB syndrome, shin splints per secondary summary) higher in >30% vs <10%: HR 1.59 (95% CI 0.96-2.66), p=.07 (not significant). Authors: novices progressing >30% over 2 weeks 'seem to be more vulnerable'; call for RCTs. DOI 10.2519/jospt.2014.5164. Does NOT validate the '10% rule'."
+  },
+  {
+    "id": "S2",
+    "title": "How much running is too much? Identifying high-risk running sessions in a 5200-person cohort study",
+    "author": "Frandsen JSB, Hulme A, Parner ET, et al. (Nielsen RØ group)",
+    "publisher": "British Journal of Sports Medicine 59(17)",
+    "year": "2025",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12421110/",
+    "type": "trial",
+    "notes": "Opened (PMC full text). Garmin-RUNSAFE cohort, 5,205 adult runners (mean age 45.8; 22% female), ~18 months, 588,071 sessions. 1,820 (35%) reported a running-related injury; 72% overuse. Single-session distance compared with the LONGEST run in the previous 30 days. Reference = regression or up to +10%. Adjusted hazard rate ratios for overuse injury: small spike >10-30% HRR 1.64 (1.31-2.05); moderate >30-100% HRR 1.52 (1.16-2.00); large >100% HRR 2.28 (1.50-3.48). Week-to-week ratio: no association; ACWR: inverse association. Observational; injury self-reported; authors call for RCTs and suggest cut-off may need to be below 10%. DOI 10.1136/bjsports-2024-109380."
+  },
+  {
+    "id": "S3",
+    "title": "Incidence of running-related injuries per 1000 h of running in different types of runners: a systematic review and meta-analysis",
+    "author": "Videbæk S, Bueno AM, Nielsen RO, Rasmussen S",
+    "publisher": "Sports Medicine 45(7):1017-1026",
+    "year": "2015",
+    "url": "https://europepmc.org/article/MED/25951917",
+    "type": "review",
+    "notes": "Abstract opened via Europe PMC API (PMC page blocked by captcha). 13 studies. Injury incidence ranged 2.5-33.0 per 1000 h. Pooled: novice runners 17.8 per 1000 h (95% CI 16.7-19.1) vs recreational runners 7.7 (6.9-8.7). Heterogeneous injury definitions."
+  },
+  {
+    "id": "S4",
+    "title": "The training intensity distribution among well-trained and elite endurance athletes",
+    "author": "Stöggl TL, Sperlich B",
+    "publisher": "Frontiers in Physiology 6:295",
+    "year": "2015",
+    "url": "https://www.frontiersin.org/articles/10.3389/fphys.2015.00295/full",
+    "type": "review",
+    "notes": "Opened (first 100k chars). Elite endurance athletes spend ~70%+ of training time at low intensity (often cited ~80/20). Most retrospective studies show a 'pyramidal' pattern (lots of low, less threshold, little high); some show 'polarised' (e.g. marathon runners ~78/4/18%). Cites Muñoz 2014 (recreational runners 77/3/20 polarised vs 46/35/19 threshold; 10 km +5.0% vs +3.5%) and Esteve-Lanao 2007 (sub-elite runners: more low-intensity -> bigger 10.4 km improvement). Conclusion: no single optimal distribution; individual responses vary; studies short."
+  },
+  {
+    "id": "S5",
+    "title": "Does polarized training improve performance in recreational runners?",
+    "author": "Muñoz I, Seiler S, Bautista J, España J, Larumbe E, Esteve-Lanao J",
+    "publisher": "International Journal of Sports Physiology and Performance 9(2):265-272",
+    "year": "2014",
+    "url": "https://europepmc.org/article/MED/23752040",
+    "type": "trial",
+    "notes": "Abstract opened via Europe PMC API. 30 recreational runners randomised to 10 weeks of polarised (mostly below ventilatory threshold) vs between-thresholds (moderate-hard) training. Both improved 10 km time: 5.0% vs 3.6%; between-group difference NOT significant. Subset of runners who most closely followed the plans: polarised better (ES 1.29, 90% CI 0.31-2.27, p=.038) — exploratory; abstract subset numbers internally inconsistent."
+  },
+  {
+    "id": "S6",
+    "title": "Comparison of polarized versus other types of endurance training intensity distribution on athletes' endurance performance: a systematic review with meta-analysis",
+    "author": "Silva Oliveira P, Boppre G, Fonseca H",
+    "publisher": "Sports Medicine 54(8):2071-2095",
+    "year": "2024",
+    "url": "https://europepmc.org/article/MED/38717713",
+    "type": "review",
+    "notes": "Abstract opened via Europe PMC API (DOI 10.1007/s40279-024-02034-z). 17 studies, n=437. VO2peak: small advantage for polarised, SMD 0.24 (0.01-0.48), 11 studies, n=284. Time-trial performance: no difference, SMD -0.01 (-0.28 to 0.25). Advantage clearer in highly trained athletes (SMD 0.46) and interventions <12 weeks; >12 weeks similar. Recreational subgroup not separately reported in abstract. NOTE: Europe PMC MED id in URL inferred from DOI lookup; the DOI is the verified identifier."
+  },
+  {
+    "id": "S7",
+    "title": "Consistency of the talk test for exercise prescription",
+    "author": "Persinger R, Foster C, Gibson M, Fater DC, Porcari JP",
+    "publisher": "Medicine & Science in Sports & Exercise 36(9):1632-1636",
+    "year": "2004",
+    "url": "https://europepmc.org/article/MED/15354048",
+    "type": "trial",
+    "notes": "Abstract opened via Europe PMC API (title search). Healthy volunteers (n=16 per secondary sources), incremental treadmill and cycle tests. The 'equivocal' talk-test stage (speech first becomes not entirely comfortable) was almost exactly at ventilatory threshold; when speech was not comfortable (negative), intensity was consistently above VT. %HRR at VT 84% treadmill / 74% cycle; at equivocal stage 80% / 81%. Talk test consistent across modes. NOTE: MED id in URL is from memory of PubMed index; verify — the title/authors/journal were confirmed."
+  },
+  {
+    "id": "S8",
+    "title": "Application and measurement properties of the talk test in cardiopulmonary patients: a systematic review",
+    "author": "Vieira AM, Martins EM, Althoff A, et al.",
+    "publisher": "Reviews in Cardiovascular Medicine 23(7):225",
+    "year": "2022",
+    "url": "https://www.imrpress.com/journal/RCM/23/7/10.31083/j.rcm2307225/htm",
+    "type": "review",
+    "notes": "Opened. 10 studies, 414 subjects, mostly coronary patients. Typical method: recite a standard ~30-word passage in last 10-30 s of a stage and ask 'Are you able to speak comfortably?'. Last positive (comfortable) stage and equivocal stage occur at or below the first ventilatory threshold (VT1); negative stage above VT1. Criterion validity rated very good; reliability adequately tested in only one study; no standard protocol — caution. Patient population, not athletes."
+  },
+  {
+    "id": "S9",
+    "title": "The 'Critical Power' concept and high-intensity exercise performance (Sports Science Exchange #181)",
+    "author": "Jones AM",
+    "publisher": "Gatorade Sports Science Institute",
+    "year": "2018",
+    "url": "https://www.gssiweb.org/en/sports-science-exchange/article/the-critical-power-concept-and-high-intensity-exercise-performance",
+    "type": "review",
+    "notes": "Opened. Below critical power/speed, lactate and VO2 reach a steady state. Above it, no steady state: VO2 slow component, phosphocreatine and pH keep falling, blood lactate keeps rising until the limit of tolerance; the further above, the faster exhaustion. W' = finite work capacity above CP, used faster the further above CP; replenished below CP. Efforts above CP early drain W' and accelerate fatigue. Industry-funded institute but author is a leading academic (Univ. Exeter); consistent with Jones & Vanhatalo 2017 Sports Med (PMC5371646)."
+  },
+  {
+    "id": "S10",
+    "title": "Effects of step rate manipulation on joint mechanics during running",
+    "author": "Heiderscheit BC, Chumanov ES, Michalski MP, Wille CM, Ryan MB",
+    "publisher": "Medicine & Science in Sports & Exercise 43(2):296-302",
+    "year": "2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20581720/",
+    "type": "trial",
+    "notes": "Opened. 45 healthy recreational runners, treadmill, constant speed, preferred step rate and ±5%, ±10%. +5% and +10%: less energy absorbed at the knee; +10%: also less at hip, lower hip adduction and hip moments. Higher step rate -> shorter step, less vertical bounce, less braking impulse, less peak knee flexion. -10% increased energy absorption at all joints. Conclusion: 'subtle increases in step rate can substantially reduce the loading to the hip and knee'. Lab, immediate effects, no injury outcome."
+  },
+  {
+    "id": "S11",
+    "title": "What is the effect of changing running step rate on injury, performance and biomechanics? A systematic review and meta-analysis",
+    "author": "Anderson LM, Martin JF, Barton CJ, Bonanno DR",
+    "publisher": "Sports Medicine - Open 8:112",
+    "year": "2022",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9441414/",
+    "type": "review",
+    "notes": "Opened (first 100k chars). 37 studies. Strong evidence: +10% step rate reduces peak knee flexion; moderate evidence: shorter step length, less hip adduction, lower knee extensor moment, flatter foot-strike angle. Loading-rate change at +10% not significant. Injury: 'insufficient evidence' — only 2 studies, both in patellofemoral pain, improved pain/function over 4-12 weeks. +10% raised perceived exertion/awkwardness (very limited evidence); ~15% changes raised metabolic cost. Long-term effects largely unknown."
+  },
+  {
+    "id": "S12",
+    "title": "Prevention, diagnosis, and treatment of the overtraining syndrome: joint consensus statement of the European College of Sport Science and the American College of Sports Medicine",
+    "author": "Meeusen R, Duclos M, Foster C, Fry A, Gleeson M, Nieman D, Raglin J, Rietjens G, Steinacker J, Urhausen A",
+    "publisher": "Medicine & Science in Sports & Exercise 45(1):186-205",
+    "year": "2013",
+    "url": "https://sportgeneeskunde.com/wp-content/uploads/Meeusen-et-al-2013-Overtraining-Consensus-ECSS-ACSM.pdf",
+    "type": "position-stand",
+    "notes": "Opened PDF pp. 186-189. 'Successful training must involve overload but also must avoid the combination of excessive overload plus inadequate recovery.' Acute fatigue after adequate rest -> improvement ('supercompensation'). Figure 1: acute fatigue recovers in day(s); functional overreaching days-weeks (temporary dip then improvement); non-functional overreaching weeks-months (stagnation); OTS months+. OR can recover within ~2 weeks. Confounders: inadequate energy/carbohydrate intake, illness, psychosocial stress, sleep disorders. 'One of the most certain triggers is a training error resulting in an imbalance between load and recovery.' Survey: ~10% (7-21%) NFOR/OTS in collegiate endurance athletes; career rate 33% in non-elite adult runners (survey, retrospective)."
+  },
+  {
+    "id": "S13",
+    "title": "Couch to 5K running plan",
+    "author": "NHS (Better Health)",
+    "publisher": "NHS England",
+    "year": "2025-2026",
+    "url": "https://www.nhs.uk/better-health/get-active/get-running-with-couch-to-5k/couch-to-5k-running-plan/",
+    "type": "org",
+    "notes": "Opened. 9 weeks, 3 runs/week with a rest day between each. Each run: 5-min warm-up walk, 5-min cool-down walk. Week 1: run 1 min / walk 1.5 min x7 then run 1 min (28.5 min total). Week 2: run 1.5 / walk 2 x5 + run 1.5. Week 3: 1.5/1.5/3/3/1.5/1.5/3. Week 4: 3/1.5/5/2.5/3/1.5/5. Week 5: run 3 = continuous 20 min. Week 6: run 3 = 25 min. Week 7: 25 min x3. Week 8: 28 min. Week 9: 30 min. Can take longer than 9 weeks. Advice: see GP first if health concerns; listen to your body, go at your own pace, stop if something doesn't feel right; light carb snack (banana, toast) 1-2 h before; carry water/sip on warm days or longer runs; run in cooler morning in hot weather; Week 4 tip inhale 3 steps exhale 2."
+  },
+  {
+    "id": "S14",
+    "title": "World Health Organization 2020 guidelines on physical activity and sedentary behaviour",
+    "author": "Bull FC, Al-Ansari SS, Biddle S, et al.",
+    "publisher": "British Journal of Sports Medicine 54(24):1451-1462",
+    "year": "2020",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7719906/",
+    "type": "position-stand",
+    "notes": "Opened. Adults 18-64: 150-300 min/week moderate or 75-150 min/week vigorous aerobic activity (or equivalent mix); muscle-strengthening at moderate+ intensity, all major muscle groups, >=2 days/week. 'Some physical activity is better than none'; start small and gradually increase frequency, intensity and duration."
+  },
+  {
+    "id": "S15",
+    "title": "Time course and mechanisms of adaptations in cardiorespiratory fitness with endurance training in older and young men",
+    "author": "Murias JM, Kowalchuk JM, Paterson DH",
+    "publisher": "Journal of Applied Physiology 108(3):621-627",
+    "year": "2010",
+    "url": "https://elmi.hbku.edu.qa/en/publications/time-course-and-mechanisms-of-adaptations-in-cardiorespiratory-fi/",
+    "type": "trial",
+    "notes": "Abstract opened. 8 young (23 y) and 8 older (68 y) men; cycle ergometer 3x/week, 45 min at ~70% VO2max, 12 weeks; tested at 0, 3, 6, 9, 12 wk. VO2max increased within 3 weeks; total +18% (young) and +31% (older) by 12 weeks. Early gains mainly peripheral (O2 extraction), later central (cardiac output, per secondary summary). Small, men only, cycling not running."
+  },
+  {
+    "id": "S16",
+    "title": "2023 International Olympic Committee's (IOC) consensus statement on Relative Energy Deficiency in Sport (REDs)",
+    "author": "Mountjoy M, Ackerman KE, Bailey DM, Burke LM, et al.",
+    "publisher": "British Journal of Sports Medicine 57(17):1073-1097",
+    "year": "2023",
+    "url": "https://europepmc.org/article/MED/37752011",
+    "type": "position-stand",
+    "notes": "Abstract opened via Europe PMC API (BJSM page 403). REDs = impaired health and performance in female AND male athletes when energy intake is too low for exercise energy expenditure (low energy availability, LEA). LEA is a spectrum from adaptable (short/mild) to problematic (prolonged/severe). Growing role of low carbohydrate availability; links with mental health; more male data. Introduces IOC REDs CAT2 clinical tool. Full text not read (detailed symptom lists taken from S17)."
+  },
+  {
+    "id": "S17",
+    "title": "Relative energy deficiency in sport (RED-S)",
+    "author": "Todd E, Elliott N, Keay N",
+    "publisher": "British Journal of General Practice 72(719):295-297",
+    "year": "2022",
+    "url": "https://bjgp.org/content/72/719/295",
+    "type": "review",
+    "notes": "Full PDF read (https://bjgp.org/content/72/719/295.full.pdf). RED-S affects males and females, any age/level. Risk: recently increased training load, reduced rest, frequent fasted training, exclusionary diets, unintentional underfuelling after life changes. Chronic low energy 'prevents the body's adaptation to training, and performance will inevitably plateau or decline'. 'It is not normal for females to lose their menstrual cycle ... regardless of their level of exercise' = red flag; in males loss of morning erections. Other symptoms: fatigue, frequent minor illness, more injuries, poor sleep, GI upset, poor concentration, low mood/anxiety. Occurs at normal BMI. Management via fuelling + training load; 'adequate carbohydrate intake before and after exercise' because within-day deficits matter. DEXA if amenorrhoeic or >=2 stress fractures. Clinical article for GPs."
+  },
+  {
+    "id": "S18",
+    "title": "Carbohydrates for training and competition",
+    "author": "Burke LM, Hawley JA, Wong SH, Jeukendrup AE",
+    "publisher": "Journal of Sports Sciences 29(Suppl 1):S17-S27",
+    "year": "2011",
+    "url": "https://europepmc.org/article/MED/21660838",
+    "type": "review",
+    "notes": "Abstract opened via Europe PMC API. Carbohydrate intake should match the fuel needs of the session (no single daily number in abstract). During exercise: ~1 h sustained high-intensity — small amounts/mouth rinse can help; longer sessions — 30-60 g/h; events >2.5 h — up to 90 g/h may help. Basis of later 2016 ACSM/AND/DC joint statement (Thomas, Erdman, Burke, MSSE 48(3):543-568, abstract opened; full text paywalled)."
+  },
+  {
+    "id": "S19",
+    "title": "The effectiveness of exercise interventions to prevent sports injuries: a systematic review and meta-analysis of randomised controlled trials",
+    "author": "Lauersen JB, Bertelsen DM, Andersen LB",
+    "publisher": "British Journal of Sports Medicine 48(11):871-877",
+    "year": "2014",
+    "url": "https://search.pedro.org.au/search-results/record-detail/39522",
+    "type": "review",
+    "notes": "Opened (PEDro). 25 RCTs, 26,610 participants. Strength training RR 0.315 (0.207-0.480); proprioception RR 0.550 (0.347-0.869); stretching RR 0.963 (0.846-1.095, no effect). Not running-specific."
+  },
+  {
+    "id": "S20",
+    "title": "Shin splints",
+    "author": "nidirect (NHS-based content, Northern Ireland)",
+    "publisher": "nidirect government services",
+    "year": "2025",
+    "url": "https://nidirect.gov.uk/conditions/shin-splints",
+    "type": "org",
+    "notes": "Opened. Pain along the front of the shin, starts soon after exercise, dull then sharper, usually both shins, spread over a wide area; 'important not to run through the pain'. Causes/risks: sudden increase in activity, hard/uneven surfaces, worn trainers, tight calves etc. Self-care: rest from triggering activity at least 2-3 weeks then gradual return; low-impact alternatives (cycling, swimming). Prevention: increase activity gradually, mix high and low impact. Pain in a small area may be a stress fracture (often one leg) — see GP; see GP if not improving."
+  },
+  {
+    "id": "S21",
+    "title": "Caring for a stress fracture (patient leaflet GHPI1576_03_26)",
+    "author": "Gloucestershire Hospitals NHS Foundation Trust (Emergency Dept)",
+    "publisher": "Gloucestershire Hospitals NHS FT",
+    "year": "2026",
+    "url": "https://www.gloshospitals.nhs.uk/documents/26002/Caring_for_a_stress_fracture_GHPI1576_03_26.pdf",
+    "type": "org",
+    "notes": "Opened (PDF, reviewed March 2026). Stress fractures = small breaks from overuse (repeated jumping, long-distance running), increasing activity too quickly. At risk: high-impact sports, sudden increase in activity. Pain in a very specific spot, tender when touching the exact area, worse with running/jumping and better with rest; not always seen on X-ray. About 6 weeks to heal; stop the causing activity; graded return."
+  },
+  {
+    "id": "S22",
+    "title": "Achilles tendinopathy (supported self-care)",
+    "author": "Robert Jones & Agnes Hunt Orthopaedic Hospital NHS FT",
+    "publisher": "RJAH NHS",
+    "year": "2025",
+    "url": "https://www.rjah.nhs.uk/our-services/therapy/supported-self-care/achilles-tendinopathy/",
+    "type": "org",
+    "notes": "Opened. Typically overuse; risk: starting new running/jumping or suddenly increasing training volume, age >30, diabetes, smoking, overweight. Symptoms: pain just above heel, tender to squeeze, morning stiffness easing after a few minutes walking, worse after a long run. Some discomfort acceptable (~2-3/10 settling quickly); adapt if >4/10 or lingering. See GP/physio if no better after a month. Red flags: hot red swollen foot, fever with shortness of breath, unexplained weight loss. (Exercise dosages on page = self-management; do not present as treatment in video.)"
+  },
+  {
+    "id": "S23",
+    "title": "Injury prevention advice for runners",
+    "author": "Newcastle upon Tyne Hospitals NHS FT (Occupational Health)",
+    "publisher": "Newcastle Hospitals NHS",
+    "year": "2025",
+    "url": "https://www.newcastle-hospitals.nhs.uk/services/injury-prevention-advice-for-runners/",
+    "type": "org",
+    "notes": "Opened. Overload -> shin splints, hip/knee pain, Achilles tendinopathy; triggers include returning after time off and more runs/week leaving less recovery; insufficient rest. Advises strength work 2-3x/week and cross-training (swimming, cycling). Advises '10% each week' (example of the popular rule — contrast with S1/S2). Seek medical advice: after fall/trauma, pain constant even at rest, significant swelling/bruising, can't weight-bear; persisting symptoms -> GP."
+  },
+  {
+    "id": "S24",
+    "title": "Heat exhaustion and heatstroke",
+    "author": "NHS 111 Wales",
+    "publisher": "NHS Wales",
+    "year": "2025",
+    "url": "https://111.wales.nhs.uk/Heatexhaustionandheatstroke",
+    "type": "org",
+    "notes": "Opened. Heat exhaustion signs: tiredness, dizziness, headache, nausea/vomiting, heavy sweating, pale clammy skin, cramps, fast breathing/heartbeat, high temperature, intense thirst, weakness. Cool down (shade, loosen clothes, sip water/sports drink, cool skin); should feel better within 30 min. Call 999 if still unwell after 30 min or heatstroke signs: very high temperature, hot skin not sweating, confusion, poor coordination, seizure, loss of consciousness. Avoid strenuous exercise in heat; limit midday sun 11am-3pm. Verbatim: \"drink more cold drinks, especially if you're active or exercising\"."
+  },
+  {
+    "id": "S25",
+    "title": "AHA/ACSM Health/Fitness Facility Pre-participation Screening Questionnaire",
+    "author": "American Heart Association & American College of Sports Medicine (modified from MSSE 1998 joint position statement)",
+    "publisher": "AHA/ACSM (copy hosted by UConn Student Health)",
+    "year": "1998",
+    "url": "https://studenthealth.uconn.edu/wp-content/uploads/sites/1709/2020/07/AHA_ACSM-Preparticipation.pdf",
+    "type": "position-stand",
+    "notes": "Opened. Symptoms section: 'chest discomfort with exertion', 'unreasonable breathlessness', 'dizziness, fainting, or blackouts' (plus heart history, diabetes, asthma, pregnancy, musculoskeletal problems, concerns). If any marked: 'consult your physician or other appropriate health care provider before engaging in exercise.' Old (1998) screening tool; ACSM updated its screening algorithm in 2015 (not opened) — use only for the symptom list."
+  },
+  {
+    "id": "S26",
+    "title": "Imbalances in the Development of Muscle and Tendon as Risk Factor for Tendinopathies in Youth Athletes: A Review of Current Evidence and Concepts of Prevention",
+    "author": "Mersmann F, Bohm S, Arampatzis A",
+    "publisher": "Frontiers in Physiology 8:987",
+    "year": 2017,
+    "url": "https://www.frontiersin.org/journals/physiology/articles/10.3389/fphys.2017.00987/full",
+    "type": "review",
+    "notes": "Opened 2026-10-28. 'Muscle seems to be characterized by a greater rate of effective tissue renewal compared to tendon'; muscle strength gains come first, no reports of similarly rapid tendon adaptation; imbalance may raise overload tendinopathy risk (plausible, not proven). Used only for 'muscles get stronger fast, tendons take longer to catch up'."
+  },
+  {
+    "id": "S27",
+    "title": "Chest pain",
+    "author": "NHS",
+    "publisher": "NHS (nhs.uk)",
+    "year": 2024,
+    "url": "https://www.nhs.uk/symptoms/chest-pain/",
+    "type": "official guidance",
+    "notes": "Call emergency services for chest pain that doesn't go away, or spreads to the arm, back, neck or jaw; added by fact-checker 2026-10-28 for SF-1."
+  }
+]

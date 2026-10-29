@@ -1,0 +1,56 @@
+<!-- Hero: the talk test as a pace gauge. Needle sweeps green (full sentences) → amber (choppy) → red (can't talk); in the red, a small fixed "reserve" tank drains fast. Illustrative, not to scale. -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root svg.g { position:absolute; left:260px; top:230px; }
+    #__ID__-root .bub { position:absolute; left:1080px; top:300px; width:620px; min-height:150px; padding:30px 40px; box-sizing:border-box; background:#fff; border:8px solid var(--ink); border-radius:40px; font:700 52px/1.15 var(--display); color:var(--ink); text-transform:uppercase; opacity:0; }
+    #__ID__-root .bub:after { content:""; position:absolute; left:-46px; top:50px; border:24px solid transparent; border-right:30px solid var(--ink); }
+    #__ID__-root .tank { position:absolute; left:1180px; top:620px; width:420px; height:90px; border:8px solid var(--ink); border-radius:20px; background:#fff; overflow:hidden; opacity:0; }
+    #__ID__-root .lvl { position:absolute; left:0; top:0; bottom:0; width:100%; background:var(--bad); transform-origin:0 50%; }
+    #__ID__-root .tl { position:absolute; left:1180px; top:730px; width:420px; text-align:center; font:700 40px var(--display); text-transform:uppercase; color:var(--ink); opacity:0; }
+    #__ID__-root .zl { position:absolute; font:700 38px var(--display); text-transform:uppercase; }
+  </style>
+  <div class="headline" id="__ID__-t" style="left:0;right:0;top:70px;text-align:center">The talk test</div>
+  <svg class="g" width="720" height="460" viewBox="-360 -380 720 460">
+    <path d="M-300 0 A300 300 0 0 1 -150 -259.8" fill="none" stroke="#3DBE6E" stroke-width="70"/>
+    <path d="M-150 -259.8 A300 300 0 0 1 150 -259.8" fill="none" stroke="#FFD23F" stroke-width="70"/>
+    <path d="M150 -259.8 A300 300 0 0 1 300 0" fill="none" stroke="#E8423A" stroke-width="70"/>
+    <line x1="132" y1="-229" x2="190" y2="-329" stroke="#1C2140" stroke-width="10"/>
+    <line x1="-132" y1="-229" x2="-190" y2="-329" stroke="#1C2140" stroke-width="10"/>
+    <path d="M-300 0 A300 300 0 0 1 300 0" fill="none" stroke="#1C2140" stroke-width="8" transform="scale(1.13)"/>
+    <g id="__ID__-needle"><path d="M-14 0 L0 -270 L14 0 Z" fill="#1C2140"/><circle r="30" fill="#1C2140"/></g>
+  </svg>
+  <div class="zl" style="left:240px;top:630px;color:#2a9d57">Chat</div>
+  <div class="zl" style="left:560px;top:200px;color:#c49a00">Choppy</div>
+  <div class="zl" style="left:900px;top:630px;color:var(--bad)">Gasp</div>
+  <div class="zl" style="left:830px;top:290px;color:var(--ink);font-size:30px">◀ Redline</div>
+  <div class="zl" id="__ID__-th" style="left:150px;top:250px;width:290px;text-align:right;color:var(--ink);font-size:30px;line-height:1.05">1st breathing threshold ▶</div>
+  <div class="bub" id="__ID__-b1">“I can talk in full sentences.”</div>
+    <div class="bub" id="__ID__-b3">“Two… words…”</div>
+  <div class="tank" id="__ID__-tank"><div class="lvl" id="__ID__-lvl"></div></div>
+  <div class="tl" id="__ID__-tl">Over the redline: reserve draining</div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-t", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.set("#__ID__-needle", { rotation: -75, svgOrigin: "0 0" }, 0);
+  var a = 2.2, b = 7.0, c = Math.min(11.6, D - 2);
+  tl.to("#__ID__-b1", { opacity: 1, duration: 0.3 }, a);
+  tl.fromTo("#__ID__-th", { opacity: 0.25 }, { opacity: 1, duration: 0.3 }, b - 0.6);
+  tl.to("#__ID__-needle", { rotation: -30, duration: 1.0, ease: "power2.inOut", svgOrigin: "0 0" }, b - 0.5);
+
+  tl.to("#__ID__-needle", { rotation: 72, duration: 1.0, ease: "power2.inOut", svgOrigin: "0 0" }, c - 0.5);
+  tl.to("#__ID__-b1", { opacity: 0, duration: 0.2 }, c);
+  tl.to("#__ID__-b3", { opacity: 1, duration: 0.3 }, c + 0.1);
+  tl.to(["#__ID__-tank", "#__ID__-tl"], { opacity: 1, duration: 0.3 }, c + 0.2);
+  tl.fromTo("#__ID__-lvl", { scaleX: 1 }, { scaleX: 0.05, duration: Math.max(1.2, D - c - 0.8), ease: "power1.in" }, c + 0.4);
+  tl.to("#__ID__-needle", { rotation: 76, duration: 0.15, yoyo: true, repeat: 7 }, c + 0.6);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

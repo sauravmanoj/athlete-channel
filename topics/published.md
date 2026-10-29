@@ -8,3 +8,4 @@
 | 2026-10-26 | how-to-never-get-tired-in-football | How to never get tired in football | 9:49 | awaiting review |
 | 2026-10-27 | the-levels-of-a-pickleball-player | The levels of a pickleball player | 10:00 | awaiting review |
 | 2026-10-28 | the-levels-of-a-padel-player | The levels of a padel player | 9:35 | awaiting review |
+| 2026-10-28 | 5-mistakes-killing-your-running-stamina | 5 mistakes killing your running stamina | 9:21 | awaiting review |

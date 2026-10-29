@@ -1,0 +1,2350 @@
+{
+ "title": "5 mistakes killing your running stamina",
+ "thumbnail": {
+  "pose": "hands_knees",
+  "face": "tired",
+  "background": "track",
+  "headline": "Stop gasping",
+  "highlight": "gasping",
+  "icons": [
+   {
+    "icon": "battery",
+    "level": 0.08
+   }
+  ],
+  "side": "right"
+ },
+ "youtube": {
+  "title": "5 mistakes killing your running stamina",
+  "titleOptions": [
+   "Why you're out of breath after 5 minutes of running",
+   "Run longer without gasping: fix these 5 mistakes"
+  ],
+  "description": "Gasping a few minutes into every run? It's usually not your lungs. Here are the 5 mistakes that kill running stamina: going too fast, the sudden long run, overstriding, skipping recovery and running underfuelled. And the simple fix for each one, from the talk test to a 5% cadence tweak.",
+  "tags": [
+   "running stamina",
+   "how to run longer",
+   "running for beginners",
+   "couch to 5k",
+   "talk test running",
+   "easy running pace",
+   "running injury prevention",
+   "overstriding",
+   "running cadence",
+   "running recovery",
+   "running nutrition",
+   "how to stop getting tired when running",
+   "beginner running tips",
+   "running endurance"
+  ]
+ },
+ "scenes": [
+  {
+   "id": "s01",
+   "kind": "mascot",
+   "chapter": "Intro",
+   "background": "track",
+   "transition": "fade",
+   "position": "left",
+   "poses": [
+    {
+     "pose": "sprint",
+     "face": "determined"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@bent"
+    }
+   ],
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.14,
+    "from": 0,
+    "to": "@bent"
+   },
+   "move": {
+    "to": "center",
+    "at": 0.2,
+    "dur": 2.2
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.9,
+     "levelTo": 0.05,
+     "levelAt": "@minutes",
+     "pos": [
+      1550,
+      250
+     ],
+     "size": 1.4
+    }
+   ],
+   "pauseAfter": 0.4,
+   "narration": "You set off fast. 4 minutes later, you're bent over, gasping, wondering how anyone runs for an hour."
+  },
+  {
+   "id": "s02",
+   "kind": "slam",
+   "text": "Not your lungs. Your mistakes.",
+   "highlight": "mistakes",
+   "style": "dark",
+   "icon": "lungs",
+   "narration": "The problem usually isn't your lungs. It's a few mistakes you can fix this week."
+  },
+  {
+   "id": "s03",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present",
+     "face": "happy"
+    },
+    {
+     "pose": "point_up",
+     "at": "@fix"
+    }
+   ],
+   "headline": {
+    "text": "5 mistakes, 5 fixes",
+    "highlight": "fixes",
+    "at": "@5",
+    "side": "right"
+   },
+   "narration": "Today: the 5 mistakes killing your running stamina, and the fix for each one."
+  },
+  {
+   "id": "s04",
+   "kind": "list",
+   "chapter": "The five mistakes",
+   "title": "5 mistakes killing your stamina",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "facepalm"
+     },
+     {
+      "pose": "point_up",
+      "at": "@overstriding"
+     },
+     {
+      "pose": "facepalm",
+      "at": "@underfuelled"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Every run too fast",
+     "icon": "fire",
+     "at": "@fast"
+    },
+    {
+     "text": "Too much, too soon",
+     "icon": "cross",
+     "at": "@much"
+    },
+    {
+     "text": "Overstriding",
+     "icon": "target",
+     "at": "@overstriding"
+    },
+    {
+     "text": "No recovery days",
+     "icon": "moon",
+     "at": "@recovery"
+    },
+    {
+     "text": "Running underfuelled",
+     "icon": "food",
+     "at": "@underfuelled"
+    }
+   ],
+   "narration": "Mistake 1: running every run too fast. Mistake 2: too much, too soon. Mistake 3: overstriding. Mistake 4: no recovery days. Mistake 5: running underfuelled."
+  },
+  {
+   "id": "s05",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "hands_knees",
+     "face": "tired"
+    },
+    {
+     "pose": "think",
+     "at": "@rest"
+    },
+    {
+     "pose": "shrug",
+     "at": "@improving"
+    }
+   ],
+   "narration": "The first one is why you gasp early. The rest are why you stop improving."
+  },
+  {
+   "id": "s06",
+   "kind": "title",
+   "chapter": "Mistake 1: Every run too fast",
+   "transition": "push",
+   "number": 1,
+   "heading": "Every run too fast",
+   "sub": "no easy days",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_pass_r",
+      "run_b",
+      "run_pass_l"
+     ],
+     "period": 0.21
+    }
+   },
+   "narration": "Your body has a redline speed. Below it, your breathing settles and you can keep going for a long time."
+  },
+  {
+   "id": "s07",
+   "kind": "mascot",
+   "background": "track",
+   "poses": [
+    {
+     "pose": "sprint",
+     "face": "determined"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@slow"
+    }
+   ],
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.13,
+    "from": 0,
+    "to": "@slow"
+   },
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.8,
+     "levelTo": 0.05,
+     "levelAt": "@faster",
+     "pos": [
+      1550,
+      250
+     ],
+     "size": 1.4
+    }
+   ],
+   "narration": "Above it, you're spending a small, fixed reserve. The further over the line you go, the faster it empties. When it's gone, you have to slow right down."
+  },
+  {
+   "id": "s08",
+   "kind": "mascot",
+   "background": "spotlight",
+   "props": {
+    "r": "phone"
+   },
+   "poses": [
+    {
+     "pose": "present",
+     "face": "happy"
+    },
+    {
+     "pose": "shrug",
+     "face": "surprised",
+     "at": "@dead"
+    },
+    {
+     "pose": "hands_hips",
+     "face": "happy",
+     "at": "@easy"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 1,
+     "levelTo": 0.05,
+     "levelAt": "@fine",
+     "levelDur": 2.5,
+     "pos": [
+      1550,
+      260
+     ],
+     "size": 1.4
+    },
+    {
+     "icon": "battery",
+     "level": 1,
+     "pos": [
+      1550,
+      260
+     ],
+     "size": 1.4,
+     "at": "@easy"
+    }
+   ],
+   "narration": "Think of your phone on full brightness with every app open. Fine for 10 minutes. Dead by lunch. Easy pace is battery-saver mode."
+  },
+  {
+   "id": "s09",
+   "kind": "stat",
+   "value": 80,
+   "prefix": "70–",
+   "suffix": "%",
+   "label": "of training is easy for top endurance athletes",
+   "highlight": "easy",
+   "icon": "heart",
+   "at": 0.3,
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "good_stride",
+      "run_pass_r",
+      "run_b",
+      "run_pass_l"
+     ],
+     "period": 0.225
+    }
+   },
+   "narration": "And the best endurance athletes do most of their training easy: around 70 to 80% of it.",
+   "from": 70
+  },
+  {
+   "id": "s10",
+   "kind": "custom",
+   "file": "custom/redline.html",
+   "narration": "The fix is the talk test. If you can speak comfortably in full sentences, you're at or below your first breathing threshold, which is well under your redline. If you can only get out 2 or 3 words, slow down, or walk."
+  },
+  {
+   "id": "s11",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.225
+   },
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "happy"
+    }
+   ],
+   "caption": {
+    "text": "♪ “la la la…”",
+    "at": "@song"
+   },
+   "headline": {
+    "text": "Say it out loud",
+    "highlight": "out loud",
+    "at": "@say",
+    "side": "right"
+   },
+   "narration": "Every 5 minutes or so, say a sentence out loud. A line from a song works."
+  },
+  {
+   "id": "s12",
+   "kind": "list",
+   "title": "Couch to 5K, week 1",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "walk_a",
+      "walk_b"
+     ],
+     "period": 0.6
+    }
+   },
+   "items": [
+    {
+     "text": "Run 1 minute",
+     "icon": "bolt",
+     "at": "@Couch"
+    },
+    {
+     "text": "8 runs in total",
+     "icon": "check",
+     "at": "@eight"
+    },
+    {
+     "text": "Walk 90 seconds between",
+     "icon": "clock",
+     "at": "@90"
+    }
+   ],
+   "narration": "New to running? Use run-walk. The NHS Couch to 5K plan starts with 8 one-minute runs, with 90 seconds of walking in between."
+  },
+  {
+   "id": "s13",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.6
+   },
+   "poses": [
+    {
+     "pose": "walk_a",
+     "face": "happy"
+    }
+   ],
+   "headline": {
+    "text": "Walking isn't cheating",
+    "highlight": "cheating",
+    "at": "@official",
+    "side": "right"
+   },
+   "narration": "Walking breaks are part of the official plan. They're not cheating."
+  },
+  {
+   "id": "s14",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.21,
+    "from": 0,
+    "to": "@let"
+   },
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "happy"
+    },
+    {
+     "pose": "sprint",
+     "face": "determined",
+     "at": "@racing"
+    },
+    {
+     "pose": "good_stride",
+     "face": "happy",
+     "at": "@breathing"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@racing"
+    },
+    {
+     "icon": "check",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@breathing"
+    }
+   ],
+   "pauseAfter": 0.5,
+   "narration": "The mistake within the fix? Easy pace that creeps faster, until you're racing your mate or your watch. Let your breathing set the pace."
+  },
+  {
+   "id": "s15",
+   "kind": "title",
+   "chapter": "Mistake 2: Too much, too soon",
+   "transition": "push",
+   "number": 2,
+   "heading": "Too much, too soon",
+   "sub": "the spike run",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "flex",
+      "face": "happy"
+     },
+     {
+      "pose": "calf_pain",
+      "face": "tired",
+      "at": "@tendons"
+     }
+    ]
+   },
+   "narration": "Your muscles get stronger fast. Your tendons take longer to catch up."
+  },
+  {
+   "id": "s16",
+   "kind": "stat",
+   "value": 17.8,
+   "decimals": 1,
+   "suffix": " vs 7.7",
+   "label": "injuries per 1,000 hours: beginners vs recreational runners (one review)",
+   "highlight": "beginners",
+   "icon": "cross",
+   "at": 0.3,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "calf_pain",
+      "face": "tired"
+     },
+     {
+      "pose": "think",
+      "at": "@recreational"
+     }
+    ]
+   },
+   "narration": "In one review, beginners got injured more than twice as often per hour of running as recreational runners.",
+   "from": 7.7
+  },
+  {
+   "id": "s17",
+   "kind": "slam",
+   "text": "Injury stops all progress",
+   "highlight": "stops",
+   "style": "dark",
+   "icon": "cross",
+   "narration": "And injury stops all progress."
+  },
+  {
+   "id": "s18",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "shrug",
+     "face": "surprised",
+     "at": "@wasn't"
+    },
+    {
+     "pose": "point_up",
+     "at": "@sudden"
+    }
+   ],
+   "caption": {
+    "text": "5,205 runners · observational study",
+    "at": "@study"
+   },
+   "headline": {
+    "text": "One sudden long run",
+    "highlight": "long run",
+    "at": "@sudden",
+    "side": "right"
+   },
+   "narration": "Here's the surprise. In a study of over 5,000 runners, the weekly increase wasn't linked to injury. One sudden long run was."
+  },
+  {
+   "id": "s19",
+   "kind": "chart",
+   "title": "Overuse-injury rate vs your longest run in the last 30 days · 5,205 runners, observational",
+   "unit": "",
+   "max": 2.6,
+   "focus": 2,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "facepalm",
+      "at": "@doubling"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Up to your longest",
+     "value": 1,
+     "display": "1×"
+    },
+    {
+     "label": "10–30% longer",
+     "value": 1.64,
+     "display": "~1.6×",
+     "at": "@1.6"
+    },
+    {
+     "label": "More than double",
+     "value": 2.28,
+     "display": "~2.3×",
+     "at": "@doubling",
+     "color": "accent"
+    }
+   ],
+   "pauseAfter": 0.7,
+   "narration": "A run 10 to 30% longer than your longest in the last 30 days came with about 1.6 times the overuse-injury rate. More than doubling it came with about 2.3 times."
+  },
+  {
+   "id": "s20",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present"
+    },
+    {
+     "pose": "flex",
+     "face": "happy",
+     "at": "@muscles"
+    },
+    {
+     "pose": "think",
+     "at": "@cement"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "clock",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@cement"
+    }
+   ],
+   "narration": "Think of building a wall. Your muscles lay bricks fast. The cement needs time to set."
+  },
+  {
+   "id": "s21",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "point_up",
+     "at": "@ask"
+    }
+   ],
+   "headline": {
+    "text": "The spike check",
+    "highlight": "spike",
+    "at": "@spike",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "question",
+     "near": "head",
+     "offset": [
+      -130,
+      -150
+     ],
+     "at": "@longer"
+    }
+   ],
+   "narration": "So the fix is the spike check. Before any run, ask: is this longer than my longest run this month?"
+  },
+  {
+   "id": "s22",
+   "kind": "stat",
+   "value": 10,
+   "prefix": "≤",
+   "suffix": "%",
+   "label": "longer than your longest run: a sensible ceiling, not a proven safe limit",
+   "highlight": "not a proven safe limit",
+   "icon": "target",
+   "at": "@10",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "hands_hips"
+     },
+     {
+      "pose": "point_up",
+      "at": "@ceiling"
+     },
+     {
+      "pose": "shrug",
+      "at": "@proven"
+     }
+    ]
+   },
+   "narration": "If it is, make it only a little longer: no more than about 10%, and less is fine. That's a sensible ceiling, not a proven safe limit."
+  },
+  {
+   "id": "s23",
+   "kind": "mascot",
+   "background": "track",
+   "poses": [
+    {
+     "pose": "wave",
+     "face": "happy"
+    },
+    {
+     "pose": "point_up",
+     "at": "@current"
+    },
+    {
+     "pose": "shrug",
+     "at": "@used"
+    }
+   ],
+   "caption": {
+    "text": "Start from today's longest run",
+    "at": "@current"
+   },
+   "narration": "If you're coming back after a break, start from your current longest run, not the one you used to do."
+  },
+  {
+   "id": "s24",
+   "kind": "list",
+   "title": "Couch to 5K",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_pass_r",
+      "run_b",
+      "run_pass_l"
+     ],
+     "period": 0.225
+    }
+   },
+   "items": [
+    {
+     "text": "9 weeks",
+     "icon": "clock",
+     "at": "@9"
+    },
+    {
+     "text": "3 runs a week",
+     "icon": "bolt",
+     "at": "@3"
+    },
+    {
+     "text": "Repeat any week",
+     "icon": "check",
+     "at": "@repeat"
+    }
+   ],
+   "narration": "Starting from zero? Couch to 5K takes 9 weeks, 3 runs a week, and you can repeat any week that felt too hard."
+  },
+  {
+   "id": "s25",
+   "kind": "mascot",
+   "background": "track",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "sprint",
+     "face": "determined",
+     "at": "@cramming"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@weekend"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@huge"
+    }
+   ],
+   "pauseAfter": 0.5,
+   "narration": "The mistake within the fix? Keeping a sensible weekly total, then cramming it into one huge weekend run."
+  },
+  {
+   "id": "s26",
+   "kind": "title",
+   "chapter": "Mistake 3: Overstriding",
+   "transition": "push",
+   "number": 3,
+   "heading": "Overstriding",
+   "sub": "the brake in every step",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "run_a"
+     },
+     {
+      "pose": "overstride",
+      "at": "@reaching"
+     }
+    ]
+   },
+   "narration": "Overstriding is reaching your foot far out in front of your body, so it lands with your leg almost straight."
+  },
+  {
+   "id": "s27",
+   "kind": "mascot",
+   "background": "track",
+   "pose": "overstride",
+   "icons": [
+    {
+     "icon": "cross",
+     "near": "rFoot",
+     "offset": [
+      60,
+      -90
+     ],
+     "at": "@handbrake"
+    }
+   ],
+   "caption": {
+    "text": "Brake!",
+    "at": "@handbrake"
+   },
+   "narration": "It's like pulling the handbrake a tiny bit on every step."
+  },
+  {
+   "id": "s28",
+   "kind": "versus",
+   "opponentTint": false,
+   "vs": "→",
+   "left": {
+    "label": "Long reaching step",
+    "pose": "overstride",
+    "face": "tired"
+   },
+   "right": {
+    "label": "Quicker, shorter step",
+    "pose": "good_stride",
+    "face": "happy",
+    "facing": "right",
+    "at": "@quicker"
+   },
+   "narration": "When runners take slightly quicker, shorter steps at the same speed, there's less braking and less load on the knee."
+  },
+  {
+   "id": "s29",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "think"
+    },
+    {
+     "pose": "shrug",
+     "at": "@thin"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@small"
+    }
+   ],
+   "caption": {
+    "text": "Evidence: thin",
+    "at": "@thin"
+   },
+   "narration": "Is it proven to prevent injuries or boost stamina? Not yet. The evidence is thin. But it's a small, low-risk tweak."
+  },
+  {
+   "id": "s30",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.21
+   },
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "focused"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "stopwatch",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@30"
+    }
+   ],
+   "caption": {
+    "text": "1 foot × 30 s × 4 = steps per minute",
+    "at": "@multiply"
+   },
+   "narration": "The fix: on an easy run, count the steps of one foot for 30 seconds, then multiply by 4. That's your steps per minute."
+  },
+  {
+   "id": "s31",
+   "kind": "stat",
+   "value": 168,
+   "suffix": " spm",
+   "label": "steps per minute: 160 + 5%",
+   "highlight": "+ 5%",
+   "icon": "clock",
+   "at": "@168",
+   "mascot": {
+    "props": {
+     "r": "phone"
+    },
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "hands_hips",
+      "face": "happy",
+      "at": "@playlist"
+     }
+    ]
+   },
+   "narration": "Add 5%. So 160 becomes 168. Use a metronome app or a playlist at that beat."
+  },
+  {
+   "id": "s32",
+   "kind": "list",
+   "title": "Quick-feet chunks",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "good_stride",
+      "run_pass_r",
+      "run_b",
+      "run_pass_l"
+     ],
+     "period": 0.15
+    }
+   },
+   "items": [
+    {
+     "text": "3–5 × 1 minute",
+     "icon": "stopwatch",
+     "at": "@chunks"
+    },
+    {
+     "text": "Easy runs only",
+     "icon": "heart",
+     "at": "@easy"
+    },
+    {
+     "text": "Longer over 2–4 weeks",
+     "icon": "clock",
+     "at": "@weeks"
+    }
+   ],
+   "narration": "Run 3 to 5 one-minute chunks at the new rhythm, in easy runs only, not your longest run. Over 2 to 4 weeks, make the chunks longer."
+  },
+  {
+   "id": "s33",
+   "kind": "mascot",
+   "background": "plain",
+   "callouts": [
+    {
+     "label": "Calves, Achilles, feet",
+     "target": "rAchilles",
+     "at": "@Achilles",
+     "side": "left"
+    }
+   ],
+   "caption": {
+    "text": "Back to normal for a week",
+    "at": "@normal"
+   },
+   "narration": "If your calves, Achilles or feet get sore, go back to your normal rhythm for a week.",
+   "poses": [
+    {
+     "pose": "calf_pain",
+     "face": "tired"
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "good_stride",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.14
+   },
+   "poses": [
+    {
+     "pose": "good_stride",
+     "face": "happy"
+    }
+   ],
+   "headline": {
+    "text": "Same speed, quicker feet",
+    "highlight": "quicker",
+    "at": "@same",
+    "side": "right"
+   },
+   "narration": "Keep the same speed. Quicker, shorter steps, not faster running."
+  },
+  {
+   "id": "s35",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "hands_hips",
+     "face": "happy"
+    },
+    {
+     "pose": "point_up",
+     "at": "@knee"
+    }
+   ],
+   "callouts": [
+    {
+     "label": "Knee pain? Physio first",
+     "target": "rKnee",
+     "at": "@knee+0.6"
+    }
+   ],
+   "narration": "If your stride is pain-free, you don't have to change it. If your knee already hurts, see a physio first."
+  },
+  {
+   "id": "s36",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.1,
+    "from": 0,
+    "to": "@studies"
+   },
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "determined"
+    },
+    {
+     "pose": "think",
+     "at": "@studies"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@awkward"
+    }
+   ],
+   "headline": {
+    "text": "No magic 180",
+    "highlight": "180",
+    "at": "@magic",
+    "side": "right"
+   },
+   "pauseAfter": 0.5,
+   "narration": "The mistake within the fix? Chasing a magic 180 steps a minute. Studies change cadence by 5 to 10% from the runner's own rhythm, and big jumps feel awkward."
+  },
+  {
+   "id": "s37",
+   "kind": "title",
+   "chapter": "Mistake 4: No recovery days",
+   "transition": "push",
+   "number": 4,
+   "heading": "No recovery days",
+   "sub": "you get fitter while you rest",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "flex"
+     },
+     {
+      "pose": "meditate",
+      "face": "sleep",
+      "at": "@recovery"
+     }
+    ]
+   },
+   "narration": "Training is the stress. Recovery is where you get fitter."
+  },
+  {
+   "id": "s38",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.15,
+    "from": 0,
+    "to": "@stop"
+   },
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "determined"
+    },
+    {
+     "pose": "tired_front",
+     "at": "@stop"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.7,
+     "levelTo": 0.08,
+     "levelAt": "@sessions",
+     "levelDur": 2.5,
+     "pos": [
+      1550,
+      250
+     ],
+     "size": 1.4
+    }
+   ],
+   "caption": {
+    "text": "weeks to months",
+    "at": "@weeks"
+   },
+   "narration": "Pile on hard sessions without rest, and you stop improving. That can take weeks to months to recover from."
+  },
+  {
+   "id": "s39",
+   "kind": "mascot",
+   "background": "spotlight",
+   "props": {
+    "r": "phone"
+   },
+   "poses": [
+    {
+     "pose": "present",
+     "face": "tired"
+    },
+    {
+     "pose": "hands_hips",
+     "face": "happy",
+     "at": "@charging"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.15,
+     "levelTo": 1,
+     "levelAt": "@charging",
+     "pos": [
+      1550,
+      260
+     ],
+     "size": 1.6
+    }
+   ],
+   "narration": "Think of a phone you never charge. The charging is where the battery gets bigger."
+  },
+  {
+   "id": "s40",
+   "kind": "list",
+   "title": "Run · rest · run",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "run_a",
+      "run_pass_r",
+      "run_b",
+      "run_pass_l"
+     ],
+     "period": 0.18,
+     "to": "@rest"
+    },
+    "poses": [
+     {
+      "pose": "run_a"
+     },
+     {
+      "pose": "meditate",
+      "face": "sleep",
+      "at": "@rest"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "No back-to-back run days",
+     "icon": "cross",
+     "at": "@back"
+    },
+    {
+     "text": "A rest day between every run",
+     "icon": "moon",
+     "at": "@rest"
+    }
+   ],
+   "narration": "The fix: no back-to-back run days when you're starting. Couch to 5K puts a rest day between every run."
+  },
+  {
+   "id": "s41",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present",
+     "face": "happy"
+    },
+    {
+     "pose": "hands_hips",
+     "at": "@engine"
+    }
+   ],
+   "headline": {
+    "text": "Cycle or swim",
+    "highlight": "swim",
+    "at": "@cycling",
+    "side": "right"
+   },
+   "icons": [
+    {
+     "icon": "water",
+     "near": "head",
+     "offset": [
+      -140,
+      -130
+     ],
+     "at": "@swimming"
+    },
+    {
+     "icon": "heart",
+     "near": "head",
+     "offset": [
+      140,
+      -150
+     ],
+     "at": "@engine"
+    }
+   ],
+   "narration": "On other days, easy cycling or swimming keeps your engine ticking with less impact."
+  },
+  {
+   "id": "s42",
+   "kind": "mascot",
+   "background": "gym",
+   "props": {
+    "r": "dumbbell"
+   },
+   "cycle": {
+    "poses": [
+     "stand",
+     "squat"
+    ],
+    "period": 1.2
+   },
+   "poses": [
+    {
+     "pose": "stand"
+    }
+   ],
+   "headline": {
+    "text": "2+ strength days",
+    "highlight": "strength",
+    "at": 0.3,
+    "side": "right"
+   },
+   "narration": "And strength train at least 2 days a week."
+  },
+  {
+   "id": "s43",
+   "kind": "chart",
+   "title": "Injuries vs normal (review of sports trials)",
+   "unit": "",
+   "max": 130,
+   "focus": 1,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "point_up",
+      "at": "@third"
+     },
+     {
+      "pose": "shrug",
+      "at": "@few"
+     }
+    ]
+   },
+   "bars": [
+    {
+     "label": "Normal",
+     "value": 100,
+     "display": "100%"
+    },
+    {
+     "label": "Strength training",
+     "value": 32,
+     "display": "~⅓ as many",
+     "at": "@third",
+     "color": "accent"
+    },
+    {
+     "label": "Stretching",
+     "value": 96,
+     "display": "no change",
+     "at": "@stretching"
+    }
+   ],
+   "narration": "In a review of sports trials, people who did strength training ended up with about a third as many injuries. Stretching didn't help. Only a few trials tested strength work, and none were in runners."
+  },
+  {
+   "id": "s44",
+   "kind": "list",
+   "title": "Strength menu",
+   "mascot": {
+    "cycle": {
+     "poses": [
+      "stand",
+      "squat"
+     ],
+     "period": 1.3,
+     "to": "@calf"
+    },
+    "poses": [
+     {
+      "pose": "squat"
+     },
+     {
+      "pose": "calf_raise",
+      "at": "@calf"
+     },
+     {
+      "pose": "flex",
+      "at": "@sets"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Squats",
+     "icon": "muscle",
+     "at": "@squats"
+    },
+    {
+     "text": "Calf raises",
+     "icon": "muscle",
+     "at": "@calf"
+    },
+    {
+     "text": "Glute bridges",
+     "icon": "muscle",
+     "at": "@glute"
+    },
+    {
+     "text": "Step-ups (low, stable step)",
+     "icon": "muscle",
+     "at": "@step"
+    },
+    {
+     "text": "2–3 sets of 8–15",
+     "icon": "check",
+     "at": "@sets"
+    }
+   ],
+   "narration": "Squats, calf raises, glute bridges and step-ups on a low, stable step. 2 to 3 sets of 8 to 15, stopping with a couple of reps left in the tank."
+  },
+  {
+   "id": "s45",
+   "kind": "mascot",
+   "background": "gym",
+   "poses": [
+    {
+     "pose": "squat"
+    },
+    {
+     "pose": "flex",
+     "face": "happy",
+     "at": "@add"
+    },
+    {
+     "pose": "hold_back",
+     "face": "tired",
+     "at": "@hurts"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@hurts"
+    }
+   ],
+   "narration": "Start with body weight, add weight slowly, and skip any exercise that hurts."
+  },
+  {
+   "id": "s46",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@legs"
+    },
+    {
+     "pose": "tired_front",
+     "face": "tired",
+     "at": "@colds"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.15,
+     "pos": [
+      1550,
+      250
+     ],
+     "size": 1.3,
+     "at": "@hard"
+    },
+    {
+     "icon": "zzz",
+     "near": "head",
+     "offset": [
+      110,
+      -130
+     ],
+     "at": "@sleep"
+    },
+    {
+     "icon": "cross",
+     "pos": [
+      1550,
+      450
+     ],
+     "at": "@colds"
+    }
+   ],
+   "narration": "Need more rest? Watch for easy runs that feel unusually hard several times in a row, heavy legs, poor sleep, or frequent colds."
+  },
+  {
+   "id": "s47",
+   "kind": "slam",
+   "text": "Still flat? See a doctor",
+   "highlight": "doctor",
+   "style": "plain",
+   "icon": "heart",
+   "narration": "If easing off for a week or two doesn't fix it, see a doctor."
+  },
+  {
+   "id": "s48",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "meditate",
+     "face": "sleep"
+    },
+    {
+     "pose": "squat",
+     "face": "determined",
+     "at": "@leg"
+    },
+    {
+     "pose": "kick",
+     "at": "@match"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@isn't"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@isn't"
+    }
+   ],
+   "pauseAfter": 0.5,
+   "narration": "The mistake within the fix? Turning your rest day into a hard leg session or a 5-a-side match. That isn't rest."
+  },
+  {
+   "id": "s49",
+   "kind": "title",
+   "chapter": "Mistake 5: Running underfuelled",
+   "transition": "push",
+   "number": 5,
+   "heading": "Running underfuelled",
+   "sub": "two ways to run on empty",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "tired_front",
+      "face": "tired"
+     }
+    ]
+   },
+   "narration": "There are two ways to run on empty."
+  },
+  {
+   "id": "s50",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "point_up",
+     "face": "happy",
+     "at": "@snack"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "food",
+     "pos": [
+      1550,
+      280
+     ],
+     "at": "@snack",
+     "size": 1.5
+    }
+   ],
+   "caption": {
+    "text": "1–2 h before: banana or toast",
+    "at": "@banana"
+   },
+   "narration": "The first is running after hours without food. The NHS suggests a light snack 1 to 2 hours before, like a banana or toast."
+  },
+  {
+   "id": "s51",
+   "kind": "mascot",
+   "background": "track",
+   "props": {
+    "r": "bottle"
+   },
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.21,
+    "from": 0,
+    "to": "@water"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "drink",
+     "face": "happy",
+     "at": "@water"
+    }
+   ],
+   "caption": {
+    "text": "Under 1 hour: water",
+    "at": "@water"
+   },
+   "narration": "For runs under an hour, you don't need gels or sports drinks. Water is enough."
+  },
+  {
+   "id": "s52",
+   "kind": "stat",
+   "value": 60,
+   "prefix": "30–",
+   "suffix": " g/h",
+   "label": "carbohydrate on runs longer than about 60–90 minutes",
+   "highlight": "60–90 minutes",
+   "icon": "food",
+   "at": 0.3,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "present"
+     },
+     {
+      "pose": "point_up",
+      "at": "@carbohydrate"
+     }
+    ]
+   },
+   "narration": "On runs longer than about 60 to 90 minutes, start practising some carbohydrate during the run, working towards 30 to 60 grams an hour."
+  },
+  {
+   "id": "s53",
+   "kind": "mascot",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@day"
+    },
+    {
+     "pose": "think",
+     "at": "@doctors"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.5,
+     "levelTo": 0.1,
+     "levelAt": "@day",
+     "pos": [
+      1300,
+      700
+     ],
+     "size": 1.4
+    }
+   ],
+   "headline": {
+    "text": "Low energy availability",
+    "highlight": "Low energy",
+    "at": "@doctors",
+    "side": "right"
+   },
+   "narration": "The second is eating too little, day after day, for the training you do. Doctors call it low energy availability."
+  },
+  {
+   "id": "s54",
+   "kind": "slam",
+   "text": "You stop getting fitter",
+   "highlight": "fitter",
+   "style": "dark",
+   "icon": "brain",
+   "sub": "men and women · any level",
+   "narration": "It can block your body's adaptation to training, so you stop getting fitter. It affects men and women, at any level."
+  },
+  {
+   "id": "s55",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.8
+   },
+   "poses": [
+    {
+     "pose": "walk_a",
+     "face": "tired"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "battery",
+     "level": 0.08,
+     "pulse": true,
+     "pos": [
+      1550,
+      250
+     ],
+     "size": 1.4
+    }
+   ],
+   "narration": "Think of a car on the reserve light. It still moves, but it switches off the extras, and the extras are the repairs that make you fitter."
+  },
+  {
+   "id": "s56",
+   "kind": "mascot",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "meditate",
+     "face": "happy"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "food",
+     "pos": [
+      760,
+      700
+     ],
+     "at": "@meal",
+     "size": 1.6
+    }
+   ],
+   "headline": {
+    "text": "Refuel after",
+    "highlight": "Refuel",
+    "at": "@eat",
+    "side": "right"
+   },
+   "narration": "After a run, eat a normal meal with plenty of carbohydrate."
+  },
+  {
+   "id": "s57",
+   "kind": "list",
+   "title": "See a doctor if:",
+   "focus": false,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "point_up",
+      "face": "focused"
+     },
+     {
+      "pose": "think",
+      "at": "@periods"
+     },
+     {
+      "pose": "point_up",
+      "at": "@injured"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Losing weight without trying",
+     "icon": "cross",
+     "at": "@losing"
+    },
+    {
+     "text": "Periods stop or become irregular",
+     "icon": "cross",
+     "at": "@periods"
+    },
+    {
+     "text": "You keep getting injured",
+     "icon": "cross",
+     "at": "@injured"
+    }
+   ],
+   "narration": "See a doctor if you're losing weight without trying, if your periods stop or become irregular, or if you keep getting injured."
+  },
+  {
+   "id": "s58",
+   "kind": "mascot",
+   "background": "track",
+   "props": {
+    "r": "bottle"
+   },
+   "poses": [
+    {
+     "pose": "drink"
+    },
+    {
+     "pose": "facepalm",
+     "at": "@skipping"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@copying"
+    }
+   ],
+   "pauseAfter": 0.5,
+   "narration": "The mistake within the fix? Copying marathon fuelling on a 30-minute jog, or skipping meals while adding miles."
+  },
+  {
+   "id": "s59",
+   "kind": "mascot",
+   "chapter": "Stay safe",
+   "background": "plain",
+   "poses": [
+    {
+     "pose": "wave",
+     "face": "happy"
+    },
+    {
+     "pose": "think",
+     "at": "@heart"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "heart",
+     "pos": [
+      1500,
+      260
+     ],
+     "at": "@heart"
+    },
+    {
+     "icon": "lungs",
+     "pos": [
+      1700,
+      260
+     ],
+     "at": "@lung"
+    }
+   ],
+   "narration": "Before you start, talk to a doctor if you have a heart or lung condition or any health worries."
+  },
+  {
+   "id": "s60",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.21,
+    "from": 0,
+    "to": "@stop"
+   },
+   "poses": [
+    {
+     "pose": "run_a"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@stop"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "cross",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@stop"
+    }
+   ],
+   "caption": {
+    "text": "STOP",
+    "at": "@stop"
+   },
+   "narration": "If you get chest pain, faint or nearly faint, or feel unusually breathless, stop straight away. Don't push through it."
+  },
+  {
+   "id": "s61",
+   "kind": "list",
+   "title": "Call emergency services if:",
+   "focus": false,
+   "mascot": {
+    "props": {
+     "r": "phone"
+    },
+    "poses": [
+     {
+      "pose": "present",
+      "face": "focused"
+     },
+     {
+      "pose": "point_up",
+      "at": "@otherwise"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Chest pain doesn't go away",
+     "icon": "heart",
+     "at": "@away"
+    },
+    {
+     "text": "It spreads: arm, back, neck, jaw",
+     "icon": "cross",
+     "at": "@spreads"
+    },
+    {
+     "text": "Otherwise: doctor before you run",
+     "icon": "check",
+     "at": "@otherwise"
+    }
+   ],
+   "narration": "Call emergency services if chest pain doesn't go away when you stop, or spreads to your arm, back, neck or jaw. Otherwise, see a doctor before you run again."
+  },
+  {
+   "id": "s62",
+   "kind": "mascot",
+   "background": "plain",
+   "callouts": [
+    {
+     "label": "One small spot",
+     "target": "rFoot",
+     "at": "@spot",
+     "side": "right"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "moon",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@night"
+    }
+   ],
+   "narration": "Pain in one small spot on a bone that hurts when you press it, or pain at rest or at night, needs a doctor before you run again.",
+   "poses": [
+    {
+     "pose": "side_stand",
+     "face": "tired"
+    },
+    {
+     "pose": "crouch",
+     "face": "tired",
+     "at": "@press"
+    },
+    {
+     "pose": "meditate",
+     "face": "sleep",
+     "at": "@night"
+    },
+    {
+     "pose": "point_up",
+     "at": "@doctor"
+    }
+   ]
+  },
+  {
+   "id": "s63",
+   "kind": "mascot",
+   "background": "plain",
+   "callouts": [
+    {
+     "label": "Along the shin",
+     "target": "rCalf",
+     "at": "@shin",
+     "side": "right",
+     "dy": -60
+    },
+    {
+     "label": "often both legs",
+     "target": "lCalf",
+     "at": "@builds",
+     "side": "left",
+     "dy": 40
+    }
+   ],
+   "headline": {
+    "text": "Don't run through it",
+    "highlight": "Don't",
+    "at": "@through",
+    "side": "left"
+   },
+   "narration": "Shin pain that builds as you run? Don't run through it. Swap to low-impact exercise and build back gradually. If it isn't getting better, see a doctor or physio.",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@through"
+    },
+    {
+     "pose": "walk_a",
+     "at": "@swap",
+     "face": "tired"
+    },
+    {
+     "pose": "think",
+     "at": "@doctor",
+     "face": "tired"
+    }
+   ],
+   "cycle": {
+    "poses": [
+     "walk_a",
+     "walk_b"
+    ],
+    "period": 0.6,
+    "from": "@swap",
+    "to": "@doctor"
+   }
+  },
+  {
+   "id": "s64",
+   "kind": "list",
+   "title": "Hot weather",
+   "mascot": {
+    "props": {
+     "r": "bottle"
+    },
+    "poses": [
+     {
+      "pose": "walk_a"
+     },
+     {
+      "pose": "drink",
+      "at": "@drink"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Run in the cool morning",
+     "icon": "clock",
+     "at": "@morning"
+    },
+    {
+     "text": "Go easier than usual",
+     "icon": "heart",
+     "at": "@easier"
+    },
+    {
+     "text": "Drink cold fluids",
+     "icon": "water",
+     "at": "@drink"
+    }
+   ],
+   "narration": "In hot weather, run in the cool of the morning, go easier than usual, and drink cold fluids."
+  },
+  {
+   "id": "s65",
+   "kind": "mascot",
+   "background": "track",
+   "poses": [
+    {
+     "pose": "tired_front",
+     "face": "tired"
+    },
+    {
+     "pose": "hands_knees",
+     "face": "tired",
+     "at": "@shade"
+    }
+   ],
+   "icons": [
+    {
+     "icon": "water",
+     "pos": [
+      1550,
+      260
+     ],
+     "at": "@cool"
+    }
+   ],
+   "narration": "If you feel dizzy or sick, stop running, get into the shade and cool down."
+  },
+  {
+   "id": "s66",
+   "kind": "list",
+   "title": "Call emergency services:",
+   "focus": false,
+   "mascot": {
+    "props": {
+     "r": "phone"
+    },
+    "poses": [
+     {
+      "pose": "present",
+      "face": "focused"
+     },
+     {
+      "pose": "point_up",
+      "at": "@straight"
+     },
+     {
+      "pose": "think",
+      "at": "@sweating"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Not better after 30 min of cooling",
+     "icon": "clock",
+     "at": "@30"
+    },
+    {
+     "text": "Straight away: confusion",
+     "icon": "cross",
+     "at": "@confused"
+    },
+    {
+     "text": "Straight away: hot skin, no sweat",
+     "icon": "cross",
+     "at": "@sweating"
+    }
+   ],
+   "narration": "Call emergency services if you're not better within 30 minutes, or straight away if someone becomes confused, or their skin is hot but they've stopped sweating."
+  },
+  {
+   "id": "s67",
+   "kind": "mascot",
+   "chapter": "Your week",
+   "background": "spotlight",
+   "poses": [
+    {
+     "pose": "present",
+     "face": "happy"
+    },
+    {
+     "pose": "point_up",
+     "at": "@couch"
+    }
+   ],
+   "caption": {
+    "text": "Couch to 5K runs: Mon · Wed · Sat",
+    "at": "@monday"
+   },
+   "narration": "Here's a simple week. If you're on Couch to 5K, its runs go on Monday, Wednesday and Saturday."
+  },
+  {
+   "id": "s68",
+   "kind": "list",
+   "title": "Your week",
+   "focus": false,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "good_stride"
+     },
+     {
+      "pose": "squat",
+      "at": "@tuesday"
+     },
+     {
+      "pose": "good_stride",
+      "face": "happy",
+      "at": "@wednesday"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Mon: easy run-walk",
+     "icon": "heart",
+     "at": "@monday"
+    },
+    {
+     "text": "Tue: strength",
+     "icon": "muscle",
+     "at": "@tuesday"
+    },
+    {
+     "text": "Wed: easy run + quick feet",
+     "icon": "bolt",
+     "at": "@wednesday"
+    }
+   ],
+   "narration": "Monday: easy run-walk. Tuesday: strength. Wednesday: easy run with a few quick-feet minutes."
+  },
+  {
+   "id": "s69",
+   "kind": "list",
+   "title": "Your week",
+   "focus": false,
+   "mascot": {
+    "poses": [
+     {
+      "pose": "squat"
+     },
+     {
+      "pose": "meditate",
+      "face": "sleep",
+      "at": "@friday"
+     },
+     {
+      "pose": "good_stride",
+      "face": "happy",
+      "at": "@saturday"
+     },
+     {
+      "pose": "meditate",
+      "face": "sleep",
+      "at": "@sunday"
+     }
+    ]
+   },
+   "items": [
+    {
+     "text": "Thu: strength or swim/bike",
+     "icon": "muscle",
+     "at": "@thursday"
+    },
+    {
+     "text": "Fri: rest",
+     "icon": "moon",
+     "at": "@friday"
+    },
+    {
+     "text": "Sat: longest run (+ a little)",
+     "icon": "target",
+     "at": "@saturday"
+    },
+    {
+     "text": "Sun: rest",
+     "icon": "moon",
+     "at": "@sunday"
+    }
+   ],
+   "narration": "Thursday: strength, or an easy swim or bike. Friday: rest. Saturday: your longest run, the same as last time or just a little longer. Sunday: rest."
+  },
+  {
+   "id": "s70",
+   "kind": "mascot",
+   "background": "field",
+   "poses": [
+    {
+     "pose": "kick",
+     "face": "happy"
+    },
+    {
+     "pose": "point_up",
+     "at": "@count"
+    }
+   ],
+   "caption": {
+    "text": "Sport sessions = run days",
+    "at": "@count"
+   },
+   "narration": "Play football or another sport? Count those sessions as run days.",
+   "icons": [
+    {
+     "icon": "football",
+     "near": "rFoot",
+     "offset": [
+      80,
+      -30
+     ],
+     "at": 0.2
+    }
+   ]
+  },
+  {
+   "id": "s71",
+   "kind": "stat",
+   "value": 3,
+   "suffix": " weeks",
+   "label": "aerobic fitness already up · one small study: men, exercise bikes",
+   "highlight": "one small study",
+   "icon": "heart",
+   "at": "@study",
+   "mascot": {
+    "poses": [
+     {
+      "pose": "think"
+     },
+     {
+      "pose": "flex",
+      "face": "happy",
+      "at": "@aerobic"
+     },
+     {
+      "pose": "celebrate",
+      "face": "happy",
+      "at": "@three"
+     }
+    ]
+   },
+   "narration": "In one small lab study of men on exercise bikes, aerobic fitness was already up after 3 weeks."
+  },
+  {
+   "id": "s72",
+   "kind": "mascot",
+   "background": "track",
+   "position": "left",
+   "cycle": {
+    "poses": [
+     "run_a",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.21
+   },
+   "poses": [
+    {
+     "pose": "run_a",
+     "face": "happy"
+    }
+   ],
+   "move": {
+    "to": "right",
+    "at": 0.3,
+    "dur": 5
+   },
+   "caption": {
+    "text": "~9 weeks to 30 minutes",
+    "at": "@9"
+   },
+   "narration": "Couch to 5K is built to get beginners to 30 minutes of running in about 9 weeks, and it's fine if it takes longer."
+  },
+  {
+   "id": "s73",
+   "kind": "mascot",
+   "background": "track",
+   "cycle": {
+    "poses": [
+     "good_stride",
+     "run_pass_r",
+     "run_b",
+     "run_pass_l"
+    ],
+    "period": 0.25
+   },
+   "poses": [
+    {
+     "pose": "good_stride",
+     "face": "happy"
+    }
+   ],
+   "headline": {
+    "text": "Talk, don't gasp",
+    "highlight": "Talk",
+    "at": "@talk",
+    "side": "right"
+   },
+   "pauseAfter": 1.0,
+   "narration": "So next time you set off, start slower than you think. Talk, don't gasp, and let the minutes add up."
+  }
+ ]
+}

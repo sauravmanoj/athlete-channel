@@ -20,7 +20,7 @@
   - Framework: levels 1–7 (rules/positioning → longer rallies → glass and lobs → bandeja/víbora → tournament)
   - Acting: lineup, wall rebound, bandeja overhead, partner positioning
   - Demand: booming in Europe/Middle East, Playtomic levels confuse players · Competition: very low for animated content
-- [ ] **5 mistakes killing your running stamina** — 26/30 — template: N-mistakes
+- [x] **5 mistakes killing your running stamina** — 26/30 — template: N-mistakes
   - Framework: running too fast, adding miles too quickly, overstriding, no rest days, running underfuelled
   - Acting: sprint-off-the-start → collapse, facepalm per mistake, fix pose, conversational-pace speech bubble
   - Demand: very high beginner demand · Competition: heavily covered, so we stand out with the mascot format. Low-risk advice
