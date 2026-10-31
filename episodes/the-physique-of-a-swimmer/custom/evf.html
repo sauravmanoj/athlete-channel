@@ -1,0 +1,130 @@
+<!-- Custom hero scene: Early Vertical Forearm (EVF) vs Dropped Elbow -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; top:180px; width:720px; height:740px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-left { left:180px; }
+    #__ID__-root .card-right { left:1020px; }
+    #__ID__-root .header-tag { position:absolute; top:36px; left:0; right:0; text-align:center; font:800 44px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .sub-tag { position:absolute; top:95px; left:0; right:0; text-align:center; font:700 26px var(--sans); color:#64748B; }
+    #__ID__-root .diagram-area { position:absolute; top:160px; left:60px; right:60px; height:360px; display:flex; align-items:center; justify-content:center; }
+    #__ID__-root .stat-row { position:absolute; top:540px; left:40px; right:40px; display:flex; justify-content:space-between; align-items:center; }
+    #__ID__-root .stat-item { text-align:center; flex:1; }
+    #__ID__-root .stat-val { font:900 48px var(--display); }
+    #__ID__-root .stat-lbl { font:700 22px var(--sans); color:#64748B; text-transform:uppercase; margin-top:4px; }
+    #__ID__-root .stat-pill { position:absolute; bottom:40px; left:60px; right:60px; height:80px; border-radius:20px; display:flex; align-items:center; justify-content:center; font:800 32px var(--display); text-transform:uppercase; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:60px;text-align:center">The pulling mechanics</div>
+
+  <!-- Left Card: Dropped Elbow (Amateur) -->
+  <div class="card-box card-left" id="__ID__-card-a">
+    <div class="header-tag" style="color:var(--bad)">Dropped Elbow (Amateur)</div>
+    <div class="sub-tag">Pushes water down instead of backward</div>
+    <div class="diagram-area">
+      <svg width="600" height="320" viewBox="0 0 600 320" fill="none">
+        <!-- Water surface -->
+        <line x1="40" y1="60" x2="560" y2="60" stroke="#93C5FD" stroke-width="6" stroke-dasharray="16 12" />
+        <text x="50" y="45" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#60A5FA">WATER SURFACE</text>
+        
+        <!-- Torso -->
+        <rect x="80" y="70" width="160" height="50" rx="25" fill="#F2913D" stroke="var(--ink)" stroke-width="6" />
+        <circle x="100" y="95" r="16" fill="var(--ink)" />
+        
+        <!-- Dropped arm: upper arm angles down, forearm angles down-back -->
+        <!-- Shoulder -->
+        <circle cx="230" cy="95" r="12" fill="var(--ink)" />
+        <!-- Upper arm dropped deep -->
+        <line x1="230" y1="95" x2="330" y2="210" stroke="#F2913D" stroke-width="26" stroke-linecap="round" />
+        <line x1="230" y1="95" x2="330" y2="210" stroke="var(--ink)" stroke-width="6" stroke-linecap="round" />
+        <!-- Elbow dropped -->
+        <circle cx="330" cy="210" r="14" fill="var(--bad)" stroke="var(--ink)" stroke-width="4" />
+        <!-- Forearm slanted -->
+        <line x1="330" y1="210" x2="470" y2="270" stroke="#F2913D" stroke-width="22" stroke-linecap="round" />
+        <!-- Hand slanted -->
+        <rect x="470" y="255" width="40" height="30" rx="8" transform="rotate(25 470 255)" fill="var(--bad)" stroke="var(--ink)" stroke-width="5" />
+        
+        <!-- Force vector pointing down-forward (spilling water) -->
+        <g id="__ID__-vec-a">
+          <path d="M 440 270 L 440 310" stroke="var(--bad)" stroke-width="8" stroke-linecap="round" />
+          <polygon points="440,318 430,298 450,298" fill="var(--bad)" />
+          <text x="350" y="305" font-family="Inter, sans-serif" font-weight="800" font-size="22" fill="var(--bad)">DOWNWARD LIFT</text>
+        </g>
+      </svg>
+    </div>
+    <div class="stat-row">
+      <div class="stat-item">
+        <div class="stat-val" style="color:var(--bad)">35°</div>
+        <div class="stat-lbl">Forearm Angle</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-val" style="color:var(--bad)">25%</div>
+        <div class="stat-lbl">Propulsive Thrust</div>
+      </div>
+    </div>
+    <div class="stat-pill" style="background:#FEE2E2;color:var(--bad)">Spills water & unloads lats</div>
+  </div>
+
+  <!-- Right Card: Early Vertical Forearm (Elite) -->
+  <div class="card-box card-right" id="__ID__-card-b">
+    <div class="header-tag" style="color:var(--good)">Early Vertical Forearm (EVF)</div>
+    <div class="sub-tag">Rigid vertical paddle perpendicular to flow</div>
+    <div class="diagram-area">
+      <svg width="600" height="320" viewBox="0 0 600 320" fill="none">
+        <!-- Water surface -->
+        <line x1="40" y1="60" x2="560" y2="60" stroke="#93C5FD" stroke-width="6" stroke-dasharray="16 12" />
+        <text x="50" y="45" font-family="Inter, sans-serif" font-weight="700" font-size="20" fill="#60A5FA">WATER SURFACE</text>
+        
+        <!-- Torso -->
+        <rect x="80" y="70" width="160" height="50" rx="25" fill="#F2913D" stroke="var(--ink)" stroke-width="6" />
+        <circle x="100" y="95" r="16" fill="var(--ink)" />
+        
+        <!-- EVF arm: upper arm stays high near surface, forearm drops vertical -->
+        <!-- Shoulder -->
+        <circle cx="230" cy="95" r="12" fill="var(--ink)" />
+        <!-- Upper arm high -->
+        <line x1="230" y1="95" x2="380" y2="95" stroke="#F2913D" stroke-width="26" stroke-linecap="round" />
+        <line x1="230" y1="95" x2="380" y2="95" stroke="var(--ink)" stroke-width="6" stroke-linecap="round" />
+        <!-- High Elbow -->
+        <circle cx="380" cy="95" r="14" fill="var(--good)" stroke="var(--ink)" stroke-width="4" />
+        <!-- Vertical Forearm -->
+        <line x1="380" y1="95" x2="380" y2="250" stroke="#F2913D" stroke-width="24" stroke-linecap="round" />
+        <!-- Hand vertical -->
+        <rect x="365" y="250" width="30" height="45" rx="8" fill="var(--good)" stroke="var(--ink)" stroke-width="5" />
+        
+        <!-- Force vector pointing 100% backward (propulsive thrust) -->
+        <g id="__ID__-vec-b">
+          <path d="M 360 190 L 260 190" stroke="var(--good)" stroke-width="8" stroke-linecap="round" />
+          <polygon points="250,190 270,180 270,200" fill="var(--good)" />
+          <text x="210" y="165" font-family="Inter, sans-serif" font-weight="800" font-size="22" fill="var(--good)">BACKWARD THRUST</text>
+        </g>
+      </svg>
+    </div>
+    <div class="stat-row">
+      <div class="stat-item">
+        <div class="stat-val" style="color:var(--good)">90°</div>
+        <div class="stat-lbl">Vertical Angle</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-val" style="color:var(--good)">90%</div>
+        <div class="stat-lbl">Propulsive Thrust</div>
+      </div>
+    </div>
+    <div class="stat-pill" style="background:#DCFCE7;color:var(--good)">Locks water & fires lats</div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5 }, 0.4);
+  tl.fromTo("#__ID__-vec-a", { opacity: 0, scale: 0.5, transformOrigin: "440px 270px" }, { opacity: 1, scale: 1, duration: 0.6, ease: "back.out(1.7)" }, 1.0);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5 }, 1.8);
+  tl.fromTo("#__ID__-vec-b", { opacity: 0, x: 50 }, { opacity: 1, x: 0, duration: 0.7, ease: "power2.out" }, 2.4);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

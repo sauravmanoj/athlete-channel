@@ -1,0 +1,1807 @@
+{
+  "title": "The physique of a swimmer",
+  "thumbnail": {
+    "pose": "flex",
+    "face": "determined",
+    "background": "court",
+    "headline": "Swimmer V-taper",
+    "highlight": "V-taper",
+    "icons": [
+      {
+        "icon": "muscle",
+        "size": 1.3
+      }
+    ],
+    "opponent": {
+      "pose": "tired_front"
+    },
+    "side": "right"
+  },
+  "youtube": {
+    "title": "The physique of a swimmer: why swimming builds an elite V-taper",
+    "titleOptions": [
+      "The biomechanics of a swimmer's back (without heavy barbells)",
+      "How swimming builds elite lats, bulletproof shoulders, and a rigid core"
+    ],
+    "description": "Discover why competitive swimming builds the most functional, aesthetic V-taper in sports. We break down the 5 hydrodynamic pillars: form drag reduction, Early Vertical Forearm pulling, non-spinal latissimus hypertrophy, the hollow body core cylinder, swimmer's shoulder rotator cuff balance, and the cold-water appetite paradox.",
+    "tags": [
+      "swimmer physique",
+      "swimmer v taper",
+      "the physique of a swimmer",
+      "swimming biomechanics",
+      "swimmer lats",
+      "early vertical forearm",
+      "swimmers shoulder",
+      "rotator cuff swimming",
+      "swimming dryland workout",
+      "hollow body hold swimming",
+      "swimming fat loss",
+      "swimming pull up"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "mascot",
+      "chapter": "Intro",
+      "background": "spotlight",
+      "transition": "fade",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "flex",
+          "at": "@broad"
+        }
+      ],
+      "headline": {
+        "text": "The swimmer's V-taper",
+        "highlight": "V-taper",
+        "at": "@broad",
+        "side": "right"
+      },
+      "narration": "Look at an elite swimmer on the blocks: broad shoulders tapering into a narrow waist."
+    },
+    {
+      "id": "s02",
+      "kind": "mascot",
+      "background": "plain",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@primarily"
+        }
+      ],
+      "headline": {
+        "text": "Water resistance",
+        "highlight": "resistance",
+        "at": "@resistance",
+        "side": "right"
+      },
+      "narration": "They look like superheroes, and while they train with targeted weights on land, their wide back is forged primarily against water resistance."
+    },
+    {
+      "id": "s03",
+      "kind": "slam",
+      "background": "brand",
+      "transition": "zoom",
+      "text": "The fluid secret",
+      "highlight": "secret",
+      "style": "brand",
+      "icon": "water",
+      "sub": "800 times denser than air",
+      "narration": "How does moving through water build one of the most athletic upper bodies in sports?"
+    },
+    {
+      "id": "s04",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@biomechanics"
+        }
+      ],
+      "headline": {
+        "text": "Durability & power",
+        "highlight": "power",
+        "at": "@pulling",
+        "side": "right"
+      },
+      "narration": "Today: the biomechanics behind the swimmer's V-taper, and how to build that pulling power, shoulder durability, and rigid core on land and in the pool."
+    },
+    {
+      "id": "s05",
+      "kind": "title",
+      "chapter": "The 5 pillars",
+      "number": 1,
+      "heading": "The 5 pillars",
+      "sub": "Fluid physics & human anatomy",
+      "mascot": {
+        "pose": "present"
+      },
+      "transition": "push",
+      "narration": "The swimmer's physique is a survival adaptation to fluid physics."
+    },
+    {
+      "id": "s06",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 800,
+      "suffix": "x denser",
+      "label": "water density compared to atmospheric air",
+      "highlight": "800x",
+      "icon": "water",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "at": "@800",
+      "narration": "Water is 800 times denser than air."
+    },
+    {
+      "id": "s07",
+      "kind": "slam",
+      "background": "dark",
+      "transition": "cut",
+      "text": "5 functional pillars",
+      "highlight": "pillars",
+      "style": "dark",
+      "icon": "target",
+      "sub": "Mastering fluid resistance",
+      "narration": "To conquer that fluid drag, your body relies on 5 functional pillars."
+    },
+    {
+      "id": "s08",
+      "kind": "list",
+      "background": "plain",
+      "transition": "cut",
+      "title": "The 5 pillars",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "1. The hull (form drag)",
+          "icon": "target",
+          "at": "@hull"
+        },
+        {
+          "text": "2. The wings (pulling engine)",
+          "icon": "muscle",
+          "at": "@wings"
+        },
+        {
+          "text": "3. The chassis (rigid core)",
+          "icon": "bolt",
+          "at": "@chassis"
+        },
+        {
+          "text": "4. The pivot point (rotator cuff)",
+          "icon": "heart",
+          "at": "@pivot"
+        },
+        {
+          "text": "5. The fuel & iron (dryland)",
+          "icon": "fire",
+          "at": "@fuel"
+        }
+      ],
+      "narration": "Pillar 1: the hull, minimizing form drag. Pillar 2: the wings, your pulling engine. Pillar 3: the chassis, locking a rigid core. Pillar 4: the pivot point, rebalancing your rotator cuff. And Pillar 5: the fuel and iron, beating the cold-water appetite trap with a targeted gym blueprint."
+    },
+    {
+      "id": "s09",
+      "kind": "title",
+      "chapter": "Pillar 1: The hull",
+      "number": 2,
+      "heading": "Pillar 1: The hull",
+      "sub": "Hydrodynamics & form drag",
+      "mascot": {
+        "pose": "think"
+      },
+      "transition": "push",
+      "narration": "The first rule of swimming: fluid drag always wins."
+    },
+    {
+      "id": "s10",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 90,
+      "suffix": "%",
+      "label": "of total hydrodynamic resistance caused by frontal form drag",
+      "highlight": "90%",
+      "icon": "target",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "at": "@causes",
+      "narration": "Form drag—the water pushing against your head and shoulders—causes 85 to 90 percent of total resistance, while skin friction is only 10 to 15 percent."
+    },
+    {
+      "id": "s11",
+      "kind": "slam",
+      "background": "brand",
+      "transition": "zoom",
+      "text": "Velocity cubed penalty",
+      "highlight": "cubed",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "2x speed requires 8x mechanical power",
+      "narration": "The power needed to overcome water drag scales with velocity cubed: doubling speed requires 8 times more power."
+    },
+    {
+      "id": "s12",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@Reducing"
+        }
+      ],
+      "headline": {
+        "text": "Shrink surface area",
+        "highlight": "surface",
+        "at": "@surface",
+        "side": "right"
+      },
+      "narration": "Reducing frontal surface area saves vastly more energy than brute pulling force."
+    },
+    {
+      "id": "s13",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 0.13,
+      "decimals": 2,
+      "suffix": " m²",
+      "label": "frontal surface area in an elite locked streamline",
+      "highlight": "0.13 m²",
+      "icon": "target",
+      "mascot": {
+        "pose": "ready"
+      },
+      "at": "@locked",
+      "narration": "In a locked streamline, surface area drops to 0.13 square meters."
+    },
+    {
+      "id": "s14",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "tired_front",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@parachute"
+        }
+      ],
+      "headline": {
+        "text": "Underwater parachute",
+        "highlight": "parachute",
+        "at": "@parachute",
+        "side": "right"
+      },
+      "narration": "Lifting your head or sagging your hips by 10 degrees doubles that area, creating an underwater parachute."
+    },
+    {
+      "id": "s15",
+      "kind": "versus",
+      "background": "plain",
+      "transition": "cut",
+      "left": {
+        "label": "Submarine Hull",
+        "pose": "sprint",
+        "gauge": {
+          "label": "Hydrodynamics",
+          "icon": "bolt",
+          "from": 90,
+          "to": 90,
+          "at": "@submarine"
+        }
+      },
+      "right": {
+        "label": "Flat Barge",
+        "pose": "tired_front",
+        "gauge": {
+          "label": "Hydrodynamics",
+          "icon": "cross",
+          "from": 20,
+          "to": 20,
+          "at": "@barge"
+        }
+      },
+      "vs": "VS",
+      "narration": "Think of a submarine versus a flat barge: massive power on a flat barge just throws up spray without moving forward."
+    },
+    {
+      "id": "s16",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "side_stand",
+          "at": 0
+        },
+        {
+          "pose": "flex",
+          "at": "@torpedo"
+        }
+      ],
+      "headline": {
+        "text": "Torpedo hull shape",
+        "highlight": "Torpedo",
+        "at": "@torpedo",
+        "side": "right"
+      },
+      "narration": "Swimmers look tapered because their body acts like a narrow torpedo hull."
+    },
+    {
+      "id": "s17",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 6,
+      "suffix": "% longer",
+      "label": "wingspan relative to standing height in elite swimmers (positive ape index)",
+      "highlight": "6% longer",
+      "icon": "muscle",
+      "mascot": {
+        "pose": "present"
+      },
+      "at": "@positive",
+      "narration": "Elite swimmers have positive ape indices, wingspans 3 to 6 percent longer than height."
+    },
+    {
+      "id": "s18",
+      "kind": "slam",
+      "background": "dark",
+      "transition": "cut",
+      "text": "Zero-drag streamline",
+      "highlight": "streamline",
+      "style": "dark",
+      "icon": "check",
+      "sub": "Trainable front-profile reduction",
+      "narration": "You cannot stretch bones, but you can master the zero-drag streamline lock."
+    },
+    {
+      "id": "s19",
+      "kind": "mascot",
+      "background": "court",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@Stack"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Thumb lock",
+          "target": "rHand",
+          "at": "@thumb",
+          "side": "right"
+        }
+      ],
+      "headline": {
+        "text": "Hand over hand",
+        "highlight": "Hand",
+        "at": "@Stack",
+        "side": "right"
+      },
+      "narration": "Stack your dominant hand over the other, locking the thumb."
+    },
+    {
+      "id": "s20",
+      "kind": "mascot",
+      "background": "court",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Biceps behind ears",
+          "target": "head",
+          "at": "@ears",
+          "side": "left",
+          "dy": -20
+        },
+        {
+          "label": "Eyes straight down",
+          "target": "eyes",
+          "at": "@floor",
+          "side": "right"
+        }
+      ],
+      "headline": {
+        "text": "Eyes on pool floor",
+        "highlight": "floor",
+        "at": "@floor",
+        "side": "right"
+      },
+      "narration": "Squeeze your upper arms behind your ears, looking straight down at the pool floor."
+    },
+    {
+      "id": "s21",
+      "kind": "mascot",
+      "background": "plain",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "facepalm",
+          "at": 0
+        },
+        {
+          "pose": "tired_front",
+          "at": "@drops"
+        }
+      ],
+      "headline": {
+        "text": "Don't look forward",
+        "highlight": "Don't",
+        "at": "@mistake",
+        "side": "right"
+      },
+      "narration": "The mistake? Looking forward at the opposite wall, which drops your hips 15 centimeters and doubles form drag."
+    },
+    {
+      "id": "s22",
+      "kind": "title",
+      "chapter": "Pillar 2: The wings",
+      "number": 3,
+      "heading": "Pillar 2: The wings",
+      "sub": "The pulling engine & non-spinal growth",
+      "mascot": {
+        "pose": "flex"
+      },
+      "transition": "push",
+      "narration": "Pillar 2 is the pulling engine that builds the wide V-taper: the lats, teres major, and pecs."
+    },
+    {
+      "id": "s23",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "flinch",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@sliding"
+        }
+      ],
+      "headline": {
+        "text": "The dropped elbow",
+        "highlight": "dropped",
+        "at": "@Amateurs",
+        "side": "right"
+      },
+      "narration": "Amateurs pull by dropping elbows, sliding hands through water like a slanted ramp."
+    },
+    {
+      "id": "s24",
+      "kind": "slam",
+      "background": "brand",
+      "transition": "zoom",
+      "text": "Early Vertical Forearm",
+      "highlight": "Vertical",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "The high-elbow catch",
+      "narration": "Elite swimmers execute an Early Vertical Forearm, or E-V-F."
+    },
+    {
+      "id": "s25",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        }
+      ],
+      "callouts": [
+        {
+          "label": "High elbow",
+          "target": "rElbow",
+          "at": "@elbow",
+          "side": "right"
+        },
+        {
+          "label": "90° forearm hinge",
+          "target": "rForearm",
+          "at": "@90",
+          "side": "right",
+          "dy": 20
+        }
+      ],
+      "headline": {
+        "text": "High elbow catch",
+        "highlight": "catch",
+        "at": "@Keep",
+        "side": "right"
+      },
+      "narration": "Keep your elbow high near the surface while hinging your forearm down at a 90 to 110-degree angle."
+    },
+    {
+      "id": "s26",
+      "kind": "custom",
+      "file": "custom/evf.html",
+      "transition": "cut",
+      "narration": "This turns your hand and forearm into a vertical paddle."
+    },
+    {
+      "id": "s27",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 90,
+      "suffix": "%",
+      "label": "of propulsive thrust delivered by the hand, with forearm anchoring fluid",
+      "highlight": "90%",
+      "icon": "target",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "at": "@thrust",
+      "narration": "The hand produces 85 to 90 percent of thrust, while the forearm adds 10 to 15 percent and anchors a column of water."
+    },
+    {
+      "id": "s28",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "sprint",
+          "at": "@vault"
+        }
+      ],
+      "headline": {
+        "text": "Pole vaulting water",
+        "highlight": "vaulting",
+        "at": "@vault",
+        "side": "right"
+      },
+      "narration": "Think of pole vaulting: your arm freezes into an anchor, and your lats vault your torso forward."
+    },
+    {
+      "id": "s29",
+      "kind": "slam",
+      "background": "dark",
+      "transition": "cut",
+      "text": "Non-spinal muscle growth",
+      "highlight": "Non-spinal",
+      "style": "dark",
+      "icon": "muscle",
+      "sub": "Massive volume without disc loading",
+      "narration": "Here is the secret of the swimmer's back: non-spinal muscle growth."
+    },
+    {
+      "id": "s30",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 7000,
+      "suffix": " Newtons",
+      "label": "peak spinal compression during heavy barbell rows on land",
+      "highlight": "7000 Newtons",
+      "icon": "cross",
+      "mascot": {
+        "pose": "hold_back"
+      },
+      "at": "@barbell",
+      "narration": "On land, heavy barbell rows apply 3,000 to 7,000 Newtons of spinal compression."
+    },
+    {
+      "id": "s31",
+      "kind": "versus",
+      "background": "plain",
+      "transition": "cut",
+      "left": {
+        "label": "Land Gravity",
+        "pose": "hold_back",
+        "gauge": {
+          "label": "Spinal Load",
+          "icon": "cross",
+          "from": 90,
+          "to": 90,
+          "at": "@weight"
+        }
+      },
+      "right": {
+        "label": "Water Buoyancy",
+        "pose": "ready",
+        "gauge": {
+          "label": "Spinal Load",
+          "icon": "water",
+          "from": 15,
+          "to": 15,
+          "at": "@buoyant"
+        }
+      },
+      "vs": "VS",
+      "narration": "In water, Archimedes' buoyant force unloads 80 to 90 percent of body weight."
+    },
+    {
+      "id": "s32",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 16000,
+      "suffix": " rotations",
+      "label": "completed per week by competitive swimmers (1.5M per year)",
+      "highlight": "16000",
+      "icon": "stopwatch",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "at": "@16000",
+      "narration": "Swimmers perform 16,000 arm rotations weekly—over 1.5 million strokes per year."
+    },
+    {
+      "id": "s33",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "flex",
+          "at": "@massive"
+        }
+      ],
+      "headline": {
+        "text": "Fluid volume capacity",
+        "highlight": "volume",
+        "at": "@absorb",
+        "side": "right"
+      },
+      "narration": "Buoyancy unloads your spine, allowing your lats to absorb massive volume with zero disc compression."
+    },
+    {
+      "id": "s34",
+      "kind": "mascot",
+      "background": "gym",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@cable"
+        }
+      ],
+      "headline": {
+        "text": "Straight-arm pulldowns",
+        "highlight": "pulldowns",
+        "at": "@pulldowns",
+        "side": "right"
+      },
+      "narration": "In the gym, train this with straight-arm cable pulldowns for 3 sets of 8 to 10 reps."
+    },
+    {
+      "id": "s35",
+      "kind": "mascot",
+      "background": "court",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "crouch",
+          "at": "@sculling"
+        }
+      ],
+      "headline": {
+        "text": "Front scull drills",
+        "highlight": "scull",
+        "at": "@sculling",
+        "side": "right"
+      },
+      "narration": "In the pool, practice front sculling with a pull buoy, sweeping forearms in figure eights."
+    },
+    {
+      "id": "s36",
+      "kind": "mascot",
+      "background": "plain",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "facepalm",
+          "at": 0
+        }
+      ],
+      "headline": {
+        "text": "Keep elbows high",
+        "highlight": "high",
+        "at": "@Dropping",
+        "side": "right"
+      },
+      "narration": "The mistake? Dropping the elbow early, pushing water down instead of back and switching off your lats."
+    },
+    {
+      "id": "s37",
+      "kind": "title",
+      "chapter": "Pillar 3: The chassis",
+      "number": 4,
+      "heading": "Pillar 3: The chassis",
+      "sub": "The rigid anti-drag core",
+      "mascot": {
+        "pose": "plank"
+      },
+      "transition": "push",
+      "narration": "A massive pulling engine is useless without a rigid chassis."
+    },
+    {
+      "id": "s38",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Buoyancy center (lungs)",
+          "target": "chest",
+          "at": "@lungs",
+          "side": "right"
+        },
+        {
+          "label": "Mass center (pelvis)",
+          "target": "hips",
+          "at": "@hips",
+          "side": "right"
+        }
+      ],
+      "headline": {
+        "text": "Center of buoyancy",
+        "highlight": "buoyancy",
+        "at": "@buoyancy",
+        "side": "right"
+      },
+      "narration": "Your center of buoyancy sits in your lungs, while your center of mass sits lower in your hips and legs."
+    },
+    {
+      "id": "s39",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "tired_front",
+          "at": 0
+        }
+      ],
+      "headline": {
+        "text": "Sinking torque",
+        "highlight": "Sinking",
+        "at": "@sinking",
+        "side": "right"
+      },
+      "narration": "Because lungs float while legs sink, gravity and buoyancy create a rotational sinking torque."
+    },
+    {
+      "id": "s40",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "flinch",
+          "at": 0
+        }
+      ],
+      "headline": {
+        "text": "Avoid banana back",
+        "highlight": "banana",
+        "at": "@banana",
+        "side": "right"
+      },
+      "narration": "Relaxing your abs drops your lower back into a banana shape, dragging your hips down like an anchor."
+    },
+    {
+      "id": "s41",
+      "kind": "versus",
+      "background": "plain",
+      "transition": "cut",
+      "left": {
+        "label": "Steel Cylinder",
+        "pose": "sprint",
+        "gauge": {
+          "label": "Hydrodynamics",
+          "icon": "bolt",
+          "from": 95,
+          "to": 95,
+          "at": "@steel"
+        }
+      },
+      "right": {
+        "label": "Cooked Noodle",
+        "pose": "tired_front",
+        "gauge": {
+          "label": "Hydrodynamics",
+          "icon": "cross",
+          "from": 15,
+          "to": 15,
+          "at": "@noodle"
+        }
+      },
+      "vs": "VS",
+      "narration": "Think of pushing a solid steel tube through water versus a cooked spaghetti noodle: a rigid cylinder glides, while a soft noodle buckles."
+    },
+    {
+      "id": "s42",
+      "kind": "slam",
+      "background": "brand",
+      "transition": "zoom",
+      "text": "The hollow body",
+      "highlight": "hollow",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "Posterior pelvic tilt",
+      "narration": "Swimmers build a rigid cylinder through the hollow body position."
+    },
+    {
+      "id": "s43",
+      "kind": "mascot",
+      "background": "court",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Posterior tilt",
+          "target": "hips",
+          "at": "@posterior",
+          "side": "right"
+        }
+      ],
+      "headline": {
+        "text": "Posterior pelvic tilt",
+        "highlight": "tilt",
+        "at": "@posterior",
+        "side": "right"
+      },
+      "narration": "Contracting your transversus abdominis and obliques pulls your pelvis into a posterior pelvic tilt."
+    },
+    {
+      "id": "s44",
+      "kind": "mascot",
+      "background": "court",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@lifting"
+        }
+      ],
+      "headline": {
+        "text": "Hips at surface line",
+        "highlight": "surface",
+        "at": "@surface",
+        "side": "right"
+      },
+      "narration": "This flattens your lumbar curve and squeezes your glutes, lifting your hips to the surface line."
+    },
+    {
+      "id": "s45",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "crouch",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@twists"
+        }
+      ],
+      "headline": {
+        "text": "Stop fish-tailing",
+        "highlight": "fish-tailing",
+        "at": "@fish-tailing",
+        "side": "right"
+      },
+      "narration": "Alternating strokes also produce rotational torque that twists hips sideways, known as torso yaw or fish-tailing."
+    },
+    {
+      "id": "s46",
+      "kind": "slam",
+      "background": "dark",
+      "transition": "cut",
+      "text": "Core stops torso yaw",
+      "highlight": "yaw",
+      "style": "dark",
+      "icon": "target",
+      "sub": "Eliminating rotational energy leaks",
+      "narration": "Targeted core training eliminates torso yaw, directly improving breakout speed and race times."
+    },
+    {
+      "id": "s47",
+      "kind": "mascot",
+      "background": "gym",
+      "transition": "cut",
+      "position": "center",
+      "poses": [
+        {
+          "pose": "plank",
+          "at": 0
+        }
+      ],
+      "headline": {
+        "text": "Hollow body hold",
+        "highlight": "Hollow",
+        "at": "@hollow",
+        "side": "right"
+      },
+      "narration": "Build this chassis with the gymnastic hollow body hold: lie flat, press your lower back down, and hold for 3 to 4 sets of 30 to 45 seconds."
+    },
+    {
+      "id": "s48",
+      "kind": "mascot",
+      "background": "gym",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@Pallof"
+        }
+      ],
+      "headline": {
+        "text": "Cable Pallof press",
+        "highlight": "Pallof",
+        "at": "@Pallof",
+        "side": "right"
+      },
+      "narration": "To resist rotational twisting, perform the standing cable Pallof press for 3 sets of 10 reps per side."
+    },
+    {
+      "id": "s49",
+      "kind": "mascot",
+      "background": "plain",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "facepalm",
+          "at": 0
+        }
+      ],
+      "headline": {
+        "text": "No arched back",
+        "highlight": "arched",
+        "at": "@Arching",
+        "side": "right"
+      },
+      "narration": "The mistake? Arching your lower back off the floor, which disengages your deep abs and sinks your hips."
+    },
+    {
+      "id": "s50",
+      "kind": "title",
+      "chapter": "Pillar 4: The pivot point",
+      "number": 5,
+      "heading": "Pillar 4: The pivot point",
+      "sub": "Rotator cuff balance & joint health",
+      "mascot": {
+        "pose": "arms_crossed"
+      },
+      "transition": "push",
+      "narration": "Now we must confront the dark side of the swimmer's physique: swimmer's shoulder."
+    },
+    {
+      "id": "s51",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 91,
+      "suffix": "%",
+      "label": "of competitive swimmers suffering from chronic shoulder pain",
+      "highlight": "91%",
+      "icon": "cross",
+      "mascot": {
+        "pose": "tired_front"
+      },
+      "at": "@Between",
+      "narration": "Between 40 and 91 percent of competitive swimmers suffer from chronic shoulder pain, and 69 percent show M-R-I confirmed supraspinatus tendon damage."
+    },
+    {
+      "id": "s52",
+      "kind": "slam",
+      "background": "dark",
+      "transition": "cut",
+      "text": "Muscular imbalance",
+      "highlight": "imbalance",
+      "style": "dark",
+      "icon": "heart",
+      "sub": "Internal rotators overpower external rotators",
+      "narration": "The culprit is muscular imbalance."
+    },
+    {
+      "id": "s53",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "flex",
+          "at": "@internal"
+        }
+      ],
+      "headline": {
+        "text": "Internal dominance",
+        "highlight": "Internal",
+        "at": "@internal",
+        "side": "right"
+      },
+      "narration": "Your internal rotators—the lats, pecs, and subscapularis—grow immensely powerful with every stroke."
+    },
+    {
+      "id": "s54",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "shrug",
+          "at": 0
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Weak external rotators",
+          "target": "lShoulder",
+          "at": "@external",
+          "side": "left"
+        }
+      ],
+      "headline": {
+        "text": "Neglected rotators",
+        "highlight": "Neglected",
+        "at": "@external",
+        "side": "right"
+      },
+      "narration": "Meanwhile, your external rotators—the infraspinatus and teres minor—receive minimal stimulus."
+    },
+    {
+      "id": "s55",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 75,
+      "suffix": "% ratio",
+      "label": "healthy external to internal rotator strength ratio (plunges <50% in swimmers)",
+      "highlight": "75% ratio",
+      "icon": "target",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "at": "@healthy",
+      "narration": "In healthy athletes, external rotator strength is 66 to 75 percent of internal rotator strength."
+    },
+    {
+      "id": "s56",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 50,
+      "suffix": "% or lower",
+      "label": "pathological rotator ratio found in competitive swimmers",
+      "highlight": "50%",
+      "icon": "cross",
+      "mascot": {
+        "pose": "tired_front"
+      },
+      "at": "@plunges",
+      "narration": "In swimmers, that ratio frequently plunges below 50 to 60 percent."
+    },
+    {
+      "id": "s57",
+      "kind": "versus",
+      "background": "plain",
+      "transition": "cut",
+      "left": {
+        "label": "Engine Power",
+        "pose": "flex",
+        "gauge": {
+          "label": "Horsepower",
+          "icon": "bolt",
+          "from": 90,
+          "to": 90,
+          "at": "@engine"
+        }
+      },
+      "right": {
+        "label": "Joint Bands",
+        "pose": "tired_front",
+        "gauge": {
+          "label": "Stabilizers",
+          "icon": "cross",
+          "from": 30,
+          "to": 20,
+          "at": "@rubber"
+        }
+      },
+      "vs": "VS",
+      "narration": "Think of an 800-horsepower racing engine on a driveshaft held by loose rubber bands."
+    },
+    {
+      "id": "s58",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@socket"
+        }
+      ],
+      "headline": {
+        "text": "Centering the socket",
+        "highlight": "socket",
+        "at": "@socket",
+        "side": "right"
+      },
+      "narration": "Your lats have massive power, but weak external rotators cannot keep the ball centered in the socket."
+    },
+    {
+      "id": "s59",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "flinch",
+          "at": 0
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Supraspinatus pinch",
+          "target": "rShoulder",
+          "at": "@pinching",
+          "side": "right"
+        }
+      ],
+      "headline": {
+        "text": "Tendon impingement",
+        "highlight": "impingement",
+        "at": "@pinching",
+        "side": "right"
+      },
+      "narration": "Overpowered internal rotators pull the humeral head forward, pinching the supraspinatus tendon on every recovery."
+    },
+    {
+      "id": "s60",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Serratus anterior",
+          "target": "chest",
+          "at": "@serratus",
+          "side": "right",
+          "dy": 30
+        }
+      ],
+      "headline": {
+        "text": "Serratus fatigue",
+        "highlight": "Serratus",
+        "at": "@serratus",
+        "side": "right"
+      },
+      "narration": "Furthermore, the serratus anterior fatigues during long swims, stopping your shoulder blade from upwardly rotating."
+    },
+    {
+      "id": "s61",
+      "kind": "list",
+      "background": "plain",
+      "transition": "cut",
+      "title": "Shoulder prehab circuit",
+      "mascot": {
+        "pose": "arms_crossed"
+      },
+      "items": [
+        {
+          "text": "1. External rotations (1-2kg)",
+          "icon": "target",
+          "at": "@external"
+        },
+        {
+          "text": "2. Prone Y-T-W raises",
+          "icon": "check",
+          "at": "@Y-T-W"
+        },
+        {
+          "text": "3. Serratus wall slides",
+          "icon": "bolt",
+          "at": "@serratus"
+        }
+      ],
+      "narration": "Bulletproof your shoulders with three drills: side-lying external rotations with a light 1 to 2-kilogram dumbbell or band for 3 sets of 12 to 15 reps, prone Y-T-W raises on an incline bench for 3 sets of 8 reps, and serratus wall slides with a mini-band."
+    },
+    {
+      "id": "s62",
+      "kind": "mascot",
+      "background": "plain",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "facepalm",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@pull"
+        }
+      ],
+      "headline": {
+        "text": "Shoulders down & back",
+        "highlight": "down",
+        "at": "@pull",
+        "side": "right"
+      },
+      "narration": "The mistake? Shrugging your upper traps; pull shoulder blades down and back instead."
+    },
+    {
+      "id": "s63",
+      "kind": "title",
+      "chapter": "Pillar 5: The fuel & iron",
+      "number": 6,
+      "heading": "Pillar 5: Fuel & iron",
+      "sub": "Cold water ghrelin & gym blueprint",
+      "mascot": {
+        "pose": "drink"
+      },
+      "transition": "push",
+      "narration": "Pillar 5 solves the great swimming mystery: why do swimmers struggle with body fat despite burning 600 to 1,000 calories per hour?"
+    },
+    {
+      "id": "s64",
+      "kind": "slam",
+      "background": "dark",
+      "transition": "cut",
+      "text": "The cold-water paradox",
+      "highlight": "cold-water",
+      "style": "dark",
+      "icon": "water",
+      "sub": "Thermal physics & appetite hormones",
+      "narration": "The cause is fluid thermal physics and endocrinology."
+    },
+    {
+      "id": "s65",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 24,
+      "suffix": "x faster",
+      "label": "thermal conductivity of water compared to air",
+      "highlight": "24x",
+      "icon": "water",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "at": "@24",
+      "narration": "Water conducts heat away from your body 24 times faster than air."
+    },
+    {
+      "id": "s66",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "tired_front",
+          "at": 0
+        }
+      ],
+      "headline": {
+        "text": "11° colder than core",
+        "highlight": "11°",
+        "at": "@11",
+        "side": "right"
+      },
+      "narration": "Even in heated 26-degree pools, water is 7 degrees colder than skin and 11 degrees colder than your core."
+    },
+    {
+      "id": "s67",
+      "kind": "mascot",
+      "background": "dark",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "crouch",
+          "at": 0
+        }
+      ],
+      "headline": {
+        "text": "Peripheral cooling",
+        "highlight": "cooling",
+        "at": "@constricts",
+        "side": "right"
+      },
+      "narration": "To prevent hypothermia, your nervous system constricts peripheral blood vessels, driving warm blood inward."
+    },
+    {
+      "id": "s68",
+      "kind": "slam",
+      "background": "brand",
+      "transition": "zoom",
+      "text": "Ghrelin appetite spike",
+      "highlight": "Ghrelin",
+      "style": "brand",
+      "icon": "fire",
+      "sub": "The post-swim hunger reflex",
+      "narration": "Climbing out into room air triggers a survival reflex: a massive surge of active ghrelin, the primary hunger hormone."
+    },
+    {
+      "id": "s69",
+      "kind": "stat",
+      "background": "plain",
+      "transition": "cut",
+      "value": 44,
+      "suffix": "% calorie spike",
+      "label": "increase in spontaneous post-exercise caloric intake after cold water immersion",
+      "highlight": "44%",
+      "icon": "fire",
+      "mascot": {
+        "pose": "tired_front"
+      },
+      "at": "@44",
+      "narration": "Exercising in cool water drives a 44 percent spike in spontaneous calorie intake compared to neutral conditions—877 calories consumed versus 608 calories."
+    },
+    {
+      "id": "s70",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@unknowingly"
+        }
+      ],
+      "headline": {
+        "text": "Unchecked calories",
+        "highlight": "calories",
+        "at": "@overconsume",
+        "side": "right"
+      },
+      "narration": "Swimmers burn hundreds of calories, but unknowingly overconsume 500 to 1,000 calories immediately afterward."
+    },
+    {
+      "id": "s71",
+      "kind": "mascot",
+      "background": "court",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "drink",
+          "at": "@drink"
+        }
+      ],
+      "headline": {
+        "text": "Hot drink & shower",
+        "highlight": "Hot",
+        "at": "@shower",
+        "side": "right"
+      },
+      "narration": "To beat this trap, take a hot shower and drink a warm beverage post-swim to quickly rewarm your skin and blunt the ghrelin spike."
+    },
+    {
+      "id": "s72",
+      "kind": "mascot",
+      "background": "plain",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@protein"
+        }
+      ],
+      "headline": {
+        "text": "30-40g lean protein",
+        "highlight": "protein",
+        "at": "@protein",
+        "side": "right"
+      },
+      "narration": "Follow this with a recovery meal of 30 to 40 grams of lean protein before touching carbs."
+    },
+    {
+      "id": "s73",
+      "kind": "title",
+      "chapter": "Dryland blueprint",
+      "number": 7,
+      "heading": "The dryland blueprint",
+      "sub": "3-day strength split",
+      "mascot": {
+        "pose": "flex"
+      },
+      "transition": "push",
+      "narration": "On land, build the swimmer's V-taper with a 3-day dryland blueprint."
+    },
+    {
+      "id": "s74",
+      "kind": "list",
+      "background": "plain",
+      "transition": "cut",
+      "title": "3-Day dryland blueprint",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "Day 1: Pull-ups & external rotations",
+          "icon": "muscle",
+          "at": "@Day 1"
+        },
+        {
+          "text": "Day 2: Y-T-W raises & hollow holds",
+          "icon": "bolt",
+          "at": "@Day 2"
+        },
+        {
+          "text": "Day 3: Controlled pulldowns & slides",
+          "icon": "target",
+          "at": "@Day 3"
+        }
+      ],
+      "narration": "Day 1: pull-ups or lat pulldowns for 4 sets of 4 to 6 reps, straight-arm cable pulldowns, and external rotations. Day 2: prone Y-T-W raises, Pallof presses, and hollow body holds. Day 3: lat pulldowns with explosive concentric intent and controlled 3-second eccentric return, serratus wall slides, and hollow rocks."
+    },
+    {
+      "id": "s75",
+      "kind": "title",
+      "chapter": "Stay safe",
+      "number": 8,
+      "heading": "Stay safe",
+      "sub": "Shoulder tendon longevity",
+      "mascot": {
+        "pose": "arms_crossed"
+      },
+      "transition": "push",
+      "narration": "High-volume swimming places cyclic stress on your shoulders."
+    },
+    {
+      "id": "s76",
+      "kind": "list",
+      "background": "plain",
+      "transition": "cut",
+      "title": "Volume & paddles",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "1. Max 10% weekly volume ramp",
+          "icon": "target",
+          "at": "@First"
+        },
+        {
+          "text": "2. Fingertip paddles only",
+          "icon": "cross",
+          "at": "@Second"
+        }
+      ],
+      "narration": "Follow four safety rules. First: manage volume strictly, never increasing weekly pool yardage by more than 10 percent. Second: beware of oversized hand paddles, which multiply torque on your shoulder joint; use fingertip paddles until rotator cuff strength is verified."
+    },
+    {
+      "id": "s77",
+      "kind": "list",
+      "background": "plain",
+      "transition": "cut",
+      "title": "Breathing & red flags",
+      "mascot": {
+        "pose": "arms_crossed"
+      },
+      "items": [
+        {
+          "text": "3. Bilateral breathing (3/5 strokes)",
+          "icon": "lungs",
+          "at": "@Third"
+        },
+        {
+          "text": "4. Red flags: see a physio",
+          "icon": "heart",
+          "at": "@Finally"
+        }
+      ],
+      "narration": "Third: practice bilateral breathing every 3 or 5 strokes to prevent asymmetric thoracic twisting. Finally: heed medical red flags. If you experience night pain, sharp anterior joint catching, or numbness down your arm, stop swimming and see a sports physiotherapist."
+    },
+    {
+      "id": "s78",
+      "kind": "title",
+      "chapter": "Your routine",
+      "number": 9,
+      "heading": "Your weekly routine",
+      "sub": "Balanced 4-day split",
+      "mascot": {
+        "pose": "present"
+      },
+      "transition": "push",
+      "narration": "Here is an amateur-friendly 4-day training split that protects your tendons."
+    },
+    {
+      "id": "s79",
+      "kind": "list",
+      "background": "plain",
+      "transition": "cut",
+      "title": "Monday to Wednesday",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "Mon: Dryland pulling & rotations",
+          "icon": "muscle",
+          "at": "@Monday"
+        },
+        {
+          "text": "Tue: Pool technique & sculling",
+          "icon": "water",
+          "at": "@Tuesday"
+        },
+        {
+          "text": "Wed: Rest & recovery",
+          "icon": "heart",
+          "at": "@Wednesday"
+        }
+      ],
+      "narration": "On Monday: dryland pulling—pull-ups, straight-arm pulldowns, and rotator cuff external rotations. On Tuesday: pool session focusing on streamline locks, front sculling, and bilateral breathing. On Wednesday: full rest to allow shoulder tendons and connective tissue to remodel."
+    },
+    {
+      "id": "s80",
+      "kind": "list",
+      "background": "plain",
+      "transition": "cut",
+      "title": "Thursday & Friday",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "Thu: Dryland stability & core",
+          "icon": "bolt",
+          "at": "@Thursday"
+        },
+        {
+          "text": "Fri: Pool EVF endurance",
+          "icon": "target",
+          "at": "@Friday"
+        }
+      ],
+      "narration": "On Thursday: dryland stability—prone Y-T-W raises, Pallof presses, and hollow body holds. On Friday: pool endurance intervals with a pull buoy to groove Early Vertical Forearm mechanics."
+    },
+    {
+      "id": "s81",
+      "kind": "mascot",
+      "background": "plain",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@saving"
+        }
+      ],
+      "headline": {
+        "text": "Save 6-day splits",
+        "highlight": "Save",
+        "at": "@saving",
+        "side": "right"
+      },
+      "narration": "Take Saturday and Sunday off, saving intense 6-day splits for seasoned competitive swimmers."
+    },
+    {
+      "id": "s82",
+      "kind": "mascot",
+      "chapter": "Close",
+      "background": "spotlight",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "flex",
+          "at": "@vanity"
+        }
+      ],
+      "headline": {
+        "text": "Built for function",
+        "highlight": "function",
+        "at": "@vanity",
+        "side": "right"
+      },
+      "narration": "The iconic swimmer's V-taper is not built by vanity."
+    },
+    {
+      "id": "s83",
+      "kind": "slam",
+      "background": "dark",
+      "transition": "cut",
+      "text": "Forged by fluid physics",
+      "highlight": "physics",
+      "style": "dark",
+      "icon": "water",
+      "sub": "Adapting to the dense medium",
+      "narration": "It is forged by the uncompromising fluid physics of moving through water."
+    },
+    {
+      "id": "s84",
+      "kind": "mascot",
+      "background": "court",
+      "transition": "cut",
+      "position": "left",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "flex",
+          "at": "@hollow"
+        }
+      ],
+      "headline": {
+        "text": "Armor your shoulders",
+        "highlight": "Armor",
+        "at": "@armor",
+        "side": "right"
+      },
+      "narration": "Shape your hull into a zero-drag cylinder, vault your body forward with an Early Vertical Forearm, lock your chassis with a hollow body core, and armor your rotator cuffs."
+    },
+    {
+      "id": "s85",
+      "kind": "mascot",
+      "background": "spotlight",
+      "transition": "fade",
+      "position": "center",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@glide"
+        }
+      ],
+      "headline": {
+        "text": "Glide to victory",
+        "highlight": "victory",
+        "at": "@glide",
+        "side": "right"
+      },
+      "narration": "Build your wings with purpose, protect your shoulders, and glide past the competition."
+    }
+  ]
+}

@@ -1,0 +1,222 @@
+[
+  {
+    "id": "S1",
+    "title": "Biomechanics of competitive front crawl swimming",
+    "author": "Toussaint HM, Beek PJ",
+    "publisher": "Sports Medicine 13(1):8-24",
+    "year": "1992",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1553457/",
+    "type": "review",
+    "notes": "Foundational review establishing hydrodynamic drag mechanisms in swimming. Total drag is partitioned into friction drag, form (pressure) drag, and wave drag. Highlights that form and wave drag account for the overwhelming majority of resistance, and power required to overcome drag scales with the cube of velocity (P = Fd * v = 0.5 * rho * v^3 * Cd * A)."
+  },
+  {
+    "id": "S2",
+    "title": "Planimetric frontal area in the four swimming strokes: implications for drag, energetics and speed",
+    "author": "Gatta G, Cortesi M, Fantozzi S, Zamparo P",
+    "publisher": "Human Movement Science 42:206-218",
+    "year": "2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25461432/",
+    "type": "trial",
+    "notes": "Measured projected frontal surface area (Ap) across all four strokes and during streamlined gliding. Streamline glide exhibits minimum Ap of ~0.13 m^2. Quantified active drag relationship (Da = 19.5 * v^2 in freestyle), demonstrating how subtle deviations in pelvic alignment and body profile inflate frontal area and drag."
+  },
+  {
+    "id": "S3",
+    "title": "Hydrodynamic drag during gliding in swimming",
+    "author": "Marinho DA, Reis VM, Alves FB, Vilas-Boas JP, Machado L, Silva AJ, Rouboa AI",
+    "publisher": "Journal of Applied Biomechanics 25(3):253-259",
+    "year": "2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19827475/",
+    "type": "trial",
+    "notes": "Computational fluid dynamics (CFD) investigation of passive hydrodynamic drag during streamlined gliding. Confirmed that pressure (form) drag dominates hydrodynamic resistance (~85-90% of total drag in gliding posture), while skin friction drag accounts for only 10-15% of total resistance."
+  },
+  {
+    "id": "S4",
+    "title": "Three-dimensional CFD analysis of the hand and forearm in swimming",
+    "author": "Marinho DA, Silva AJ, Reis VM, Barbosa TM, Vilas-Boas JP, Alves FB, Machado L, Rouboa AI",
+    "publisher": "Journal of Applied Biomechanics 27(1):74-84",
+    "year": "2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21451185/",
+    "type": "trial",
+    "notes": "3D CFD analysis proving that establishing an early vertical forearm position creates a unified propulsive surface, where the hand produces ~85-90% of net propulsive force and the forearm contributes 10-15%, converting hydrodynamic drag into forward thrust."
+  },
+  {
+    "id": "S5",
+    "title": "Hydrodynamic drag and lift forces on human hand/arm models",
+    "author": "Berger MAM, de Groot G, Hollander AP",
+    "publisher": "Journal of Biomechanics 28(2):125-133",
+    "year": "1995",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/7896855/",
+    "type": "trial",
+    "notes": "Flume tow-tank trial establishing drag and lift coefficients across hand and forearm angles of attack. Demonstrates that backward propulsive drag dominates forward propulsion over aerodynamic lift, validating the high-elbow catch / Early Vertical Forearm technique."
+  },
+  {
+    "id": "S6",
+    "title": "Optimal Body Size and Limb Length Ratios Associated with 100-m Personal-Best Swim Speeds",
+    "author": "Nevill AM, Oxford SW, Duncan MJ",
+    "publisher": "Medicine & Science in Sports & Exercise 47(8):1714-1718",
+    "year": "2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25412299/",
+    "type": "trial",
+    "notes": "Allometric modeling of elite swimmers demonstrating that a high arm span-to-height ratio (positive ape index) and a long trunk relative to leg length are critical anthropometric determinants of sprint swim speed, optimizing stroke length and hull speed mechanics."
+  },
+  {
+    "id": "S7",
+    "title": "Somatic and physical traits affecting sprint swimming performance in young swimmers",
+    "author": "Geladas ND, Nassis GP, Pavlicevic S",
+    "publisher": "International Journal of Sports Medicine 26(2):139-144",
+    "year": "2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15726490/",
+    "type": "trial",
+    "notes": "Investigated anthropometric predictors of sprint swimming performance. Total upper body reach (arm span) and hand surface area were significant independent predictors of 100m sprint performance (r = 0.76-0.81), explaining upper limb mechanical leverage advantage."
+  },
+  {
+    "id": "S8",
+    "title": "The normal shoulder during freestyle swimming. An electromyographic and cinematographic analysis of twelve muscles",
+    "author": "Pink M, Perry J, Browne A, Scovazzo ML, Kerrigan J",
+    "publisher": "The American Journal of Sports Medicine 19(6):569-576",
+    "year": "1991",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1781498/",
+    "type": "trial",
+    "notes": "Landmark fine-wire electromyography study mapping 12 shoulder muscles in pain-free competitive swimmers. Proved that Latissimus Dorsi and Pectoralis Major are the prime power generators during underwater pull-through, while Serratus Anterior and Subscapularis fire continuously for dynamic joint stabilization."
+  },
+  {
+    "id": "S9",
+    "title": "The painful shoulder during freestyle swimming. An electromyographic cinematographic analysis of twelve muscles",
+    "author": "Scovazzo ML, Browne A, Pink M, Jobe FW, Kerrigan J",
+    "publisher": "The American Journal of Sports Medicine 19(6):577-582",
+    "year": "1991",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1781499/",
+    "type": "trial",
+    "notes": "Companion EMG trial to Pink et al. comparing painful vs pain-free shoulders. Showed significant firing inhibition and dyssynergy in Serratus Anterior, Subscapularis, Infraspinatus, and Rhomboids in symptomatic swimmers, causing loss of scapular upward rotation and subsequent subacromial impingement."
+  },
+  {
+    "id": "S10",
+    "title": "Shoulder pain in elite swimmers: primarily due to swim-volume-induced supraspinatus tendinopathy",
+    "author": "Sein ML, Walton J, Linklater J, Appleyard R, Kirkbride B, Kuah D, Murrell GAC",
+    "publisher": "British Journal of Sports Medicine 44(2):105-113",
+    "year": "2010",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18463295/",
+    "type": "trial",
+    "notes": "Clinical and MRI investigation of 80 elite competitive swimmers. Found 91% reported shoulder pain, and 69% showed MRI-confirmed supraspinatus tendinopathy. Established a direct dose-response relationship with training volume (>15 hours/week or >35 km/week significantly increased tendon thickening and pain)."
+  },
+  {
+    "id": "S11",
+    "title": "Shoulder strength and range of motion in symptomatic and pain-free elite swimmers",
+    "author": "Bak K, Magnusson SP",
+    "publisher": "The American Journal of Sports Medicine 25(4):454-459",
+    "year": "1997",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9240978/",
+    "type": "trial",
+    "notes": "Isokinetic dynamometry analysis of elite swimmers demonstrating significant strength imbalances between shoulder internal rotators (IR) and external rotators (ER). Pathological shifts in ER:IR ratio (<0.60) correlate with anterior humeral translation, microinstability, and subacromial impingement."
+  },
+  {
+    "id": "S12",
+    "title": "Relationship of shoulder flexibility, strength, and endurance to shoulder pain in competitive swimmers",
+    "author": "Beach ML, Whitney SL, Dickoff-Hoffman SA",
+    "publisher": "Journal of Orthopaedic & Sports Physical Therapy 16(6):262-268",
+    "year": "1992",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18796745/",
+    "type": "trial",
+    "notes": "Demonstrated that massive muscular endurance and power in internal rotators (latissimus dorsi, pectoralis major) coupled with fatigued or underdeveloped external rotators (infraspinatus, teres minor) creates anterior glenohumeral laxity and secondary impingement in competitive swimmers."
+  },
+  {
+    "id": "S13",
+    "title": "Epidemiology of injuries and prevention strategies in competitive swimmers",
+    "author": "Wanivenhaus F, Fox AJS, Chaudhury S, Rodeo SA",
+    "publisher": "Sports Health 4(3):246-251",
+    "year": "2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/23016094/",
+    "type": "review",
+    "notes": "Comprehensive clinical review documenting that competitive swimmers perform 16,000 shoulder revolutions per week (~1.5-2.5 million per year). Overuse of internal rotators without compensatory periscapular conditioning leads to 40-91% lifetime injury prevalence. Recommends dryland posterior chain and scapular stabilization."
+  },
+  {
+    "id": "S14",
+    "title": "Effect of a 6-week strengthening program on shoulder and scapular-stabilizer strength and scapular kinematics in division I collegiate swimmers",
+    "author": "Hibberd EE, Oyama S, Spang JT, Prentice W, Myers JB",
+    "publisher": "Journal of Sport Rehabilitation 21(3):253-265",
+    "year": "2012",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/22387875/",
+    "type": "trial",
+    "notes": "Randomized controlled trial of collegiate swimmers demonstrating that a 6-week targeted dryland strengthening protocol (prone Y/T/W raises, band external rotation, serratus push-up plus) significantly increased ER strength, restored ER:IR strength ratios, and corrected scapular upward rotation kinematics."
+  },
+  {
+    "id": "S15",
+    "title": "Mobility and stability adaptations in the shoulder of the overhead athlete: a theoretical and evidence-based perspective",
+    "author": "Borsa PA, Laudner KG, Sauers EL",
+    "publisher": "Sports Medicine 38(1):17-36",
+    "year": "2008",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/18081365/",
+    "type": "review",
+    "notes": "Detailed synthesis of microtrauma, anterior capsular stretching, and rotator cuff muscular imbalance in overhead aquatic athletes. Emphasizes restoring dynamic centering of the humeral head in the glenoid fossa via targeted rotator cuff co-contraction."
+  },
+  {
+    "id": "S16",
+    "title": "Isolated core training improves sprint performance in national-level junior swimmers",
+    "author": "Weston M, Hibbs AE, Thompson KG, Spears IR",
+    "publisher": "International Journal of Sports Physiology and Performance 10(2):204-210",
+    "year": "2015",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25025936/",
+    "type": "trial",
+    "notes": "12-week randomized trial showing that isolated core stability training (hollow body holds, planks, anti-rotation) produced statistically significant improvements in 50m front-crawl sprint times by eliminating torso lateral wiggle (yaw) and reducing kinetic energy leakage."
+  },
+  {
+    "id": "S17",
+    "title": "The effects of a 6-week core exercises on swimming performance of national level swimmers",
+    "author": "Karpiński J, Rejdych W, Brzozowska D, Gołaś A, Sadowski W, Swinarew AS, et al.",
+    "publisher": "PLoS ONE 15(8):e0227394",
+    "year": "2020",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/32866148/",
+    "type": "trial",
+    "notes": "Demonstrated that 6 weeks of dedicated core stability conditioning directly improved turn performance, post-turn breakout glide velocity, and overall 50m freestyle time by maintaining horizontal streamline posture under high anaerobic fatigue."
+  },
+  {
+    "id": "S18",
+    "title": "The Impact of Resistance Training on Swimming Performance: A Systematic Review",
+    "author": "Crowley E, Harrison AJ, Lyons M",
+    "publisher": "Sports Medicine 47(11):2285-2307",
+    "year": "2017",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/28497283/",
+    "type": "review",
+    "notes": "Systematic review of dryland resistance training in swimming. Concludes that low-volume, high-load/velocity pulling exercises (weighted pull-ups, lat pulldowns) directly improve stroke length and tethered force without adding excess non-functional mass, while excessive hypertrophy can impair buoyancy and mobility."
+  },
+  {
+    "id": "S19",
+    "title": "Increased caloric intake soon after exercise in cold water",
+    "author": "White LJ, Dressendorfer RH, Holland E, McCoy SC, Ferguson MA",
+    "publisher": "International Journal of Sport Nutrition and Exercise Metabolism 15(1):38-47",
+    "year": "2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15902988/",
+    "type": "trial",
+    "notes": "Controlled trial proving that exercise in cold water (20°C) resulted in a 44% increase in post-exercise caloric consumption (877 kcal vs 608 kcal in 33°C neutral water), demonstrating that cold-induced peripheral vasoconstriction and core cooling trigger involuntary compensatory hyperphagia."
+  },
+  {
+    "id": "S20",
+    "title": "Postexercise water immersion increases short-term food intake in trained men",
+    "author": "Halse RE, Wallman KE, Guelfi KJ",
+    "publisher": "Medicine & Science in Sports & Exercise 43(8):1458-1464",
+    "year": "2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20798665/",
+    "type": "trial",
+    "notes": "Demonstrated that cold water immersion (15°C) post-exercise causes a significant elevation in active acylated ghrelin and subsequent ad-libitum caloric intake compared to thermoneutral conditions, explaining the physiological mechanism behind 'swimmer's appetite'."
+  },
+  {
+    "id": "S21",
+    "title": "Comparison of different rowing exercises: trunk muscle activation and lumbar spine motion, load, and stiffness",
+    "author": "Fenwick CM, Brown SH, McGill SM",
+    "publisher": "Journal of Strength and Conditioning Research 23(2):350-358",
+    "year": "2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19204571/",
+    "type": "trial",
+    "notes": "Quantified peak lumbar L4/L5 compressive load during bent-over barbell rows at 3,576 N (exceeding the NIOSH 3,300 N occupational threshold). Confirms that bent-over rowing applies 3,000 to 7,000 N of spinal compression under heavy training loads."
+  },
+  {
+    "id": "S22",
+    "title": "Electromyographic analysis of the rotator cuff and deltoid musculature during common shoulder external rotation exercises",
+    "author": "Reinold MM, Wilk KE, Fleisig GS, Zheng N, Barrentine SW, Cook GW, Andrews JR",
+    "publisher": "Journal of Orthopaedic & Sports Physical Therapy 34(7):385-394",
+    "year": "2004",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15296366/",
+    "type": "trial",
+    "notes": "Demonstrated that side-lying external rotation isolates the infraspinatus and teres minor with minimal deltoid substitution only when performed with light loads (1–2 kg / low resistance). Excessive loading triggers compensatory deltoid recruitment and anterior humeral translation."
+  }
+]
