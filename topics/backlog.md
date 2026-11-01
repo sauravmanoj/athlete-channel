@@ -34,11 +34,11 @@
   - Framework: braking foot plant vs hip projection, shin angles & horizontal ground reaction force, eliminating backside recovery lag, 3 acceleration drills (wall march, half-kneeling drive, falling start)
   - Acting: split stance with shin-angle overlay, forward projection thrust, sprint acceleration cycle, wall drill
   - Demand: cross-sport demand across basketball, soccer, tennis, football · Competition: mostly drill reels with no biomechanical explanation; high gap for visual explainer
-- [ ] **The physique of a swimmer** — 29/30 — template: physique
+- [x] **The physique of a swimmer** — 29/30 — template: physique
   - Framework: hydrodynamics & form drag (the V-taper advantage), continuous overhead pulling hypertrophy (lats & delts), isometric core hollow-body stabilization, the cold-water appetite paradox & dryland gym translation
   - Acting: Coach Ember wingspan measurement, swimming stroke cycle, muscle callouts on lats/delts/core, water resistance flow lines
   - Demand: massive search volume combining aesthetic interest and athletic performance · Competition: mostly lifestyle vlogs and photo comparisons; no animated biomechanical breakdowns
-- [ ] **How to react faster than anyone** — 29/30 — template: how-to-X-faster
+- [x] **How to react faster than anyone** — 29/30 — template: how-to-X-faster
   - Framework: the reflex limit vs anticipation, the "Quiet Eye" gaze fixation before execution, reading kinematic body cues (hips, shoulders, racket angle) before the ball travels, peripheral vision expansion vs tunnel vision
   - Acting: Coach Ember tracking incoming ball, target lock reticle / eye zoom, split-second dodge, reaction-time timeline comparison chart
   - Demand: universal appeal across racket, court, combat, and team sports · Competition: rarely visualized with animated characters; high novelty and viral potential

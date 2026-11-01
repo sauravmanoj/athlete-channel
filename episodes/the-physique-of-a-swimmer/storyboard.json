@@ -151,7 +151,7 @@
       "mascot": {
         "pose": "point_up"
       },
-      "at": "@800",
+      "at": "@eight",
       "narration": "Water is 800 times denser than air."
     },
     {
@@ -434,6 +434,10 @@
         {
           "pose": "ready",
           "at": 0
+        },
+        {
+          "pose": "crouch",
+          "at": "@looking"
         }
       ],
       "callouts": [
@@ -554,7 +558,7 @@
         {
           "label": "90° forearm hinge",
           "target": "rForearm",
-          "at": "@90",
+          "at": "@ninety",
           "side": "right",
           "dy": 20
         }
@@ -685,7 +689,7 @@
       "mascot": {
         "pose": "point_up"
       },
-      "at": "@16000",
+      "at": "@sixteen",
       "narration": "Swimmers perform 16,000 arm rotations weekly—over 1.5 million strokes per year."
     },
     {
@@ -810,7 +814,7 @@
           "label": "Buoyancy center (lungs)",
           "target": "chest",
           "at": "@lungs",
-          "side": "right"
+          "side": "left"
         },
         {
           "label": "Mass center (pelvis)",
@@ -925,7 +929,7 @@
         {
           "label": "Posterior tilt",
           "target": "hips",
-          "at": "@posterior",
+          "at": "@pelvis",
           "side": "right"
         }
       ],
@@ -1005,8 +1009,12 @@
       "position": "center",
       "poses": [
         {
-          "pose": "plank",
+          "pose": "lie",
           "at": 0
+        },
+        {
+          "pose": "plank",
+          "at": "@hold"
         }
       ],
       "headline": {
@@ -1257,7 +1265,7 @@
           "label": "Supraspinatus pinch",
           "target": "rShoulder",
           "at": "@pinching",
-          "side": "right"
+          "side": "left"
         }
       ],
       "headline": {
@@ -1285,7 +1293,7 @@
           "label": "Serratus anterior",
           "target": "chest",
           "at": "@serratus",
-          "side": "right",
+          "side": "left",
           "dy": 30
         }
       ],
@@ -1315,12 +1323,12 @@
         {
           "text": "2. Prone Y-T-W raises",
           "icon": "check",
-          "at": "@Y-T-W"
+          "at": "@ytw"
         },
         {
           "text": "3. Serratus wall slides",
           "icon": "bolt",
-          "at": "@serratus"
+          "at": "@seratus"
         }
       ],
       "narration": "Bulletproof your shoulders with three drills: side-lying external rotations with a light 1 to 2-kilogram dumbbell or band for 3 sets of 12 to 15 reps, prone Y-T-W raises on an incline bench for 3 sets of 8 reps, and serratus wall slides with a mini-band."
@@ -1387,7 +1395,7 @@
       "mascot": {
         "pose": "point_up"
       },
-      "at": "@24",
+      "at": "@twenty",
       "narration": "Water conducts heat away from your body 24 times faster than air."
     },
     {
@@ -1405,7 +1413,7 @@
       "headline": {
         "text": "11° colder than core",
         "highlight": "11°",
-        "at": "@11",
+        "at": "@eleven",
         "side": "right"
       },
       "narration": "Even in heated 26-degree pools, water is 7 degrees colder than skin and 11 degrees colder than your core."
@@ -1455,7 +1463,7 @@
       "mascot": {
         "pose": "tired_front"
       },
-      "at": "@44",
+      "at": "@forty",
       "narration": "Exercising in cool water drives a 44 percent spike in spontaneous calorie intake compared to neutral conditions—877 calories consumed versus 608 calories."
     },
     {
@@ -1732,13 +1740,13 @@
         },
         {
           "pose": "flex",
-          "at": "@vanity"
+          "at": "@swimmer's"
         }
       ],
       "headline": {
         "text": "Built for function",
         "highlight": "function",
-        "at": "@vanity",
+        "at": "@swimmer's",
         "side": "right"
       },
       "narration": "The iconic swimmer's V-taper is not built by vanity."
@@ -1784,7 +1792,7 @@
       "kind": "mascot",
       "background": "spotlight",
       "transition": "fade",
-      "position": "center",
+      "position": "left",
       "poses": [
         {
           "pose": "ready",

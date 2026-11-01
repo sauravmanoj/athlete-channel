@@ -11,3 +11,5 @@
 | 2026-10-28 | 5-mistakes-killing-your-running-stamina | 5 mistakes killing your running stamina | 9:21 | awaiting review |
 | 2026-10-29 | your-first-step-is-slow-here-s-why | Your first step is slow (here's why) | 9:50 | awaiting review |
 | 2026-10-29 | how-to-never-get-tired-in-basketball | How to never get tired in basketball | 10:37 | awaiting review |
+| 2026-10-31 | the-physique-of-a-swimmer | The physique of a swimmer: why swimming builds an elite V-taper | 11:13 | awaiting review |
+| 2026-10-31 | how-to-react-faster-than-anyone | How to react faster than anyone (the visual neuroscience) | 11:43 | awaiting review |

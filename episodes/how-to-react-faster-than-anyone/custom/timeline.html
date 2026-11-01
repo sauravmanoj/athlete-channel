@@ -1,0 +1,97 @@
+<!-- Custom hero scene: Reaction Time Timeline vs Ball Flight -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; left:160px; right:160px; height:340px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-top { top:150px; }
+    #__ID__-root .card-bot { top:530px; }
+    #__ID__-root .card-header { position:absolute; top:24px; left:40px; display:flex; align-items:center; gap:16px; }
+    #__ID__-root .tag-pill { padding:8px 20px; border-radius:12px; font:800 24px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .tag-bad { background:#FEE2E2; color:var(--bad); }
+    #__ID__-root .tag-good { background:#DCFCE7; color:var(--good); }
+    #__ID__-root .card-title { font:800 32px var(--display); color:var(--ink); text-transform:uppercase; }
+    
+    #__ID__-root .timeline-track { position:absolute; top:120px; left:40px; right:40px; height:60px; background:#F1F5F9; border-radius:16px; border:4px solid var(--ink); overflow:hidden; display:flex; }
+    #__ID__-root .seg { height:100%; display:flex; align-items:center; justify-content:center; font:800 20px var(--sans); color:#fff; text-transform:uppercase; letter-spacing:0.5px; border-right:3px solid #fff; }
+    #__ID__-root .seg:last-child { border-right:none; }
+    
+    #__ID__-root .stat-bar { position:absolute; bottom:24px; left:40px; right:40px; display:flex; justify-content:space-between; align-items:center; }
+    #__ID__-root .stat-group { display:flex; gap:32px; }
+    #__ID__-root .stat-val { font:900 36px var(--display); }
+    #__ID__-root .stat-lbl { font:700 18px var(--sans); color:#64748B; text-transform:uppercase; margin-top:2px; }
+    #__ID__-root .verdict-tag { font:900 32px var(--display); padding:10px 24px; border-radius:16px; text-transform:uppercase; }
+    #__ID__-root .verdict-bad { background:var(--bad); color:#fff; }
+    #__ID__-root .verdict-good { background:var(--good); color:#fff; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:50px;text-align:center">The ball-flight mathematical trap</div>
+
+  <!-- Top Card: Amateur Ball-Flight Reaction -->
+  <div class="card-box card-top" id="__ID__-card-a">
+    <div class="card-header">
+      <div class="tag-pill tag-bad">Amateur</div>
+      <div class="card-title">Waiting for ball flight (400ms flight)</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:12%; background:#94A3B8;">Retina 40ms</div>
+      <div class="seg" style="width:25%; background:#F87171;">Visual Cortex 110ms</div>
+      <div class="seg" style="width:33%; background:#EF4444;">Hick's Choice 180ms</div>
+      <div class="seg" style="width:10%; background:#DC2626;">EMD 40ms</div>
+      <div class="seg" style="width:20%; background:#B91C1C;">Swing 160ms</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:var(--bad)">530 ms</div>
+          <div class="stat-lbl">Total Time Required</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">400 ms</div>
+          <div class="stat-lbl">Ball Flight Time</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-bad">−130 ms DEFICIT (TOO LATE)</div>
+    </div>
+  </div>
+
+  <!-- Bottom Card: Elite Anticipation Reaction -->
+  <div class="card-box card-bot" id="__ID__-card-b">
+    <div class="card-header">
+      <div class="tag-pill tag-good">Elite</div>
+      <div class="card-title">Kinematic pre-cueing & choice pruning</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:25%; background:#10B981;">Pre-Cue −150ms</div>
+      <div class="seg" style="width:18%; background:#059669;">Quiet Eye Lock</div>
+      <div class="seg" style="width:22%; background:#047857;">Pruned Choice 90ms</div>
+      <div class="seg" style="width:10%; background:#065F46;">Pre-tension</div>
+      <div class="seg" style="width:25%; background:#022C22;">Swing 160ms</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:var(--good)">265 ms</div>
+          <div class="stat-lbl">Movement Initiated</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">400 ms</div>
+          <div class="stat-lbl">Ball Flight Time</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-good">+135 ms SURPLUS (ON TIME)</div>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5 }, 0.4);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5 }, 1.5);
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

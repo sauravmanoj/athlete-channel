@@ -1,0 +1,222 @@
+[
+  {
+    "id": "S1",
+    "title": "On the rate of gain of information",
+    "author": "Hick WE",
+    "publisher": "Quarterly Journal of Experimental Psychology 4(1):11-26",
+    "year": "1952",
+    "url": "https://doi.org/10.1080/17470215208416600",
+    "type": "trial",
+    "notes": "Foundational paper formulating Hick's Law: choice reaction time increases logarithmically as the number of stimulus-response alternatives increases [RT = a + b*log2(n)]. Human information processing occurs at approximately 5 bits per second. Demonstrates why having multiple defensive or offensive options mathematically inflates reaction latency from ~200 ms to well over 400-500 ms unless choices are pruned via anticipation."
+  },
+  {
+    "id": "S2",
+    "title": "Sprint starts and the minimum auditory reaction time",
+    "author": "Pain MTG, Hibbs AE",
+    "publisher": "Journal of Sports Sciences 25(1):79-86",
+    "year": "2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17127583/",
+    "type": "trial",
+    "notes": "Biomechanics and neurophysiology trial examining human reaction time limits. Identifies physiological chain: sensory receptor transduction (visual ~30-40 ms, auditory ~10 ms), afferent transmission to cortex (~20-40 ms), central motor program selection (~60-100 ms for simple, 150-250+ ms for choice), efferent neural conduction down spinal pathways (~15-25 ms), and electromechanical delay in skeletal muscle (~30-50 ms). Established physiological lower bound of auditory simple RT at 115-130 ms and visual simple RT at 190-220 ms. Demonstrates that World Athletics/IAAF 100 ms false-start threshold is biologically invalid and penalizes legitimate human reaction speeds."
+  },
+  {
+    "id": "S3",
+    "title": "Electromechanical delay in human skeletal muscle under concentric and eccentric contractions",
+    "author": "Cavanagh PR, Komi PV",
+    "publisher": "European Journal of Applied Physiology and Occupational Physiology 42(3):159-163",
+    "year": "1979",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/527577/",
+    "type": "trial",
+    "notes": "Landmark neurophysiology paper establishing the electromechanical delay (EMD): the unavoidable 30-50 ms temporal lag between electrical muscle membrane depolarization (EMG onset) and measurable tension development on the tendon/skeleton. EMD is caused by the time required for calcium release, cross-bridge cycling, and taking up series elastic component (muscle-tendon slack), setting an insurmountable peripheral latency on physical reaction."
+  },
+  {
+    "id": "S4",
+    "title": "Speed of processing in the human visual system",
+    "author": "Thorpe S, Fize D, Marlot C",
+    "publisher": "Nature 381(6582):520-522",
+    "year": "1996",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8632824/",
+    "type": "trial",
+    "notes": "Groundbreaking visual neuroscience experiment using event-related potentials (ERPs) demonstrating that visual scene classification and category recognition requires a hard physiological minimum of 100-150 ms in the human visual cortex before any motor command can even begin to be formulated."
+  },
+  {
+    "id": "S5",
+    "title": "Why can't batters keep their eyes on the ball?",
+    "author": "Bahill AT, LaRitz T",
+    "publisher": "American Scientist 72(3):249-253",
+    "year": "1984",
+    "url": "https://www.jstor.org/stable/27852655",
+    "type": "trial",
+    "notes": "Classic study establishing the physical limits of visual tracking in ball sports. Human smooth pursuit eye movements are capped at an angular tracking velocity of ~70 deg/s. A 90 mph baseball pitch generates angular velocities exceeding 500 deg/s as it nears home plate. Elite batters lose visual tracking when the ball is 5.5 feet (~1.7 m) from the plate (the final 30-50 ms of flight). Proves mathematically that batters cannot track ball contact and must rely on anticipatory saccades and advance trajectory prediction."
+  },
+  {
+    "id": "S6",
+    "title": "Perceptual-cognitive expertise in sport: a meta-analysis",
+    "author": "Mann DTY, Williams AM, Ward P, Janelle CM",
+    "publisher": "Journal of Sport & Exercise Psychology 29(4):457-478",
+    "year": "2007",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17968048/",
+    "type": "review",
+    "notes": "Comprehensive meta-analysis of 42 studies (388 effect sizes) evaluating differences between expert and novice athletes across sports. Experts exhibit significantly superior response accuracy (effect size d = 0.81) and faster response times (d = 0.70). Demonstrates that experts employ distinct visual search behaviors characterized by fewer fixations of longer duration and prolonged quiet eye periods, rather than faster reflex times."
+  },
+  {
+    "id": "S7",
+    "title": "Anticipation in squash: differences in advance cue utilization between expert and novice players",
+    "author": "Abernethy B",
+    "publisher": "Journal of Sports Sciences 8(1):17-34",
+    "year": "1990",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/2359149/",
+    "type": "trial",
+    "notes": "Landmark spatial and temporal occlusion experiment demonstrating that expert racquet sport players extract advance kinematic cues from proximal body segments (arm, shoulder, and trunk rotation) 100-160 ms prior to racquet-ball contact, whereas novices are incapable of extracting cues until after ball impact and initial ball flight trajectory are visible."
+  },
+  {
+    "id": "S8",
+    "title": "Can anticipatory skills be learned through implicit video-based perceptual training?",
+    "author": "Farrow D, Abernethy B",
+    "publisher": "Journal of Sports Sciences 20(6):471-485",
+    "year": "2002",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/12137177/",
+    "type": "trial",
+    "notes": "Experimental RCT in tennis demonstrating that video-based temporal occlusion training significantly improves anticipation of serve direction compared to placebo and control groups. Both explicit (rule-based) and implicit (fast-paced exposure) training improved anticipatory performance, with implicit training maintaining resilience under anxiety."
+  },
+  {
+    "id": "S9",
+    "title": "The use of anticipatory visual cues by highly skilled tennis players",
+    "author": "Shim J, Carlton LG, Chow JW, Chae WS",
+    "publisher": "Journal of Motor Behavior 37(2):164-175",
+    "year": "2005",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15730949/",
+    "type": "trial",
+    "notes": "Biomechanical and visual occlusion analysis examining the exact kinematic cues tennis players use to anticipate shot direction. Experts accurately predict ball trajectory 120 ms before racquet-ball contact by reading trunk rotation and racquet forward swing path, proving that proximal body motion dictates stroke direction."
+  },
+  {
+    "id": "S10",
+    "title": "How do world-class cricket batsmen anticipate a bowler's intention?",
+    "author": "Müller S, Abernethy B, Farrow D",
+    "publisher": "The Quarterly Journal of Experimental Psychology 59(12):2162-2186",
+    "year": "2006",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/17095494/",
+    "type": "trial",
+    "notes": "Field trial investigating cricket batsmen facing elite fast and spin bowling under temporal occlusion. World-class batsmen accurately predict delivery pitch length and line prior to ball release, utilizing advance cues from the bowler's bowling arm velocity, shoulder orientation, and release-point wrist kinematics."
+  },
+  {
+    "id": "S11",
+    "title": "Visual control when aiming at a far target",
+    "author": "Vickers JN",
+    "publisher": "Journal of Experimental Psychology: Human Perception and Performance 22(2):342-354",
+    "year": "1996",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/8934848/",
+    "type": "trial",
+    "notes": "Seminal study defining the 'Quiet Eye' (QE) phenomenon in basketball free-throw shooting. Elite shooters demonstrated significantly longer QE durations (mean 972 ms) compared to near-experts (400 ms) and novices. Quiet eye duration was directly correlated with shooting accuracy, proving that a prolonged final fixation on the target prior to movement execution is essential for motor program parameterization."
+  },
+  {
+    "id": "S12",
+    "title": "Quiet Eye and Performance in Sport: A Meta-Analysis",
+    "author": "Lebeau JC, Liu S, Sáenz-Moncaleano C, Sanduvete-Chaves S, Chacón-Moscoso S, Becker BJ, Tenenbaum G",
+    "publisher": "Journal of Sport & Exercise Psychology 38(5):441-457",
+    "year": "2016",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27633956/",
+    "type": "review",
+    "notes": "Definitive meta-analysis on the Quiet Eye across 27 observational studies and 9 intervention studies. Confirmed a large effect size (d = 1.04) for expert vs novice QE duration, a moderate effect (d = 0.58) for successful vs unsuccessful attempts, and very large effect sizes for QE training interventions on QE duration (d = 1.53) and motor performance execution (d = 0.84)."
+  },
+  {
+    "id": "S13",
+    "title": "On the interaction of attentional focus and gaze: the quiet eye inhibits focus-related performance decrements",
+    "author": "Klostermann A, Kredel R, Hossner EJ",
+    "publisher": "Journal of Sport & Exercise Psychology 36(4):392-400",
+    "year": "2014",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/25226608/",
+    "type": "trial",
+    "notes": "Formulates and tests the 'Inhibition Hypothesis' of the Quiet Eye. Proves that the primary functional mechanism of prolonged quiet eye fixation is to shield motor programming from cortical noise and actively inhibit competing, inappropriate motor response alternatives right before execution."
+  },
+  {
+    "id": "S14",
+    "title": "Quiet-eye training for soccer penalty kicks",
+    "author": "Wood G, Wilson MR",
+    "publisher": "Cognitive Processing 12(3):257-266",
+    "year": "2011",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/21318734/",
+    "type": "trial",
+    "notes": "Experimental trial evaluating Quiet Eye training in soccer penalty kicks under high-anxiety shootout conditions. Goalkeepers trained in QE maintained longer fixations on the kicker's non-kicking support foot and hip, resisted deceptive cues, initiated diving movements later but with higher directional accuracy, and stopped significantly more penalty shots (from 22% to 41% save rate)."
+  },
+  {
+    "id": "S15",
+    "title": "What do we see out of the corner of our eye? The role of visual pivots and gaze anchors in sport",
+    "author": "Vater C, Williams AM, Hossner EJ",
+    "publisher": "International Review of Sport and Exercise Psychology 13(1):81-103",
+    "year": "2020",
+    "url": "https://doi.org/10.1080/1750984X.2019.1582082",
+    "type": "review",
+    "notes": "Comprehensive theoretical and empirical review on gaze anchoring and visual pivots in sport. Demonstrates that elite athletes fixate a central anatomical anchor (e.g., opponent's sternum or core) to optimize peripheral covert visual processing across multiple distal limbs simultaneously, avoiding the catastrophic costs of saccadic suppression and cognitive overhead."
+  },
+  {
+    "id": "S16",
+    "title": "Changes in visual perception at the time of saccades",
+    "author": "Ross J, Morrone MC, Goldberg ME, Burr DC",
+    "publisher": "Trends in Neurosciences 24(2):113-121",
+    "year": "2001",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11164942/",
+    "type": "review",
+    "notes": "Neurophysiological review of saccadic suppression and peri-saccadic mislocalization. During rapid saccadic eye movements (lasting 20-50 ms), neural visual sensitivity is drastically suppressed across magnocellular pathways to prevent blur. An athlete who makes 3-4 exploratory saccades per second is functionally blind for up to 150-200 ms during fast dynamic exchanges."
+  },
+  {
+    "id": "S17",
+    "title": "Anxiety, Expertise, and Visual Search Strategy in Karate",
+    "author": "Williams AM, Elliott D",
+    "publisher": "Journal of Sport & Exercise Psychology 21(4):362-375",
+    "year": "1999",
+    "url": "https://doi.org/10.1123/jsep.21.4.362",
+    "type": "trial",
+    "notes": "Investigated visual search behaviors in combat athletes under anxiety. Expert karatekas utilized a visual pivot on the opponent's chest and head, distributing peripheral vision to detect incoming punch and kick attacks. Novices repeatedly saccaded between attacking limbs, suffered attentional narrowing under anxiety, and were routinely tagged during saccadic blind spots."
+  },
+  {
+    "id": "S18",
+    "title": "Visual search, anticipation and expertise in soccer goalkeepers",
+    "author": "Savelsbergh GJP, Williams AM, van der Kamp J, Ward P",
+    "publisher": "Journal of Sports Sciences 20(3):279-287",
+    "year": "2002",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11999482/",
+    "type": "trial",
+    "notes": "Eye-tracking trial on expert vs novice soccer goalkeepers during penalty kicks. Expert goalkeepers spent significantly more time fixating the non-kicking support leg, the hips, and the kicking leg, spent less time fixating the ball and head, made fewer exploratory saccades, and exhibited significantly higher prediction accuracy of kick direction (72% vs 46%)."
+  },
+  {
+    "id": "S19",
+    "title": "Light-Based Reaction Speed Does Not Predict Field-Based Reactive Agility in Soccer Players",
+    "author": "Broodryk A, Skala F, Broodryk R",
+    "publisher": "Journal of Functional Morphology and Kinesiology 10(3):239",
+    "year": "2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/40700175/",
+    "type": "trial",
+    "notes": "Empirical study testing commercial light-pod reaction systems (e.g., BlazePod/Fitlight) against sport-specific reactive agility in field athletes. Light-pod reaction tests demonstrated near-zero statistical correlation with sport-specific reactive agility times. Shows that responding to an LED flash lacks ecological validity, human kinematics, and perception-action coupling required for sports performance."
+  },
+  {
+    "id": "S20",
+    "title": "Modified perceptual training in sport: A new classification framework",
+    "author": "Hadlow SM, Panchuk D, Mann DL, Portus MR, Abernethy B",
+    "publisher": "Journal of Sports Sciences 36(18):2158-2166",
+    "year": "2018",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/29433921/",
+    "type": "review",
+    "notes": "Systematic review and classification framework for perceptual-cognitive training in sport. Concludes that generic perceptual training (e.g., strobe glasses, light boards) exhibits very poor transfer to field execution, whereas targeted sport-specific simulation preserving kinematic fidelity, contextual affordances, and tight perception-action coupling produces robust transfer."
+  },
+  {
+    "id": "S21",
+    "title": "The effect of emotion on cue utilization and the organization of behavior",
+    "author": "Easterbrook JA",
+    "publisher": "Psychological Review 66(3):183-201",
+    "year": "1959",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/13658305/",
+    "type": "review",
+    "notes": "Foundational psychological paper formulating the Cue Utilization Hypothesis. Rising emotional arousal and sympathetic stress progressively reduce the range of cue utilization (attentional narrowing/tunnel vision). At moderate arousal, irrelevant cues are pruned; at excessive arousal, essential peripheral kinematic cues are eliminated, causing cognitive paralysis and wrong-footing."
+  },
+  {
+    "id": "S22",
+    "title": "Brief structured respiration practices enhance mood and reduce physiological arousal",
+    "author": "Balban MY, Neri E, Kogon MM, Weed L, Spiegel D, Huberman AD",
+    "publisher": "Cell Reports Medicine 4(1):100895",
+    "year": "2023",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/36630873/",
+    "type": "trial",
+    "notes": "Randomized controlled trial evaluating structured breathwork protocols. Demonstrated that cyclic physiological sighing (two rapid nasal inhalations followed by one prolonged exhalation) rapidly down-regulates autonomic arousal, decreases respiratory rate and heart rate, and shifts the nervous system out of sympathetic overdrive, restoring broader perceptual and attentional capacity."
+  }
+]

@@ -119,7 +119,7 @@ const storyboard = {
       highlight: "800x",
       icon: "water",
       mascot: { pose: "point_up" },
-      at: "@800",
+      at: "@eight",
       narration: "Water is 800 times denser than air."
     },
     {
@@ -310,7 +310,8 @@ const storyboard = {
       transition: "cut",
       position: "left",
       poses: [
-        { pose: "ready", at: 0 }
+        { pose: "ready", at: 0 },
+        { pose: "crouch", at: "@looking" }
       ],
       callouts: [
         { label: "Biceps behind ears", target: "head", at: "@ears", side: "left", dy: -20 },
@@ -381,7 +382,7 @@ const storyboard = {
       ],
       callouts: [
         { label: "High elbow", target: "rElbow", at: "@elbow", side: "right" },
-        { label: "90° forearm hinge", target: "rForearm", at: "@90", side: "right", dy: 20 }
+        { label: "90° forearm hinge", target: "rForearm", at: "@ninety", side: "right", dy: 20 }
       ],
       headline: { text: "High elbow catch", highlight: "catch", at: "@Keep", side: "right" },
       narration: "Keep your elbow high near the surface while hinging your forearm down at a 90 to 110-degree angle."
@@ -475,7 +476,7 @@ const storyboard = {
       highlight: "16000",
       icon: "stopwatch",
       mascot: { pose: "point_up" },
-      at: "@16000",
+      at: "@sixteen",
       narration: "Swimmers perform 16,000 arm rotations weekly—over 1.5 million strokes per year."
     },
     {
@@ -552,7 +553,7 @@ const storyboard = {
         { pose: "ready", at: 0 }
       ],
       callouts: [
-        { label: "Buoyancy center (lungs)", target: "chest", at: "@lungs", side: "right" },
+        { label: "Buoyancy center (lungs)", target: "chest", at: "@lungs", side: "left" },
         { label: "Mass center (pelvis)", target: "hips", at: "@hips", side: "right" }
       ],
       headline: { text: "Center of buoyancy", highlight: "buoyancy", at: "@buoyancy", side: "right" },
@@ -622,7 +623,7 @@ const storyboard = {
         { pose: "ready", at: 0 }
       ],
       callouts: [
-        { label: "Posterior tilt", target: "hips", at: "@posterior", side: "right" }
+        { label: "Posterior tilt", target: "hips", at: "@pelvis", side: "right" }
       ],
       headline: { text: "Posterior pelvic tilt", highlight: "tilt", at: "@posterior", side: "right" },
       narration: "Contracting your transversus abdominis and obliques pulls your pelvis into a posterior pelvic tilt."
@@ -672,7 +673,8 @@ const storyboard = {
       transition: "cut",
       position: "center",
       poses: [
-        { pose: "plank", at: 0 }
+        { pose: "lie", at: 0 },
+        { pose: "plank", at: "@hold" }
       ],
       headline: { text: "Hollow body hold", highlight: "Hollow", at: "@hollow", side: "right" },
       narration: "Build this chassis with the gymnastic hollow body hold: lie flat, press your lower back down, and hold for 3 to 4 sets of 30 to 45 seconds."
@@ -838,7 +840,7 @@ const storyboard = {
         { pose: "flinch", at: 0 }
       ],
       callouts: [
-        { label: "Supraspinatus pinch", target: "rShoulder", at: "@pinching", side: "right" }
+        { label: "Supraspinatus pinch", target: "rShoulder", at: "@pinching", side: "left" }
       ],
       headline: { text: "Tendon impingement", highlight: "impingement", at: "@pinching", side: "right" },
       narration: "Overpowered internal rotators pull the humeral head forward, pinching the supraspinatus tendon on every recovery."
@@ -853,7 +855,7 @@ const storyboard = {
         { pose: "ready", at: 0 }
       ],
       callouts: [
-        { label: "Serratus anterior", target: "chest", at: "@serratus", side: "right", dy: 30 }
+        { label: "Serratus anterior", target: "chest", at: "@serratus", side: "left", dy: 30 }
       ],
       headline: { text: "Serratus fatigue", highlight: "Serratus", at: "@serratus", side: "right" },
       narration: "Furthermore, the serratus anterior fatigues during long swims, stopping your shoulder blade from upwardly rotating."
@@ -867,8 +869,8 @@ const storyboard = {
       mascot: { pose: "arms_crossed" },
       items: [
         { text: "1. External rotations (1-2kg)", icon: "target", at: "@external" },
-        { text: "2. Prone Y-T-W raises", icon: "check", at: "@Y-T-W" },
-        { text: "3. Serratus wall slides", icon: "bolt", at: "@serratus" }
+        { text: "2. Prone Y-T-W raises", icon: "check", at: "@ytw" },
+        { text: "3. Serratus wall slides", icon: "bolt", at: "@seratus" }
       ],
       narration: "Bulletproof your shoulders with three drills: side-lying external rotations with a light 1 to 2-kilogram dumbbell or band for 3 sets of 12 to 15 reps, prone Y-T-W raises on an incline bench for 3 sets of 8 reps, and serratus wall slides with a mini-band."
     },
@@ -921,7 +923,7 @@ const storyboard = {
       highlight: "24x",
       icon: "water",
       mascot: { pose: "point_up" },
-      at: "@24",
+      at: "@twenty",
       narration: "Water conducts heat away from your body 24 times faster than air."
     },
     {
@@ -933,7 +935,7 @@ const storyboard = {
       poses: [
         { pose: "tired_front", at: 0 }
       ],
-      headline: { text: "11° colder than core", highlight: "11°", at: "@11", side: "right" },
+      headline: { text: "11° colder than core", highlight: "11°", at: "@eleven", side: "right" },
       narration: "Even in heated 26-degree pools, water is 7 degrees colder than skin and 11 degrees colder than your core."
     },
     {
@@ -971,7 +973,7 @@ const storyboard = {
       highlight: "44%",
       icon: "fire",
       mascot: { pose: "tired_front" },
-      at: "@44",
+      at: "@forty",
       narration: "Exercising in cool water drives a 44 percent spike in spontaneous calorie intake compared to neutral conditions—877 calories consumed versus 608 calories."
     },
     {
@@ -1141,9 +1143,9 @@ const storyboard = {
       position: "left",
       poses: [
         { pose: "ready", at: 0 },
-        { pose: "flex", at: "@vanity" }
+        { pose: "flex", at: "@swimmer's" }
       ],
-      headline: { text: "Built for function", highlight: "function", at: "@vanity", side: "right" },
+      headline: { text: "Built for function", highlight: "function", at: "@swimmer's", side: "right" },
       narration: "The iconic swimmer's V-taper is not built by vanity."
     },
     {
@@ -1176,7 +1178,7 @@ const storyboard = {
       kind: "mascot",
       background: "spotlight",
       transition: "fade",
-      position: "center",
+      position: "left",
       poses: [
         { pose: "ready", at: 0 },
         { pose: "celebrate", at: "@glide" }

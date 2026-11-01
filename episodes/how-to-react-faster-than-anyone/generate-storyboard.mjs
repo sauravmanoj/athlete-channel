@@ -1,0 +1,1199 @@
+import fs from "node:fs";
+
+const storyboard = {
+  title: "How to react faster than anyone",
+  thumbnail: {
+    pose: "ready",
+    face: "determined",
+    background: "court",
+    headline: "React Instantly",
+    highlight: "Instantly",
+    icons: [
+      {
+        icon: "bolt",
+        size: 1.3
+      }
+    ],
+    opponent: {
+      pose: "tired_front"
+    },
+    side: "right"
+  },
+  youtube: {
+    title: "How to react faster than anyone (the visual neuroscience)",
+    titleOptions: [
+      "Why elite athletes react faster than human reflexes allow",
+      "How to react faster in any sport: the Quiet Eye & anticipation"
+    ],
+    description: "Discover how elite athletes react to 130 mph serves and 95 mph fastballs when waiting for the ball is mathematically impossible. We break down the 5 pillars of elite reaction: the biological hard limit of human reflexes, kinematic cue extraction, Vickers' Quiet Eye gaze stability, visual pivot architecture against saccadic blindness, and the myth of flashing reaction lights.",
+    tags: [
+      "how to react faster",
+      "reaction time training",
+      "quiet eye in sports",
+      "sports anticipation",
+      "perceptual cognitive training",
+      "faster reflexes sports",
+      "react faster tennis",
+      "react faster soccer",
+      "react faster basketball",
+      "reaction time myths",
+      "saccadic suppression sports",
+      "visual reaction time"
+    ]
+  },
+  scenes: [
+    // --- HOOK ---
+    {
+      id: "s01",
+      kind: "mascot",
+      chapter: "Intro",
+      background: "court",
+      transition: "fade",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      props: { r: "racket" },
+      headline: { text: "130 MPH Serve", highlight: "130", at: "@130", side: "right" },
+      narration: "Imagine a 130-mile-per-hour tennis serve or a 95-mile-per-hour fastball exploding toward you."
+    },
+    {
+      id: "s02",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "flinch", at: 0 },
+        { pose: "tired_front", at: "@beaten" }
+      ],
+      headline: { text: "Don't just wait", highlight: "wait", at: "@wait", side: "right" },
+      narration: "Amateurs wait for the ball and get beaten every time."
+    },
+    {
+      id: "s03",
+      kind: "versus",
+      background: "plain",
+      transition: "cut",
+      left: {
+        label: "Amateur",
+        pose: "stand",
+        gauge: { label: "Reflex RT", icon: "bolt", from: 210, to: 210, at: 0 }
+      },
+      right: {
+        label: "Elite Athlete",
+        pose: "ready",
+        gauge: { label: "Reflex RT", icon: "bolt", from: 210, to: 210, at: "@identical" }
+      },
+      vs: "EQUAL",
+      narration: "Elite athletes do not have superhuman visual reflexes; in lab tests, their raw reaction speed is identical to yours."
+    },
+    {
+      id: "s04",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Perceptual anticipation",
+      highlight: "anticipation",
+      style: "brand",
+      icon: "brain",
+      sub: "Decoding movement before it happens",
+      narration: "Instead, they master perceptual anticipation: decoding movement before it happens."
+    },
+    {
+      id: "s05",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "point_up", at: 0 },
+        { pose: "flex", at: "@faster" }
+      ],
+      headline: { text: "Hundreds of ms faster", highlight: "faster", at: "@faster", side: "right" },
+      narration: "Today: the visual neuroscience and drills elite athletes use to react hundreds of milliseconds faster."
+    },
+
+    // --- THE 5 PILLARS ---
+    {
+      id: "s06",
+      kind: "title",
+      chapter: "The 5 pillars",
+      number: 1,
+      heading: "The 5 pillars",
+      sub: "Visual neuroscience & anticipatory software",
+      mascot: { pose: "present" },
+      transition: "push",
+      narration: "To react faster than anyone, you have to upgrade your visual software across 5 pillars."
+    },
+    {
+      id: "s07",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "1. Biological hard limit",
+      highlight: "limit",
+      style: "dark",
+      icon: "clock",
+      sub: "Why waiting is impossible",
+      narration: "Pillar 1: the biological hard limit, why waiting for the ball is mathematically impossible."
+    },
+    {
+      id: "s08",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      headline: { text: "2. Anticipation engine", highlight: "Anticipation", at: "@anticipation", side: "right" },
+      narration: "Pillar 2: the anticipation engine, decoding advance body language before release."
+    },
+    {
+      id: "s09",
+      kind: "slam",
+      background: "brand",
+      transition: "cut",
+      text: "3. The Quiet Eye",
+      highlight: "Quiet Eye",
+      style: "brand",
+      icon: "target",
+      sub: "Steady gaze locks motor cortex",
+      narration: "Pillar 3: the Quiet Eye, locking a steady gaze anchor to program your motor cortex."
+    },
+    {
+      id: "s10",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "think", at: 0 }
+      ],
+      headline: { text: "4. Visual search", highlight: "Visual", at: "@visual", side: "right" },
+      narration: "Pillar 4: visual search architecture, using central gaze pivots to eliminate saccadic blindness."
+    },
+    {
+      id: "s11",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "5. Reactive protocol",
+      highlight: "protocol",
+      style: "dark",
+      icon: "bolt",
+      sub: "Perception-action drills",
+      narration: "And Pillar 5: the reactive training protocol, replacing useless flashing light pods with real perception-action drills."
+    },
+
+    // --- PILLAR 1: THE BIOLOGICAL HARD LIMIT ---
+    {
+      id: "s12",
+      kind: "title",
+      chapter: "Pillar 1: The biological hard limit",
+      number: 2,
+      heading: "Pillar 1: Hard limit",
+      sub: "The biological floor of human reaction",
+      mascot: { pose: "think" },
+      transition: "push",
+      narration: "Every athletic movement requires a biological relay through your nervous system."
+    },
+    {
+      id: "s13",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "point_up", at: "@visual" }
+      ],
+      callouts: [
+        { label: "Retina: 30-40ms", target: "eyes", at: "@retina", side: "left" },
+        { label: "Cortex: 100-150ms", target: "head", at: "@cortex", side: "left", dy: 50 }
+      ],
+      headline: { text: "Sensory latency", highlight: "latency", at: "@retina", side: "right" },
+      narration: "Light hitting your retina takes 30 to 40 milliseconds, and your visual cortex takes 100 to 150 milliseconds to identify an object."
+    },
+    {
+      id: "s14",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      callouts: [
+        { label: "Hick's Law: 150-250ms", target: "head", at: "@decision", side: "left" },
+        { label: "Muscle slack: 30-50ms", target: "rThigh", at: "@muscles", side: "right" }
+      ],
+      headline: { text: "Decision & motor delay", highlight: "Decision", at: "@decision", side: "right" },
+      narration: "Hick's Law adds 150 to 250 milliseconds of decision time, and electromechanical delay adds 30 to 50 milliseconds before muscles fire."
+    },
+    {
+      id: "s15",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 250,
+      suffix: " ms",
+      label: "simple visual reaction floor (choice reaction: 350 to 500 ms)",
+      highlight: "250 ms",
+      icon: "stopwatch",
+      mascot: { pose: "point_up" },
+      at: "@simple",
+      narration: "This creates an immutable floor: simple visual reaction takes 190 to 250 milliseconds, while choice reaction takes 350 to 500 milliseconds."
+    },
+    {
+      id: "s16",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 400,
+      suffix: " ms",
+      label: "flight time of a 95 mph pitch to home plate",
+      highlight: "400 ms",
+      icon: "clock",
+      mascot: { pose: "ready", props: { r: "baseball" } },
+      at: "@pitch",
+      narration: "A 95-mile-per-hour pitch reaches home plate in about 400 milliseconds."
+    },
+    {
+      id: "s17",
+      kind: "custom",
+      file: "custom/timeline.html",
+      transition: "cut",
+      narration: "A bat swing takes 150 to 180 milliseconds, meaning the batter must commit by 220 milliseconds of ball flight."
+    },
+    {
+      id: "s18",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 500,
+      suffix: "°/s",
+      label: "angular speed of the ball crossing the plate (tracking cap: 70°/s)",
+      highlight: "500°/s",
+      icon: "target",
+      mascot: { pose: "tired_front" },
+      at: "@500",
+      narration: "Near the plate, the ball moves across your field of view at over 500 degrees per second, but human eyes only track up to 70 degrees per second."
+    },
+    {
+      id: "s19",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "flinch", at: 0 },
+        { pose: "tired_front", at: "@late" }
+      ],
+      headline: { text: "Lost 5.5 feet before plate", highlight: "5.5 feet", at: "@feet", side: "right" },
+      narration: "Batters lose sight of the ball 5.5 feet before contact; waiting for flight guarantees you are late."
+    },
+    {
+      id: "s20",
+      kind: "versus",
+      background: "plain",
+      transition: "cut",
+      left: {
+        label: "Penalty Flight",
+        pose: "ready",
+        gauge: { label: "Flight Time", icon: "clock", from: 350, to: 350, at: 0 }
+      },
+      right: {
+        label: "Keeper Dive",
+        pose: "land",
+        gauge: { label: "Dive Time", icon: "cross", from: 750, to: 750, at: "@goalkeeper" }
+      },
+      vs: "DEFICIT",
+      narration: "In soccer, a penalty reaches the net in 350 milliseconds, but a goalkeeper takes 600 to 800 milliseconds to dive."
+    },
+    {
+      id: "s21",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "facepalm", at: 0 }
+      ],
+      headline: { text: "Diving into empty air", highlight: "empty air", at: "@empty", side: "right" },
+      narration: "Waiting for the strike means diving into empty air."
+    },
+    {
+      id: "s22",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Hick's Law Choice-Pruning",
+      highlight: "Choice-Pruning",
+      style: "brand",
+      icon: "bolt",
+      sub: "Cutting response options",
+      narration: "The fix? Hick's Law choice-pruning."
+    },
+    {
+      id: "s23",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "point_up", at: "@slashes" }
+      ],
+      headline: { text: "Prune 4 choices to 2", highlight: "choices", at: "@choices", side: "right" },
+      narration: "Position your body before the play to take away two options; cutting choices from 4 to 2 slashes 100 to 150 milliseconds off your reaction delay."
+    },
+    {
+      id: "s24",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "jump", at: "@split-step" }
+      ],
+      headline: { text: "Pre-tension split-step", highlight: "Pre-tension", at: "@pre-tensioning", side: "right" },
+      narration: "And eliminate muscle slack by pre-tensioning with an active split-step right before contact."
+    },
+    {
+      id: "s25",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "facepalm", at: 0 },
+        { pose: "flinch", at: "@fake" }
+      ],
+      headline: { text: "Never guess 50/50", highlight: "Never", at: "@Guessing", side: "right" },
+      narration: "The mistake? Guessing 50-50 before any mechanical cue appears, leaving you frozen when they fake."
+    },
+
+    // --- PILLAR 2: THE ANTICIPATION ENGINE ---
+    {
+      id: "s26",
+      kind: "title",
+      chapter: "Pillar 2: The anticipation engine",
+      number: 3,
+      heading: "Pillar 2: Anticipation",
+      sub: "Decoding advance kinematic cues",
+      mascot: { pose: "point_up" },
+      transition: "push",
+      narration: "If elites cannot react to ball flight, how do they return 130-mile-per-hour serves?"
+    },
+    {
+      id: "s27",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      callouts: [
+        { label: "100-200ms pre-cue", target: "eyes", at: "@extract", side: "left" }
+      ],
+      headline: { text: "Advance kinematic cues", highlight: "kinematic", at: "@kinematic", side: "right" },
+      narration: "They extract advance kinematic cues from the opponent's body 100 to 200 milliseconds before release."
+    },
+    {
+      id: "s28",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "swing_back", at: 0 }
+      ],
+      callouts: [
+        { label: "Hips & pelvis initiate", target: "hips", at: "@hips", side: "left" },
+        { label: "Torso rotation: -150ms", target: "chest", at: "@torso", side: "left", dy: 40 }
+      ],
+      headline: { text: "Proximal kinetic chain", highlight: "Proximal", at: "@proximal", side: "right" },
+      narration: "Power originates in the proximal hips and torso, which must commit to their rotational path 150 milliseconds before contact."
+    },
+    {
+      id: "s29",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "swing_through", at: 0 }
+      ],
+      headline: { text: "Angle dictates flight", highlight: "Angle", at: "@angle", side: "right" },
+      narration: "Their angle and tilt mechanically dictate where the racket, bat, or ball must travel."
+    },
+    {
+      id: "s30",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "facepalm", at: 0 },
+        { pose: "shrug", at: "@late" }
+      ],
+      headline: { text: "Don't ball-watch", highlight: "Don't", at: "@ball-watch", side: "right" },
+      narration: "Novices ball-watch, tracking the racket head or striking foot when it is already too late."
+    },
+    {
+      id: "s31",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      callouts: [
+        { label: "Soccer: plant foot", target: "lFoot", at: "@soccer", side: "left" },
+        { label: "Tennis: shoulder tilt", target: "rShoulder", at: "@tennis", side: "left", dy: -30 }
+      ],
+      headline: { text: "Read the kinematic hubs", highlight: "hubs", at: "@plant", side: "right" },
+      narration: "Experts read the non-kicking plant foot in soccer, the shoulder tilt in tennis, and the front-foot plant in cricket."
+    },
+    {
+      id: "s32",
+      kind: "versus",
+      background: "plain",
+      transition: "cut",
+      left: {
+        label: "Elites (Occlusion)",
+        pose: "ready",
+        gauge: { label: "Prediction Accuracy", icon: "check", from: 75, to: 75, at: 0 }
+      },
+      right: {
+        label: "Novices (Guessing)",
+        pose: "shrug",
+        gauge: { label: "Prediction Accuracy", icon: "cross", from: 50, to: 50, at: "@novices" }
+      },
+      vs: "VS",
+      narration: "In occlusion tests, when video cuts to black at ball contact, elites predict shot direction with over 75 percent accuracy, while novices guess at 50 percent chance."
+    },
+    {
+      id: "s33",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 80,
+      suffix: "%",
+      label: "accuracy reading penalty direction from kicker's plant foot angle",
+      highlight: "80%",
+      icon: "target",
+      mascot: { pose: "point_up" },
+      at: "@penalty",
+      narration: "If a penalty kicker's plant foot points toward the right corner, biomechanics dictate an inside-foot shot to that side over 80 percent of the time."
+    },
+    {
+      id: "s34",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Progressive video occlusion",
+      highlight: "occlusion",
+      style: "dark",
+      icon: "brain",
+      sub: "Cutting video 80ms before contact",
+      narration: "Train this with progressive video occlusion: watch sports clips and pause the video at ball contact, then 80 milliseconds before contact."
+    },
+    {
+      id: "s35",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "swing_through", at: "@shadow" }
+      ],
+      props: { r: "racket" },
+      headline: { text: "Active shadow swing", highlight: "shadow", at: "@shadow", side: "right" },
+      narration: "Execute an active split-step and shadow swing in response, doing 25 to 30 clips per session, 2 to 3 days a week."
+    },
+    {
+      id: "s36",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "point_up", at: "@hips" }
+      ],
+      headline: { text: "Partner freeze drill", highlight: "freeze", at: "@freeze", side: "right" },
+      narration: "Pair that with live partner freeze drills: call out the shot direction the split-second your partner's hips rotate."
+    },
+    {
+      id: "s37",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "facepalm", at: 0 }
+      ],
+      headline: { text: "Scan hips, not bounce", highlight: "hips", at: "@scanning", side: "right" },
+      narration: "The mistake? Watching the ball bounce in the server's hand instead of scanning their hip and shoulder axis."
+    },
+
+    // --- PILLAR 3: THE QUIET EYE ---
+    {
+      id: "s38",
+      kind: "title",
+      chapter: "Pillar 3: The Quiet Eye",
+      number: 4,
+      heading: "Pillar 3: The Quiet Eye",
+      sub: "Vickers' visuomotor anchor",
+      mascot: { pose: "think" },
+      transition: "push",
+      narration: "Discovered by Dr. Joan Vickers, the Quiet Eye is the final steady fixation on a specific target within 3 degrees of visual angle for at least 100 milliseconds before movement."
+    },
+    {
+      id: "s39",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 500,
+      suffix: " ms",
+      label: "Quiet Eye duration in elite athletes (vs 100 to 150 ms in amateurs)",
+      highlight: "500 ms",
+      icon: "stopwatch",
+      mascot: { pose: "point_up" },
+      at: "@500",
+      narration: "Across 27 sports studies, elite athletes hold their Quiet Eye for 300 to 500 milliseconds, compared to just 100 to 150 milliseconds in amateurs."
+    },
+    {
+      id: "s40",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 1.04,
+      suffix: " d",
+      label: "meta-analytic effect size for elite Quiet Eye gaze duration",
+      highlight: "1.04",
+      icon: "trophy",
+      mascot: { pose: "celebrate" },
+      at: "@1.04",
+      narration: "That visual difference is massive, with a 1.04 effect size—and Quiet Eye training boosts performance with a 0.84 effect size."
+    },
+    {
+      id: "s41",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "think", at: 0 }
+      ],
+      callouts: [
+        { label: "Dorsal stream pathway", target: "head", at: "@dorsal", side: "left" }
+      ],
+      headline: { text: "Dorsal stream", highlight: "Dorsal", at: "@dorsal", side: "right" },
+      narration: "Your dorsal visual stream links visual cortex to motor cortex to compute trajectory, joint angles, and muscle force."
+    },
+    {
+      id: "s42",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "flinch", at: 0 }
+      ],
+      headline: { text: "Corrupted motor codes", highlight: "Corrupted", at: "@corrupted", side: "right" },
+      narration: "If your eyes dart around right before a strike, your motor cortex receives corrupted spatial coordinates."
+    },
+    {
+      id: "s43",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "Neural gating suppresses noise",
+      highlight: "suppresses",
+      style: "brand",
+      icon: "bolt",
+      sub: "Inhibiting competing motor errors",
+      narration: "A prolonged Quiet Eye acts as a neural gate, suppressing cortical noise and inhibiting competing motor errors."
+    },
+    {
+      id: "s44",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "tired_front", at: 0 }
+      ],
+      headline: { text: "Anxiety cuts QE by 50%", highlight: "50%", at: "@50", side: "right" },
+      narration: "Under pressure, untrained visual fixations scatter and Quiet Eye duration drops by 30 to 50 percent, causing athletes to choke."
+    },
+    {
+      id: "s45",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "shoot", at: "@shooting" }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "1 second lock on rim", highlight: "lock", at: "@lock", side: "right" },
+      narration: "In basketball, elite shooters lock onto the back of the rim for nearly a full second before shooting, while amateurs flick between the ball and rim."
+    },
+    {
+      id: "s46",
+      kind: "versus",
+      background: "plain",
+      transition: "cut",
+      left: {
+        label: "Untrained Keepers",
+        pose: "flinch",
+        gauge: { label: "Penalty Save %", icon: "cross", from: 22, to: 22, at: 0 }
+      },
+      right: {
+        label: "Quiet Eye Trained",
+        pose: "block",
+        gauge: { label: "Penalty Save %", icon: "check", from: 41, to: 41, at: "@increasing" }
+      },
+      vs: "VS",
+      narration: "In soccer penalties, goalkeepers trained in Quiet Eye lock onto the kicker's plant foot, increasing save rates from 22 to 41 percent."
+    },
+    {
+      id: "s47",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "3-step Quiet Eye routine",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "1. Target identification", icon: "target", at: "@identify" },
+        { text: "2. Gaze lock (400-600ms)", icon: "clock", at: "@lock" },
+        { text: "3. Unbroken execution", icon: "bolt", at: "@execute" }
+      ],
+      narration: "Use the 3-step Quiet Eye routine: identify the single high-priority target, lock your gaze steadily for 400 to 600 milliseconds, and execute without breaking fixation."
+    },
+    {
+      id: "s48",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      headline: { text: "30-40 reps closed skill", highlight: "reps", at: "@reps", side: "right" },
+      narration: "Practice 30 to 40 reps per session on free throws or service returns."
+    },
+    {
+      id: "s49",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "facepalm", at: 0 }
+      ],
+      headline: { text: "Avoid early eye exit", highlight: "early", at: "@Early", side: "right" },
+      narration: "The mistake? Early eye exit: darting your eyes away 50 milliseconds before contact to see where the ball went, corrupting the final strike."
+    },
+
+    // --- PILLAR 4: VISUAL SEARCH ARCHITECTURE ---
+    {
+      id: "s50",
+      kind: "title",
+      chapter: "Pillar 4: Visual search architecture",
+      number: 5,
+      heading: "Pillar 4: Visual search",
+      sub: "Gaze anchors & eliminating saccadic suppression",
+      mascot: { pose: "think" },
+      transition: "push",
+      narration: "To see fast, you must also understand how your eyes move."
+    },
+    {
+      id: "s51",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 2,
+      suffix: "°",
+      label: "central foveal high-definition field (periphery tracks motion)",
+      highlight: "2°",
+      icon: "target",
+      mascot: { pose: "point_up" },
+      at: "@fovea",
+      narration: "Only the central 2 degrees of your retina—the fovea—sees in high definition; peripheral vision has lower resolution but is extremely sensitive to motion."
+    },
+    {
+      id: "s52",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      headline: { text: "Saccades: rapid eye jumps", highlight: "Saccades", at: "@saccade", side: "right" },
+      narration: "When you jump your eyes between targets, that rapid saccade takes 20 to 50 milliseconds."
+    },
+    {
+      id: "s53",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "Saccadic blackout",
+      highlight: "blackout",
+      style: "dark",
+      icon: "brain",
+      sub: "Temporary visual suppression",
+      subAt: 0.8,
+      narration: "During every saccade, your nervous system temporarily shuts off visual processing—a phenomenon called saccadic suppression."
+    },
+    {
+      id: "s54",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 200,
+      suffix: " ms/s",
+      label: "functional visual blackout per second during frantic scanning",
+      highlight: "200 ms/s",
+      icon: "clock",
+      mascot: { pose: "tired_front" },
+      at: "@200",
+      narration: "Darting your eyes 3 to 4 times a second leaves you functionally blind for 150 to 200 milliseconds of that second."
+    },
+    {
+      id: "s55",
+      kind: "slam",
+      background: "brand",
+      transition: "zoom",
+      text: "The Visual Pivot",
+      highlight: "Pivot",
+      style: "brand",
+      icon: "bolt",
+      sub: "Central gaze anchor",
+      narration: "Elite athletes avoid this trap using a visual pivot, or gaze anchor."
+    },
+    {
+      id: "s56",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      callouts: [
+        { label: "Fovea on sternum", target: "chest", at: "@sternum", side: "left" },
+        { label: "Peripheral awareness", target: "rHand", at: "@peripheral", side: "right" }
+      ],
+      headline: { text: "Anchor on sternum", highlight: "sternum", at: "@sternum", side: "right" },
+      narration: "They lock their fovea on the opponent's sternum or core, distributing attention outward into their peripheral field."
+    },
+    {
+      id: "s57",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      headline: { text: "No saccadic blindness", highlight: "blindness", at: "@eliminates", side: "right" },
+      narration: "This eliminates saccadic blindness while allowing peripheral vision to monitor hands, feet, and ball motion symmetrically."
+    },
+    {
+      id: "s58",
+      kind: "versus",
+      background: "plain",
+      transition: "cut",
+      left: {
+        label: "Elite (Sternum Focus)",
+        pose: "ready",
+        gauge: { label: "Peripheral Vision", icon: "check", from: 95, to: 95, at: 0 }
+      },
+      right: {
+        label: "Amateur (Glove Tracker)",
+        pose: "flinch",
+        gauge: { label: "Peripheral Vision", icon: "cross", from: 20, to: 20, at: "@amateurs" }
+      },
+      vs: "VS",
+      narration: "In combat sports, elite fighters look at the opponent's chest and detect strikes peripherally; amateurs track the gloves and get caught during saccadic blind spots."
+    },
+    {
+      id: "s59",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "dribble", at: 0 }
+      ],
+      props: { r: "basketball" },
+      headline: { text: "Watch the waistband", highlight: "waistband", at: "@waistband", side: "right" },
+      narration: "In basketball, staring at the waistband prevents biting on head fakes or crossovers."
+    },
+    {
+      id: "s60",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "block", at: "@reacting" }
+      ],
+      headline: { text: "Sternum anchor drill (2-3m)", highlight: "2-3m", at: "@meters", side: "right" },
+      narration: "Train this with the Sternum Anchor drill: have a partner stand 2 to 3 meters away throwing randomized, non-contact jabs and cuts while you lock gaze on their chest, reacting peripherally."
+    },
+    {
+      id: "s61",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      headline: { text: "4 sets x 30s bouts", highlight: "4 sets", at: "@sets", side: "right" },
+      narration: "Do 4 sets of 30-second active bouts twice a week."
+    },
+    {
+      id: "s62",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "meditate", at: 0 }
+      ],
+      headline: { text: "Physiological sigh resets vision", highlight: "sigh", at: "@sighs", side: "right" },
+      narration: "To counter that tunnel vision, use 3 physiological sighs—two quick nasal inhales and one long mouth exhale—to reset your visual field."
+    },
+    {
+      id: "s63",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "facepalm", at: 0 }
+      ],
+      headline: { text: "Don't stare into eyes", highlight: "Don't", at: "@eyes", side: "right" },
+      narration: "The mistake? Looking an opponent in the eyes; head bobs easily deceive eye contact, but the sternum cannot fake without moving."
+    },
+
+    // --- PILLAR 5: THE REACTIVE TRAINING PROTOCOL ---
+    {
+      id: "s64",
+      kind: "title",
+      chapter: "Pillar 5: The reactive training protocol",
+      number: 6,
+      heading: "Pillar 5: Training",
+      sub: "Perception-action coupling vs light pods",
+      mascot: { pose: "flex" },
+      transition: "push",
+      narration: "To build genuine reaction speed, training must follow perception-action coupling."
+    },
+    {
+      id: "s65",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "point_up", at: 0 }
+      ],
+      headline: { text: "Sport-specific models", highlight: "Sport-specific", at: "@sport-specific", side: "right" },
+      narration: "Your brain does not build general reflexes; it builds sport-specific anticipatory models."
+    },
+    {
+      id: "s66",
+      kind: "slam",
+      background: "dark",
+      transition: "cut",
+      text: "The light-pod myth",
+      highlight: "myth",
+      style: "dark",
+      icon: "cross",
+      sub: "Flashing LEDs do not transfer",
+      narration: "This exposes the biggest myth in athletic training: flashing reaction light pods."
+    },
+    {
+      id: "s67",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "shrug", at: 0 }
+      ],
+      headline: { text: "Slapping flashing lights", highlight: "Slapping", at: "@slap", side: "right" },
+      narration: "Commercial systems claim to rewire reflexes by having you slap flashing lights on a wall."
+    },
+    {
+      id: "s68",
+      kind: "stat",
+      background: "plain",
+      transition: "cut",
+      value: 0,
+      suffix: " correlation",
+      label: "between light-pod scores and on-field reactive agility",
+      highlight: "0 correlation",
+      icon: "cross",
+      mascot: { pose: "facepalm" },
+      at: "@near-zero",
+      narration: "In 2025, scientific trials proved light-pod reaction scores have near-zero correlation with actual field reactive agility."
+    },
+    {
+      id: "s69",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "shrug", at: 0 }
+      ],
+      headline: { text: "Diodes have no hips", highlight: "hips", at: "@hips", side: "right" },
+      narration: "A flashing diode has no hips and no kinetic chain; slapping an LED trains simple reaction to a flash, while ignoring the 150 milliseconds of body language that wins games."
+    },
+    {
+      id: "s70",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "4-tier perception progression",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "1. Video occlusion drills", icon: "brain", at: "@video" },
+        { text: "2. Restricted-choice drills", icon: "target", at: "@restricted" },
+        { text: "3. Sternum-anchored 1v1", icon: "bolt", at: "@sternum" },
+        { text: "4. Quiet Eye pre-shot routine", icon: "check", at: "@quiet" }
+      ],
+      narration: "Instead, use a 4-tier progression: video occlusion drills for cue recognition, restricted-choice drills for Hick's Law delays, sternum-anchored shadowing for saccades, and Quiet Eye pre-shot routines."
+    },
+    {
+      id: "s71",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "facepalm", at: 0 }
+      ],
+      headline: { text: "Ladders have zero perception", highlight: "zero", at: "@zero", side: "right" },
+      narration: "The mistake? Pre-programmed agility ladder drills; if footwork is pre-planned, there is zero perception and zero decision-making."
+    },
+
+    // --- STAY SAFE ---
+    {
+      id: "s72",
+      kind: "title",
+      chapter: "Stay safe",
+      number: 7,
+      heading: "Stay safe",
+      sub: "Protecting knees, ankles, and vision",
+      mascot: { pose: "ready" },
+      transition: "push",
+      narration: "Before ramping up your training, heed these essential safety rules."
+    },
+    {
+      id: "s73",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "flinch", at: 0 }
+      ],
+      headline: { text: "Don't bite on fakes", highlight: "fakes", at: "@fakes", side: "right" },
+      narration: "If you anticipate without invariant cues, you will guess prematurely on deceptive fakes."
+    },
+    {
+      id: "s74",
+      kind: "mascot",
+      background: "dark",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "hold_calf", at: 0 }
+      ],
+      callouts: [
+        { label: "Knee valgus torque", target: "rKnee", at: "@valgus", side: "right" },
+        { label: "Committed weight", target: "hips", at: "@committed", side: "left" }
+      ],
+      headline: { text: "Non-contact ACL risk", highlight: "ACL", at: "@A-C-L", side: "right" },
+      narration: "Reversing direction while committed generates violent knee valgus torque, the primary cause of non-contact A-C-L tears."
+    },
+    {
+      id: "s75",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 }
+      ],
+      headline: { text: "Start without fakes", highlight: "without", at: "@restricted", side: "right" },
+      narration: "Beginners must start with restricted-choice drills where fakes are prohibited, building accurate cue reading before advancing to unconstrained play."
+    },
+    {
+      id: "s76",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "tired_front", at: 0 }
+      ],
+      headline: { text: "15-20 min limit", highlight: "15-20", at: "@cap", side: "right" },
+      narration: "Visual search drills strain your eye muscles; cap video occlusion at 15 to 20 minutes per session."
+    },
+    {
+      id: "s77",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "think", at: 0 }
+      ],
+      headline: { text: "Screen for concussion", highlight: "concussion", at: "@concussion", side: "right" },
+      narration: "If you experience persistent blurring, double vision, or dizziness after head contact, seek immediate medical screening for concussion."
+    },
+    {
+      id: "s78",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "point_up", at: 0 }
+      ],
+      headline: { text: "See a physiotherapist", highlight: "physiotherapist", at: "@physiotherapist", side: "right" },
+      narration: "If a joint hurts, see a qualified physiotherapist."
+    },
+
+    // --- YOUR ROUTINE ---
+    {
+      id: "s79",
+      kind: "title",
+      chapter: "Your routine",
+      number: 8,
+      heading: "Your routine",
+      sub: "Weekly reactive microcycle",
+      mascot: { pose: "present" },
+      transition: "push",
+      narration: "Here is how to integrate perceptual reaction training into your weekly schedule."
+    },
+    {
+      id: "s80",
+      kind: "list",
+      background: "plain",
+      transition: "cut",
+      title: "Weekly reaction blueprint",
+      mascot: { pose: "point_up" },
+      items: [
+        { text: "Tue/Thu: 15 min video occlusion", icon: "brain", at: "@Tuesdays" },
+        { text: "Warm-ups: 4x30s sternum shadow", icon: "bolt", at: "@minutes" },
+        { text: "Scrimmage: tactical pre-pruning", icon: "target", at: "@occlusion" },
+        { text: "Shots: 500ms Quiet Eye lock", icon: "check", at: "@testing" }
+      ],
+      narration: "On Tuesdays and Thursdays, perform 15 minutes of video occlusion drills, testing 25 to 30 clips."
+    },
+    {
+      id: "s81",
+      kind: "mascot",
+      background: "gym",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "block", at: 0 }
+      ],
+      headline: { text: "4 sets x 30s shadow", highlight: "shadow", at: "@shadowing", side: "right" },
+      narration: "During warm-ups, complete 4 sets of 30-second sternum-anchored partner shadowing drills, training peripheral awareness without eye darting."
+    },
+    {
+      id: "s82",
+      kind: "mascot",
+      background: "court",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "think", at: 0 },
+        { pose: "point_up", at: "@pruning" }
+      ],
+      headline: { text: "Prune choices from 4 to 2", highlight: "Prune", at: "@pruning", side: "right" },
+      narration: "In live scrimmages, practice tactical pre-pruning: position your body to take away one angle, cutting Hick's Law choices from 4 to 2."
+    },
+    {
+      id: "s83",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "shoot", at: "@Quiet" }
+      ],
+      headline: { text: "500ms Quiet Eye lock", highlight: "500ms", at: "@500-millisecond", side: "right" },
+      narration: "And on every free throw, penalty kick, or service return, execute your 500-millisecond Quiet Eye lock before moving."
+    },
+    {
+      id: "s84",
+      kind: "mascot",
+      background: "plain",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "stand", at: 0 }
+      ],
+      headline: { text: "Weekends off", highlight: "Weekends", at: "@Weekends", side: "right" },
+      narration: "Take weekends off for complete recovery."
+    },
+
+    // --- CLOSE ---
+    {
+      id: "s85",
+      kind: "mascot",
+      chapter: "Close",
+      background: "spotlight",
+      transition: "cut",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "flex", at: "@genetic" }
+      ],
+      headline: { text: "Reaction is trained", highlight: "trained", at: "@genetic", side: "right" },
+      narration: "True athletic reaction is not an innate genetic reflex."
+    },
+    {
+      id: "s86",
+      kind: "mascot",
+      background: "spotlight",
+      transition: "fade",
+      position: "left",
+      poses: [
+        { pose: "ready", at: 0 },
+        { pose: "celebrate", at: "@react" }
+      ],
+      headline: { text: "React before release", highlight: "React", at: "@react", side: "right" },
+      narration: "Prune your choices, read the hips before the hand, lock your Quiet Eye, and react before the ball ever leaves their fingers."
+    }
+  ]
+};
+
+fs.writeFileSync(
+  "episodes/how-to-react-faster-than-anyone/storyboard.json",
+  JSON.stringify(storyboard, null, 2) + "\n"
+);
+console.log("Wrote storyboard.json with", storyboard.scenes.length, "scenes");
