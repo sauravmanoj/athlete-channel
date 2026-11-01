@@ -42,28 +42,45 @@
   - Framework: the reflex limit vs anticipation, the "Quiet Eye" gaze fixation before execution, reading kinematic body cues (hips, shoulders, racket angle) before the ball travels, peripheral vision expansion vs tunnel vision
   - Acting: Coach Ember tracking incoming ball, target lock reticle / eye zoom, split-second dodge, reaction-time timeline comparison chart
   - Demand: universal appeal across racket, court, combat, and team sports · Competition: rarely visualized with animated characters; high novelty and viral potential
-- [ ] **5 mistakes killing your vertical jump** — 28/30 — template: N-mistakes
-  - Framework: grinding heavy squats only with zero bar speed, zero max-effort jump practice, collapsing the penultimate step (bleeding horizontal momentum), ignoring tendon stiffness & stretch-shortening cycle, high-volume plyometrics on unconditioned tendons
-  - Acting: Coach Ember jump squat, penultimate step slow-mo breakdown, stiff pogo ankle rebound, facepalm per mistake, rim touch celebration
-  - Demand: massive evergreen search volume on YouTube · Competition: crowded niche, but mascot animation and concise science cuts through 20-minute talking-head fluff
-- [ ] **The levels of a tennis player** — 28/30 — template: levels
-  - Framework: NTRP 2.5–5.0+ ladder (2.5 consistency/rallies → 3.5 directional control & 2nd serve → 4.0 heavy spin & point construction → 4.5+ weapons, tactical adaptation & clutch play)
-  - Acting: lineup of Coach Embers with tennis rackets, groundstroke progression, serve toss mechanics, court strategy heatmaps
-  - Demand: high recreational tennis player volume; NTRP rating debates are constant · Competition: overwhelmingly live-action court coaches; zero animated rating guides
-- [ ] **What happens to your body when you jump rope every day for 30 days** — 27/30 — template: 30-days
-  - Framework: days 1–10 neuromuscular timing & cardiac stroke volume, days 10–20 tendon matrix remodeling & reactive strength index (RSI), the overuse trap (tenocyte fatigue & Achilles tendinopathy risk), bulletproof ramping protocol (low bounce, soft surfaces, eccentric heel drops)
-  - Acting: Coach Ember skipping rope cycle, calf and Achilles tendon callouts, calendar flip 1–30 days, spring bounce gauge
-  - Demand: huge viral curiosity and search interest for 30-day fitness challenges · Competition: mostly personal vlog challenges; very few sports physiology explanations
-- [ ] **How to recover overnight like an athlete** — 27/30 — template: recover-like-athlete
-  - Framework: 90-minute sleep cycles & deep sleep growth hormone pulse, the post-match 2-hour window (glycogen replenishment + muscle protein synthesis), core temperature manipulation for sleep onset, parasympathetic down-regulation routine
-  - Acting: Coach Ember sleeping, bedroom clock, core temperature drop gauge, post-match nutrition plate, HRV line chart
-  - Demand: universal curiosity among athletes feeling sore and sluggish the next morning · Competition: sleep science channels are generic; sports-specific recovery explainer is a clear differentiator
-- [ ] **The levels of a basketball shooter** — 27/30 — template: levels
-  - Framework: shooting levels (level 1 stationary form & dip mechanics → level 2 catch-and-shoot off movement → level 3 off-the-dribble pull-up & deceleration → level 4 contested deep range & clutch pressure release)
-  - Acting: Coach Ember shooting form, arc trajectory graphic, defender contest, lineup of shooters scaling in difficulty
-  - Demand: perennial top-tier skill demand for basketball players · Competition: technical breakdown videos exist, but developmental level progression is highly shareable
-- [ ] **How to never get tired in tennis** — 27/30 — template: never-get-tired
-  - Framework: the tennis match energy profile (6-second explosive rally + 20-second aerobic recovery), split-step economy vs wasted frantic steps, fluid/electrolyte replenishment over 2–3 hours, between-point 16-second breathing routine
-  - Acting: rally sprint → recovery walk, towel-off routine, battery gauge, split-step slow-mo
-  - Demand: popular evergreen query among competitive club and tournament tennis players · Competition: solid demand with clean room for a definitive mascot breakdown
 
+<!-- /new-topics 2026-11-01 — Pickleball & Padel Focus (scores: desire/framework/acting/demand/gap/safety, each /5) -->
+- [ ] **5 mistakes tennis players make in padel** — 29/30 — template: N-mistakes
+  - Framework: 1) Over-hitting (smashing with max power feeds the glass rebound), 2) Neglecting the lob (treating it as desperation rather than the primary offensive weapon), 3) Baseline camping (failing to claim the net), 4) Panicking on wall rebounds (rushing the ball instead of letting the glass create time), 5) Big tennis backswings (getting jammed at the net)
+  - Acting: Coach Ember swinging with huge tennis follow-through and getting punished by the glass rebound, tennis baseline stance vs padel net position, glass bounce trajectory diagram, punch volley compact drill
+  - Demand: Massive global wave of tennis players adopting padel; constant forum debates and high YouTube views on crossover struggles · Competition: Live-action coaches talk about it; zero animated biomechanical/physics explainers
+- [ ] **Your pickleball drop shot is weak (here's why)** — 29/30 — template: your-X-is-weak
+  - Framework: 1) The wrist snap trap (wrist hinge pop-ups vs shoulder pendulum), 2) Trajectory geometry (pushing flat into opponents' attack zone vs gentle arc peaking on your side), 3) Kinetic chain disconnect (lifting with arms instead of pushing with legs and core), 4) Momentum drift (hitting on the run through the transition zone instead of split-stepping prior to contact)
+  - Acting: Coach Ember flicking wrist with pop-up trajectory overlay, paddle pendulum mechanic with shoulder pivot graphic, transition zone split step, soft hands landing drill into NVZ
+  - Demand: #1 most frustrating shot for 3.0–3.5 players trying to break into 4.0; consistently high search volume · Competition: Many drill videos; zero animated lever-arm and trajectory physics breakdowns
+- [ ] **5 mistakes keeping you stuck at 3.0 in pickleball** — 28/30 — template: N-mistakes
+  - Framework: 1) The banger trap (driving low balls from the baseline), 2) Sprinting through the transition zone without split-stepping, 3) Dropped paddle syndrome (resting paddle at waist instead of chest-high ready position), 4) Impatient speed-ups from below net height, 5) The middle court gap (failing the "connected by a string" partner rule)
+  - Acting: Coach Ember trapped in transition zone with balls at his feet, paddle ready position overlay with chest marker, partner rope graphic connecting two Embers, DUPR rating meter climbing
+  - Demand: Largest demographic of pickleball players sits at 3.0–3.49 and seeks actionable blueprints to rank up · Competition: Heavily discussed on podcasts and live vlogs; animated visual guide provides instant clarity
+- [ ] **Your padel bandeja is weak (here's why)** — 28/30 — template: your-X-is-weak
+  - Framework: 1) Treating it like a tennis smash (flat power vs controlled slice with high elbow), 2) Dropping the non-dominant tracking arm too early, 3) Contact point too low or behind the body axis, 4) Standing still after contact instead of sprinting forward to reclaim net position
+  - Acting: Coach Ember tracking high lob with non-hitting arm raised, slice racket trajectory with friction physics overlay, net recovery sprint cycle
+  - Demand: The defining, most elusive stroke in padel; constant top-tier YouTube search queries for intermediate players · Competition: Highly sought-after; animated breakdown provides crystal-clear joint angle and contact height reference
+- [ ] **How to react faster at the kitchen line** — 28/30 — template: how-to-X-faster
+  - Framework: 1) Ready position biomechanics (paddle tilt, compact lever arm, center of mass), 2) Visual anticipation & Quiet Eye (fixating on opponent paddle face and shoulder angle rather than ball flight), 3) The compact punch volley (eliminating the take-back), 4) Pre-contact split-step timing
+  - Acting: Coach Ember in low kitchen stance, target lock gaze reticle on opponent paddle, slow-mo ball collision with paddle angle vector, reaction speed gauge
+  - Demand: Fast-hands battles at the NVZ generate viral clips across YouTube and TikTok; amateurs struggle with getting jammed · Competition: Drill reels dominate; neuroscience and visual tracking explainer is uniquely differentiated
+- [ ] **5 mistakes killing your padel defense** — 27/30 — template: N-mistakes
+  - Framework: 1) Turning late on corner balls, 2) Hugging the back glass instead of holding the service line defensive sweet spot, 3) Blasting flat shots into opponents at the net, 4) Forgetting the chiquita to opponents' feet to break net dominance, 5) Poor communication and positioning on balls down the middle
+  - Acting: Coach Ember defending off the glass, court zone sweet spot highlighted in green/red, chiquita trajectory dipping over the net, partner communication bubble
+  - Demand: Padel defense is deeply counterintuitive for beginners; tactical defense guides command strong watch time · Competition: Mostly Spanish-language or generic club vlogs; wide gap for English-language animated explainer
+- [ ] **How to never get tired in padel** — 27/30 — template: never-get-tired
+  - Framework: 1) The padel metabolic profile: 5–10 second explosive bursts + 15–20 second rest intervals (ATP-PCr system dominance), 2) Eccentric braking fatigue from constant wall turns and rapid split steps, 3) Tactical energy conservation (deep defensive lobs to buy 4 seconds of heart-rate recovery), 4) Off-ball court gliding with your partner
+  - Acting: Coach Ember high-speed rally → deep lob → slow recovery jog, battery gauge draining during wall rallies and refilling during lob flight, heart rate monitor
+  - Demand: Direct sequel to the channel's hit badminton, football, and basketball stamina explainers; padel matches frequently last 90+ minutes in hot clubs · Competition: Minimal stamina-specific padel content online
+- [ ] **All padel wall rebounds explained** — 27/30 — template: all-explained
+  - Framework: 1) Back glass rebound (angle of incidence = angle of reflection), 2) Side glass angles, 3) Double glass (side-to-back vs back-to-side rotation), 4) Wire fence unpredictable rebound management
+  - Acting: Coach Ember tracking geometric bounce vectors, wall rotation animation, ball trajectory arcs, "open the door" turning drill
+  - Demand: The hardest conceptual hurdle for any racket sport player entering padel · Competition: Live-action videos struggle to show overhead bounce geometry; custom animation is the gold standard medium for this
+- [ ] **The mental game of pickleball** — 26/30 — template: mental-game
+  - Framework: 1) The target trap (what to do when opponents ice your partner and target you every point), 2) Patience threshold (why players force low-percentage speed-ups), 3) The 3-second between-point reset routine, 4) Closing out games at 9–9 without tightening up
+  - Acting: Coach Ember under barrage of balls, breathing cycle graphic, patience gauge, target lock focus visualization
+  - Demand: Mental collapse and impatience are universally discussed on pickleball forums and podcasts · Competition: Few visual explainers dissecting sports psychology for recreational pickleball players
+- [ ] **What happens to your body when you play pickleball every day** — 26/30 — template: 30-days
+  - Framework: 1) Cardiovascular and metabolic gains (moderate-vigorous aerobic volume), 2) Lateral joint loading & Achilles/patellar tendon adaptations, 3) Asymmetric rotational core torque and shoulder load, 4) The 3-step daily recovery routine to prevent pickleball elbow and meniscus wear
+  - Acting: Calendar flipping 30 days, muscular heat map on Coach Ember (rotator cuff, forearm, knees, calves), recovery foam rolling and band exercises
+  - Demand: Very high search volume around health benefits and injury risks of daily pickleball play among adults 30–65 · Competition: Generic articles and news clips; high demand for a balanced scientific breakdown
