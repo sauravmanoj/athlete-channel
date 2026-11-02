@@ -44,23 +44,23 @@
   - Demand: universal appeal across racket, court, combat, and team sports · Competition: rarely visualized with animated characters; high novelty and viral potential
 
 <!-- /new-topics 2026-11-01 — Pickleball & Padel Focus (scores: desire/framework/acting/demand/gap/safety, each /5) -->
-- [ ] **5 mistakes tennis players make in padel** — 29/30 — template: N-mistakes
+- [x] **5 mistakes tennis players make in padel** — 29/30 — template: N-mistakes
   - Framework: 1) Over-hitting (smashing with max power feeds the glass rebound), 2) Neglecting the lob (treating it as desperation rather than the primary offensive weapon), 3) Baseline camping (failing to claim the net), 4) Panicking on wall rebounds (rushing the ball instead of letting the glass create time), 5) Big tennis backswings (getting jammed at the net)
   - Acting: Coach Ember swinging with huge tennis follow-through and getting punished by the glass rebound, tennis baseline stance vs padel net position, glass bounce trajectory diagram, punch volley compact drill
   - Demand: Massive global wave of tennis players adopting padel; constant forum debates and high YouTube views on crossover struggles · Competition: Live-action coaches talk about it; zero animated biomechanical/physics explainers
-- [ ] **Your pickleball drop shot is weak (here's why)** — 29/30 — template: your-X-is-weak
+- [x] **Your pickleball drop shot is weak (here's why)** — 29/30 — template: your-X-is-weak
   - Framework: 1) The wrist snap trap (wrist hinge pop-ups vs shoulder pendulum), 2) Trajectory geometry (pushing flat into opponents' attack zone vs gentle arc peaking on your side), 3) Kinetic chain disconnect (lifting with arms instead of pushing with legs and core), 4) Momentum drift (hitting on the run through the transition zone instead of split-stepping prior to contact)
   - Acting: Coach Ember flicking wrist with pop-up trajectory overlay, paddle pendulum mechanic with shoulder pivot graphic, transition zone split step, soft hands landing drill into NVZ
   - Demand: #1 most frustrating shot for 3.0–3.5 players trying to break into 4.0; consistently high search volume · Competition: Many drill videos; zero animated lever-arm and trajectory physics breakdowns
-- [ ] **5 mistakes keeping you stuck at 3.0 in pickleball** — 28/30 — template: N-mistakes
+- [x] **5 mistakes keeping you stuck at 3.0 in pickleball** — 28/30 — template: N-mistakes
   - Framework: 1) The banger trap (driving low balls from the baseline), 2) Sprinting through the transition zone without split-stepping, 3) Dropped paddle syndrome (resting paddle at waist instead of chest-high ready position), 4) Impatient speed-ups from below net height, 5) The middle court gap (failing the "connected by a string" partner rule)
   - Acting: Coach Ember trapped in transition zone with balls at his feet, paddle ready position overlay with chest marker, partner rope graphic connecting two Embers, DUPR rating meter climbing
   - Demand: Largest demographic of pickleball players sits at 3.0–3.49 and seeks actionable blueprints to rank up · Competition: Heavily discussed on podcasts and live vlogs; animated visual guide provides instant clarity
-- [ ] **Your padel bandeja is weak (here's why)** — 28/30 — template: your-X-is-weak
+- [x] **Your padel bandeja is weak (here's why)** — 28/30 — template: your-X-is-weak
   - Framework: 1) Treating it like a tennis smash (flat power vs controlled slice with high elbow), 2) Dropping the non-dominant tracking arm too early, 3) Contact point too low or behind the body axis, 4) Standing still after contact instead of sprinting forward to reclaim net position
   - Acting: Coach Ember tracking high lob with non-hitting arm raised, slice racket trajectory with friction physics overlay, net recovery sprint cycle
   - Demand: The defining, most elusive stroke in padel; constant top-tier YouTube search queries for intermediate players · Competition: Highly sought-after; animated breakdown provides crystal-clear joint angle and contact height reference
-- [ ] **How to react faster at the kitchen line** — 28/30 — template: how-to-X-faster
+- [x] **How to react faster at the kitchen line** — 28/30 — template: how-to-X-faster
   - Framework: 1) Ready position biomechanics (paddle tilt, compact lever arm, center of mass), 2) Visual anticipation & Quiet Eye (fixating on opponent paddle face and shoulder angle rather than ball flight), 3) The compact punch volley (eliminating the take-back), 4) Pre-contact split-step timing
   - Acting: Coach Ember in low kitchen stance, target lock gaze reticle on opponent paddle, slow-mo ball collision with paddle angle vector, reaction speed gauge
   - Demand: Fast-hands battles at the NVZ generate viral clips across YouTube and TikTok; amateurs struggle with getting jammed · Competition: Drill reels dominate; neuroscience and visual tracking explainer is uniquely differentiated

@@ -13,3 +13,8 @@
 | 2026-10-29 | how-to-never-get-tired-in-basketball | How to never get tired in basketball | 10:37 | awaiting review |
 | 2026-10-31 | the-physique-of-a-swimmer | The physique of a swimmer: why swimming builds an elite V-taper | 11:13 | awaiting review |
 | 2026-10-31 | how-to-react-faster-than-anyone | How to react faster than anyone (the visual neuroscience) | 11:43 | awaiting review |
+| 2026-11-01 | 5-mistakes-tennis-players-make-in-padel | 5 mistakes tennis players make in padel (and how to fix them) | 9:59 | awaiting review |
+| 2026-11-01 | your-pickleball-drop-shot-is-weak-here-s-why | Your pickleball drop shot is weak (here's why) | 10:19 | awaiting review |
+| 2026-11-01 | 5-mistakes-keeping-you-stuck-at-3-0-in-pickleball | 5 mistakes keeping you stuck at 3.0 in pickleball | 10:33 | awaiting review |
+| 2026-11-01 | your-padel-bandeja-is-weak-here-s-why | Your padel bandeja is weak (here's why) | 10:06 | awaiting review |
+| 2026-11-01 | how-to-react-faster-at-the-kitchen-line | How to react faster at the kitchen line | 11:18 | awaiting review |

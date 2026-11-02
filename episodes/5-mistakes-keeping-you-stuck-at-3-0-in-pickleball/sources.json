@@ -1,0 +1,152 @@
+[
+  {
+    "id": "S1",
+    "title": "Player Skill Level Definitions (Skill Matrix 2.5 to 5.5+)",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball (National Governing Body)",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Player-Skill-Level-Matrix.pdf",
+    "type": "org",
+    "notes": "Official skill matrix defining player proficiency tiers. 3.0 tier characterized by: medium-paced third shots with limited direction, frequent unforced errors, tendency to avoid backhands, and difficulty handling fast-paced balls. 3.5 tier introduces developing drop shots, moving quickly to the NVZ, and distinguishing hard vs soft game. 4.0 tier defines mastery of resets, selective attackable ball identification, and unforced error minimization. Read in full."
+  },
+  {
+    "id": "S2",
+    "title": "2026 USA Pickleball Official Rulebook & Equipment Standards",
+    "author": "USA Pickleball Rules Committee",
+    "publisher": "USA Pickleball",
+    "year": "2026",
+    "url": "https://pickleballcanada.org/wp-content/uploads/2026/03/2026-Official-Rulebook-EN.pdf",
+    "type": "org",
+    "notes": "Official court dimensions and equipment rules: 20 x 44 ft total court area; 7 ft Non-Volley Zone (NVZ / kitchen) extending from net on both sides (7 x 20 ft); net height 36 inches at sidelines, 34 inches at center strap; two-bounce rule requiring receiver and serving side to let initial bounces occur before volleying; ball weight 0.78–0.935 oz (22.1–26.5 g), 26–40 molded circular holes. Read pp. 1-12."
+  },
+  {
+    "id": "S3",
+    "title": "DUPR Rating Percentiles: Where Does Your Rating Rank?",
+    "author": "Shields T",
+    "publisher": "The Dink Pickleball (data provided by DUPR)",
+    "year": "2026",
+    "url": "https://www.thedinkpickleball.com/dupr-rating-percentiles-where-does-your-rating-rank/",
+    "type": "org",
+    "notes": "Global DUPR doubles rating distribution snapshot (Sept 2026): 2.0–2.49 (11%), 2.5–2.99 (20%), 3.0–3.49 (29%), 3.5–3.99 (24%), 4.0–4.49 (11%), 4.5–4.99 (4%), 5.0+ (1%). Proves that the 3.0–3.49 bracket is the single largest rating plateau in pickleball, holding nearly 30% of all rated doubles players, while only 16% successfully break through to 4.0+."
+  },
+  {
+    "id": "S4",
+    "title": "Pickleball Flight Dynamics",
+    "author": "Emond K, Sun W, Swartz TB",
+    "publisher": "International Journal of Racket Sports Science / arXiv (arXiv:2409.19000)",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2409.19000",
+    "type": "trial",
+    "notes": "Mathematical and physical trajectory analysis of perforated pickleballs. Ball Reynolds numbers range Re ≈ 10^4 to 1.5×10^5, displaying early boundary-layer turbulence and high drag coefficients (Cd ≈ 0.55–0.65). Demonstrates quadratic velocity decay (Fd = 0.5 * Cd * rho * A * v^2). Explains why flat, hard drives from below net level cannot dip via gravity in time over 30–35 feet, sailing out past the baseline unless hit with extreme topspin."
+  },
+  {
+    "id": "S5",
+    "title": "The Physics of Pickleball Aerodynamics and Trajectories",
+    "author": "Lindsey C",
+    "publisher": "Tennis Warehouse University / Sports Science Technical Reports",
+    "year": "2025",
+    "url": "http://twu.tennis-warehouse.com/learning_center/aerodynamics.php",
+    "type": "trial",
+    "notes": "High-speed optical trajectory analysis of pickleballs. Demonstrates that backspin exhibits suppressed aerodynamic lift due to perforation venting, while low-height ball impacts (<34 inches) require upward launch angles (+5° to +20°). Shows that upward launch trajectories travel straight into the opponent's chest-high strike zone when struck with pace, giving net defenders an acute downward attack angle."
+  },
+  {
+    "id": "S6",
+    "title": "A split-step shortens the time to perform a choice reaction step-and-reach movement in a simulated tennis task",
+    "author": "Uzu R, Shinya M, Oda S",
+    "publisher": "Journal of Sports Sciences 27(12):1233-1240",
+    "year": "2009",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/19757270/",
+    "type": "trial",
+    "notes": "Controlled biomechanical study examining choice-reaction step-and-reach tasks with and without a preparatory split-step. Split-step significantly shortened movement completion time by 104 ms (764 ± 84 ms with split-step vs 868 ± 96 ms without, p < 0.01). Ground reaction force profiles demonstrate that pre-activation of the stretch-shortening cycle (SSC) in plantarflexors and knee extensors accelerates lateral and forward force generation."
+  },
+  {
+    "id": "S7",
+    "title": "Ocular Injuries Associated With Pickleball in the United States, 2005-2024",
+    "author": "Tsui JC, Lacher CR, Koc I, et al.",
+    "publisher": "JAMA Ophthalmology",
+    "year": "2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39853920/",
+    "type": "review",
+    "notes": "Nationwide epidemiologic analysis of NEISS emergency department database: 3,112 estimated ocular injuries in pickleball. Over 88% occurred between 2022 and 2024 (+405 cases/year). Primary mechanisms: direct ball strikes (43%), falls (28%), paddle strikes (12%). Severe diagnoses included hyphema, retinal detachment, globe rupture, and orbital fractures. Strongly recommends protective sports eyewear meeting ASTM F3164 or ASTM F803 standards at the kitchen line."
+  },
+  {
+    "id": "S8",
+    "title": "Increasing Incidence of Pickleball Injuries Presenting to US Emergency Departments: A 10-year Epidemiologic Analysis of Mechanisms and Trends",
+    "author": "Yu J, Yendluri A, Linden GS, et al.",
+    "publisher": "Orthopaedic Journal of Sports Medicine 13(1):23259671241305364",
+    "year": "2025",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/39866953/",
+    "type": "review",
+    "notes": "10-year analysis of NEISS database (66,350 estimated ED cases). Demonstrates that while older players (65+) account for majority of fractures (32.7%) from falls, younger adult players (18–34) experience high rates of soft-tissue sprains/strains (30.8%) driven by sudden twisting and rapid deceleration during forward momentum arrests."
+  },
+  {
+    "id": "S9",
+    "title": "Epidemiology of Pickleball Foot and Ankle Injuries: 2015-2023",
+    "author": "Kingston K, Parker EB, Higgins AC, Smith JT",
+    "publisher": "American Academy of Orthopaedic Surgeons (AAOS Annual Meeting 2025)",
+    "year": "2025",
+    "url": "https://index.mirasmart.com/AAOS2025/PDFfiles/AAOS2025-004078.PDF",
+    "type": "trial",
+    "notes": "Orthopaedic study of 198 pickleball foot and ankle injuries. Shows running or lunging forward was the single most common traumatic mechanism (30.9%), followed by sudden foot planting (16.5%) and ankle inversion (15.5%). Diagnoses included Achilles tendon ruptures (39.4%), gastrocnemius tears (15.7%), and acute tendinopathies, emphasizing the danger of sprinting uncontrolled through the transition zone."
+  },
+  {
+    "id": "S10",
+    "title": "The Physics and Technology of Tennis & Ball-Paddle Collisions",
+    "author": "Brody H, Cross R, Lindsey C",
+    "publisher": "Racquet Tech Publishing / University of Sydney",
+    "year": "2002",
+    "url": "https://www.physics.usyd.edu.au/~cross/tennis.html",
+    "type": "textbook",
+    "notes": "Physics of ball impact and vibration mechanics. Ball dwell time is 3–5 ms. Tight grip pressure (9–10/10) fails to increase ball speed but drastically amplifies shock wave transmission into forearm extensor tendons (extensor carpi radialis brevis), causing lateral epicondylalgia ('pickleball elbow'). Loose grip pressure (3–4/10) allows paddle handle recoil, absorbing pace on resets while protecting the elbow."
+  },
+  {
+    "id": "S11",
+    "title": "Motor Control and Learning: A Behavioral Emphasis (6th Edition)",
+    "author": "Schmidt RA, Lee TD",
+    "publisher": "Human Kinetics",
+    "year": "2019",
+    "url": "https://us.humankinetics.com/products/motor-control-and-learning-6th-edition",
+    "type": "textbook",
+    "notes": "Neuroscience text detailing human information processing, Hick's Law, and reaction latencies. Visual simple reaction time is 180–220 ms, while choice reaction time spans 280–380 ms. At 14 ft NVZ distance, a 35–45 mph ball travels in 210–275 ms. A dropped paddle requires 150–250 ms of arm/shoulder travel time, exceeding human total processing time (430–600 ms). Maintaining paddle chest-high cuts paddle displacement to 4–6 inches, reducing motor execution time to 50–80 ms."
+  },
+  {
+    "id": "S12",
+    "title": "IPTPA & PPR Instructor Manuals: Ready Position, Transition Mechanics, and Doubles Tandem Spacing",
+    "author": "International Pickleball Teaching Professional Association (IPTPA) & Professional Pickleball Registry (PPR)",
+    "publisher": "IPTPA / PPR Educational Curriculum",
+    "year": "2024",
+    "url": "https://iptpa.com/certification-handbook/",
+    "type": "org",
+    "notes": "Certified coaching methodology standards. Formulates the 'home base' paddle-up position (paddle tip up, chest height, 10/11 o'clock backhand bias). Mandates the 'move-split-hit-move' transition cadence. Establishes the '10-foot invisible rope' doubles rule: partners must maintain 8–10 ft lateral spacing, shifting as a synchronized tandem to seal the middle seam and eliminate poached communication gaps."
+  },
+  {
+    "id": "S13",
+    "title": "Match activity profile analysis during professional men's double pickleball tournaments",
+    "author": "Lozano M, Casals M, Ampuero R, Fernandez-Fernandez J, Campos-Rius J, Baiget E",
+    "publisher": "International Journal of Performance Analysis in Sport 25(5):868-880",
+    "year": "2025",
+    "url": "https://merit.url.edu/ca/publications/match-activity-profile-analysis-during-professional-mens-double-p/",
+    "type": "trial",
+    "notes": "Observational match profile of 6,839 shots in elite doubles: 71.3% of shots are played from the transition and NVZ zones, and 90.8% of shots are intercepted out of the air. Rallies average 3–10 shots in 60.5% of points, showing that errors in close-quarters positioning or transition zone management dictate rally survival."
+  },
+  {
+    "id": "S14",
+    "title": "Skill Assessments for 3.0, 3.5, and 4.0 Players (Rubrics & Consistency Benchmarks)",
+    "author": "USA Pickleball",
+    "publisher": "USA Pickleball",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/levels/Skill-Assessment-for-4.0.pdf",
+    "type": "org",
+    "notes": "Official rating rubrics demonstrating that progression from 3.0 to 4.0 is driven by unforced error reduction and shot consistency. Shot test requirements advance from 7/10 (70%) at 3.0, to 8/10 (80%) at 3.5, to 9/10 (90%) at 4.0. Defines the transition from 'frequent unforced errors' at 3.0 to 'moderate unforced errors' and disciplined patience at 4.0."
+  },
+  {
+    "id": "S15",
+    "title": "Standard Specification for Eye Protectors for Selected Sports (Racquetball, Squash, Tennis, Pickleball) (ASTM F3164-19)",
+    "author": "ASTM Technical Committee F08.57",
+    "publisher": "ASTM International",
+    "year": "2019",
+    "url": "https://www.astm.org/f3164-19.html",
+    "type": "position-stand",
+    "notes": "Official impact safety and optical performance specifications for protective eyewear in racquet and paddle sports. Mandates high-velocity polycarbonate lenses capable of withstanding direct close-range ball impacts at kitchen line velocities without dislodgement or corneal contact."
+  }
+]

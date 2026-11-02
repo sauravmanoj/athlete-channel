@@ -1,0 +1,95 @@
+<!-- Custom hero scene: The Glass Rebound Physics (Power Trap vs Low-Rebound Slice) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; left:140px; right:140px; height:340px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-top { top:150px; }
+    #__ID__-root .card-bot { top:530px; }
+    #__ID__-root .card-header { position:absolute; top:24px; left:40px; display:flex; align-items:center; gap:16px; }
+    #__ID__-root .tag-pill { padding:8px 20px; border-radius:12px; font:800 24px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .tag-bad { background:#FEE2E2; color:var(--bad); }
+    #__ID__-root .tag-good { background:#DCFCE7; color:var(--good); }
+    #__ID__-root .card-title { font:800 32px var(--display); color:var(--ink); text-transform:uppercase; }
+    
+    #__ID__-root .timeline-track { position:absolute; top:120px; left:40px; right:40px; height:60px; background:#F1F5F9; border-radius:16px; border:4px solid var(--ink); overflow:hidden; display:flex; }
+    #__ID__-root .seg { height:100%; display:flex; align-items:center; justify-content:center; font:800 20px var(--sans); color:#fff; text-transform:uppercase; letter-spacing:0.5px; border-right:3px solid #fff; }
+    #__ID__-root .seg:last-child { border-right:none; }
+    
+    #__ID__-root .stat-bar { position:absolute; bottom:24px; left:40px; right:40px; display:flex; justify-content:space-between; align-items:center; }
+    #__ID__-root .stat-group { display:flex; gap:36px; }
+    #__ID__-root .stat-val { font:900 36px var(--display); }
+    #__ID__-root .stat-lbl { font:700 18px var(--sans); color:#64748B; text-transform:uppercase; margin-top:2px; }
+    #__ID__-root .verdict-tag { font:900 30px var(--display); padding:10px 24px; border-radius:16px; text-transform:uppercase; }
+    #__ID__-root .verdict-bad { background:var(--bad); color:#fff; }
+    #__ID__-root .verdict-good { background:var(--good); color:#fff; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:50px;text-align:center">The glass rebound physics</div>
+
+  <!-- Top Card: The Tennis Power Trap -->
+  <div class="card-box card-top" id="__ID__-card-a">
+    <div class="card-header">
+      <div class="tag-pill tag-bad">Tennis Habit</div>
+      <div class="card-title">Flat Smash & Drive (Power Trap)</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:28%; background:#EF4444;">100% Impact Speed</div>
+      <div class="seg" style="width:26%; background:#DC2626;">Glass e ≈ 0.70</div>
+      <div class="seg" style="width:26%; background:#B91C1C;">70% Rebound Speed</div>
+      <div class="seg" style="width:20%; background:#991B1B;">Waist-High Float</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:var(--bad)">70% Speed</div>
+          <div class="stat-lbl">Rebound Velocity</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">Mid-Court</div>
+          <div class="stat-lbl">Rebound Distance</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-bad">EASY OPPONENT COUNTER-ATTACK</div>
+    </div>
+  </div>
+
+  <!-- Bottom Card: The Padel Slice Rule -->
+  <div class="card-box card-bot" id="__ID__-card-b">
+    <div class="card-header">
+      <div class="tag-pill tag-good">Padel Rule</div>
+      <div class="card-title">Controlled Underspin / Bandeja</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:28%; background:#10B981;">65% Controlled Pace</div>
+      <div class="seg" style="width:26%; background:#059669;">Backspin Friction</div>
+      <div class="seg" style="width:26%; background:#047857;">Downward Glass Bite</div>
+      <div class="seg" style="width:20%; background:#065F46;">Dies on Turf</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:var(--good)">&lt; 3.0 m</div>
+          <div class="stat-lbl">Double-Bounce Depth</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">Low Ankle</div>
+          <div class="stat-lbl">Rebound Height</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-good">OFFENSIVE TERRITORIAL CONTROL</div>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.4);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, Math.max(1.5, D * 0.45));
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

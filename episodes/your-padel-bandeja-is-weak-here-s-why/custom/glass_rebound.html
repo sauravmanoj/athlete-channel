@@ -1,0 +1,185 @@
+<!-- Custom Hero Scene: Padel Glass Rebound Physics (Flat Smash vs Sliced Bandeja) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080" style="background:#EEF0F5; overflow:hidden;">
+  <style>
+    #__ID__-root .gr-title {
+      position: absolute;
+      top: 55px;
+      left: 80px;
+      font: 800 52px var(--display, 'Oswald', sans-serif);
+      color: #1C2140;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    #__ID__-root .gr-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 8px;
+      background: #E8423A;
+      color: #fff;
+      font-size: 32px;
+      margin-left: 20px;
+      vertical-align: middle;
+    }
+    #__ID__-root .court-svg {
+      position: absolute;
+      left: 80px;
+      top: 160px;
+      width: 1760px;
+      height: 840px;
+    }
+    #__ID__-root .card {
+      position: absolute;
+      padding: 22px 26px;
+      border-radius: 16px;
+      box-shadow: 0 12px 32px rgba(28,33,64,0.08);
+      border: 4px solid #1C2140;
+      background: #FFFFFF;
+    }
+    #__ID__-root .card-red {
+      left: 80px;
+      top: 220px;
+      width: 410px;
+      border-color: #EF4444;
+    }
+    #__ID__-root .card-green {
+      left: 80px;
+      top: 530px;
+      width: 410px;
+      border-color: #10B981;
+    }
+    #__ID__-root .card-h {
+      font: 700 28px var(--display, 'Oswald', sans-serif);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    #__ID__-root .card-sub {
+      font: 500 20px var(--font-body, system-ui, sans-serif);
+      color: #475569;
+      line-height: 1.4;
+    }
+    #__ID__-root .stat-callout {
+      font: 800 26px var(--display, 'Oswald', sans-serif);
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 2px dashed #E2E8F0;
+    }
+  </style>
+
+  <div class="gr-title" id="__ID__-title">
+    The Glass Rebound Paradox
+    <span class="gr-badge" id="__ID__-badge">Tempered Glass (e ≈ 0.72)</span>
+  </div>
+
+  <!-- Cards -->
+  <div class="card card-red" id="__ID__-card-red">
+    <div class="card-h" style="color: #EF4444;">
+      <span style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#EF4444;"></span>
+      Flat Smash Rebound
+    </div>
+    <div class="card-sub">
+      Downward impact with no backspin hits turf and slams into rigid glass. Elastic collision ricochets the ball <strong>1.4m high</strong> into opponent attack zone.
+    </div>
+    <div class="stat-callout" style="color: #EF4444;">
+      Opponent Bajada / Counter Smash
+    </div>
+  </div>
+
+  <div class="card card-green" id="__ID__-card-green">
+    <div class="card-h" style="color: #10B981;">
+      <span style="display:inline-block;width:20px;height:20px;border-radius:50%;background:#10B981;"></span>
+      Sliced Bandeja Skid
+    </div>
+    <div class="card-sub">
+      Horizontal cutting slice carves under the ball. Downward tangential spin creates wall friction that drags the ball down, <strong>bouncing under 0.4m</strong>.
+    </div>
+    <div class="stat-callout" style="color: #10B981;">
+      Dies Harmlessly in Corner
+    </div>
+  </div>
+
+  <!-- SVG Diagram -->
+  <svg class="court-svg" viewBox="0 0 1760 840" fill="none">
+    <defs>
+      <marker id="__ID__-arr-red" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#EF4444" />
+      </marker>
+      <marker id="__ID__-arr-green" markerWidth="10" markerHeight="10" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L0,6 L9,3 z" fill="#10B981" />
+      </marker>
+    </defs>
+
+    <!-- Synthetic Turf Floor -->
+    <line x1="620" y1="720" x2="1700" y2="720" stroke="#1C2140" stroke-width="6" stroke-linecap="round"/>
+    <text x="780" y="760" font-family="Oswald, sans-serif" font-size="22" font-weight="700" fill="#475569">SERVICE LINE (3M FROM GLASS)</text>
+
+    <!-- Back Glass Wall (3 Meters High) -->
+    <rect x="1600" y="220" width="22" height="500" rx="4" fill="#2B6CB0" opacity="0.35" stroke="#1C2140" stroke-width="4"/>
+    <line x1="1611" y1="220" x2="1611" y2="720" stroke="#2B6CB0" stroke-width="6"/>
+    <text x="1611" y="195" font-family="Oswald, sans-serif" font-size="26" font-weight="800" fill="#2B6CB0" text-anchor="middle">REAR GLASS (3M)</text>
+
+    <!-- Target Ceiling Line (0.8m / 80cm) -->
+    <line x1="1560" y1="580" x2="1640" y2="580" stroke="#E8423A" stroke-width="4" stroke-dasharray="6 4"/>
+    <text x="1540" y="585" font-family="Oswald, sans-serif" font-size="20" font-weight="700" fill="#E8423A" text-anchor="end">TARGET CEILING (0.8M)</text>
+
+    <!-- RED TRAJECTORY (Flat smash ricochet) -->
+    <g id="__ID__-red-group">
+      <!-- Starting overhead point -->
+      <circle cx="760" cy="340" r="14" fill="#EF4444" stroke="#fff" stroke-width="4"/>
+      <text x="760" y="305" font-family="Oswald, sans-serif" font-size="22" font-weight="700" fill="#EF4444" text-anchor="middle">Flat Smash Contact</text>
+
+      <!-- Turf bounce -->
+      <path d="M 760 340 L 1260 720" stroke="#EF4444" stroke-width="6" stroke-dasharray="8 6"/>
+      <circle cx="1260" cy="720" r="8" fill="#EF4444"/>
+
+      <!-- Rebound to glass -->
+      <path d="M 1260 720 L 1600 480" stroke="#EF4444" stroke-width="6" stroke-dasharray="8 6"/>
+
+      <!-- Violent bounce outward at chest height -->
+      <path d="M 1600 480 L 1000 420" stroke="#EF4444" stroke-width="6" marker-end="url(#__ID__-arr-red)"/>
+      <text x="1280" y="390" font-family="Oswald, sans-serif" font-size="24" font-weight="800" fill="#EF4444" text-anchor="middle">HIGH RICOCHET (1.4M CHEST HEIGHT)</text>
+    </g>
+
+    <!-- GREEN TRAJECTORY (Sliced bandeja skid) -->
+    <g id="__ID__-green-group">
+      <!-- Sliced contact at eye level (y=460) -->
+      <circle cx="760" cy="460" r="14" fill="#10B981" stroke="#fff" stroke-width="4"/>
+      <text x="760" y="425" font-family="Oswald, sans-serif" font-size="22" font-weight="700" fill="#10B981" text-anchor="middle">Sliced Bandeja (Eye Level)</text>
+
+      <!-- Low turf bounce -->
+      <path d="M 760 460 L 1460 720" stroke="#10B981" stroke-width="6" stroke-dasharray="8 6"/>
+      <circle cx="1460" cy="720" r="8" fill="#10B981"/>
+
+      <!-- Low glass hit below target line -->
+      <path d="M 1460 720 L 1600 660" stroke="#10B981" stroke-width="6" stroke-dasharray="8 6"/>
+
+      <!-- Sliced skid staying under 0.4m -->
+      <path d="M 1600 660 L 1320 705" stroke="#10B981" stroke-width="6" marker-end="url(#__ID__-arr-green)"/>
+      <text x="1360" y="620" font-family="Oswald, sans-serif" font-size="24" font-weight="800" fill="#10B981" text-anchor="middle">LOW SKID (&lt;0.4M DIE ALONG TURF)</text>
+    </g>
+  </svg>
+</div>
+
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+
+  // Title & Card Red
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-red", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5 }, 0.4);
+  tl.fromTo("#__ID__-red-group", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 0.7);
+
+  // Card Green & Sliced Skid
+  tl.fromTo("#__ID__-card-green", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5 }, Math.min(2.5, D * 0.45));
+  tl.fromTo("#__ID__-green-group", { opacity: 0 }, { opacity: 1, duration: 0.6 }, Math.min(2.8, D * 0.5));
+
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

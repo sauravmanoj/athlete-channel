@@ -1,0 +1,249 @@
+<!-- Custom Hero Scene: The 240ms Kitchen Line Reaction Gap (Ball Transit vs Neural Processing) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080" style="background:#0F172A; overflow:hidden;">
+  <style>
+    #__ID__-root .rt-title {
+      position: absolute;
+      top: 55px;
+      left: 100px;
+      font: 800 48px var(--display, 'Oswald', sans-serif);
+      color: #FFFFFF;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    #__ID__-root .rt-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 8px;
+      background: #EF4444;
+      color: #FFFFFF;
+      font-size: 28px;
+      margin-left: 20px;
+      vertical-align: middle;
+    }
+    #__ID__-root .timeline-container {
+      position: absolute;
+      left: 100px;
+      top: 170px;
+      width: 1720px;
+      height: 820px;
+    }
+    #__ID__-root .track-card {
+      position: absolute;
+      left: 0;
+      width: 1720px;
+      background: #1E293B;
+      border: 3px solid #334155;
+      border-radius: 20px;
+      padding: 24px 32px;
+      box-sizing: border-box;
+    }
+    #__ID__-root .card-top {
+      top: 0;
+      height: 240px;
+      border-color: #EF4444;
+    }
+    #__ID__-root .card-bottom {
+      top: 270px;
+      height: 480px;
+      border-color: #38BDF8;
+    }
+    #__ID__-root .track-h {
+      font: 700 28px var(--display, 'Oswald', sans-serif);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 18px;
+    }
+    #__ID__-root .meter-bg {
+      position: relative;
+      width: 100%;
+      height: 70px;
+      background: #0F172A;
+      border-radius: 12px;
+      overflow: hidden;
+      border: 2px solid #334155;
+    }
+    #__ID__-root .ball-fill {
+      position: absolute;
+      left: 0;
+      top: 0;
+      height: 100%;
+      width: 48.08%; /* 238ms / 495ms */
+      background: linear-gradient(90deg, #F59E0B, #EF4444);
+      border-radius: 10px;
+      transform-origin: left center;
+    }
+    #__ID__-root .ball-indicator {
+      position: absolute;
+      right: 12px;
+      top: 50%;
+      transform: translateY(-50%);
+      font: 800 24px var(--display, 'Oswald', sans-serif);
+      color: #FFFFFF;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    #__ID__-root .neural-breakdown {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+      height: 80px;
+    }
+    #__ID__-root .n-block {
+      border-radius: 10px;
+      padding: 12px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #FFFFFF;
+      text-align: center;
+    }
+    #__ID__-root .nb-label {
+      font: 700 17px var(--display, 'Oswald', sans-serif);
+      text-transform: uppercase;
+      opacity: 0.9;
+    }
+    #__ID__-root .nb-val {
+      font: 800 24px var(--display, 'Oswald', sans-serif);
+      margin-top: 2px;
+    }
+    #__ID__-root .collision-line {
+      position: absolute;
+      left: calc(48.08% + 32px); /* aligned with 238ms mark */
+      top: 15px;
+      bottom: 20px;
+      width: 4px;
+      background: #EF4444;
+      box-shadow: 0 0 16px rgba(239,68,68,0.8);
+      z-index: 10;
+    }
+    #__ID__-root .collision-badge {
+      position: absolute;
+      top: -12px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #EF4444;
+      color: #FFFFFF;
+      font: 800 20px var(--display, 'Oswald', sans-serif);
+      padding: 4px 14px;
+      border-radius: 6px;
+      white-space: nowrap;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    #__ID__-root .status-box {
+      margin-top: 24px;
+      background: rgba(15,23,42,0.8);
+      border-radius: 12px;
+      padding: 18px 24px;
+      border-left: 6px solid #EF4444;
+    }
+    #__ID__-root .status-title {
+      font: 800 22px var(--display, 'Oswald', sans-serif);
+      color: #EF4444;
+      text-transform: uppercase;
+    }
+    #__ID__-root .status-desc {
+      font: 500 20px var(--font-body, system-ui, sans-serif);
+      color: #94A3B8;
+      margin-top: 6px;
+      line-height: 1.4;
+    }
+  </style>
+
+  <div class="rt-title" id="__ID__-title">
+    The 240ms Reaction Trap
+    <span class="rt-badge" id="__ID__-badge">14 Ft Kitchen Gap</span>
+  </div>
+
+  <div class="timeline-container">
+    <!-- Top Card: Speed-Up Flight Time -->
+    <div class="track-card card-top" id="__ID__-card-top">
+      <div class="track-h" style="color: #EF4444;">
+        <span>Incoming Speed-Up (40 mph / 14 ft Transit)</span>
+        <span style="color: #FCD34D;">Total Flight: 238 ms</span>
+      </div>
+      <div class="meter-bg">
+        <div class="ball-fill" id="__ID__-ball-fill">
+          <div class="ball-indicator">Impact (238 ms)</div>
+        </div>
+      </div>
+      <div style="margin-top: 14px; display:flex; justify-content:space-between; font: 600 18px sans-serif; color: #94A3B8;">
+        <span>0 ms: Opponent Contact</span>
+        <span>100 ms: Crossing Net</span>
+        <span style="color: #EF4444; font-weight: 700;">238 ms: Hits Your Kitchen Line</span>
+      </div>
+    </div>
+
+    <!-- Bottom Card: Human Neural Processing -->
+    <div class="track-card card-bottom" id="__ID__-card-bottom">
+      <div class="track-h" style="color: #38BDF8;">
+        <span>Unprepared Human Visual-Motor Loop</span>
+        <span style="color: #EF4444;">Total Delay: 495 ms</span>
+      </div>
+
+      <!-- Segmented Bar -->
+      <div class="neural-breakdown" id="__ID__-nblocks">
+        <div class="n-block" style="flex: 50; background: #3B82F6;">
+          <span class="nb-label">Sensory</span>
+          <span class="nb-val">50ms</span>
+        </div>
+        <div class="n-block" style="flex: 100; background: #8B5CF6;">
+          <span class="nb-label">Visual Cortex</span>
+          <span class="nb-val">100ms</span>
+        </div>
+        <div class="n-block" style="flex: 150; background: #EC4899;">
+          <span class="nb-label">Motor Selection</span>
+          <span class="nb-val">150ms</span>
+        </div>
+        <div class="n-block" style="flex: 45; background: #F97316;">
+          <span class="nb-label">Spine & EMD</span>
+          <span class="nb-val">45ms</span>
+        </div>
+        <div class="n-block" style="flex: 150; background: #EF4444;">
+          <span class="nb-label">Paddle Stroke</span>
+          <span class="nb-val">150ms</span>
+        </div>
+      </div>
+
+      <!-- Collision Marker -->
+      <div class="collision-line" id="__ID__-col-line">
+        <div class="collision-badge">Ball Arrives: 238 ms</div>
+      </div>
+
+      <!-- Explanation Status Box -->
+      <div class="status-box" id="__ID__-status">
+        <div class="status-title">The Physiological Verdict</div>
+        <div class="status-desc">
+          When the ball hits your chest at <strong>238 ms</strong>, your brain is still in the middle of choosing a motor program. You have not even sent the nerve impulse down your arm. Reacting to ball flight is mathematically impossible.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-top", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5 }, 0.3);
+  tl.fromTo("#__ID__-ball-fill", { scaleX: 0 }, { scaleX: 1, duration: 0.8, ease: "power2.out" }, 0.6);
+
+  tl.fromTo("#__ID__-card-bottom", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5 }, Math.min(1.8, D * 0.35));
+  tl.fromTo("#__ID__-nblocks .n-block", { opacity: 0, scale: 0.8 }, { opacity: 1, scale: 1, duration: 0.4, stagger: 0.15 }, Math.min(2.2, D * 0.45));
+  tl.fromTo("#__ID__-col-line", { opacity: 0, scaleY: 0 }, { opacity: 1, scaleY: 1, duration: 0.5, ease: "back.out(2)" }, Math.min(3.2, D * 0.65));
+  tl.fromTo("#__ID__-status", { opacity: 0, y: 15 }, { opacity: 1, y: 0, duration: 0.4 }, Math.min(3.6, D * 0.75));
+
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

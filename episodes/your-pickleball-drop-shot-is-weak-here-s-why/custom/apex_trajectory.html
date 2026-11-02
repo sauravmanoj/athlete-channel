@@ -1,0 +1,115 @@
+<!-- Custom hero scene: The Parabolic Apex Physics (Tape Peak vs Player-Side Peak) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; left:120px; right:120px; height:360px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-top { top:150px; }
+    #__ID__-root .card-bot { top:540px; }
+    #__ID__-root .card-header { position:absolute; top:20px; left:36px; right:36px; display:flex; justify-content:space-between; align-items:center; }
+    #__ID__-root .card-header-left { display:flex; align-items:center; gap:16px; }
+    #__ID__-root .tag-pill { padding:6px 18px; border-radius:12px; font:800 22px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .tag-bad { background:#FEE2E2; color:var(--bad); }
+    #__ID__-root .tag-good { background:#DCFCE7; color:var(--good); }
+    #__ID__-root .card-title { font:800 30px var(--display); color:var(--ink); text-transform:uppercase; }
+    #__ID__-root .verdict-tag { font:900 22px var(--display); padding:8px 20px; border-radius:14px; text-transform:uppercase; }
+    #__ID__-root .verdict-bad { background:var(--bad); color:#fff; }
+    #__ID__-root .verdict-good { background:var(--good); color:#fff; }
+
+    #__ID__-root .court-diagram { position:absolute; top:80px; left:36px; right:36px; height:240px; }
+    #__ID__-root .metric-pill { font:800 18px var(--sans); padding:4px 12px; border-radius:8px; background:#F1F5F9; border:2px solid var(--ink); display:inline-block; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:45px;text-align:center">The parabolic apex rule</div>
+
+  <!-- Top Card: The Amateur Trap (Apex On Net Tape) -->
+  <div class="card-box card-top" id="__ID__-card-a">
+    <div class="card-header">
+      <div class="card-header-left">
+        <div class="tag-pill tag-bad">Amateur Trap</div>
+        <div class="card-title">Apex Over Net Tape (Floating Ball)</div>
+      </div>
+      <div class="verdict-tag verdict-bad">Sails Deep → Opponent Smash</div>
+    </div>
+    <div class="court-diagram">
+      <svg width="100%" height="100%" viewBox="0 0 1600 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Court Floor -->
+        <line x1="50" y1="200" x2="1550" y2="200" stroke="#1E293B" stroke-width="4"/>
+        <!-- Baseline Marker -->
+        <line x1="100" y1="180" x2="100" y2="200" stroke="#64748B" stroke-width="3"/>
+        <text x="100" y="225" font-family="var(--sans)" font-weight="700" font-size="16" fill="#64748B" text-anchor="middle">BASELINE</text>
+        <!-- Net Marker -->
+        <rect x="795" y="90" width="10" height="110" fill="#0F172A" rx="4"/>
+        <line x1="780" y1="90" x2="820" y2="90" stroke="#EF4444" stroke-width="6"/>
+        <text x="800" y="75" font-family="var(--display)" font-weight="800" font-size="18" fill="#EF4444" text-anchor="middle">NET (34")</text>
+        <!-- Kitchen Line (Opponent) -->
+        <line x1="1150" y1="170" x2="1150" y2="200" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6 6"/>
+        <text x="1150" y="225" font-family="var(--sans)" font-weight="700" font-size="16" fill="#64748B" text-anchor="middle">7 FT KITCHEN LINE</text>
+        <text x="975" y="190" font-family="var(--sans)" font-weight="800" font-size="15" fill="#CBD5E1" text-anchor="middle">NVZ (KITCHEN)</text>
+
+        <!-- Trajectory Path (Apex on net) -->
+        <path d="M 120 180 Q 800 60 1350 180" stroke="#EF4444" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <!-- Apex Highlight -->
+        <circle cx="800" cy="90" r="12" fill="#DC2626" stroke="#fff" stroke-width="4"/>
+        <rect x="730" y="25" width="140" height="32" rx="8" fill="#FEE2E2" stroke="#EF4444" stroke-width="2"/>
+        <text x="800" y="47" font-family="var(--sans)" font-weight="800" font-size="15" fill="#B91C1C" text-anchor="middle">APEX ON TAPE</text>
+
+        <!-- Landing zone marker -->
+        <circle cx="1350" cy="180" r="14" fill="#EF4444"/>
+        <text x="1350" y="160" font-family="var(--display)" font-weight="900" font-size="18" fill="#DC2626" text-anchor="middle">OUT / POP-UP</text>
+      </svg>
+    </div>
+  </div>
+
+  <!-- Bottom Card: Elite Execution (Apex On Player Side) -->
+  <div class="card-box card-bot" id="__ID__-card-b">
+    <div class="card-header">
+      <div class="card-header-left">
+        <div class="tag-pill tag-good">Elite Rule</div>
+        <div class="card-title">Apex On Your Side (Gravity Descent)</div>
+      </div>
+      <div class="verdict-tag verdict-good">Clears Net → Drops Below Knees</div>
+    </div>
+    <div class="court-diagram">
+      <svg width="100%" height="100%" viewBox="0 0 1600 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Court Floor -->
+        <line x1="50" y1="200" x2="1550" y2="200" stroke="#1E293B" stroke-width="4"/>
+        <!-- Baseline Marker -->
+        <line x1="100" y1="180" x2="100" y2="200" stroke="#64748B" stroke-width="3"/>
+        <text x="100" y="225" font-family="var(--sans)" font-weight="700" font-size="16" fill="#64748B" text-anchor="middle">BASELINE</text>
+        <!-- Net Marker -->
+        <rect x="795" y="90" width="10" height="110" fill="#0F172A" rx="4"/>
+        <line x1="780" y1="90" x2="820" y2="90" stroke="#10B981" stroke-width="6"/>
+        <text x="800" y="52" font-family="var(--display)" font-weight="800" font-size="18" fill="#10B981" text-anchor="middle">NET (34")</text>
+        <!-- Kitchen Line (Opponent) -->
+        <line x1="1150" y1="170" x2="1150" y2="200" stroke="#94A3B8" stroke-width="3" stroke-dasharray="6 6"/>
+        <text x="1150" y="225" font-family="var(--sans)" font-weight="700" font-size="16" fill="#64748B" text-anchor="middle">7 FT KITCHEN LINE</text>
+        <rect x="805" y="100" width="345" height="100" fill="#DCFCE7" opacity="0.4"/>
+        <text x="930" y="190" font-family="var(--sans)" font-weight="800" font-size="15" fill="#047857" text-anchor="middle">TARGET KITCHEN ZONE</text>
+
+        <!-- Trajectory Path (Apex 3 ft before net) -->
+        <path d="M 120 180 C 400 40, 650 40, 795 80 C 880 105, 960 150, 1020 195" stroke="#10B981" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <!-- Apex Highlight (on player's side) -->
+        <circle cx="580" cy="50" r="12" fill="#059669" stroke="#fff" stroke-width="4"/>
+        <rect x="470" y="10" width="220" height="32" rx="8" fill="#DCFCE7" stroke="#10B981" stroke-width="2"/>
+        <text x="580" y="32" font-family="var(--sans)" font-weight="800" font-size="15" fill="#065F46" text-anchor="middle">APEX 3 FT BEFORE NET</text>
+
+        <!-- Landing zone marker -->
+        <circle cx="1020" cy="195" r="14" fill="#10B981"/>
+        <text x="1035" y="135" font-family="var(--display)" font-weight="900" font-size="18" fill="#059669" text-anchor="middle">SOFT KITCHEN BOUNCE</text>
+      </svg>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.4);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, Math.max(1.5, D * 0.45));
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

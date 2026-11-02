@@ -1,0 +1,186 @@
+<!-- Custom Hero Scene: The Traffic Light Attack System (Red vs Green Launch Trajectories) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080" style="background:#EEF0F5; overflow:hidden;">
+  <style>
+    #__ID__-root .tl-title {
+      position: absolute;
+      top: 60px;
+      left: 100px;
+      font: 800 52px var(--display, 'Oswald', sans-serif);
+      color: #1C2140;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    #__ID__-root .tl-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 8px;
+      background: #E8423A;
+      color: #fff;
+      font-size: 34px;
+      margin-left: 20px;
+      vertical-align: middle;
+    }
+    #__ID__-root .court-svg {
+      position: absolute;
+      left: 100px;
+      top: 170px;
+      width: 1720px;
+      height: 820px;
+    }
+    #__ID__-root .card {
+      position: absolute;
+      padding: 24px 28px;
+      border-radius: 16px;
+      box-shadow: 0 12px 32px rgba(28,33,64,0.08);
+      border: 4px solid #1C2140;
+      background: #FFFFFF;
+    }
+    #__ID__-root .card-red {
+      left: 120px;
+      top: 220px;
+      width: 460px;
+      border-color: #EF4444;
+    }
+    #__ID__-root .card-green {
+      left: 120px;
+      top: 520px;
+      width: 460px;
+      border-color: #10B981;
+    }
+    #__ID__-root .card-h {
+      font: 700 32px var(--display, 'Oswald', sans-serif);
+      text-transform: uppercase;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    #__ID__-root .card-sub {
+      font: 500 22px var(--font-body, system-ui, sans-serif);
+      color: #475569;
+      line-height: 1.4;
+    }
+    #__ID__-root .stat-callout {
+      font: 800 28px var(--display, 'Oswald', sans-serif);
+      margin-top: 12px;
+      padding-top: 10px;
+      border-top: 2px dashed #E2E8F0;
+    }
+  </style>
+
+  <div class="tl-title" id="__ID__-title">
+    The Kitchen Traffic Light Rule
+    <span class="tl-badge" id="__ID__-badge">Physics of Net Contact</span>
+  </div>
+
+  <!-- Cards -->
+  <div class="card card-red" id="__ID__-card-red">
+    <div class="card-h" style="color: #EF4444;">
+      <span style="display:inline-block;width:24px;height:24px;border-radius:50%;background:#EF4444;"></span>
+      Red Light (Below 34" Tape)
+    </div>
+    <div class="card-sub">
+      Contact point is below net level. Geometry physically forces an <strong>upward launch (+10° to +20°)</strong> directly into the opponent's strike zone.
+    </div>
+    <div class="stat-callout" style="color: #EF4444;">
+      70%+ Counter-Attack Defeat Rate
+    </div>
+  </div>
+
+  <div class="card card-green" id="__ID__-card-green">
+    <div class="card-h" style="color: #10B981;">
+      <span style="display:inline-block;width:24px;height:24px;border-radius:50%;background:#10B981;"></span>
+      Green Light (Above Net Tape)
+    </div>
+    <div class="card-sub">
+      High floaters and floating popups above 34". Grants an open <strong>downward attack vector (-15°)</strong> into the opponent's feet.
+    </div>
+    <div class="stat-callout" style="color: #10B981;">
+      High-Percentage Putaway Zone
+    </div>
+  </div>
+
+  <!-- SVG Court Trajectory Diagram -->
+  <svg class="court-svg" viewBox="0 0 1720 820" fill="none">
+    <defs>
+      <marker id="arrow-red" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 1 L 10 5 L 0 9 z" fill="#EF4444" />
+      </marker>
+      <marker id="arrow-green" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+        <path d="M 0 1 L 10 5 L 0 9 z" fill="#10B981" />
+      </marker>
+    </defs>
+
+    <!-- Ground Baseline & Kitchen Line -->
+    <line x1="620" y1="720" x2="1680" y2="720" stroke="#1C2140" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Kitchen Line Marker (7 ft from net) -->
+    <line x1="880" y1="700" x2="880" y2="740" stroke="#F2913D" stroke-width="5"/>
+    <text x="880" y="775" font-family="Oswald, sans-serif" font-size="22" font-weight="700" fill="#F2913D" text-anchor="middle">YOUR KITCHEN LINE (7 FT)</text>
+
+    <!-- Center Net -->
+    <rect x="1140" y="440" width="16" height="280" fill="#1C2140" rx="4"/>
+    <line x1="1100" y1="440" x2="1196" y2="440" stroke="#E8423A" stroke-width="8" stroke-linecap="round"/>
+    <line x1="1148" y1="360" x2="1148" y2="430" stroke="#E8423A" stroke-width="2" stroke-dasharray="4 4"/>
+    <text x="1148" y="350" font-family="Oswald, sans-serif" font-size="24" font-weight="800" fill="#E8423A" text-anchor="middle">NET TAPE (34")</text>
+
+    <!-- Opponent Kitchen Line Marker -->
+    <line x1="1420" y1="700" x2="1420" y2="740" stroke="#475569" stroke-width="5"/>
+    <text x="1420" y="775" font-family="Oswald, sans-serif" font-size="22" font-weight="700" fill="#475569" text-anchor="middle">OPPONENT KITCHEN (7 FT)</text>
+
+    <!-- Opponent Paddle Shield Target -->
+    <g id="__ID__-opp-shield">
+      <rect x="1420" y="320" width="12" height="90" rx="6" fill="#1C2140" transform="rotate(-15 1420 320)"/>
+      <circle cx="1420" cy="270" r="26" fill="#F2913D" stroke="#1C2140" stroke-width="4"/>
+      <rect x="1395" y="380" width="50" height="150" rx="10" fill="#1C2140"/>
+      <text x="1450" y="350" font-family="Oswald, sans-serif" font-size="22" font-weight="800" fill="#EF4444">OPPONENT CHEST SHIELD</text>
+    </g>
+
+    <!-- RED LIGHT TRAJECTORY (Upward launch, punished) -->
+    <g id="__ID__-red-path-group">
+      <!-- Contact point below tape (y=580) -->
+      <circle cx="860" cy="580" r="14" fill="#EF4444" stroke="#fff" stroke-width="4"/>
+      <text x="830" y="620" font-family="Oswald, sans-serif" font-size="22" font-weight="700" fill="#EF4444" text-anchor="end">Low Contact (18")</text>
+
+      <!-- Upward arc over net directly into opponent chest -->
+      <path id="__ID__-red-arc" d="M 860 580 Q 1060 410 1410 340" fill="none" stroke="#EF4444" stroke-width="6" stroke-dasharray="10 8"/>
+      
+      <!-- Counter smash arrow downward -->
+      <path d="M 1410 340 L 980 710" fill="none" stroke="#EF4444" stroke-width="6" marker-end="url(#arrow-red)"/>
+      <text x="1450" y="395" font-family="Oswald, sans-serif" font-size="20" font-weight="800" fill="#EF4444">DOWNWARD COUNTER SMASH</text>
+    </g>
+
+    <!-- GREEN LIGHT TRAJECTORY (Downwards putaway) -->
+    <g id="__ID__-green-path-group">
+      <!-- High contact point above tape (y=320) -->
+      <circle cx="860" cy="320" r="14" fill="#10B981" stroke="#fff" stroke-width="4"/>
+      <text x="830" y="330" font-family="Oswald, sans-serif" font-size="22" font-weight="700" fill="#10B981" text-anchor="end">High Contact (48")</text>
+      <text x="860" y="270" font-family="Oswald, sans-serif" font-size="22" font-weight="800" fill="#10B981" text-anchor="middle">DOWNWARD ATTACK ANGLE (-18°)</text>
+
+      <!-- Direct downward kill shot -->
+      <line x1="860" y1="320" x2="1520" y2="710" stroke="#10B981" stroke-width="6" stroke-dasharray="8 6" marker-end="url(#arrow-green)"/>
+    </g>
+  </svg>
+</div>
+
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+
+  // Title and Cards intro
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -25 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-red", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5 }, 0.4);
+  tl.fromTo("#__ID__-red-path-group", { opacity: 0 }, { opacity: 1, duration: 0.6 }, 0.7);
+
+  // Transition to Green Light analysis
+  tl.fromTo("#__ID__-card-green", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5 }, Math.min(2.5, D * 0.45));
+  tl.fromTo("#__ID__-green-path-group", { opacity: 0 }, { opacity: 1, duration: 0.6 }, Math.min(2.8, D * 0.5));
+
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

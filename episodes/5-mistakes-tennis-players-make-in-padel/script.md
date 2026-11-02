@@ -1,0 +1,111 @@
+# 5 mistakes tennis players make in padel
+Promise: unlearn the 5 ingrained tennis habits that sabotage your padel game, master the physics of the glass, and dominate the net
+Framework: five transition mistakes (power trap, lob misunderstanding, baseline camping, wall panic, big swings & smashes)
+
+## Hook
+You step onto a padel court with fifteen years of tennis experience and a heavy serve. [S14]
+Ten minutes in, you are losing to two recreational players who barely look athletic. [S1][S8]
+Every time you crush a forehand, they smile and tap an easy winner into an open court. [S7][S15]
+Your tennis instincts are actively sabotaging your game. [S1][S7]
+Today, I will show you the five tennis habits killing your progress, the physics behind them, and how to fix them. [S2][S7][S15]
+
+## The 5 transition traps
+Padel looks like tennis in a glass box, but tactically, it is almost the exact opposite. [S1][S10][S14]
+In tennis, hitting hard into open court ends the point. [S16]
+In padel, hitting hard against the glass feeds your opponent an easy counter. [S7]
+In tennis, the baseline is home. In padel, camping back there is a statistical death sentence. [S1][S8][S16]
+To unlock your skills, you must unlearn five habits: the power trap, the lob misunderstanding, baseline camping, wall panic, and large looping swings. [S1][S3][S7][S10][S15]
+Master these five shifts, and your tennis background becomes an unfair advantage. [S1][S2][S15]
+
+## Mistake 1: The power trap
+In tennis, hitting hard and deep wins points because the court ends at the baseline. [S16]
+In padel, the court ends in 10-millimeter tempered glass. [S14]
+Tempered glass returns up to 70 percent of incoming ball speed back into the court. [S7]
+When you blast a flat drive or smash, the ball hits the turf, slams the back glass, and rebounds waist-high into the court. [S7][S15]
+You served an easy sitter to two waiting opponents. [S2][S7]
+Topspin makes it worse: it grips the vertical glass and kicks upward into an easy kill. [S7]
+Crushing the ball into the glass is like throwing a rubber ball at a brick fireplace; it ricochets straight back at you. [S7]
+In one study of pro finals, smashes made up only 12 percent of attacking shots—and flat smashes were only a fraction of those. [S2]
+Volleys account for roughly 65 percent of attacking shots, and slice bandejas make up 23 percent. [S2]
+The fix is the low-rebound rule: keep groundstrokes at 60 to 70 percent pace with heavy underspin. [S2][S15]
+Slice bites the glass and dies downward onto the turf. [S7][S15]
+Train the Glass Rebound Gauge drill: hit baseline slice drives so the glass rebound bounces twice before the service line. [S7][S14]
+Do 4 sets of 10 reps on each side, resting 60 seconds. [S7]
+
+## Mistake 2: The lob misunderstanding
+In tennis, the lob is a defensive bail-out when stretched wide. [S3][S15]
+In padel, the lob is the single most important offensive weapon in the sport. [S3][S4]
+Match data shows players choose the lob in over 60 percent of successful transitions from defense to offense. [S3]
+A padel court is only 10 meters wide, guarded by two net players. [S14]
+Blasting passing shots gives them easy reflex volleys, and missed balls rebound off the glass anyway. [S2][S7]
+A high lob stays airborne for 3 seconds, giving you and your partner time to sprint forward and steal the net. [S3][S6][S7]
+A padel lob is like castling in chess: it evicts opponents from the high ground and flips court control. [S3]
+The fix is the high-arc baseline eviction. Bend your knees, tilt the paddle face up 20 degrees, and lift with your legs and shoulder instead of flicking your wrist. [S10][S15]
+Aim deep, between the service line and the back glass. [S3][S15]
+Practice the Lob Target Box drill: mark a 2-meter box in the back corner and hit high lobs off fed volleys. [S3][S15]
+Do 4 sets of 12 reps, resting 45 seconds. [S3]
+Then run the Lob and Charge drill: lob deep, and the instant it clears the net players, call your lanes and sprint forward to lock in at the 3-meter net line together. [S3][S6]
+
+## Mistake 3: Baseline camping
+Modern tennis is dominated by baseline rallies, with players contesting over 75 to 80 percent of points from behind the baseline. [S16]
+In padel, staying back destroys your win rate. [S1][S8]
+Over 80 percent of all points in padel are won by the team occupying the net. [S1][S8]
+Winning pairs attack in 85 percent of points, while losing pairs attack in barely half. [S2]
+Staying back surrenders 70 percent of the court geometry to your opponents. [S1][S14]
+Worse, if one partner rushes forward while the other camps back, you open a huge diagonal channel down the middle. [S5][S6]
+Camping on the baseline is like packing all eleven soccer players inside your own penalty box; you cannot score from there. [S1]
+The fix is the 3-meter net lock: position yourself 2.5 to 3 meters behind the net cord. [S1][S14]
+This sweet spot lets you intercept volleys above net level while leaving room to backpedal for lobs. [S1][S15]
+Train the Invisible Rope drill: connect yourselves with an imaginary 3-meter cord during shadow footwork or mirror rallies without physical tethering. [S6][S15]
+When one moves forward, both move forward; when one retreats, both retreat. [S6][S15]
+Do 3 sets of 5-minute continuous rallies, resting 90 seconds. [S6]
+
+## Mistake 4: Wall panic
+In tennis, if the ball gets behind you, the point is over. [S14]
+When a fast ball travels deep toward the corners, tennis players panic and try awkward half-volleys off their shoelaces. [S7][S15]
+In padel, the back glass is your ultimate ally. [S7][S14]
+When a fast ball passes you, letting it strike the turf and glass absorbs its forward momentum. [S7]
+The ball rebounds forward into your strike zone at a slower, manageable speed. [S7][S14]
+By the law of reflection, the angle of entry matches the angle of exit. [S7]
+Tennis players get trapped because they face the net and backpedal straight back, sandwiching themselves against the wall. [S14][S15]
+Fighting the glass is like trying to jump through a revolving door at full sprint. Step aside, let it turn, and walk through smoothly. [S7]
+The fix is to open the door. The moment the ball crosses the service line, rotate your shoulders 90 degrees sideways. [S14][S15]
+Let the ball pass your hips, bounce off the glass, and strike it on its forward path out in front. [S14][S15]
+Train the Catch and Hit Glass drill: without a racket, have a partner feed deep balls into the back corner. [S7]
+Turn sideways, let the ball bounce on the turf, strike the glass, and catch it in front of your hip. [S7][S15]
+Do 2 sets of 10 catches on each side, then hit 4 sets of 12 slice drives off the rebound. [S7][S15]
+
+## Mistake 5: Big tennis swings and the missing bandeja
+This is the most dangerous mistake for a tennis player, both for your score and your body. [S10][S11]
+Tennis players use huge, looping backswings to generate topspin. [S10][S15]
+Padel points average 10 to 15 seconds with rapid exchanges. [S9]
+A big backswing means your racket is still traveling backward when the ball arrives, forcing late contact and wrist flicking. [S10]
+A padel racket is a solid composite plate with no strings to absorb vibration. [S10][S14]
+Striking off-center with a loose wrist sends harsh impact shocks straight into your forearm extensor tendon. [S10][S12]
+Lateral epicondylitis, or padel elbow, accounts for over 20 percent of all padel injuries. [S11][S12]
+And when tennis players jump for high balls with a tennis service motion, violent internal shoulder rotation pinches the rotator cuff, causing 15 percent of injuries. [S10][S11][S13]
+Playing padel with a tennis swing is like driving an 18-wheel truck through an indoor go-kart track; the turning radius is too wide. [S10]
+The fix has two parts: the compact punch volley and the bandeja. [S10][S15]
+Use a continental hammer grip for 80 percent of your shots. [S10][S15]
+On volleys, never let the racket head travel behind your lead shoulder. Turn your chest, step forward, and punch down with slice. [S10][S15]
+On overheads, replace the flat smash with the bandeja. [S2][S15]
+Set your racket up like a tray at ear height with an open face. [S15]
+Slice across the bottom of the ball and finish wrapping your racket around your neck like a scarf. [S15]
+The bandeja keeps your elbow bent, drastically reduces shoulder impingement stress, and keeps the ball low off the back glass. [S2][S12][S15]
+Practice the Wall Behind the Back drill: stand 30 to 40 centimeters in front of the wall and start with shadow swings or soft hand feeds. If your racket clips the wall on your takeback, reset. [S10][S15]
+Progress to 4 sets of 15 compact volleys. [S10]
+If you ever feel burning pain in your outer elbow or sharp catching in your shoulder, stop and consult a sports physiotherapist. [S10][S12]
+
+## Your transition plan
+Here is how to reprogram your tennis muscle memory over the next 4 weeks. [S1][S2][S10]
+In week 1, eliminate the flat power smash, cap your overhead volume, and play all overheads as controlled bandejas at 60 percent speed. [S2][S12][S15]
+In week 2, master the lob: hit at least 5 deep lobs per set to push opponents off the net. [S3][S6]
+In week 3, implement the 3-meter net rule and tandem movement with your partner. [S1][S6]
+In week 4, drill the Catch and Hit off the back glass until wall rebounds feel automatic. [S7][S15]
+To protect your elbow, use a round racket with a soft foam core and add an extra overgrip to reduce forearm strain. [S10][S12][S13]
+
+## Close
+Padel is not mini-tennis; it is tactical chess on a glass board. [S1][S7][S14]
+Stop fighting the glass, stop smashing from deep, and start owning the net. [S1][S7]
+The next time you walk onto the court, your tennis skills will finally work for you, not against you. [S1][S2]
+All sources are cited in the description below. [S1]

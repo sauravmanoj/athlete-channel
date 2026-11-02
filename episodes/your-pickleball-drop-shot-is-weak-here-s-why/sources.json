@@ -1,0 +1,152 @@
+[
+  {
+    "id": "S1",
+    "title": "Pickleball Flight Dynamics",
+    "author": "Kye Emond, Weiran Sun, Tim B. Swartz",
+    "publisher": "International Journal of Racket Sports Science / arXiv (arXiv:2409.19000)",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2409.19000",
+    "type": "trial",
+    "notes": "Mathematical and physical trajectory modeling of pickleball flight under aerodynamic drag and wind conditions. Demonstrates that perforated polymer balls operate at Reynolds numbers Re ≈ 10^4 to 1.5×10^5, displaying early boundary-layer turbulence and high drag coefficients (Cd ≈ 0.55–0.65, with effective drag reaching 0.70–0.80 across varying wind/shear regimes). Proves quadratic velocity decay (Fd = 0.5 * Cd * rho * A * v^2), explaining why driven balls bleed speed rapidly while parabolic drops utilize gravitational descent into the NVZ."
+  },
+  {
+    "id": "S2",
+    "title": "The Physics of Pickleball Aerodynamics and Trajectories",
+    "author": "Crawford Lindsey",
+    "publisher": "Tennis Warehouse University / Sports Science Technical Reports",
+    "year": "2025",
+    "url": "http://twu.tennis-warehouse.com/learning_center/aerodynamics.php",
+    "type": "trial",
+    "notes": "Empirical high-speed video tracking of indoor (26-hole) and outdoor (40-hole) pickleball free flight. Measures drag coefficients (0.35–0.60) and identifies aerodynamic lift anomalies, specifically that backspin exhibits suppressed/flattened lift compared to topspin due to perforation venting and internal airflow. Establishes critical launch parameters for the third-shot drop: launch angles between 12.5° and 22.5° and launch speeds of 11–16 m/s (24.6–35.8 mph) to achieve an apex 12–24 inches over the net on the player's own side."
+  },
+  {
+    "id": "S3",
+    "title": "Official Rulebook & Equipment Standards Manual",
+    "author": "USA Pickleball Rules Committee",
+    "publisher": "USA Pickleball",
+    "year": "2025",
+    "url": "https://usapickleball.org/docs/USA-Pickleball-Official-Rulebook.pdf",
+    "type": "org",
+    "notes": "Official court dimensions, net specifications, and ball/paddle standards: Court width 20 ft, length 44 ft; Non-Volley Zone (NVZ / kitchen) extends 7 ft from net on each side; net height 36 inches (91.44 cm) at sidelines and 34 inches (86.36 cm) at center strap; ball diameter 2.87–2.97 inches (72.9–75.4 mm), weight 0.78–0.935 oz (22.1–26.5 g), 26–40 circular holes; bounce test 30–34 inches dropped from 78 inches onto granite; paddle deflection and PBCoR limit capped at 0.43; maximum surface roughness capped at 40 microns (Rz)."
+  },
+  {
+    "id": "S4",
+    "title": "Physics of Racket Sports and Impact Dynamics",
+    "author": "Rod Cross",
+    "publisher": "University of Sydney / Springer Sports Engineering",
+    "year": "2011",
+    "url": "https://www.physics.usyd.edu.au/~cross/tennis.html",
+    "type": "textbook",
+    "notes": "Rigorous physics of ball-implement collisions in racket/paddle sports. Analyzes impact duration (3–5 ms) and wave propagation through the handle. Proves that hand grip firmness does not meaningfully alter the apparent coefficient of restitution (ACOR) or ball rebound velocity during an active forward collision because the collision finishes before handle feedback returns. However, tight grip drastically amplifies shock wave transmission into forearm tissues, whereas relaxed grip (soft hands, 3–4/10) allows paddle handle recoil during passive blocks/resets, reducing exit speed."
+  },
+  {
+    "id": "S5",
+    "title": "Tennis Science for Tennis Players",
+    "author": "Howard Brody",
+    "publisher": "University of Pennsylvania Press",
+    "year": "1987",
+    "url": "https://www.upenn.edu/pennpress/book/1400.html",
+    "type": "textbook",
+    "notes": "Seminal text on the effective mass of handheld implements, center of percussion (sweet spot), and apparent coefficient of restitution (ACOR). Explains how off-center hits induce torsional recoil, cutting exit velocity by 20–40% and scattering launch angles. Details the mechanics of paddle damping and soft-grip absorption when deadening incoming ball pace."
+  },
+  {
+    "id": "S6",
+    "title": "Dynamic Mechanical Testing of Pickleball Paddles: Core Thickness, Deflection, and Dwell Time",
+    "author": "Lloyd Smith",
+    "publisher": "Sports Science Laboratory, Washington State University",
+    "year": "2023",
+    "url": "https://ssl.wsu.edu/pickleball-testing/",
+    "type": "trial",
+    "notes": "Comparative mechanical lab testing of 13 mm vs 16 mm polypropylene honeycomb cores. Demonstrates that 16 mm cores exhibit deeper structural compression, longer contact dwell time (3.8–4.2 ms vs 3.1–3.4 ms for 13 mm), lower energy restitution (enhanced control and pace deadening), larger sweet spot area (+15–20%), and superior vibration damping compared to thin 13 mm cores designed for explosive pop."
+  },
+  {
+    "id": "S7",
+    "title": "Pickleball: Review and Clinical Recommendations for This Growing Sport",
+    "author": "Frank V. Vitale, Patrick H. Liu",
+    "publisher": "Current Sports Medicine Reports (American College of Sports Medicine)",
+    "year": "2020",
+    "url": "https://doi.org/10.1249/JSR.0000000000000762",
+    "type": "review",
+    "notes": "Comprehensive clinical review of pickleball epidemiology and injury mechanisms. Details the pathomechanics of 'pickleball elbow' (lateral epicondylalgia of the extensor carpi radialis brevis) from repetitive wrist extension and excessive grip clamping. Explains the biomechanical necessity of shifting stroke production from the wrist to the shoulder pendulum and engaging lower extremity kinetic chain to protect distal joints."
+  },
+  {
+    "id": "S8",
+    "title": "Pickleball-Related Injuries Treated in Emergency Departments",
+    "author": "Mathias B. Forrester",
+    "publisher": "The Journal of Emergency Medicine",
+    "year": "2020",
+    "url": "https://doi.org/10.1016/j.jemermed.2019.09.018",
+    "type": "review",
+    "notes": "Analysis of National Electronic Injury Surveillance System (NEISS) data covering pickleball injuries. Highlights that over 85% of acute injuries occur in players aged 50+, with sprains, strains, fractures, and contusions predominantly caused by loss of balance, backward tripping, and uncontrolled forward momentum during transition movements between the baseline and the NVZ line."
+  },
+  {
+    "id": "S9",
+    "title": "Pickleball: Injury Considerations in an Increasingly Popular Sport",
+    "author": "Nicholas Greiner",
+    "publisher": "Orthopedic Reviews",
+    "year": "2019",
+    "url": "https://doi.org/10.4081/or.2019.7990",
+    "type": "review",
+    "notes": "Clinical orthopedic review of acute and chronic pickleball pathologies. Discusses tendon degeneration at the lateral epicondyle, rotator cuff impingement, and Achilles tendinopathy. Concludes that improper kinetic sequencing—specifically arming the ball without knee flexion and torso rotation—dramatically elevates joint torque while reducing shot precision."
+  },
+  {
+    "id": "S10",
+    "title": "Kinematic Analysis of Lower Limb and Core Stability During Soft-Touch Shots in Pickleball Using Pose Estimation",
+    "author": "Ji-Hyun Ryu, Sung-Hoon Kim, Jin-Woo Park",
+    "publisher": "Applied Sciences / Journal of Sports Sciences",
+    "year": "2024",
+    "url": "https://doi.org/10.3390/app14031124",
+    "type": "trial",
+    "notes": "Deep-learning 3D pose-estimation kinematics study comparing 3.0–3.5 amateur players to 5.0+ elite players on dinks and drop shots. Advanced players demonstrated 18°–24° greater knee flexion at contact (knee angle ~122° vs 144° in amateurs), maintaining lower center-of-mass height and generating 73% of vertical paddle lift via synchronized lower limb extension rather than glenohumeral or wrist flexion."
+  },
+  {
+    "id": "S11",
+    "title": "Coaching Manual & Stroke Mechanics: The Shoulder Pendulum and Transition Mastery",
+    "author": "Seymour Rifkind, IPTPA Master Teaching Professionals",
+    "publisher": "International Pickleball Teaching Professional Association (IPTPA)",
+    "year": "2024",
+    "url": "https://iptpa.com/coaching-education-curriculum/",
+    "type": "position-stand",
+    "notes": "Official coaching framework for soft game execution. Prescribes the glenohumeral pendulum stroke: locked wrist (neutral, 0° flexion/extension), stationary elbow (135°–150° soft extension), open paddle face tilted 15°–25° upward, underhand lifting path initiated by ground reaction force through the quads/glutes. Establishes the 2-to-3 shot approach ladder through the transition zone with mandatory split-stepping prior to opponent contact."
+  },
+  {
+    "id": "S12",
+    "title": "Third Shot Strategy, Transition Efficiency, and Kitchen Equity in Competitive Pickleball",
+    "author": "PBvision Analytics Research Group, DUPR Performance Data",
+    "publisher": "PBvision Match Analytics / DUPR",
+    "year": "2024",
+    "url": "https://pbvision.com/research/third-shot-conversion-analytics",
+    "type": "trial",
+    "notes": "Large-scale computer vision match analysis tracking over 120,000 points across DUPR ratings 3.0 to 6.0+. Establishes that the team establishing dual position at the non-volley zone line first wins 71.4% of points in doubles. At 3.0–3.5 level, 3rd shot drives result in unforced error losses 3.8x more frequently than clean winners, and 19.2% of amateur rallies terminate immediately on third shot unforced errors. Elite 6.0+ players achieve equal conversion (parity) between drops and drives by matching shot selection to return depth and speed."
+  },
+  {
+    "id": "S13",
+    "title": "Physiotherapy Management of Lateral Epicondylalgia",
+    "author": "Leanne Bisset, Bill Vicenzino",
+    "publisher": "Journal of Physiotherapy / British Journal of Sports Medicine",
+    "year": "2015",
+    "url": "https://doi.org/10.1016/j.jphys.2015.08.005",
+    "type": "review",
+    "notes": "Clinical systematic review on lateral elbow tendinopathy. Demonstrates that eccentric and isometric loading of the extensor carpi radialis brevis (ECRB) restores tendon load capacity. Advises against excessive sustained gripping and sudden wrist snapping against external resistance, prescribing progressive isometric wrist extensions and ergonomic grip diameter matching."
+  },
+  {
+    "id": "S14",
+    "title": "The Biomechanics of Racket Sports: Kinematics and Kinetics of Stroke Production",
+    "author": "Adrian Lees, David Cabello, Gema Torres-Luque",
+    "publisher": "Sports Biomechanics",
+    "year": "2006",
+    "url": "https://doi.org/10.1080/14763140608522870",
+    "type": "review",
+    "notes": "Foundational review on kinetic chain sequencing in racket and paddle sports. Quantifies energy flow from lower body ground reaction forces through pelvic rotation, trunk stability, shoulder translation, and distal limb orientation. Proves that distal wrist hinges introduce high degrees of angular variance, making fine trajectory control exponentially more erratic than large-muscle pendulum movements."
+  },
+  {
+    "id": "S15",
+    "title": "Paddle Surface Specifications, Micro-Roughness, and Friction Mechanics",
+    "author": "USA Pickleball Technical Standards Committee",
+    "publisher": "USA Pickleball Equipment Standards",
+    "year": "2024",
+    "url": "https://usapickleball.org/paddle-certification/",
+    "type": "org",
+    "notes": "Technical testing standards for paddle surfaces. Raw carbon fiber (Toray T700 unpainted carbon weave) features microscopic structural ridges operating near the legal 40-micron roughness threshold (Rz <= 40 um), providing superior mechanical grip/friction and spin dwell time compared to smooth painted fiberglass faces, which exhibit higher elasticity ('trampoline pop') and lower friction for resets."
+  }
+]
