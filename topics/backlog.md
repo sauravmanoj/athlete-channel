@@ -64,19 +64,19 @@
   - Framework: 1) Ready position biomechanics (paddle tilt, compact lever arm, center of mass), 2) Visual anticipation & Quiet Eye (fixating on opponent paddle face and shoulder angle rather than ball flight), 3) The compact punch volley (eliminating the take-back), 4) Pre-contact split-step timing
   - Acting: Coach Ember in low kitchen stance, target lock gaze reticle on opponent paddle, slow-mo ball collision with paddle angle vector, reaction speed gauge
   - Demand: Fast-hands battles at the NVZ generate viral clips across YouTube and TikTok; amateurs struggle with getting jammed · Competition: Drill reels dominate; neuroscience and visual tracking explainer is uniquely differentiated
-- [ ] **5 mistakes killing your padel defense** — 27/30 — template: N-mistakes
+- [x] **5 mistakes killing your padel defense** — 27/30 — template: N-mistakes
   - Framework: 1) Turning late on corner balls, 2) Hugging the back glass instead of holding the service line defensive sweet spot, 3) Blasting flat shots into opponents at the net, 4) Forgetting the chiquita to opponents' feet to break net dominance, 5) Poor communication and positioning on balls down the middle
   - Acting: Coach Ember defending off the glass, court zone sweet spot highlighted in green/red, chiquita trajectory dipping over the net, partner communication bubble
   - Demand: Padel defense is deeply counterintuitive for beginners; tactical defense guides command strong watch time · Competition: Mostly Spanish-language or generic club vlogs; wide gap for English-language animated explainer
-- [ ] **How to never get tired in padel** — 27/30 — template: never-get-tired
+- [x] **How to never get tired in padel** — 27/30 — template: never-get-tired
   - Framework: 1) The padel metabolic profile: 5–10 second explosive bursts + 15–20 second rest intervals (ATP-PCr system dominance), 2) Eccentric braking fatigue from constant wall turns and rapid split steps, 3) Tactical energy conservation (deep defensive lobs to buy 4 seconds of heart-rate recovery), 4) Off-ball court gliding with your partner
   - Acting: Coach Ember high-speed rally → deep lob → slow recovery jog, battery gauge draining during wall rallies and refilling during lob flight, heart rate monitor
   - Demand: Direct sequel to the channel's hit badminton, football, and basketball stamina explainers; padel matches frequently last 90+ minutes in hot clubs · Competition: Minimal stamina-specific padel content online
-- [ ] **All padel wall rebounds explained** — 27/30 — template: all-explained
+- [x] **All padel wall rebounds explained** — 27/30 — template: all-explained
   - Framework: 1) Back glass rebound (angle of incidence = angle of reflection), 2) Side glass angles, 3) Double glass (side-to-back vs back-to-side rotation), 4) Wire fence unpredictable rebound management
   - Acting: Coach Ember tracking geometric bounce vectors, wall rotation animation, ball trajectory arcs, "open the door" turning drill
   - Demand: The hardest conceptual hurdle for any racket sport player entering padel · Competition: Live-action videos struggle to show overhead bounce geometry; custom animation is the gold standard medium for this
-- [ ] **The mental game of pickleball** — 26/30 — template: mental-game
+- [x] **The mental game of pickleball** — 26/30 — template: mental-game
   - Framework: 1) The target trap (what to do when opponents ice your partner and target you every point), 2) Patience threshold (why players force low-percentage speed-ups), 3) The 3-second between-point reset routine, 4) Closing out games at 9–9 without tightening up
   - Acting: Coach Ember under barrage of balls, breathing cycle graphic, patience gauge, target lock focus visualization
   - Demand: Mental collapse and impatience are universally discussed on pickleball forums and podcasts · Competition: Few visual explainers dissecting sports psychology for recreational pickleball players

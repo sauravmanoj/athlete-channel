@@ -18,3 +18,7 @@
 | 2026-11-01 | 5-mistakes-keeping-you-stuck-at-3-0-in-pickleball | 5 mistakes keeping you stuck at 3.0 in pickleball | 10:33 | awaiting review |
 | 2026-11-01 | your-padel-bandeja-is-weak-here-s-why | Your padel bandeja is weak (here's why) | 10:06 | awaiting review |
 | 2026-11-01 | how-to-react-faster-at-the-kitchen-line | How to react faster at the kitchen line | 11:18 | awaiting review |
+| 2026-11-03 | 5-mistakes-killing-your-padel-defense | 5 mistakes killing your padel defense | 10:20 | awaiting review |
+| 2026-11-04 | how-to-never-get-tired-in-padel | How to never get tired in padel | 8:53 | awaiting review |
+| 2026-11-04 | all-padel-wall-rebounds-explained | All padel wall rebounds explained | 10:14 | awaiting review |
+| 2026-11-05 | the-mental-game-of-pickleball | The mental game of pickleball | 9:26 | awaiting review |

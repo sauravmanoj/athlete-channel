@@ -1,0 +1,162 @@
+[
+  {
+    "id": "S1",
+    "title": "Brief structured respiration practices enhance mood and reduce physiological arousal",
+    "author": "Balban, M.Y.; Neri, E.; Kogon, M.M.; Weed, L.; Nouriani, B.; Jo, B.; Holl, G.; Zeitzer, J.M.; Spiegel, D.; Huberman, A.D.",
+    "publisher": "Cell Reports Medicine 4(1):100895",
+    "year": "2023",
+    "url": "https://doi.org/10.1016/j.xcrm.2022.100895",
+    "type": "trial",
+    "notes": "Randomized controlled trial (n=108) comparing cyclic sighing (physiological sigh: two rapid nasal inhales followed by prolonged oral exhalation), box breathing, cyclic hyperventilation, and mindfulness meditation over 28 days. Cyclic sighing produced the greatest acute reduction in physiological arousal, lowering respiratory rate, down-regulating sympathetic activation, and improving positive affect significantly faster than mindfulness meditation."
+  },
+  {
+    "id": "S2",
+    "title": "The role of explicit versus implicit knowledge in the breakdown of a complex motor skill under pressure",
+    "author": "Masters, R.S.W.",
+    "publisher": "British Journal of Psychology 83(3):343–358",
+    "year": "1992",
+    "url": "https://doi.org/10.1111/j.2044-8295.1992.tb02446.x",
+    "type": "trial",
+    "notes": "Introduced the Theory of Reinvestment. Under psychological pressure and anxiety, performers consciously attempt to monitor and control proceduralized, automated motor mechanics via explicit verbal knowledge. This regresses skilled performance to an early cognitive stage, fragmenting the kinetic chain and causing motor failure (choking)."
+  },
+  {
+    "id": "S3",
+    "title": "The theory of reinvestment",
+    "author": "Masters, R.S.W.; Maxwell, J.P.",
+    "publisher": "International Review of Sport and Exercise Psychology 1(2):160–183",
+    "year": "2008",
+    "url": "https://doi.org/10.1080/17509840802287218",
+    "type": "review",
+    "notes": "Comprehensive review of the Reinvestment Scale and conscious processing hypothesis across diverse sports. Demonstrates that performers with high conscious motor processing tendencies experience catastrophic breakdowns in fluid wrist/limb mechanics under acute competitive pressure."
+  },
+  {
+    "id": "S4",
+    "title": "Choking under pressure: self-consciousness and paradoxical failure of on-demand performance",
+    "author": "Baumeister, R.F.",
+    "publisher": "Journal of Personality and Social Psychology 46(3):610–620",
+    "year": "1984",
+    "url": "https://doi.org/10.1037/0022-3514.46.3.610",
+    "type": "trial",
+    "notes": "Seminal experimental paper defining choking as performance decrements under circumstances with high incentives for superior performance. Proved that competitive pressure induces heightened self-awareness and explicit attention to the process of performance, disrupting automated motor programs."
+  },
+  {
+    "id": "S5",
+    "title": "On the fragility of skilled performance: What governs choking under pressure in baseball batting and golf putting?",
+    "author": "Beilock, S.L.; Carr, T.H.",
+    "publisher": "Journal of Experimental Psychology: General 130(4):701–725",
+    "year": "2001",
+    "url": "https://doi.org/10.1037/0096-3445.130.4.701",
+    "type": "trial",
+    "notes": "Experimental validation of Explicit Monitoring Theory versus Distraction Theory. For well-learned, automated sensorimotor skills (putting, striking), performance breaks down when attention is focused internally on execution mechanics (explicit monitoring), whereas speed and external focus preserve automaticity."
+  },
+  {
+    "id": "S6",
+    "title": "Tactile communication, cooperation, and performance: An ethological study of the NBA",
+    "author": "Kraus, M.W.; Huang, C.; Keltner, D.",
+    "publisher": "Emotion 10(5):745–749",
+    "year": "2010",
+    "url": "https://doi.org/10.1037/a0019321",
+    "type": "trial",
+    "notes": "Ethological study analyzing touch behaviors (fist bumps, high-fives, chest bumps, arm embraces) across NBA teams. Frequent nonverbal partner touch early in the season predicted significantly greater cooperative play and team win performance later in the season, controlling for salary and past performance, mediated by cortisol dampening, social synchrony, and trust."
+  },
+  {
+    "id": "S7",
+    "title": "The Theory of Challenge and Threat States in Athletes",
+    "author": "Jones, M.V.; Meijen, C.; McCarthy, P.J.; Sheffield, D.",
+    "publisher": "International Review of Sport and Exercise Psychology 2(2):161–177",
+    "year": "2009",
+    "url": "https://doi.org/10.1080/17509840902829331",
+    "type": "review",
+    "notes": "Synthesizes Lazarus and Folkman's transactional appraisal model and Blascovich's biopsychosocial model for competitive sports. Challenge states occur when perceived personal coping resources match or exceed situational demands (vasodilation, efficient cardiac output, approach focus). Threat states occur when demands exceed resources (vasoconstriction, increased systemic resistance, high anxiety, avoidance focus)."
+  },
+  {
+    "id": "S8",
+    "title": "Quiet eye and performance in sport: A meta-analysis",
+    "author": "Lebeau, J.C.; Liu, S.; Sáenz-Moncaleano, C.; Sanduvete-Chaves, S.; Chacón-Moscoso, S.; Becker, B.J.; Tenenbaum, G.",
+    "publisher": "Journal of Sport & Exercise Psychology 38(5):441–457",
+    "year": "2016",
+    "url": "https://doi.org/10.1123/jsep.2015-0123",
+    "type": "review",
+    "notes": "Meta-analysis (27 non-intervention studies, 9 intervention studies) of Vickers' Quiet Eye (QE). Experts exhibit significantly longer QE durations than novices (d=1.04), and successful executions exhibit longer QE than unsuccessful ones (d=0.58). QE training generates large improvements in final ocular fixation duration (d=1.53) and task performance (d=0.84)."
+  },
+  {
+    "id": "S9",
+    "title": "Superiority of external attentional focus for motor performance and learning: Systematic reviews and meta-analyses",
+    "author": "Chua, L.-K.; Jimenez-Diaz, J.; Lewthwaite, R.; Kim, T.; Wulf, G.",
+    "publisher": "Psychological Bulletin 147(6):618–645",
+    "year": "2021",
+    "url": "https://doi.org/10.1037/bul0000335",
+    "type": "review",
+    "notes": "Meta-analysis of 73 studies (n=1,824) examining attentional focus in motor skills. Focusing externally (on target destination, ball trajectory, paddle-ball impact effect) significantly outperforms focusing internally (on arm motion, wrist angle, grip muscles) for acute motor execution (g=0.264), retention (g=0.583), and transfer (g=0.584)."
+  },
+  {
+    "id": "S10",
+    "title": "Anxiety-induced changes in movement behaviour during the execution of a complex whole-body task",
+    "author": "Pijpers, J.R.; Oudejans, R.R.D.; Bakker, F.C.",
+    "publisher": "Quarterly Journal of Experimental Psychology Section A 58(3):421–445",
+    "year": "2005",
+    "url": "https://doi.org/10.1080/02724980343000945",
+    "type": "trial",
+    "notes": "Demonstrated that competitive and state anxiety causes athletes to freeze degrees of freedom, increase contact grasping time, and dramatically escalate involuntary grip force and muscular co-contraction by 30% to 50% above baseline, destroying dynamic force modulation and soft-tissue mechanical compliance."
+  },
+  {
+    "id": "S11",
+    "title": "The interrelationships between anxiety, motor performance and electromyography",
+    "author": "Weinberg, R.S.; Hunt, V.V.",
+    "publisher": "Journal of Motor Behavior 8(3):219–224",
+    "year": "1976",
+    "url": "https://doi.org/10.1080/00222895.1976.10735070",
+    "type": "trial",
+    "notes": "Pioneering EMG study showing that anxious athletes display continuous agonist-antagonist co-contraction before, during, and after motor strokes. Muscle tension failed to relax after execution, creating excessive neuromuscular stiffness, inefficient energy expenditure, and loss of fine touch in ball-striking sports."
+  },
+  {
+    "id": "S12",
+    "title": "Executive functions",
+    "author": "Diamond, A.",
+    "publisher": "Annual Review of Psychology 64:135–168",
+    "year": "2013",
+    "url": "https://doi.org/10.1146/annurev-psych-113011-143750",
+    "type": "review",
+    "notes": "Comprehensive review of prefrontal executive functions: response inhibition (inhibiting impulsive habitual actions, delaying gratification), working memory, and cognitive flexibility. Stress, anxiety, and fatigue rapidly deplete prefrontal inhibitory control, driving impulsive, high-risk tactical decisions."
+  },
+  {
+    "id": "S13",
+    "title": "USA Pickleball Official Tournament Rulebook",
+    "author": "USA Pickleball Association Rules Committee",
+    "publisher": "USA Pickleball",
+    "year": "2024",
+    "url": "https://usapickleball.org/what-is-pickleball/official-rules/",
+    "type": "position-stand",
+    "notes": "Official governing rules. Rule 4.D defines the score-calling requirements; Rule 4.E ('The 10-Second Rule') establishes that the server has 10 seconds to initiate the serve after the score is called. Provides the regulatory time envelope for between-point autonomic resets, quiet eye anchoring, and tactical partner alignment."
+  },
+  {
+    "id": "S14",
+    "title": "Pickleball match play analytics, unforced error distributions, and shot attack probabilities",
+    "author": "PBvision / Pickleball Analytics / Ramsey, J.",
+    "publisher": "Pickleball Analytics Technical Reports & PPA Matchplay Database",
+    "year": "2023",
+    "url": "https://pickleballunforcederrors.com",
+    "type": "review",
+    "notes": "Empirical match-play analytics from >2,000 tournament doubles games (recreational 3.0–4.0 to PPA pro). Unforced errors account for 60% to 75% of all match outcomes across skill tiers (averaging 29 unforced errors per game at 3.0). Attacking or speeding up balls contacting below net tape height carries a 65%+ penalty (direct net error, ball sailing long, or immediate opponent counter-attack winner), whereas attacks above net level maintain positive win expectation."
+  },
+  {
+    "id": "S15",
+    "title": "Pressure Training for Performance Domains: A Meta-Analysis",
+    "author": "Low, W.R.; Sandercock, G.R.H.; Freeman, P.; Winter, M.E.; Butt, J.; Maynard, I.",
+    "publisher": "Sport, Exercise, and Performance Psychology 10(1):149–163",
+    "year": "2021",
+    "url": "https://doi.org/10.1037/spy0000202",
+    "type": "review",
+    "notes": "Meta-analysis of 14 controlled intervention studies (n=394) on pressure inoculation training. Practicing under simulated stakes/consequences significantly improved pressurized post-test performance compared to traditional volume training (Hedges' g=0.67), proving that competitive pressure must be deliberately inoculated rather than merely trained with higher repetitions."
+  },
+  {
+    "id": "S16",
+    "title": "The effectiveness of pre-performance routines in sports: A meta-analysis",
+    "author": "Rupprecht, A.G.O.; Tran, U.S.; Gröpel, P.",
+    "publisher": "International Review of Sport and Exercise Psychology 17(1):39–64",
+    "year": "2024",
+    "url": "https://doi.org/10.1080/1750984X.2021.1944271",
+    "type": "review",
+    "notes": "Meta-analysis of 112 effect sizes investigating pre-performance routines (PPR). PPR produced significant performance enhancements under high pressure (g=0.70) across closed motor skills, standardizing behavioral pacing and preventing conscious motor breakdown."
+  }
+]

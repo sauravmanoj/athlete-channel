@@ -1,0 +1,259 @@
+<!-- Custom hero scene: Doble Pared Que Abre vs Doble Pared Que Cierra corner geometry.
+     __ID__ and __DURATION__ are replaced at build time. Keep ids prefixed with __ID__-. -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root {
+      background: radial-gradient(circle at 50% 50%, #1E293B 0%, #0F172A 100%);
+      font-family: var(--display, 'Inter', system-ui, sans-serif);
+      color: #fff;
+      overflow: hidden;
+    }
+    #__ID__-root .title-bar {
+      position: absolute;
+      top: 50px;
+      left: 0;
+      right: 0;
+      text-align: center;
+    }
+    #__ID__-root .title-bar h1 {
+      font-size: 54px;
+      font-weight: 800;
+      letter-spacing: -1px;
+      text-transform: uppercase;
+      margin: 0;
+      color: #F8FAFC;
+    }
+    #__ID__-root .title-bar .sub {
+      font-size: 24px;
+      font-weight: 500;
+      color: #94A3B8;
+      margin-top: 8px;
+    }
+    #__ID__-root .split-grid {
+      position: absolute;
+      top: 170px;
+      left: 100px;
+      right: 100px;
+      bottom: 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 50px;
+    }
+    #__ID__-root .card {
+      background: rgba(30, 41, 59, 0.7);
+      border: 3px solid rgba(255, 255, 255, 0.1);
+      border-radius: 28px;
+      padding: 30px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+      backdrop-filter: blur(10px);
+    }
+    #__ID__-root .card.abre {
+      border-color: rgba(16, 185, 129, 0.4);
+    }
+    #__ID__-root .card.cierra {
+      border-color: rgba(239, 68, 68, 0.4);
+    }
+    #__ID__-root .card-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    #__ID__-root .card-header .type-name {
+      font-size: 32px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: -0.5px;
+    }
+    #__ID__-root .badge {
+      padding: 8px 18px;
+      border-radius: 100px;
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    #__ID__-root .badge-abre {
+      background: rgba(16, 185, 129, 0.2);
+      color: #10B981;
+      border: 1px solid #10B981;
+    }
+    #__ID__-root .badge-cierra {
+      background: rgba(239, 68, 68, 0.2);
+      color: #EF4444;
+      border: 1px solid #EF4444;
+    }
+    #__ID__-root .svg-court {
+      flex: 1;
+      background: #0B3B24;
+      border: 4px solid #1C2140;
+      border-radius: 20px;
+      position: relative;
+      overflow: hidden;
+    }
+    #__ID__-root .rule-box {
+      margin-top: 20px;
+      padding: 16px 20px;
+      border-radius: 16px;
+      background: rgba(15, 23, 42, 0.8);
+      border-left: 6px solid #fff;
+    }
+    #__ID__-root .rule-box.abre-rule {
+      border-left-color: #10B981;
+    }
+    #__ID__-root .rule-box.cierra-rule {
+      border-left-color: #EF4444;
+    }
+    #__ID__-root .rule-title {
+      font-size: 16px;
+      font-weight: 700;
+      text-transform: uppercase;
+      color: #94A3B8;
+      margin-bottom: 4px;
+    }
+    #__ID__-root .rule-action {
+      font-size: 24px;
+      font-weight: 800;
+      color: #F8FAFC;
+    }
+  </style>
+
+  <div class="title-bar" id="__ID__-title">
+    <h1>Double Glass Geometry</h1>
+    <div class="sub">The 90° Corner Physics: Abre vs. Cierra</div>
+  </div>
+
+  <div class="split-grid">
+    <!-- Card 1: Abre -->
+    <div class="card abre" id="__ID__-card-abre">
+      <div class="card-header">
+        <div class="type-name" style="color: #10B981;">1. Doble Pared Que Abre</div>
+        <div class="badge badge-abre">Opens To Center</div>
+      </div>
+      
+      <div class="svg-court">
+        <svg viewBox="0 0 600 450" width="100%" height="100%" style="display:block;">
+          <!-- Turf & lines -->
+          <rect x="0" y="0" width="600" height="450" fill="#0B3B24" />
+          <line x1="0" y1="400" x2="600" y2="400" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.6" stroke-dasharray="10 6" />
+          <text x="580" y="390" fill="#FFFFFF" fill-opacity="0.5" font-size="14" font-weight="600" text-anchor="end">SERVICE LINE (3.0m)</text>
+          
+          <!-- Back Glass & Side Glass -->
+          <line x1="0" y1="440" x2="600" y2="440" stroke="#38BDF8" stroke-width="12" />
+          <text x="490" y="432" fill="#38BDF8" font-size="16" font-weight="800" text-anchor="middle">BACK GLASS (3m)</text>
+          
+          <line x1="20" y1="0" x2="20" y2="440" stroke="#38BDF8" stroke-width="12" />
+          <text x="32" y="100" fill="#38BDF8" font-size="16" font-weight="800" transform="rotate(90, 32, 100)">SIDE GLASS (3m)</text>
+          
+          <!-- Sequence: Side (1) -> Back (2) -> Outward -->
+          <!-- Impact 1 Marker -->
+          <circle cx="20" cy="220" r="14" fill="#10B981" />
+          <text x="45" y="226" fill="#10B981" font-size="20" font-weight="800">1. SIDE</text>
+          
+          <!-- Impact 2 Marker -->
+          <circle cx="220" cy="440" r="14" fill="#10B981" />
+          <text x="220" y="380" fill="#10B981" font-size="20" font-weight="800" text-anchor="middle">2. BACK</text>
+          
+          <!-- Path -->
+          <path id="__ID__-path-abre" d="M 450,50 L 20,220 L 220,440 L 480,240" fill="none" stroke="#FDE047" stroke-width="6" stroke-dasharray="12 8" />
+          
+          <!-- Exit Arrow -->
+          <polygon points="480,240 460,250 465,235" fill="#FDE047" />
+          
+          <!-- Rotation Pivot Icon -->
+          <g transform="translate(340, 290)">
+            <circle cx="0" cy="0" r="40" fill="none" stroke="#10B981" stroke-width="4" stroke-dasharray="8 6" />
+            <text x="0" y="6" fill="#10B981" font-size="16" font-weight="800" text-anchor="middle">ROTATE 180°</text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="rule-box abre-rule">
+        <div class="rule-title">Footwork Command</div>
+        <div class="rule-action">ROTATE 180° · "EL GIRO" WITH THE BALL</div>
+      </div>
+    </div>
+
+    <!-- Card 2: Cierra -->
+    <div class="card cierra" id="__ID__-card-cierra">
+      <div class="card-header">
+        <div class="type-name" style="color: #EF4444;">2. Doble Pared Que Cierra</div>
+        <div class="badge badge-cierra">Traps In Corner</div>
+      </div>
+      
+      <div class="svg-court">
+        <svg viewBox="0 0 600 450" width="100%" height="100%" style="display:block;">
+          <!-- Turf & lines -->
+          <rect x="0" y="0" width="600" height="450" fill="#0B3B24" />
+          <line x1="0" y1="400" x2="600" y2="400" stroke="#FFFFFF" stroke-width="4" stroke-opacity="0.6" stroke-dasharray="10 6" />
+          <text x="580" y="390" fill="#FFFFFF" fill-opacity="0.5" font-size="14" font-weight="600" text-anchor="end">SERVICE LINE (3.0m)</text>
+          
+          <!-- Back Glass & Side Glass -->
+          <line x1="0" y1="440" x2="600" y2="440" stroke="#38BDF8" stroke-width="12" />
+          <text x="490" y="432" fill="#38BDF8" font-size="16" font-weight="800" text-anchor="middle">BACK GLASS (3m)</text>
+          
+          <line x1="20" y1="0" x2="20" y2="440" stroke="#38BDF8" stroke-width="12" />
+          <text x="32" y="100" fill="#38BDF8" font-size="16" font-weight="800" transform="rotate(90, 32, 100)">SIDE GLASS (3m)</text>
+          
+          <!-- Sequence: Back (1) -> Side (2) -> Traps -->
+          <!-- Impact 1 Marker -->
+          <circle cx="280" cy="440" r="14" fill="#EF4444" />
+          <text x="280" y="380" fill="#EF4444" font-size="20" font-weight="800" text-anchor="middle">1. BACK</text>
+          
+          <!-- Impact 2 Marker -->
+          <circle cx="20" cy="320" r="14" fill="#EF4444" />
+          <text x="45" y="326" fill="#EF4444" font-size="20" font-weight="800">2. SIDE</text>
+          
+          <!-- Path -->
+          <path id="__ID__-path-cierra" d="M 500,100 L 280,440 L 20,320 L 160,240" fill="none" stroke="#F87171" stroke-width="6" stroke-dasharray="12 8" />
+          
+          <!-- Cross / Prohibition on spin -->
+          <g transform="translate(160, 240)">
+            <circle cx="0" cy="0" r="35" fill="rgba(239, 68, 68, 0.2)" stroke="#EF4444" stroke-width="3" />
+            <line x1="-20" y1="-20" x2="20" y2="20" stroke="#EF4444" stroke-width="4" />
+            <line x1="20" y1="-20" x2="-20" y2="20" stroke="#EF4444" stroke-width="4" />
+            <text x="0" y="55" fill="#EF4444" font-size="16" font-weight="800" text-anchor="middle">DO NOT SPIN</text>
+          </g>
+
+          <!-- Step Forward Arrow -->
+          <g transform="translate(380, 260)">
+            <line x1="0" y1="60" x2="0" y2="-40" stroke="#38BDF8" stroke-width="6" />
+            <polygon points="0,-40 -12,-20 12,-20" fill="#38BDF8" />
+            <text x="0" y="90" fill="#38BDF8" font-size="16" font-weight="800" text-anchor="middle">STEP FORWARD</text>
+          </g>
+        </svg>
+      </div>
+
+      <div class="rule-box cierra-rule">
+        <div class="rule-title">Footwork Command</div>
+        <div class="rule-action">DO NOT SPIN · STEP FORWARD INTO COURT</div>
+      </div>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+
+  // Fade title in
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -30 }, { opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }, 0.1);
+
+  // Cards enter sequentially
+  tl.fromTo("#__ID__-card-abre", { opacity: 0, x: -50 }, { opacity: 1, x: 0, duration: 0.6, ease: "power2.out" }, 0.4);
+  tl.fromTo("#__ID__-card-cierra", { opacity: 0, x: 50 }, { opacity: 1, x: 0, duration: 0.6, ease: "power2.out" }, 0.8);
+
+  // Animate pulse on Abre vs Cierra badges
+  tl.fromTo(".badge-abre", { scale: 0.9 }, { scale: 1.05, duration: 0.8, repeat: -1, yoyo: true, ease: "sine.inOut" }, 1.2);
+  tl.fromTo(".badge-cierra", { scale: 0.9 }, { scale: 1.05, duration: 0.8, repeat: -1, yoyo: true, ease: "sine.inOut" }, 1.4);
+
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

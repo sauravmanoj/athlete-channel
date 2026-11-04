@@ -1,0 +1,152 @@
+[
+  {
+    "id": "S1",
+    "title": "Game performance and length of rally in professional padel players",
+    "author": "Courel-Ibáñez, J., Sánchez-Alcaraz Martínez, B. J., & Cañas, J.",
+    "publisher": "Journal of Human Kinetics",
+    "year": "2017",
+    "url": "https://doi.org/10.1515/hukin-2017-0014",
+    "type": "trial",
+    "notes": "Establishes that over 80% to 83% of points in professional padel are won by the pair occupying the net zone, demonstrating the severe statistical disadvantage of prolonged baseline defense."
+  },
+  {
+    "id": "S2",
+    "title": "The role of the lob in padel: analysis of the efficacy and winning percentage",
+    "author": "Courel-Ibáñez, J., & Sánchez-Alcaraz Martínez, B. J.",
+    "publisher": "International Journal of Performance Analysis in Sport / Revista Apunts: Educación Física y Deportes",
+    "year": "2018",
+    "url": "https://doi.org/10.5672/apunts.2014-0983.es.(2019/3).137.05",
+    "type": "trial",
+    "notes": "Quantifies defensive transitions: baseline players use the lob in 60.6% of recovery attempts, achieving a 65.9% rally continuity rate compared to just 47.0% for flat baseline drives and passing shots."
+  },
+  {
+    "id": "S3",
+    "title": "Analysis of game performance indicators during 2015–2019 World Padel Tour seasons and their influence on match outcome",
+    "author": "Escudero-Tena, A., Sánchez-Alcaraz, B. J., García-Rubio, J., & Ibáñez, S. J.",
+    "publisher": "International Journal of Environmental Research and Public Health",
+    "year": "2020",
+    "url": "https://doi.org/10.3390/ijerph17134859",
+    "type": "trial",
+    "notes": "Analyzes unforced errors across professional tournaments, showing that unforced errors on panic speed-ups from deep court are the leading differentiator between winning and losing pairs."
+  },
+  {
+    "id": "S4",
+    "title": "Exploring offensive players' collective movements and positioning dynamics in high-performance padel matches using tracking technology",
+    "author": "Ramón-Llin, J., Guzmán, J. F., Martínez-Gallego, R., Vučković, G., & Muñoz, D.",
+    "publisher": "International Journal of Performance Analysis in Sport",
+    "year": "2021",
+    "url": "https://doi.org/10.1080/24748668.2021.1952541",
+    "type": "trial",
+    "notes": "Computer vision tracking study revealing synchronized partner movement ('invisible string'), collective lateral shifting toward corner balls, depth balance, and communication coordination."
+  },
+  {
+    "id": "S5",
+    "title": "The effect of the return of serve on the server pair's movement parameters and rally outcome in padel using cluster analysis",
+    "author": "Ramón-Llin, J., Guzmán, J. F., Martínez-Gallego, R., & Vučković, G.",
+    "publisher": "Frontiers in Psychology",
+    "year": "2019",
+    "url": "https://doi.org/10.3389/fpsyg.2019.01194",
+    "type": "trial",
+    "notes": "Demarcates functional court zones (Defense Zone behind service line, Transition Zone around service line, Attack Zone at net) and analyzes movement distances and recovery times."
+  },
+  {
+    "id": "S6",
+    "title": "Analysis of the lob in men's professional padel",
+    "author": "Muñoz, D., Courel-Ibáñez, J., Sánchez-Alcaraz, B. J., Díaz, J., Grijota, F. J., & Robbins, D.",
+    "publisher": "Proceedings of the 6th International Racket Sports Congress",
+    "year": "2017",
+    "url": "https://www.researchgate.net/publication/320147610",
+    "type": "trial",
+    "notes": "Measures defensive lob kinematics: trajectory heights of 5.0 to 8.0 meters, flight hang times of 3.5 to 4.5 seconds, and landing depth between service line and back wall to evict net attackers."
+  },
+  {
+    "id": "S7",
+    "title": "Analysis of shot efficiency in professional padel according to court position and game context",
+    "author": "Escudero-Tena, A., Muñoz, D., Sánchez-Alcaraz, B. J., & Courel-Ibáñez, J.",
+    "publisher": "Frontiers in Psychology",
+    "year": "2021",
+    "url": "https://doi.org/10.3389/fpsyg.2021.651662",
+    "type": "trial",
+    "notes": "Examines tactical efficacy of the chiquita (soft dipping ball into opponent's feet below net height forcing upward volleys) and the failure rate of direct passing shots against net players."
+  },
+  {
+    "id": "S8",
+    "title": "Official Regulations of the Padel Game",
+    "author": "International Padel Federation (FIP)",
+    "publisher": "Federación Internacional de Pádel",
+    "year": "2024",
+    "url": "https://www.padelfip.com/rules-regulations/",
+    "type": "org",
+    "notes": "Official court dimensions: 10x20 m enclosed court, service line positioned 3.00 m from the back glass (6.95 m from net), net height 0.88 m center and 0.92 m posts, 3 m glass + 1 m mesh back walls."
+  },
+  {
+    "id": "S9",
+    "title": "Match analysis, physical demands, and injuries in padel players: a systematic review",
+    "author": "Demeco, A., de Sire, A., Marotta, N., Spanò, R., Curci, C., Farì, G., Cioce, G., & Ammendolia, A.",
+    "publisher": "International Journal of Environmental Research and Public Health",
+    "year": "2022",
+    "url": "https://doi.org/10.3390/ijerph19052944",
+    "type": "review",
+    "notes": "Systematic review of padel injuries: acute lower-limb trauma (ankle ligament sprains, knee meniscal and cruciate injuries from rotational pivots on sand-dressed turf) and upper-limb overuse tendinopathies."
+  },
+  {
+    "id": "S10",
+    "title": "Epidemiological study of injuries in padel players: analysis of injury mechanism and risk factors",
+    "author": "García-Fernández, P., Guodemar-Pérez, J., Ruiz-López, M., et al.",
+    "publisher": "Revista Iberoamericana de Ciencias de la Actividad Física y el Deporte",
+    "year": "2019",
+    "url": "https://doi.org/10.24310/riccafd.2019.v8i2.6582",
+    "type": "trial",
+    "notes": "Documents injury mechanisms in padel, identifying shoe-turf traction shear, sudden rotational pivots without hip pre-alignment, and composite racket collisions with the glass enclosure or partner."
+  },
+  {
+    "id": "S11",
+    "title": "Differences in shot selection and outcome between professional and recreational padel players",
+    "author": "Martín-Miguel, I., Escudero-Tena, A., Muñoz, D., & Sánchez-Alcaraz, B. J.",
+    "publisher": "International Journal of Sports Science & Coaching",
+    "year": "2023",
+    "url": "https://doi.org/10.1177/17479541231189423",
+    "type": "trial",
+    "notes": "Compares amateur vs pro defensive behaviors: amateurs get trapped against the back glass, over-hit flat balls into net players' strike zones, fail to use the chiquita, and lack partner calling."
+  },
+  {
+    "id": "S12",
+    "title": "Incidence of musculoskeletal injuries in amateur padel players: A prospective study",
+    "author": "Castillo-Lozano, R., & Casuso-Holgado, M. J.",
+    "publisher": "Physical Therapy in Sport",
+    "year": "2017",
+    "url": "https://doi.org/10.1016/j.ptsp.2017.07.001",
+    "type": "trial",
+    "notes": "Reports 3.0 to 8.0 injuries per 1,000 match hours in amateur players, highlighting knee rotational torsion during rushed corner wall turns and lateral ankle sprains during back-pedaling."
+  },
+  {
+    "id": "S13",
+    "title": "Physics of ball impacts with rigid surfaces and walls",
+    "author": "Cross, R.",
+    "publisher": "Sports Engineering / American Journal of Physics",
+    "year": "2014",
+    "url": "https://doi.org/10.1119/1.4867489",
+    "type": "textbook",
+    "notes": "Impact mechanics and coefficient of restitution ($e \\approx 0.65\\text{--}0.72$) of tempered glass; explains why hard flat balls rebound outward with high kinetic energy into opponents' attack zones."
+  },
+  {
+    "id": "S14",
+    "title": "Mastering the Double Glass: Technical Manual for Corner Defense",
+    "author": "Federación Española de Pádel (FEP) Coaching Committee",
+    "publisher": "FEP Coaching Syllabus & Technical Guidelines",
+    "year": "2022",
+    "url": "https://www.padelfederacion.es/formacion",
+    "type": "org",
+    "notes": "Authoritative technical distinction between Side-to-Back ('opening double') requiring a full body pivot and Back-to-Side ('closing double') requiring stepping forward into the court without over-turning."
+  },
+  {
+    "id": "S15",
+    "title": "Decision rules for the use of radiography in acute ankle injuries: refinement and prospective validation",
+    "author": "Stiell, I. G., Greenberg, G. H., McKnight, R. D., et al.",
+    "publisher": "JAMA",
+    "year": "1993",
+    "url": "https://doi.org/10.1001/jama.1993.03500090067035",
+    "type": "trial",
+    "notes": "Establishes Ottawa Ankle Rules for assessing weight-bearing capability and acute ankle ligament trauma in court-sport athletes."
+  }
+]

@@ -1,0 +1,1750 @@
+{
+  "title": "All padel wall rebounds explained",
+  "voice": "am_michael",
+  "thumbnail": {
+    "pose": "bandeja_finish",
+    "props": {
+      "r": "padel"
+    },
+    "background": "court",
+    "headline": "ALL WALL REBOUNDS",
+    "highlight": "REBOUNDS",
+    "opponent": {
+      "pose": "flinch"
+    },
+    "side": "right"
+  },
+  "youtube": {
+    "title": "All padel wall rebounds explained",
+    "titleOptions": [
+      "The 4 padel wall rebounds (and how to play them)",
+      "Never get jammed off the glass in padel"
+    ],
+    "description": "Struggling with corner glass bounces, getting pinned by side walls, or panicking off the wire fence in padel? Here is the complete breakdown of all 4 wall rebound families\u2014single back glass, side angles, Doble Pared Que Abre vs Cierra, and metallic mesh chaos.",
+    "tags": [
+      "padel",
+      "padel tennis",
+      "padel wall rebounds",
+      "padel glass defense",
+      "padel doble pared",
+      "padel tutorial",
+      "all padel wall rebounds explained",
+      "padel tips",
+      "coach ember",
+      "padel technique"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "mascot",
+      "chapter": "Hook",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@smile"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "No Corner Panic",
+        "highlight": "Panic",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Imagine an opponent smashing deep into your corner, and instead of panicking, you smile."
+    },
+    {
+      "id": "s02",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@reset"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Let The Ball Pass",
+        "highlight": "Pass",
+        "at": 0,
+        "side": "right"
+      },
+      "gauges": [
+        {
+          "label": "Ball Speed",
+          "icon": "fire",
+          "from": 90,
+          "to": 35,
+          "at": "@slow"
+        }
+      ],
+      "narration": "You step sideways, let the ball pass you, and watch the glass slow that violent smash into an easy reset."
+    },
+    {
+      "id": "s03",
+      "kind": "versus",
+      "left": {
+        "label": "Amateur",
+        "pose": "hands_knees",
+        "sub": "pinned against wall"
+      },
+      "right": {
+        "label": "Pro",
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "calm 1m spacing"
+      },
+      "vs": "VS",
+      "narration": "Most amateurs treat the walls like a hazard, scrambling frantically and getting pinned against the glass."
+    },
+    {
+      "id": "s04",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@physics"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Wall Mastery",
+        "highlight": "Mastery",
+        "at": 0,
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "target",
+          "near": "rHand",
+          "offset": [
+            40,
+            -60
+          ],
+          "at": "@physics"
+        }
+      ],
+      "narration": "Today, I will show you the physics and footwork rules of all four wall rebounds, turning the glass into your ultimate defensive weapon."
+    },
+    {
+      "id": "s05",
+      "kind": "title",
+      "chapter": "The 4 rebound families",
+      "number": 1,
+      "heading": "The 4 rebound families",
+      "sub": "Perimeter collision physics",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "In padel, the perimeter walls are not out-of-bounds boundaries; they are active playing surfaces governed by collision physics."
+    },
+    {
+      "id": "s06",
+      "kind": "lineup",
+      "title": "The 4 Rebound Families",
+      "members": [
+        {
+          "label": "Back Glass",
+          "pose": "padel_ready",
+          "props": {
+            "r": "padel"
+          },
+          "at": "@rebound"
+        },
+        {
+          "label": "Side Glass",
+          "pose": "soft_hit",
+          "props": {
+            "r": "padel"
+          },
+          "at": "@belongs"
+        },
+        {
+          "label": "Double Glass",
+          "pose": "bandeja_prep",
+          "props": {
+            "r": "padel"
+          },
+          "at": "@physical"
+        },
+        {
+          "label": "Wire Mesh",
+          "pose": "block",
+          "props": {
+            "r": "padel"
+          },
+          "at": "@families"
+        }
+      ],
+      "narration": "Every rebound you will face belongs to one of four physical families."
+    },
+    {
+      "id": "s07",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@court"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "1. Single Back Glass",
+        "highlight": "Back Glass",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "First is the Single Back Glass, where deep balls rebound forward into the court."
+    },
+    {
+      "id": "s08",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "block",
+          "at": "@space"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "2. Side Glass Angles",
+        "highlight": "Side Glass",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Second is the Side Glass, where oblique angles compress your lateral hitting space."
+    },
+    {
+      "id": "s09",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "bandeja_prep",
+          "at": "@body"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "3. Double Glass Corner",
+        "highlight": "Double Glass",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Third is the Double Glass corner, where the ball strikes two walls and either opens into court or traps into your body."
+    },
+    {
+      "id": "s10",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "crouch",
+          "at": "@dead"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "4. Metallic Wire Mesh",
+        "highlight": "Wire Mesh",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "And fourth is the Metallic Wire Mesh, where compliant metal grids create dead, unpredictable deflections."
+    },
+    {
+      "id": "s11",
+      "kind": "slam",
+      "text": "Never get jammed",
+      "highlight": "jammed",
+      "style": "brand",
+      "icon": "check",
+      "sub": "4 Physics-Based Solutions",
+      "narration": "Master these four families, and you will never get jammed off the walls again."
+    },
+    {
+      "id": "s12",
+      "kind": "title",
+      "chapter": "Rebound 1: Single back glass",
+      "number": 2,
+      "heading": "Single back glass",
+      "sub": "The baseline reset",
+      "mascot": {
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "The single back glass is the foundation of all padel defense."
+    },
+    {
+      "id": "s13",
+      "kind": "stat",
+      "value": 3,
+      "decimals": 1,
+      "suffix": " m",
+      "label": "service line distance from back glass",
+      "highlight": "3.0 meters",
+      "icon": "target",
+      "mascot": {
+        "pose": "flinch"
+      },
+      "narration": "When a ball crosses the service line, three meters from the back wall, amateurs panic and short-hop it off their shoes."
+    },
+    {
+      "id": "s14",
+      "kind": "slam",
+      "text": "Specular reflection physics",
+      "highlight": "physics",
+      "style": "dark",
+      "icon": "target",
+      "sub": "Angle in equals angle out",
+      "subAt": "@equals",
+      "narration": "Tempered glass follows specular reflection: the angle of reflection equals the angle of incidence."
+    },
+    {
+      "id": "s15",
+      "kind": "chart",
+      "title": "Speed Dissipation on Back Glass Impact",
+      "unit": "%",
+      "focus": 1,
+      "mascot": {
+        "pose": "present"
+      },
+      "bars": [
+        {
+          "label": "Incoming Smash",
+          "value": 100,
+          "display": "80 km/h",
+          "color": "#EF4444"
+        },
+        {
+          "label": "After Turf Bounce",
+          "value": 65,
+          "display": "-35%",
+          "color": "#F59E0B"
+        },
+        {
+          "label": "After Glass Rebound",
+          "value": 45,
+          "display": "-25%",
+          "color": "#10B981"
+        }
+      ],
+      "narration": "An eighty kilometer per hour smash loses thirty-five percent of its speed on the turf bounce and twenty-five percent on the glass."
+    },
+    {
+      "id": "s16",
+      "kind": "stat",
+      "value": 0.7,
+      "decimals": 1,
+      "suffix": " s",
+      "label": "extra reaction time bought by letting the ball hit glass",
+      "highlight": "0.7 seconds",
+      "icon": "stopwatch",
+      "mascot": {
+        "pose": "celebrate"
+      },
+      "narration": "It floats forward at thirty to forty kilometers per hour, buying you zero point four to zero point seven seconds of extra reaction time."
+    },
+    {
+      "id": "s17",
+      "kind": "versus",
+      "left": {
+        "label": "Hugging Wall",
+        "pose": "flinch",
+        "sub": "smashes knuckles"
+      },
+      "right": {
+        "label": "Two Steps Back",
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "soft catch in hands"
+      },
+      "vs": "VS",
+      "narration": "Think of throwing a rubber ball against a brick wall: stand against the brick and it hits your knuckles, but take two steps back and it drops gently into your open hands."
+    },
+    {
+      "id": "s18",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "short_back",
+          "at": "@shoulders"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Sideways Unit Turn",
+        "highlight": "Unit Turn",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Turn Shoulders",
+          "target": "rShoulder",
+          "dy": -140,
+          "at": "@shoulders"
+        }
+      ],
+      "narration": "Execute a sideways unit turn as the ball crosses the net, turning your shoulders perpendicular to the back wall."
+    },
+    {
+      "id": "s19",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "walk_b",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@body"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "1.0\u20131.5m Wall Buffer",
+        "highlight": "Buffer",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "1.2m From Glass",
+          "target": "rFoot",
+          "at": "@meters"
+        }
+      ],
+      "narration": "Track backward, stop one to one-and-a-half meters in front of the glass, and let the ball pass your body line."
+    },
+    {
+      "id": "s20",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@strike"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Ahead Of Front Hip",
+        "highlight": "Hip",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Contact Point",
+          "target": "rHip",
+          "offset": [
+            40,
+            -10
+          ],
+          "at": "@strike"
+        }
+      ],
+      "narration": "As it rebounds forward, transfer your weight and strike thirty to fifty centimeters ahead of your front hip."
+    },
+    {
+      "id": "s21",
+      "kind": "list",
+      "title": "Self-Drop Glass Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Stand 1.5m from back glass",
+          "icon": "target"
+        },
+        {
+          "text": "Drop ball into wall",
+          "icon": "bolt"
+        },
+        {
+          "text": "Drive rebound down the line",
+          "icon": "check"
+        }
+      ],
+      "narration": "Train this with the Self-Drop Glass Feed: stand one-and-a-half meters from the glass, drop the ball into the wall, and drive the rebound into a target cone."
+    },
+    {
+      "id": "s22",
+      "kind": "stat",
+      "value": 4,
+      "suffix": " sets \u00d7 12",
+      "label": "weekly self-drop drill prescription",
+      "highlight": "4 sets",
+      "icon": "clock",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "narration": "Do four sets of twelve reps twice a week on both forehand and backhand sides."
+    },
+    {
+      "id": "s23",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "facepalm",
+          "at": "@hugging"
+        }
+      ],
+      "headline": {
+        "text": "Never Hug The Glass",
+        "highlight": "Never",
+        "at": 0,
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            80,
+            -90
+          ],
+          "at": "@hugging"
+        }
+      ],
+      "narration": "The biggest mistake is hugging the glass: standing closer than one meter suffocates your arm and ruins your swing."
+    },
+    {
+      "id": "s24",
+      "kind": "title",
+      "chapter": "Rebound 2: Side glass angles",
+      "number": 3,
+      "heading": "Side glass angles",
+      "sub": "Managing lateral compression",
+      "mascot": {
+        "pose": "short_back",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "The side glass introduces oblique angles that violently compress your lateral hitting space."
+    },
+    {
+      "id": "s25",
+      "kind": "slam",
+      "text": "Acute 30\u00b0 to 60\u00b0 angles",
+      "highlight": "Angles",
+      "style": "dark",
+      "icon": "target",
+      "sub": "Low Friction Side Slide",
+      "narration": "Side glass shots strike at acute angles between thirty and sixty degrees, sliding fast across the court width."
+    },
+    {
+      "id": "s26",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_a",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@pinned"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "The Pinned Arm Trap",
+        "highlight": "Pinned",
+        "at": 0,
+        "side": "left"
+      },
+      "callouts": [
+        {
+          "label": "Pinned Elbow",
+          "target": "rElbow",
+          "dy": -130,
+          "at": "@pinned"
+        }
+      ],
+      "narration": "Amateurs chase the ball toward the side wall, getting their arm pinned directly against the glass."
+    },
+    {
+      "id": "s27",
+      "kind": "versus",
+      "left": {
+        "label": "Steer Into Rail",
+        "pose": "flinch",
+        "sub": "crashes and stops"
+      },
+      "right": {
+        "label": "Stay In Lane",
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "smooth exit curve"
+      },
+      "vs": "VS",
+      "narration": "Think of a highway exit ramp: steer into the guardrail and you crash, but stay centered in your lane and you follow the curve with total control."
+    },
+    {
+      "id": "s28",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "short_back",
+          "at": "@stable"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "1m Side Buffer",
+        "highlight": "Buffer",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "1m Clearance",
+          "target": "lFoot",
+          "at": "@buffer"
+        }
+      ],
+      "narration": "Maintain an active one-meter buffer from the side wall and track the ball with a stable gaze."
+    },
+    {
+      "id": "s29",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@step"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Step Into Open Court",
+        "highlight": "Open Court",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Stay toward the center, let the ball strike the side glass past your hip, and step into the open court as it rebounds across."
+    },
+    {
+      "id": "s30",
+      "kind": "versus",
+      "left": {
+        "label": "Hit Early",
+        "pose": "soft_hit",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "parallel down line"
+      },
+      "right": {
+        "label": "Wait 20cm",
+        "pose": "lob",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "high crosscourt lob"
+      },
+      "vs": "VS",
+      "narration": "Hit early to drive down the line, or let it travel twenty centimeters into center court to open a crosscourt lob."
+    },
+    {
+      "id": "s31",
+      "kind": "list",
+      "title": "Side Wall Spacing Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Row of 3 cones 1.2m from wall",
+          "icon": "target"
+        },
+        {
+          "text": "Stay strictly inside court boundary",
+          "icon": "check"
+        },
+        {
+          "text": "Let ball slide past hip",
+          "icon": "bolt"
+        }
+      ],
+      "narration": "Train this with the Side Wall Spacing Drill: place three cones one-point-two meters parallel to the side glass."
+    },
+    {
+      "id": "s32",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@crosscourt"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Stay Inside Cones",
+        "highlight": "Cones",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Feed angled balls into the glass, stay inside the cones, and drive controlled crosscourt balls."
+    },
+    {
+      "id": "s33",
+      "kind": "stat",
+      "value": 4,
+      "suffix": " sets \u00d7 10",
+      "label": "weekly side glass drill prescription",
+      "highlight": "4 sets",
+      "icon": "clock",
+      "mascot": {
+        "pose": "celebrate"
+      },
+      "narration": "Perform four sets of ten reps per side twice a week."
+    },
+    {
+      "id": "s34",
+      "kind": "title",
+      "chapter": "Rebound 3: Double glass and the rotation trap",
+      "number": 4,
+      "heading": "Double glass corner",
+      "sub": "Abre vs. Cierra & El Giro",
+      "mascot": {
+        "pose": "think",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "The double glass corner is where amateur players experience total sensory overload."
+    },
+    {
+      "id": "s35",
+      "kind": "slam",
+      "text": "The 90\u00b0 corner junction",
+      "highlight": "90\u00b0",
+      "style": "dark",
+      "icon": "target",
+      "sub": "Consecutive Two-Wall Impacts",
+      "narration": "In the ninety-degree corner between the back and side glass, the ball strikes two walls consecutively."
+    },
+    {
+      "id": "s36",
+      "kind": "custom",
+      "file": "custom/corner_geometry.html",
+      "narration": "Coaching science divides double glass into two distinct realities: Doble Pared Que Abre, and Doble Pared Que Cierra."
+    },
+    {
+      "id": "s37",
+      "kind": "list",
+      "title": "1. Doble Pared Que Abre",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "1st impact: Side glass",
+          "icon": "target"
+        },
+        {
+          "text": "2nd impact: Back glass",
+          "icon": "target"
+        },
+        {
+          "text": "Trajectory: Opens to center court",
+          "icon": "check"
+        }
+      ],
+      "narration": "Doble Pared Que Abre means the double wall opens: the ball hits the side glass first, then the back glass second, rebounding outward toward center court."
+    },
+    {
+      "id": "s38",
+      "kind": "slam",
+      "text": "The only wall you spin on",
+      "highlight": "spin",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "180\u00b0 Body Rotation (El Giro)",
+      "narration": "This is the only double wall where you must rotate your body."
+    },
+    {
+      "id": "s39",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "bandeja_finish",
+          "at": "@pivot"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "180\u00b0 Rotational Giro",
+        "highlight": "Giro",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Balls Of Feet",
+          "target": "rFoot",
+          "at": "@pivot"
+        }
+      ],
+      "narration": "Execute a smooth one-hundred-and-eighty-degree pivot on the balls of your feet, uncoiling your shoulders so your feet face the net as you strike."
+    },
+    {
+      "id": "s40",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "present",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@orbit"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Rotate With Orbit",
+        "highlight": "Orbit",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Think of a figure skater: rotate with the ball's orbit, and you emerge facing forward right as the ball presents itself."
+    },
+    {
+      "id": "s41",
+      "kind": "slam",
+      "text": "Doble Pared Que Cierra",
+      "highlight": "Cierra",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "The Closing Corner Trap",
+      "narration": "Now look at Doble Pared Que Cierra: the double wall closes."
+    },
+    {
+      "id": "s42",
+      "kind": "list",
+      "title": "2. Doble Pared Que Cierra",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "1st impact: Back glass",
+          "icon": "target"
+        },
+        {
+          "text": "2nd impact: Side glass",
+          "icon": "target"
+        },
+        {
+          "text": "Trajectory: Traps inward into body",
+          "icon": "cross"
+        }
+      ],
+      "narration": "The ball hits the back glass first, then the side glass second, trapping inward toward your body."
+    },
+    {
+      "id": "s43",
+      "kind": "stat",
+      "value": 400,
+      "suffix": "%",
+      "label": "increase in unforced errors when spinning on closing walls",
+      "highlight": "400%",
+      "icon": "fire",
+      "mascot": {
+        "pose": "facepalm"
+      },
+      "narration": "If you spin on a closing double wall, you turn your back to the net while the ball dies behind you, increasing unforced errors by over four hundred percent."
+    },
+    {
+      "id": "s44",
+      "kind": "slam",
+      "text": "Do not spin",
+      "highlight": "not",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "The #1 Amateur Mistake",
+      "narration": "On a closing double wall, do not spin."
+    },
+    {
+      "id": "s45",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@forward"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Step Forward Into Court",
+        "highlight": "Forward",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Step Forward",
+          "target": "rKnee",
+          "at": "@forward"
+        }
+      ],
+      "narration": "Stay sideways, step forward into the court away from the corner, and let the ball bounce off the side glass directly into your strike zone."
+    },
+    {
+      "id": "s46",
+      "kind": "versus",
+      "left": {
+        "label": "Spinning In Hall",
+        "pose": "flinch",
+        "sub": "dizzy & trapped"
+      },
+      "right": {
+        "label": "Step Into Room",
+        "pose": "celebrate",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "catches ball cleanly"
+      },
+      "vs": "VS",
+      "narration": "Think of a dog in a cramped hallway: spinning makes you dizzy, but stepping into the open living room lets the dog run straight to you."
+    },
+    {
+      "id": "s47",
+      "kind": "list",
+      "title": "Abre vs Cierra Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Partner feeds random corner balls",
+          "icon": "bolt"
+        },
+        {
+          "text": "Call Abre or Cierra early",
+          "icon": "target"
+        },
+        {
+          "text": "Abre: rotate 180\u00b0 \u00b7 Cierra: step forward",
+          "icon": "check"
+        }
+      ],
+      "narration": "Practice the Abre versus Cierra Recognition Drill: have a partner feed random corner balls, calling Abre or Cierra before the first impact."
+    },
+    {
+      "id": "s48",
+      "kind": "stat",
+      "value": 10,
+      "suffix": " / 12",
+      "label": "target correct footwork calls per set",
+      "highlight": "10 correct",
+      "icon": "trophy",
+      "mascot": {
+        "pose": "celebrate"
+      },
+      "narration": "Do four sets of twelve random feeds, targeting at least ten correct footwork executions per set."
+    },
+    {
+      "id": "s49",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@shadow"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Shadow Footwork First",
+        "highlight": "Shadow",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Herringbone Shoes",
+          "target": "rFoot",
+          "at": "@shadow"
+        }
+      ],
+      "narration": "Beginners should first practice slow shadow footwork on the balls of your feet before full-speed ball drills, wearing herringbone turf shoes to prevent ankle rollover."
+    },
+    {
+      "id": "s50",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "jump",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@unweight"
+        }
+      ],
+      "headline": {
+        "text": "Unweight Your Feet",
+        "highlight": "Unweight",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Protect Knee",
+          "target": "rKnee",
+          "at": "@torque"
+        },
+        {
+          "label": "Unweight Heels",
+          "target": "rAchilles",
+          "at": "@heels"
+        }
+      ],
+      "narration": "Safety caution: always unweight your feet with a light hop before pivoting; spinning with flat heels on sand turf creates violent twisting torque on knee ligaments and ankles."
+    },
+    {
+      "id": "s51",
+      "kind": "title",
+      "chapter": "Rebound 4: The metallic wire mesh",
+      "number": 5,
+      "heading": "The metallic wire mesh",
+      "sub": "Low-restitution chaos",
+      "mascot": {
+        "pose": "crouch",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "The fourth family is the metallic wire mesh, covering the side walls and upper sections of the court."
+    },
+    {
+      "id": "s52",
+      "kind": "stat",
+      "value": 50,
+      "suffix": " mm",
+      "label": "electro-welded wire mesh grid openings",
+      "highlight": "50 mm",
+      "icon": "target",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "While tempered glass is rigid and predictable, the wire mesh is composed of electro-welded metal wires forming fifty-millimeter grids."
+    },
+    {
+      "id": "s53",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "block",
+          "at": "@absorb"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Wire Vibration Absorb",
+        "highlight": "Absorb",
+        "at": 0,
+        "side": "right"
+      },
+      "gauges": [
+        {
+          "label": "Kinetic Energy",
+          "icon": "bolt",
+          "from": 85,
+          "to": 25,
+          "at": "@energy"
+        }
+      ],
+      "narration": "When a padel ball strikes the mesh, the metal wires flex and vibrate, absorbing tremendous kinetic energy."
+    },
+    {
+      "id": "s54",
+      "kind": "chart",
+      "title": "Coefficient of Restitution (COR)",
+      "unit": "e",
+      "focus": 1,
+      "mascot": {
+        "pose": "present"
+      },
+      "bars": [
+        {
+          "label": "Tempered Glass",
+          "value": 0.75,
+          "display": "0.75",
+          "color": "#38BDF8"
+        },
+        {
+          "label": "Metallic Mesh",
+          "value": 0.35,
+          "display": "0.35",
+          "color": "#EF4444"
+        }
+      ],
+      "narration": "The coefficient of restitution drops from zero point seven-five on glass down to zero point three-five on mesh, causing the ball to drop dead toward the turf."
+    },
+    {
+      "id": "s55",
+      "kind": "slam",
+      "text": "\u00b145\u00b0 erratic deflections",
+      "highlight": "erratic",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Wire Node Collisions",
+      "narration": "If the ball hits a welded wire junction, it deflects upward or sideways at erratic angles of fifteen to forty-five degrees."
+    },
+    {
+      "id": "s56",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "crouch",
+          "at": "@crouch"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Ultra-Low Crouch",
+        "highlight": "Crouch",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Racket At Shin",
+          "target": "rHand",
+          "at": "@crouch"
+        }
+      ],
+      "narration": "Playing off the mesh requires an ultra-low crouch, flexing your knees so your racket head sits at shin height."
+    },
+    {
+      "id": "s57",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "crouch",
+          "at": 0
+        },
+        {
+          "pose": "block",
+          "at": "@punch"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Short Blocking Punch",
+        "highlight": "Punch",
+        "at": 0,
+        "side": "left"
+      },
+      "callouts": [
+        {
+          "label": "< 30cm Stroke",
+          "target": "rHand",
+          "dy": -130,
+          "dist": 300,
+          "at": "@punch"
+        }
+      ],
+      "narration": "Eliminate your backswing, hold the paddle out in front, and use a short blocking punch under thirty centimeters to lift the dead ball back into play."
+    },
+    {
+      "id": "s58",
+      "kind": "versus",
+      "left": {
+        "label": "Glass (Slate)",
+        "pose": "soft_hit",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "predictable true roll"
+      },
+      "right": {
+        "label": "Mesh (Chain-Link)",
+        "pose": "block",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "absorbs punch & dies"
+      },
+      "vs": "VS",
+      "narration": "Think of billiards versus a chain-link fence: glass rolls true like slate, but wire mesh wobbles, absorbs the punch, and drops the ball straight down."
+    },
+    {
+      "id": "s59",
+      "kind": "list",
+      "title": "Mesh React Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Wear protective polycarbonate eyewear",
+          "icon": "check"
+        },
+        {
+          "text": "Partner hits into side mesh",
+          "icon": "bolt"
+        },
+        {
+          "text": "Compact blocking scoop",
+          "icon": "target"
+        }
+      ],
+      "narration": "Train this with the Mesh Drop and React Drill: wearing shatterproof protective eyewear, have a partner hit balls into the side wire fence while you react with a compact blocking scoop."
+    },
+    {
+      "id": "s60",
+      "kind": "stat",
+      "value": 2,
+      "suffix": " sets progression",
+      "label": "beginner volume progression for mesh squat drills",
+      "highlight": "2 sets",
+      "icon": "clock",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "narration": "Start with two sets of six to eight feeds, progressing to four sets of ten as your legs adapt, and avoid prolonged deep squatting if you have knee pain."
+    },
+    {
+      "id": "s61",
+      "kind": "slam",
+      "text": "Safe soft recovery",
+      "highlight": "recovery",
+      "style": "brand",
+      "icon": "check",
+      "sub": "Never Blast Off The Wire",
+      "subAt": "@soft",
+      "narration": "Never try to blast a winner off the mesh; your only goal is a safe, soft recovery."
+    },
+    {
+      "id": "s62",
+      "kind": "title",
+      "chapter": "Safety and the 3-step decision flow",
+      "number": 6,
+      "heading": "Safety & decision flow",
+      "sub": "Eyes, collisions & the golden rule",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "Before taking this blueprint to the court, there are three critical safety rules every player must know."
+    },
+    {
+      "id": "s63",
+      "kind": "stat",
+      "value": 6.5,
+      "decimals": 1,
+      "suffix": " cm",
+      "label": "padel ball diameter matches orbital socket aperture",
+      "highlight": "6.5 cm",
+      "icon": "target",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "narration": "First, protect your eyes: an official padel ball measures six-point-five centimeters in diameter, matching the adult eye socket."
+    },
+    {
+      "id": "s64",
+      "kind": "stat",
+      "value": 0.25,
+      "decimals": 2,
+      "suffix": " s",
+      "label": "reaction time window on close wire fence deflections",
+      "highlight": "< 0.25 s",
+      "icon": "stopwatch",
+      "mascot": {
+        "pose": "flinch"
+      },
+      "narration": "Erratic deflections off the mesh can rocket toward your face with under zero point two-five seconds to react."
+    },
+    {
+      "id": "s65",
+      "kind": "slam",
+      "text": "#1 sports eye trauma",
+      "highlight": "Eye Trauma",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Swedish Hospital Registry Study (Acta Ophthalmol)",
+      "narration": "A landmark hospital registry study in Acta Ophthalmologica revealed that padel has become the leading cause of sports-related eye trauma in Sweden, causing severe hyphema and retinal tears."
+    },
+    {
+      "id": "s66",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@eyewear"
+        }
+      ],
+      "headline": {
+        "text": "Wear Sports Eyewear",
+        "highlight": "Eyewear",
+        "at": 0,
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "check",
+          "near": "head",
+          "offset": [
+            80,
+            -90
+          ],
+          "at": "@eyewear"
+        }
+      ],
+      "callouts": [
+        {
+          "label": "Polycarbonate Lenses",
+          "target": "head",
+          "offset": [
+            120,
+            -100
+          ],
+          "at": "@eyewear"
+        }
+      ],
+      "narration": "Sports ophthalmologists strongly recommend wearing certified shatterproof polycarbonate sports eyewear during close-quarters wall play."
+    },
+    {
+      "id": "s67",
+      "kind": "slam",
+      "text": "Never back-pedal blind",
+      "highlight": "Never",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Critical Red Flag Collision Warning",
+      "narration": "Second, here is a red flag warning: never back-pedal straight backward blind toward the glass with your heels dragging."
+    },
+    {
+      "id": "s68",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_b",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@collisions"
+        }
+      ],
+      "headline": {
+        "text": "Avoid Wall Crashes",
+        "highlight": "Crashes",
+        "at": 0,
+        "side": "left"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            -80,
+            -90
+          ],
+          "at": "@collisions"
+        }
+      ],
+      "narration": "Blind back-pedaling causes catastrophic backward falls, concussions, and violent collisions with the glass panels."
+    },
+    {
+      "id": "s69",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "walk_b",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@crossover"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Sideways Crossover Steps",
+        "highlight": "Crossover",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Sideways Travel",
+          "target": "rFoot",
+          "at": "@steps"
+        }
+      ],
+      "narration": "Always retreat using sideways crossover steps while keeping your eyes on both the ball and the wall line.",
+      "x": 480
+    },
+    {
+      "id": "s70",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "hold_calf",
+          "at": "@ankle"
+        }
+      ],
+      "headline": {
+        "text": "Ankle Sprain Check",
+        "highlight": "Ankle",
+        "at": 0,
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "See Healthcare Pro",
+          "target": "rAchilles",
+          "at": "@ankle"
+        }
+      ],
+      "narration": "Third, watch your ankles: sand buildup near the corner walls causes sudden slipping or jamming; if you roll an ankle and cannot bear weight for four steps, see a healthcare professional immediately for an evaluation."
+    },
+    {
+      "id": "s71",
+      "kind": "lineup",
+      "title": "The 3-Step Defensive Loop",
+      "members": [
+        {
+          "label": "1. Read Depth",
+          "pose": "ready",
+          "props": {
+            "r": "padel"
+          },
+          "at": "@three"
+        },
+        {
+          "label": "2. Read Wall Order",
+          "pose": "think",
+          "props": {
+            "r": "padel"
+          },
+          "at": "@decision"
+        },
+        {
+          "label": "3. Establish Spacing",
+          "pose": "padel_ready",
+          "props": {
+            "r": "padel"
+          },
+          "at": "@flow"
+        }
+      ],
+      "narration": "To pull all four rebound families together, execute this simple three-step mental decision flow on every deep shot."
+    },
+    {
+      "id": "s72",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "short_back",
+          "at": "@service"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Step 1: Read Depth",
+        "highlight": "Depth",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Step one: Read depth\u2014if the ball crosses the service line, make the mental commitment to let it go to the glass."
+    },
+    {
+      "id": "s73",
+      "kind": "versus",
+      "left": {
+        "label": "Side \u2192 Back",
+        "pose": "bandeja_finish",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "Abre: rotate 180\u00b0"
+      },
+      "right": {
+        "label": "Back \u2192 Side",
+        "pose": "soft_hit",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "Cierra: step forward"
+      },
+      "vs": "VS",
+      "narration": "Step two: Read wall order\u2014if it hits side then back, shout Abre and pivot; if it hits back then side, shout Cierra, step forward, and do not spin."
+    },
+    {
+      "id": "s74",
+      "kind": "slam",
+      "text": "Wall \u00b7 Player \u00b7 Ball",
+      "highlight": "Sequence",
+      "style": "brand",
+      "icon": "target",
+      "sub": "The Golden Spacing Rule",
+      "narration": "And step three: Establish spacing\u2014remember the golden sequence: Wall, Player, Ball. Never let the ball get between your body and the glass."
+    },
+    {
+      "id": "s75",
+      "kind": "slam",
+      "chapter": "Close",
+      "text": "Never fear the glass",
+      "highlight": "Never",
+      "style": "brand",
+      "icon": "trophy",
+      "sub": "Your Ultimate Defensive Ally",
+      "narration": "Never fear the walls in padel again."
+    },
+    {
+      "id": "s76",
+      "kind": "list",
+      "title": "The Wall Rebound Playbook",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Single: 1m buffer, strike ahead",
+          "icon": "check"
+        },
+        {
+          "text": "Abre: rotate 180\u00b0 with orbit",
+          "icon": "check"
+        },
+        {
+          "text": "Cierra: step forward, do not spin",
+          "icon": "check"
+        },
+        {
+          "text": "Mesh: ultra-low crouch, punch block",
+          "icon": "check"
+        }
+      ],
+      "narration": "Trust the glass deceleration, master your Abre pivot, step forward on Cierra, and drop low on the wire mesh."
+    },
+    {
+      "id": "s77",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@reset"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "See You On Court",
+        "highlight": "Court",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "The court perimeter is not a cage that traps you; it is your ultimate defensive reset. See you on the court."
+    }
+  ]
+}

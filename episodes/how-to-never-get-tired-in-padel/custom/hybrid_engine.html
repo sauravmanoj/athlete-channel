@@ -1,0 +1,95 @@
+<!-- Custom hero scene: The Padel Metabolic Engine (8s Explosive Burst vs 20s Aerobic Recharge) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; left:140px; right:140px; height:340px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-top { top:150px; }
+    #__ID__-root .card-bot { top:530px; }
+    #__ID__-root .card-header { position:absolute; top:24px; left:40px; display:flex; align-items:center; gap:16px; }
+    #__ID__-root .tag-pill { padding:8px 20px; border-radius:12px; font:800 24px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .tag-burst { background:#FEE2E2; color:#DC2626; }
+    #__ID__-root .tag-recharge { background:#DCFCE7; color:#059669; }
+    #__ID__-root .card-title { font:800 32px var(--display); color:var(--ink); text-transform:uppercase; }
+    
+    #__ID__-root .timeline-track { position:absolute; top:120px; left:40px; right:40px; height:60px; background:#F1F5F9; border-radius:16px; border:4px solid var(--ink); overflow:hidden; display:flex; }
+    #__ID__-root .seg { height:100%; display:flex; align-items:center; justify-content:center; font:800 20px var(--sans); color:#fff; text-transform:uppercase; letter-spacing:0.5px; border-right:3px solid #fff; }
+    #__ID__-root .seg:last-child { border-right:none; }
+    
+    #__ID__-root .stat-bar { position:absolute; bottom:24px; left:40px; right:40px; display:flex; justify-content:space-between; align-items:center; }
+    #__ID__-root .stat-group { display:flex; gap:36px; }
+    #__ID__-root .stat-val { font:900 36px var(--display); }
+    #__ID__-root .stat-lbl { font:700 18px var(--sans); color:#64748B; text-transform:uppercase; margin-top:2px; }
+    #__ID__-root .verdict-tag { font:900 30px var(--display); padding:10px 24px; border-radius:16px; text-transform:uppercase; }
+    #__ID__-root .verdict-burst { background:#DC2626; color:#fff; }
+    #__ID__-root .verdict-recharge { background:#059669; color:#fff; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:50px;text-align:center">The hybrid padel engine</div>
+
+  <!-- Top Card: The Explosive Burst (ATP-PCr) -->
+  <div class="card-box card-top" id="__ID__-card-a">
+    <div class="card-header">
+      <div class="tag-pill tag-burst">Live Rally (6–12s)</div>
+      <div class="card-title">Explosive Phosphagen Battery (ATP-PCr)</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:25%; background:#EF4444;">1. Split-Step</div>
+      <div class="seg" style="width:25%; background:#DC2626;">2. Corner Scramble</div>
+      <div class="seg" style="width:25%; background:#B91C1C;">3. Bandeja Jump</div>
+      <div class="seg" style="width:25%; background:#991B1B;">4. Net Sprint</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:#DC2626">100% Torque</div>
+          <div class="stat-lbl">Peak Force</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">0–8 Seconds</div>
+          <div class="stat-lbl">Battery Window</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-burst">ALACTIC EXPLOSIVE POWER</div>
+    </div>
+  </div>
+
+  <!-- Bottom Card: The Recovery Pause (Aerobic Refill) -->
+  <div class="card-box card-bot" id="__ID__-card-b">
+    <div class="card-header">
+      <div class="tag-pill tag-recharge">Between Points (15–20s)</div>
+      <div class="card-title">Aerobic Generator (Oxygen Delivery)</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:25%; background:#10B981;">1. Disengage</div>
+      <div class="seg" style="width:25%; background:#059669;">2. Nasal Inhale</div>
+      <div class="seg" style="width:25%; background:#047857;">3. PCr Refill</div>
+      <div class="seg" style="width:25%; background:#065F46;">4. Ready Stance</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:#059669">15–20s Refill</div>
+          <div class="stat-lbl">Recovery Pause</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">Aerobic VO2</div>
+          <div class="stat-lbl">PCr Resynthesis</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-recharge">FULL BATTERY RECHARGE</div>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.4);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, Math.max(1.5, D * 0.45));
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

@@ -1,0 +1,152 @@
+[
+  {
+    "id": "S1",
+    "title": "Official Regulations of the Padel Game",
+    "author": "International Padel Federation (FIP)",
+    "publisher": "Federación Internacional de Pádel",
+    "year": "2024",
+    "url": "https://www.padelfip.com/rules-regulations/",
+    "type": "org",
+    "notes": "Official court dimensions: 10x20 m enclosed court, service line positioned 3.00 m from back wall (6.95 m from net), back wall 4.00 m total height (3.0 m glass + 1.0 m mesh), side wall glass/mesh steps, net height 0.88 m center and 0.92 m posts. Ball rebound specification: 135–145 cm bounce dropped from 2.54 m onto hard surface, establishing baseline coefficient of restitution (e ≈ 0.73–0.76). Wire mesh opening rules: 50x50 mm to 70.8 mm diagonal, 2–4 mm wire diameter."
+  },
+  {
+    "id": "S2",
+    "title": "Physics of ball impacts with rigid surfaces and walls",
+    "author": "Cross, R.",
+    "publisher": "Sports Engineering / American Journal of Physics",
+    "year": "2014",
+    "url": "https://doi.org/10.1119/1.4867489",
+    "type": "textbook",
+    "notes": "Impact mechanics, normal/tangential velocity vectors, and coefficient of restitution (e ≈ 0.70–0.78 on rigid 10–12 mm tempered glass vs variable/lower e ≈ 0.35–0.55 on compliant wire mesh). Explains specular reflection on glass (angle of incidence equals angle of reflection) and kinetic energy dissipation during ball-turf-wall collisions."
+  },
+  {
+    "id": "S3",
+    "title": "Análisis del golpe de doble pared abierta en pádel profesional: diferencias entre género",
+    "author": "Sánchez-Alcaraz, B. J., Muñoz, D., Ramón-Llin, J., Siquier-Coll, J., & Courel-Ibáñez, J.",
+    "publisher": "Acción Motriz",
+    "year": "2021",
+    "url": "https://www.accionmotriz.com/index.php/accionmotriz/article/view/178",
+    "type": "trial",
+    "notes": "Empirical match analysis of 451 double-wall shots across 20 professional matches, categorizing double walls with body turn/rotation (giro) versus without turn, ball trajectory directions (cross-court vs down the line), and tactical rally continuation efficacy."
+  },
+  {
+    "id": "S4",
+    "title": "Manual de Técnico de Pádel: Geometría de rebotes y táctica defensiva",
+    "author": "Federación Española de Pádel (FEP) Coaching Committee",
+    "publisher": "FEP Coaching Syllabus & Technical Guidelines",
+    "year": "2022",
+    "url": "https://www.padelfederacion.es/formacion",
+    "type": "org",
+    "notes": "Authoritative technical coaching framework distinguishing Doble Pared que Abre (side-to-back opening toward center court) requiring rotational pivot footwork from Doble Pared que Cierra (back-to-side closing into body/corner) requiring forward adjustment steps without over-spinning. Establishes the 'Pared-Jugador-Pelota' (Wall-Player-Ball) spatial positioning hierarchy."
+  },
+  {
+    "id": "S5",
+    "title": "Exploring offensive players' collective movements and positioning dynamics in high-performance padel matches using tracking technology",
+    "author": "Ramón-Llin, J., Guzmán, J. F., Martínez-Gallego, R., Vučković, G., & Muñoz, D.",
+    "publisher": "International Journal of Performance Analysis in Sport",
+    "year": "2021",
+    "url": "https://doi.org/10.1080/24748668.2021.1952541",
+    "type": "trial",
+    "notes": "Computer vision tracking study establishing functional baseline defensive positioning: optimal sweet spot is 0.5–1.0 m behind the service line (2.0–2.5 m from the rear glass) and 1.0 m inward from the side wall, preserving operational radius and reaction windows."
+  },
+  {
+    "id": "S6",
+    "title": "Analysis of Off-The-Wall Smash Shots in Men’s and Women’s Professional Padel",
+    "author": "Martín-Miguel, I., Muñoz, D., Escudero-Tena, A., & Sánchez-Alcaraz, B. J.",
+    "publisher": "Perceptual and Motor Skills",
+    "year": "2024",
+    "url": "https://doi.org/10.1177/00315125231221764",
+    "type": "trial",
+    "notes": "Kinematic match analysis of off-the-wall shots (salida de pared and bajada de pared), showing incoming ball velocities of 40–100 km/h, rebound exit angles, contact point timing ahead of the body, and transition from defensive containment to aggressive counter-attack."
+  },
+  {
+    "id": "S7",
+    "title": "Padel an increasing cause of sport-related eye injuries in Sweden",
+    "author": "Kasiga, T., & Bro, T.",
+    "publisher": "Acta Ophthalmologica",
+    "year": "2024",
+    "url": "https://doi.org/10.1111/aos.15783",
+    "type": "trial",
+    "notes": "Ophthalmic epidemiology documenting padel as a leading cause of sports eye trauma (accounting for 20% of cases, escalating to #1 sport injury by 2021). Identifies padel ball diameter (6.35–6.77 cm) fitting within orbital socket aperture, causing hyphema, vitreous hemorrhage, and retinal detachment from close rebounds off mesh and glass."
+  },
+  {
+    "id": "S8",
+    "title": "Game performance and length of rally in professional padel players",
+    "author": "Courel-Ibáñez, J., Sánchez-Alcaraz Martínez, B. J., & Cañas, J.",
+    "publisher": "Journal of Human Kinetics",
+    "year": "2017",
+    "url": "https://doi.org/10.1515/hukin-2017-0014",
+    "type": "trial",
+    "notes": "Establishes that over 80% to 83% of padel points are won by net attackers, emphasizing the vital importance of defensive wall exits that neutralize pace rather than feeding high-speed chest-height balls to volleyers."
+  },
+  {
+    "id": "S9",
+    "title": "Analysis of game performance indicators during 2015–2019 World Padel Tour seasons and their influence on match outcome",
+    "author": "Escudero-Tena, A., Sánchez-Alcaraz, B. J., García-Rubio, J., & Ibáñez, S. J.",
+    "publisher": "International Journal of Environmental Research and Public Health",
+    "year": "2020",
+    "url": "https://doi.org/10.3390/ijerph17134859",
+    "type": "trial",
+    "notes": "Demonstrates that unforced errors on baseline and corner wall shots are the primary statistical differentiator between winning and losing pairs; rushing strokes before wall rebounds multiplies error rates 4-fold."
+  },
+  {
+    "id": "S10",
+    "title": "Differences in shot selection and outcome between professional and recreational padel players",
+    "author": "Martín-Miguel, I., Escudero-Tena, A., Muñoz, D., & Sánchez-Alcaraz, B. J.",
+    "publisher": "International Journal of Sports Science & Coaching",
+    "year": "2023",
+    "url": "https://doi.org/10.1177/17479541231189423",
+    "type": "trial",
+    "notes": "Contrasts amateur vs professional wall play: recreational players get jammed against back glass (<0.8 m), face the rear wall square rather than unit-turning sideways, swing with long tennis backswings, and back up toward the glass after the bounce."
+  },
+  {
+    "id": "S11",
+    "title": "Perception, Cognition, and Decision Training: The Quiet Eye in Action",
+    "author": "Vickers, J. N.",
+    "publisher": "Human Kinetics",
+    "year": "2007",
+    "url": "https://us.humankinetics.com/products/perception-cognition-and-decision-training",
+    "type": "textbook",
+    "notes": "Explains visual interception mechanics, saccadic tracking, and Quiet Eye duration (300–450 ms fixation on projectile trajectory prior to initiation of interceptive swing) in fast ball-rebound sports."
+  },
+  {
+    "id": "S12",
+    "title": "Match analysis, physical demands, and injuries in padel players: a systematic review",
+    "author": "Demeco, A., de Sire, A., Marotta, N., Spanò, R., Curci, C., Farì, G., Cioce, G., & Ammendolia, A.",
+    "publisher": "International Journal of Environmental Research and Public Health",
+    "year": "2022",
+    "url": "https://doi.org/10.3390/ijerph19052944",
+    "type": "review",
+    "notes": "Systematic review of padel injuries: acute lower-limb trauma (inversion ankle sprains, meniscus and cruciate tears from sudden rotational pivots on sand-dressed turf) and knee patellofemoral overload from sustained low defensive crouches near perimeter walls."
+  },
+  {
+    "id": "S13",
+    "title": "Incidence of musculoskeletal injuries in amateur padel players: A prospective study",
+    "author": "Castillo-Lozano, R., & Casuso-Holgado, M. J.",
+    "publisher": "Physical Therapy in Sport",
+    "year": "2017",
+    "url": "https://doi.org/10.1016/j.ptsp.2017.07.001",
+    "type": "trial",
+    "notes": "Prospective epidemiological study reporting 3.0 to 8.0 injuries per 1,000 match hours in amateur players; identifies tripping while back-pedaling toward walls and collisions with perimeter structures as high-risk acute mechanisms."
+  },
+  {
+    "id": "S14",
+    "title": "Epidemiological study of injuries in padel players: analysis of injury mechanism and risk factors",
+    "author": "García-Fernández, P., Guodemar-Pérez, J., Ruiz-López, M., et al.",
+    "publisher": "Revista Iberoamericana de Ciencias de la Actividad Física y el Deporte",
+    "year": "2019",
+    "url": "https://doi.org/10.24310/riccafd.2019.v8i2.6582",
+    "type": "trial",
+    "notes": "Documents traumatic physical collisions with tempered glass panels and metal mesh enclosures, composite racket bounceback injuries off solid walls, and shoe-turf traction shear during sudden defensive direction changes."
+  },
+  {
+    "id": "S15",
+    "title": "Decision rules for the use of radiography in acute ankle injuries: refinement and prospective validation",
+    "author": "Stiell, I. G., Greenberg, G. H., McKnight, R. D., et al.",
+    "publisher": "JAMA",
+    "year": "1993",
+    "url": "https://doi.org/10.1001/jama.1993.03500090067035",
+    "type": "trial",
+    "notes": "Defines Ottawa Ankle Rules for clinical triage of acute ligamentous tears and malleolar fractures resulting from foot inversion slips on sand-covered artificial turf near walls."
+  }
+]

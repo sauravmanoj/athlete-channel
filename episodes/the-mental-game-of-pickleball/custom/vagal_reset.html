@@ -1,0 +1,258 @@
+<!-- Custom Hero Scene: The 3-Second Vagal Reset Protocol (Balban et al., Cell Reports Medicine 2023) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080" style="background:#0F172A; overflow:hidden;">
+  <style>
+    #__ID__-root .rt-title {
+      position: absolute;
+      top: 55px;
+      left: 100px;
+      font: 800 48px var(--display, 'Oswald', sans-serif);
+      color: #FFFFFF;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+    #__ID__-root .rt-badge {
+      display: inline-block;
+      padding: 6px 18px;
+      border-radius: 8px;
+      background: #0284C7;
+      color: #FFFFFF;
+      font-size: 24px;
+      margin-left: 20px;
+      vertical-align: middle;
+      font-family: var(--body, system-ui, sans-serif);
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    #__ID__-root .timeline-container {
+      position: absolute;
+      left: 100px;
+      top: 170px;
+      width: 1720px;
+      height: 820px;
+    }
+    #__ID__-root .track-card {
+      position: absolute;
+      left: 0;
+      width: 1720px;
+      background: #1E293B;
+      border: 3px solid #334155;
+      border-radius: 20px;
+      padding: 24px 32px;
+      box-sizing: border-box;
+    }
+    #__ID__-root .card-top {
+      top: 0;
+      height: 350px;
+      border-color: #38BDF8;
+    }
+    #__ID__-root .card-bottom {
+      top: 380px;
+      height: 420px;
+      border-color: #10B981;
+    }
+    #__ID__-root .track-h {
+      font: 700 28px var(--display, 'Oswald', sans-serif);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    #__ID__-root .phase-breakdown {
+      display: flex;
+      gap: 20px;
+      height: 205px;
+    }
+    #__ID__-root .phase-box {
+      border-radius: 14px;
+      padding: 18px 22px;
+      box-sizing: border-box;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      color: #FFFFFF;
+      position: relative;
+      border: 2px solid transparent;
+    }
+    #__ID__-root .phase-1 {
+      flex: 30;
+      background: linear-gradient(135deg, rgba(56, 189, 248, 0.15), rgba(14, 165, 233, 0.25));
+      border-color: #38BDF8;
+    }
+    #__ID__-root .phase-2 {
+      flex: 25;
+      background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(79, 70, 229, 0.25));
+      border-color: #818CF8;
+    }
+    #__ID__-root .phase-3 {
+      flex: 45;
+      background: linear-gradient(135deg, rgba(16, 185, 129, 0.15), rgba(5, 150, 105, 0.25));
+      border-color: #34D399;
+    }
+    #__ID__-root .ph-step {
+      font: 800 22px var(--display, 'Oswald', sans-serif);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      opacity: 0.85;
+    }
+    #__ID__-root .ph-title {
+      font: 800 30px var(--display, 'Oswald', sans-serif);
+      letter-spacing: 0.5px;
+      margin-top: 2px;
+    }
+    #__ID__-root .ph-desc {
+      font: 500 17px var(--body, system-ui, sans-serif);
+      opacity: 0.9;
+      line-height: 1.25;
+    }
+    #__ID__-root .ph-time {
+      font: 800 19px var(--display, 'Oswald', sans-serif);
+      padding: 4px 12px;
+      border-radius: 6px;
+      background: rgba(0, 0, 0, 0.45);
+      align-self: flex-start;
+      margin-top: 6px;
+    }
+    #__ID__-root .vagal-metrics {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 20px;
+      margin-top: 10px;
+    }
+    #__ID__-root .metric-card {
+      background: #0F172A;
+      border: 2px solid #334155;
+      border-radius: 14px;
+      padding: 20px 24px;
+      box-sizing: border-box;
+    }
+    #__ID__-root .mc-title {
+      font: 700 20px var(--display, 'Oswald', sans-serif);
+      color: #94A3B8;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    #__ID__-root .mc-val {
+      font: 800 44px var(--display, 'Oswald', sans-serif);
+      color: #34D399;
+      margin: 10px 0 6px 0;
+    }
+    #__ID__-root .mc-sub {
+      font: 500 17px var(--body, system-ui, sans-serif);
+      color: #CBD5E1;
+      line-height: 1.3;
+    }
+    #__ID__-root .protocol-summary {
+      margin-top: 22px;
+      background: rgba(16, 185, 129, 0.12);
+      border: 2px solid #10B981;
+      border-radius: 12px;
+      padding: 16px 24px;
+      color: #E2E8F0;
+      font: 500 20px var(--body, system-ui, sans-serif);
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    #__ID__-root .ps-icon {
+      font-size: 32px;
+    }
+  </style>
+
+  <div class="rt-title" id="__ID__-title">
+    The 3-Second Vagal Reset
+    <span class="rt-badge">Cell Reports Medicine (Balban et al., 2023)</span>
+  </div>
+
+  <div class="timeline-container">
+    <!-- Top Card: Respiration Mechanics -->
+    <div class="track-card card-top" id="__ID__-card-top">
+      <div class="track-h" style="color: #38BDF8;">
+        <span>Physiological Cyclic Sigh Protocol</span>
+        <span style="color: #FBBF24;">Rule 4.E Compliant (&lt;10s)</span>
+      </div>
+
+      <div class="phase-breakdown" id="__ID__-phases">
+        <div class="phase-box phase-1">
+          <div>
+            <div class="ph-step" style="color: #38BDF8;">Step 1</div>
+            <div class="ph-title">Nasal Inhale</div>
+            <div class="ph-desc">Deep diaphragmatic breath filling lower lungs</div>
+          </div>
+          <div class="ph-time" style="color: #38BDF8;">~1.0 Second</div>
+        </div>
+
+        <div class="phase-box phase-2">
+          <div>
+            <div class="ph-step" style="color: #818CF8;">Step 2</div>
+            <div class="ph-title">Top-Off Sniff</div>
+            <div class="ph-desc">Quick nasal pop re-inflating collapsed alveoli</div>
+          </div>
+          <div class="ph-time" style="color: #818CF8;">~0.5 Seconds</div>
+        </div>
+
+        <div class="phase-box phase-3">
+          <div>
+            <div class="ph-step" style="color: #34D399;">Step 3</div>
+            <div class="ph-title">Prolonged Exhale</div>
+            <div class="ph-desc">Slow open-mouth sigh dumping CO2 & activating vagus</div>
+          </div>
+          <div class="ph-time" style="color: #34D399;">~2.0 - 2.5 Seconds</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Card: Autonomic Nervous System Output -->
+    <div class="track-card card-bottom" id="__ID__-card-bottom">
+      <div class="track-h" style="color: #10B981;">
+        <span>Autonomic Downregulation & Visual Anchoring</span>
+        <span style="color: #34D399;">Execution Window: 3.5 Seconds</span>
+      </div>
+
+      <div class="vagal-metrics" id="__ID__-metrics">
+        <div class="metric-card">
+          <div class="mc-title">Vagus Nerve Stimulation</div>
+          <div class="mc-val">ACTIVE</div>
+          <div class="mc-sub">Pulmonary stretch receptors trigger parasympathetic brake</div>
+        </div>
+        <div class="metric-card">
+          <div class="mc-title">Acute Heart Rate Response</div>
+          <div class="mc-val" style="color: #38BDF8;">-25 to -30 BPM</div>
+          <div class="mc-sub">Arterial vasodilation releases peripheral vascular resistance</div>
+        </div>
+        <div class="metric-card">
+          <div class="mc-title">Quiet Eye Gaze Lock</div>
+          <div class="mc-val" style="color: #FBBF24;">2.0s Lock</div>
+          <div class="mc-sub">Visual fixation on paddle face quiets motor cortex noise</div>
+        </div>
+      </div>
+
+      <div class="protocol-summary" id="__ID__-summary">
+        <div class="ps-icon">🫁</div>
+        <div><strong>On-Court Rule:</strong> One cyclic sigh between points drops pulse, releases forearm grip tension, and resets cognitive focus before stepping to the line.</div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-top", { opacity: 0, x: -30 }, { opacity: 1, x: 0, duration: 0.5 }, 0.3);
+  tl.fromTo("#__ID__-phases .phase-box", { opacity: 0, y: 20 }, { opacity: 1, y: 0, duration: 0.4, stagger: 0.15 }, 0.6);
+
+  tl.fromTo("#__ID__-card-bottom", { opacity: 0, y: 30 }, { opacity: 1, y: 0, duration: 0.5 }, Math.min(1.8, D * 0.4));
+  tl.fromTo("#__ID__-metrics .metric-card", { opacity: 0, scale: 0.9 }, { opacity: 1, scale: 1, duration: 0.4, stagger: 0.15 }, Math.min(2.3, D * 0.5));
+  tl.fromTo("#__ID__-summary", { opacity: 0, y: 15 }, { opacity: 1, y: 0, duration: 0.4 }, Math.min(3.0, D * 0.7));
+
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>

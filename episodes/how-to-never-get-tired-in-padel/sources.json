@@ -1,0 +1,162 @@
+[
+  {
+    "id": "S1",
+    "title": "Activity profile and physiological demand of padel match play: a systematic review",
+    "author": "Mellado-Arbelo, Ó., & Baiget, E.",
+    "publisher": "Kinesiology 54(1):128-140",
+    "year": "2022",
+    "url": "https://doi.org/10.26582/k.54.1.14",
+    "type": "review",
+    "notes": "Systematic review analyzing internal and external loads in padel: intermittent work-to-rest ratio typically ~1:1.5 to 1:2; rally durations 7–15 s; rest intervals 10–20 s; moderate blood lactate contribution (~2.4–3.4 mmol/L); high frequency of directional changes; external load and distance covered correlate inversely with playing skill."
+  },
+  {
+    "id": "S2",
+    "title": "Game performance and length of rally in professional padel players",
+    "author": "Courel-Ibáñez, J., Sánchez-Alcaraz Martínez, B. J., & Cañas, J.",
+    "publisher": "Journal of Human Kinetics 55(1):161-169",
+    "year": "2017",
+    "url": "https://doi.org/10.1515/hukin-2017-0014",
+    "type": "trial",
+    "notes": "Time-motion study of professional padel: mean rally length 9.3–12.5 s; rest duration between points 15–21 s; effective playing time 35–40% of total match time; over 80% to 83% of winning points are completed at the net zone."
+  },
+  {
+    "id": "S3",
+    "title": "Performance Outcome Measures in Padel: A Scoping Review",
+    "author": "García-Giménez, A., Pradas de la Fuente, F., Castellar Otín, C., & Carrasco Páez, L.",
+    "publisher": "International Journal of Environmental Research and Public Health 19(7):4339",
+    "year": "2022",
+    "url": "https://doi.org/10.3390/ijerph19074339",
+    "type": "review",
+    "notes": "Comprehensive scoping review of 72 padel studies: average match heart rate hovers at 65–80% HRmax (140–160 bpm), peaking at >85–95% HRmax (>175–185 bpm) during high-intensity rallies; baseline resting blood lactate 1.83–1.90 mmol/L rising to 2.40–3.38 mmol/L at match completion; VO2 averages ~76% of VO2max."
+  },
+  {
+    "id": "S4",
+    "title": "Physical and physiological responses in Paddle Tennis competition",
+    "author": "Castillo-Rodríguez, A., Alvero-Cruz, J. R., Hernández-Mendo, A., & Fernández-García, J. C.",
+    "publisher": "International Journal of Performance Analysis in Sport 14(2):524-534",
+    "year": "2014",
+    "url": "https://doi.org/10.1080/24748668.2014.11868740",
+    "type": "trial",
+    "notes": "Identifies the skill efficiency paradox: amateur and lower-level players sustain significantly higher mean heart rates (150–156 bpm) and cover more erratic running distance than elite players (131.7 bpm), who conserve energy through positional anticipation and shorter point construction."
+  },
+  {
+    "id": "S5",
+    "title": "Movement patterns and physical load: insights from professional padel",
+    "author": "Ramón-Llin, J., Miralles, R., Martínez-Gallego, R., Guzmán, J. F., Vučković, G., & Muñoz, D.",
+    "publisher": "Biology of Sport 40(3):675-681",
+    "year": "2023",
+    "url": "https://doi.org/10.5114/biolsport.2023.119985",
+    "type": "trial",
+    "notes": "WIMU Pro wearable GPS/accelerometer study in elite padel: match winners cover a median of 2,518 m/h vs 2,339 m/h for losers; total distance per 90-min match reaches 2,500–4,000 m; players perform hundreds of high-intensity accelerations and decelerations (>300–500 braking actions); left-side players cover greater relative distance."
+  },
+  {
+    "id": "S6",
+    "title": "Exploring offensive players' collective movements and positioning dynamics in high-performance padel matches using tracking technology",
+    "author": "Ramón-Llin, J., Guzmán, J. F., Martínez-Gallego, R., Vučković, G., & Muñoz, D.",
+    "publisher": "International Journal of Performance Analysis in Sport 21(5):785-798",
+    "year": "2021",
+    "url": "https://doi.org/10.1080/24748668.2021.1952541",
+    "type": "trial",
+    "notes": "Computer vision tracking demonstrates synchronized partner movement dynamics ('invisible string' keeping ~3 m lateral separation); establishes defensive sweet spot ~0.8 m behind service line; shows that coordinated depth adjustment prevents excessive running and defensive gaps."
+  },
+  {
+    "id": "S7",
+    "title": "The role of the lob in padel: analysis of the efficacy and winning percentage",
+    "author": "Courel-Ibáñez, J., & Sánchez-Alcaraz Martínez, B. J.",
+    "publisher": "Revista Apunts: Educación Física y Deportes 137:52-61",
+    "year": "2018",
+    "url": "https://doi.org/10.5672/apunts.2014-0983.es.(2019/3).137.05",
+    "type": "trial",
+    "notes": "Analyzes the tactical lob: baseline defenders use lobs in 60.6% of transition attempts, achieving a 65.9% rally continuation success rate compared to 47.0% for flat groundstrokes, forcing net attackers to retreat."
+  },
+  {
+    "id": "S8",
+    "title": "Analysis of the lob in men's professional padel",
+    "author": "Muñoz, D., Courel-Ibáñez, J., Sánchez-Alcaraz, B. J., Díaz, J., Grijota, F. J., & Robbins, D.",
+    "publisher": "Proceedings of the 6th International Racket Sports Congress",
+    "year": "2017",
+    "url": "https://www.researchgate.net/publication/320147610",
+    "type": "trial",
+    "notes": "Kinematic tracking of the defensive lob: parabolic trajectories reach 5.0 to 8.0 m vertical apex, producing 3.5 to 4.5 s of flight hang time, serving as an in-point reset to restore balance and recover cardiopulmonary equilibrium."
+  },
+  {
+    "id": "S9",
+    "title": "Biomechanical and neuromuscular performance requirements of horizontal deceleration: A review with implications for random, intermittent, multi-directional sports",
+    "author": "Harper, D. J., McBurnie, A. J., Santos, T. D., Eriksrud, O., Evans, M., Cohen, D. D., Rhodes, D., Carling, C., & Kiely, J.",
+    "publisher": "Sports Medicine 52(9):2321-2354",
+    "year": "2022",
+    "url": "https://doi.org/10.1007/s40279-022-01693-0",
+    "type": "review",
+    "notes": "Comprehensive review of horizontal deceleration: braking actions generate multi-times bodyweight ground reaction forces with brief impact times; eccentric quadriceps, calf, and hamstring loading causes mechanical micro-trauma and neuromuscular failure ('braking debt') well before cardiopulmonary exhaustion."
+  },
+  {
+    "id": "S10",
+    "title": "Match analysis, physical demands, and injuries in padel players: a systematic review",
+    "author": "Demeco, A., de Sire, A., Marotta, N., Spanò, R., Curci, C., Farì, G., Cioce, G., & Ammendolia, A.",
+    "publisher": "International Journal of Environmental Research and Public Health 19(5):2944",
+    "year": "2022",
+    "url": "https://doi.org/10.3390/ijerph19052944",
+    "type": "review",
+    "notes": "Systematic review of padel injuries: repetitive deceleration and jumping on sand-dressed artificial turf causes high rates of lower-limb overuse pathologies, specifically patellar and Achilles tendinopathy, and acute knee/ankle rotational strains."
+  },
+  {
+    "id": "S11",
+    "title": "High-intensity interval training, solutions to the programming puzzle: Part I: cardiopulmonary emphasis",
+    "author": "Buchheit, M., & Laursen, P. B.",
+    "publisher": "Sports Medicine 43(5):313-338",
+    "year": "2013",
+    "url": "https://doi.org/10.1007/s40279-013-0029-x",
+    "type": "review",
+    "notes": "Framework for interval conditioning: repeated sprint and short-interval formats (e.g., 10–15 s efforts with 1:2 to 1:3 recovery ratios) elicit prolonged time at 90–95% VO2max while matching court sport metabolic specificity."
+  },
+  {
+    "id": "S12",
+    "title": "The relationship between aerobic fitness and recovery from high intensity intermittent exercise",
+    "author": "Tomlin, D. L., & Wenger, H. A.",
+    "publisher": "Sports Medicine 31(1):1-11",
+    "year": "2001",
+    "url": "https://doi.org/10.2165/00007256-200131010-00001",
+    "type": "review",
+    "notes": "High aerobic capacity (VO2max) accelerates phosphocreatine (PCr) resynthesis and intramuscular re-oxygenation during short recovery pauses, preventing progressive power drop-off across repeated high-intensity bouts."
+  },
+  {
+    "id": "S13",
+    "title": "Interaction among Skeletal Muscle Metabolic Energy Systems during Intense Exercise",
+    "author": "Baker, J. S., McCormick, M. C., & Robergs, R. A.",
+    "publisher": "Journal of Nutrition and Metabolism 2010:905612",
+    "year": "2010",
+    "url": "https://doi.org/10.1155/2010/905612",
+    "type": "review",
+    "notes": "Energy continuum: the ATP-PCr phosphagen system powers initial 5–10 s maximal efforts; anaerobic glycolysis supplies intermediate energy during extended bursts (producing lactate and hydrogen ions); aerobic metabolism actively assists recovery and ATP regeneration throughout."
+  },
+  {
+    "id": "S14",
+    "title": "The physiological effects of slow breathing in the healthy human",
+    "author": "Russo, M. A., Santarelli, D. M., & O'Rourke, D.",
+    "publisher": "Breathe 13(4):298-309",
+    "year": "2017",
+    "url": "https://doi.org/10.1183/20734735.009817",
+    "type": "review",
+    "notes": "Controlled slow breathing (~6 breaths/min) and nasal breathing stimulate parasympathetic vagal reactivation through respiratory sinus arrhythmia (RSA), optimizing gas exchange and accelerating heart rate recovery between exertion bouts."
+  },
+  {
+    "id": "S15",
+    "title": "Nutrition and Athletic Performance (ACSM, AND, DC Joint Position Statement)",
+    "author": "Thomas, D. T., Erdman, K. A., & Burke, L. M.",
+    "publisher": "Medicine & Science in Sports & Exercise 48(3):543-568",
+    "year": "2016",
+    "url": "https://doi.org/10.1249/MSS.0000000000000852",
+    "type": "position-stand",
+    "notes": "Position stand: fluid loss exceeding 2% of body mass degrades cognitive decision-making, reaction time, and physical stamina; indoor/glass padel courts cause sweat rates of 1.0–1.5 L/h; electrolyte replacement (sodium 0.5–0.7 g/L) is critical for extended play."
+  },
+  {
+    "id": "S16",
+    "title": "Official Regulations of the Padel Game",
+    "author": "International Padel Federation (FIP)",
+    "publisher": "Federación Internacional de Pádel",
+    "year": "2024",
+    "url": "https://www.padelfip.com/rules-regulations/",
+    "type": "org",
+    "notes": "Official court dimensions: 10x20 m enclosed court surrounded by glass and wire mesh; service line at 3.0 m from back wall; rule limits enforce maximum 20 s between points, 90 s during side changes, and 120 s between sets."
+  }
+]

@@ -1,0 +1,1508 @@
+{
+  "version": 1,
+  "channel": "athlete-channel",
+  "slug": "the-mental-game-of-pickleball",
+  "title": "The mental game of pickleball",
+  "youtube": {
+    "title": "The mental game of pickleball",
+    "titleOptions": [
+      "The mental game of pickleball (how to stay ice-cold at 9–9)",
+      "Why you choke at 9–9 in pickleball (and the 3-second fix)",
+      "4 sports psychology rules that win tight pickleball matches"
+    ],
+    "description": "Tied 9–9 in the deciding game, heart pounding, forearm turned to stone, and opponents attacking your body? Here is the complete sports psychology breakdown to mastering the mental game of pickleball: beating the 80% target trap, locking down prefrontal patience on low balls, executing the 3-second cyclic sigh vagal reset between points, and eliminating explicit motor choking at match point.",
+    "tags": [
+      "pickleball",
+      "the mental game of pickleball",
+      "pickleball mental game",
+      "pickleball sports psychology",
+      "how to not choke in pickleball",
+      "pickleball strategy",
+      "pickleball tips",
+      "coach ember",
+      "pickleball doubles strategy",
+      "pickleball pressure"
+    ]
+  },
+  "thumbnail": {
+    "pose": "ready",
+    "props": {
+      "r": "pbpaddle"
+    },
+    "background": "court",
+    "headline": "ICE-COLD AT 9-9",
+    "highlight": "9-9",
+    "opponent": {
+      "pose": "flinch"
+    },
+    "icons": [
+      {
+        "icon": "bolt",
+        "pos": [
+          1420,
+          260
+        ],
+        "size": 1.5
+      }
+    ],
+    "side": "right"
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "mascot",
+      "chapter": "Hook",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@tied"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Tied 9–9 Deciding Game",
+        "highlight": "9–9",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "You are standing at the kitchen line, tied 9–9 in the deciding game."
+    },
+    {
+      "id": "s02",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "tired_front",
+          "at": 0
+        },
+        {
+          "pose": "hold_back",
+          "at": "@forearm"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "gauges": [
+        {
+          "label": "Heart Rate",
+          "icon": "fire",
+          "from": 95,
+          "to": 165,
+          "at": "@heart"
+        }
+      ],
+      "headline": {
+        "text": "Sympathetic Surge",
+        "highlight": "Surge",
+        "at": "@heart",
+        "side": "right"
+      },
+      "narration": "Your heart pounds against your ribs, your forearm turns to solid stone, and your partner looks over with anxious eyes."
+    },
+    {
+      "id": "s03",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "block",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@drives"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "callouts": [
+        {
+          "label": "Body Attack Zone",
+          "target": "chest",
+          "at": "@drives",
+          "side": "right",
+          "top": 280
+        }
+      ],
+      "narration": "Opponents notice your panic, so they fire four consecutive drives directly at your body."
+    },
+    {
+      "id": "s04",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "dink",
+          "at": 0
+        },
+        {
+          "pose": "facepalm",
+          "at": "@dump"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Impatient Speed-Up In The Net",
+        "highlight": "In The Net",
+        "at": "@dump",
+        "side": "right"
+      },
+      "narration": "You lash out at a low bounce, dump an impatient speed-up into the tape, and watch the match slip away."
+    },
+    {
+      "id": "s05",
+      "kind": "slam",
+      "text": "Lost To Your Nervous System",
+      "highlight": "Nervous System",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Not better strokes — autonomous panic",
+      "narration": "Every pickleball player knows this feeling: you did not lose to better strokes, you lost to your own nervous system."
+    },
+    {
+      "id": "s06",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "pb_hands_hips",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@ice-cold"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Ice-Cold Tactical Focus",
+        "highlight": "Ice-Cold",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Mastering the mental game transforms high-pressure terror into ruthless, ice-cold tactical focus."
+    },
+    {
+      "id": "s07",
+      "kind": "mascot",
+      "chapter": "The 4 mental pillars",
+      "background": "dark",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@paddle"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Court Psychology",
+        "highlight": "Psychology",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Tournament doubles is won between your ears, not just off your paddle face."
+    },
+    {
+      "id": "s08",
+      "kind": "list",
+      "title": "The 4 Mental Pillars",
+      "items": [
+        {
+          "text": "The Target Trap",
+          "sub": "Defeat 80% isolation & partner disconnect",
+          "at": "@target"
+        },
+        {
+          "text": "The Patience Threshold",
+          "sub": "Prefrontal impulse control on low balls",
+          "at": "@patience"
+        },
+        {
+          "text": "The 3-Second Vagal Reset",
+          "sub": "Cyclic sighing & Quiet Eye between points",
+          "at": "@vagal"
+        },
+        {
+          "text": "Closing at 9–9",
+          "sub": "External focus to eliminate motor choking",
+          "at": "@closing"
+        }
+      ],
+      "narration": "We organize your court psychology around four proven pillars: the target trap, the patience threshold, the 3-second vagal reset, and closing out 9–9."
+    },
+    {
+      "id": "s09",
+      "kind": "stat",
+      "value": 80,
+      "suffix": "%",
+      "label": "Opponent Isolation Frequency",
+      "sub": "Doubles teams relentlessly hunt one side",
+      "mascot": {
+        "pose": "block",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "80%",
+      "narration": "Pillar 1 dismantles opponent isolation when 80 percent of shots target you."
+    },
+    {
+      "id": "s10",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "dink_b",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@rush"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Impulse Control Under 34 Inches",
+        "highlight": "Impulse Control",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Pillar 2 locks down prefrontal impulse control so you never rush a low attack."
+    },
+    {
+      "id": "s11",
+      "kind": "stat",
+      "value": 10,
+      "suffix": "s",
+      "label": "Rule 4.E Between-Point Envelope",
+      "sub": "3-second vagal reset drops pulse instantly",
+      "mascot": {
+        "pose": "meditate"
+      },
+      "highlight": "10s",
+      "narration": "Pillar 3 triggers rapid autonomic calming between points inside 10 seconds."
+    },
+    {
+      "id": "s12",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "pb_drop",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@match"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Shield Motor Memory At Match Point",
+        "highlight": "Shield",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Pillar 4 shields automated motor memory from conscious choking when the score reaches match point."
+    },
+    {
+      "id": "s13",
+      "kind": "mascot",
+      "chapter": "Pillar 1: The target trap",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@funneling"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Opponents Hunting One Player",
+        "highlight": "Hunting",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "In doubles pickleball, opposing teams intentionally hunt the perceived weaker player, funneling 70 to 80 percent of shots to one side."
+    },
+    {
+      "id": "s14",
+      "kind": "versus",
+      "title": "Mental State Shift Under Isolation",
+      "left": {
+        "label": "Threat State",
+        "pose": "flinch",
+        "gauge": {
+          "label": "Vascular Resistance",
+          "icon": "fire",
+          "from": 85,
+          "to": 95
+        }
+      },
+      "right": {
+        "label": "Challenge State",
+        "pose": "ready",
+        "gauge": {
+          "label": "Cardiac Efficiency",
+          "icon": "bolt",
+          "from": 60,
+          "to": 90
+        }
+      },
+      "winner": "right",
+      "narration": "When 8 balls in a row fly at you, your brain sounds an alarm, viewing the bombardment as an existential threat."
+    },
+    {
+      "id": "s15",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "crouch",
+          "at": 0
+        },
+        {
+          "pose": "facepalm",
+          "at": "@ambush"
+        }
+      ],
+      "headline": {
+        "text": "Goalkeeper Penalty Mindset",
+        "highlight": "Penalty",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Think of a goalkeeper facing a relentless penalty shootout: if you freeze up, every incoming ball feels like an ambush."
+    },
+    {
+      "id": "s16",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@reframe"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Reframe Pressure As Challenge",
+        "highlight": "Challenge",
+        "at": "@reframe",
+        "side": "right"
+      },
+      "narration": "In competitive tennis and basketball, isolated athletes who reframe this pressure as a personal challenge immediately regain optical tracking and motor fluidity."
+    },
+    {
+      "id": "s17",
+      "kind": "slam",
+      "text": "You Dictate Match Tempo",
+      "highlight": "Tempo",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "Every ball to you is an opportunity to reset",
+      "narration": "You must execute a cognitive reappraisal: repeated attacks mean you dictate match tempo, not your opponents."
+    },
+    {
+      "id": "s18",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "pb_hands_hips",
+          "at": 0
+        },
+        {
+          "pose": "present",
+          "at": "@tactile"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Tactile Partner Synchrony",
+        "highlight": "Synchrony",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Simultaneously, you need tactile synchrony with your partner."
+    },
+    {
+      "id": "s19",
+      "kind": "stat",
+      "value": 100,
+      "suffix": "%",
+      "label": "Fist Bumps & Paddle Taps",
+      "sub": "Dampens cortisol & restores partner trust (Kraus 2010)",
+      "mascot": {
+        "pose": "celebrate",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "100%",
+      "narration": "Research across elite NBA teams shows frequent non-verbal physical contact, like fist bumps and paddle taps, significantly dampens cortisol and boosts cooperative coordination under stress."
+    },
+    {
+      "id": "s20",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "swing_through",
+          "at": 0
+        },
+        {
+          "pose": "facepalm",
+          "at": "@sideline"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Eliminate Sideline Panic Counters",
+        "highlight": "Panic",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Tactically, stop spraying panic counters down the sideline."
+    },
+    {
+      "id": "s21",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "soft_hit",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@balance"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Reset To Deep Center Pyramid",
+        "highlight": "Pyramid",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Channel incoming pace back into the deep center pyramid, forcing opponents to negotiate middle spacing while buying your defense balance."
+    },
+    {
+      "id": "s22",
+      "kind": "slam",
+      "text": "80/20 Stress Inoculation Drill",
+      "highlight": "80/20",
+      "style": "brand",
+      "icon": "target",
+      "sub": "Inoculate isolation under live court pressure",
+      "narration": "Practice the 80/20 Stress Inoculation Drill."
+    },
+    {
+      "id": "s23",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "dink",
+          "at": 0
+        },
+        {
+          "pose": "block",
+          "at": "@reset"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "80% Feeds To Isolated Target",
+        "highlight": "80% Feeds",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Have two drilling partners hit 80 percent of all feeds exclusively to you for 10 minutes while you reset everything to the deep middle kitchen."
+    },
+    {
+      "id": "s24",
+      "kind": "stat",
+      "value": 3,
+      "suffix": " Rounds",
+      "label": "10-Min Isolation Blocks",
+      "sub": "2 minutes rest between sets for cognitive recovery",
+      "mascot": {
+        "pose": "pb_hands_hips",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "3 Rounds",
+      "narration": "Run 3 rounds of 10 minutes with 2 minutes of rest between games."
+    },
+    {
+      "id": "s25",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "arms_crossed",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@frustration"
+        }
+      ],
+      "headline": {
+        "text": "Mistake: The Silent Back Turn",
+        "highlight": "Mistake",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "A common mistake is turning your back on your partner in silent frustration, which spikes partner anxiety and destroys court chemistry."
+    },
+    {
+      "id": "s26",
+      "kind": "stat",
+      "chapter": "Pillar 2: The patience threshold",
+      "value": 65,
+      "suffix": "%",
+      "label": "Points Ending In Unforced Errors",
+      "sub": "Pickleball analytics: patience wins matches",
+      "mascot": {
+        "pose": "think"
+      },
+      "highlight": "65%",
+      "narration": "Over 65 percent of pickleball points end on unforced errors rather than outright winners."
+    },
+    {
+      "id": "s27",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "dink_b",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@speed-ups"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "The Impatient Speed-Up Trap",
+        "highlight": "Trap",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Nowhere is this truer than impatient speed-ups."
+    },
+    {
+      "id": "s28",
+      "kind": "stat",
+      "value": 15,
+      "suffix": " Shots",
+      "label": "Dopamine Craving Trigger",
+      "sub": "Extended dink rallies exhaust mental restraint",
+      "mascot": {
+        "pose": "tired_front",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "15 Shots",
+      "narration": "When an extended dink rally drags past 15 shots, your brain craves an immediate dopamine reward to end the tension."
+    },
+    {
+      "id": "s29",
+      "kind": "mascot",
+      "background": "dark",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@neurological"
+        }
+      ],
+      "headline": {
+        "text": "Prefrontal Response Inhibition",
+        "highlight": "Inhibition",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Your prefrontal cortex governs response inhibition, the neurological muscle that stops you from swinging at temptation."
+    },
+    {
+      "id": "s30",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "swing_back",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@sinking"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "callouts": [
+        {
+          "label": "Below Net Tape (34\")",
+          "target": "rKnee",
+          "at": 0,
+          "side": "right",
+          "top": 360
+        }
+      ],
+      "narration": "Under acute stress, prefrontal control degrades, tempting you to pull the trigger on balls sinking below net tape level."
+    },
+    {
+      "id": "s31",
+      "kind": "stat",
+      "value": 65,
+      "suffix": "%",
+      "label": "Attack Penalty Below Net Tape",
+      "sub": "Direct net errors or immediate opponent counters",
+      "mascot": {
+        "pose": "facepalm"
+      },
+      "highlight": "65%",
+      "narration": "Match analytics reveal that attacking a ball below 34 inches incurs a devastating 65 percent penalty through direct net dumps or counter-smashes."
+    },
+    {
+      "id": "s32",
+      "kind": "versus",
+      "title": "The Traffic Light Decision Boundary",
+      "left": {
+        "label": "Red Light (Below 34\")",
+        "pose": "dink_b",
+        "gauge": {
+          "label": "Error Penalty",
+          "icon": "cross",
+          "from": 65,
+          "to": 75
+        }
+      },
+      "right": {
+        "label": "Green Light (Above 34\")",
+        "pose": "soft_hit",
+        "gauge": {
+          "label": "Attack Success",
+          "icon": "check",
+          "from": 55,
+          "to": 80
+        }
+      },
+      "winner": "right",
+      "narration": "Picture a traffic light: green light balls bounce above net height and invite clean topspin attacks, while red light balls sit below tape height and demand patience."
+    },
+    {
+      "id": "s33",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "dink",
+          "at": "@restraint"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Absorbing Balls Like Padel Pros",
+        "highlight": "Padel Pros",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Elite padel and badminton players exhibit this exact restraint, absorbing deep defensive balls until a true attacking float appears."
+    },
+    {
+      "id": "s34",
+      "kind": "slam",
+      "text": "Traffic Light Dinking Drill",
+      "highlight": "Traffic Light",
+      "style": "brand",
+      "icon": "check",
+      "sub": "Rewire prefrontal discipline on low contact",
+      "narration": "Train this discipline using the Traffic Light Dinking Drill."
+    },
+    {
+      "id": "s35",
+      "kind": "list",
+      "title": "Traffic Light Scoring Rules",
+      "items": [
+        {
+          "text": "+1 Point: Red Ball Reset",
+          "sub": "Clean soft unattackable drop into the kitchen",
+          "at": "@earn"
+        },
+        {
+          "text": "-2 Points: Low Speed-Up",
+          "sub": "Attacking any contact below net tape height",
+          "at": "@concede"
+        },
+        {
+          "text": "Target Score: 11 Points",
+          "sub": "Play full crosscourt games against your partner",
+          "at": "@games"
+        }
+      ],
+      "narration": "Play crosscourt dink games to 11 where you earn 1 point for every unattackable red ball reset into the kitchen, but concede 2 points if you speed up any ball below net height."
+    },
+    {
+      "id": "s36",
+      "kind": "stat",
+      "value": 4,
+      "suffix": " Games",
+      "label": "Twice Per Week Routine",
+      "sub": "Builds unshakeable impulse control at the kitchen",
+      "mascot": {
+        "pose": "pb_hands_hips",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "4 Games",
+      "narration": "Complete 4 games to 11, twice per week."
+    },
+    {
+      "id": "s37",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "soft_hit",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@neutral"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Active Ready vs Passive Pushing",
+        "highlight": "Active Ready",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "A frequent mistake is confusing passive pushing with tactical patience; patience means waiting actively with your paddle loaded in neutral ready position."
+    },
+    {
+      "id": "s38",
+      "kind": "mascot",
+      "chapter": "Pillar 3: The 3-second vagal reset",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "side_stand",
+          "at": 0
+        },
+        {
+          "pose": "meditate",
+          "at": "@silence"
+        }
+      ],
+      "headline": {
+        "text": "The Silence Between Points",
+        "highlight": "Silence",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Pickleball rallies are explosive, but the match is governed during the silence between points."
+    },
+    {
+      "id": "s39",
+      "kind": "stat",
+      "value": 10,
+      "suffix": "s",
+      "label": "USA Pickleball Rule 4.E Window",
+      "sub": "Your regulatory envelope for autonomic resets",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "highlight": "10s",
+      "narration": "Under USA Pickleball Rule 4.E, you have 10 full seconds to serve or receive once the score is called."
+    },
+    {
+      "id": "s40",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "tired_front",
+          "at": 0
+        },
+        {
+          "pose": "hands_knees",
+          "at": "@shallow"
+        }
+      ],
+      "gauges": [
+        {
+          "label": "Arousal Level",
+          "icon": "fire",
+          "from": 50,
+          "to": 95,
+          "at": "@elevated"
+        }
+      ],
+      "headline": {
+        "text": "The Rushed Point Penalty",
+        "highlight": "Rushed",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Most amateur players rush immediately to the line with elevated heart rates and shallow breathing, carrying mistakes straight into the next exchange."
+    },
+    {
+      "id": "s41",
+      "kind": "mascot",
+      "background": "dark",
+      "poses": [
+        {
+          "pose": "meditate",
+          "at": 0
+        },
+        {
+          "pose": "present",
+          "at": "@cyclic"
+        }
+      ],
+      "headline": {
+        "text": "Physiological Cyclic Sigh",
+        "highlight": "Cyclic Sigh",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "You can reset your autonomic nervous system using a physiological cyclic sigh."
+    },
+    {
+      "id": "s42",
+      "kind": "custom",
+      "file": "custom/vagal_reset.html",
+      "narration": "Pioneering respiration research demonstrates that two rapid nasal inhales followed by one long, slow mouth exhale maximally activates the vagus nerve."
+    },
+    {
+      "id": "s43",
+      "kind": "stat",
+      "value": 3,
+      "suffix": " Seconds",
+      "label": "Autonomic Reset Duration",
+      "sub": "Offloads CO2 & activates parasympathetic calming",
+      "mascot": {
+        "pose": "meditate"
+      },
+      "highlight": "3 Seconds",
+      "narration": "This dual inhale re-inflates collapsed pulmonary alveoli, offloads carbon dioxide, and drops acute physiological arousal within 3 seconds."
+    },
+    {
+      "id": "s44",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "pb_drop",
+          "at": 0
+        },
+        {
+          "pose": "think",
+          "at": "@gaze"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "callouts": [
+        {
+          "label": "Quiet Eye Gaze Anchor (2.0s)",
+          "target": "rHand",
+          "at": "@paddle",
+          "side": "right",
+          "top": 260
+        }
+      ],
+      "narration": "While exhaling, implement Quiet Eye fixation by locking your visual gaze steadily onto the center of your paddle face for 2 full seconds."
+    },
+    {
+      "id": "s45",
+      "kind": "stat",
+      "value": 2,
+      "suffix": "s Lock",
+      "label": "Quiet Eye Meta-Analysis",
+      "sub": "Eliminates cortical noise before stroke initiation",
+      "mascot": {
+        "pose": "pb_hands_hips",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "2s Lock",
+      "narration": "Sports vision meta-analyses confirm that stable ocular fixation prior to movement quiets motor cortex noise and stabilizes stroke mechanics across golf, tennis, and shooting."
+    },
+    {
+      "id": "s46",
+      "kind": "slam",
+      "text": "Between-Point Breath Protocol",
+      "highlight": "Breath Protocol",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "Automate your 10-second routine on every dead ball",
+      "narration": "Drill the Between-Point Breath Protocol during practice sets."
+    },
+    {
+      "id": "s47",
+      "kind": "list",
+      "title": "10-Second Pre-Point Protocol",
+      "items": [
+        {
+          "text": "Step Back",
+          "sub": "2 paces behind baseline away from net",
+          "at": "@step"
+        },
+        {
+          "text": "Cyclic Sigh",
+          "sub": "Double nasal inhale + long mouth exhale",
+          "at": "@cyclic"
+        },
+        {
+          "text": "Quiet Eye",
+          "sub": "Lock gaze onto center of paddle face",
+          "at": "@paddle"
+        },
+        {
+          "text": "Paddle Tap",
+          "sub": "Physical touch with partner before entering line",
+          "at": "@partner"
+        }
+      ],
+      "narration": "After every dead ball, step 2 paces behind the baseline, perform one cyclic sigh, fixate on your paddle face, and tap paddles with your partner before stepping in."
+    },
+    {
+      "id": "s48",
+      "kind": "stat",
+      "value": 50,
+      "suffix": " Points",
+      "label": "Protocol Execution Goal",
+      "sub": "Ingrain the routine until it operates under panic",
+      "mascot": {
+        "pose": "ready",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "50 Points",
+      "narration": "Execute this 10-second sequence on all 50 practice points during practice matches."
+    },
+    {
+      "id": "s49",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "serve",
+          "at": 0
+        },
+        {
+          "pose": "facepalm",
+          "at": "@gifting"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Error: Rushing To Serve While Panicked",
+        "highlight": "Error",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "The biggest error is rushing to serve before your heart rate settles, gifting your opponents free unforced errors."
+    },
+    {
+      "id": "s50",
+      "kind": "mascot",
+      "chapter": "Pillar 4: Closing at 9–9 and beating the choke",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "flinch",
+          "at": 0
+        },
+        {
+          "pose": "tired_front",
+          "at": "@choking"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Explicit Motor Monitoring: Choking",
+        "highlight": "Choking",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "At 9–9 in tournament play, athletes frequently suffer from explicit motor monitoring, commonly known as choking."
+    },
+    {
+      "id": "s51",
+      "kind": "mascot",
+      "background": "dark",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "hold_back",
+          "at": "@micromanage"
+        }
+      ],
+      "headline": {
+        "text": "Conscious Mind Micromanaging Muscles",
+        "highlight": "Micromanaging",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "When stakes spike, your conscious mind attempts to micromanage automatic muscle movements you have practiced thousands of times."
+    },
+    {
+      "id": "s52",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "dink",
+          "at": 0
+        },
+        {
+          "pose": "facepalm",
+          "at": "@fracturing"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "callouts": [
+        {
+          "label": "Fractured Kinetic Chain",
+          "target": "wrist",
+          "at": "@wrist",
+          "side": "right",
+          "top": 290
+        }
+      ],
+      "narration": "Instead of letting fluid procedural memory hit the drop, you actively guide your wrist and elbow, fracturing the kinetic chain."
+    },
+    {
+      "id": "s53",
+      "kind": "stat",
+      "value": 50,
+      "suffix": "%",
+      "label": "Involuntary Grip Pressure Surge",
+      "sub": "Agonist-antagonist muscular co-contraction",
+      "mascot": {
+        "pose": "hold_back"
+      },
+      "highlight": "50%",
+      "narration": "Biomechanical studies reveal that acute competitive anxiety causes an involuntary 30 to 50 percent spike in grip pressure."
+    },
+    {
+      "id": "s54",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "swing_through",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@baseline"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "gauges": [
+        {
+          "label": "Paddle Grip Force",
+          "icon": "fire",
+          "from": 3,
+          "to": 9,
+          "at": "@turns"
+        }
+      ],
+      "headline": {
+        "text": "Death Grip Launches Long Balls",
+        "highlight": "Death Grip",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Squeezing the handle turns your paddle into a rigid ping pong board, launching delicate kitchen drops 3 feet beyond the baseline."
+    },
+    {
+      "id": "s55",
+      "kind": "slam",
+      "text": "External Focus Of Attention",
+      "highlight": "External Focus",
+      "style": "brand",
+      "icon": "target",
+      "sub": "Focus on ball trajectory and apex, never mechanics",
+      "narration": "To defeat choking, adopt an external focus of attention."
+    },
+    {
+      "id": "s56",
+      "kind": "versus",
+      "title": "Attentional Focus Under Pressure",
+      "left": {
+        "label": "Internal Focus (Breakdown)",
+        "pose": "hold_back",
+        "gauge": {
+          "label": "Muscular Stiffness",
+          "icon": "fire",
+          "from": 70,
+          "to": 90
+        }
+      },
+      "right": {
+        "label": "External Focus (Mastery)",
+        "pose": "pb_drop",
+        "gauge": {
+          "label": "Touch Compliance",
+          "icon": "bolt",
+          "from": 40,
+          "to": 85
+        }
+      },
+      "winner": "right",
+      "narration": "Meta-analyses across dozens of athletic skills prove that focusing externally on ball trajectory, spin, and intended targets produces far superior accuracy and automaticity than focusing internally on your body."
+    },
+    {
+      "id": "s57",
+      "kind": "stat",
+      "value": 3,
+      "suffix": " / 10",
+      "label": "Target Paddle Grip Calibration",
+      "sub": "Relaxed soft wrist enables maximum touch",
+      "mascot": {
+        "pose": "pb_drop",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "3 / 10",
+      "narration": "Gauge your grip on a 1 to 10 scale, deliberately holding your paddle at a relaxed 3 before every crucial point."
+    },
+    {
+      "id": "s58",
+      "kind": "slam",
+      "text": "Pressure Match Inoculation Drill",
+      "highlight": "Pressure Match",
+      "style": "brand",
+      "icon": "trophy",
+      "sub": "Start at 9–9 sudden death to train under real consequences",
+      "narration": "Run the Pressure Match Inoculation Drill."
+    },
+    {
+      "id": "s59",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@execute"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "9–9 Sudden Death Tiebreakers",
+        "highlight": "Sudden Death",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Play tiebreaker games starting at 9–9 where the server faces immediate elimination on any unforced error, forcing you to execute with consequences on the line."
+    },
+    {
+      "id": "s60",
+      "kind": "stat",
+      "value": 5,
+      "suffix": " Tiebreakers",
+      "label": "Sudden Death Match Volume",
+      "sub": "Builds psychological immunity to match-point stakes",
+      "mascot": {
+        "pose": "celebrate",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "5 Tiebreakers",
+      "narration": "Play 5 sudden-death tiebreakers per session."
+    },
+    {
+      "id": "s61",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "dink",
+          "at": 0
+        },
+        {
+          "pose": "pb_hands_hips",
+          "at": "@decisive"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Never Play Not To Lose",
+        "highlight": "Never Play",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "The fatal mistake at 9–9 is playing not to lose by steering balls gently into the net rather than committing to decisive, loose-wristed targets."
+    },
+    {
+      "id": "s62",
+      "kind": "mascot",
+      "chapter": "Safety and the weekly mental routine",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "hands_hips",
+          "at": 0
+        },
+        {
+          "pose": "wave",
+          "at": "@normal"
+        }
+      ],
+      "headline": {
+        "text": "Nerves Mean The Match Matters",
+        "highlight": "Match Matters",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Competitive nerves are a completely normal biological response to meaningful challenges, not a flaw in your character."
+    },
+    {
+      "id": "s63",
+      "kind": "slam",
+      "text": "Health & Safety Triage",
+      "highlight": "Safety Triage",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Dizziness, chest pain or panic = consult a doctor",
+      "narration": "However, if you experience dizziness, chest pain, or unmanageable panic attacks, step off the court and consult a medical professional."
+    },
+    {
+      "id": "s64",
+      "kind": "stat",
+      "value": 1,
+      "suffix": " Breath",
+      "label": "Cyclic Sigh Limit Per Point",
+      "sub": "Prevents hyperventilation and dizziness under summer heat",
+      "mascot": {
+        "pose": "meditate"
+      },
+      "highlight": "1 Breath",
+      "narration": "When performing cyclic sighing, limit yourself to a single breath cycle between points; rapid consecutive cycles during hot play can cause hyperventilation and lightheadedness."
+    },
+    {
+      "id": "s65",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "drink",
+          "at": 0
+        },
+        {
+          "pose": "hands_hips",
+          "at": "@hydration"
+        }
+      ],
+      "headline": {
+        "text": "Electrolytes & Hydration Under Target Load",
+        "highlight": "Hydration",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Furthermore, targeted players run significantly more court yardage; stay disciplined with electrolytes and hydration between games."
+    },
+    {
+      "id": "s66",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "pb_hands_hips",
+          "at": 0
+        },
+        {
+          "pose": "present",
+          "at": "@calendar"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Weekly Mental Training Plan",
+        "highlight": "Weekly",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Integrate this weekly routine into your training calendar."
+    },
+    {
+      "id": "s67",
+      "kind": "stat",
+      "value": 20,
+      "suffix": " Mins",
+      "label": "Tuesday: 80/20 Stress Drill",
+      "sub": "Dismantle target isolation with partner touch",
+      "mascot": {
+        "pose": "block",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "20 Mins",
+      "narration": "On Tuesdays, run 20 minutes of the 80/20 Stress Inoculation Drill with your doubles partner."
+    },
+    {
+      "id": "s68",
+      "kind": "stat",
+      "value": 4,
+      "suffix": " Games",
+      "label": "Thursday: Traffic Light Dinking",
+      "sub": "Prefrontal impulse control on low attacks",
+      "mascot": {
+        "pose": "dink",
+        "props": {
+          "r": "pbpaddle"
+        }
+      },
+      "highlight": "4 Games",
+      "narration": "On Thursdays, complete 4 games of the Traffic Light Dinking Drill to cement prefrontal patience."
+    },
+    {
+      "id": "s69",
+      "kind": "list",
+      "title": "Saturday Match Day Protocol",
+      "items": [
+        {
+          "text": "3-Second Vagal Reset",
+          "sub": "Mandatory after every dead ball before the serve",
+          "at": "@vagal"
+        },
+        {
+          "text": "Grip-3 Baseline",
+          "sub": "Check forearm softness at the kitchen line",
+          "at": "@enforcing"
+        },
+        {
+          "text": "9–9 Sudden Death",
+          "sub": "Close matches with decisive loose-wristed execution",
+          "at": "@pressure"
+        }
+      ],
+      "narration": "On Saturdays, play competitive matches enforcing the 3-second vagal reset and 9–9 pressure tiebreakers."
+    },
+    {
+      "id": "s70",
+      "kind": "mascot",
+      "chapter": "Close",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "meditate",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@training"
+        }
+      ],
+      "props": {
+        "r": "pbpaddle"
+      },
+      "headline": {
+        "text": "Loosen Your Grip · Trust Your Training",
+        "highlight": "Trust Your Training",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Next time you stand at 9–9, take your breath, loosen your grip, and let your training take over."
+    }
+  ]
+}

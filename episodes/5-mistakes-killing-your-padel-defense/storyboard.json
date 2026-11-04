@@ -1,0 +1,2101 @@
+{
+  "title": "5 mistakes killing your padel defense",
+  "voice": "am_michael",
+  "thumbnail": {
+    "pose": "hands_knees",
+    "props": {},
+    "background": "court",
+    "headline": "FIX YOUR DEFENSE",
+    "highlight": "DEFENSE",
+    "icons": [
+      {
+        "icon": "cross",
+        "pos": [
+          960,
+          260
+        ],
+        "size": 1.2
+      }
+    ],
+    "opponent": {
+      "pose": "smash",
+      "props": {
+        "r": "padel"
+      }
+    },
+    "side": "right"
+  },
+  "youtube": {
+    "title": "5 mistakes killing your padel defense",
+    "titleOptions": [
+      "How to defend off the glass in padel",
+      "Stop losing points in padel defense"
+    ],
+    "description": "Struggling to defend off the glass in padel? Here are the 5 biggest mistakes amateur players make on defense — and the exact court science to turn wall balls into counter-attacks.",
+    "tags": [
+      "padel",
+      "padel tennis",
+      "padel defense",
+      "padel tips",
+      "padel tutorial",
+      "padel court positioning",
+      "padel glass",
+      "padel lob",
+      "chiquita padel",
+      "coach ember"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "mascot",
+      "chapter": "Hook",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "hands_knees",
+          "at": 0
+        },
+        {
+          "pose": "tired_front",
+          "at": "@pinned"
+        }
+      ],
+      "props": {},
+      "headline": {
+        "text": "Pinned on Defense",
+        "highlight": "Pinned",
+        "at": "@pinned",
+        "side": "right"
+      },
+      "gauges": [
+        {
+          "label": "Pressure",
+          "icon": "bolt",
+          "from": 20,
+          "to": 95,
+          "at": "@pinned"
+        }
+      ],
+      "narration": "Imagine standing at the back of a padel court, pinned against the glass while two opponents smash volleys at your feet."
+    },
+    {
+      "id": "s02",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "block",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@clips"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Zero Reaction Time",
+        "highlight": "Zero",
+        "at": "@blur",
+        "side": "right"
+      },
+      "narration": "Every ball feels like a blur, your racket clips the wall, and the point ends before you can react."
+    },
+    {
+      "id": "s03",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@show"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "5 Defensive Keys",
+        "highlight": "Defensive",
+        "at": "@show",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "target",
+          "near": "rHand",
+          "offset": [
+            40,
+            -60
+          ],
+          "at": "@show"
+        }
+      ],
+      "narration": "Today, I will show you the 5 mistakes destroying your defense, and the court science to turn every wall ball into an attack."
+    },
+    {
+      "id": "s04",
+      "kind": "stat",
+      "chapter": "The five defensive traps",
+      "value": 80,
+      "suffix": "%+",
+      "label": "of points won by the team at the net",
+      "highlight": "net",
+      "icon": "trophy",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "In padel, over 80 percent of points are won by the team controlling the net."
+    },
+    {
+      "id": "s05",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "arms_crossed",
+          "at": "@surviving"
+        }
+      ],
+      "headline": {
+        "text": "The Baseline Trap",
+        "highlight": "Trap",
+        "at": "@Defending",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            80,
+            -90
+          ],
+          "at": "@surviving"
+        }
+      ],
+      "narration": "Defending is not about surviving indefinitely at the baseline."
+    },
+    {
+      "id": "s06",
+      "kind": "slam",
+      "text": "Evict the net",
+      "highlight": "Evict",
+      "style": "dark",
+      "icon": "fire",
+      "sub": "Neutralize · Displace · Counter",
+      "narration": "Defense has one goal: neutralize the attack, evict opponents from the net, and take it back."
+    },
+    {
+      "id": "s07",
+      "kind": "lineup",
+      "title": "Racket sport habits in padel",
+      "highlight": 3,
+      "dimPrevious": true,
+      "members": [
+        {
+          "pose": "serve",
+          "label": "Tennis",
+          "sub": "big backswing",
+          "at": "@tennis"
+        },
+        {
+          "pose": "lunge",
+          "label": "Squash",
+          "sub": "corner flick",
+          "at": "@squash"
+        },
+        {
+          "pose": "dink",
+          "props": {
+            "r": "pbpaddle"
+          },
+          "label": "Pickleball",
+          "sub": "kitchen dink",
+          "at": "@pickleball"
+        },
+        {
+          "pose": "padel_ready",
+          "props": {
+            "r": "padel"
+          },
+          "label": "Padel",
+          "sub": "glass reads",
+          "at": "@glass"
+        }
+      ],
+      "narration": "Most players fail because they bring habits from tennis, squash, or pickleball into an enclosed glass court."
+    },
+    {
+      "id": "s08",
+      "kind": "list",
+      "title": "The 5 defensive traps",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "Late corner turns",
+          "icon": "cross"
+        },
+        {
+          "text": "Hugging back glass",
+          "icon": "cross"
+        },
+        {
+          "text": "Flat panic drives",
+          "icon": "cross"
+        },
+        {
+          "text": "Forgetting the chiquita",
+          "icon": "cross"
+        },
+        {
+          "text": "Center seam freeze",
+          "icon": "cross"
+        }
+      ],
+      "narration": "Here are the 5 traps keeping you locked at the back."
+    },
+    {
+      "id": "s09",
+      "kind": "title",
+      "chapter": "Mistake 1: Late corner turns",
+      "number": 1,
+      "heading": "Late corner turns",
+      "sub": "The 90° corner trap",
+      "mascot": {
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "The hardest place to defend in padel is the 90-degree corner between the rear and side glass."
+    },
+    {
+      "id": "s10",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@double"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Double Glass Rebound",
+        "highlight": "Double",
+        "at": "@double",
+        "side": "right"
+      },
+      "narration": "When a ball enters this corner, it hits both walls, creating a double glass rebound."
+    },
+    {
+      "id": "s11",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_a",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@facing"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Facing The Glass",
+        "highlight": "Facing",
+        "at": "@facing",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            80,
+            -90
+          ],
+          "at": "@fatal"
+        }
+      ],
+      "narration": "The fatal mistake is running straight into the corner facing the glass, waiting for the ball to hit both walls before turning."
+    },
+    {
+      "id": "s12",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "crouch",
+          "at": "@hip"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Pinned With Zero Room",
+        "highlight": "Zero",
+        "at": "@pinning",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Crowded Hip",
+          "target": "hips",
+          "at": "@hip"
+        }
+      ],
+      "narration": "By then, the ball bounces off the second wall directly into your hip, pinning you with zero room."
+    },
+    {
+      "id": "s13",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "hold_back",
+          "at": 0
+        },
+        {
+          "pose": "calf_pain",
+          "at": "@meniscus"
+        }
+      ],
+      "headline": {
+        "text": "Rotational Knee Shear",
+        "highlight": "Knee",
+        "at": "@knee",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Plant Foot",
+          "target": "rFoot",
+          "at": "@planted"
+        },
+        {
+          "label": "Meniscus Shear",
+          "target": "rKnee",
+          "at": "@meniscus"
+        }
+      ],
+      "narration": "Trying to pivot on high-traction turf with your foot planted twists your knee, creating dangerous rotational shear on your meniscus."
+    },
+    {
+      "id": "s14",
+      "kind": "slam",
+      "text": "Read first glass",
+      "highlight": "Read",
+      "style": "brand",
+      "icon": "target",
+      "sub": "Side Wall vs Back Glass",
+      "narration": "To fix this, read which glass the ball strikes first."
+    },
+    {
+      "id": "s15",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@opening"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Opening Double Wall",
+        "highlight": "Opening",
+        "at": "@opening",
+        "side": "right"
+      },
+      "caption": {
+        "text": "Side Glass Hits First",
+        "at": 0.3
+      },
+      "narration": "If the ball hits the side wall first, that is an opening double."
+    },
+    {
+      "id": "s16",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "short_back",
+          "at": "@pivot"
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@clearance"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Open The Door",
+        "highlight": "Door",
+        "at": "@door",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "180° Pivot",
+          "target": "hips",
+          "at": "@pivot"
+        }
+      ],
+      "narration": "Open the door immediately: take a mini split-step, pivot your hips 180 degrees with flexed knees, and maintain 1 meter of clearance from the glass."
+    },
+    {
+      "id": "s17",
+      "kind": "custom",
+      "file": "custom/corner_trajectories.html",
+      "narration": "Think of a revolving door: turn with the curve, never fight against it."
+    },
+    {
+      "id": "s18",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@closing"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Closing Double Wall",
+        "highlight": "Closing",
+        "at": "@closing",
+        "side": "right"
+      },
+      "caption": {
+        "text": "Back Glass Hits First",
+        "at": 0.3
+      },
+      "narration": "If the ball hits the back wall first, that is a closing double."
+    },
+    {
+      "id": "s19",
+      "kind": "slam",
+      "text": "Do not spin",
+      "highlight": "not",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Stay Square · Step Forward",
+      "narration": "Do not spin in circles here."
+    },
+    {
+      "id": "s20",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@forward"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Step Forward",
+        "highlight": "Forward",
+        "at": "@forward",
+        "side": "right"
+      },
+      "narration": "Keep your chest facing the side wall, take two small steps forward, and catch the rebound as it leaves the back glass."
+    },
+    {
+      "id": "s21",
+      "kind": "list",
+      "title": "Open-The-Door Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Feeder plays side-first",
+          "icon": "target",
+          "at": "@feed"
+        },
+        {
+          "text": "4 sets of 10 balls",
+          "icon": "stopwatch",
+          "at": "@sets"
+        },
+        {
+          "text": "Start at gentle pace",
+          "icon": "check",
+          "at": "@gentle"
+        }
+      ],
+      "narration": "Train this with the Open-the-Door drill: start with gentle feeds for 4 sets of 10 side-first corner balls before adding match pace."
+    },
+    {
+      "id": "s22",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "drive_finish",
+          "at": "@guiding"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Down The Line",
+        "highlight": "Line",
+        "at": "@Pivot",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Soft Knees",
+          "target": "rKnee",
+          "at": "@soft"
+        }
+      ],
+      "narration": "Pivot on the balls of your feet with soft knees before glass contact, guiding the rebound smoothly down the line."
+    },
+    {
+      "id": "s23",
+      "kind": "title",
+      "chapter": "Mistake 2: Hugging the back glass",
+      "number": 2,
+      "heading": "Hugging the back glass",
+      "sub": "The safety illusion",
+      "mascot": {
+        "pose": "crouch"
+      },
+      "transition": "push",
+      "narration": "When heavy smashes rain down from the net, your natural instinct is to back up until your heels touch the back glass."
+    },
+    {
+      "id": "s24",
+      "kind": "slam",
+      "text": "The safety illusion",
+      "highlight": "Safety",
+      "style": "dark",
+      "icon": "brain",
+      "sub": "Distance does not mean safety",
+      "narration": "This is called the safety illusion."
+    },
+    {
+      "id": "s25",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "think",
+          "at": "@destroys"
+        }
+      ],
+      "headline": {
+        "text": "False Security",
+        "highlight": "False",
+        "at": "@destroys",
+        "side": "right"
+      },
+      "narration": "You think standing farther away gives you more time, but hugging the glass destroys your defense."
+    },
+    {
+      "id": "s26",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@smacks"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Zero Backswing",
+        "highlight": "Zero",
+        "at": "@zero",
+        "side": "left"
+      },
+      "callouts": [
+        {
+          "label": "Glass Collision",
+          "target": "rHand",
+          "at": "@smacks"
+        }
+      ],
+      "narration": "First, you have zero backswing room, so your paddle smacks the glass and you push weak balls forward."
+    },
+    {
+      "id": "s27",
+      "kind": "stat",
+      "value": 70,
+      "suffix": "%",
+      "label": "incoming speed rebounded by tempered glass",
+      "highlight": "70 percent",
+      "icon": "bolt",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "Second, tempered glass rebounds about 70 percent of incoming speed, launching deep shots 1 to 2 meters into the court."
+    },
+    {
+      "id": "s28",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@behind"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Trapped Behind",
+        "highlight": "Trapped",
+        "at": "@behind",
+        "side": "right"
+      },
+      "narration": "If you are standing against the wall, the ball rebounds behind your body."
+    },
+    {
+      "id": "s29",
+      "kind": "stat",
+      "value": 7,
+      "suffix": "m",
+      "label": "unprotected desert between baseline and net",
+      "highlight": "7-meter",
+      "icon": "target",
+      "mascot": {
+        "pose": "shrug"
+      },
+      "narration": "Third, standing against the wall creates a massive 7-meter empty desert between you and the net, giving opponents easy drop shots."
+    },
+    {
+      "id": "s30",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@sweet"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "The Sweet Spot",
+        "highlight": "Sweet",
+        "at": "@sweet",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "0.8m Behind Line",
+          "target": "rFoot",
+          "at": "@service"
+        },
+        {
+          "label": "1m From Side",
+          "target": "lFoot",
+          "at": "@side"
+        }
+      ],
+      "narration": "The fix is anchoring yourself in the defensive sweet spot: 0.8 meters behind the service line, and 1 meter in from the side glass."
+    },
+    {
+      "id": "s31",
+      "kind": "versus",
+      "left": {
+        "label": "Goalkeeper",
+        "pose": "ready",
+        "sub": "cuts angles off line"
+      },
+      "right": {
+        "label": "Padel Defender",
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "anchored in sweet spot"
+      },
+      "vs": "VS",
+      "narration": "Standing here is like a soccer goalkeeper positioning off the goal line."
+    },
+    {
+      "id": "s32",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "lunge",
+          "at": "@step"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Attack Short Balls",
+        "highlight": "Short",
+        "at": "@short",
+        "side": "right"
+      },
+      "narration": "When a short ball comes, step forward across the line."
+    },
+    {
+      "id": "s33",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@track"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Track Backward",
+        "highlight": "Backward",
+        "at": "@backward",
+        "side": "right"
+      },
+      "narration": "When a deep ball comes, track backward with crossover steps, keeping a 1-meter deceleration buffer from the back wall."
+    },
+    {
+      "id": "s34",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@waist"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Waist-Height Strike",
+        "highlight": "Strike",
+        "at": "@Strike",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Rebound Hit",
+          "target": "rHand",
+          "at": "@waist"
+        }
+      ],
+      "narration": "Strike it at waist height as it rebounds forward into the court."
+    },
+    {
+      "id": "s35",
+      "kind": "list",
+      "title": "Service-Line Tether Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Mark cones 0.8m behind line",
+          "icon": "target",
+          "at": "@cones"
+        },
+        {
+          "text": "Sweet spot home base",
+          "icon": "bolt",
+          "at": "@sweet"
+        },
+        {
+          "text": "Anchor behind service line",
+          "icon": "stopwatch",
+          "at": "@service"
+        }
+      ],
+      "narration": "Train this with the Service-Line Tether drill: mark your sweet spot with cones 0.8 meters behind the service line."
+    },
+    {
+      "id": "s36",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@short"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "4 Sets of 8",
+        "highlight": "Sets",
+        "at": "@feeder",
+        "side": "right"
+      },
+      "narration": "Have a feeder alternate between a short ball and a deep glass ball for 4 sets of 8 cycles."
+    },
+    {
+      "id": "s37",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "soft_hit",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@glide"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Reset To Cone",
+        "highlight": "Cone",
+        "at": "@Strike",
+        "side": "right"
+      },
+      "narration": "Strike the short ball, and glide backward using controlled crossover steps to touch your cone."
+    },
+    {
+      "id": "s38",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "drive_finish",
+          "at": "@strike"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Strike Zone",
+        "highlight": "Zone",
+        "at": "@Track",
+        "side": "right"
+      },
+      "narration": "Track both ball and wall, letting the glass feed the rebound right into your strike zone."
+    },
+    {
+      "id": "s39",
+      "kind": "title",
+      "chapter": "Mistake 3: Blasting flat counter-punches",
+      "number": 3,
+      "heading": "Blasting flat counter-punches",
+      "sub": "The speed-up trap",
+      "mascot": {
+        "pose": "smash",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "When players are pinned deep under heavy pressure, they panic and blast a flat, 60-mile-per-hour missile straight at net players."
+    },
+    {
+      "id": "s40",
+      "kind": "slam",
+      "text": "The speed-up trap",
+      "highlight": "Trap",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Panic pace kills defense",
+      "narration": "This is the single most self-destructive shot in padel."
+    },
+    {
+      "id": "s41",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "block",
+          "at": "@solid"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Solid Composite Face",
+        "highlight": "Solid",
+        "at": "@solid",
+        "side": "left"
+      },
+      "callouts": [
+        {
+          "label": "No Strings",
+          "target": "rHand",
+          "at": "@composite"
+        }
+      ],
+      "narration": "At 7 meters away, net players hold solid composite rackets with no strings."
+    },
+    {
+      "id": "s42",
+      "kind": "versus",
+      "left": {
+        "label": "Flat Drive",
+        "pose": "drive_finish",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "high incoming pace"
+      },
+      "right": {
+        "label": "Reflex Block",
+        "pose": "block",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "effortless redirection"
+      },
+      "vs": "VS",
+      "narration": "A hard flat shot hits their racket and rebounds with devastating pace, giving them an instant reflex winner."
+    },
+    {
+      "id": "s43",
+      "kind": "stat",
+      "value": 4,
+      "suffix": "x",
+      "label": "increase in unforced errors from baseline speed-ups",
+      "highlight": "4-fold",
+      "icon": "cross",
+      "mascot": {
+        "pose": "shrug"
+      },
+      "narration": "Attempting flat speed-ups from deep court increases your unforced errors by over 4-fold."
+    },
+    {
+      "id": "s44",
+      "kind": "slam",
+      "text": "Don't feed the tank",
+      "highlight": "tank",
+      "style": "dark",
+      "icon": "fire",
+      "sub": "Pace gives net attackers winners",
+      "narration": "Firing hard at net players is like throwing rocks at a tank: you only give them the ammunition to crush you."
+    },
+    {
+      "id": "s45",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@reset"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "The Reset Lob",
+        "highlight": "Reset",
+        "at": "@reset",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "trophy",
+          "near": "rHand",
+          "offset": [
+            40,
+            -60
+          ],
+          "at": "@weapon"
+        }
+      ],
+      "narration": "The true weapon of padel defense is the high reset lob."
+    },
+    {
+      "id": "s46",
+      "kind": "chart",
+      "title": "Defensive transition efficacy",
+      "unit": "%",
+      "focus": 0,
+      "mascot": {
+        "pose": "present"
+      },
+      "bars": [
+        {
+          "label": "High Reset Lob",
+          "value": 66,
+          "display": "66%",
+          "color": "#10B981"
+        },
+        {
+          "label": "Baseline Drive",
+          "value": 47,
+          "display": "47%",
+          "color": "#EF4444"
+        }
+      ],
+      "narration": "In professional padel, players choose the lob in over 60 percent of defensive transitions, keeping the rally alive and neutralizing the attack nearly two-thirds of the time."
+    },
+    {
+      "id": "s47",
+      "kind": "stat",
+      "value": 4,
+      "suffix": "s",
+      "label": "hang time created by a 5 to 8 meter lob",
+      "highlight": "4.5 seconds",
+      "icon": "stopwatch",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "A proper defensive lob arches 5 to 8 meters into the air, creating 3.5 to 4.5 seconds of flight hang time."
+    },
+    {
+      "id": "s48",
+      "kind": "versus",
+      "left": {
+        "label": "Defenders",
+        "pose": "walk_a",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "marching to the net"
+      },
+      "right": {
+        "label": "Attackers",
+        "pose": "run_b",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "sprinting 7m back"
+      },
+      "vs": "VS",
+      "narration": "Those 4 seconds break opponents' rhythm, force both volleyers to sprint 7 meters backward, and give you time to capture the net."
+    },
+    {
+      "id": "s49",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "lob_load",
+          "at": 0
+        },
+        {
+          "pose": "lob",
+          "at": "@lift"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Leg Drive Lift",
+        "highlight": "Leg",
+        "at": "@legs",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Bent Knees",
+          "target": "rKnee",
+          "at": "@knees"
+        },
+        {
+          "label": "Upward Lift",
+          "target": "chest",
+          "at": "@lift"
+        }
+      ],
+      "narration": "To hit it, bend your knees, open your paddle face 25 degrees, and lift smoothly from your legs without snapping your wrist."
+    },
+    {
+      "id": "s50",
+      "kind": "list",
+      "title": "Stopwatch Lob Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Partner times ball in air",
+          "icon": "stopwatch",
+          "at": "@timing"
+        },
+        {
+          "text": "Baseline lob execution",
+          "icon": "clock",
+          "at": "@baseline"
+        },
+        {
+          "text": "Practice defensive lobs",
+          "icon": "target",
+          "at": "@partner"
+        }
+      ],
+      "narration": "Practice the Stopwatch Lob drill: hit lobs from the baseline with a partner timing the ball in the air."
+    },
+    {
+      "id": "s51",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@land"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Deep Back Third",
+        "highlight": "Deep",
+        "at": "@land",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "check",
+          "near": "head",
+          "offset": [
+            80,
+            -90
+          ],
+          "at": "@third"
+        }
+      ],
+      "narration": "Do 4 sets of 10 repetitions, counting only lobs that hang for at least 3.5 seconds and land in the back third."
+    },
+    {
+      "id": "s52",
+      "kind": "title",
+      "chapter": "Mistake 4: Forgetting the chiquita",
+      "number": 4,
+      "heading": "Forgetting the chiquita",
+      "sub": "The floor-level trap",
+      "mascot": {
+        "pose": "think"
+      },
+      "transition": "push",
+      "narration": "Sometimes opponents anticipate your lob, standing 3 to 4 meters back from the net with overheads cocked."
+    },
+    {
+      "id": "s53",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@low"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Low Indoor Ceilings",
+        "highlight": "Low",
+        "at": "@low",
+        "side": "right"
+      },
+      "narration": "Or you play in an indoor club with a low ceiling where sky-high lobs are restricted."
+    },
+    {
+      "id": "s54",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "flinch",
+          "at": "@chest"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Mid-Chest Sitter",
+        "highlight": "Sitter",
+        "at": "@medium",
+        "side": "right"
+      },
+      "narration": "When amateurs cannot lob, they usually hit a medium-pace drive right at the opponent's chest."
+    },
+    {
+      "id": "s55",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "hands_knees",
+          "at": "@punch"
+        }
+      ],
+      "props": {},
+      "headline": {
+        "text": "Punished By The Fence",
+        "highlight": "Fence",
+        "at": "@punch",
+        "side": "right"
+      },
+      "narration": "This lets net players lean forward and punch an aggressive angle off the side fence."
+    },
+    {
+      "id": "s56",
+      "kind": "slam",
+      "text": "The chiquita",
+      "highlight": "chiquita",
+      "style": "brand",
+      "icon": "target",
+      "sub": "Spanish for 'The Little One'",
+      "narration": "The secret weapon here is the chiquita, which means \"the little one.\""
+    },
+    {
+      "id": "s57",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@dipping"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Dipping Slice",
+        "highlight": "Dipping",
+        "at": "@dipping",
+        "side": "right"
+      },
+      "narration": "A chiquita is a slow, dipping slice that crosses inches over the net and dies right at your opponent's shoelaces."
+    },
+    {
+      "id": "s58",
+      "kind": "stat",
+      "value": 0.88,
+      "decimals": 2,
+      "suffix": "m",
+      "label": "center net height threshold in padel",
+      "highlight": "0.88 meters",
+      "icon": "target",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "Padel net height is 0.88 meters at the center."
+    },
+    {
+      "id": "s59",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "smash",
+          "at": "@spike"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Above Net: Spiked",
+        "highlight": "Spiked",
+        "at": "@spike",
+        "side": "right"
+      },
+      "caption": {
+        "text": "Offensive Downward Angle",
+        "at": 0.3
+      },
+      "narration": "If opponents contact the ball above the net, they can spike downward into the glass."
+    },
+    {
+      "id": "s60",
+      "kind": "versus",
+      "left": {
+        "label": "Above Net Tape",
+        "pose": "smash",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "hit downward with power"
+      },
+      "right": {
+        "label": "Below Net Tape",
+        "pose": "crouch",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "forced to volley upward"
+      },
+      "vs": "VS",
+      "narration": "When your chiquita dips below net height, physics forces them to volley upward just to clear the tape."
+    },
+    {
+      "id": "s61",
+      "kind": "slam",
+      "text": "Defense into attack",
+      "highlight": "attack",
+      "style": "dark",
+      "icon": "bolt",
+      "sub": "The upward volley pop-up",
+      "narration": "The instant they hit that floating upward ball, your defense flips into an attack."
+    },
+    {
+      "id": "s62",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@cushion"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Gentle Backspin",
+        "highlight": "Backspin",
+        "at": "@backspin",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Compact Deceleration",
+          "target": "rHand",
+          "at": "@compact"
+        }
+      ],
+      "narration": "To execute it, cushion the ball with a compact slice backswing, applying gentle backspin so it dips immediately."
+    },
+    {
+      "id": "s63",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@visibly"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Confirm The Dip",
+        "highlight": "Confirm",
+        "at": "@visibly",
+        "side": "right"
+      },
+      "narration": "Most importantly, only advance once the ball visibly dips below net tape height."
+    },
+    {
+      "id": "s64",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_a",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@split-step"
+        },
+        {
+          "pose": "drive_finish",
+          "at": "@pounce"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Pounce And Put Away",
+        "highlight": "Pounce",
+        "at": "@pounce",
+        "side": "left"
+      },
+      "callouts": [
+        {
+          "label": "Chest-High Paddle",
+          "target": "rHand",
+          "at": "@chest-high"
+        }
+      ],
+      "narration": "Take two quick steps forward into the transition zone, split-step with paddle chest-high, and pounce on their floating volley."
+    },
+    {
+      "id": "s65",
+      "kind": "list",
+      "title": "Shoelace Drop Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Target hoops 1.5m past net",
+          "icon": "target",
+          "at": "@target"
+        },
+        {
+          "text": "Drop at opponents' feet",
+          "icon": "bolt",
+          "at": "@hoops"
+        },
+        {
+          "text": "Dipping below net height",
+          "icon": "stopwatch",
+          "at": "@net"
+        }
+      ],
+      "narration": "Train this with the Shoelace Drop drill: place target hoops 1.5 meters behind the net."
+    },
+    {
+      "id": "s66",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "lob",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@dipping"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "High Lob · Low Chiquita",
+        "highlight": "Chiquita",
+        "at": "@dipping",
+        "side": "right"
+      },
+      "narration": "Feed balls from the baseline, alternating between high reset lobs and soft dipping chiquitas, aiming for 4 sets of 12 reps."
+    },
+    {
+      "id": "s67",
+      "kind": "title",
+      "chapter": "Mistake 5: The center ball freeze",
+      "number": 5,
+      "heading": "The center ball freeze",
+      "sub": "The 10-meter seam",
+      "mascot": {
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "The padel court is 10 meters wide, and opponents love driving the ball straight down the center seam between partners."
+    },
+    {
+      "id": "s68",
+      "kind": "versus",
+      "left": {
+        "label": "Both Freeze",
+        "pose": "hands_knees",
+        "sub": "ball rolls off rear wall"
+      },
+      "right": {
+        "label": "Both Clash",
+        "pose": "flinch",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "rackets strike together"
+      },
+      "vs": "VS",
+      "narration": "Amateur pairs either both freeze, letting the ball roll off the glass, or both swing, clashing rackets and risking hand injuries."
+    },
+    {
+      "id": "s69",
+      "kind": "stat",
+      "value": 4,
+      "suffix": "m",
+      "label": "open canyon down the middle when partner freezes",
+      "highlight": "4-meter",
+      "icon": "cross",
+      "mascot": {
+        "pose": "hands_knees"
+      },
+      "narration": "Even worse, when one player gets pulled wide into a corner, the other stands still, leaving a 4-meter canyon down the middle."
+    },
+    {
+      "id": "s70",
+      "kind": "slam",
+      "text": "The 3-meter string",
+      "highlight": "string",
+      "style": "brand",
+      "icon": "target",
+      "sub": "Synchronized Partner Spacing",
+      "narration": "Spatial tracking shows that elite pairs move as a synchronized unit, connected by an invisible 3-meter string."
+    },
+    {
+      "id": "s71",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@slides"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Seal The Seam",
+        "highlight": "Seal",
+        "at": "@slides",
+        "side": "right"
+      },
+      "narration": "When your partner slides wide to the right corner, you must slide right to seal the center seam."
+    },
+    {
+      "id": "s72",
+      "kind": "slam",
+      "text": "Establish priority",
+      "highlight": "priority",
+      "style": "dark",
+      "icon": "check",
+      "sub": "Before the point begins",
+      "narration": "Next, establish middle priority before the point begins."
+    },
+    {
+      "id": "s73",
+      "kind": "versus",
+      "left": {
+        "label": "Left-Side Player",
+        "pose": "drive_finish",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "forehand takes the middle"
+      },
+      "right": {
+        "label": "Right-Side Player",
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "clears hitting corridor"
+      },
+      "vs": "VS",
+      "narration": "The default rule is forehand in the middle: for two right-handed players, the left-side player takes contested center balls because their forehand has natural leverage."
+    },
+    {
+      "id": "s74",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@cross-court"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Cross-Court Rule",
+        "highlight": "Cross-Court",
+        "at": "@cross-court",
+        "side": "right"
+      },
+      "narration": "If you are playing cross-court, the player diagonally opposite the hitter covers the drive."
+    },
+    {
+      "id": "s75",
+      "kind": "slam",
+      "text": "Call early: Mine!",
+      "highlight": "Mine",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "Shout while ball is in the air",
+      "narration": "Above all, enforce the early call-or-yield rule: the moment the ball crosses the net tape, shout \"Mine.\""
+    },
+    {
+      "id": "s76",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "stand",
+          "at": "@yield"
+        }
+      ],
+      "headline": {
+        "text": "Yield And Clear",
+        "highlight": "Yield",
+        "at": "@yield",
+        "side": "right"
+      },
+      "narration": "If no call is heard, the secondary partner must immediately yield and clear the hitting corridor."
+    },
+    {
+      "id": "s77",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@early"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Cover Next Angle",
+        "highlight": "Cover",
+        "at": "@early",
+        "side": "right"
+      },
+      "narration": "Calling early eliminates hesitation and lets your partner step aside to cover the next angle."
+    },
+    {
+      "id": "s78",
+      "kind": "list",
+      "title": "Center Calling Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Rapid feeds down center line",
+          "icon": "bolt",
+          "at": "@rapid"
+        },
+        {
+          "text": "Call 'Mine' before bounce",
+          "icon": "target",
+          "at": "@center"
+        },
+        {
+          "text": "4 sets of 12 balls",
+          "icon": "stopwatch",
+          "at": "@balls"
+        }
+      ],
+      "narration": "Practice the Center Calling drill: have a feeder fire rapid groundstrokes down the center line for 4 sets of 12 balls."
+    },
+    {
+      "id": "s79",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "lob",
+          "at": "@scoop"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Zero Collisions",
+        "highlight": "Zero",
+        "at": "@airborne",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "check",
+          "near": "head",
+          "offset": [
+            80,
+            -90
+          ],
+          "at": "@collision"
+        }
+      ],
+      "narration": "Call \"Mine\" while the ball is airborne over the net, scoop a defensive lob, and coordinate seamless coverage without a single collision."
+    },
+    {
+      "id": "s80",
+      "kind": "title",
+      "chapter": "The complete defensive blueprint",
+      "number": 6,
+      "heading": "The defensive blueprint",
+      "sub": "Weekly training plan",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "transition": "push",
+      "narration": "To lock these 5 fixes into your muscle memory, follow this simple weekly court plan."
+    },
+    {
+      "id": "s81",
+      "kind": "list",
+      "title": "Session 1: Corner Reads",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "15 minutes corner work",
+          "icon": "clock",
+          "at": "@15"
+        },
+        {
+          "text": "4 sets × 10 reps Open-the-Door",
+          "icon": "target",
+          "at": "@sets"
+        },
+        {
+          "text": "Side-first & back-first reads",
+          "icon": "check",
+          "at": "@rebounds"
+        }
+      ],
+      "narration": "In session one, spend 15 minutes on corner glass reads: 4 sets of 10 reps of the Open-the-Door drill, alternating side-first and back-first rebounds."
+    },
+    {
+      "id": "s82",
+      "kind": "list",
+      "title": "Session 2: Transition Mastery",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "15 minutes transition drills",
+          "icon": "clock",
+          "at": "@15"
+        },
+        {
+          "text": "4 sets × 10 Stopwatch Lobs",
+          "icon": "stopwatch",
+          "at": "@lobs"
+        },
+        {
+          "text": "4 sets × 8 Chiquita-and-Pounce",
+          "icon": "bolt",
+          "at": "@sequences"
+        }
+      ],
+      "narration": "In session two, dedicate 15 minutes to transition mastery: 4 sets of 10 Stopwatch Lobs and 4 sets of 8 Chiquita-and-Pounce sequences."
+    },
+    {
+      "id": "s83",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@home"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Home Base",
+        "highlight": "Home",
+        "at": "@home",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "0.8m Behind Service Line",
+          "target": "rFoot",
+          "at": "@service"
+        }
+      ],
+      "narration": "During match play, make the sweet spot your home base: 0.8 meters behind the service line, connected to your partner by that invisible string."
+    },
+    {
+      "id": "s84",
+      "kind": "list",
+      "title": "8-Minute Warm-Up Routine",
+      "mascot": {
+        "pose": "present"
+      },
+      "items": [
+        {
+          "text": "Dynamic ankle calf lunges",
+          "icon": "heart",
+          "at": "@ankle"
+        },
+        {
+          "text": "Lateral hip openers",
+          "icon": "target",
+          "at": "@hip"
+        },
+        {
+          "text": "Thoracic spine rotations",
+          "icon": "bolt",
+          "at": "@thoracic"
+        }
+      ],
+      "narration": "Always complete an 8-minute warm-up with dynamic ankle calf lunges, lateral hip openers, and standing thoracic spine rotations with your racket across your shoulders."
+    },
+    {
+      "id": "s85",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@physiotherapist"
+        }
+      ],
+      "headline": {
+        "text": "Safety First",
+        "highlight": "Safety",
+        "at": "@locking",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Knee Locking",
+          "target": "rKnee",
+          "at": "@locking"
+        },
+        {
+          "label": "Wrist Shock",
+          "target": "rHand",
+          "at": "@wrist"
+        },
+        {
+          "label": "Ankle Sprain",
+          "target": "rFoot",
+          "at": "@ankle"
+        }
+      ],
+      "narration": "If you feel sudden knee locking, sharp wrist shock after contact, or cannot bear weight on your ankle, stop immediately and see a sports physiotherapist or sports medicine physician."
+    },
+    {
+      "id": "s86",
+      "kind": "slam",
+      "chapter": "Close",
+      "text": "Master the glass",
+      "highlight": "glass",
+      "style": "brand",
+      "icon": "trophy",
+      "sub": "Turn defense into your greatest weapon",
+      "narration": "Padel defense is not about panic, scrambling, or hitting harder."
+    },
+    {
+      "id": "s87",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@ally"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "See You On Court",
+        "highlight": "Court",
+        "at": "@Master",
+        "side": "right"
+      },
+      "narration": "Master the geometry of the glass, command the defensive sweet spot, and let the walls become your greatest ally. See you on the court."
+    }
+  ]
+}

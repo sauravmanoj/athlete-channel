@@ -1,0 +1,1323 @@
+{
+  "title": "How to never get tired in padel",
+  "voice": "am_michael",
+  "thumbnail": {
+    "pose": "hands_knees",
+    "props": {},
+    "background": "court",
+    "headline": "NEVER GET TIRED",
+    "highlight": "TIRED",
+    "icons": [
+      {
+        "icon": "battery",
+        "level": 0.1,
+        "pos": [
+          960,
+          260
+        ],
+        "size": 1.3
+      }
+    ],
+    "opponent": {
+      "pose": "celebrate",
+      "props": {
+        "r": "padel"
+      }
+    },
+    "side": "right"
+  },
+  "youtube": {
+    "title": "How to never get tired in padel",
+    "titleOptions": [
+      "Why you gas out in padel (and how to fix it)",
+      "The 4 engines of padel endurance"
+    ],
+    "description": "Wondering why your legs feel like lead in the third set of padel even if you run 5ks? Here is the sports science behind padel stamina — eccentric deceleration debt, repeated sprint ability, and the 4-second recovery lob.",
+    "tags": [
+      "padel",
+      "padel tennis",
+      "padel stamina",
+      "padel endurance",
+      "padel fitness",
+      "how to never get tired in padel",
+      "padel conditioning",
+      "padel lob",
+      "padel footwork",
+      "coach ember"
+    ]
+  },
+  "scenes": [
+    {
+      "id": "s01",
+      "kind": "mascot",
+      "chapter": "Hook",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@explosive"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Third-Set Energy",
+        "highlight": "Energy",
+        "at": 0,
+        "side": "right"
+      },
+      "gauges": [
+        {
+          "label": "Energy",
+          "icon": "bolt",
+          "from": 40,
+          "to": 95,
+          "at": "@third"
+        }
+      ],
+      "narration": "Imagine walking into the third set of a grueling 90-minute padel match feeling just as explosive as the opening game."
+    },
+    {
+      "id": "s02",
+      "kind": "versus",
+      "left": {
+        "label": "You",
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "legs light & ready"
+      },
+      "right": {
+        "label": "Opponents",
+        "pose": "hands_knees",
+        "sub": "bent over gasping"
+      },
+      "vs": "VS",
+      "narration": "Your legs feel light, your split-step is sharp, and while your opponents are bent over gasping for air, you are ready to attack the net."
+    },
+    {
+      "id": "s03",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@science"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Padel Endurance",
+        "highlight": "Endurance",
+        "at": "@science",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "target",
+          "near": "rHand",
+          "offset": [
+            40,
+            -60
+          ],
+          "at": "@science"
+        }
+      ],
+      "narration": "Today, I will show you why traditional cardio fails in padel, and the exact court science to never get tired on the glass."
+    },
+    {
+      "id": "s04",
+      "kind": "mascot",
+      "chapter": "The 4 engines of padel endurance",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_a",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@5k"
+        }
+      ],
+      "headline": {
+        "text": "Not A 5K Race",
+        "highlight": "Not",
+        "at": 0,
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "cross",
+          "near": "head",
+          "offset": [
+            80,
+            -90
+          ],
+          "at": "@5k"
+        }
+      ],
+      "narration": "Most players train for padel like it is a 5k road race."
+    },
+    {
+      "id": "s05",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_b",
+          "at": 0
+        },
+        {
+          "pose": "tired_front",
+          "at": "@concrete"
+        }
+      ],
+      "headline": {
+        "text": "Concrete Legs",
+        "highlight": "Concrete",
+        "at": "@concrete",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Heavy Quads",
+          "target": "rThigh",
+          "at": "@concrete"
+        }
+      ],
+      "narration": "They go for long, steady jogs, but when match day comes, their legs feel like concrete blocks by the second set."
+    },
+    {
+      "id": "s06",
+      "kind": "slam",
+      "text": "Padel is combat",
+      "highlight": "combat",
+      "style": "dark",
+      "icon": "fire",
+      "sub": "10×20m Glass Cage",
+      "narration": "Padel is not a marathon; it is an intermittent combat sport played inside a 10 by 20 meter glass cage."
+    },
+    {
+      "id": "s07",
+      "kind": "stat",
+      "value": 12,
+      "suffix": "s",
+      "label": "average padel rally duration",
+      "highlight": "12 seconds",
+      "icon": "stopwatch",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "An average rally lasts only 6 to 12 seconds, separated by 15 to 25 seconds of recovery."
+    },
+    {
+      "id": "s08",
+      "kind": "stat",
+      "value": 400,
+      "suffix": "+",
+      "label": "braking stops and direction changes per match",
+      "highlight": "400",
+      "icon": "bolt",
+      "mascot": {
+        "pose": "flinch"
+      },
+      "narration": "In a full match, you cover up to 4,000 meters, but you also execute over 400 violent braking stops and direction changes."
+    },
+    {
+      "id": "s09",
+      "kind": "list",
+      "title": "The 4 stamina engines",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "Metabolic Recharger",
+          "icon": "bolt"
+        },
+        {
+          "text": "Eccentric Brake Pads",
+          "icon": "target"
+        },
+        {
+          "text": "Positional Geometry",
+          "icon": "check"
+        },
+        {
+          "text": "Between-Point Reset",
+          "icon": "heart"
+        }
+      ],
+      "narration": "To never get tired, you need 4 specific engines: the metabolic recharger, eccentric brake pads, tactical court economy, and the between-point reset."
+    },
+    {
+      "id": "s10",
+      "kind": "title",
+      "chapter": "Pillar 1: The metabolic engine",
+      "number": 1,
+      "heading": "The metabolic engine",
+      "sub": "ATP-PCr bursts & aerobic refill",
+      "mascot": {
+        "pose": "padel_ready",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "When you scramble for an explosive ball off the glass, your body relies on a two-part engine."
+    },
+    {
+      "id": "s11",
+      "kind": "stat",
+      "value": 8,
+      "suffix": "s",
+      "label": "pure phosphocreatine battery duration",
+      "highlight": "8 seconds",
+      "icon": "bolt",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "The first 6 to 8 seconds of every sprint, lunge, and smash are powered by pure phosphocreatine stored directly in your muscle cells."
+    },
+    {
+      "id": "s12",
+      "kind": "slam",
+      "text": "Alactic battery",
+      "highlight": "Alactic",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "Zero lactic acid buildup",
+      "narration": "This is your alactic battery: instant explosive power with zero lactic acid buildup."
+    },
+    {
+      "id": "s13",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_a",
+          "at": 0
+        },
+        {
+          "pose": "hands_knees",
+          "at": "@hydrogen"
+        }
+      ],
+      "headline": {
+        "text": "Lactic Burn",
+        "highlight": "Lactic",
+        "at": "@glycolysis",
+        "side": "right"
+      },
+      "gauges": [
+        {
+          "label": "Lactate",
+          "icon": "fire",
+          "from": 20,
+          "to": 85,
+          "at": "@glycolysis"
+        }
+      ],
+      "narration": "When a point drags past 15 seconds, your anaerobic glycolysis kicks in, producing burning hydrogen ions and spiking blood lactate."
+    },
+    {
+      "id": "s14",
+      "kind": "slam",
+      "text": "The aerobic recharger",
+      "highlight": "Aerobic",
+      "style": "dark",
+      "icon": "heart",
+      "sub": "The between-point generator",
+      "narration": "This is where your aerobic system enters the game."
+    },
+    {
+      "id": "s15",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@recharger"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Rapid Recharger",
+        "highlight": "Recharger",
+        "at": "@recharger",
+        "side": "right"
+      },
+      "narration": "Your aerobic ceiling does not power the sprint; it functions as the rapid recharger during the 15 to 20 seconds between points."
+    },
+    {
+      "id": "s16",
+      "kind": "custom",
+      "file": "custom/hybrid_engine.html",
+      "narration": "Think of a hybrid sports car: the electric battery delivers instant torque off the line, while the internal generator recharges the battery the second you lift off the gas."
+    },
+    {
+      "id": "s17",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "think",
+          "at": 0
+        },
+        {
+          "pose": "shrug",
+          "at": "@halfway"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Half-Charged Battery",
+        "highlight": "Half-Charged",
+        "at": "@halfway",
+        "side": "right"
+      },
+      "icons": [
+        {
+          "icon": "battery",
+          "level": 0.5,
+          "pos": [
+            1500,
+            260
+          ],
+          "size": 1.4
+        }
+      ],
+      "narration": "If your aerobic generator is small, your explosive battery only recharges halfway before the next serve."
+    },
+    {
+      "id": "s18",
+      "kind": "list",
+      "title": "Padel Court Shuttles",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Sprint baseline to net tape",
+          "icon": "bolt"
+        },
+        {
+          "text": "Backpedal to service line",
+          "icon": "target"
+        },
+        {
+          "text": "Lateral shuffle to side glass",
+          "icon": "check"
+        }
+      ],
+      "narration": "To train this, ditch steady-state jogging and use Padel Court Shuttles: sprint from the baseline to the net, backpedal, and shuffle to the side glass."
+    },
+    {
+      "id": "s19",
+      "kind": "chart",
+      "title": "Padel interval work-to-rest",
+      "unit": "s",
+      "focus": 1,
+      "mascot": {
+        "pose": "present"
+      },
+      "bars": [
+        {
+          "label": "Sprint Burst",
+          "value": 10,
+          "display": "10s",
+          "color": "#EF4444"
+        },
+        {
+          "label": "Walking Recovery",
+          "value": 25,
+          "display": "25s",
+          "color": "#10B981"
+        }
+      ],
+      "narration": "Perform 8 to 10 seconds of all-out effort, followed by 20 to 25 seconds of walking recovery."
+    },
+    {
+      "id": "s20",
+      "kind": "list",
+      "title": "Shuttle Training Dosage",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "2 blocks of 6–8 reps",
+          "icon": "stopwatch"
+        },
+        {
+          "text": "3 minutes rest between blocks",
+          "icon": "clock"
+        },
+        {
+          "text": "1–2 sessions per week",
+          "icon": "check"
+        }
+      ],
+      "narration": "Complete 2 blocks of 6 to 8 reps, resting 3 minutes between blocks once or twice a week; beginners start with 1 block in week 1."
+    },
+    {
+      "id": "s21",
+      "kind": "title",
+      "chapter": "Pillar 2: The deceleration debt",
+      "number": 2,
+      "heading": "The deceleration debt",
+      "sub": "Eccentric leg braking",
+      "mascot": {
+        "pose": "calf_pain"
+      },
+      "transition": "push",
+      "narration": "Have you ever noticed that your lungs feel fine in the third set, but your thighs and calves refuse to explode?"
+    },
+    {
+      "id": "s22",
+      "kind": "slam",
+      "text": "Deceleration debt",
+      "highlight": "Debt",
+      "style": "dark",
+      "icon": "bolt",
+      "sub": "Legs wear out before lungs",
+      "subAt": "@cardio",
+      "narration": "That heaviness is not a lack of cardio; it is the accumulation of eccentric deceleration debt."
+    },
+    {
+      "id": "s23",
+      "kind": "versus",
+      "left": {
+        "label": "Open Turf",
+        "pose": "run_a",
+        "sub": "linear cruising"
+      },
+      "right": {
+        "label": "Padel Sand Turf",
+        "pose": "block",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "sudden braking stops"
+      },
+      "vs": "VS",
+      "narration": "Unlike tennis or football on open turf, padel requires hundreds of sudden braking stops on sand-dressed artificial turf."
+    },
+    {
+      "id": "s24",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "run_a",
+          "at": 0
+        },
+        {
+          "pose": "block",
+          "at": "@brakes"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Eccentric Braking",
+        "highlight": "Braking",
+        "at": "@brakes",
+        "side": "left"
+      },
+      "callouts": [
+        {
+          "label": "Braking Quads",
+          "target": "rThigh",
+          "offset": [
+            0,
+            -20
+          ],
+          "at": "@quadriceps"
+        }
+      ],
+      "narration": "Every time you sprint forward and slam the brakes, your quadriceps, hamstrings, and calves undergo violent eccentric contractions."
+    },
+    {
+      "id": "s25",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "short_back",
+          "at": 0
+        },
+        {
+          "pose": "crouch",
+          "at": "@lengthen"
+        }
+      ],
+      "headline": {
+        "text": "Lengthen Under Load",
+        "highlight": "Load",
+        "at": "@lengthen",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Eccentric Load",
+          "target": "rKnee",
+          "at": "@immense"
+        }
+      ],
+      "narration": "Your muscles are forced to lengthen under immense load to absorb your forward momentum."
+    },
+    {
+      "id": "s26",
+      "kind": "stat",
+      "value": 400,
+      "suffix": " stops",
+      "label": "high-force decelerations per 90-minute match",
+      "highlight": "400",
+      "icon": "cross",
+      "mascot": {
+        "pose": "hold_back"
+      },
+      "narration": "Over 90 minutes, absorbing 400 braking stops causes microscopic structural damage to muscle fibers, degrading your neuromuscular firing."
+    },
+    {
+      "id": "s27",
+      "kind": "slam",
+      "text": "Brake pads to bare metal",
+      "highlight": "metal",
+      "style": "dark",
+      "icon": "fire",
+      "sub": "Fuel in tank · Brakes shot",
+      "subAt": "@fuel",
+      "narration": "Think of the brake pads on a race car: the gas tank may still have fuel, but once the brake pads wear down to bare metal, the car cannot corner."
+    },
+    {
+      "id": "s28",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "lunge",
+          "at": "@lower"
+        }
+      ],
+      "headline": {
+        "text": "Box Step-Downs",
+        "highlight": "Downs",
+        "at": "@tempo",
+        "side": "left"
+      },
+      "callouts": [
+        {
+          "label": "3–4s Descent",
+          "target": "rKnee",
+          "at": "@lower"
+        }
+      ],
+      "narration": "To build indestructible brake pads, train tempo Eccentric Box Step-Downs: start on a low 15-centimeter step and lower your heel to the floor over 3 to 4 slow seconds."
+    },
+    {
+      "id": "s29",
+      "kind": "list",
+      "title": "Step-Down Protocol",
+      "mascot": {
+        "pose": "present"
+      },
+      "items": [
+        {
+          "text": "3 sets × 8–10 reps per leg",
+          "icon": "target"
+        },
+        {
+          "text": "2 sessions per week",
+          "icon": "clock"
+        },
+        {
+          "text": "Wall sits if knees hurt",
+          "icon": "check"
+        }
+      ],
+      "narration": "Do 3 sets of 8 to 10 reps per leg twice a week; if your knees hurt, substitute isometric wall sits under a physio's guidance first."
+    },
+    {
+      "id": "s30",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "calf_raise",
+          "at": 0
+        },
+        {
+          "pose": "stand",
+          "at": "@lowering"
+        }
+      ],
+      "headline": {
+        "text": "Deficit Calf Raises",
+        "highlight": "Calf",
+        "at": "@deficit",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "3s Lowering",
+          "target": "rCalf",
+          "at": "@lowering"
+        }
+      ],
+      "narration": "Pair this with Loaded Deficit Calf Raises: start with two legs on flat ground, then progress to single-leg deficit raises lowering for 3 seconds below the step."
+    },
+    {
+      "id": "s31",
+      "kind": "list",
+      "title": "Achilles Durability",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "items": [
+        {
+          "text": "Start flat ground two legs",
+          "icon": "check"
+        },
+        {
+          "text": "Progress to single-leg deficit",
+          "icon": "target"
+        },
+        {
+          "text": "3 sets × 12–15 reps",
+          "icon": "stopwatch"
+        }
+      ],
+      "narration": "Do 3 sets of 12 to 15 reps to protect your Achilles tendons from repetitive braking shocks."
+    },
+    {
+      "id": "s32",
+      "kind": "title",
+      "chapter": "Pillar 3: Tactical energy conservation",
+      "number": 3,
+      "heading": "Tactical conservation",
+      "sub": "Positional geometry & the reset lob",
+      "mascot": {
+        "pose": "point_up",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "transition": "push",
+      "narration": "Here is a shocking stat from match tracking: elite padel players sustain lower average heart rates than club amateurs, despite hitting with far more power."
+    },
+    {
+      "id": "s33",
+      "kind": "stat",
+      "value": 30,
+      "suffix": "%",
+      "label": "court movement wasted in no-man's land",
+      "highlight": "30 percent",
+      "icon": "cross",
+      "mascot": {
+        "pose": "shrug"
+      },
+      "narration": "Amateur players waste up to 30 percent of their court movement running frantically in no-man's land near the service line."
+    },
+    {
+      "id": "s34",
+      "kind": "slam",
+      "text": "Positional geometry",
+      "highlight": "geometry",
+      "style": "brand",
+      "icon": "target",
+      "sub": "Run less · Anticipate more",
+      "narration": "Elite stamina is about positional geometry."
+    },
+    {
+      "id": "s35",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@defensive"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "The Sweet Spot",
+        "highlight": "Sweet",
+        "at": "@defensive",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "0.8m Behind Line",
+          "target": "rFoot",
+          "at": "@service"
+        },
+        {
+          "label": "1m Inside Wall",
+          "target": "lFoot",
+          "at": "@glass"
+        }
+      ],
+      "narration": "First, anchor your base in the defensive sweet spot: exactly 0.8 meters behind the service line and 1 meter in from the side glass."
+    },
+    {
+      "id": "s36",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "soft_hit",
+          "at": "@cover"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "One Or Two Steps",
+        "highlight": "Steps",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "From this home base, you can cover the vast majority of opponent attacking balls with just one or two balanced steps."
+    },
+    {
+      "id": "s37",
+      "kind": "slam",
+      "text": "The 3-meter string",
+      "highlight": "String",
+      "style": "brand",
+      "icon": "target",
+      "sub": "Synchronized Partner Unit",
+      "subAt": "@synchronized",
+      "narration": "Second, move with your partner as a synchronized unit, connected by an invisible 3-meter string."
+    },
+    {
+      "id": "s38",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "ready",
+          "at": "@middle"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Cut Wasted Sprints",
+        "highlight": "Sprints",
+        "at": "@channel",
+        "side": "right"
+      },
+      "narration": "When your partner slides wide to dig out a corner ball, you slide into the middle channel, cutting wasted recovery sprints in half."
+    },
+    {
+      "id": "s39",
+      "kind": "slam",
+      "text": "The parachute lob",
+      "highlight": "Parachute",
+      "style": "dark",
+      "icon": "trophy",
+      "sub": "In-Point Biological Timeout",
+      "narration": "Third, when you are under suffocating pressure, use padel's ultimate biological timeout: the high defensive reset lob."
+    },
+    {
+      "id": "s40",
+      "kind": "stat",
+      "value": 4,
+      "suffix": "s",
+      "label": "hang time created by a 5 to 8 meter lob",
+      "highlight": "4.5 seconds",
+      "icon": "stopwatch",
+      "mascot": {
+        "pose": "present"
+      },
+      "narration": "A properly lofted lob reaches 5 to 8 meters high and hangs in the air for 3.5 to 4.5 seconds."
+    },
+    {
+      "id": "s41",
+      "kind": "versus",
+      "left": {
+        "label": "You",
+        "pose": "walk_a",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "calm in-point recovery"
+      },
+      "right": {
+        "label": "Opponents",
+        "pose": "run_b",
+        "props": {
+          "r": "padel"
+        },
+        "sub": "sprinting 7m back"
+      },
+      "vs": "VS",
+      "narration": "Those 4 seconds act like an aerial parachute: they break the opponents' attack, force them to retreat, and give you 4 seconds of live in-point recovery to lower your heart rate."
+    },
+    {
+      "id": "s42",
+      "kind": "list",
+      "title": "4-Second Lob Drill",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "Scoop deep lobs off back glass",
+          "icon": "target"
+        },
+        {
+          "text": "Partner times airtime with watch",
+          "icon": "stopwatch"
+        },
+        {
+          "text": "Target ≥3.5s hang time",
+          "icon": "check"
+        }
+      ],
+      "narration": "Practice the 4-Second Lob drill: scoop deep lobs off the back glass, timing each shot with a stopwatch to ensure at least 3.5 seconds of airtime."
+    },
+    {
+      "id": "s43",
+      "kind": "title",
+      "chapter": "Pillar 4: The 15-second between-point reset",
+      "number": 4,
+      "heading": "The between-point reset",
+      "sub": "Vagus nerve activation in 15 seconds",
+      "mascot": {
+        "pose": "ready"
+      },
+      "transition": "push",
+      "narration": "The official rules of padel give you up to 20 seconds between consecutive points."
+    },
+    {
+      "id": "s44",
+      "kind": "slam",
+      "text": "20-second window",
+      "highlight": "window",
+      "style": "dark",
+      "icon": "clock",
+      "sub": "Redline vs Recovery",
+      "narration": "How you spend those 20 seconds determines whether your heart rate spikes into the red zone or drops into recovery."
+    },
+    {
+      "id": "s45",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "hands_knees",
+          "at": 0
+        },
+        {
+          "pose": "tired_front",
+          "at": "@mouth"
+        }
+      ],
+      "headline": {
+        "text": "The Gasping Rush",
+        "highlight": "Rush",
+        "at": "@head",
+        "side": "right"
+      },
+      "narration": "When amateurs finish a hard rally, they drop their head, gasp through an open mouth, and rush to pick up the next ball."
+    },
+    {
+      "id": "s46",
+      "kind": "stat",
+      "value": 175,
+      "suffix": "+ bpm",
+      "label": "heart rate maintained during mouth panting",
+      "highlight": "175",
+      "icon": "heart",
+      "mascot": {
+        "pose": "flinch"
+      },
+      "narration": "Rapid mouth panting prolongs sympathetic fight-or-flight adrenaline, keeping your heart racing above 175 beats per minute."
+    },
+    {
+      "id": "s47",
+      "kind": "slam",
+      "text": "The F1 pit stop",
+      "highlight": "Pit stop",
+      "style": "brand",
+      "icon": "bolt",
+      "sub": "15-Second Vagal Reset",
+      "narration": "Elite competitors use a structured 15-second pit stop routine to trigger their vagus nerve and slow their pulse."
+    },
+    {
+      "id": "s48",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "stand",
+          "at": "@drop"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Disengage The Rally",
+        "highlight": "Disengage",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "In the first 3 seconds after the point, turn your back to the net, drop your racket head, and physically disengage."
+    },
+    {
+      "id": "s49",
+      "kind": "mascot",
+      "background": "spotlight",
+      "poses": [
+        {
+          "pose": "hands_hips",
+          "at": 0
+        },
+        {
+          "pose": "stand",
+          "at": "@exhale"
+        }
+      ],
+      "headline": {
+        "text": "4 In · 6 Out",
+        "highlight": "Out",
+        "at": "@inhale",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Nasal Inhale (4s)",
+          "target": "head",
+          "at": "@nose"
+        },
+        {
+          "label": "Smooth Exhale (6s)",
+          "target": "chest",
+          "at": "@exhale"
+        }
+      ],
+      "narration": "From second 4 to 12, stand tall with hands on hips to expand your ribs, inhale slowly through your nose for 4 seconds, and exhale smoothly through pursed lips for 6 seconds."
+    },
+    {
+      "id": "s50",
+      "kind": "mascot",
+      "background": "court",
+      "mascot": {
+        "x": 480
+      },
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@rapidly"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Pulse Drops Fast",
+        "highlight": "Drops",
+        "at": "@parasympathetic",
+        "side": "right"
+      },
+      "gauges": [
+        {
+          "label": "Heart Rate",
+          "icon": "heart",
+          "from": 90,
+          "to": 55,
+          "at": "@rapidly"
+        }
+      ],
+      "narration": "Just two cycles of slow breathing activate your parasympathetic brake, rapidly pulling your heart rate down before the next point starts."
+    },
+    {
+      "id": "s51",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "point_up",
+          "at": "@cue"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Tactical Cue",
+        "highlight": "Cue",
+        "at": "@partner",
+        "side": "right"
+      },
+      "narration": "In the final 5 seconds, turn back to the court, give your partner a quick tactical cue, and assume your ready stance."
+    },
+    {
+      "id": "s52",
+      "kind": "slam",
+      "text": "Never rush to serve",
+      "highlight": "Never",
+      "style": "dark",
+      "icon": "cross",
+      "sub": "Use 12–15 seconds every point",
+      "narration": "Never rush to serve when your heart is pounding; use 12 to 15 seconds of your legal window to start every point with a fresh engine."
+    },
+    {
+      "id": "s53",
+      "kind": "title",
+      "chapter": "The weekly padel stamina blueprint",
+      "number": 5,
+      "heading": "Padel stamina blueprint",
+      "sub": "3-day weekly protocol",
+      "mascot": {
+        "pose": "point_up"
+      },
+      "transition": "push",
+      "narration": "To lock this stamina framework into your game, follow this balanced 3-day weekly protocol."
+    },
+    {
+      "id": "s54",
+      "kind": "list",
+      "title": "Tuesday: Court Shuttles",
+      "mascot": {
+        "pose": "present",
+        "props": {
+          "r": "padel"
+        }
+      },
+      "items": [
+        {
+          "text": "25 minutes total session",
+          "icon": "clock"
+        },
+        {
+          "text": "2 blocks of 8 reps",
+          "icon": "target"
+        },
+        {
+          "text": "10s sprint / 20s recovery",
+          "icon": "bolt"
+        }
+      ],
+      "narration": "On Tuesday, complete your 25-minute Court Shuttle session: 2 blocks of 8 reps of 10-second sprints with 20-second recoveries."
+    },
+    {
+      "id": "s55",
+      "kind": "list",
+      "title": "Thursday: Eccentric Strength",
+      "mascot": {
+        "pose": "present"
+      },
+      "items": [
+        {
+          "text": "35 minutes total session",
+          "icon": "clock"
+        },
+        {
+          "text": "Tempo Box Step-Downs",
+          "icon": "target"
+        },
+        {
+          "text": "Loaded Deficit Calf Raises",
+          "icon": "bolt"
+        }
+      ],
+      "narration": "On Thursday, dedicate 35 minutes to Eccentric Strength: Tempo Box Step-Downs and Deficit Calf Raises."
+    },
+    {
+      "id": "s56",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "ready",
+          "at": 0
+        },
+        {
+          "pose": "padel_ready",
+          "at": "@sweet"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Saturday: Match Day",
+        "highlight": "Match",
+        "at": "@match",
+        "side": "right"
+      },
+      "narration": "On Saturday, take the court for match play, anchoring in the defensive sweet spot and practicing the 15-second between-point breathing reset."
+    },
+    {
+      "id": "s57",
+      "kind": "list",
+      "title": "8-Minute Warm-Up",
+      "mascot": {
+        "pose": "present"
+      },
+      "items": [
+        {
+          "text": "Lateral shuffles & lunges",
+          "icon": "target"
+        },
+        {
+          "text": "Submaximal braking stops",
+          "icon": "bolt"
+        },
+        {
+          "text": "Reposition feet, don't twist",
+          "icon": "check"
+        }
+      ],
+      "narration": "Always complete an 8-minute dynamic warm-up with lateral shuffles and submaximal deceleration brakes before playing."
+    },
+    {
+      "id": "s58",
+      "kind": "stat",
+      "value": 1.5,
+      "decimals": 1,
+      "suffix": " L/h",
+      "label": "sweat rate in covered glass courts",
+      "highlight": "1.5 liters",
+      "icon": "water",
+      "mascot": {
+        "pose": "drink",
+        "props": {
+          "r": "bottle"
+        }
+      },
+      "narration": "Remember hydration: covered glass courts create greenhouse humidity where sweat rates reach 1 to 1.5 liters per hour, so drink 500 milliliters with electrolytes every hour of play."
+    },
+    {
+      "id": "s59",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "stand",
+          "at": 0
+        },
+        {
+          "pose": "hold_back",
+          "at": "@heel"
+        }
+      ],
+      "headline": {
+        "text": "Achilles Red Flag",
+        "highlight": "Red Flag",
+        "at": "@heel",
+        "side": "right"
+      },
+      "callouts": [
+        {
+          "label": "Emergency Evaluation",
+          "target": "rAchilles",
+          "at": "@heel"
+        }
+      ],
+      "narration": "If you ever feel a sudden sharp snap or kick in the back of your heel, stop immediately and seek emergency medical evaluation for an Achilles tendon tear."
+    },
+    {
+      "id": "s60",
+      "kind": "slam",
+      "chapter": "Close",
+      "text": "Train the 4 engines",
+      "highlight": "engines",
+      "style": "brand",
+      "icon": "trophy",
+      "sub": "Not endless road miles",
+      "narration": "Never getting tired in padel is not about running endless road miles."
+    },
+    {
+      "id": "s61",
+      "kind": "mascot",
+      "background": "court",
+      "poses": [
+        {
+          "pose": "padel_ready",
+          "at": 0
+        },
+        {
+          "pose": "celebrate",
+          "at": "@reset"
+        }
+      ],
+      "props": {
+        "r": "padel"
+      },
+      "headline": {
+        "text": "Padel Stamina Blueprint",
+        "highlight": "Blueprint",
+        "at": 0,
+        "side": "right"
+      },
+      "narration": "Recharge your explosive battery, bulletproof your eccentric brake pads, command the sweet spot, and master the between-point reset. See you on the court."
+    }
+  ]
+}

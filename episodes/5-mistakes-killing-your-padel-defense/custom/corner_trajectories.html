@@ -1,0 +1,95 @@
+<!-- Custom hero scene: Double Glass Corner Rebounds (Opening vs Closing) -->
+<template>
+<div id="__ID__-root" class="scene" data-composition-id="__ID__" data-start="0" data-duration="__DURATION__" data-width="1920" data-height="1080">
+  <style>
+    #__ID__-root { background:var(--bg); }
+    #__ID__-root .card-box { position:absolute; left:140px; right:140px; height:340px; border:8px solid var(--ink); border-radius:32px; background:#fff; overflow:hidden; box-shadow:0 16px 40px rgba(28,33,64,0.08); }
+    #__ID__-root .card-top { top:150px; }
+    #__ID__-root .card-bot { top:530px; }
+    #__ID__-root .card-header { position:absolute; top:24px; left:40px; display:flex; align-items:center; gap:16px; }
+    #__ID__-root .tag-pill { padding:8px 20px; border-radius:12px; font:800 24px var(--display); text-transform:uppercase; letter-spacing:1px; }
+    #__ID__-root .tag-open { background:#E0F2FE; color:#0284C7; }
+    #__ID__-root .tag-close { background:#FEF3C7; color:#D97706; }
+    #__ID__-root .card-title { font:800 32px var(--display); color:var(--ink); text-transform:uppercase; }
+    
+    #__ID__-root .timeline-track { position:absolute; top:120px; left:40px; right:40px; height:60px; background:#F1F5F9; border-radius:16px; border:4px solid var(--ink); overflow:hidden; display:flex; }
+    #__ID__-root .seg { height:100%; display:flex; align-items:center; justify-content:center; font:800 20px var(--sans); color:#fff; text-transform:uppercase; letter-spacing:0.5px; border-right:3px solid #fff; }
+    #__ID__-root .seg:last-child { border-right:none; }
+    
+    #__ID__-root .stat-bar { position:absolute; bottom:24px; left:40px; right:40px; display:flex; justify-content:space-between; align-items:center; }
+    #__ID__-root .stat-group { display:flex; gap:36px; }
+    #__ID__-root .stat-val { font:900 36px var(--display); }
+    #__ID__-root .stat-lbl { font:700 18px var(--sans); color:#64748B; text-transform:uppercase; margin-top:2px; }
+    #__ID__-root .verdict-tag { font:900 30px var(--display); padding:10px 24px; border-radius:16px; text-transform:uppercase; }
+    #__ID__-root .verdict-action { background:#0284C7; color:#fff; }
+    #__ID__-root .verdict-alert { background:#D97706; color:#fff; }
+  </style>
+  <div class="headline" id="__ID__-title" style="left:0;right:0;top:50px;text-align:center">The two corner wall rebounds</div>
+
+  <!-- Top Card: Opening Double -->
+  <div class="card-box card-top" id="__ID__-card-a">
+    <div class="card-header">
+      <div class="tag-pill tag-open">Side Glass First</div>
+      <div class="card-title">Opening Double (Doble Pared que Abre)</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:25%; background:#0284C7;">1. Side Glass Hit</div>
+      <div class="seg" style="width:25%; background:#0369A1;">2. Back Glass Orbit</div>
+      <div class="seg" style="width:25%; background:#075985;">3. Mini Split-Step</div>
+      <div class="seg" style="width:25%; background:#0C4A6E;">4. 180° Hip Pivot</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:#0284C7">180° Turn</div>
+          <div class="stat-lbl">Body Rotation</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">Exiting Corner</div>
+          <div class="stat-lbl">Contact Point</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-action">OPEN THE DOOR IMMEDIATELY</div>
+    </div>
+  </div>
+
+  <!-- Bottom Card: Closing Double -->
+  <div class="card-box card-bot" id="__ID__-card-b">
+    <div class="card-header">
+      <div class="tag-pill tag-close">Back Glass First</div>
+      <div class="card-title">Closing Double (Doble Pared que Cierra)</div>
+    </div>
+    <div class="timeline-track">
+      <div class="seg" style="width:25%; background:#D97706;">1. Back Glass Hit</div>
+      <div class="seg" style="width:25%; background:#B45309;">2. Angles to Side Wall</div>
+      <div class="seg" style="width:25%; background:#92400E;">3. Chest to Side Wall</div>
+      <div class="seg" style="width:25%; background:#78350F;">4. 2 Steps Forward</div>
+    </div>
+    <div class="stat-bar">
+      <div class="stat-group">
+        <div>
+          <div class="stat-val" style="color:#D97706">0° Spin</div>
+          <div class="stat-lbl">No Turn Needed</div>
+        </div>
+        <div>
+          <div class="stat-val" style="color:#64748B">In Front</div>
+          <div class="stat-lbl">Rebound Intercept</div>
+        </div>
+      </div>
+      <div class="verdict-tag verdict-alert">STEP FORWARD · DO NOT SPIN</div>
+    </div>
+  </div>
+</div>
+<script>
+(function () {
+  var D = __DURATION__;
+  var tl = gsap.timeline({ paused: true });
+  tl.fromTo("#__ID__-title", { opacity: 0, y: -20 }, { opacity: 1, y: 0, duration: 0.4 }, 0.1);
+  tl.fromTo("#__ID__-card-a", { opacity: 0, x: -40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, 0.4);
+  tl.fromTo("#__ID__-card-b", { opacity: 0, x: 40 }, { opacity: 1, x: 0, duration: 0.5, ease: "power2.out" }, Math.max(1.5, D * 0.45));
+  tl.set({}, {}, D);
+  window.__timelines = window.__timelines || {};
+  window.__timelines["__ID__"] = tl;
+})();
+</script>
+</template>
